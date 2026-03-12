@@ -1,0 +1,621 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #181818;
+  --slds-blue: #0176D3;
+  --slds-navy: #032D60;
+  --slds-gray-text: #706E6B;
+  --slds-gray-dark: #444444;
+  --slds-gray-border: #D8D8D8;
+  --slds-gray-light: #F3F3F3;
+  --slds-blue-light: #EEF4FF;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Force light mode - SLDS doesn't have dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #181818;
+  }
+}
+
+/* Scoped reset - only applies inside the frontend app, not Payload admin.
+   IMPORTANT: Must be inside @layer base so Tailwind @layer utilities can override it.
+   Unlayered styles always beat layered styles in CSS Cascade Layers. */
+@layer base {
+  #frontend-app *,
+  #frontend-app *::before,
+  #frontend-app *::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+  }
+
+  #frontend-app {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: 'SalesforceSans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+  }
+
+  #frontend-app img,
+  #frontend-app svg,
+  #frontend-app video,
+  #frontend-app canvas,
+  #frontend-app audio,
+  #frontend-app iframe,
+  #frontend-app embed,
+  #frontend-app object {
+    display: block;
+    vertical-align: middle;
+  }
+
+  #frontend-app img,
+  #frontend-app video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #frontend-app h1,
+  #frontend-app h2,
+  #frontend-app h3,
+  #frontend-app h4,
+  #frontend-app h5,
+  #frontend-app h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  #frontend-app a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  #frontend-app button,
+  #frontend-app input,
+  #frontend-app optgroup,
+  #frontend-app select,
+  #frontend-app textarea {
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  #frontend-app button,
+  #frontend-app [role="button"] {
+    cursor: pointer;
+  }
+
+  #frontend-app ol,
+  #frontend-app ul,
+  #frontend-app menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #frontend-app p,
+  #frontend-app h1,
+  #frontend-app h2,
+  #frontend-app h3,
+  #frontend-app h4,
+  #frontend-app h5,
+  #frontend-app h6 {
+    overflow-wrap: break-word;
+  }
+
+  #frontend-app table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+}
+
+/* Content block styles - inside @layer components so utilities can override */
+@layer components {
+  /* Content link styles - for within article content */
+  .content-blocks a {
+    color: var(--slds-blue);
+    text-decoration: underline;
+  }
+
+  .content-blocks a:hover {
+    color: var(--slds-navy);
+  }
+
+  /* Zeroheight-style content block overrides */
+  .content-blocks img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .content-blocks .zheditor-a {
+    color: var(--slds-blue);
+    text-decoration: underline;
+  }
+
+  /* List styling for content blocks */
+  .content-blocks ul,
+  .content-blocks ol {
+    padding-left: 1.5rem;
+  }
+
+  .content-blocks ul li,
+  .content-blocks ol li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+
+  .content-blocks ul li::marker {
+    color: var(--slds-gray-dark);
+  }
+
+  /* Strong / bold styling */
+  .content-blocks strong {
+    font-weight: 700;
+    color: var(--slds-navy);
+  }
+
+  /* Table styling */
+  .content-blocks table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+  }
+
+  .content-blocks th {
+    background: var(--slds-gray-light);
+    text-align: left;
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--slds-navy);
+    border-bottom: 2px solid var(--slds-gray-border);
+  }
+
+  .content-blocks td {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    color: var(--slds-gray-dark);
+    border-bottom: 1px solid #E5E5E5;
+  }
+
+  .content-blocks tr:hover {
+    background: var(--slds-gray-light);
+  }
+
+  /* Color swatch squares for design token tables */
+  .content-blocks .swatch {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+  }
+
+  /* Shortcut tiles grid - styles for Zeroheight shortcut tile cards */
+
+  /* Strip all wrapper divs between grid and tiles */
+  .shortcut-tiles-grid > div,
+  .shortcut-tiles-grid > div > div,
+  .shortcut-tiles-grid > div > div > div {
+    display: contents;
+  }
+
+  /* The .shortcut-tiles div is the actual grid container */
+  .shortcut-tiles-grid .shortcut-tiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  /* 5+ tiles → use 3 columns on wider screens */
+  .shortcut-tiles-grid .shortcut-tiles:has(> :nth-child(5)) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 768px) {
+    .shortcut-tiles-grid .shortcut-tiles:has(> :nth-child(5)) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .shortcut-tiles-grid .shortcut-tiles {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Each tile container */
+  .shortcut-tiles-grid [class*="StyledShortcutTileContainer"] {
+    display: block;
+  }
+
+  /* Each tile link */
+  .shortcut-tiles-grid [class*="StyledShortcutTile-"] {
+    display: block;
+    text-decoration: none !important;
+    border: 1px solid #E5E5E5;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    transition: box-shadow 0.2s ease;
+    height: 100%;
+  }
+
+  .shortcut-tiles-grid [class*="StyledShortcutTile-"]:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Tile content wrapper */
+  .shortcut-tiles-grid [class*="StyledShortcutTileContent"] {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  /* Tile cover image / gradient header */
+  .shortcut-tiles-grid [class*="StyledCoverImage"],
+  .shortcut-tiles-grid [class*="CoverImage"] {
+    display: block;
+    width: 100%;
+    min-height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+  }
+
+  /* Tile body text */
+  .shortcut-tiles-grid [class*="StyledShortcutBody"] {
+    padding: 12px 16px 16px;
+  }
+
+  /* Tile title */
+  .shortcut-tiles-grid [class*="StyledTitle"] {
+    font-size: 16px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 4px;
+    text-decoration: none;
+  }
+
+  /* Tile description */
+  .shortcut-tiles-grid [class*="StyledDescription"] {
+    font-size: 14px;
+    color: #706E6B;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+
+  /* Hide Zeroheight editor artifacts */
+  .display-none,
+  .notes-placeholder,
+  .fakeContents,
+  .drag-handle,
+  [class*="notes-placeholder"],
+  [class*="fakeContents"],
+  [class*="drag-handle"] {
+    display: none !important;
+  }
+
+  /* ── Content heading styles ── */
+  .content-blocks h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem 0 0.75rem;
+    line-height: 1.2;
+    color: var(--slds-navy);
+  }
+  .content-blocks h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1.75rem 0 0.5rem;
+    line-height: 1.3;
+    color: var(--slds-navy);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .content-blocks h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.5rem;
+    color: var(--slds-navy);
+  }
+  .content-blocks h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 1.25rem 0 0.375rem;
+    color: var(--slds-navy);
+  }
+  .content-blocks h5,
+  .content-blocks h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0 0.25rem;
+    color: var(--slds-navy);
+  }
+  .content-blocks p {
+    margin-bottom: 0.75rem;
+    line-height: 1.65;
+    color: var(--slds-gray-dark);
+  }
+  .content-blocks ul {
+    list-style-type: disc;
+  }
+  .content-blocks ol {
+    list-style-type: decimal;
+  }
+  .content-blocks code {
+    background: #f1f5f9;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+    font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace;
+  }
+  .content-blocks pre {
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    border-radius: 0.5rem;
+  }
+  .content-blocks pre code {
+    background: transparent;
+    padding: 0;
+  }
+  .content-blocks blockquote {
+    border-left: 4px solid var(--slds-blue);
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #475569;
+    font-style: italic;
+  }
+  .content-blocks hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin: 2rem 0;
+  }
+  /* Code highlighting */
+  .content-blocks .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1rem;
+    background: #f3f4f6;
+    border-radius: 0.375rem;
+  }
+
+  /* ── Card Grid Directive ── */
+  .card-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+  .card-grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .card-grid-3 { grid-template-columns: repeat(2, 1fr); }
+  @media (min-width: 1024px) { .card-grid-3 { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 639px) { .card-grid-2, .card-grid-3 { grid-template-columns: 1fr; } }
+
+  .md-card {
+    display: block;
+    border-radius: 0.75rem;
+    border: 1px solid #E5E5E5;
+    overflow: hidden;
+    background: white;
+    text-decoration: none !important;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    color: inherit !important;
+  }
+  .md-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    border-color: var(--slds-blue);
+  }
+  .md-card-media {
+    height: 12rem;
+    position: relative;
+    overflow: hidden;
+    background: var(--slds-gray-light);
+  }
+  .md-card-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .md-card-body {
+    padding: 1.25rem;
+  }
+  .md-card-body h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--slds-navy);
+    margin: 0 0 0.5rem;
+    transition: color 0.15s;
+    border: none;
+    padding: 0;
+  }
+  .md-card:hover .md-card-body h3 { color: var(--slds-blue); }
+  .md-card-desc, .md-card-body p {
+    font-size: 0.8125rem;
+    color: var(--slds-gray-text);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* ── Link Grid Directive ── */
+  .link-grid {
+    display: grid;
+    gap: 1.25rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+  .link-grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .link-grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .link-grid-4 { grid-template-columns: repeat(2, 1fr); }
+  @media (min-width: 1024px) { .link-grid-4 { grid-template-columns: repeat(4, 1fr); } }
+  @media (max-width: 639px) { .link-grid-2, .link-grid-3, .link-grid-4 { grid-template-columns: 1fr; } }
+
+  .md-link-card {
+    display: block;
+    border-radius: 0.75rem;
+    border: 1px solid #E5E5E5;
+    overflow: hidden;
+    background: white;
+    text-decoration: none !important;
+    transition: box-shadow 0.2s;
+    color: inherit !important;
+  }
+  .md-link-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+  .md-link-card-media {
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--slds-gray-light);
+  }
+  .md-link-card-body {
+    padding: 1rem;
+  }
+  .md-link-card-body h3 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #3E3E3C;
+    margin: 0;
+    border: none;
+    padding: 0;
+    transition: color 0.15s;
+  }
+  .md-link-card:hover .md-link-card-body h3 { color: var(--slds-blue); }
+  .md-link-icon {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* ── Video Embed Directive ── */
+  .video-embed { margin-bottom: 2.5rem; }
+  .video-embed h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--slds-navy);
+    margin-bottom: 1rem;
+    border: none;
+    padding: 0;
+  }
+  .video-embed-wrapper {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: black;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .video-embed-wrapper video {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ── Hero Banner Directive ── */
+  .hero-banner {
+    position: relative;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    min-height: 320px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .hero-banner h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+    color: white;
+    border: none;
+    padding: 0;
+  }
+  .hero-version {
+    color: #93c5fd;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+  .hero-updated {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .hero-tagline {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+
+  /* ── Callout Directive ── */
+  .callout {
+    padding: 1rem 1.25rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid;
+  }
+  .callout-info { background: #EEF4FF; border-color: var(--slds-blue); color: var(--slds-navy); }
+  .callout-warning { background: #FFF8E1; border-color: #DD7A01; color: #4F2100; }
+  .callout-error { background: #FEF0F3; border-color: #B60554; color: #370114; }
+  .callout-success { background: #DEF9F3; border-color: #056764; color: #071B12; }
+
+  /* ── Storybook Embed ── */
+  .storybook-embed {
+    border-radius: 0.5rem;
+    border: 1px solid #E5E5E5;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    background: white;
+  }
+
+  /* Hide scrollbar for horizontal tab scrolling on mobile */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Scrollbar styling - keep unlayered since these are pseudo-element styles
+   that don't conflict with Tailwind utilities */
+#frontend-app aside::-webkit-scrollbar {
+  width: 4px;
+}
+
+#frontend-app aside::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#frontend-app aside::-webkit-scrollbar-thumb {
+  background: var(--slds-gray-border);
+  border-radius: 2px;
+}
+
+#frontend-app aside::-webkit-scrollbar-thumb:hover {
+  background: var(--slds-gray-text);
+}

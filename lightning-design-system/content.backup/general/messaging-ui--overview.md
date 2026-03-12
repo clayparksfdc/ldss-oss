@@ -1,0 +1,32 @@
+---
+title: "Messaging UI"
+description: "Messaging, or a conversation experience is any time users and customers converse with each other (generally in real-time). Conversations can be session-based with a distinct start and end, or more asy"
+category: "general"
+slug: "messaging-ui--overview"
+status: "published"
+lastModified: "2026-03-11"
+---
+
+## Introduction
+
+| Messaging, or a conversation experience is any time users and customers converse with each other (generally in real-time). Conversations can be session-based with a distinct start and end, or more asynchronous in nature where participants can respond and engage through text, voice, or video, as they're available, without worrying about the session ending. This guideline will support you and your teams in creating rich, consistent, and powerful messaging experiences across Salesforce, as well as lay out a model for what conversational experiences should be across Clouds. | <h3>Start using our Design Kits</h3> [ * ](https://www.figma.com/@salesforce) <button type="button" aria-label="Open image lightbox"><i color="#ffffff" size="4" style="margin-right: 0px;"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"></svg>*</button> * <i color="var(--colors-ui-element-text-secondary, #605f60)" size="6"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" vector-effect="non-scaling-stroke"></svg>**<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" vector-effect="non-scaling-stroke"></svg>**<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" vector-effect="non-scaling-stroke"></svg>**<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" vector-effect="non-scaling-stroke"></svg>* [Open in Figma](https://www.figma.com/@salesforce) |
+| --- | --- |
+
+
+Messaging, or a conversation experience is any time users and customers converse with each other (generally in real-time). Conversations can be session-based with a distinct start and end, or more asynchronous in nature where participants can respond and engage through text, voice, or video, as they're available, without worrying about the session ending. This guideline will support you and your teams in creating rich, consistent, and powerful messaging experiences across Salesforce, as well as lay out a model for what conversational experiences should be across Clouds.
+
+### Start using our Design Kits
+
+[Open in Figma](https://www.figma.com/@salesforce)
+
+### What's Included
+
+This guideline covers messaging UI (what the conversation and interactive areas look like) and messaging UX (how participants engage in conversing and utilizing its capabilities). More specifically, this focuses on first-party Salesforce messaging experiences that deliver active, text-based conversation between a business and customer. Chat & Omni in Salesforce, Mobile & Web chat for customer experiences, and historical transcripts of text-based conversation.
+
+With any messaging application, there are common features, UIs, and overall patterns that should be taken into account.
+
+### What's Not Included
+
+We will not (yet) cover experiences outside of text-based conversations such as commenting, Chatter feeds, email, voice, or video conversation experiences. Some of the familiar patterns utilized in Slack will also not be covered in detail. For instance, threading, search, channels, pinning, and workflows will not be covered.
+
+Conversation Design, [the practice of designing language-driven interactions](https://medium.com/salesforce-ux/conversation-design-is-the-future-of-ux-8e52f4793cfc) that live within a graphical interface or otherwise, will likewise not be covered here.

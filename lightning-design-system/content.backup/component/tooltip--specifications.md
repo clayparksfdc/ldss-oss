@@ -1,0 +1,118 @@
+---
+title: "Tooltip"
+description: "Use CSS Custom Properties as hooks to customize this SLDS component with your own style. For more information, read the technical documentation."
+category: "component"
+slug: "tooltip--specifications"
+status: "published"
+lastModified: "2026-03-11"
+---
+
+## Styling Hooks Overview
+
+Use CSS Custom Properties as hooks to customize this SLDS component with your own style. For more information, [read the technical documentation](https://www.lightningdesignsystem.com/2e1ef8501/p/319e5f).
+
+## Overview of CSS Classes
+
+| **Category** | **Description** |
+| --- | --- |
+| **Selector** | The CSS class being referred to. |
+| **Summary** | A description of what the class does. |
+| **Support** | Whether the class name is dev-ready (meaning it's fully vetted and tested and safe to use) or prototype (which means it's not fully vetted yet). |
+| **Restrict** | The selector that the class name is allowed to be used on. |
+| **Variant** | The base level pattern for a component. A variant can be extended to create another variant of that component, for example, a stateful button is a derivative of the base button. |
+| **Modifier** | A single class that can be added to an HTML element of a component to modify its output. Typically these will be colors, sizing and positioning. |
+
+
+**Category**
+
+**Description**
+
+**Selector**
+
+The CSS class being referred to.
+
+**Summary**
+
+A description of what the class does.
+
+**Support**
+
+Whether the class name is dev-ready (meaning it's fully vetted and tested and safe to use) or prototype (which means it's not fully vetted yet).
+
+**Restrict**
+
+The selector that the class name is allowed to be used on.
+
+**Variant**
+
+The base level pattern for a component. A variant can be extended to create another variant of that component, for example, a stateful button is a derivative of the base button.
+
+**Modifier**
+
+A single class that can be added to an HTML element of a component to modify its output. Typically these will be colors, sizing and positioning.
+
+### Available Classes
+
+|   |   |
+| --- | --- |
+| Selector | .slds-slide-from-left-to-right |
+| Summary | Slides tooltip from left to right |
+| Restrict | .slds-popover_tooltip |
+| Modifier | true |
+|   |   |
+
+
+|   |   |
+| --- | --- |
+| Selector | .slds-slide-from-right-to-left |
+| Summary | Slides tooltip from right to left |
+| Restrict | .slds-popover_tooltip |
+| Modifier | true |
+|   |   |
+
+
+|   |   |
+| --- | --- |
+| Selector | .slds-slide-from-top-to-bottom |
+| Summary | Slides tooltip from top to bottom |
+| Restrict | .slds-popover_tooltip |
+| Modifier | true |
+|   |   |
+
+
+|   |   |
+| --- | --- |
+| Selector | .slds-slide-from-bottom-to-top |
+| Summary | Slides tooltip from bottom to top |
+| Restrict | .slds-popover_tooltip |
+| Modifier | true |
+|   |   |
+
+
+|   |   |
+| --- | --- |
+| Selector | .slds-fall-into-ground |
+| Summary | Toggles off tooltip |
+| Restrict | .slds-popover_tooltip |
+| Modifier | true |
+|   |   |
+
+
+|   |   |
+| --- | --- |
+| Selector | .slds-rise-from-ground |
+| Summary | Toggles on tooltip |
+| Restrict | .slds-popover_tooltip |
+| Modifier | true |
+|   |   |
+
+
+|   |   |
+| --- | --- |
+| Selector | .slds-popover_tooltip |
+| Summary | Initializes a tooltip |
+| Support | dev-ready |
+| Restrict | [role="tooltip"] |
+| Variant | true |
+|   |   |
+

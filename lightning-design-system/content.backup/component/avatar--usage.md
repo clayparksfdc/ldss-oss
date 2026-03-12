@@ -1,0 +1,170 @@
+---
+title: "Avatar"
+description: "Avatars represent people, companies, or entities using an icon, image, or initials within a container."
+category: "component"
+slug: "avatar--usage"
+status: "published"
+lastModified: "2026-03-11"
+---
+
+## Overview
+
+- Avatars represent people, companies, or entities using an icon, image, or initials within a container.
+- Avatars are common across Salesforce applications, used in user profiles, contact lists, messaging interfaces, and other places where an image or icon is needed. They give users a visual cue to easily identify individuals or groups.
+
+
+Avatars represent people, companies, or entities using an icon, image, or initials within a container.
+
+Avatars are common across Salesforce applications, used in user profiles, contact lists, messaging interfaces, and other places where an image or icon is needed. They give users a visual cue to easily identify individuals or groups.
+
+## Usage
+
+### Best Practices
+
+- Select the right avatar size to help maintain visual hierarchy and usability in your interface. Use a size that's appropriate to the context, so the avatars don't overwhelm your layout or appear too small.
+- Identify how best to represent an individual, company, or entity as an avatar.
+
+
+Select the right avatar size to help maintain visual hierarchy and usability in your interface. Use a size that's appropriate to the context, so the avatars don't overwhelm your layout or appear too small.
+
+Identify how best to represent an individual, company, or entity as an avatar.
+
+### When Not to Use
+
+- Don't use avatars if they don’t add meaningful information, such as in lists with limited space or where textual identification alone is sufficient.
+- Too many avatars in data-heavy components such as data tables or reports can distract from important information and make it harder to read.
+- Don't use avatars to represent non-personal, non-entity content, as this can confuse users.
+
+
+Don't use avatars if they don’t add meaningful information, such as in lists with limited space or where textual identification alone is sufficient.
+
+Too many avatars in data-heavy components such as data tables or reports can distract from important information and make it harder to read.
+
+Don't use avatars to represent non-personal, non-entity content, as this can confuse users.
+
+## Types
+
+Avatar types vary by use case and application. Typically, they fall into one of two categories: representing a person or entity. Within these categories, fallback variants are available as icons or initials.
+
+| <h3>Profile</h3> A profile avatar is often used as a default avatar until a user replaces it. | *Profile avatar* |
+| --- | --- |
+|   |   |
+| <h3>Group Avatar</h3> A group avatar is ideal for team or group settings, like collaborative spaces, where multiple people are represented together. | *Group avatar* |
+|   |   |
+| <h3>User Image</h3> The user image avatar is an illustration of an individual that replaces the default profile image provided by Salesforce. | *Basic avatar* |
+|   |   |
+| <h3>Fallback User Icon</h3> When a user image path is invalid, the fallback user icon becomes the default. | *Fallback user icon* |
+|   |   |
+| <h3>Fallback Entity Icon</h3> When an image path for an entity is invalid, the fallback entity icon becomes the default. | *Custom icon avatar for entity* |
+|   |   |
+| <h3>Fallback User Initials</h3> If an image is unavailable, up to two letters can be used instead. For individuals, when the record name contains two words such as first and last name, use the first capitalized letter of each. | *Fallback user initials* |
+|   |   |
+| <h3>Fallback Entity Initials</h3> If an image is unavailable, up to two letters can be used instead. For entities, when the record name is a single word, use the first two letters of that word using one capital and one lowercase letter. | *Fallback entity initials* |
+|   |   |
+| <h3>Custom Icon</h3> The user image avatar is an image of an individual that replaces the default profile image provided by Salesforce. | *Custom icon avatar * |
+
+
+### Profile
+
+A profile avatar is often used as a default avatar until a user replaces it.
+
+*Profile avatar*
+
+### Group Avatar
+
+A group avatar is ideal for team or group settings, like collaborative spaces, where multiple people are represented together.
+
+*Group avatar*
+
+### User Image
+
+The user image avatar is an illustration of an individual that replaces the default profile image provided by Salesforce.
+
+*Basic avatar*
+
+### Fallback User Icon
+
+When a user image path is invalid, the fallback user icon becomes the default.
+
+*Fallback user icon*
+
+### Fallback Entity Icon
+
+When an image path for an entity is invalid, the fallback entity icon becomes the default.
+
+*Custom icon avatar for entity*
+
+### Fallback User Initials
+
+If an image is unavailable, up to two letters can be used instead. For individuals, when the record name contains two words such as first and last name, use the first capitalized letter of each.
+
+*Fallback user initials*
+
+### Fallback Entity Initials
+
+If an image is unavailable, up to two letters can be used instead. For entities, when the record name is a single word, use the first two letters of that word using one capital and one lowercase letter.
+
+*Fallback entity initials*
+
+### Custom Icon
+
+The user image avatar is an image of an individual that replaces the default profile image provided by Salesforce.
+
+*Custom icon avatar *
+
+## Appearance
+
+An avatar’s anatomy consists of a container containing an icon, a set of initials, or an image.
+
+### Anatomy
+
+| <img alt="" src="/uploads/Bi5Gh1oUfx83F66yhAYtuQ.png"> <input type="file" accept=".jpg, .jpeg, .png, .svg, .gif, .webp" aria-label="File"> | **Container** |
+| --- | --- |
+| <img alt="" src="/uploads/6TrujATk_F15RTvUcpAsDQ.png"> <input type="file" accept=".jpg, .jpeg, .png, .svg, .gif, .webp" aria-label="File"> | **Icon** |
+| <img alt="" src="/uploads/Ox8SUMfxl0TuYFQFIwS7qQ.png"> <input type="file" accept=".jpg, .jpeg, .png, .svg, .gif, .webp" aria-label="File"> | **Initials** |
+| <img alt="" src="/uploads/43C0hbDSst2MbiPklUvifw.png"> <input type="file" accept=".jpg, .jpeg, .png, .svg, .gif, .webp" aria-label="File"> | **Image** |
+
+
+**Container**
+
+**Icon**
+
+**Initials**
+
+**Image**
+
+### Customization Options
+
+Although SLDS provides several categories of icons, avatars can only use object icons from the [standard](https://www.lightningdesignsystem.com/icons/#standard) and [custom](https://www.lightningdesignsystem.com/icons/#custom) categories. Background colors on the Icon variant can be customized using Salesforce’s color palettes.
+
+### Size
+
+Avatars are available in four sizes.
+
+| **Extra Small **20x20 pixels | **Small** 24x24 pixels | **Medium** 32x32 pixels | **Large** 48x48 pixels |
+| --- | --- | --- | --- |
+
+
+**Extra Small **20x20 pixels
+
+**Small** 24x24 pixels
+
+**Medium** 32x32 pixels
+
+**Large** 48x48 pixels
+
+## Behaviors
+
+### Interactions
+
+Interactive avatars are wrapped in a button container so they highlight when you hover over them. By default, clicking an avatar opens a popover with more details about the individual or entity. Sometimes, a text link is added to the avatar to help users identify related records, such as an owner, account, or other key elements in Salesforce.
+
+Avatars can also be used as an image link, allowing users to navigate to other product areas.
+
+### Position
+
+Avatars representing a logged-in user are found in the upper right corner of the global header in Salesforce. Other common areas are contact cards, simple data tables, and messaging-type components where users can communicate.
+
+** **Ensure sufficient space around the avatar to avoid crowding and help it stand out, typically with a margin of 4-8 pixels. For extra-small linked avatars (20px by 20px), ensure the clickable area is at least 24px to improve accessibility and usability.
+
+## Related Components

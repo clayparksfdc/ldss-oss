@@ -1,0 +1,117 @@
+name: Validate Content
+
+on:
+  pull_request:
+    paths:
+      - 'content/**/*.md'
+      - 'public/assets/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v42
+        with:
+          files: |
+            content/**/*.md
+
+      - name: Validate frontmatter
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          npm install -g gray-matter
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "Validating $file"
+            node -e "
+              const fs = require('fs');
+              const matter = require('gray-matter');
+              const content = fs.readFileSync('$file', 'utf-8');
+              const { data } = matter(content);
+
+              // Required fields
+              const required = ['title', 'category'];
+              const missing = required.filter(f => !data[f]);
+
+              if (missing.length > 0) {
+                console.error('❌ Missing required frontmatter fields:', missing.join(', '));
+                process.exit(1);
+              }
+
+              console.log('✅ Frontmatter valid');
+            "
+          done
+
+      - name: Check image references
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "Checking images in $file"
+
+            # Extract image paths
+            grep -oP '!\[.*?\]\(\K[^)]+' "$file" | while read -r img_path; do
+              # Skip external URLs
+              if [[ "$img_path" =~ ^https?:// ]]; then
+                continue
+              fi
+
+              # Check if file exists
+              if [[ ! -f "$img_path" ]] && [[ ! -f "public$img_path" ]]; then
+                echo "❌ Missing image: $img_path"
+                exit 1
+              fi
+            done
+
+            echo "✅ All images exist"
+          done
+
+      - name: Check for custom directive syntax
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "Checking custom directives in $file"
+
+            # Check for unclosed directives
+            if grep -E ':::( callout| component-demo| code-example)' "$file" | grep -v ':::$' > /dev/null; then
+              # Count opening and closing
+              opening=$(grep -c '^:::' "$file" || true)
+              closing=$(grep -c '^:::$' "$file" || true)
+
+              if [ "$opening" -ne "$closing" ]; then
+                echo "❌ Unclosed custom directive (opening: $opening, closing: $closing)"
+                exit 1
+              fi
+            fi
+
+            echo "✅ Custom directives valid"
+          done
+
+      - name: Comment on PR
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const outcome = '${{ job.status }}';
+            const emoji = outcome === 'success' ? '✅' : '❌';
+            const message = outcome === 'success'
+              ? 'All content validation checks passed!'
+              : 'Some content validation checks failed. Please review the logs.';
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `${emoji} **Content Validation:** ${message}`
+            })

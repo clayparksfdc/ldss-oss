@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:14-alpine
+    container_name: ldss-cms-db
+    environment:
+      POSTGRES_DB: ldss_cms
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # CMS Backend
+  cms-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ldss-cms-backend
+    environment:
+      NODE_ENV: production
+      PORT: 4000
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/ldss_cms
+      SESSION_SECRET: ${SESSION_SECRET}
+      FRONTEND_URL: ${FRONTEND_URL}
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
+      GITHUB_OWNER: ${GITHUB_OWNER}
+      GITHUB_REPO: ${GITHUB_REPO}
+      SALESFORCE_CLIENT_ID: ${SALESFORCE_CLIENT_ID}
+      SALESFORCE_CLIENT_SECRET: ${SALESFORCE_CLIENT_SECRET}
+      SALESFORCE_CALLBACK_URL: ${SALESFORCE_CALLBACK_URL}
+      SALESFORCE_AUTH_URL: ${SALESFORCE_AUTH_URL}
+      SALESFORCE_TOKEN_URL: ${SALESFORCE_TOKEN_URL}
+      LOCK_DURATION_MINUTES: ${LOCK_DURATION_MINUTES:-30}
+    ports:
+      - "4000:4000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

@@ -1,0 +1,3258 @@
+[
+  {
+    "id": 1,
+    "name": "Component",
+    "slug": "component",
+    "hidden": false,
+    "children": [
+      {
+        "id": 4,
+        "name": "Accordion",
+        "slug": "accordion",
+        "url": "/component/accordion",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "accordion--accessibility",
+            "url": "/component/accordion--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "accordion--develop",
+            "url": "/develop/accordion--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "accordion--specifications",
+            "url": "/component/accordion--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "accordion--usage",
+            "url": "/component/accordion--usage"
+          }
+        ],
+        "description": "Accordions help users focus by enabling them to show and hide content."
+      },
+      {
+        "id": 7,
+        "name": "Avatar",
+        "slug": "avatar",
+        "url": "/component/avatar",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "avatar--develop",
+            "url": "/develop/avatar--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "avatar--specifications",
+            "url": "/component/avatar--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "avatar--usage",
+            "url": "/component/avatar--usage"
+          }
+        ],
+        "description": "Avatars represent people, companies, or entities using an icon, image, or initials within a container."
+      },
+      {
+        "id": 10,
+        "name": "Badge",
+        "slug": "badge",
+        "url": "/component/badge",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "badge--accessibility",
+            "url": "/component/badge--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "badge--develop",
+            "url": "/develop/badge--develop"
+          },
+          {
+            "name": "Usage",
+            "slug": "badge--usage",
+            "url": "/component/badge--usage"
+          }
+        ],
+        "description": "Displays contextual information, like user roles, statuses, or categories."
+      },
+      {
+        "id": 14,
+        "name": "Breadcrumbs",
+        "slug": "breadcrumbs",
+        "url": "/component/breadcrumbs",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "breadcrumbs--accessibility",
+            "url": "/component/breadcrumbs--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "breadcrumbs--specifications",
+            "url": "/component/breadcrumbs--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "breadcrumbs--usage",
+            "url": "/component/breadcrumbs--usage"
+          }
+        ],
+        "description": "Breadcrumbs help users navigate complex websites. They show the path from the top to the current page, and let you easily backtrack to previous pages."
+      },
+      {
+        "id": 411,
+        "name": "Button",
+        "slug": "button",
+        "url": "/component/button",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "button--accessibility",
+            "url": "/component/button--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "button--develop",
+            "url": "/develop/button--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "button--specifications",
+            "url": "/component/button--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "button--usage",
+            "url": "/component/button--usage"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Button Groups",
+        "slug": "button-groups",
+        "url": "/component/button-groups",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "button-groups--accessibility",
+            "url": "/component/button-groups--accessibility"
+          },
+          {
+            "name": "Usage",
+            "slug": "button-groups--usage",
+            "url": "/component/button-groups--usage"
+          }
+        ],
+        "description": "Used to group related actions or options together. Button groups allow users to make selections or trigger actions without navigating away."
+      },
+      {
+        "id": 24,
+        "name": "Button Icons",
+        "slug": "button-icons",
+        "url": "/component/button-icons",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "button-icons--accessibility",
+            "url": "/component/button-icons--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "button-icons--specifications",
+            "url": "/component/button-icons--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "button-icons--usage",
+            "url": "/component/button-icons--usage"
+          }
+        ],
+        "description": "Button icons are simple and compact, saving space in the Salesforce user interface. They're often used for actions that are easy to understand from the icon alone, like closing a window or editing an "
+      },
+      {
+        "id": 27,
+        "name": "Cards",
+        "slug": "cards",
+        "url": "/component/cards",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "cards--develop",
+            "url": "/develop/cards--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "cards--specifications",
+            "url": "/component/cards--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "cards--usage",
+            "url": "/component/cards--usage"
+          }
+        ],
+        "description": "A card is used to group similar types of information, such as recent records, upcoming tasks, or alerts."
+      },
+      {
+        "id": 412,
+        "name": "Carousel",
+        "slug": "carousel",
+        "url": "/component/carousel",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "carousel--accessibility",
+            "url": "/component/carousel--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "carousel--develop",
+            "url": "/develop/carousel--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "carousel--specifications",
+            "url": "/component/carousel--specifications"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Checkbox",
+        "slug": "checkbox",
+        "url": "/component/checkbox",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "checkbox--accessibility",
+            "url": "/component/checkbox--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "checkbox--specifications",
+            "url": "/component/checkbox--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "checkbox--usage",
+            "url": "/component/checkbox--usage"
+          }
+        ],
+        "description": "Enables you to select and deselect individual items within a group of options or turn settings on and off."
+      },
+      {
+        "id": 35,
+        "name": "Checkbox Button",
+        "slug": "checkbox-button",
+        "url": "/component/checkbox-button",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "checkbox-button--accessibility",
+            "url": "/component/checkbox-button--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "checkbox-button--specifications",
+            "url": "/component/checkbox-button--specifications"
+          }
+        ],
+        "description": "Used for single selections as it switches between checked and unchecked states"
+      },
+      {
+        "id": 39,
+        "name": "Checkbox Toggle",
+        "slug": "checkbox-toggle",
+        "url": "/component/checkbox-toggle",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "checkbox-toggle--accessibility",
+            "url": "/component/checkbox-toggle--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "checkbox-toggle--specifications",
+            "url": "/component/checkbox-toggle--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "checkbox-toggle--usage",
+            "url": "/component/checkbox-toggle--usage"
+          }
+        ],
+        "description": "Checkbox toggle enables you to switch settings between two binary states, such as enabling or disabling features."
+      },
+      {
+        "id": 43,
+        "name": "Combobox",
+        "slug": "combobox",
+        "url": "/component/combobox",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "combobox--develop",
+            "url": "/develop/combobox--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "combobox--specifications",
+            "url": "/component/combobox--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "combobox--usage",
+            "url": "/component/combobox--usage"
+          }
+        ],
+        "description": "Commonly used for selecting from a large list of options."
+      },
+      {
+        "id": 44,
+        "name": "Components",
+        "slug": "components",
+        "url": "/component/components",
+        "category": "component",
+        "hidden": false,
+        "tabs": [],
+        "description": "SLDS 2 includes a curated collection of reusable components that guide and inform users’ interactions within our products and apps. These components are designed to make it easy to create a consistent"
+      },
+      {
+        "id": 47,
+        "name": "Data Table",
+        "slug": "data-table",
+        "url": "/component/data-table",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "data-table--develop",
+            "url": "/develop/data-table--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "data-table--specifications",
+            "url": "/component/data-table--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "data-table--usage",
+            "url": "/component/data-table--usage"
+          }
+        ],
+        "description": "Data Tables are ideal for organizing data into a structured format, enabling users to view, manage, and interact with data quickly."
+      },
+      {
+        "id": 50,
+        "name": "Datepicker",
+        "slug": "datepicker",
+        "url": "/component/datepicker",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "datepicker--accessibility",
+            "url": "/component/datepicker--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "datepicker--develop",
+            "url": "/develop/datepicker--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "datepicker--specifications",
+            "url": "/component/datepicker--specifications"
+          }
+        ],
+        "description": "The datepicker is designed to help users select dates quickly and accurately from a calendar view."
+      },
+      {
+        "id": 420,
+        "name": "Datetime Picker",
+        "slug": "datetime-picker",
+        "url": "/component/datetime-picker",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "datetime-picker--develop",
+            "url": "/develop/datetime-picker--develop"
+          }
+        ]
+      },
+      {
+        "id": 413,
+        "name": "Description List",
+        "slug": "description-list",
+        "url": "/component/description-list",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "description-list--css-classes",
+            "url": "/component/description-list--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "description-list--examples",
+            "url": "/component/description-list--examples"
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Dual Listbox",
+        "slug": "dual-listbox",
+        "url": "/component/dual-listbox",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "dual-listbox--accessibility",
+            "url": "/component/dual-listbox--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "dual-listbox--develop",
+            "url": "/develop/dual-listbox--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "dual-listbox--specifications",
+            "url": "/component/dual-listbox--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "dual-listbox--usage",
+            "url": "/component/dual-listbox--usage"
+          }
+        ],
+        "description": "Select multiple items from one list and move them to another, building a list of selected items in the right-hand list."
+      },
+      {
+        "id": 60,
+        "name": "Dynamic Icons",
+        "slug": "dynamic-icons",
+        "url": "/component/dynamic-icons",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "dynamic-icons--accessibility",
+            "url": "/component/dynamic-icons--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "dynamic-icons--develop",
+            "url": "/develop/dynamic-icons--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "dynamic-icons--specifications",
+            "url": "/component/dynamic-icons--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "dynamic-icons--usage",
+            "url": "/component/dynamic-icons--usage"
+          }
+        ],
+        "description": "Dynamic icons provide animated visual cues that indicate specific actions, states, or insights. This immediate visual feedback helps users understand the function and status of elements in the interfa"
+      },
+      {
+        "id": 64,
+        "name": "File Selector",
+        "slug": "file-selector",
+        "url": "/component/file-selector",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "file-selector--accessibility",
+            "url": "/component/file-selector--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "file-selector--specifications",
+            "url": "/component/file-selector--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "file-selector--usage",
+            "url": "/component/file-selector--usage"
+          }
+        ],
+        "description": "Used to upload files for tasks such as attaching documents to records or sharing media."
+      },
+      {
+        "id": 414,
+        "name": "Form Element",
+        "slug": "form-element",
+        "url": "/component/form-element",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "form-element--accessibility",
+            "url": "/component/form-element--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "form-element--develop",
+            "url": "/develop/form-element--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "form-element--specifications",
+            "url": "/component/form-element--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "form-element--usage",
+            "url": "/component/form-element--usage"
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "name": "Horizontal List",
+        "slug": "horizontal-list",
+        "url": "/component/horizontal-list",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "horizontal-list--css-classes",
+            "url": "/component/horizontal-list--css-classes"
+          }
+        ],
+        "description": "Horizontal list utility classes provide an easy way to create and manage horizontally aligned lists. These classes handle spacing, alignment, and responsive behavior for list items, ensuring a clean, "
+      },
+      {
+        "id": 70,
+        "name": "Icons",
+        "slug": "icon-library",
+        "url": "/component/icon-library",
+        "category": "component",
+        "hidden": false,
+        "tabs": [],
+        "description": "Icons are symbols used to represent features, functionality, or content."
+      },
+      {
+        "id": 77,
+        "name": "Icons",
+        "slug": "icons",
+        "url": "/component/icons",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "icons--accessibility",
+            "url": "/component/icons--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "icons--develop",
+            "url": "/develop/icons--develop"
+          },
+          {
+            "name": "Doctype",
+            "slug": "icons--doctype",
+            "url": "/component/icons--doctype"
+          },
+          {
+            "name": "Icon Library",
+            "slug": "icons--icon-library",
+            "url": "/component/icons--icon-library"
+          },
+          {
+            "name": "Object",
+            "slug": "icons--object",
+            "url": "/component/icons--object"
+          },
+          {
+            "name": "Usage",
+            "slug": "icons--usage",
+            "url": "/component/icons--usage"
+          },
+          {
+            "name": "Utility",
+            "slug": "icons--utility",
+            "url": "/component/icons--utility"
+          }
+        ],
+        "description": "Icons are symbols used to represent features, functionality, or content. Visit the icon page to see a library of all icons and the icon component for implementation details."
+      },
+      {
+        "id": 81,
+        "name": "Input",
+        "slug": "input",
+        "url": "/component/input",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "input--accessibility",
+            "url": "/component/input--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "input--specifications",
+            "url": "/component/input--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "input--usage",
+            "url": "/component/input--usage"
+          }
+        ],
+        "description": "Used for collecting user data such as names, emails, and numerical entries."
+      },
+      {
+        "id": 85,
+        "name": "Menu",
+        "slug": "menu",
+        "url": "/component/menu",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "menu--accessibility",
+            "url": "/component/menu--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "menu--develop",
+            "url": "/develop/menu--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "menu--specifications",
+            "url": "/component/menu--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "menu--usage",
+            "url": "/component/menu--usage"
+          }
+        ],
+        "description": "Use a menu to offer a list of actions a user can take on a page or a specific record."
+      },
+      {
+        "id": 415,
+        "name": "Modals",
+        "slug": "modals",
+        "url": "/component/modals",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "modals--accessibility",
+            "url": "/component/modals--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "modals--develop",
+            "url": "/develop/modals--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "modals--specifications",
+            "url": "/component/modals--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "modals--usage",
+            "url": "/component/modals--usage"
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "name": "Name Value List",
+        "slug": "name-value-list",
+        "url": "/component/name-value-list",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "name-value-list--css-classes",
+            "url": "/component/name-value-list--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "name-value-list--examples",
+            "url": "/component/name-value-list--examples"
+          }
+        ],
+        "description": "Name-value list utility classes help create structured, easy-to-read lists where each item consists of a label (name) and corresponding data (value). These utility classes ensure consistent alignment,"
+      },
+      {
+        "id": 95,
+        "name": "Pills",
+        "slug": "pills",
+        "url": "/component/pills",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "pills--accessibility",
+            "url": "/component/pills--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "pills--develop",
+            "url": "/develop/pills--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "pills--specifications",
+            "url": "/component/pills--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "pills--usage",
+            "url": "/component/pills--usage"
+          }
+        ],
+        "description": "Pills display compact labels for items, such as objects or selections, which a user can quickly add, view, or remove."
+      },
+      {
+        "id": 96,
+        "name": "Popover",
+        "slug": "popover",
+        "url": "/component/popover",
+        "category": "component",
+        "hidden": false,
+        "tabs": [],
+        "description": "Popovers are non-modal dialogs that give the user contextual information and actions on canvas elements, and message users about errors and warnings."
+      },
+      {
+        "id": 100,
+        "name": "Progress Bar",
+        "slug": "progress-bar",
+        "url": "/component/progress-bar",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "progress-bar--accessibility",
+            "url": "/component/progress-bar--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "progress-bar--specifications",
+            "url": "/component/progress-bar--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "progress-bar--usage",
+            "url": "/component/progress-bar--usage"
+          }
+        ],
+        "description": "The Progress Bar is a visual indicator that shows the ongoing progress of a task, indicating that a user’s request is being processed."
+      },
+      {
+        "id": 103,
+        "name": "Progress Indicator",
+        "slug": "progress-indicator",
+        "url": "/component/progress-indicator",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "progress-indicator--develop",
+            "url": "/develop/progress-indicator--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "progress-indicator--specifications",
+            "url": "/component/progress-indicator--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "progress-indicator--usage",
+            "url": "/component/progress-indicator--usage"
+          }
+        ],
+        "description": "Guides users through multi-step processes by providing a clear representation of progress."
+      },
+      {
+        "id": 106,
+        "name": "Progress Ring",
+        "slug": "progress-ring",
+        "url": "/component/progress-ring",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "progress-ring--develop",
+            "url": "/develop/progress-ring--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "progress-ring--specifications",
+            "url": "/component/progress-ring--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "progress-ring--usage",
+            "url": "/component/progress-ring--usage"
+          }
+        ],
+        "description": "The progress ring visually displays progress in a circular form, showing the percentage of completion."
+      },
+      {
+        "id": 422,
+        "name": "Prompt",
+        "slug": "prompt",
+        "url": "/component/prompt",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "prompt--develop",
+            "url": "/develop/prompt--develop"
+          }
+        ]
+      },
+      {
+        "id": 416,
+        "name": "Radio Button Group",
+        "slug": "radio-button-group",
+        "url": "/component/radio-button-group",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "radio-button-group--accessibility",
+            "url": "/component/radio-button-group--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "radio-button-group--develop",
+            "url": "/develop/radio-button-group--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "radio-button-group--specifications",
+            "url": "/component/radio-button-group--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "radio-button-group--usage",
+            "url": "/component/radio-button-group--usage"
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "name": "Radio Group",
+        "slug": "radio-group",
+        "url": "/component/radio-group",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "radio-group--accessibility",
+            "url": "/component/radio-group--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "radio-group--develop",
+            "url": "/develop/radio-group--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "radio-group--specifications",
+            "url": "/component/radio-group--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "radio-group--usage",
+            "url": "/component/radio-group--usage"
+          }
+        ],
+        "description": "The radio group presents a set of options and allows only one option to be selected at a time."
+      },
+      {
+        "id": 417,
+        "name": "Scoped Tabs",
+        "slug": "scoped-tabs",
+        "url": "/component/scoped-tabs",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "scoped-tabs--accessibility",
+            "url": "/component/scoped-tabs--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "scoped-tabs--develop",
+            "url": "/develop/scoped-tabs--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "scoped-tabs--specifications",
+            "url": "/component/scoped-tabs--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "scoped-tabs--usage",
+            "url": "/component/scoped-tabs--usage"
+          }
+        ]
+      },
+      {
+        "id": 119,
+        "name": "Select",
+        "slug": "select",
+        "url": "/component/select",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "select--develop",
+            "url": "/develop/select--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "select--specifications",
+            "url": "/component/select--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "select--usage",
+            "url": "/component/select--usage"
+          }
+        ],
+        "description": "A select component provides a structured way for users to select from a menu. It enhances user experience by reducing input errors and improving efficiency when predefined options are appropriate."
+      },
+      {
+        "id": 123,
+        "name": "Spinners",
+        "slug": "spinners",
+        "url": "/component/spinners",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "spinners--accessibility",
+            "url": "/component/spinners--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "spinners--specifications",
+            "url": "/component/spinners--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "spinners--usage",
+            "url": "/component/spinners--usage"
+          }
+        ],
+        "description": "Spinners provide feedback when a system action is in progress. They should be used sparingly and in situations where users need confirmation that an action is taking place."
+      },
+      {
+        "id": 127,
+        "name": "Tabs",
+        "slug": "tabs",
+        "url": "/component/tabs",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "tabs--accessibility",
+            "url": "/component/tabs--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "tabs--develop",
+            "url": "/develop/tabs--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "tabs--specifications",
+            "url": "/component/tabs--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "tabs--usage",
+            "url": "/component/tabs--usage"
+          }
+        ],
+        "description": "Tabs organize related content into sections within a single page. This makes it easy for users to find what they need, without having to go to a different page. Users simply switch between the tabs."
+      },
+      {
+        "id": 131,
+        "name": "Textarea",
+        "slug": "textarea",
+        "url": "/component/textarea",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "textarea--accessibility",
+            "url": "/component/textarea--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "textarea--develop",
+            "url": "/develop/textarea--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "textarea--specifications",
+            "url": "/component/textarea--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "textarea--usage",
+            "url": "/component/textarea--usage"
+          }
+        ],
+        "description": "When users need space for detailed input, like comments or descriptions, use textarea fields. Textarea fields are built for multi-line text input and are perfect for detailed entries or notes. They al"
+      },
+      {
+        "id": 423,
+        "name": "Tiles",
+        "slug": "tiles",
+        "url": "/component/tiles",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "tiles--develop",
+            "url": "/develop/tiles--develop"
+          }
+        ]
+      },
+      {
+        "id": 424,
+        "name": "Timepicker",
+        "slug": "timepicker",
+        "url": "/component/timepicker",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Develop",
+            "slug": "timepicker--develop",
+            "url": "/develop/timepicker--develop"
+          }
+        ]
+      },
+      {
+        "id": 135,
+        "name": "Toast",
+        "slug": "toast",
+        "url": "/component/toast",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "toast--accessibility",
+            "url": "/component/toast--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "toast--develop",
+            "url": "/develop/toast--develop"
+          },
+          {
+            "name": "Specifications",
+            "slug": "toast--specifications",
+            "url": "/component/toast--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "toast--usage",
+            "url": "/component/toast--usage"
+          }
+        ],
+        "description": "Toasts provide immediate feedback to a user without disrupting their current task. The toast content is meant to be short and contextual, and provide the user with the information they need to know wi"
+      },
+      {
+        "id": 139,
+        "name": "Tooltip",
+        "slug": "tooltip",
+        "url": "/component/tooltip",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "tooltip--accessibility",
+            "url": "/component/tooltip--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "tooltip--specifications",
+            "url": "/component/tooltip--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "tooltip--usage",
+            "url": "/component/tooltip--usage"
+          }
+        ],
+        "description": "Tooltips display brief, relevant information about an interactive element. They’re ideal for explaining unfamiliar icons, abbreviations, or functionality without occupying space in the primary layout."
+      },
+      {
+        "id": 146,
+        "name": "Tree",
+        "slug": "tree",
+        "url": "/component/tree",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "tree--accessibility",
+            "url": "/component/tree--accessibility"
+          },
+          {
+            "name": "Specifications",
+            "slug": "tree--specifications",
+            "url": "/component/tree--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "tree--usage",
+            "url": "/component/tree--usage"
+          }
+        ],
+        "description": "The Tree component is ideal for presenting hierarchical data, such as file directories or organizational structures. It simplifies navigation and makes complex data sets more accessible."
+      },
+      {
+        "id": 145,
+        "name": "Tree Grid",
+        "slug": "tree-grid",
+        "url": "/component/tree-grid",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "tree-grid--accessibility",
+            "url": "/component/tree-grid--accessibility"
+          },
+          {
+            "name": "Develop",
+            "slug": "tree-grid--develop",
+            "url": "/develop/tree-grid--develop"
+          },
+          {
+            "name": "Usage",
+            "slug": "tree-grid--usage",
+            "url": "/component/tree-grid--usage"
+          }
+        ],
+        "description": "A Tree Grid is used to display complex hierarchical data where users need to navigate and interact with nested structures."
+      },
+      {
+        "id": 418,
+        "name": "Vertical List",
+        "slug": "vertical-list",
+        "url": "/component/vertical-list",
+        "category": "component",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "vertical-list--css-classes",
+            "url": "/component/vertical-list--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "vertical-list--examples",
+            "url": "/component/vertical-list--examples"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Foundation",
+    "slug": "foundation",
+    "hidden": false,
+    "children": [
+      {
+        "id": 197,
+        "name": "Border",
+        "slug": "border",
+        "url": "/foundation/border",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "border--css-classes",
+            "url": "/foundation/border--css-classes"
+          }
+        ],
+        "description": "Border utility classes are predefined CSS classes that provide quick and consistent styling for adding borders to elements."
+      },
+      {
+        "id": 203,
+        "name": "Borders and Radius",
+        "slug": "borders-and-radius",
+        "url": "/foundation/borders-and-radius",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Color",
+            "slug": "borders-and-radius--color",
+            "url": "/foundation/borders-and-radius--color"
+          },
+          {
+            "name": "Overview",
+            "slug": "borders-and-radius--overview",
+            "url": "/foundation/borders-and-radius--overview"
+          },
+          {
+            "name": "Radius",
+            "slug": "borders-and-radius--radius",
+            "url": "/foundation/borders-and-radius--radius"
+          },
+          {
+            "name": "Styling Hooks",
+            "slug": "borders-and-radius--styling-hooks",
+            "url": "/foundation/borders-and-radius--styling-hooks"
+          },
+          {
+            "name": "Width",
+            "slug": "borders-and-radius--width",
+            "url": "/foundation/borders-and-radius--width"
+          }
+        ],
+        "description": "Borders and radiuses are basic visual design elements that help create clarity, hierarchy, and a consistent look. In the Salesforce Lightning Design System (SLDS), borders and radiuses help create a c"
+      },
+      {
+        "id": 213,
+        "name": "Color",
+        "slug": "color",
+        "url": "/foundation/color",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Color Palette",
+            "slug": "color--color-palette",
+            "url": "/foundation/color--color-palette"
+          },
+          {
+            "name": "Overview",
+            "slug": "color--overview",
+            "url": "/foundation/color--overview"
+          },
+          {
+            "name": "Semantic Color",
+            "slug": "color--semantic-color",
+            "url": "/foundation/color--semantic-color"
+          },
+          {
+            "name": "Styling Hooks",
+            "slug": "color--styling-hooks",
+            "url": "/foundation/color--styling-hooks"
+          },
+          {
+            "name": "System Palette",
+            "slug": "color--system-palette",
+            "url": "/foundation/color--system-palette"
+          }
+        ],
+        "description": "Color is a foundational element in design that conveys meaning, improves usability, and builds a consistent brand identity. In the Salesforce Lightning Design System (SLDS), colors are carefully selec"
+      },
+      {
+        "id": 209,
+        "name": "Color",
+        "slug": "color-palette",
+        "url": "/foundation/color-palette",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [],
+        "description": "Color establishes hierarchy, enhances branding, and fosters cohesion."
+      },
+      {
+        "id": 224,
+        "name": "Color",
+        "slug": "semantic-color",
+        "url": "/foundation/semantic-color",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [],
+        "description": "Color establishes hierarchy, enhances branding, and fosters cohesion."
+      },
+      {
+        "id": 212,
+        "name": "Color Picker",
+        "slug": "color-picker",
+        "url": "/foundation/color-picker",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Specifications",
+            "slug": "color-picker--specifications",
+            "url": "/foundation/color-picker--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "color-picker--usage",
+            "url": "/foundation/color-picker--usage"
+          }
+        ],
+        "description": "With the color picker, you can select colors for use in different Salesforce components and customizations."
+      },
+      {
+        "id": 195,
+        "name": "Conversation Design",
+        "slug": "accessibility",
+        "url": "/foundation/accessibility",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [],
+        "description": "The Salesforce Conversation Design Guidelines reflect the standardized approach in designing inclusive conversational experiences across the Salesforce ecosystem."
+      },
+      {
+        "id": 425,
+        "name": "Datetime Picker",
+        "slug": "datetime-picker",
+        "url": "/foundation/datetime-picker",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "datetime-picker--accessibility",
+            "url": "/foundation/datetime-picker--accessibility"
+          }
+        ]
+      },
+      {
+        "id": 426,
+        "name": "Empty State",
+        "slug": "empty-state",
+        "url": "/foundation/empty-state",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "empty-state--accessibility",
+            "url": "/foundation/empty-state--accessibility"
+          }
+        ]
+      },
+      {
+        "id": 216,
+        "name": "Foundations",
+        "slug": "foundations",
+        "url": "/foundation/foundations",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [],
+        "description": "SLDS 2 is more than a design system, it’s a philosophy for how we build, scale, and empower every experience within Salesforce. These core principles guide every pixel, pattern, and product decision w"
+      },
+      {
+        "id": 217,
+        "name": "Global Accessibility Standards",
+        "slug": "global-accessibility-standards",
+        "url": "/foundation/global-accessibility-standards",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [],
+        "description": "Salesforce builds products for a global audience, and accessibility is a core part of that commitment. Countries around the world enforce different accessibility laws and policies, but nearly all alig"
+      },
+      {
+        "id": 219,
+        "name": "Grid",
+        "slug": "grid",
+        "url": "/foundation/grid",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Examples",
+            "slug": "grid--examples",
+            "url": "/foundation/grid--examples"
+          }
+        ],
+        "description": "Grid utility classes help create responsive layouts. These classes use the CSS flexbox model to align and distribute elements to ensure a consistent and scalable layout structure across Salesforce app"
+      },
+      {
+        "id": 220,
+        "name": "Layout",
+        "slug": "layout",
+        "url": "/foundation/layout",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [],
+        "description": "Before selecting a layout, review these guidelines:"
+      },
+      {
+        "id": 427,
+        "name": "Map",
+        "slug": "map",
+        "url": "/foundation/map",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "map--accessibility",
+            "url": "/foundation/map--accessibility"
+          }
+        ]
+      },
+      {
+        "id": 428,
+        "name": "Messaging Ui",
+        "slug": "messaging-ui",
+        "url": "/foundation/messaging-ui",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "messaging-ui--accessibility",
+            "url": "/foundation/messaging-ui--accessibility"
+          }
+        ]
+      },
+      {
+        "id": 429,
+        "name": "Rich Text Editor",
+        "slug": "rich-text-editor",
+        "url": "/foundation/rich-text-editor",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "rich-text-editor--accessibility",
+            "url": "/foundation/rich-text-editor--accessibility"
+          }
+        ]
+      },
+      {
+        "id": 227,
+        "name": "Shadows",
+        "slug": "shadows",
+        "url": "/foundation/shadows",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Overview",
+            "slug": "shadows--overview",
+            "url": "/foundation/shadows--overview"
+          },
+          {
+            "name": "Usage",
+            "slug": "shadows--usage",
+            "url": "/foundation/shadows--usage"
+          }
+        ],
+        "description": "Shadow and elevation play a vital role in the visual design of user interfaces. They simulate depth and dimension, which establishes a sense of hierarchy and depth perception. Shadows and elevations d"
+      },
+      {
+        "id": 430,
+        "name": "Slider",
+        "slug": "slider",
+        "url": "/foundation/slider",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "slider--accessibility",
+            "url": "/foundation/slider--accessibility"
+          }
+        ]
+      },
+      {
+        "id": 230,
+        "name": "Spacing and Sizing",
+        "slug": "sizing",
+        "url": "/foundation/sizing",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "sizing--css-classes",
+            "url": "/foundation/sizing--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "sizing--examples",
+            "url": "/foundation/sizing--examples"
+          }
+        ],
+        "description": "Establish harmony and hierarchy through deliberate spacing and sizing."
+      },
+      {
+        "id": 233,
+        "name": "Spacing and Sizing",
+        "slug": "spacing-and-sizing",
+        "url": "/foundation/spacing-and-sizing",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Styling Hooks",
+            "slug": "spacing-and-sizing--styling-hooks",
+            "url": "/foundation/spacing-and-sizing--styling-hooks"
+          }
+        ],
+        "description": "Spacing and sizing are basic principles that establish visual consistency, create balance, and guide user focus. By defining the size of components and the space between them, the Salesforce Lightning"
+      },
+      {
+        "id": 234,
+        "name": "Spacing and Sizing",
+        "slug": "spacing",
+        "url": "/foundation/spacing",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [],
+        "description": "Establish harmony and hierarchy through deliberate spacing and sizing."
+      },
+      {
+        "id": 235,
+        "name": "Text and Color Contrast",
+        "slug": "text-and-color-contrast",
+        "url": "/foundation/text-and-color-contrast",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [],
+        "description": "Color plays a critical role in web design, but it must be used thoughtfully to ensure an inclusive experience for all users. People with visual impairments, color vision deficiencies, or other disabil"
+      },
+      {
+        "id": 431,
+        "name": "Tiles",
+        "slug": "tiles",
+        "url": "/foundation/tiles",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "tiles--accessibility",
+            "url": "/foundation/tiles--accessibility"
+          }
+        ]
+      },
+      {
+        "id": 432,
+        "name": "Timepicker",
+        "slug": "timepicker",
+        "url": "/foundation/timepicker",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "timepicker--accessibility",
+            "url": "/foundation/timepicker--accessibility"
+          }
+        ]
+      },
+      {
+        "id": 240,
+        "name": "Typography",
+        "slug": "typography",
+        "url": "/foundation/typography",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Overview",
+            "slug": "typography--overview",
+            "url": "/foundation/typography--overview"
+          },
+          {
+            "name": "Usage",
+            "slug": "typography--usage",
+            "url": "/foundation/typography--usage"
+          }
+        ],
+        "description": "Leverage system fonts of a device's operating system."
+      },
+      {
+        "id": 433,
+        "name": "Vertical Navigation",
+        "slug": "vertical-navigation",
+        "url": "/foundation/vertical-navigation",
+        "category": "foundation",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "vertical-navigation--accessibility",
+            "url": "/foundation/vertical-navigation--accessibility"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "General",
+    "slug": "general",
+    "hidden": false,
+    "children": [
+      {
+        "id": 243,
+        "name": "Admins",
+        "slug": "admins",
+        "url": "/general/admins",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "SLDS 2 powers how you as a Salesforce admin configure your company’s image on the platform with themes and branding. As an admin, your role is to oversee and collaborate with your designers and develo"
+      },
+      {
+        "id": 245,
+        "name": "AI and SLDS 2",
+        "slug": "ai-and-slds-2",
+        "url": "/general/ai-and-slds-2",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "With Agentforce, we’re re-imagining how design systems work — both within the design-development workflow and within dynamically generated user experiences. Agentforce is the agentic layer of our plat"
+      },
+      {
+        "id": 246,
+        "name": "AI Tools",
+        "slug": "ai-tools",
+        "url": "/general/ai-tools",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Modern AI coding tools like Cursor, Windsurf, and Agentforce Vibes are changing how developers build. While prompting generates UI quickly, creating experiences people trust and love requires design t"
+      },
+      {
+        "id": 249,
+        "name": "Alignment",
+        "slug": "alignment",
+        "url": "/general/alignment",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "alignment--css-classes",
+            "url": "/general/alignment--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "alignment--examples",
+            "url": "/general/alignment--examples"
+          }
+        ],
+        "description": "Alignment utility classes address common alignment challenges for positioning elements. This class aligns content to ensure consistent layouts across devices and screen sizes."
+      },
+      {
+        "id": 254,
+        "name": "Box",
+        "slug": "box",
+        "url": "/general/box",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "box--css-classes",
+            "url": "/general/box--css-classes"
+          }
+        ],
+        "description": "Box utility classes help apply consistent borders and spacing for box styling to elements. These utilities simplify the process of visually defining containers and content areas within an application."
+      },
+      {
+        "id": 255,
+        "name": "Canvas",
+        "slug": "canvas",
+        "url": "/general/canvas",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "The canvas is the main working area of a builder layout, and occupies the bulk of UX real estate. Here users can add and manipulate components, nodes and connectors, or data elements."
+      },
+      {
+        "id": 256,
+        "name": "Click to Create",
+        "slug": "click-to-create",
+        "url": "/general/click-to-create",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "With click to create, users click (or use a keyboard) to open a contextual list of components that can be added to a selected position on the canvas."
+      },
+      {
+        "id": 367,
+        "name": "Color",
+        "slug": "system-palette",
+        "url": "/general/system-palette",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Color establishes hierarchy, enhances branding, and fosters cohesion."
+      },
+      {
+        "id": 258,
+        "name": "Configuration",
+        "slug": "configuration",
+        "url": "/general/configuration",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "When creating a new builder, start with a builder type, then make design choices that support its use case."
+      },
+      {
+        "id": 259,
+        "name": "Connectors",
+        "slug": "connectors",
+        "url": "/general/connectors",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Connectors are lines that connect nodes, representing relationships and movements between them"
+      },
+      {
+        "id": 251,
+        "name": "Conversation Design",
+        "slug": "best-practices",
+        "url": "/general/best-practices",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "The Salesforce Conversation Design Guidelines reflect the standardized approach in designing inclusive conversational experiences across the Salesforce ecosystem."
+      },
+      {
+        "id": 252,
+        "name": "Conversation Design",
+        "slug": "bot-personality",
+        "url": "/general/bot-personality",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "The Salesforce Conversation Design Guidelines reflect the standardized approach in designing inclusive conversational experiences across the Salesforce ecosystem."
+      },
+      {
+        "id": 303,
+        "name": "Conversation Design",
+        "slug": "language-and-style",
+        "url": "/general/language-and-style",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "The Salesforce Conversation Design Guidelines reflect the standardized approach in designing inclusive conversational experiences across the Salesforce ecosystem."
+      },
+      {
+        "id": 355,
+        "name": "Conversation Design",
+        "slug": "resources",
+        "url": "/general/resources",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "The Salesforce Conversation Design Guidelines reflect the standardized approach in designing inclusive conversational experiences across the Salesforce ecosystem."
+      },
+      {
+        "id": 262,
+        "name": "Data Entry",
+        "slug": "data-entry",
+        "url": "/general/data-entry",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "The simplest method of freeform data entry, for single and multiple lines of text."
+      },
+      {
+        "id": 266,
+        "name": "Datetime Picker",
+        "slug": "datetime-picker",
+        "url": "/general/datetime-picker",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Specifications",
+            "slug": "datetime-picker--specifications",
+            "url": "/general/datetime-picker--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "datetime-picker--usage",
+            "url": "/general/datetime-picker--usage"
+          }
+        ],
+        "description": "The datetime picker is a form element that lets you select a date and time in one place."
+      },
+      {
+        "id": 261,
+        "name": "Display Density",
+        "slug": "custom-configurations",
+        "url": "/general/custom-configurations",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Density settings control global spacing, but different screen sizes require additional responsive adjustments."
+      },
+      {
+        "id": 269,
+        "name": "Display Density",
+        "slug": "display-density",
+        "url": "/general/display-density",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Custom Configurations",
+            "slug": "display-density--custom-configurations",
+            "url": "/general/display-density--custom-configurations"
+          },
+          {
+            "name": "Overview",
+            "slug": "display-density--overview",
+            "url": "/general/display-density--overview"
+          }
+        ],
+        "description": "Display density controls the spacing and layout of interface elements within a given screen area. Salesforce Lightning Design System 2 (SLDS 2) offers two density settings, comfy and compact. Comfy, t"
+      },
+      {
+        "id": 329,
+        "name": "Display Density",
+        "slug": "overview",
+        "url": "/general/overview",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Create consistent user experiences across display density settings."
+      },
+      {
+        "id": 270,
+        "name": "Displaying Data",
+        "slug": "displaying-data",
+        "url": "/general/displaying-data",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Record lists organize information to help users locate and/or browse specific records."
+      },
+      {
+        "id": 272,
+        "name": "Drag and Drop",
+        "slug": "drag-and-drop",
+        "url": "/general/drag-and-drop",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Users can move elements on the screen by dragging and dropping them, using a mouse, keyboard, or other input device."
+      },
+      {
+        "id": 274,
+        "name": "Empty State",
+        "slug": "empty-state",
+        "url": "/general/empty-state",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Usage",
+            "slug": "empty-state--usage",
+            "url": "/general/empty-state--usage"
+          }
+        ],
+        "description": "An empty state for the Leads card."
+      },
+      {
+        "id": 276,
+        "name": "FAQs",
+        "slug": "faqs",
+        "url": "/general/faqs",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "General",
+            "slug": "faqs--general",
+            "url": "/general/faqs--general"
+          }
+        ],
+        "description": "Learn about SLDS 2 key features, availability, transition process, and implementation guidelines."
+      },
+      {
+        "id": 278,
+        "name": "FAQs",
+        "slug": "general",
+        "url": "/general/general",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Learn about SLDS 2 key features, availability, transition process, and implementation guidelines."
+      },
+      {
+        "id": 434,
+        "name": "Float",
+        "slug": "float",
+        "url": "/general/float",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Examples",
+            "slug": "float--examples",
+            "url": "/general/float--examples"
+          }
+        ]
+      },
+      {
+        "id": 279,
+        "name": "Get Started",
+        "slug": "get-started",
+        "url": "/general/get-started",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "A design system is a collection of guidelines, reusable components, standards, and other resources that help ensure designers and developers build consistent digital experiences and applications. Sale"
+      },
+      {
+        "id": 280,
+        "name": "Global Search",
+        "slug": "global-search",
+        "url": "/general/global-search",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Global search lives in the header of your app, where it’s highly discoverable and always available for your users."
+      },
+      {
+        "id": 283,
+        "name": "Global Styling Hooks",
+        "slug": "global-styling-hooks",
+        "url": "/general/global-styling-hooks",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "About",
+            "slug": "global-styling-hooks--about",
+            "url": "/general/global-styling-hooks--about"
+          },
+          {
+            "name": "Styling Hook Index",
+            "slug": "global-styling-hooks--styling-hook-index",
+            "url": "/general/global-styling-hooks--styling-hook-index"
+          }
+        ],
+        "description": "To style your components in SLDS 2, reference global styling hooks in your code to apply SLDS values correctly. The design system determines the values of global styling hooks. Salesforce can change t"
+      },
+      {
+        "id": 284,
+        "name": "Glossary",
+        "slug": "glossary",
+        "url": "/general/glossary",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Understanding the language of agentic experiences helps readers understand the terms used in this guide. This isn't a complete glossary of general AI terms."
+      },
+      {
+        "id": 285,
+        "name": "Header",
+        "slug": "header",
+        "url": "/general/header",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Every builder needs a builder header, which contains basic navigation elements. It also shows the builder type and document or file name."
+      },
+      {
+        "id": 435,
+        "name": "Hyphenation",
+        "slug": "hyphenation",
+        "url": "/general/hyphenation",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "hyphenation--css-classes",
+            "url": "/general/hyphenation--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "hyphenation--examples",
+            "url": "/general/hyphenation--examples"
+          }
+        ]
+      },
+      {
+        "id": 242,
+        "name": "Icons",
+        "slug": "action",
+        "url": "/general/action",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Icons are symbols used to represent features, functionality, or content."
+      },
+      {
+        "id": 271,
+        "name": "Icons",
+        "slug": "doctype",
+        "url": "/general/doctype",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Icons are symbols used to represent features, functionality, or content."
+      },
+      {
+        "id": 328,
+        "name": "Icons",
+        "slug": "object",
+        "url": "/general/object",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Icons are symbols used to represent features, functionality, or content."
+      },
+      {
+        "id": 340,
+        "name": "Icons",
+        "slug": "product",
+        "url": "/general/product",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Icons are symbols used to represent features, functionality, or content."
+      },
+      {
+        "id": 365,
+        "name": "Icons",
+        "slug": "styling-hooks",
+        "url": "/general/styling-hooks",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Doctype icons represent file types, and are often used when a file preview is unavailable. Use a recognizable white glyph inside these icons if a familiar visual metaphor is available; otherwise, use "
+      },
+      {
+        "id": 390,
+        "name": "Icons",
+        "slug": "utility",
+        "url": "/general/utility",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Icons are symbols used to represent features, functionality, or content."
+      },
+      {
+        "id": 290,
+        "name": "Illustrations",
+        "slug": "illustrations",
+        "url": "/general/illustrations",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Overview",
+            "slug": "illustrations--overview",
+            "url": "/general/illustrations--overview"
+          },
+          {
+            "name": "Types",
+            "slug": "illustrations--types",
+            "url": "/general/illustrations--types"
+          }
+        ],
+        "description": "Illustrations add clarity, personality, and delight to our products. They help communicate complex ideas, reinforce brand identity, and guide users through key moments in their journey."
+      },
+      {
+        "id": 294,
+        "name": "In App Feedback",
+        "slug": "in-app-feedback",
+        "url": "/general/in-app-feedback",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Overview",
+            "slug": "in-app-feedback--overview",
+            "url": "/general/in-app-feedback--overview"
+          },
+          {
+            "name": "Research Strategy",
+            "slug": "in-app-feedback--research-strategy",
+            "url": "/general/in-app-feedback--research-strategy"
+          },
+          {
+            "name": "Scenarios",
+            "slug": "in-app-feedback--scenarios",
+            "url": "/general/in-app-feedback--scenarios"
+          }
+        ],
+        "description": "The user is at the center of our products. Throughout the Salesforce ecosystem, we collect feedback from users in many different ways—such as research studies, surveys, and in person experiences like "
+      },
+      {
+        "id": 295,
+        "name": "In-Context Search",
+        "slug": "in-context-search",
+        "url": "/general/in-context-search",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Place the in-context search directly above the content the user is refining. To help increase discoverability, the input should be exposed, not hidden behind an icon the user must click. The input sho"
+      },
+      {
+        "id": 297,
+        "name": "Interaction Models",
+        "slug": "interaction-models",
+        "url": "/general/interaction-models",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "AI assistants are agents integrated into a workspace, providing users with adjacent, on-demand support through a conversational interface."
+      },
+      {
+        "id": 299,
+        "name": "Interactions",
+        "slug": "interactions",
+        "url": "/general/interactions",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Examples",
+            "slug": "interactions--examples",
+            "url": "/general/interactions--examples"
+          }
+        ],
+        "description": "Interactions utility classes help control how users can interact with elements on a page. Developers use these classes to define or limit interactions such as clicking, dragging, selecting, or hoverin"
+      },
+      {
+        "id": 302,
+        "name": "Interface Feedback",
+        "slug": "interface-feedback",
+        "url": "/general/interface-feedback",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Feedback States",
+            "slug": "interface-feedback--feedback-states",
+            "url": "/general/interface-feedback--feedback-states"
+          },
+          {
+            "name": "Overview",
+            "slug": "interface-feedback--overview",
+            "url": "/general/interface-feedback--overview"
+          }
+        ],
+        "description": "Interface feedback is the system's response to direct user input. It provides confirmation, guidance, and a sense of control. Effective feedback is guided by a few key principles."
+      },
+      {
+        "id": 304,
+        "name": "Learn More",
+        "slug": "learn-more",
+        "url": "/general/learn-more",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Need to brush up on design systems basics or connect with folks in the community? Explore our Trailhead modules and other resources."
+      },
+      {
+        "id": 307,
+        "name": "Line Clamp",
+        "slug": "line-clamp",
+        "url": "/general/line-clamp",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "line-clamp--css-classes",
+            "url": "/general/line-clamp--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "line-clamp--examples",
+            "url": "/general/line-clamp--examples"
+          }
+        ],
+        "description": "Line clamp utility classes control how many lines a block of text displays before it's truncated. The remaining content is replaced with an ellipsis (...) so readers know there's more to see. These ut"
+      },
+      {
+        "id": 310,
+        "name": "Map",
+        "slug": "map",
+        "url": "/general/map",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Specifications",
+            "slug": "map--specifications",
+            "url": "/general/map--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "map--usage",
+            "url": "/general/map--usage"
+          }
+        ],
+        "description": "The map component helps users visualize geographical data, enhancing workflows that involve spatial decision-making. It supports dynamic location markers, layers, and integration with Salesforce recor"
+      },
+      {
+        "id": 313,
+        "name": "Margin",
+        "slug": "margin",
+        "url": "/general/margin",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "margin--css-classes",
+            "url": "/general/margin--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "margin--examples",
+            "url": "/general/margin--examples"
+          }
+        ],
+        "description": "Margin utility classes provide a quick and consistent way to apply spacing around elements. Margins help define the separation between components, ensuring layouts are visually balanced and aligned wi"
+      },
+      {
+        "id": 316,
+        "name": "Media Object",
+        "slug": "media-object",
+        "url": "/general/media-object",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "media-object--css-classes",
+            "url": "/general/media-object--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "media-object--examples",
+            "url": "/general/media-object--examples"
+          }
+        ],
+        "description": "Media object utility classes are used to construct layout patterns that pair media elements (like images or videos) with text content, typically positioning the media to one side while the content flo"
+      },
+      {
+        "id": 322,
+        "name": "Messaging UI",
+        "slug": "messaging-ui",
+        "url": "/general/messaging-ui",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "A Conversation",
+            "slug": "messaging-ui--a-conversation",
+            "url": "/general/messaging-ui--a-conversation"
+          },
+          {
+            "name": "Conversation Publishers",
+            "slug": "messaging-ui--conversation-publishers",
+            "url": "/general/messaging-ui--conversation-publishers"
+          },
+          {
+            "name": "Message Entries",
+            "slug": "messaging-ui--message-entries",
+            "url": "/general/messaging-ui--message-entries"
+          },
+          {
+            "name": "Messaging Ui Styling",
+            "slug": "messaging-ui--messaging-ui-styling",
+            "url": "/general/messaging-ui--messaging-ui-styling"
+          },
+          {
+            "name": "Overview",
+            "slug": "messaging-ui--overview",
+            "url": "/general/messaging-ui--overview"
+          }
+        ],
+        "description": "Messaging, or a conversation experience is any time users and customers converse with each other (generally in real-time). Conversations can be session-based with a distinct start and end, or more asy"
+      },
+      {
+        "id": 324,
+        "name": "Nodes",
+        "slug": "nodes",
+        "url": "/general/nodes",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Nodes are the building blocks of a workflow. Each one represents an action."
+      },
+      {
+        "id": 436,
+        "name": "Notifications",
+        "slug": "notifications",
+        "url": "/general/notifications",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Delivery Channels",
+            "slug": "notifications--delivery-channels",
+            "url": "/general/notifications--delivery-channels"
+          },
+          {
+            "name": "Notification Priority",
+            "slug": "notifications--notification-priority",
+            "url": "/general/notifications--notification-priority"
+          },
+          {
+            "name": "Overview",
+            "slug": "notifications--overview",
+            "url": "/general/notifications--overview"
+          }
+        ]
+      },
+      {
+        "id": 332,
+        "name": "Padding",
+        "slug": "padding",
+        "url": "/general/padding",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "padding--css-classes",
+            "url": "/general/padding--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "padding--examples",
+            "url": "/general/padding--examples"
+          }
+        ],
+        "description": "Padding is the space between a component's borders and its contents. Padding keeps content from getting crowded and helps maintain a clean, readable layout."
+      },
+      {
+        "id": 333,
+        "name": "Panels",
+        "slug": "panels",
+        "url": "/general/panels",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Panels present momentary tasks, properties, and supplemental information associated with the current builder, or a selection made within the canvas."
+      },
+      {
+        "id": 336,
+        "name": "Position",
+        "slug": "position",
+        "url": "/general/position",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "position--css-classes",
+            "url": "/general/position--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "position--examples",
+            "url": "/general/position--examples"
+          }
+        ],
+        "description": "Position utility classes make it easy to manage the spatial arrangement of components. These utilities use the CSS position property to determine how elements are placed within their container or rela"
+      },
+      {
+        "id": 339,
+        "name": "Print",
+        "slug": "print",
+        "url": "/general/print",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Examples",
+            "slug": "print--examples",
+            "url": "/general/print--examples"
+          }
+        ],
+        "description": "The print utility class controls the visibility of components when a page is printed. This class can be used to hide elements that aren’t useful in a printed version of the interface."
+      },
+      {
+        "id": 437,
+        "name": "Prompt",
+        "slug": "prompt",
+        "url": "/general/prompt",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Specifications",
+            "slug": "prompt--specifications",
+            "url": "/general/prompt--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "prompt--usage",
+            "url": "/general/prompt--usage"
+          }
+        ]
+      },
+      {
+        "id": 260,
+        "name": "Prompt Elements",
+        "slug": "context-setting",
+        "url": "/general/context-setting",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "A prompt element is an individual building block used to construct a prompt."
+      },
+      {
+        "id": 263,
+        "name": "Prompt Elements",
+        "slug": "data-for-grounding",
+        "url": "/general/data-for-grounding",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "A prompt element is an individual building block used to construct a prompt."
+      },
+      {
+        "id": 296,
+        "name": "Prompt Elements",
+        "slug": "instructions",
+        "url": "/general/instructions",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "A prompt element is an individual building block used to construct a prompt."
+      },
+      {
+        "id": 323,
+        "name": "Prompt Elements",
+        "slug": "model-containment-guardrails",
+        "url": "/general/model-containment-guardrails",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "A prompt element is an individual building block used to construct a prompt."
+      },
+      {
+        "id": 348,
+        "name": "Prompt Elements",
+        "slug": "prompt-elements",
+        "url": "/general/prompt-elements",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Context Setting",
+            "slug": "prompt-elements--context-setting",
+            "url": "/general/prompt-elements--context-setting"
+          },
+          {
+            "name": "Instructions",
+            "slug": "prompt-elements--instructions",
+            "url": "/general/prompt-elements--instructions"
+          },
+          {
+            "name": "Model Containment Guardrails",
+            "slug": "prompt-elements--model-containment-guardrails",
+            "url": "/general/prompt-elements--model-containment-guardrails"
+          },
+          {
+            "name": "Prompt Template Examples",
+            "slug": "prompt-elements--prompt-template-examples",
+            "url": "/general/prompt-elements--prompt-template-examples"
+          },
+          {
+            "name": "Supplemental Elements",
+            "slug": "prompt-elements--supplemental-elements",
+            "url": "/general/prompt-elements--supplemental-elements"
+          }
+        ],
+        "description": "Each element serves a specific purpose in guiding the AI, such as defining its role and task, providing background context, giving specific task instructions, or describing the desired structure of th"
+      },
+      {
+        "id": 349,
+        "name": "Prompt Elements",
+        "slug": "prompt-template-examples",
+        "url": "/general/prompt-template-examples",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "A prompt element is an individual building block used to construct a prompt."
+      },
+      {
+        "id": 366,
+        "name": "Prompt Elements",
+        "slug": "supplemental-elements",
+        "url": "/general/supplemental-elements",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "A prompt element is an individual building block used to construct a prompt."
+      },
+      {
+        "id": 244,
+        "name": "Prompting Techniques",
+        "slug": "advanced",
+        "url": "/general/advanced",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Prompting techniques are the methods used to put the design into action."
+      },
+      {
+        "id": 250,
+        "name": "Prompting Techniques",
+        "slug": "basic",
+        "url": "/general/basic",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Prompting techniques are the methods used to put the design into action."
+      },
+      {
+        "id": 257,
+        "name": "Prompting Techniques",
+        "slug": "combined-engineering",
+        "url": "/general/combined-engineering",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Prompting techniques are the methods used to put the design into action."
+      },
+      {
+        "id": 352,
+        "name": "Prompting Techniques",
+        "slug": "prompting-techniques",
+        "url": "/general/prompting-techniques",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Advanced",
+            "slug": "prompting-techniques--advanced",
+            "url": "/general/prompting-techniques--advanced"
+          },
+          {
+            "name": "Reasoning",
+            "slug": "prompting-techniques--reasoning",
+            "url": "/general/prompting-techniques--reasoning"
+          }
+        ],
+        "description": "Prompting techniques are the methods used to put the design into action."
+      },
+      {
+        "id": 353,
+        "name": "Prompting Techniques",
+        "slug": "reasoning",
+        "url": "/general/reasoning",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Prompting techniques are the methods used to put the design into action."
+      },
+      {
+        "id": 354,
+        "name": "Refinement Phase",
+        "slug": "refinement-phase",
+        "url": "/general/refinement-phase",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "If testing or implementation reveals problems, refine your prompts to improve LLM output. Common reasons an LLM may not follow instructions include:"
+      },
+      {
+        "id": 438,
+        "name": "Rich Text Editor",
+        "slug": "rich-text-editor",
+        "url": "/general/rich-text-editor",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Specifications",
+            "slug": "rich-text-editor--specifications",
+            "url": "/general/rich-text-editor--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "rich-text-editor--usage",
+            "url": "/general/rich-text-editor--usage"
+          }
+        ]
+      },
+      {
+        "id": 358,
+        "name": "Rules, Filters, and Logic",
+        "slug": "rules-filters-and-logic",
+        "url": "/general/rules-filters-and-logic",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Salesforce enables users to store, sort, and take action on large, complex datasets. Whether creating rules to control when an action is executed or querying for a filtered set of records, logical exp"
+      },
+      {
+        "id": 360,
+        "name": "Scrollable",
+        "slug": "scrollable",
+        "url": "/general/scrollable",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Scrollable utility classes help manage overflow content within fixed-sized containers, when scrolling is available. These classes control whether elements are scrollable and define the type of scrolli"
+      },
+      {
+        "id": 361,
+        "name": "SLDS 1 ↗︎",
+        "slug": "slds-1",
+        "url": "/general/slds-1",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "We've migrated our SLDS 1 content to make space for new design system documentation for SLDS 2. If you need to refer to SLDS 1, find the website here:"
+      },
+      {
+        "id": 362,
+        "name": "SLDS Linter",
+        "slug": "slds-linter",
+        "url": "/general/slds-linter",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "SLDS Linter analyzes your code against SLDS 2 rules. It offers suggestions on how to improve your code and make it more future-proof. SLDS Linter can also automatically fix your code and apply those s"
+      },
+      {
+        "id": 363,
+        "name": "SLDS Scope Customizer",
+        "slug": "slds-scope-customizer",
+        "url": "/general/slds-scope-customizer",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "SLDS Scope Customizer is a simple command you can run to build a scoped version of SLDS CSS. You can generate it on demand from the command line as often as you'd like. You can even include it in your"
+      },
+      {
+        "id": 439,
+        "name": "Slider",
+        "slug": "slider",
+        "url": "/general/slider",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Usage",
+            "slug": "slider--usage",
+            "url": "/general/slider--usage"
+          }
+        ]
+      },
+      {
+        "id": 368,
+        "name": "Testing and Evaluation Phase",
+        "slug": "testing-and-evaluation-phase",
+        "url": "/general/testing-and-evaluation-phase",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Great prompt design isn't a one-time thing - it's a journey of continuous improvement."
+      },
+      {
+        "id": 371,
+        "name": "Text",
+        "slug": "text",
+        "url": "/general/text",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "text--css-classes",
+            "url": "/general/text--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "text--examples",
+            "url": "/general/text--examples"
+          }
+        ],
+        "description": "Text utility classes provide a simple way to make text look consistent across Salesforce applications. These classes help developers and designers apply typography-related styling and alignment to ens"
+      },
+      {
+        "id": 373,
+        "name": "Tiles",
+        "slug": "tiles",
+        "url": "/general/tiles",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Specifications",
+            "slug": "tiles--specifications",
+            "url": "/general/tiles--specifications"
+          }
+        ],
+        "description": "Tiles provide a compact and structured way to display key data and related actions. They are commonly used for records, dashboards, and data summaries. Users can interact with tiles to view additional"
+      },
+      {
+        "id": 376,
+        "name": "Timepicker",
+        "slug": "timepicker",
+        "url": "/general/timepicker",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Specifications",
+            "slug": "timepicker--specifications",
+            "url": "/general/timepicker--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "timepicker--usage",
+            "url": "/general/timepicker--usage"
+          }
+        ],
+        "description": "The Timepicker enables users to input or select a time in a user-friendly manner. It reduces potential errors from manual text entry by offering preformatted time values in a dropdown. Users can also "
+      },
+      {
+        "id": 377,
+        "name": "Tools",
+        "slug": "tools",
+        "url": "/general/tools",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Design systems streamline the collaboration between designers and engineers, offering shared resources to build consistent, user-friendly experiences efficiently. To fully leverage a design system, de"
+      },
+      {
+        "id": 378,
+        "name": "Transition to SLDS 2",
+        "slug": "transition-to-slds-2",
+        "url": "/general/transition-to-slds-2",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "A step-by-step guide to get your Salesforce org up and running with the latest Lightning Design System, SLDS 2."
+      },
+      {
+        "id": 381,
+        "name": "Truncation",
+        "slug": "truncation",
+        "url": "/general/truncation",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "truncation--css-classes",
+            "url": "/general/truncation--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "truncation--examples",
+            "url": "/general/truncation--examples"
+          }
+        ],
+        "description": "Truncation utility classes manage the display of text that overflows its container. These classes shorten long strings of text and add ellipses to represent the missing content. Truncation helps keep "
+      },
+      {
+        "id": 382,
+        "name": "Typography",
+        "slug": "type-styles",
+        "url": "/general/type-styles",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Leverage system fonts of a device's operating system."
+      },
+      {
+        "id": 383,
+        "name": "Typography",
+        "slug": "usage",
+        "url": "/general/usage",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Leverage system fonts of a device's operating system."
+      },
+      {
+        "id": 388,
+        "name": "User Engagement",
+        "slug": "user-engagement",
+        "url": "/general/user-engagement",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Deeper Learning",
+            "slug": "user-engagement--deeper-learning",
+            "url": "/general/user-engagement--deeper-learning"
+          },
+          {
+            "name": "Feature Discovery",
+            "slug": "user-engagement--feature-discovery",
+            "url": "/general/user-engagement--feature-discovery"
+          },
+          {
+            "name": "Overview",
+            "slug": "user-engagement--overview",
+            "url": "/general/user-engagement--overview"
+          },
+          {
+            "name": "Troubleshooting",
+            "slug": "user-engagement--troubleshooting",
+            "url": "/general/user-engagement--troubleshooting"
+          }
+        ],
+        "description": "Make this an opportunity to say hello, make them feel welcome, and show them around. Give users a friendly, high-level overview of your application, process, or service. Clearly state your value propo"
+      },
+      {
+        "id": 389,
+        "name": "Utility Classes",
+        "slug": "utility-classes",
+        "url": "/general/utility-classes",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Utility classes are ready-to-use CSS classes that make it easy to apply common styles to your components. With utility classes, you can quickly apply styles for spacing, alignment, typography, sizing,"
+      },
+      {
+        "id": 391,
+        "name": "Validation",
+        "slug": "validation",
+        "url": "/general/validation",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Validation alerts users to invalid components and offers possible solutions."
+      },
+      {
+        "id": 394,
+        "name": "Vertical Navigation",
+        "slug": "vertical-navigation",
+        "url": "/general/vertical-navigation",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Specifications",
+            "slug": "vertical-navigation--specifications",
+            "url": "/general/vertical-navigation--specifications"
+          },
+          {
+            "name": "Usage",
+            "slug": "vertical-navigation--usage",
+            "url": "/general/vertical-navigation--usage"
+          }
+        ],
+        "description": "The vertical navigation component is designed to help users filter and access content within a page efficiently. It's particularly useful in scenarios where users need to switch between different view"
+      },
+      {
+        "id": 337,
+        "name": "Vibe Coding and SLDS",
+        "slug": "prerequisites",
+        "url": "/general/prerequisites",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Turn a Figma UI design into component code with Agentforce Vibes."
+      },
+      {
+        "id": 359,
+        "name": "Vibe Coding and SLDS",
+        "slug": "salesforce-sandbox-vibes",
+        "url": "/general/salesforce-sandbox-vibes",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Turn a Figma UI design into component code with Agentforce Vibes."
+      },
+      {
+        "id": 400,
+        "name": "Vibe Coding and SLDS",
+        "slug": "vibe-coding-and-slds",
+        "url": "/general/vibe-coding-and-slds",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Overview",
+            "slug": "vibe-coding-and-slds--overview",
+            "url": "/general/vibe-coding-and-slds--overview"
+          },
+          {
+            "name": "Prerequisites",
+            "slug": "vibe-coding-and-slds--prerequisites",
+            "url": "/general/vibe-coding-and-slds--prerequisites"
+          },
+          {
+            "name": "Salesforce Sandbox Vibes",
+            "slug": "vibe-coding-and-slds--salesforce-sandbox-vibes",
+            "url": "/general/vibe-coding-and-slds--salesforce-sandbox-vibes"
+          },
+          {
+            "name": "Vs Code Vibes",
+            "slug": "vibe-coding-and-slds--vs-code-vibes",
+            "url": "/general/vibe-coding-and-slds--vs-code-vibes"
+          },
+          {
+            "name": "Workflow",
+            "slug": "vibe-coding-and-slds--workflow",
+            "url": "/general/vibe-coding-and-slds--workflow"
+          }
+        ],
+        "description": "Turn a Figma UI design into component code with Agentforce Vibes."
+      },
+      {
+        "id": 404,
+        "name": "Vibe Coding and SLDS",
+        "slug": "vs-code-vibes",
+        "url": "/general/vs-code-vibes",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Turn a Figma UI design into component code with Agentforce Vibes."
+      },
+      {
+        "id": 405,
+        "name": "Vibe Coding and SLDS",
+        "slug": "workflow",
+        "url": "/general/workflow",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Turn a Figma UI design into component code with Agentforce Vibes."
+      },
+      {
+        "id": 403,
+        "name": "Visibility",
+        "slug": "visibility",
+        "url": "/general/visibility",
+        "category": "general",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Css Classes",
+            "slug": "visibility--css-classes",
+            "url": "/general/visibility--css-classes"
+          },
+          {
+            "name": "Examples",
+            "slug": "visibility--examples",
+            "url": "/general/visibility--examples"
+          }
+        ],
+        "description": "Visibility utility classes help manage the display of elements across your application. These classes control whether an element is visible or hidden, making it easier to handle responsive designs and"
+      },
+      {
+        "id": 406,
+        "name": "Zoom Controls",
+        "slug": "zoom-controls",
+        "url": "/general/zoom-controls",
+        "category": "general",
+        "hidden": false,
+        "tabs": [],
+        "description": "Use a Button Group to create a zoom tool that allows users to magnify or minimize the screen view, zooming in or out on items viewed."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Develop",
+    "slug": "develop",
+    "hidden": false,
+    "children": [
+      {
+        "id": 171,
+        "name": "Developer Tools",
+        "slug": "developer-tools",
+        "url": "/develop/developer-tools",
+        "category": "develop",
+        "hidden": false,
+        "tabs": [],
+        "description": "The Salesforce Design System developer tools are designed to help you seamlessly implement Salesforce's user interface components and follow best practices for building consistent, scalable, and acces"
+      },
+      {
+        "id": 173,
+        "name": "Developers",
+        "slug": "developers",
+        "url": "/develop/developers",
+        "category": "develop",
+        "hidden": false,
+        "tabs": [],
+        "description": "SLDS 2 is your comprehensive framework for building consistent, scalable interfaces across Salesforce products. This system includes reusable components, styling hooks, and standardized guidelines to "
+      },
+      {
+        "id": 421,
+        "name": "Faqs",
+        "slug": "faqs",
+        "url": "/develop/faqs",
+        "category": "develop",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Developer",
+            "slug": "faqs--developer",
+            "url": "/develop/faqs--developer"
+          }
+        ]
+      },
+      {
+        "id": 172,
+        "name": "FAQs",
+        "slug": "developer",
+        "url": "/develop/developer",
+        "category": "develop",
+        "hidden": false,
+        "tabs": [],
+        "description": "Explore essential questions for developers to integrate and optimize SLDS 2 in your projects. Find both foundational knowledge and best practices to use SLDS 2 efficiently on Salesforce and external a"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Design",
+    "slug": "design",
+    "hidden": false,
+    "children": [
+      {
+        "id": 154,
+        "name": "Conversation Design",
+        "slug": "conversation-design",
+        "url": "/design/conversation-design",
+        "category": "design",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Accessibility",
+            "slug": "conversation-design--accessibility",
+            "url": "/design/conversation-design--accessibility"
+          },
+          {
+            "name": "Best Practices",
+            "slug": "conversation-design--best-practices",
+            "url": "/design/conversation-design--best-practices"
+          },
+          {
+            "name": "Language And Style",
+            "slug": "conversation-design--language-and-style",
+            "url": "/design/conversation-design--language-and-style"
+          },
+          {
+            "name": "Overview",
+            "slug": "conversation-design--overview",
+            "url": "/design/conversation-design--overview"
+          },
+          {
+            "name": "Resources",
+            "slug": "conversation-design--resources",
+            "url": "/design/conversation-design--resources"
+          }
+        ],
+        "description": "The Salesforce Conversation Design Guidelines reflect the standardized approach in designing inclusive conversational experiences across the Salesforce ecosystem."
+      },
+      {
+        "id": 155,
+        "name": "Design Phase",
+        "slug": "design-phase",
+        "url": "/design/design-phase",
+        "category": "design",
+        "hidden": false,
+        "tabs": [],
+        "description": "How to build a high-quality prompt"
+      },
+      {
+        "id": 156,
+        "name": "Designer Tools",
+        "slug": "designer-tools",
+        "url": "/design/designer-tools",
+        "category": "design",
+        "hidden": false,
+        "tabs": [],
+        "description": "Designers use tools to craft and validate user interfaces while ensuring adherence to the standards set by the Salesforce Design System."
+      },
+      {
+        "id": 158,
+        "name": "Designers",
+        "slug": "designers",
+        "url": "/design/designers",
+        "category": "design",
+        "hidden": false,
+        "tabs": [],
+        "description": "SLDS 2 provides the tools you need to create cohesive, user-friendly interfaces. We provide reusable components in Figma, style guides, design principles, and patterns that align with our brand and us"
+      },
+      {
+        "id": 419,
+        "name": "Faqs",
+        "slug": "faqs",
+        "url": "/design/faqs",
+        "category": "design",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Designer",
+            "slug": "faqs--designer",
+            "url": "/design/faqs--designer"
+          }
+        ]
+      },
+      {
+        "id": 157,
+        "name": "FAQs",
+        "slug": "designer",
+        "url": "/design/designer",
+        "category": "design",
+        "hidden": false,
+        "tabs": [],
+        "description": "Explore topics specific to designers such as designer assets, guidelines, and tools."
+      },
+      {
+        "id": 160,
+        "name": "Prompt Design Guide",
+        "slug": "prompt-design-guide",
+        "url": "/design/prompt-design-guide",
+        "category": "design",
+        "hidden": false,
+        "tabs": [],
+        "description": "As tools like Agentforce and Einstein power more of your workflows, clear prompts are critical. They don’t just improve results—they make your AI more sustainable, too."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pattern",
+    "slug": "pattern",
+    "hidden": false,
+    "children": [
+      {
+        "id": 407,
+        "name": "Agentic Patterns",
+        "slug": "agentic-patterns",
+        "url": "/pattern/agentic-patterns",
+        "category": "pattern",
+        "hidden": false,
+        "tabs": [],
+        "description": "Agentic experiences are systems and interfaces that empower users to accomplish their goals with the help of autonomous AI agents. Use these patterns to create agentic experiences in Salesforce produc"
+      },
+      {
+        "id": 440,
+        "name": "In App Feedback",
+        "slug": "in-app-feedback",
+        "url": "/pattern/in-app-feedback",
+        "category": "pattern",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "In App Feedback Patterns",
+            "slug": "in-app-feedback--in-app-feedback-patterns",
+            "url": "/pattern/in-app-feedback--in-app-feedback-patterns"
+          }
+        ]
+      },
+      {
+        "id": 409,
+        "name": "Patterns",
+        "slug": "patterns",
+        "url": "/pattern/patterns",
+        "category": "pattern",
+        "hidden": false,
+        "tabs": [],
+        "description": "The Lightning Design System reflects the patterns and components that underpin the Salesforce product. These patterns and components provide a unified language and consistent look and feel when design"
+      },
+      {
+        "id": 441,
+        "name": "User Engagement",
+        "slug": "user-engagement",
+        "url": "/pattern/user-engagement",
+        "category": "pattern",
+        "hidden": false,
+        "tabs": [
+          {
+            "name": "Engagement Patterns",
+            "slug": "user-engagement--engagement-patterns",
+            "url": "/pattern/user-engagement--engagement-patterns"
+          }
+        ]
+      }
+    ]
+  }
+]

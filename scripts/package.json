@@ -1,0 +1,12 @@
+{
+  "name": "ldss-migration-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for migrating LDSS content from Payload CMS to markdown",
+  "main": "export-payload-to-markdown.js",
+  "scripts": {
+    "export": "node export-payload-to-markdown.js"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}

@@ -1,0 +1,178 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║   ⚡ LIGHTNING DESIGN SYSTEM - QUICKSTART GUIDE ⚡               ║
+║                                                                  ║
+║   Status: ✅ Ready to view locally and push to GitHub           ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+┌─ VIEW YOUR SITES LOCALLY ────────────────────────────────────────┐
+│                                                                   │
+│  🚀 EASIEST WAY (One Command):                                   │
+│                                                                   │
+│     cd /Users/clay.park/Documents/                               │
+│        LightningDesignSystemSiteMigration/ldss-oss-github        │
+│     ./start-dev.sh                                               │
+│                                                                   │
+│  This starts:                                                    │
+│     • Frontend (Next.js):  http://localhost:3000                 │
+│     • CMS Backend:         http://localhost:4000                 │
+│     • Backend Health:      http://localhost:4000/health          │
+│                                                                   │
+│  Press Ctrl+C to stop all services                               │
+│                                                                   │
+│                                                                   │
+│  📱 FRONTEND ONLY (Just view pages):                             │
+│                                                                   │
+│     cd lightning-design-system                                   │
+│     npm run dev                                                  │
+│     # Open http://localhost:3000                                 │
+│                                                                   │
+│  What you'll see:                                                │
+│     • Home page with navigation sidebar                          │
+│     • 410 migrated documentation pages                           │
+│     • Categories: Components, Foundations, Develop, etc.         │
+│     • Search functionality (coming soon)                         │
+│                                                                   │
+└───────────────────────────────────────────────────────────────────┘
+
+┌─ PUSH TO GITHUB ─────────────────────────────────────────────────┐
+│                                                                   │
+│  Step 1: Create GitHub Repositories                              │
+│  ─────────────────────────────────────────────────────────       │
+│  Go to: https://github.com/new                                   │
+│                                                                   │
+│  Create TWO repositories:                                        │
+│    1. lightning-design-system       (frontend)                   │
+│    2. lightning-design-system-cms   (backend)                    │
+│                                                                   │
+│  Don't initialize with README (we already have them!)            │
+│                                                                   │
+│                                                                   │
+│  Step 2: Run the Push Script                                     │
+│  ─────────────────────────────────────────────────────────       │
+│                                                                   │
+│     cd /Users/clay.park/Documents/                               │
+│        LightningDesignSystemSiteMigration/ldss-oss-github        │
+│     ./PUSH_TO_GITHUB.sh YOUR_GITHUB_USERNAME                     │
+│                                                                   │
+│  Example:                                                        │
+│     ./PUSH_TO_GITHUB.sh claypark                                 │
+│                                                                   │
+│  This will push both repos in one command!                       │
+│                                                                   │
+│                                                                   │
+│  Step 3: Manual Push (if script fails)                           │
+│  ─────────────────────────────────────────────────────────       │
+│                                                                   │
+│  Frontend:                                                       │
+│     cd lightning-design-system                                   │
+│     git remote add origin \                                      │
+│       https://github.com/USERNAME/lightning-design-system.git    │
+│     git push -u origin main                                      │
+│                                                                   │
+│  Backend:                                                        │
+│     cd lightning-design-system-cms                               │
+│     git remote add origin \                                      │
+│       https://github.com/USERNAME/lightning-design-system-cms.git│
+│     git push -u origin main                                      │
+│                                                                   │
+└───────────────────────────────────────────────────────────────────┘
+
+┌─ WHAT'S BEEN COMMITTED ──────────────────────────────────────────┐
+│                                                                   │
+│  Frontend Repository (lightning-design-system)                   │
+│  ──────────────────────────────────────────────                  │
+│  📊 1,465 files | 130,757 lines                                  │
+│  📝 Commit: "feat: initial commit - Lightning Design System..."  │
+│                                                                   │
+│  Contains:                                                       │
+│    ✅ 410 migrated markdown pages                                │
+│    ✅ 362 images                                                 │
+│    ✅ Next.js 15 with TypeScript                                 │
+│    ✅ Custom markdown parser                                     │
+│    ✅ 16 React components                                        │
+│    ✅ Tailwind CSS v4 theme                                      │
+│    ✅ GitHub Actions (auto-deploy)                               │
+│                                                                   │
+│                                                                   │
+│  Backend Repository (lightning-design-system-cms)                │
+│  ──────────────────────────────────────────────                  │
+│  📊 28 files | 6,785 lines                                       │
+│  📝 Commit: "feat: initial commit - Lightning Design System..."  │
+│                                                                   │
+│  Contains:                                                       │
+│    ✅ Express.js server (TypeScript)                             │
+│    ✅ 22 API endpoints                                           │
+│    ✅ Salesforce SSO configuration                               │
+│    ✅ GitHub API integration                                     │
+│    ✅ PostgreSQL schema                                          │
+│    ✅ Docker deployment                                          │
+│    ✅ GitHub Actions (auto-deploy)                               │
+│                                                                   │
+└───────────────────────────────────────────────────────────────────┘
+
+┌─ AFTER PUSHING TO GITHUB ────────────────────────────────────────┐
+│                                                                   │
+│  Deploy Frontend to Vercel (Free)                                │
+│  ──────────────────────────────────────────────────────────      │
+│  1. Go to https://vercel.com                                     │
+│  2. Sign in with GitHub                                          │
+│  3. Click "New Project"                                          │
+│  4. Import lightning-design-system                               │
+│  5. Click "Deploy" (Vercel auto-detects Next.js!)               │
+│  6. Your site goes live at:                                      │
+│     https://lightning-design-system.vercel.app                   │
+│                                                                   │
+│                                                                   │
+│  Deploy Backend to Heroku (Optional)                             │
+│  ──────────────────────────────────────────────────────────      │
+│  1. Install Heroku CLI: brew install heroku/brew/heroku          │
+│  2. Login: heroku login                                          │
+│  3. Create app: heroku create ldss-cms-backend                   │
+│  4. Add database: heroku addons:create heroku-postgresql         │
+│  5. Push: git push heroku main                                   │
+│  6. Run migrations: heroku run psql $DATABASE_URL -f schema.sql  │
+│                                                                   │
+└───────────────────────────────────────────────────────────────────┘
+
+┌─ HELPFUL FILES ──────────────────────────────────────────────────┐
+│                                                                   │
+│  📖 Documentation:                                               │
+│     • VIEWING_AND_GITHUB_GUIDE.md  (comprehensive guide)         │
+│     • START_HERE.md                (project overview)            │
+│     • IMPLEMENTATION_COMPLETE.md   (status report)               │
+│     • MIGRATION-SUMMARY.md         (content migration details)   │
+│                                                                   │
+│  🛠️  Scripts:                                                    │
+│     • start-dev.sh                 (start both services)         │
+│     • PUSH_TO_GITHUB.sh            (push to GitHub)              │
+│                                                                   │
+│  📁 Directories:                                                 │
+│     • lightning-design-system/     (frontend code)               │
+│     • lightning-design-system-cms/ (backend code)                │
+│     • scripts/                     (migration scripts)           │
+│                                                                   │
+└───────────────────────────────────────────────────────────────────┘
+
+┌─ SUPPORT ────────────────────────────────────────────────────────┐
+│                                                                   │
+│  Need help?                                                      │
+│    • Read VIEWING_AND_GITHUB_GUIDE.md                            │
+│    • Check lightning-design-system/README.md                     │
+│    • Check lightning-design-system-cms/README.md                 │
+│                                                                   │
+│  Common Issues:                                                  │
+│    • Port in use: lsof -ti:3000 | xargs kill -9                  │
+│    • Git auth: Use SSH keys or personal access token             │
+│    • Dependencies: rm -rf node_modules && npm install            │
+│                                                                   │
+└───────────────────────────────────────────────────────────────────┘
+
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║  ✅ EVERYTHING IS READY!                                         ║
+║                                                                  ║
+║  Next command:  ./start-dev.sh                                   ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
