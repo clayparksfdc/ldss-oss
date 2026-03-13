@@ -33,27 +33,27 @@ function readTree(dir: string, relativeTo: string, markdownOnly = false): FileEn
       return a.name.localeCompare(b.name);
     });
 
-  return entries
-    .map(entry => {
-      const fullPath = path.join(dir, entry.name);
-      const relPath = path.relative(relativeTo, fullPath);
+  const result: FileEntry[] = [];
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    const relPath = path.relative(relativeTo, fullPath);
 
-      if (entry.isDirectory()) {
-        return {
-          name: entry.name,
-          path: relPath,
-          type: 'directory' as const,
-          children: readTree(fullPath, relativeTo, markdownOnly),
-        };
-      }
-      if (markdownOnly && !MARKDOWN_EXT.test(entry.name)) return null;
-      return {
+    if (entry.isDirectory()) {
+      result.push({
         name: entry.name,
         path: relPath,
-        type: 'file' as const,
-      };
-    })
-    .filter((e): e is FileEntry => e !== null);
+        type: 'directory',
+        children: readTree(fullPath, relativeTo, markdownOnly),
+      });
+    } else if (!markdownOnly || MARKDOWN_EXT.test(entry.name)) {
+      result.push({
+        name: entry.name,
+        path: relPath,
+        type: 'file',
+      });
+    }
+  }
+  return result;
 }
 
 export const createLocalContentRouter = () => {
