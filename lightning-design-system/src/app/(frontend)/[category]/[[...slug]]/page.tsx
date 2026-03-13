@@ -66,7 +66,8 @@ export default async function ContentPage({ params }: ContentPageProps) {
             <li key={`${crumb.url}-${index}`} className="flex items-center gap-2">
               {index > 0 && (
                 <svg
-                  className="h-4 w-4 text-[#706E6B]"
+                  className="h-4 w-4"
+                  style={{ color: "var(--slds-gray-text)" }}
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -78,11 +79,11 @@ export default async function ContentPage({ params }: ContentPageProps) {
                 </svg>
               )}
               {index === breadcrumbs.length - 1 ? (
-                <span className="text-[#706E6B]">{crumb.name}</span>
+                <span style={{ color: "var(--slds-gray-text)" }}>{crumb.name}</span>
               ) : (
                 <Link
                   href={crumb.url as any}
-                  className="text-[#0176D3] hover:text-[#032D60]"
+                  style={{ color: "var(--slds-blue)" }}
                 >
                   {crumb.name}
                 </Link>
@@ -94,11 +95,11 @@ export default async function ContentPage({ params }: ContentPageProps) {
 
       {/* Page Header */}
       <header className={tabCtx ? 'mb-4' : 'mb-8'}>
-        <h1 className="text-4xl font-bold text-[#032D60] mb-2">
+        <h1 className="text-4xl font-bold mb-2" style={{ color: "var(--slds-navy)" }}>
           {displayTitle}
         </h1>
         {displayDescription && (
-          <p className="text-lg text-[#706E6B]">
+          <p className="text-lg" style={{ color: "var(--slds-gray-text)" }}>
             {displayDescription}
           </p>
         )}
@@ -118,15 +119,16 @@ export default async function ContentPage({ params }: ContentPageProps) {
 
       {/* Navigation */}
       {(prev || next) && (
-        <nav className="flex items-center justify-between border-t border-[#E5E5E5] pt-8">
+        <nav className="flex items-center justify-between border-t pt-8" style={{ borderColor: "var(--border)" }}>
           <div className="flex-1">
             {prev && (
               <Link
                 href={`/${category}/${prev.slug}` as any}
-                className="group block p-4 rounded-lg border border-[#E5E5E5] hover:border-[#0176D3] hover:shadow-md transition-all"
+                className="group block p-4 rounded-lg border hover:shadow-md transition-all"
+                style={{ borderColor: "var(--border)" }}
               >
-                <div className="text-xs text-[#706E6B] mb-1">Previous</div>
-                <div className="text-[#0176D3] group-hover:text-[#032D60] font-medium">
+                <div className="text-xs mb-1" style={{ color: "var(--slds-gray-text)" }}>Previous</div>
+                <div className="font-medium" style={{ color: "var(--slds-blue)" }}>
                   {prev.name}
                 </div>
               </Link>
@@ -136,10 +138,11 @@ export default async function ContentPage({ params }: ContentPageProps) {
             {next && (
               <Link
                 href={`/${category}/${next.slug}` as any}
-                className="group inline-block p-4 rounded-lg border border-[#E5E5E5] hover:border-[#0176D3] hover:shadow-md transition-all"
+                className="group inline-block p-4 rounded-lg border hover:shadow-md transition-all"
+                style={{ borderColor: "var(--border)" }}
               >
-                <div className="text-xs text-[#706E6B] mb-1">Next</div>
-                <div className="text-[#0176D3] group-hover:text-[#032D60] font-medium">
+                <div className="text-xs mb-1" style={{ color: "var(--slds-gray-text)" }}>Next</div>
+                <div className="font-medium" style={{ color: "var(--slds-blue)" }}>
                   {next.name}
                 </div>
               </Link>

@@ -165,11 +165,12 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
           <div className="flex items-center">
             <Link
               href={getPageUrl(page) as any}
-              className={`flex-1 block pl-4 pr-1 py-[6px] text-[13px] rounded-md transition-colors ${
-                isActive
-                  ? 'bg-[#EEF4FF] text-[#0176D3] font-medium'
-                  : 'text-[#444444] hover:bg-[#F3F3F3]'
-              }`}
+              className="flex-1 block pl-4 pr-1 py-[6px] text-[13px] rounded-md transition-colors sidebar-page-link"
+              style={{
+                backgroundColor: isActive ? "var(--sidebar-active-bg)" : "transparent",
+                color: isActive ? "var(--slds-blue)" : "var(--slds-gray-dark)",
+                fontWeight: isActive ? 500 : 400,
+              }}
               onClick={() => {
                 if (!isPageExpanded) togglePageExpanded(page.slug)
               }}
@@ -178,12 +179,13 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
             </Link>
             <button
               onClick={() => togglePageExpanded(page.slug)}
-              className="p-1 mr-1 rounded hover:bg-[#F3F3F3] transition-colors flex-shrink-0"
+              className="p-1 mr-1 rounded transition-colors flex-shrink-0 sidebar-chevron-btn"
+              style={{ color: "var(--slds-gray-text)" }}
             >
               {isPageExpanded ? (
-                <ChevronDown className="h-3.5 w-3.5 text-[#706E6B]" />
+                <ChevronDown className="h-3.5 w-3.5" />
               ) : (
-                <ChevronRight className="h-3.5 w-3.5 text-[#706E6B]" />
+                <ChevronRight className="h-3.5 w-3.5" />
               )}
             </button>
           </div>
@@ -196,11 +198,11 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
                   <Link
                     key={tab.slug}
                     href={tab.url as any}
-                    className={`block pl-4 pr-3 py-[5px] text-[12px] rounded-md transition-colors ${
-                      tabActive
-                        ? 'text-[#0176D3] font-medium'
-                        : 'text-[#706E6B] hover:text-[#444444] hover:bg-[#F3F3F3]'
-                    }`}
+                    className="block pl-4 pr-3 py-[5px] text-[12px] rounded-md transition-colors sidebar-tab-link"
+                    style={{
+                      color: tabActive ? "var(--slds-blue)" : "var(--slds-gray-text)",
+                      fontWeight: tabActive ? 500 : 400,
+                    }}
                   >
                     {tab.name}
                   </Link>
@@ -216,11 +218,12 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
       <div key={page.id}>
         <Link
           href={getPageUrl(page) as any}
-          className={`block pl-4 pr-3 py-[6px] text-[13px] rounded-md transition-colors ${
-            isActive
-              ? 'bg-[#EEF4FF] text-[#0176D3] font-medium'
-              : 'text-[#444444] hover:bg-[#F3F3F3]'
-          }`}
+          className="block pl-4 pr-3 py-[6px] text-[13px] rounded-md transition-colors sidebar-page-link"
+          style={{
+            backgroundColor: isActive ? "var(--sidebar-active-bg)" : "transparent",
+            color: isActive ? "var(--slds-blue)" : "var(--slds-gray-dark)",
+            fontWeight: isActive ? 500 : 400,
+          }}
         >
           <span className="truncate">{page.name}</span>
         </Link>
@@ -263,11 +266,11 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
           {landingUrl ? (
             <Link
               href={landingUrl as any}
-              className={`flex-1 flex items-center px-3 py-[7px] text-[13px] font-semibold rounded-md transition-colors ${
-                isCategoryActive
-                  ? 'ring-2 ring-[#0176D3] text-[#032D60]'
-                  : 'text-[#032D60] hover:bg-[#F3F3F3]'
-              }`}
+              className="flex-1 flex items-center px-3 py-[7px] text-[13px] font-semibold rounded-md transition-colors sidebar-cat-link"
+              style={{
+                color: "var(--slds-navy)",
+                boxShadow: isCategoryActive ? "0 0 0 2px var(--slds-blue)" : "none",
+              }}
               onClick={() => {
                 if (!isExpanded) toggleExpanded(category.name)
               }}
@@ -276,11 +279,8 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
             </Link>
           ) : (
             <button
-              className={`flex-1 flex items-center px-3 py-[7px] text-[13px] font-semibold rounded-md transition-colors ${
-                hasActivePage
-                  ? 'text-[#032D60]'
-                  : 'text-[#032D60] hover:bg-[#F3F3F3]'
-              }`}
+              className="flex-1 flex items-center px-3 py-[7px] text-[13px] font-semibold rounded-md transition-colors sidebar-cat-link"
+              style={{ color: "var(--slds-navy)" }}
               onClick={() => toggleExpanded(category.name)}
             >
               <span className="flex-1 text-left">{category.name}</span>
@@ -289,12 +289,13 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
           {hasPages && (
             <button
               onClick={() => toggleExpanded(category.name)}
-              className="p-1 mr-1 rounded hover:bg-[#F3F3F3] transition-colors"
+              className="p-1 mr-1 rounded transition-colors sidebar-chevron-btn"
+              style={{ color: "var(--slds-gray-text)" }}
             >
               {isExpanded ? (
-                <ChevronDown className="h-4 w-4 text-[#706E6B]" />
+                <ChevronDown className="h-4 w-4" />
               ) : (
-                <ChevronRight className="h-4 w-4 text-[#706E6B]" />
+                <ChevronRight className="h-4 w-4" />
               )}
             </button>
           )}
@@ -318,13 +319,15 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
           onClick={() => setMobileOpen(false)}
         />
       )}
-      <aside className={`
-        w-[260px] bg-white border-r border-[#E5E5E5] flex flex-col flex-shrink-0 h-screen sticky top-0
-        max-lg:fixed max-lg:z-50 max-lg:top-0 max-lg:left-0 max-lg:h-full
-        max-lg:transition-transform max-lg:duration-200
-        ${mobileOpen ? 'max-lg:translate-x-0' : 'max-lg:-translate-x-full'}
-      `}>
-      {/* Logo Section */}
+      <aside
+        className={`
+          w-[260px] border-r flex flex-col flex-shrink-0 h-screen sticky top-0
+          max-lg:fixed max-lg:z-50 max-lg:top-0 max-lg:left-0 max-lg:h-full
+          max-lg:transition-transform max-lg:duration-200
+          ${mobileOpen ? 'max-lg:translate-x-0' : 'max-lg:-translate-x-full'}
+        `}
+        style={{ backgroundColor: "var(--sidebar-bg)", borderColor: "var(--border)" }}
+      >
       <div className="px-5 pt-5 pb-3">
         <Link href="/" className="block mb-5">
           <img
@@ -334,15 +337,21 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
           />
         </Link>
 
-        {/* Search */}
         <div className="relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#706E6B]" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4" style={{ color: "var(--slds-gray-text)" }} />
           <input
             type="search"
             placeholder="Search..."
             value={searchQuery}
             onChange={(e) => handleSearch(e.target.value)}
-            className="w-full pl-9 pr-3 py-2 text-sm bg-white border border-[#D8D8D8] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0176D3] focus:border-transparent placeholder:text-[#706E6B]"
+            className="w-full pl-9 pr-3 py-2 text-sm rounded-lg focus:outline-none focus:ring-2 focus:border-transparent"
+            style={{
+              backgroundColor: "var(--surface-raised)",
+              borderWidth: "1px",
+              borderStyle: "solid",
+              borderColor: "var(--border-strong)",
+              color: "var(--foreground)",
+            }}
           />
         </div>
       </div>
@@ -351,10 +360,10 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
       {searchQuery.length >= 2 ? (
         <div className="flex-1 overflow-y-auto px-2 pb-6 pt-2">
           {isSearching ? (
-            <div className="px-3 py-4 text-sm text-[#706E6B]">Searching...</div>
+            <div className="px-3 py-4 text-sm" style={{ color: "var(--slds-gray-text)" }}>Searching...</div>
           ) : searchResults.length > 0 ? (
             <div className="space-y-0.5">
-              <div className="px-3 py-1 text-xs text-[#706E6B] font-medium">
+              <div className="px-3 py-1 text-xs font-medium" style={{ color: "var(--slds-gray-text)" }}>
                 {searchResults.length} result{searchResults.length !== 1 ? 's' : ''}
               </div>
               {searchResults.map((result, idx) => (
@@ -362,15 +371,16 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
                   key={idx}
                   href={result.url as any}
                   onClick={() => { setSearchQuery(''); setSearchResults([]) }}
-                  className={`block pl-4 pr-3 py-[6px] text-[13px] rounded-md transition-colors ${
-                    pathname === result.url
-                      ? 'bg-[#EEF4FF] text-[#0176D3] font-medium'
-                      : 'text-[#444444] hover:bg-[#F3F3F3]'
-                  }`}
+                  className="block pl-4 pr-3 py-[6px] text-[13px] rounded-md transition-colors sidebar-page-link"
+                  style={{
+                    backgroundColor: pathname === result.url ? "var(--sidebar-active-bg)" : "transparent",
+                    color: pathname === result.url ? "var(--slds-blue)" : "var(--slds-gray-dark)",
+                    fontWeight: pathname === result.url ? 500 : 400,
+                  }}
                 >
                   <span className="block truncate">{result.title}</span>
                   {result.category && (
-                    <span className="block text-[11px] text-[#706E6B] mt-0.5 truncate">
+                    <span className="block text-[11px] mt-0.5 truncate" style={{ color: "var(--slds-gray-text)" }}>
                       {result.category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
                     </span>
                   )}
@@ -378,7 +388,7 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
               ))}
             </div>
           ) : (
-            <div className="px-3 py-4 text-sm text-[#706E6B]">No results found</div>
+            <div className="px-3 py-4 text-sm" style={{ color: "var(--slds-gray-text)" }}>No results found</div>
           )}
         </div>
       ) : (
