@@ -1,0 +1,605 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+4:I[8906,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"ThemeProvider"]
+5:I[4974,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"default"]
+6:I[9505,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"Header"]
+7:I[3834,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"DynamicSidebar"]
+d:I[7150,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/dd33a07d33fc611c.css","style"]
+0:{"P":null,"b":"KTtvz2X-1MHTYU9akXno5","p":"","c":["","ai-and-slds-2","refinement-phase"],"i":false,"f":[[["",{"children":["(frontend)",{"children":[["category","ai-and-slds-2","d"],{"children":[["slug","refinement-phase","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true]}],["",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(frontend)",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/dd33a07d33fc611c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"light","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var theme = localStorage.getItem('theme');\n              var dark = theme === 'dark' || (theme === 'system' || !theme) && window.matchMedia('(prefers-color-scheme: dark)').matches;\n              document.documentElement.classList.toggle('dark', dark);\n              document.documentElement.classList.toggle('light', !dark);\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"__variable_f367f3 antialiased","id":"frontend-app","style":{"backgroundColor":"var(--background)"},"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{}],["$","div",null,{"className":"flex min-h-[calc(100vh-36px)]","style":{"backgroundColor":"var(--background)"},"children":[["$","$L7",null,{"navigation":[{"id":1,"name":"Get Started","slug":"get-started","hidden":false,"children":[{"id":1,"name":"Get Started","slug":"get-started","url":"/get-started/get-started","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":2,"name":"Transition to SLDS 2","slug":"transition-to-slds-2","url":"/get-started/transition-to-slds-2","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":3,"name":"Admins","slug":"admins","url":"/get-started/admins","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":4,"name":"Designers","slug":"designers","url":"/get-started/designers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":5,"name":"Developers","slug":"developers","url":"/get-started/developers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":6,"name":"Resources","slug":"resources","url":"/get-started/resources","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":2,"name":"AI and SLDS 2","slug":"general","hidden":false,"children":[{"id":7,"name":"AI and SLDS 2","slug":"ai-and-slds-2","url":"/general/ai-and-slds-2","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":8,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/general/agentic-patterns","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":9,"name":"AI Tools","slug":"ai-tools","url":"/general/ai-tools","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":3,"name":"Foundations","slug":"foundation","hidden":false,"children":[{"id":10,"name":"Icons","slug":"icons","url":"/foundation/icons","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"icons--overview","url":"/foundation/icons--overview"},{"name":"Usage","slug":"icons--usage","url":"/foundation/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/foundation/icons--develop"},{"name":"Specifications","slug":"icons--specifications","url":"/foundation/icons--specifications"},{"name":"Accessibility","slug":"icons--accessibility","url":"/foundation/icons--accessibility"},{"name":"Action","slug":"icons--action","url":"/foundation/icons--action"},{"name":"Doctype","slug":"icons--doctype","url":"/foundation/icons--doctype"},{"name":"Object","slug":"icons--object","url":"/foundation/icons--object"},{"name":"Product","slug":"icons--product","url":"/foundation/icons--product"},{"name":"Utility","slug":"icons--utility","url":"/foundation/icons--utility"}]},{"id":11,"name":"Color","slug":"color","url":"/foundation/color","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Color Palette","slug":"color--color-palette","url":"/foundation/color--color-palette"},{"name":"Overview","slug":"color--overview","url":"/foundation/color--overview"},{"name":"Semantic Color","slug":"color--semantic-color","url":"/foundation/color--semantic-color"},{"name":"Styling Hooks","slug":"color--styling-hooks","url":"/foundation/color--styling-hooks"},{"name":"System Palette","slug":"color--system-palette","url":"/foundation/color--system-palette"}]},{"id":12,"name":"Typography","slug":"typography","url":"/foundation/typography","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"typography--overview","url":"/foundation/typography--overview"},{"name":"Usage","slug":"typography--usage","url":"/foundation/typography--usage"},{"name":"Type Styles","slug":"typography--type-styles","url":"/foundation/typography--type-styles"},{"name":"Styling Hooks","slug":"typography--styling-hooks","url":"/foundation/typography--styling-hooks"}]},{"id":13,"name":"Spacing and Sizing","slug":"spacing-and-sizing","url":"/foundation/spacing-and-sizing","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"spacing-and-sizing--overview","url":"/foundation/spacing-and-sizing--overview"},{"name":"Spacing","slug":"spacing-and-sizing--spacing","url":"/foundation/spacing-and-sizing--spacing"},{"name":"Sizing","slug":"spacing-and-sizing--sizing","url":"/foundation/spacing-and-sizing--sizing"},{"name":"Styling Hooks","slug":"spacing-and-sizing--styling-hooks","url":"/foundation/spacing-and-sizing--styling-hooks"}]},{"id":14,"name":"Display Density","slug":"display-density","url":"/foundation/display-density","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"display-density--overview","url":"/foundation/display-density--overview"},{"name":"Custom Configurations","slug":"display-density--custom-configurations","url":"/foundation/display-density--custom-configurations"},{"name":"Styling Hooks","slug":"display-density--styling-hooks","url":"/foundation/display-density--styling-hooks"}]},{"id":15,"name":"Borders and Radius","slug":"borders-and-radius","url":"/foundation/borders-and-radius","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"borders-and-radius--overview","url":"/foundation/borders-and-radius--overview"},{"name":"Color","slug":"borders-and-radius--color","url":"/foundation/borders-and-radius--color"},{"name":"Radius","slug":"borders-and-radius--radius","url":"/foundation/borders-and-radius--radius"},{"name":"Width","slug":"borders-and-radius--width","url":"/foundation/borders-and-radius--width"},{"name":"Styling Hooks","slug":"borders-and-radius--styling-hooks","url":"/foundation/borders-and-radius--styling-hooks"}]},{"id":16,"name":"Shadows","slug":"shadows","url":"/foundation/shadows","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"shadows--overview","url":"/foundation/shadows--overview"},{"name":"Usage","slug":"shadows--usage","url":"/foundation/shadows--usage"},{"name":"Styling Hooks","slug":"shadows--styling-hooks","url":"/foundation/shadows--styling-hooks"}]},{"id":17,"name":"Illustrations","slug":"illustrations","url":"/foundation/illustrations","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"illustrations--overview","url":"/foundation/illustrations--overview"},{"name":"Types","slug":"illustrations--types","url":"/foundation/illustrations--types"},{"name":"UI Text","slug":"illustrations--ui-text","url":"/foundation/illustrations--ui-text"}]}]},{"id":4,"name":"Develop","slug":"develop","hidden":false,"children":[{"id":18,"name":"Global Styling Hooks","slug":"styling-hook-index","url":"/develop/styling-hook-index","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":19,"name":"Utility Classes","slug":"utility-classes","url":"/develop/utility-classes","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":5,"name":"Components","slug":"component","hidden":false,"children":[{"id":20,"name":"Accordion","slug":"accordion","url":"/component/accordion","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"accordion--usage","url":"/component/accordion--usage"},{"name":"Develop","slug":"accordion--develop","url":"/develop/accordion--develop"},{"name":"Specifications","slug":"accordion--specifications","url":"/component/accordion--specifications"},{"name":"Accessibility","slug":"accordion--accessibility","url":"/component/accordion--accessibility"}]},{"id":21,"name":"Avatar","slug":"avatar","url":"/component/avatar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"avatar--usage","url":"/component/avatar--usage"},{"name":"Develop","slug":"avatar--develop","url":"/develop/avatar--develop"},{"name":"Specifications","slug":"avatar--specifications","url":"/component/avatar--specifications"},{"name":"Accessibility","slug":"avatar--accessibility","url":"/component/avatar--accessibility"}]},{"id":22,"name":"Badge","slug":"badge","url":"/component/badge","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"badge--usage","url":"/component/badge--usage"},{"name":"Develop","slug":"badge--develop","url":"/develop/badge--develop"},{"name":"Accessibility","slug":"badge--accessibility","url":"/component/badge--accessibility"}]},{"id":23,"name":"Breadcrumbs","slug":"breadcrumbs","url":"/component/breadcrumbs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"breadcrumbs--usage","url":"/component/breadcrumbs--usage"},{"name":"Specifications","slug":"breadcrumbs--specifications","url":"/component/breadcrumbs--specifications"},{"name":"Accessibility","slug":"breadcrumbs--accessibility","url":"/component/breadcrumbs--accessibility"}]},{"id":24,"name":"Button","slug":"button","url":"/component/button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button--usage","url":"/component/button--usage"},{"name":"Develop","slug":"button--develop","url":"/develop/button--develop"},{"name":"Specifications","slug":"button--specifications","url":"/component/button--specifications"},{"name":"Accessibility","slug":"button--accessibility","url":"/component/button--accessibility"}]},{"id":25,"name":"Button Groups","slug":"button-groups","url":"/component/button-groups","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-groups--usage","url":"/component/button-groups--usage"},{"name":"Accessibility","slug":"button-groups--accessibility","url":"/component/button-groups--accessibility"}]},{"id":26,"name":"Button Icons","slug":"button-icons","url":"/component/button-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-icons--usage","url":"/component/button-icons--usage"},{"name":"Specifications","slug":"button-icons--specifications","url":"/component/button-icons--specifications"},{"name":"Accessibility","slug":"button-icons--accessibility","url":"/component/button-icons--accessibility"}]},{"id":27,"name":"Cards","slug":"cards","url":"/component/cards","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"cards--usage","url":"/component/cards--usage"},{"name":"Develop","slug":"cards--develop","url":"/develop/cards--develop"},{"name":"Specifications","slug":"cards--specifications","url":"/component/cards--specifications"}]},{"id":28,"name":"Carousel","slug":"carousel","url":"/component/carousel","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"carousel--develop","url":"/develop/carousel--develop"},{"name":"Specifications","slug":"carousel--specifications","url":"/component/carousel--specifications"},{"name":"Accessibility","slug":"carousel--accessibility","url":"/component/carousel--accessibility"}]},{"id":29,"name":"Checkbox","slug":"checkbox","url":"/component/checkbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox--usage","url":"/component/checkbox--usage"},{"name":"Specifications","slug":"checkbox--specifications","url":"/component/checkbox--specifications"},{"name":"Accessibility","slug":"checkbox--accessibility","url":"/component/checkbox--accessibility"}]},{"id":30,"name":"Checkbox Button","slug":"checkbox-button","url":"/component/checkbox-button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Specifications","slug":"checkbox-button--specifications","url":"/component/checkbox-button--specifications"},{"name":"Accessibility","slug":"checkbox-button--accessibility","url":"/component/checkbox-button--accessibility"}]},{"id":31,"name":"Checkbox Toggle","slug":"checkbox-toggle","url":"/component/checkbox-toggle","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox-toggle--usage","url":"/component/checkbox-toggle--usage"},{"name":"Specifications","slug":"checkbox-toggle--specifications","url":"/component/checkbox-toggle--specifications"},{"name":"Accessibility","slug":"checkbox-toggle--accessibility","url":"/component/checkbox-toggle--accessibility"}]},{"id":32,"name":"Color Picker","slug":"color-picker","url":"/component/color-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"color-picker--usage","url":"/foundation/color-picker--usage"},{"name":"Specifications","slug":"color-picker--specifications","url":"/foundation/color-picker--specifications"},{"name":"Accessibility","slug":"color-picker--accessibility","url":"/foundation/color-picker--accessibility"}]},{"id":33,"name":"Combobox","slug":"combobox","url":"/component/combobox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"combobox--usage","url":"/component/combobox--usage"},{"name":"Develop","slug":"combobox--develop","url":"/develop/combobox--develop"},{"name":"Specifications","slug":"combobox--specifications","url":"/component/combobox--specifications"}]},{"id":34,"name":"Data Table","slug":"data-table","url":"/component/data-table","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"data-table--usage","url":"/component/data-table--usage"},{"name":"Develop","slug":"data-table--develop","url":"/develop/data-table--develop"},{"name":"Specifications","slug":"data-table--specifications","url":"/component/data-table--specifications"}]},{"id":35,"name":"Datepicker","slug":"datepicker","url":"/component/datepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datepicker--develop","url":"/develop/datepicker--develop"},{"name":"Specifications","slug":"datepicker--specifications","url":"/component/datepicker--specifications"},{"name":"Accessibility","slug":"datepicker--accessibility","url":"/component/datepicker--accessibility"}]},{"id":36,"name":"Datetime Picker","slug":"datetime-picker","url":"/component/datetime-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datetime-picker--develop","url":"/develop/datetime-picker--develop"},{"name":"Accessibility","slug":"datetime-picker--accessibility","url":"/foundation/datetime-picker--accessibility"}]},{"id":37,"name":"Dual Listbox","slug":"dual-listbox","url":"/component/dual-listbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dual-listbox--usage","url":"/component/dual-listbox--usage"},{"name":"Develop","slug":"dual-listbox--develop","url":"/develop/dual-listbox--develop"},{"name":"Specifications","slug":"dual-listbox--specifications","url":"/component/dual-listbox--specifications"},{"name":"Accessibility","slug":"dual-listbox--accessibility","url":"/component/dual-listbox--accessibility"}]},{"id":38,"name":"Dynamic Icons","slug":"dynamic-icons","url":"/component/dynamic-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dynamic-icons--usage","url":"/component/dynamic-icons--usage"},{"name":"Develop","slug":"dynamic-icons--develop","url":"/develop/dynamic-icons--develop"},{"name":"Specifications","slug":"dynamic-icons--specifications","url":"/component/dynamic-icons--specifications"},{"name":"Accessibility","slug":"dynamic-icons--accessibility","url":"/component/dynamic-icons--accessibility"}]},{"id":39,"name":"Empty State","slug":"empty-state","url":"/component/empty-state","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"empty-state--accessibility","url":"/foundation/empty-state--accessibility"}]},{"id":40,"name":"File Selector","slug":"file-selector","url":"/component/file-selector","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"file-selector--usage","url":"/component/file-selector--usage"},{"name":"Specifications","slug":"file-selector--specifications","url":"/component/file-selector--specifications"},{"name":"Accessibility","slug":"file-selector--accessibility","url":"/component/file-selector--accessibility"}]},{"id":41,"name":"Form Element","slug":"form-element","url":"/component/form-element","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"form-element--usage","url":"/component/form-element--usage"},{"name":"Develop","slug":"form-element--develop","url":"/develop/form-element--develop"},{"name":"Specifications","slug":"form-element--specifications","url":"/component/form-element--specifications"},{"name":"Accessibility","slug":"form-element--accessibility","url":"/component/form-element--accessibility"}]},{"id":42,"name":"Icons","slug":"icons","url":"/component/icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"icons--usage","url":"/component/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/develop/icons--develop"},{"name":"Accessibility","slug":"icons--accessibility","url":"/component/icons--accessibility"}]},{"id":43,"name":"Input","slug":"input","url":"/component/input","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"input--usage","url":"/component/input--usage"},{"name":"Specifications","slug":"input--specifications","url":"/component/input--specifications"},{"name":"Accessibility","slug":"input--accessibility","url":"/component/input--accessibility"}]},{"id":44,"name":"Map","slug":"map","url":"/component/map","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"map--accessibility","url":"/foundation/map--accessibility"}]},{"id":45,"name":"Menu","slug":"menu","url":"/component/menu","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"menu--usage","url":"/component/menu--usage"},{"name":"Develop","slug":"menu--develop","url":"/develop/menu--develop"},{"name":"Specifications","slug":"menu--specifications","url":"/component/menu--specifications"},{"name":"Accessibility","slug":"menu--accessibility","url":"/component/menu--accessibility"}]},{"id":46,"name":"Modals","slug":"modals","url":"/component/modals","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"modals--usage","url":"/component/modals--usage"},{"name":"Develop","slug":"modals--develop","url":"/develop/modals--develop"},{"name":"Specifications","slug":"modals--specifications","url":"/component/modals--specifications"},{"name":"Accessibility","slug":"modals--accessibility","url":"/component/modals--accessibility"}]},{"id":47,"name":"Pills","slug":"pills","url":"/component/pills","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"pills--usage","url":"/component/pills--usage"},{"name":"Develop","slug":"pills--develop","url":"/develop/pills--develop"},{"name":"Specifications","slug":"pills--specifications","url":"/component/pills--specifications"},{"name":"Accessibility","slug":"pills--accessibility","url":"/component/pills--accessibility"}]},{"id":48,"name":"Popover","slug":"popover","url":"/component/popover","category":"component","hidden":false,"showTabsInSidebar":"$undefined"},{"id":49,"name":"Progress Bar","slug":"progress-bar","url":"/component/progress-bar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-bar--usage","url":"/component/progress-bar--usage"},{"name":"Specifications","slug":"progress-bar--specifications","url":"/component/progress-bar--specifications"},{"name":"Accessibility","slug":"progress-bar--accessibility","url":"/component/progress-bar--accessibility"}]},{"id":50,"name":"Progress Indicator","slug":"progress-indicator","url":"/component/progress-indicator","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-indicator--usage","url":"/component/progress-indicator--usage"},{"name":"Develop","slug":"progress-indicator--develop","url":"/develop/progress-indicator--develop"},{"name":"Specifications","slug":"progress-indicator--specifications","url":"/component/progress-indicator--specifications"}]},{"id":51,"name":"Progress Ring","slug":"progress-ring","url":"/component/progress-ring","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-ring--usage","url":"/component/progress-ring--usage"},{"name":"Develop","slug":"progress-ring--develop","url":"/develop/progress-ring--develop"},{"name":"Specifications","slug":"progress-ring--specifications","url":"/component/progress-ring--specifications"}]},{"id":52,"name":"Prompt","slug":"prompt","url":"/component/prompt","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"prompt--develop","url":"/develop/prompt--develop"}]},{"id":53,"name":"Radio Button Group","slug":"radio-button-group","url":"/component/radio-button-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-button-group--usage","url":"/component/radio-button-group--usage"},{"name":"Develop","slug":"radio-button-group--develop","url":"/develop/radio-button-group--develop"},{"name":"Specifications","slug":"radio-button-group--specifications","url":"/component/radio-button-group--specifications"},{"name":"Accessibility","slug":"radio-button-group--accessibility","url":"/component/radio-button-group--accessibility"}]},{"id":54,"name":"Radio Group","slug":"radio-group","url":"/component/radio-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-group--usage","url":"/component/radio-group--usage"},{"name":"Develop","slug":"radio-group--develop","url":"/develop/radio-group--develop"},{"name":"Specifications","slug":"radio-group--specifications","url":"/component/radio-group--specifications"},{"name":"Accessibility","slug":"radio-group--accessibility","url":"/component/radio-group--accessibility"}]},{"id":55,"name":"Rich Text Editor","slug":"rich-text-editor","url":"/component/rich-text-editor","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"rich-text-editor--accessibility","url":"/foundation/rich-text-editor--accessibility"}]},{"id":56,"name":"Scoped Tabs","slug":"scoped-tabs","url":"/component/scoped-tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"scoped-tabs--usage","url":"/component/scoped-tabs--usage"},{"name":"Develop","slug":"scoped-tabs--develop","url":"/develop/scoped-tabs--develop"},{"name":"Specifications","slug":"scoped-tabs--specifications","url":"/component/scoped-tabs--specifications"},{"name":"Accessibility","slug":"scoped-tabs--accessibility","url":"/component/scoped-tabs--accessibility"}]},{"id":57,"name":"Select","slug":"select","url":"/component/select","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"select--usage","url":"/component/select--usage"},{"name":"Develop","slug":"select--develop","url":"/develop/select--develop"},{"name":"Specifications","slug":"select--specifications","url":"/component/select--specifications"}]},{"id":58,"name":"Slider","slug":"slider","url":"/component/slider","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"slider--accessibility","url":"/foundation/slider--accessibility"}]},{"id":59,"name":"Spinners","slug":"spinners","url":"/component/spinners","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"spinners--usage","url":"/component/spinners--usage"},{"name":"Specifications","slug":"spinners--specifications","url":"/component/spinners--specifications"},{"name":"Accessibility","slug":"spinners--accessibility","url":"/component/spinners--accessibility"}]},{"id":60,"name":"Tabs","slug":"tabs","url":"/component/tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tabs--usage","url":"/component/tabs--usage"},{"name":"Develop","slug":"tabs--develop","url":"/develop/tabs--develop"},{"name":"Specifications","slug":"tabs--specifications","url":"/component/tabs--specifications"},{"name":"Accessibility","slug":"tabs--accessibility","url":"/component/tabs--accessibility"}]},{"id":61,"name":"Textarea","slug":"textarea","url":"/component/textarea","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"textarea--usage","url":"/component/textarea--usage"},{"name":"Develop","slug":"textarea--develop","url":"/develop/textarea--develop"},{"name":"Specifications","slug":"textarea--specifications","url":"/component/textarea--specifications"},{"name":"Accessibility","slug":"textarea--accessibility","url":"/component/textarea--accessibility"}]},{"id":62,"name":"Tiles","slug":"tiles","url":"/component/tiles","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"tiles--develop","url":"/develop/tiles--develop"},{"name":"Accessibility","slug":"tiles--accessibility","url":"/foundation/tiles--accessibility"}]},{"id":63,"name":"Timepicker","slug":"timepicker","url":"/component/timepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"timepicker--develop","url":"/develop/timepicker--develop"},{"name":"Accessibility","slug":"timepicker--accessibility","url":"/foundation/timepicker--accessibility"}]},{"id":64,"name":"Toast","slug":"toast","url":"/component/toast","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"toast--usage","url":"/component/toast--usage"},{"name":"Develop","slug":"toast--develop","url":"/develop/toast--develop"},{"name":"Specifications","slug":"toast--specifications","url":"/component/toast--specifications"},{"name":"Accessibility","slug":"toast--accessibility","url":"/component/toast--accessibility"}]},{"id":65,"name":"Tooltip","slug":"tooltip","url":"/component/tooltip","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tooltip--usage","url":"/component/tooltip--usage"},{"name":"Specifications","slug":"tooltip--specifications","url":"/component/tooltip--specifications"},{"name":"Accessibility","slug":"tooltip--accessibility","url":"/component/tooltip--accessibility"}]},{"id":66,"name":"Tree","slug":"tree","url":"/component/tree","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree--usage","url":"/component/tree--usage"},{"name":"Specifications","slug":"tree--specifications","url":"/component/tree--specifications"},{"name":"Accessibility","slug":"tree--accessibility","url":"/component/tree--accessibility"}]},{"id":67,"name":"Tree Grid","slug":"tree-grid","url":"/component/tree-grid","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree-grid--usage","url":"/component/tree-grid--usage"},{"name":"Develop","slug":"tree-grid--develop","url":"/develop/tree-grid--develop"},{"name":"Accessibility","slug":"tree-grid--accessibility","url":"/component/tree-grid--accessibility"}]}]},{"id":6,"name":"Patterns","slug":"pattern","hidden":false,"children":[{"id":68,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/pattern/agentic-patterns","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined"},{"id":69,"name":"In App Feedback","slug":"in-app-feedback","url":"/pattern/in-app-feedback","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"In App Feedback Patterns","slug":"in-app-feedback--in-app-feedback-patterns","url":"/pattern/in-app-feedback--in-app-feedback-patterns"}]},{"id":70,"name":"User Engagement","slug":"user-engagement","url":"/pattern/user-engagement","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Overview","slug":"user-engagement--overview","url":"/pattern/user-engagement--overview"},{"name":"Feature Discovery","slug":"user-engagement--feature-discovery","url":"/pattern/user-engagement--feature-discovery"},{"name":"Deeper Learning","slug":"user-engagement--deeper-learning","url":"/pattern/user-engagement--deeper-learning"},{"name":"Troubleshooting","slug":"user-engagement--troubleshooting","url":"/pattern/user-engagement--troubleshooting"},{"name":"Onboarding","slug":"user-engagement--onboarding","url":"/pattern/user-engagement--onboarding"}]}]},{"id":7,"name":"Accessibility","slug":"foundation","hidden":false,"children":[{"id":71,"name":"Global Accessibility Standards","slug":"global-accessibility-standards","url":"/foundation/global-accessibility-standards","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"},{"id":72,"name":"Text and Color Contrast","slug":"text-and-color-contrast","url":"/foundation/text-and-color-contrast","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":8,"name":"Tools","slug":"develop","hidden":false,"children":[{"id":73,"name":"Developer Tools","slug":"developer-tools","url":"/develop/developer-tools","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":74,"name":"Designer Tools","slug":"designer-tools","url":"/design/designer-tools","category":"design","hidden":false,"showTabsInSidebar":"$undefined"},{"id":75,"name":"SLDS Validator","slug":"slds-validator","url":"/tools/slds-validator","category":"tools","hidden":false,"showTabsInSidebar":"$undefined"},{"id":76,"name":"SLDS Linter","slug":"slds-linter","url":"/general/slds-linter","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]}]}],"$L8"]}]]}]}]]}]]}],{"children":[["category","ai-and-slds-2","d"],"$L9",{"children":[["slug","refinement-phase","oc"],"$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false]},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+e:I[2619,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],""]
+10:I[4431,[],"OutletBoundary"]
+12:I[5278,[],"AsyncMetadataOutlet"]
+14:I[4431,[],"ViewportBoundary"]
+16:I[4431,[],"MetadataBoundary"]
+17:"$Sreact.suspense"
+8:["$","div",null,{"className":"flex-1 flex flex-col overflow-auto","style":{"backgroundColor":"var(--background)"},"children":[["$","main",null,{"className":"flex-1 px-4 sm:px-6 md:px-12 py-0","style":{"backgroundColor":"var(--background)"},"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t pt-8 pb-12 text-[12px] mt-16 transition-colors","style":{"borderColor":"var(--border)","color":"var(--slds-gray-text)","backgroundColor":"var(--footer-bg)"},"children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 md:px-12","children":[["$","div",null,{"className":"flex flex-wrap gap-x-6 gap-y-2 mb-4","children":[["$","$Le",null,{"href":"/general/get-started","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Get Started"}],[["$","a","Terms of Service",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Terms of Service"}],["$","a","Privacy",{"href":"https://www.salesforce.com/company/privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Privacy"}],["$","a","Responsible Disclosure",{"href":"https://www.salesforce.com/company/security/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Responsible Disclosure"}],["$","a","Trust",{"href":"https://trust.salesforce.com/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Trust"}],["$","a","Your Privacy Choices",{"href":"https://www.salesforce.com/company/privacy/full_privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Your Privacy Choices"}],["$","a","Salesforce Legal",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Salesforce Legal"}]]]}],["$","p",null,{"className":"text-[11px]","style":{"color":"var(--slds-gray-text)","opacity":0.7},"children":"© Copyright 2015-present Salesforce, Inc. All rights reserved. Various trademarks held by their respective owners. Salesforce, Inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States"}]]}]}]]}]
+9:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+a:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":["$L11",["$","$L12",null,{"promise":"$@13"}]]}]]}]
+c:["$","$1","h",{"children":[null,[["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L16",null,{"children":["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":"$L18"}]}]}]]}]
+19:T63d8,<p>If testing or implementation reveals problems, refine your prompts to improve LLM output. Common reasons an LLM may not follow instructions include:</p>
+<ul>
+<li><strong>Complex wording</strong>: Instructions are too long or unclear.</li>
+<li><strong>Conflicting asks:</strong> Prompts contain contradictory directions.</li>
+<li><strong>Excess length</strong>: Main task is buried in too much text.</li>
+<li><strong>Missing context:</strong> Not enough background for the task.</li>
+<li><strong>Model limits:</strong> Gaps in training or capabilities.</li>
+<li><strong>Training bias:</strong> Patterns in training data affect behavior.</li>
+</ul>
+<h2>Prompt Tuning</h2>
+<p>Prompt tuning means making small, step-by-step changes to improve your prompt until the output meets your goals. It involves reviewing the model’s responses and refining the context, rules, guardrails, examples, or other elements to get the result you want.</p>
+<p>Tuning improves quality, accuracy, and consistency, and helps you see clear progress over time, especially if the first prompt doesn’t work well. Make one change at a time so you can tell exactly what caused the improvement or problem. Multiple changes at once make it hard to know what worked.</p>
+<h3>Best Practices</h3>
+<h4>1. Analyze your prompt anatomy</h4>
+<p>Break down the prompt structure. Examine individual elements of the prompt, including role, task description, context, instructions, formatting, and grounding data. For each element, look at the language use, cohesion, syntax, and potential variable conditions.</p>
+<ul>
+<li><strong>Identify potential ambiguities</strong>. Read through each rule and guardrail and ask yourself: Could this be interpreted in multiple ways? Is the language precise? Are there any implicit assumptions being made?</li>
+<li><strong>Look for contradictions.</strong> Are there any rules or details that conflict with each other, even subtly?</li>
+<li><strong>Assess the level of detail.</strong> Is there enough detail in each element, or is it too vague? Conversely, is it overly verbose and potentially confusing the model?</li>
+</ul>
+<p>Pinpoint outputs that miss the mark for requirements or expected quality. Identify what specifically makes them bad outputs.</p>
+<ul>
+<li><strong>Map errors to prompt elements.</strong> For each instance of an ignored instruction, hallucination, or other issue, try to pinpoint which part of the prompt is contributing to the problem.</li>
+<li><strong>Identify patterns.</strong> Are certain types of instructions consistently ignored? Are hallucinations occurring around specific data points?</li>
+<li><strong>Document specific examples.</strong> Keep a detailed log of the problematic outputs and the corresponding prompt used to generate them. This will be crucial for tracking your progress.</li>
+</ul>
+<h4>2. Understand the system prompt</h4>
+<p>Explore implemented system-level features, such as model containment policies and prompt wrappers. Determine what to include in global versus local instructions, avoiding conflicts and duplication.</p>
+<h4>3. Tune the prompt</h4>
+<p>Refine instructions to enhance the clarity and effectiveness of the elements within your prompt.</p>
+<h4>4. Conduct ablation testing</h4>
+<p>Start with a minimal baseline and add elements or instructions incrementally as needed. Remove anything that doesn’t enhance output quality.</p>
+<h4>5. Capture evidence</h4>
+<p>Document versions and refinements to track improvements in output quality, using a methodical approach.</p>
+<h3>Prompt Tuning vs. Fine-Tuning</h3>
+<p>In a nutshell, prompt tuning is about optimizing how you talk to an LLM, while fine-tuning is about changing how the LLM itself talks and involves modifying how the LLM generates responses.</p>
+<p>While both aim to optimize LLM performance, they do so through fundamentally different approaches.</p>
+<p><strong>Prompt Tuning</strong></p>
+<p><strong>Fine-Tuning</strong></p>
+<p>Definition</p>
+<p>Prompt tuning focuses on crafting optimal input prompts to guide the LLM towards desired outputs.</p>
+<p>It involves manipulating the wording, structure, and context of the prompt itself.</p>
+<p>This method leverages the existing knowledge and capabilities of the pre-trained LLM.</p>
+<p>Fine-tuning involves training an existing pre-trained LLM on a specific dataset to specialize its performance for a particular task or domain.</p>
+<p>This process adjusts the model's internal parameters, or weights, to better align with the characteristics of the training data.</p>
+<p>Key Characteristics</p>
+<p>Doesn't alter the LLM's underlying model weights.</p>
+<p>Relatively quick and cost-effective.</p>
+<p>Highly flexible and adaptable to various tasks.</p>
+<p>Relies on the user's ability to design effective prompts.</p>
+<p>Modifies the LLM's model weights.</p>
+<p>Resource-intensive and time-consuming.</p>
+<p>Creates a specialized model that excels in a specific domain.</p>
+<p>Requires a labeled dataset for training.</p>
+<p>Use Cases</p>
+<p>Content generation, question answering, summarization, and other general-purpose tasks.</p>
+<p>Situations where rapid deployment and flexibility are essential.</p>
+<p>Highly specialized tasks requiring high accuracy, such as medical diagnosis, legal document analysis, or customer support for a specific product.</p>
+<p>Situations where the LLM's general knowledge is insufficient.</p>
+<h3>Instruction Tuning</h3>
+<p>Instruction tuning is the process of refining the wording of the instructions within your prompt to better guide the LLM towards your desired output.</p>
+<h4>Step 1: Clearly identify your goal, and the acceptance criteria.</h4>
+<p>Acceptance criteria are the checkpoints you use to decide if the LLM’s output meets your requirements. They act as your benchmark but are not part of the prompt itself.</p>
+<p>Start with your success criteria from the design phase, then adapt them to your use case. Common dimensions for acceptance criteria include:</p>
+<p><strong>Criteria</strong></p>
+<p><strong>Description</strong></p>
+<p><strong>Factual Accuracy</strong></p>
+<p>The output must contain only verifiable information, with no hallucinations or fabricated details.</p>
+<p>All numerical data must be accurate and consistent with provided sources.</p>
+<p><strong>Adherence to Format</strong></p>
+<p>If a specific format is requested, such as JSON, a table, or list, the output must precisely match that format.</p>
+<p>All elements within the format must be correctly structured and labeled.</p>
+<p><strong>Tone and Style Consistency</strong></p>
+<p>The output must maintain the specified tone.</p>
+<p>The language and style must align with the defined brand voice or communication guidelines.</p>
+<p><strong>Completeness and Relevance</strong></p>
+<p>The output must address all aspects of the prompt's request.</p>
+<p>All information provided must be directly relevant to the prompt's context and goal.</p>
+<p><strong>Ethical Compliance</strong></p>
+<p>The output must not contain any toxic, biased, or harmful content.</p>
+<p>The output must respect all data privacy and security regulations.</p>
+<h4>Step 2: Run an initial test as sanity check against the acceptance criteria</h4>
+<p>Execute your prompt and carefully analyze the LLM's response. Identify the parts of the output that deviate from your intended goal. <a href="/ai-and-slds-2/refinement-phase">See common prompt issues that cause LLMs to fail to follow instructions</a>.</p>
+<h4>Step 3: Pinpoint the misalignment</h4>
+<p>Analyze the discrepancies between the LLM's output and your intended goal. Narrow down the specific parts of the output that don’t align with your success criteria. Identify the prompt instructions related to those parts.</p>
+<h4>Step 4: Review the culprit instruction</h4>
+<p>For the prompt instructions you suspect caused the misalignment, carefully examine each one. Look for:</p>
+<ul>
+<li>Ambiguous wording</li>
+<li>Conflicting instructions</li>
+<li>Missing context</li>
+<li>Overly complex sentences</li>
+<li>Lengthy or redundant instructions</li>
+<li>Inefficient sentence structure</li>
+</ul>
+<h4>Step 5: Revise and refine</h4>
+<p>Rewrite problematic instructions to be more precise and unambiguous.</p>
+<ul>
+<li>Use clearer language and provide more explicit guidance.</li>
+<li>Break down complex instructions into simpler steps.</li>
+<li>Add context or examples to clarify your intent.</li>
+<li>Shorten lengthy instructions.</li>
+<li>Adjust your core task if the output seems stuck in familiar patterns from the training data.</li>
+</ul>
+<h4>Step 6: Re-test and iterate</h4>
+<p>Run the revised prompt and compare the new output to your acceptance criteria. Repeat steps 3-5 until the LLM's output consistently aligns with your criteria and goal. This is an iterative process, so be prepared to make multiple adjustments.</p>
+<h4>Step 7: Document findings</h4>
+<p>Record the changes you made and the results you achieved. This documentation will help you refine future prompts and build a library of effective techniques.</p>
+<h3>Parameter Adjustment</h3>
+<p>In prompt design, parameter adjustment means changing settings that affect the LLM’s output without changing how the model is trained. These parameters include:</p>
+<h4>Temperature</h4>
+<p>The temperature setting, represented as a numerical value between 0 and 1, directly influences the degree of randomness and variability in the model's responses. The choice of temperature setting involves a trade-off between creativity and control.</p>
+<p>Higher temperature settings encourage more creative and diverse outputs.</p>
+<ul>
+<li>The model becomes more adventurous, willing to explore unconventional connections and generate unexpected responses.</li>
+<li>Useful for tasks like brainstorming, generating ideas, or creating fictional narratives.</li>
+<li>Increases the likelihood of irrelevance, incoherence, or hallucinations.</li>
+</ul>
+<p>Lower temperature settings result in more focused and deterministic results.</p>
+<ul>
+<li>The model adheres more closely to the provided instructions and prioritizes accuracy and predictability over novelty.</li>
+<li>Good for scenarios where precision and reliable outputs are important.</li>
+<li>Tends to result in more formulaic output that is less engaging.</li>
+</ul>
+<p>A temperature between 0.2–0.5 for GPT models tends to work best. It leaves room for LLM to be creative, but avoids hallucination.</p>
+<h4>Max tokens</h4>
+<p>This parameter limits the length of the generated response. LLMs process text in units called tokens, which are parts of words or entire words. Tokens are the basic building blocks that LLMs use to understand and generate text.</p>
+<p>When you write a prompt, the LLM breaks it down into these blocks, such as individual words, parts of words, or even punctuation marks. This is called tokenization. Roughly, one token is equivalent to 3/4 of an English word. Explore more about <a href="https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them#h_051eb08805">Token Definition</a> from OpenAI, <a href="https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-tokens">Tokens and tokenization</a> from IBM.</p>
+<p>The LLM then processes these tokens to understand the meaning of the prompt. In response to the prompt, it puts together new sequences of tokens as the output. LLM costs are typically based on the number of tokens being processed.</p>
+<ul>
+<li><strong>Setting a maximum output length limits the number of output tokens an LLM is able to generate. This prevents overly long or cut-off responses, which helps manage costs and reduce environmental impact.</strong></li>
+<li>Setting a limit for predictable length responses. It also encourages the LLM to be more focused and concise in its responses.</li>
+<li><strong>Generating fewer tokens takes less time, so it also helps latency issues.</strong></li>
+<li>However, if you set it too low, it can cut off LLM responses prematurely and miss important information. Experiment to find the optimal value.</li>
+</ul>
+<p>ℹ️ <strong>Tips</strong>: Match your prompt's output length instructions to your Max Tokens setting. It's crucial to choose a limit that is appropriate for the specific task and desired length of the output to avoid unexpected cut-offs. For example, when generating emails, verify the output limit is sufficient to avoid incomplete messages.</p>
+<h4>Top-p</h4>
+<p>This is a sampling technique used by LLMs to generate text, also called nucleus sampling. It complements the temperature setting by further <strong>controlling the range of possible word choices</strong>. It sets a probability threshold and considers only the tokens that fall within that cumulative probability mass.</p>
+<p>A higher top_p value (0.9 or 1.0) leads to more diverse and potentially creative output, as the model can choose from a larger set of tokens. Expands the pool of possible word choices. The model considers a wider range of words, including less likely ones, leading to more diverse and creative outputs. However, it also increases the risk of generating nonsensical or irrelevant text.</p>
+<p>A lower top_p value (0.1 or 0.2) results in more focused and predictable outputs, as the model is restricted to a smaller set of likely tokens. Restricts the model to the most confident responses. It prioritizes the words with the highest probabilities, resulting in focused and predictable output.</p>
+<p>The combination of temperature and top-p provides fine-grained control over the text generation process. By adjusting these parameters, you can strike a balance between determinism and diversity, tailoring the model's output to your specific needs. However, it’s generally recommended to adjust either temperature or Top P, but not both.</p>
+<h4>Frequency penalty</h4>
+<p>Discourages repetitive output by penalizing tokens based on how frequently they’ve already appeared in the output.</p>
+<h4>Presence penalty</h4>
+<p>Encourages the model to introduce new topics by penalizing tokens simply for having appeared at least once in the output.</p>
+<h4>How parameters relate to prompt tuning</h4>
+<p>Parameter adjustments are often considered an extension of prompt tuning. They’re part of the process of optimizing the LLM behavior for specific conversational contexts. It’s about the setting of the request to the LLM, and not the changing of the LLM itself.</p>
+<p>Conversation designers often adjust just the temperature and token limit settings when tuning prompt output. Other parameter settings are typically handled by engineers.</p>
+<h2>LLM Considerations</h2>
+<p>Whether you're writing prompts for yourself or creating templates for Salesforce, the useful outputs come from LLMs. These models predict text based on patterns in their training data, making them valuable for tasks like summarizing details and spotting opportunities. While LLMs are powerful, they don’t think or understand like humans. As prompt designers, our job is to guide them effectively, ensuring they produce relevant and actionable results.</p>
+<h3>Overview of Supported LLMs</h3>
+<p>Currently, Agentforce AI Agents use OpenAI GPT-4o, and in some cases, Azure OpenAI GPT-4o. If you’re using Agentforce, you can’t select a different LLM. However, for embedded features, like Prompt Builder, Salesforce does support other LLMs from multiple providers out of the box. Bring your own LLM (BYOLLM) if you need fine-tuned models for specific domains.</p>
+<div class="card-grid card-grid-1"><a class="md-card" href="https://help.salesforce.com/s/articleView?id=ai.generative_ai_large_language_model_support.htm&#x26;type=5"><div class="md-card-body"><h3>Large Language Model (LLMs) Support</h3><p class="md-card-desc">Understand supported large language models (LLMs) from multiple providers for embedded features, such as Prompt Builder. Identify the Salesforce-managed models that are available out of the box. Learn how you can bring your own model (BYOLLM) by using Einstein Studio.</p></div></a></div>
+<p>If you’re curious about details for other LLMs, <a href="https://artificialanalysis.ai/leaderboards/models">Artificial Analysis</a> has an extensive leaderboard that compares key metrics of over 30 different LLMs.</p>
+<h4>Model Compatibility for Prompt Design Patterns</h4>
+<p>The specific patterns in this guide have all been tested with at least one industry-vetted model.</p>
+<ul>
+<li>OpenAI GPT 3.5 Turbo, Temperature: 0.5</li>
+<li>OpenAI GPT-4 Omni, Temperatures: 0, 0.2, 0.5</li>
+<li>OpenAI GPT-4 Omni Mini, Temperature: 0.5</li>
+<li>Anthropic models</li>
+</ul>
+<p>Thoroughly test these patterns with other models and parameter settings for optimal performance in your specific Salesforce environment. Treat these examples as inspiration.</p>
+<h3>LLM Selection Strategy</h3>
+<p>Just like you choose different apps for different tasks, LLMs have varied skills. Some excel at writing engaging content, others at extracting key information from Salesforce records or customer chats. Some are faster, while others are slower. The key is selecting the model that best fits your specific task.</p>
+<h4>1. Consider Your Task</h4>
+<h5>Task Complexity and Nuance</h5>
+<p>What task is the LLM performing, such as text generation, summarization, translation? Does the task require deep reasoning or creativity? Do you need a model fine-tuned for a specific industry, like, legal, healthcare?</p>
+<p>Advanced models can handle more tasks and follow complex instructions. Larger models with more parameters and diverse training sets often have stronger reasoning capabilities but are more expensive and slower.</p>
+<p><strong>High:</strong> For tasks requiring sophisticated reasoning, creative content generation, understanding subtle nuances, and with intricate multi-step instructions, the more powerful models are generally better. Consider models are designed for high-level understanding and generation, like <strong>GPT 4 Omni</strong> and <strong>Claude 3.5 Sonnet</strong></p>
+<p><strong>Medium:</strong> Tasks like extracting specific data points, summarizing moderately complex text, or generating creative content with fewer constraints can often be handled effectively by mid-tier models. Consider <strong>GPT 4 Omni Mini</strong> or <strong>Claude 3 Haiku</strong> depending on specific demands.</p>
+<p><strong>Low:</strong> For straightforward tasks like answering simple questions based on provided context, basic text formatting, or generating short, factual content, the lighter models can be efficient. Consider <strong>GPT-3.5 Turbo</strong>, <strong>Claude 3 Haiku</strong>, <strong>Gemini 2.0 Flash</strong>, and <strong>Gemini 2.0 Flash Lite</strong>.</p>
+<h5>Output Quality and Style</h5>
+<p>How sophisticated does the output need to be for the user? Model responses are often hard to measure in numbers, but <a href="https://huggingface.co/">Hugging Face</a> has many evaluation metrics and tools to evaluate both LLMs and datasets. It allows users to calculate metrics like accuracy, precision, recall, and perplexity.</p>
+<p>Another tool for developers is the LMSYS Chatbot Arena. It scores popular models based on a lot of human preference data. Anyone can join!</p>
+<p>Do you need highly polished, human-like text with nuanced language and varied style? <strong>GPT 4 Omni</strong> and <strong>Claude 3.7 Sonnet</strong> are generally known for their high-quality and stylistic capabilities.</p>
+<p>For some applications, simpler and more direct language is preferable. Lite and mini versions are often sufficient and potentially faster.</p>
+<h5>Context Window and Information Recall</h5>
+<p>How much input and output can the model handle at one time? The context window is the amount of information a model can process in one prompt. It includes system messages, prompts, and responses.</p>
+<p>If your prompt needs to reference a significant amount of context, like a long customer service transcript or a detailed product description, a larger context window is crucial. Models with larger context windows remember more of the conversation or input.</p>
+<ul>
+<li><strong>GPT 4 Omni</strong> and <strong>Claude 3.5 Sonnet</strong> have substantial context windows.</li>
+<li><strong>Gemini 2.0 Flash</strong> is also a candidate with a very large context window of 1 million tokens - that’s around 750,000 words. To put this in perspective, the word count for Tolstoy’s War and Peace is approximately 587,287 words**.**</li>
+</ul>
+<p>For quick, single-turn interactions, a large context window is less critical. Consider <strong>GPT-3.5 Turbo</strong></p>
+<h5>Speed and Latency</h5>
+<p>How long does it take the model to complete a task? This includes measures of latency, or the time to generate the first token, and throughput, or tokens per second. Legacy models often take a lot longer to complete tasks than newer models.</p>
+<p>How important is speed to you? Does your use case need immediate multi turn-taking conversation?</p>
+<p>If your application requires quick responses, models with lower latency are preferred. Lite and flash versions are often optimized for speed. Consider <strong>GPT 4 Omni Mini</strong>, <strong>Claude 3 Haiku</strong>, <strong>Gemini 2.0 Flash</strong>, and <strong>Gemini 2.0 Flash Lite</strong> are generally designed for faster responses.</p>
+<p>For tasks that run in the background and don't require immediate responses, latency tends to be less of a concern, so prioritize quality.</p>
+<h5>Cost Efficiency</h5>
+<p>How much does it cost Salesforce and your customer to serve the model? Different models have different pricing structures, often based on the number of tokens used both in input and output. More powerful models generally have higher costs per token.</p>
+<p>If you know your cost estimates per model usage, factor that into your decision. Consider if cost is more important than perfect accuracy for your use case.</p>
+<p>If your prompts are executed frequently, the cost per token becomes a significant factor. Lighter models generally have lower costs per token. <strong>GPT 4 Omni Mini</strong>, <strong>GPT 3.5 Turbo</strong>, <strong>Claude 3 Haiku</strong>, <strong>Gemini 2.0 Flash</strong>, and <strong>Gemini 2.0 Flash Lite</strong> are likely to be more cost-effective than the top-tier models.</p>
+<p><strong>Sustainability</strong></p>
+<p>Choosing a more efficient model is one of the most impactful levers for driving AI sustainability. To foster industry-wide transparency, Salesforce has been instrumental in developing the <a href="https://www.salesforce.com/news/stories/ai-energy-score/">AI Energy Score</a>, a standardized framework to measure the energy efficiency of AI models. As this and similar metrics become more widespread, they will provide a clearer path for choosing a sustainable model. In the meantime, while direct sustainability metrics are not yet consistently available for all models, we can use latency and cost efficiency as strong proxy indicators. Models with lower latency and a lower cost-per-token are typically more computationally efficient, which directly correlates with a reduced energy footprint. Therefore, for the majority of tasks that do not require maximum reasoning power, consciously selecting a lighter, faster model is a tangible step towards sustainability. Instead of defaulting to the most powerful option, evaluate if highly capable yet efficient alternatives such as <strong>Gemini 2.0 Flash Lite</strong> can meet your requirements.</p>
+<h4>2. Start with a hypothesis</h4>
+<p>After considering the previous factors, go ahead and make an initial selection of the model that seems most suitable. If it doesn’t give you the desired responses, try a different one.</p>
+<h4>3. Experiment and iterate</h4>
+<p>The best way to determine the optimal model is to test your prompt with different LLMs.</p>
+<ul>
+<li>Compare output quality: Does the output meet your requirements in terms of accuracy, style, and completeness?</li>
+<li>Measure performance: Note the response times for different models.</li>
+<li>Calculate the estimated cost</li>
+</ul>
+<p>If the results aren’t what you hoped for, select a different model and experiment more. Repeat until you get desired outputs reliably.</p>
+<h4>4. Review Salesforce documentation</h4>
+<p>Salesforce provides specific guidance and limitations for each supported LLM. See <a href="https://help.salesforce.com/s/articleView?id=ai.generative_ai_large_language_model_support.htm&#x26;type=5">Large Language Models</a> in Salesforce Help. Also, use <a href="https://www.salesforceairesearch.com/crm-benchmark">Salesforce LLM Benchmark for CRM</a>, or other resources to select the best model for your use case.</p>
+<h2>Summary</h2>
+<p>Focus on how each model's strengths align with the user experience and the quality of the generated content. Don't get bogged down in the deep technical details of the model architectures. Consider:</p>
+<ul>
+<li>Will this model produce the kind of response I envision for the user?</li>
+<li>Will the response be timely enough for the intended interaction?</li>
+<li>Can the model handle the complexity of my instructions and the provided context effectively?</li>
+<li>Is it cost-effective for my company and customers based on the expected frequency of calls?</li>
+</ul>
+<p>By systematically considering these factors and, most importantly, testing your prompts with different models, you’re able to make informed decisions and select the best LLM for each of your prompts.</p>f:["$","div",null,{"className":"max-w-4xl","children":[["$","nav",null,{"className":"mb-6","children":["$","ol",null,{"className":"flex items-center gap-2 text-sm","children":[["$","li","/ai-and-slds-2/refinement-phase-0",{"className":"flex items-center gap-2","children":[false,["$","span",null,{"style":{"color":"var(--slds-gray-text)"},"children":"Refinement Phase"}]]}]]}]}],["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-4xl font-bold mb-2","style":{"color":"var(--slds-navy)"},"children":"Refinement Phase"}],"$undefined"]}],null,["$","article",null,{"className":"content-blocks mb-12","dangerouslySetInnerHTML":{"__html":"$19"}}],"$L1a",null]}]
+1b:I[9825,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],"ViewMarkdownButton"]
+1c:T5c29,---
+title: "Refinement Phase"
+slug: "refinement-phase"
+category: "ai-and-slds-2"
+order: 0
+---
+
+If testing or implementation reveals problems, refine your prompts to improve LLM output. Common reasons an LLM may not follow instructions include:
+
+- **Complex wording**: Instructions are too long or unclear.
+- **Conflicting asks:** Prompts contain contradictory directions.
+- **Excess length**: Main task is buried in too much text.
+- **Missing context:** Not enough background for the task.
+- **Model limits:** Gaps in training or capabilities.
+- **Training bias:** Patterns in training data affect behavior.
+
+## Prompt Tuning
+
+Prompt tuning means making small, step-by-step changes to improve your prompt until the output meets your goals. It involves reviewing the model’s responses and refining the context, rules, guardrails, examples, or other elements to get the result you want.
+
+Tuning improves quality, accuracy, and consistency, and helps you see clear progress over time, especially if the first prompt doesn’t work well. Make one change at a time so you can tell exactly what caused the improvement or problem. Multiple changes at once make it hard to know what worked.
+
+### Best Practices
+
+#### 1. Analyze your prompt anatomy
+
+Break down the prompt structure. Examine individual elements of the prompt, including role, task description, context, instructions, formatting, and grounding data. For each element, look at the language use, cohesion, syntax, and potential variable conditions.
+
+- **Identify potential ambiguities**. Read through each rule and guardrail and ask yourself: Could this be interpreted in multiple ways? Is the language precise? Are there any implicit assumptions being made?
+- **Look for contradictions.** Are there any rules or details that conflict with each other, even subtly?
+- **Assess the level of detail.** Is there enough detail in each element, or is it too vague? Conversely, is it overly verbose and potentially confusing the model?
+
+Pinpoint outputs that miss the mark for requirements or expected quality. Identify what specifically makes them bad outputs.
+
+- **Map errors to prompt elements.** For each instance of an ignored instruction, hallucination, or other issue, try to pinpoint which part of the prompt is contributing to the problem.
+- **Identify patterns.** Are certain types of instructions consistently ignored? Are hallucinations occurring around specific data points?
+- **Document specific examples.** Keep a detailed log of the problematic outputs and the corresponding prompt used to generate them. This will be crucial for tracking your progress.
+
+#### 2. Understand the system prompt
+
+Explore implemented system-level features, such as model containment policies and prompt wrappers. Determine what to include in global versus local instructions, avoiding conflicts and duplication.
+
+#### 3. Tune the prompt
+
+Refine instructions to enhance the clarity and effectiveness of the elements within your prompt.
+
+#### 4. Conduct ablation testing
+
+Start with a minimal baseline and add elements or instructions incrementally as needed. Remove anything that doesn’t enhance output quality.
+
+#### 5. Capture evidence
+
+Document versions and refinements to track improvements in output quality, using a methodical approach.
+
+### Prompt Tuning vs. Fine-Tuning
+
+In a nutshell, prompt tuning is about optimizing how you talk to an LLM, while fine-tuning is about changing how the LLM itself talks and involves modifying how the LLM generates responses.
+
+While both aim to optimize LLM performance, they do so through fundamentally different approaches.
+
+**Prompt Tuning**
+
+**Fine-Tuning**
+
+Definition
+
+Prompt tuning focuses on crafting optimal input prompts to guide the LLM towards desired outputs.
+
+It involves manipulating the wording, structure, and context of the prompt itself. 
+
+This method leverages the existing knowledge and capabilities of the pre-trained LLM.
+
+Fine-tuning involves training an existing pre-trained LLM on a specific dataset to specialize its performance for a particular task or domain. 
+
+This process adjusts the model's internal parameters, or weights, to better align with the characteristics of the training data. 
+
+Key Characteristics
+
+Doesn't alter the LLM's underlying model weights. 
+
+Relatively quick and cost-effective. 
+
+Highly flexible and adaptable to various tasks. 
+
+Relies on the user's ability to design effective prompts.
+
+Modifies the LLM's model weights. 
+
+Resource-intensive and time-consuming. 
+
+Creates a specialized model that excels in a specific domain. 
+
+Requires a labeled dataset for training. 
+
+Use Cases
+
+Content generation, question answering, summarization, and other general-purpose tasks. 
+
+Situations where rapid deployment and flexibility are essential.
+
+Highly specialized tasks requiring high accuracy, such as medical diagnosis, legal document analysis, or customer support for a specific product. 
+
+Situations where the LLM's general knowledge is insufficient.
+
+### Instruction Tuning
+
+Instruction tuning is the process of refining the wording of the instructions within your prompt to better guide the LLM towards your desired output.
+
+#### Step 1: Clearly identify your goal, and the acceptance criteria.
+
+Acceptance criteria are the checkpoints you use to decide if the LLM’s output meets your requirements. They act as your benchmark but are not part of the prompt itself.
+
+Start with your success criteria from the design phase, then adapt them to your use case. Common dimensions for acceptance criteria include:
+
+**Criteria**
+
+**Description**
+
+**Factual Accuracy**
+
+The output must contain only verifiable information, with no hallucinations or fabricated details.
+
+All numerical data must be accurate and consistent with provided sources.
+
+**Adherence to Format**
+
+If a specific format is requested, such as JSON, a table, or list, the output must precisely match that format.
+
+All elements within the format must be correctly structured and labeled.
+
+**Tone and Style Consistency**
+
+The output must maintain the specified tone.
+
+The language and style must align with the defined brand voice or communication guidelines.
+
+**Completeness and Relevance**
+
+The output must address all aspects of the prompt's request.
+
+All information provided must be directly relevant to the prompt's context and goal.
+
+**Ethical Compliance**
+
+The output must not contain any toxic, biased, or harmful content.
+
+The output must respect all data privacy and security regulations.
+
+#### Step 2: Run an initial test as sanity check against the acceptance criteria
+
+Execute your prompt and carefully analyze the LLM's response. Identify the parts of the output that deviate from your intended goal. [See common prompt issues that cause LLMs to fail to follow instructions](/ai-and-slds-2/refinement-phase).
+
+#### Step 3: Pinpoint the misalignment
+
+Analyze the discrepancies between the LLM's output and your intended goal. Narrow down the specific parts of the output that don’t align with your success criteria. Identify the prompt instructions related to those parts.
+
+#### Step 4: Review the culprit instruction
+
+For the prompt instructions you suspect caused the misalignment, carefully examine each one. Look for:
+
+- Ambiguous wording
+- Conflicting instructions
+- Missing context
+- Overly complex sentences
+- Lengthy or redundant instructions
+- Inefficient sentence structure
+
+#### Step 5: Revise and refine
+
+Rewrite problematic instructions to be more precise and unambiguous.
+
+- Use clearer language and provide more explicit guidance.
+- Break down complex instructions into simpler steps.
+- Add context or examples to clarify your intent.
+- Shorten lengthy instructions.
+- Adjust your core task if the output seems stuck in familiar patterns from the training data.
+
+#### Step 6: Re-test and iterate
+
+Run the revised prompt and compare the new output to your acceptance criteria. Repeat steps 3-5 until the LLM's output consistently aligns with your criteria and goal. This is an iterative process, so be prepared to make multiple adjustments.
+
+#### Step 7: Document findings
+
+Record the changes you made and the results you achieved. This documentation will help you refine future prompts and build a library of effective techniques.
+
+### Parameter Adjustment
+
+In prompt design, parameter adjustment means changing settings that affect the LLM’s output without changing how the model is trained. These parameters include:
+
+#### Temperature
+
+The temperature setting, represented as a numerical value between 0 and 1, directly influences the degree of randomness and variability in the model's responses. The choice of temperature setting involves a trade-off between creativity and control.
+
+Higher temperature settings encourage more creative and diverse outputs.
+
+- The model becomes more adventurous, willing to explore unconventional connections and generate unexpected responses.
+- Useful for tasks like brainstorming, generating ideas, or creating fictional narratives.
+- Increases the likelihood of irrelevance, incoherence, or hallucinations.
+
+Lower temperature settings result in more focused and deterministic results.
+
+- The model adheres more closely to the provided instructions and prioritizes accuracy and predictability over novelty.
+- Good for scenarios where precision and reliable outputs are important.
+- Tends to result in more formulaic output that is less engaging.
+
+A temperature between 0.2–0.5 for GPT models tends to work best. It leaves room for LLM to be creative, but avoids hallucination.
+
+#### Max tokens
+
+This parameter limits the length of the generated response. LLMs process text in units called tokens, which are parts of words or entire words. Tokens are the basic building blocks that LLMs use to understand and generate text.
+
+When you write a prompt, the LLM breaks it down into these blocks, such as individual words, parts of words, or even punctuation marks. This is called tokenization. Roughly, one token is equivalent to 3/4 of an English word. Explore more about [Token Definition](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them#h_051eb08805) from OpenAI, [Tokens and tokenization](https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-tokens) from IBM.
+
+The LLM then processes these tokens to understand the meaning of the prompt. In response to the prompt, it puts together new sequences of tokens as the output. LLM costs are typically based on the number of tokens being processed.
+
+- **Setting a maximum output length limits the number of output tokens an LLM is able to generate. This prevents overly long or cut-off responses, which helps manage costs and reduce environmental impact.**
+- Setting a limit for predictable length responses. It also encourages the LLM to be more focused and concise in its responses.
+- **Generating fewer tokens takes less time, so it also helps latency issues.**
+- However, if you set it too low, it can cut off LLM responses prematurely and miss important information. Experiment to find the optimal value.
+
+ℹ️ **Tips**: Match your prompt's output length instructions to your Max Tokens setting. It's crucial to choose a limit that is appropriate for the specific task and desired length of the output to avoid unexpected cut-offs. For example, when generating emails, verify the output limit is sufficient to avoid incomplete messages.
+
+#### Top-p
+
+This is a sampling technique used by LLMs to generate text, also called nucleus sampling. It complements the temperature setting by further **controlling the range of possible word choices**. It sets a probability threshold and considers only the tokens that fall within that cumulative probability mass.
+
+A higher top_p value (0.9 or 1.0) leads to more diverse and potentially creative output, as the model can choose from a larger set of tokens. Expands the pool of possible word choices. The model considers a wider range of words, including less likely ones, leading to more diverse and creative outputs. However, it also increases the risk of generating nonsensical or irrelevant text.
+
+A lower top_p value (0.1 or 0.2) results in more focused and predictable outputs, as the model is restricted to a smaller set of likely tokens. Restricts the model to the most confident responses. It prioritizes the words with the highest probabilities, resulting in focused and predictable output.
+
+The combination of temperature and top-p provides fine-grained control over the text generation process. By adjusting these parameters, you can strike a balance between determinism and diversity, tailoring the model's output to your specific needs. However, it’s generally recommended to adjust either temperature or Top P, but not both.
+
+#### Frequency penalty
+
+Discourages repetitive output by penalizing tokens based on how frequently they’ve already appeared in the output.
+
+#### Presence penalty
+
+Encourages the model to introduce new topics by penalizing tokens simply for having appeared at least once in the output.
+
+#### How parameters relate to prompt tuning
+
+Parameter adjustments are often considered an extension of prompt tuning. They’re part of the process of optimizing the LLM behavior for specific conversational contexts. It’s about the setting of the request to the LLM, and not the changing of the LLM itself.
+
+Conversation designers often adjust just the temperature and token limit settings when tuning prompt output. Other parameter settings are typically handled by engineers.
+
+## LLM Considerations
+
+Whether you're writing prompts for yourself or creating templates for Salesforce, the useful outputs come from LLMs. These models predict text based on patterns in their training data, making them valuable for tasks like summarizing details and spotting opportunities. While LLMs are powerful, they don’t think or understand like humans. As prompt designers, our job is to guide them effectively, ensuring they produce relevant and actionable results.
+
+### Overview of Supported LLMs
+
+Currently, Agentforce AI Agents use OpenAI GPT-4o, and in some cases, Azure OpenAI GPT-4o. If you’re using Agentforce, you can’t select a different LLM. However, for embedded features, like Prompt Builder, Salesforce does support other LLMs from multiple providers out of the box. Bring your own LLM (BYOLLM) if you need fine-tuned models for specific domains.
+
+:::card-grid{columns=1}
+::card{title="Large Language Model (LLMs) Support" description="Understand supported large language models (LLMs) from multiple providers for embedded features, such as Prompt Builder. Identify the Salesforce-managed models that are available out of the box. Learn how you can bring your own model (BYOLLM) by using Einstein Studio." href="https://help.salesforce.com/s/articleView?id=ai.generative_ai_large_language_model_support.htm&type=5"}
+:::
+
+If you’re curious about details for other LLMs, [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models) has an extensive leaderboard that compares key metrics of over 30 different LLMs.
+
+#### Model Compatibility for Prompt Design Patterns
+
+The specific patterns in this guide have all been tested with at least one industry-vetted model.
+
+- OpenAI GPT 3.5 Turbo, Temperature: 0.5
+- OpenAI GPT-4 Omni, Temperatures: 0, 0.2, 0.5
+- OpenAI GPT-4 Omni Mini, Temperature: 0.5
+- Anthropic models
+
+Thoroughly test these patterns with other models and parameter settings for optimal performance in your specific Salesforce environment. Treat these examples as inspiration.
+
+### LLM Selection Strategy
+
+Just like you choose different apps for different tasks, LLMs have varied skills. Some excel at writing engaging content, others at extracting key information from Salesforce records or customer chats. Some are faster, while others are slower. The key is selecting the model that best fits your specific task.
+
+#### 1. Consider Your Task
+
+##### Task Complexity and Nuance
+
+What task is the LLM performing, such as text generation, summarization, translation? Does the task require deep reasoning or creativity? Do you need a model fine-tuned for a specific industry, like, legal, healthcare?
+
+Advanced models can handle more tasks and follow complex instructions. Larger models with more parameters and diverse training sets often have stronger reasoning capabilities but are more expensive and slower.
+
+**High:** For tasks requiring sophisticated reasoning, creative content generation, understanding subtle nuances, and with intricate multi-step instructions, the more powerful models are generally better. Consider models are designed for high-level understanding and generation, like **GPT 4 Omni** and **Claude 3.5 Sonnet**
+
+**Medium:** Tasks like extracting specific data points, summarizing moderately complex text, or generating creative content with fewer constraints can often be handled effectively by mid-tier models. Consider **GPT 4 Omni Mini** or **Claude 3 Haiku** depending on specific demands.
+
+**Low:** For straightforward tasks like answering simple questions based on provided context, basic text formatting, or generating short, factual content, the lighter models can be efficient. Consider **GPT-3.5 Turbo**, **Claude 3 Haiku**, **Gemini 2.0 Flash**, and **Gemini 2.0 Flash Lite**.
+
+##### Output Quality and Style
+
+How sophisticated does the output need to be for the user? Model responses are often hard to measure in numbers, but [Hugging Face](https://huggingface.co/) has many evaluation metrics and tools to evaluate both LLMs and datasets. It allows users to calculate metrics like accuracy, precision, recall, and perplexity.
+
+Another tool for developers is the LMSYS Chatbot Arena. It scores popular models based on a lot of human preference data. Anyone can join!
+
+Do you need highly polished, human-like text with nuanced language and varied style? **GPT 4 Omni** and **Claude 3.7 Sonnet** are generally known for their high-quality and stylistic capabilities.
+
+For some applications, simpler and more direct language is preferable. Lite and mini versions are often sufficient and potentially faster.
+
+##### Context Window and Information Recall
+
+How much input and output can the model handle at one time? The context window is the amount of information a model can process in one prompt. It includes system messages, prompts, and responses.
+
+If your prompt needs to reference a significant amount of context, like a long customer service transcript or a detailed product description, a larger context window is crucial. Models with larger context windows remember more of the conversation or input.
+
+- **GPT 4 Omni** and **Claude 3.5 Sonnet** have substantial context windows.
+- **Gemini 2.0 Flash** is also a candidate with a very large context window of 1 million tokens - that’s around 750,000 words. To put this in perspective, the word count for Tolstoy’s War and Peace is approximately 587,287 words**.**
+
+For quick, single-turn interactions, a large context window is less critical. Consider **GPT-3.5 Turbo**
+
+##### Speed and Latency
+
+How long does it take the model to complete a task? This includes measures of latency, or the time to generate the first token, and throughput, or tokens per second. Legacy models often take a lot longer to complete tasks than newer models.
+
+How important is speed to you? Does your use case need immediate multi turn-taking conversation?
+
+If your application requires quick responses, models with lower latency are preferred. Lite and flash versions are often optimized for speed. Consider **GPT 4 Omni Mini**, **Claude 3 Haiku**, **Gemini 2.0 Flash**, and **Gemini 2.0 Flash Lite** are generally designed for faster responses.
+
+For tasks that run in the background and don't require immediate responses, latency tends to be less of a concern, so prioritize quality.
+
+##### Cost Efficiency
+
+How much does it cost Salesforce and your customer to serve the model? Different models have different pricing structures, often based on the number of tokens used both in input and output. More powerful models generally have higher costs per token.
+
+If you know your cost estimates per model usage, factor that into your decision. Consider if cost is more important than perfect accuracy for your use case.
+
+If your prompts are executed frequently, the cost per token becomes a significant factor. Lighter models generally have lower costs per token. **GPT 4 Omni Mini**, **GPT 3.5 Turbo**, **Claude 3 Haiku**, **Gemini 2.0 Flash**, and **Gemini 2.0 Flash Lite** are likely to be more cost-effective than the top-tier models.
+
+**Sustainability**
+
+Choosing a more efficient model is one of the most impactful levers for driving AI sustainability. To foster industry-wide transparency, Salesforce has been instrumental in developing the [AI Energy Score](https://www.salesforce.com/news/stories/ai-energy-score/), a standardized framework to measure the energy efficiency of AI models. As this and similar metrics become more widespread, they will provide a clearer path for choosing a sustainable model. In the meantime, while direct sustainability metrics are not yet consistently available for all models, we can use latency and cost efficiency as strong proxy indicators. Models with lower latency and a lower cost-per-token are typically more computationally efficient, which directly correlates with a reduced energy footprint. Therefore, for the majority of tasks that do not require maximum reasoning power, consciously selecting a lighter, faster model is a tangible step towards sustainability. Instead of defaulting to the most powerful option, evaluate if highly capable yet efficient alternatives such as **Gemini 2.0 Flash Lite** can meet your requirements.
+
+#### 2. Start with a hypothesis
+
+After considering the previous factors, go ahead and make an initial selection of the model that seems most suitable. If it doesn’t give you the desired responses, try a different one.
+
+#### 3. Experiment and iterate
+
+The best way to determine the optimal model is to test your prompt with different LLMs.
+
+- Compare output quality: Does the output meet your requirements in terms of accuracy, style, and completeness?
+- Measure performance: Note the response times for different models.
+- Calculate the estimated cost
+
+If the results aren’t what you hoped for, select a different model and experiment more. Repeat until you get desired outputs reliably.
+
+#### 4. Review Salesforce documentation
+
+Salesforce provides specific guidance and limitations for each supported LLM. See [Large Language Models](https://help.salesforce.com/s/articleView?id=ai.generative_ai_large_language_model_support.htm&type=5) in Salesforce Help. Also, use [Salesforce LLM Benchmark for CRM](https://www.salesforceairesearch.com/crm-benchmark), or other resources to select the best model for your use case.
+
+## Summary
+
+Focus on how each model's strengths align with the user experience and the quality of the generated content. Don't get bogged down in the deep technical details of the model architectures. Consider:
+
+- Will this model produce the kind of response I envision for the user?
+- Will the response be timely enough for the intended interaction?
+- Can the model handle the complexity of my instructions and the provided context effectively?
+- Is it cost-effective for my company and customers based on the expected frequency of calls?
+
+By systematically considering these factors and, most importantly, testing your prompts with different models, you’re able to make informed decisions and select the best LLM for each of your prompts.
+1a:["$","$L1b",null,{"markdown":"$1c"}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:null
+13:{"metadata":[["$","title","0",{"children":"Lightning Design System 2 - Salesforce UX"}],["$","meta","1",{"name":"description","content":"The Lightning Design System helps you create the world's best enterprise app experiences."}]],"error":null,"digest":"$undefined"}
+18:"$13:metadata"

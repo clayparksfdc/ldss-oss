@@ -1,0 +1,498 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+4:I[8906,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"ThemeProvider"]
+5:I[4974,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"default"]
+6:I[9505,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"Header"]
+7:I[3834,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"DynamicSidebar"]
+d:I[7150,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/dd33a07d33fc611c.css","style"]
+0:{"P":null,"b":"KTtvz2X-1MHTYU9akXno5","p":"","c":["","pattern","in-app-feedback--in-app-feedback-patterns"],"i":false,"f":[[["",{"children":["(frontend)",{"children":[["category","pattern","d"],{"children":[["slug","in-app-feedback--in-app-feedback-patterns","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true]}],["",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(frontend)",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/dd33a07d33fc611c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"light","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var theme = localStorage.getItem('theme');\n              var dark = theme === 'dark' || (theme === 'system' || !theme) && window.matchMedia('(prefers-color-scheme: dark)').matches;\n              document.documentElement.classList.toggle('dark', dark);\n              document.documentElement.classList.toggle('light', !dark);\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"__variable_f367f3 antialiased","id":"frontend-app","style":{"backgroundColor":"var(--background)"},"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{}],["$","div",null,{"className":"flex min-h-[calc(100vh-36px)]","style":{"backgroundColor":"var(--background)"},"children":[["$","$L7",null,{"navigation":[{"id":1,"name":"Get Started","slug":"get-started","hidden":false,"children":[{"id":1,"name":"Get Started","slug":"get-started","url":"/get-started/get-started","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":2,"name":"Transition to SLDS 2","slug":"transition-to-slds-2","url":"/get-started/transition-to-slds-2","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":3,"name":"Admins","slug":"admins","url":"/get-started/admins","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":4,"name":"Designers","slug":"designers","url":"/get-started/designers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":5,"name":"Developers","slug":"developers","url":"/get-started/developers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":6,"name":"Resources","slug":"resources","url":"/get-started/resources","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":2,"name":"AI and SLDS 2","slug":"general","hidden":false,"children":[{"id":7,"name":"AI and SLDS 2","slug":"ai-and-slds-2","url":"/general/ai-and-slds-2","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":8,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/general/agentic-patterns","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":9,"name":"AI Tools","slug":"ai-tools","url":"/general/ai-tools","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":3,"name":"Foundations","slug":"foundation","hidden":false,"children":[{"id":10,"name":"Icons","slug":"icons","url":"/foundation/icons","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"icons--overview","url":"/foundation/icons--overview"},{"name":"Usage","slug":"icons--usage","url":"/foundation/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/foundation/icons--develop"},{"name":"Specifications","slug":"icons--specifications","url":"/foundation/icons--specifications"},{"name":"Accessibility","slug":"icons--accessibility","url":"/foundation/icons--accessibility"},{"name":"Action","slug":"icons--action","url":"/foundation/icons--action"},{"name":"Doctype","slug":"icons--doctype","url":"/foundation/icons--doctype"},{"name":"Object","slug":"icons--object","url":"/foundation/icons--object"},{"name":"Product","slug":"icons--product","url":"/foundation/icons--product"},{"name":"Utility","slug":"icons--utility","url":"/foundation/icons--utility"}]},{"id":11,"name":"Color","slug":"color","url":"/foundation/color","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Color Palette","slug":"color--color-palette","url":"/foundation/color--color-palette"},{"name":"Overview","slug":"color--overview","url":"/foundation/color--overview"},{"name":"Semantic Color","slug":"color--semantic-color","url":"/foundation/color--semantic-color"},{"name":"Styling Hooks","slug":"color--styling-hooks","url":"/foundation/color--styling-hooks"},{"name":"System Palette","slug":"color--system-palette","url":"/foundation/color--system-palette"}]},{"id":12,"name":"Typography","slug":"typography","url":"/foundation/typography","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"typography--overview","url":"/foundation/typography--overview"},{"name":"Usage","slug":"typography--usage","url":"/foundation/typography--usage"},{"name":"Type Styles","slug":"typography--type-styles","url":"/foundation/typography--type-styles"},{"name":"Styling Hooks","slug":"typography--styling-hooks","url":"/foundation/typography--styling-hooks"}]},{"id":13,"name":"Spacing and Sizing","slug":"spacing-and-sizing","url":"/foundation/spacing-and-sizing","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"spacing-and-sizing--overview","url":"/foundation/spacing-and-sizing--overview"},{"name":"Spacing","slug":"spacing-and-sizing--spacing","url":"/foundation/spacing-and-sizing--spacing"},{"name":"Sizing","slug":"spacing-and-sizing--sizing","url":"/foundation/spacing-and-sizing--sizing"},{"name":"Styling Hooks","slug":"spacing-and-sizing--styling-hooks","url":"/foundation/spacing-and-sizing--styling-hooks"}]},{"id":14,"name":"Display Density","slug":"display-density","url":"/foundation/display-density","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"display-density--overview","url":"/foundation/display-density--overview"},{"name":"Custom Configurations","slug":"display-density--custom-configurations","url":"/foundation/display-density--custom-configurations"},{"name":"Styling Hooks","slug":"display-density--styling-hooks","url":"/foundation/display-density--styling-hooks"}]},{"id":15,"name":"Borders and Radius","slug":"borders-and-radius","url":"/foundation/borders-and-radius","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"borders-and-radius--overview","url":"/foundation/borders-and-radius--overview"},{"name":"Color","slug":"borders-and-radius--color","url":"/foundation/borders-and-radius--color"},{"name":"Radius","slug":"borders-and-radius--radius","url":"/foundation/borders-and-radius--radius"},{"name":"Width","slug":"borders-and-radius--width","url":"/foundation/borders-and-radius--width"},{"name":"Styling Hooks","slug":"borders-and-radius--styling-hooks","url":"/foundation/borders-and-radius--styling-hooks"}]},{"id":16,"name":"Shadows","slug":"shadows","url":"/foundation/shadows","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"shadows--overview","url":"/foundation/shadows--overview"},{"name":"Usage","slug":"shadows--usage","url":"/foundation/shadows--usage"},{"name":"Styling Hooks","slug":"shadows--styling-hooks","url":"/foundation/shadows--styling-hooks"}]},{"id":17,"name":"Illustrations","slug":"illustrations","url":"/foundation/illustrations","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"illustrations--overview","url":"/foundation/illustrations--overview"},{"name":"Types","slug":"illustrations--types","url":"/foundation/illustrations--types"},{"name":"UI Text","slug":"illustrations--ui-text","url":"/foundation/illustrations--ui-text"}]}]},{"id":4,"name":"Develop","slug":"develop","hidden":false,"children":[{"id":18,"name":"Global Styling Hooks","slug":"styling-hook-index","url":"/develop/styling-hook-index","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":19,"name":"Utility Classes","slug":"utility-classes","url":"/develop/utility-classes","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":5,"name":"Components","slug":"component","hidden":false,"children":[{"id":20,"name":"Accordion","slug":"accordion","url":"/component/accordion","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"accordion--usage","url":"/component/accordion--usage"},{"name":"Develop","slug":"accordion--develop","url":"/develop/accordion--develop"},{"name":"Specifications","slug":"accordion--specifications","url":"/component/accordion--specifications"},{"name":"Accessibility","slug":"accordion--accessibility","url":"/component/accordion--accessibility"}]},{"id":21,"name":"Avatar","slug":"avatar","url":"/component/avatar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"avatar--usage","url":"/component/avatar--usage"},{"name":"Develop","slug":"avatar--develop","url":"/develop/avatar--develop"},{"name":"Specifications","slug":"avatar--specifications","url":"/component/avatar--specifications"},{"name":"Accessibility","slug":"avatar--accessibility","url":"/component/avatar--accessibility"}]},{"id":22,"name":"Badge","slug":"badge","url":"/component/badge","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"badge--usage","url":"/component/badge--usage"},{"name":"Develop","slug":"badge--develop","url":"/develop/badge--develop"},{"name":"Accessibility","slug":"badge--accessibility","url":"/component/badge--accessibility"}]},{"id":23,"name":"Breadcrumbs","slug":"breadcrumbs","url":"/component/breadcrumbs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"breadcrumbs--usage","url":"/component/breadcrumbs--usage"},{"name":"Specifications","slug":"breadcrumbs--specifications","url":"/component/breadcrumbs--specifications"},{"name":"Accessibility","slug":"breadcrumbs--accessibility","url":"/component/breadcrumbs--accessibility"}]},{"id":24,"name":"Button","slug":"button","url":"/component/button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button--usage","url":"/component/button--usage"},{"name":"Develop","slug":"button--develop","url":"/develop/button--develop"},{"name":"Specifications","slug":"button--specifications","url":"/component/button--specifications"},{"name":"Accessibility","slug":"button--accessibility","url":"/component/button--accessibility"}]},{"id":25,"name":"Button Groups","slug":"button-groups","url":"/component/button-groups","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-groups--usage","url":"/component/button-groups--usage"},{"name":"Accessibility","slug":"button-groups--accessibility","url":"/component/button-groups--accessibility"}]},{"id":26,"name":"Button Icons","slug":"button-icons","url":"/component/button-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-icons--usage","url":"/component/button-icons--usage"},{"name":"Specifications","slug":"button-icons--specifications","url":"/component/button-icons--specifications"},{"name":"Accessibility","slug":"button-icons--accessibility","url":"/component/button-icons--accessibility"}]},{"id":27,"name":"Cards","slug":"cards","url":"/component/cards","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"cards--usage","url":"/component/cards--usage"},{"name":"Develop","slug":"cards--develop","url":"/develop/cards--develop"},{"name":"Specifications","slug":"cards--specifications","url":"/component/cards--specifications"}]},{"id":28,"name":"Carousel","slug":"carousel","url":"/component/carousel","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"carousel--develop","url":"/develop/carousel--develop"},{"name":"Specifications","slug":"carousel--specifications","url":"/component/carousel--specifications"},{"name":"Accessibility","slug":"carousel--accessibility","url":"/component/carousel--accessibility"}]},{"id":29,"name":"Checkbox","slug":"checkbox","url":"/component/checkbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox--usage","url":"/component/checkbox--usage"},{"name":"Specifications","slug":"checkbox--specifications","url":"/component/checkbox--specifications"},{"name":"Accessibility","slug":"checkbox--accessibility","url":"/component/checkbox--accessibility"}]},{"id":30,"name":"Checkbox Button","slug":"checkbox-button","url":"/component/checkbox-button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Specifications","slug":"checkbox-button--specifications","url":"/component/checkbox-button--specifications"},{"name":"Accessibility","slug":"checkbox-button--accessibility","url":"/component/checkbox-button--accessibility"}]},{"id":31,"name":"Checkbox Toggle","slug":"checkbox-toggle","url":"/component/checkbox-toggle","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox-toggle--usage","url":"/component/checkbox-toggle--usage"},{"name":"Specifications","slug":"checkbox-toggle--specifications","url":"/component/checkbox-toggle--specifications"},{"name":"Accessibility","slug":"checkbox-toggle--accessibility","url":"/component/checkbox-toggle--accessibility"}]},{"id":32,"name":"Color Picker","slug":"color-picker","url":"/component/color-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"color-picker--usage","url":"/foundation/color-picker--usage"},{"name":"Specifications","slug":"color-picker--specifications","url":"/foundation/color-picker--specifications"},{"name":"Accessibility","slug":"color-picker--accessibility","url":"/foundation/color-picker--accessibility"}]},{"id":33,"name":"Combobox","slug":"combobox","url":"/component/combobox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"combobox--usage","url":"/component/combobox--usage"},{"name":"Develop","slug":"combobox--develop","url":"/develop/combobox--develop"},{"name":"Specifications","slug":"combobox--specifications","url":"/component/combobox--specifications"}]},{"id":34,"name":"Data Table","slug":"data-table","url":"/component/data-table","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"data-table--usage","url":"/component/data-table--usage"},{"name":"Develop","slug":"data-table--develop","url":"/develop/data-table--develop"},{"name":"Specifications","slug":"data-table--specifications","url":"/component/data-table--specifications"}]},{"id":35,"name":"Datepicker","slug":"datepicker","url":"/component/datepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datepicker--develop","url":"/develop/datepicker--develop"},{"name":"Specifications","slug":"datepicker--specifications","url":"/component/datepicker--specifications"},{"name":"Accessibility","slug":"datepicker--accessibility","url":"/component/datepicker--accessibility"}]},{"id":36,"name":"Datetime Picker","slug":"datetime-picker","url":"/component/datetime-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datetime-picker--develop","url":"/develop/datetime-picker--develop"},{"name":"Accessibility","slug":"datetime-picker--accessibility","url":"/foundation/datetime-picker--accessibility"}]},{"id":37,"name":"Dual Listbox","slug":"dual-listbox","url":"/component/dual-listbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dual-listbox--usage","url":"/component/dual-listbox--usage"},{"name":"Develop","slug":"dual-listbox--develop","url":"/develop/dual-listbox--develop"},{"name":"Specifications","slug":"dual-listbox--specifications","url":"/component/dual-listbox--specifications"},{"name":"Accessibility","slug":"dual-listbox--accessibility","url":"/component/dual-listbox--accessibility"}]},{"id":38,"name":"Dynamic Icons","slug":"dynamic-icons","url":"/component/dynamic-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dynamic-icons--usage","url":"/component/dynamic-icons--usage"},{"name":"Develop","slug":"dynamic-icons--develop","url":"/develop/dynamic-icons--develop"},{"name":"Specifications","slug":"dynamic-icons--specifications","url":"/component/dynamic-icons--specifications"},{"name":"Accessibility","slug":"dynamic-icons--accessibility","url":"/component/dynamic-icons--accessibility"}]},{"id":39,"name":"Empty State","slug":"empty-state","url":"/component/empty-state","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"empty-state--accessibility","url":"/foundation/empty-state--accessibility"}]},{"id":40,"name":"File Selector","slug":"file-selector","url":"/component/file-selector","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"file-selector--usage","url":"/component/file-selector--usage"},{"name":"Specifications","slug":"file-selector--specifications","url":"/component/file-selector--specifications"},{"name":"Accessibility","slug":"file-selector--accessibility","url":"/component/file-selector--accessibility"}]},{"id":41,"name":"Form Element","slug":"form-element","url":"/component/form-element","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"form-element--usage","url":"/component/form-element--usage"},{"name":"Develop","slug":"form-element--develop","url":"/develop/form-element--develop"},{"name":"Specifications","slug":"form-element--specifications","url":"/component/form-element--specifications"},{"name":"Accessibility","slug":"form-element--accessibility","url":"/component/form-element--accessibility"}]},{"id":42,"name":"Icons","slug":"icons","url":"/component/icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"icons--usage","url":"/component/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/develop/icons--develop"},{"name":"Accessibility","slug":"icons--accessibility","url":"/component/icons--accessibility"}]},{"id":43,"name":"Input","slug":"input","url":"/component/input","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"input--usage","url":"/component/input--usage"},{"name":"Specifications","slug":"input--specifications","url":"/component/input--specifications"},{"name":"Accessibility","slug":"input--accessibility","url":"/component/input--accessibility"}]},{"id":44,"name":"Map","slug":"map","url":"/component/map","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"map--accessibility","url":"/foundation/map--accessibility"}]},{"id":45,"name":"Menu","slug":"menu","url":"/component/menu","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"menu--usage","url":"/component/menu--usage"},{"name":"Develop","slug":"menu--develop","url":"/develop/menu--develop"},{"name":"Specifications","slug":"menu--specifications","url":"/component/menu--specifications"},{"name":"Accessibility","slug":"menu--accessibility","url":"/component/menu--accessibility"}]},{"id":46,"name":"Modals","slug":"modals","url":"/component/modals","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"modals--usage","url":"/component/modals--usage"},{"name":"Develop","slug":"modals--develop","url":"/develop/modals--develop"},{"name":"Specifications","slug":"modals--specifications","url":"/component/modals--specifications"},{"name":"Accessibility","slug":"modals--accessibility","url":"/component/modals--accessibility"}]},{"id":47,"name":"Pills","slug":"pills","url":"/component/pills","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"pills--usage","url":"/component/pills--usage"},{"name":"Develop","slug":"pills--develop","url":"/develop/pills--develop"},{"name":"Specifications","slug":"pills--specifications","url":"/component/pills--specifications"},{"name":"Accessibility","slug":"pills--accessibility","url":"/component/pills--accessibility"}]},{"id":48,"name":"Popover","slug":"popover","url":"/component/popover","category":"component","hidden":false,"showTabsInSidebar":"$undefined"},{"id":49,"name":"Progress Bar","slug":"progress-bar","url":"/component/progress-bar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-bar--usage","url":"/component/progress-bar--usage"},{"name":"Specifications","slug":"progress-bar--specifications","url":"/component/progress-bar--specifications"},{"name":"Accessibility","slug":"progress-bar--accessibility","url":"/component/progress-bar--accessibility"}]},{"id":50,"name":"Progress Indicator","slug":"progress-indicator","url":"/component/progress-indicator","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-indicator--usage","url":"/component/progress-indicator--usage"},{"name":"Develop","slug":"progress-indicator--develop","url":"/develop/progress-indicator--develop"},{"name":"Specifications","slug":"progress-indicator--specifications","url":"/component/progress-indicator--specifications"}]},{"id":51,"name":"Progress Ring","slug":"progress-ring","url":"/component/progress-ring","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-ring--usage","url":"/component/progress-ring--usage"},{"name":"Develop","slug":"progress-ring--develop","url":"/develop/progress-ring--develop"},{"name":"Specifications","slug":"progress-ring--specifications","url":"/component/progress-ring--specifications"}]},{"id":52,"name":"Prompt","slug":"prompt","url":"/component/prompt","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"prompt--develop","url":"/develop/prompt--develop"}]},{"id":53,"name":"Radio Button Group","slug":"radio-button-group","url":"/component/radio-button-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-button-group--usage","url":"/component/radio-button-group--usage"},{"name":"Develop","slug":"radio-button-group--develop","url":"/develop/radio-button-group--develop"},{"name":"Specifications","slug":"radio-button-group--specifications","url":"/component/radio-button-group--specifications"},{"name":"Accessibility","slug":"radio-button-group--accessibility","url":"/component/radio-button-group--accessibility"}]},{"id":54,"name":"Radio Group","slug":"radio-group","url":"/component/radio-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-group--usage","url":"/component/radio-group--usage"},{"name":"Develop","slug":"radio-group--develop","url":"/develop/radio-group--develop"},{"name":"Specifications","slug":"radio-group--specifications","url":"/component/radio-group--specifications"},{"name":"Accessibility","slug":"radio-group--accessibility","url":"/component/radio-group--accessibility"}]},{"id":55,"name":"Rich Text Editor","slug":"rich-text-editor","url":"/component/rich-text-editor","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"rich-text-editor--accessibility","url":"/foundation/rich-text-editor--accessibility"}]},{"id":56,"name":"Scoped Tabs","slug":"scoped-tabs","url":"/component/scoped-tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"scoped-tabs--usage","url":"/component/scoped-tabs--usage"},{"name":"Develop","slug":"scoped-tabs--develop","url":"/develop/scoped-tabs--develop"},{"name":"Specifications","slug":"scoped-tabs--specifications","url":"/component/scoped-tabs--specifications"},{"name":"Accessibility","slug":"scoped-tabs--accessibility","url":"/component/scoped-tabs--accessibility"}]},{"id":57,"name":"Select","slug":"select","url":"/component/select","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"select--usage","url":"/component/select--usage"},{"name":"Develop","slug":"select--develop","url":"/develop/select--develop"},{"name":"Specifications","slug":"select--specifications","url":"/component/select--specifications"}]},{"id":58,"name":"Slider","slug":"slider","url":"/component/slider","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"slider--accessibility","url":"/foundation/slider--accessibility"}]},{"id":59,"name":"Spinners","slug":"spinners","url":"/component/spinners","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"spinners--usage","url":"/component/spinners--usage"},{"name":"Specifications","slug":"spinners--specifications","url":"/component/spinners--specifications"},{"name":"Accessibility","slug":"spinners--accessibility","url":"/component/spinners--accessibility"}]},{"id":60,"name":"Tabs","slug":"tabs","url":"/component/tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tabs--usage","url":"/component/tabs--usage"},{"name":"Develop","slug":"tabs--develop","url":"/develop/tabs--develop"},{"name":"Specifications","slug":"tabs--specifications","url":"/component/tabs--specifications"},{"name":"Accessibility","slug":"tabs--accessibility","url":"/component/tabs--accessibility"}]},{"id":61,"name":"Textarea","slug":"textarea","url":"/component/textarea","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"textarea--usage","url":"/component/textarea--usage"},{"name":"Develop","slug":"textarea--develop","url":"/develop/textarea--develop"},{"name":"Specifications","slug":"textarea--specifications","url":"/component/textarea--specifications"},{"name":"Accessibility","slug":"textarea--accessibility","url":"/component/textarea--accessibility"}]},{"id":62,"name":"Tiles","slug":"tiles","url":"/component/tiles","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"tiles--develop","url":"/develop/tiles--develop"},{"name":"Accessibility","slug":"tiles--accessibility","url":"/foundation/tiles--accessibility"}]},{"id":63,"name":"Timepicker","slug":"timepicker","url":"/component/timepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"timepicker--develop","url":"/develop/timepicker--develop"},{"name":"Accessibility","slug":"timepicker--accessibility","url":"/foundation/timepicker--accessibility"}]},{"id":64,"name":"Toast","slug":"toast","url":"/component/toast","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"toast--usage","url":"/component/toast--usage"},{"name":"Develop","slug":"toast--develop","url":"/develop/toast--develop"},{"name":"Specifications","slug":"toast--specifications","url":"/component/toast--specifications"},{"name":"Accessibility","slug":"toast--accessibility","url":"/component/toast--accessibility"}]},{"id":65,"name":"Tooltip","slug":"tooltip","url":"/component/tooltip","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tooltip--usage","url":"/component/tooltip--usage"},{"name":"Specifications","slug":"tooltip--specifications","url":"/component/tooltip--specifications"},{"name":"Accessibility","slug":"tooltip--accessibility","url":"/component/tooltip--accessibility"}]},{"id":66,"name":"Tree","slug":"tree","url":"/component/tree","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree--usage","url":"/component/tree--usage"},{"name":"Specifications","slug":"tree--specifications","url":"/component/tree--specifications"},{"name":"Accessibility","slug":"tree--accessibility","url":"/component/tree--accessibility"}]},{"id":67,"name":"Tree Grid","slug":"tree-grid","url":"/component/tree-grid","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree-grid--usage","url":"/component/tree-grid--usage"},{"name":"Develop","slug":"tree-grid--develop","url":"/develop/tree-grid--develop"},{"name":"Accessibility","slug":"tree-grid--accessibility","url":"/component/tree-grid--accessibility"}]}]},{"id":6,"name":"Patterns","slug":"pattern","hidden":false,"children":[{"id":68,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/pattern/agentic-patterns","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined"},{"id":69,"name":"In App Feedback","slug":"in-app-feedback","url":"/pattern/in-app-feedback","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"In App Feedback Patterns","slug":"in-app-feedback--in-app-feedback-patterns","url":"/pattern/in-app-feedback--in-app-feedback-patterns"}]},{"id":70,"name":"User Engagement","slug":"user-engagement","url":"/pattern/user-engagement","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Overview","slug":"user-engagement--overview","url":"/pattern/user-engagement--overview"},{"name":"Feature Discovery","slug":"user-engagement--feature-discovery","url":"/pattern/user-engagement--feature-discovery"},{"name":"Deeper Learning","slug":"user-engagement--deeper-learning","url":"/pattern/user-engagement--deeper-learning"},{"name":"Troubleshooting","slug":"user-engagement--troubleshooting","url":"/pattern/user-engagement--troubleshooting"},{"name":"Onboarding","slug":"user-engagement--onboarding","url":"/pattern/user-engagement--onboarding"}]}]},{"id":7,"name":"Accessibility","slug":"foundation","hidden":false,"children":[{"id":71,"name":"Global Accessibility Standards","slug":"global-accessibility-standards","url":"/foundation/global-accessibility-standards","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"},{"id":72,"name":"Text and Color Contrast","slug":"text-and-color-contrast","url":"/foundation/text-and-color-contrast","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":8,"name":"Tools","slug":"develop","hidden":false,"children":[{"id":73,"name":"Developer Tools","slug":"developer-tools","url":"/develop/developer-tools","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":74,"name":"Designer Tools","slug":"designer-tools","url":"/design/designer-tools","category":"design","hidden":false,"showTabsInSidebar":"$undefined"},{"id":75,"name":"SLDS Validator","slug":"slds-validator","url":"/tools/slds-validator","category":"tools","hidden":false,"showTabsInSidebar":"$undefined"},{"id":76,"name":"SLDS Linter","slug":"slds-linter","url":"/general/slds-linter","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]}]}],"$L8"]}]]}]}]]}]]}],{"children":[["category","pattern","d"],"$L9",{"children":[["slug","in-app-feedback--in-app-feedback-patterns","oc"],"$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false]},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+e:I[2619,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],""]
+10:I[4431,[],"OutletBoundary"]
+12:I[5278,[],"AsyncMetadataOutlet"]
+14:I[4431,[],"ViewportBoundary"]
+16:I[4431,[],"MetadataBoundary"]
+17:"$Sreact.suspense"
+8:["$","div",null,{"className":"flex-1 flex flex-col overflow-auto","style":{"backgroundColor":"var(--background)"},"children":[["$","main",null,{"className":"flex-1 px-4 sm:px-6 md:px-12 py-0","style":{"backgroundColor":"var(--background)"},"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t pt-8 pb-12 text-[12px] mt-16 transition-colors","style":{"borderColor":"var(--border)","color":"var(--slds-gray-text)","backgroundColor":"var(--footer-bg)"},"children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 md:px-12","children":[["$","div",null,{"className":"flex flex-wrap gap-x-6 gap-y-2 mb-4","children":[["$","$Le",null,{"href":"/general/get-started","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Get Started"}],[["$","a","Terms of Service",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Terms of Service"}],["$","a","Privacy",{"href":"https://www.salesforce.com/company/privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Privacy"}],["$","a","Responsible Disclosure",{"href":"https://www.salesforce.com/company/security/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Responsible Disclosure"}],["$","a","Trust",{"href":"https://trust.salesforce.com/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Trust"}],["$","a","Your Privacy Choices",{"href":"https://www.salesforce.com/company/privacy/full_privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Your Privacy Choices"}],["$","a","Salesforce Legal",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Salesforce Legal"}]]]}],["$","p",null,{"className":"text-[11px]","style":{"color":"var(--slds-gray-text)","opacity":0.7},"children":"© Copyright 2015-present Salesforce, Inc. All rights reserved. Various trademarks held by their respective owners. Salesforce, Inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States"}]]}]}]]}]
+9:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+a:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":["$L11",["$","$L12",null,{"promise":"$@13"}]]}]]}]
+c:["$","$1","h",{"children":[null,[["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L16",null,{"children":["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":"$L18"}]}]}]]}]
+19:I[1542,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],"TabBar"]
+1a:T4082,<h2>Introduction</h2>
+<table>
+<thead>
+<tr>
+<th>Often a combination of pattern elements will be the best solution to collect the most meaningful and actionable feedback for your use case. This section covers types of elements and containers, and best practices around when to use them depending on your research objective.</th>
+<th>Start using our Design Kits                          <a href="https://www.figma.com/@salesforce">           *         </a>                       *  *           *   <a href="https://www.figma.com/@salesforce">Open in Figma</a></th>
+</tr>
+</thead>
+</table>
+<h2>Pairing Questions and Elements</h2>
+<p>Once you have chosen your research objective, assess which element would provide the best experience for your users while also enabling you to capture meaningful feedback.</p>
+<p>Use this table to help you select the right feedback element for each scenario.</p>
+<table>
+<thead>
+<tr>
+<th><strong>User Centric Questions</strong></th>
+<th><strong>Rating Scale</strong></th>
+<th><strong>Yes or No</strong></th>
+<th><strong>Open Response Text Field</strong></th>
+<th><strong>Multiple Choice Question</strong></th>
+<th><strong>Visual Feedback</strong></th>
+<th><strong>User Initiated Tagging</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What do you think about this feature? Based on your visit today, how would you rate your overall experience using this feature?</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+</tr>
+<tr>
+<td>What were you hoping to have happend here?</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Did you find what you were looking for?</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+</tr>
+<tr>
+<td>What was your goal today? Were you able to achieve it?</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+</tr>
+<tr>
+<td>How helpful was this recommendation? Is there any information missing from this page?</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>What's working well for you? Thinking about the last time you used this feature, what could have been improved?</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>What went wrong here? Help us understand what you were trying to do.</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>If you could change, add or improve just one thing about our product, what would it be?</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>In App Feedback Question Elements</h2>
+<p>These guidelines include example question elements and their suggested usage. Think of them as mechanisms that you can adapt to meet your own needs.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Overview</strong>Numeric ratings are commonly used linear scale questions. They typically are scaled using whole numbers from 1-5 or 1-7. A notable exception is the Net Promotor Score (NPS) which is scaled from 0-10; this question however, has a unique method of analyzing results. Because the endpoints are more variable, the numeric rating scale offers more flexibility than the star rating scale. Stars are a commonly used visual, linear, rating scale question. One of the most common scales is 1-5 stars where 1 is low and 5 is high.<strong>Usage</strong>Numeric rating scales are often used for things like satisfaction, ease, brand favorability, feature importance, and likelihood to recommend.<a href="https://www.lightningdesignsystem.com/guidelines/in-app-feedback/patterns/#footnote">1</a> For ease of use, a statistically validated question called the Single Ease Question (SEQ) may immediately follow a task: Overall, how difficult or easy was the task to complete? where 1 = Very Difficult and 7 = Very Easy. You might use a rating scale to ask a user to indicate how helpful a feature was, how helpful results or information presented felt, etc. They are used at the end of an experience, as an evaluative assessment.<strong>Do</strong> label at least the endpoints of the numeric scale. Only use icon based rating scales, such as stars, for relatively simple evaluations. When assessing results, be careful of comparing averages without considering volume of responses.  <strong>Don't</strong> use non standard rating lengths (ex: 1-3, 1-9). For scenarios where the nuance is critical, don’t only use rating scales. To assess nuance, a rating needs to be paired with an accompanying qualitative element (much like a rating + comment option common to eCommerce experiences).</th>
+<th>*                     Numeric or icon based rating scale           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Overview</strong>A simple, visual, or text based rating system to express a single sentiment, positive or negative, towards an element.<strong>Usage</strong>Yes or No votes are quick to complete, and can show at a glance sentiment. Results are often surfaced to users as a means of providing a visual cue as to the level of positive or negative sentiment about an element, such as an IdeaExchange idea. They can be icon or text based <a href="/components/button">buttons</a> and are used to answer a Yes/No question, such as Was this information helpful?<strong>Do</strong> use voting for quick questions where there are two possible sentiments - yes/positive, no/negative.  <strong>Don't</strong> only use voting if there's the potential for more than yes/positive, no/negative. Capturing the gray area requires a qualitative element, such as Other.</th>
+<th>*                     Icons or words to represent a binary choice           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Overview</strong>Open response text allows users to provide a detailed response to a prompt. These fields are sometimes limited in length (ex: 1-2 sentences), which can indicate to users the type of response that is expected.<strong>Usage</strong>Use open response text when the set of likely possible responses is not known. For example, this can be used to understand reasoning behind a numeric rating, an opinion about a feature, or an explanation for an action.<strong>Do</strong> use open response text fields for exploration, they can be a great tool for uncovering new insights.  <strong>Don't</strong> use open response text fields in excess;   because they take time to complete, the likelihood of completion decreases as the number of open response text fields increases.</th>
+<th>*                       *  An open text box to collect free form response  *           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Overview</strong>Multiple choice questions provide a concrete set of responses that a user can select. They can be either single or multi select.<strong>Usage</strong>Use multiple choice questions when the set of likely responses is known. Common multiple choice questions include age, industry, and current device. Multiple choice questions are often answered in the form of <a href="/components/checkbox">checkboxes</a> or <a href="/components/radio-button-group">radio buttons</a><strong>Do</strong> use multiple choice questions for quick data capture.  <strong>Don't</strong> use multiple choice questions for responses that are too similar, too long, or too complex.</th>
+<th>*                     A checkbox or radio button based selection           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Overview</strong>Visual feedback provides users the ability to highlight an issue within the product through showing with an image or screenshot in addition to telling through written feedback.<strong>Usage</strong>Use visual feedback when things such as layout or UI elements will be relevant to the information being provided, or when something can be more easily or quickly shown rather than described. This generally involves the user uploading a screen capture or other .png or .jpeg file to illustrate the issue or comment.<strong>Do</strong> use visuals for helping to give further context to the feedback that a user is providing. Situations such as reporting a bug, factual error, or providing usability feedback benefit greatly from added visual feedback. This is best paired with an open response text field to allow the user to further explain the image that they have shared.  <strong>Don't</strong> use visual feedback to collect any type of personally identifying data about the customer or their organization that may unintentionally violate privacy mandates.</th>
+<th>*                     Use the file selector component to upload visual feedback           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>User Initiated Topic Tagging</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Overview</strong>User initiated tagging is a mechanism that allows users to associate or tag their feedback with particular features or product areas in the system to help better explain the context of the feedback and improve analysis.<strong>Usage</strong>Use this when collecting more general feedback that needs to be associated to a particular flow, feature, or element of the system to have better context.<strong>Do</strong> use tagging for allowing users to identify feature areas that their comments are about.  <strong>Don't</strong> create categories that are overly limiting to the user, this should be an optional field or the user should have the ability to choose “other” and fill in their own answer.</th>
+<th>*                     Associate feedback with relevant categories through a multi select or autocomplete combobox or multiple choice question           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Consent Opt In</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Overview</strong>Consent opt in from users is an important part of collecting feedback in app. Depending on the nature of the feedback provided, how you plan to use the responses, or if you will contact participants for follow up there may be various legal requirements or needs for informed consent from participants to be able to take those next steps with the responses and data that they have provided.<strong>Usage</strong>Use consent opt in when you would like to contact a participant for follow up or additional research and to let them know how their data will be used. Consent opt in often takes the form of a <a href="/components/checkbox">checkbox</a> or signature <a href="/components/input">input</a> that is paired with legal language that is relevant to the situation or type of information being collected. This often appears at the beginning or end of a set of research questions and should be required before the user is able to submit their feedback.<strong>Do</strong> use consent opt in for the ability to follow up with a participant for further research sessions and to inform the participant of what they are legally agreeing to, and what their response is being used for.  <strong>Don't</strong> use consent opt in for collecting personal information that could identify users based on their responses or to collect confidential data from participants businesses.  <strong>Note:</strong> Insights for Rating Scale usage were sourced from <a href="https://measuringu.com/rating-scales/">https://measuringu.com/rating-scales/</a></th>
+<th>*                     A checkbox or signature consent opt in           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Feedback Containers</h2>
+<p>A container is a component that brings together question elements at the atomic level and displays them to the user in the UI.</p>
+<h2>Pairing Elements and Containers</h2>
+<p>Once you have chosen specific question elements to align with your research objective, assess which container would provide the best experience for your users while also enabling you to capture meaningful feedback.</p>
+<p>Use this table to help you select the right feedback container based on the elements that you are using.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Elements</strong></th>
+<th><strong>Inline</strong></th>
+<th><strong>Docker Composer</strong></th>
+<th><strong>Popover</strong></th>
+<th><strong>Full Page</strong></th>
+<th><strong>Modal</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rating Scale</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Yes or No</td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Open Response Text Field</td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Multiple Choice Question</td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Visual Feedback</td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td>✅</td>
+</tr>
+<tr>
+<td>User Initiated Topic Tagging</td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Consent Opt In</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+<h2>In App Feedback Containers</h2>
+<p>These guidelines include example containers and their suggested usage. Think of them as mechanisms that you can adapt to meet your own needs.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Usage</strong>  Inline feedback persists on the UI and it is used to collect a response to short surveys, such as helpful or not, about relevant information in the same section. It’s displayed inline and doesn’t block any other part of the interface, or disrupt a user’s task flow.</th>
+<th>*                     Inline feedback is useful for targeting specific features on a page           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Docked Composer and Half Sheet</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Usage</strong>  A <a href="/component/prompt">docked composer</a>* *is a persistent utility bar that can expand or collapse a composer window on desktop. It allows us to gather feedback from users without disrupting them continually using the app to complete tasks. A docked composer could surface the same survey across multiple pages. A half sheet serves a similar function in the mobile space though can be a bit more disruptive to users.</th>
+<th>*                     Inline feedback is useful for targeting specific features on a page           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Usage</strong>  A <a href="/component/popover">popover</a>* *is a non modal dialog opened by a clickable trigger element. It is used to display contextual surveys without having a layer cover the app. A popover contains a simple survey that usually does not require multiple steps/pages.</th>
+<th>*                     Inline feedback is useful for targeting specific features on a page           *</th>
+</tr>
+</thead>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Usage</strong>  A full page has the most space to display a survey. Usually this is for questions that will require taking the user's attention away from their current tasks. Be sure that the user is opting in to give additional feedback and understands that they will be redirected from their current workflow to a separate full page. Depending on the level of detail you seek to collect, the survey could be presented in multiple steps or pages.</th>
+<th>*                     Inline feedback is useful for targeting specific features on a page           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Usage</strong>  <a href="/components/modals">Modals</a> display a fair amount of the content in a layer above the app. A modal is used when a survey needs to be shown without the user losing the page context, and allows them to easily return to the underlying page after the form is submitted or dismissed. Paired with a progress indicator, a feedback form could be displayed progressively in the modal.</th>
+<th>*                       *  Modals are effective in capturing more detailed in app feedback, but can be disruptive to a users work flow  *           *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>f:["$","div",null,{"className":"max-w-4xl","children":[["$","nav",null,{"className":"mb-6","children":["$","ol",null,{"className":"flex items-center gap-2 text-sm","children":[["$","li","/pattern-0",{"className":"flex items-center gap-2","children":[false,["$","$Le",null,{"href":"/pattern","style":{"color":"var(--slds-blue)"},"children":"Patterns"}]]}],["$","li","/pattern/in-app-feedback-1",{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"h-4 w-4","style":{"color":"var(--slds-gray-text)"},"fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z","clipRule":"evenodd"}]}],["$","span",null,{"style":{"color":"var(--slds-gray-text)"},"children":"In App Feedback"}]]}]]}]}],["$","header",null,{"className":"mb-4","children":[["$","h1",null,{"className":"text-4xl font-bold mb-2","style":{"color":"var(--slds-navy)"},"children":"In App Feedback"}],"$undefined"]}],["$","$L19",null,{"tabs":[{"name":"In App Feedback Patterns","url":"/pattern/in-app-feedback","active":true}]}],["$","article",null,{"className":"content-blocks mb-12","dangerouslySetInnerHTML":{"__html":"$1a"}}],"$L1b","$L1c"]}]
+1d:I[9825,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],"ViewMarkdownButton"]
+1e:T365f,---
+title: "In App Feedback"
+slug: "in-app-feedback--in-app-feedback-patterns"
+category: "pattern"
+parent: "in-app-feedback"
+order: 0
+---
+
+## Introduction
+
+
+| Often a combination of pattern elements will be the best solution to collect the most meaningful and actionable feedback for your use case. This section covers types of elements and containers, and best practices around when to use them depending on your research objective. | Start using our Design Kits                          [           *         ](https://www.figma.com/@salesforce)                       *  *           *   [Open in Figma](https://www.figma.com/@salesforce) |
+| --- | --- |
+
+## Pairing Questions and Elements
+
+Once you have chosen your research objective, assess which element would provide the best experience for your users while also enabling you to capture meaningful feedback.
+
+Use this table to help you select the right feedback element for each scenario.
+
+
+| **User Centric Questions** | **Rating Scale** | **Yes or No** | **Open Response Text Field** | **Multiple Choice Question** | **Visual Feedback** | **User Initiated Tagging** |
+| --- | --- | --- | --- | --- | --- | --- |
+| What do you think about this feature? Based on your visit today, how would you rate your overall experience using this feature? | ✅ | ✅ | ✅ | ✅ |  | ✅ |
+| What were you hoping to have happend here? |  |  | ✅ | ✅ | ✅ | ✅ |
+| Did you find what you were looking for? | ✅ | ✅ | ✅ | ✅ |  | ✅ |
+| What was your goal today? Were you able to achieve it? | ✅ | ✅ | ✅ | ✅ |  | ✅ |
+| How helpful was this recommendation? Is there any information missing from this page? | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| What's working well for you? Thinking about the last time you used this feature, what could have been improved? |  |  | ✅ | ✅ | ✅ | ✅ |
+| What went wrong here? Help us understand what you were trying to do. |  |  | ✅ |  | ✅ |  |
+| If you could change, add or improve just one thing about our product, what would it be? |  |  | ✅ |  | ✅ |  |
+
+## In App Feedback Question Elements
+
+These guidelines include example question elements and their suggested usage. Think of them as mechanisms that you can adapt to meet your own needs.
+
+
+| **Overview**Numeric ratings are commonly used linear scale questions. They typically are scaled using whole numbers from 1-5 or 1-7. A notable exception is the Net Promotor Score (NPS) which is scaled from 0-10; this question however, has a unique method of analyzing results. Because the endpoints are more variable, the numeric rating scale offers more flexibility than the star rating scale. Stars are a commonly used visual, linear, rating scale question. One of the most common scales is 1-5 stars where 1 is low and 5 is high.**Usage**Numeric rating scales are often used for things like satisfaction, ease, brand favorability, feature importance, and likelihood to recommend.[1](https://www.lightningdesignsystem.com/guidelines/in-app-feedback/patterns/#footnote) For ease of use, a statistically validated question called the Single Ease Question (SEQ) may immediately follow a task: Overall, how difficult or easy was the task to complete? where 1 = Very Difficult and 7 = Very Easy. You might use a rating scale to ask a user to indicate how helpful a feature was, how helpful results or information presented felt, etc. They are used at the end of an experience, as an evaluative assessment.**Do** label at least the endpoints of the numeric scale. Only use icon based rating scales, such as stars, for relatively simple evaluations. When assessing results, be careful of comparing averages without considering volume of responses.  **Don't** use non standard rating lengths (ex: 1-3, 1-9). For scenarios where the nuance is critical, don’t only use rating scales. To assess nuance, a rating needs to be paired with an accompanying qualitative element (much like a rating + comment option common to eCommerce experiences). | *                     Numeric or icon based rating scale           *  |
+| --- | --- |
+|  |  |
+
+
+| **Overview**A simple, visual, or text based rating system to express a single sentiment, positive or negative, towards an element.**Usage**Yes or No votes are quick to complete, and can show at a glance sentiment. Results are often surfaced to users as a means of providing a visual cue as to the level of positive or negative sentiment about an element, such as an IdeaExchange idea. They can be icon or text based [buttons](/components/button) and are used to answer a Yes/No question, such as Was this information helpful?**Do** use voting for quick questions where there are two possible sentiments - yes/positive, no/negative.  **Don't** only use voting if there's the potential for more than yes/positive, no/negative. Capturing the gray area requires a qualitative element, such as Other. | *                     Icons or words to represent a binary choice           *  |
+| --- | --- |
+|  |  |
+
+
+| **Overview**Open response text allows users to provide a detailed response to a prompt. These fields are sometimes limited in length (ex: 1-2 sentences), which can indicate to users the type of response that is expected.**Usage**Use open response text when the set of likely possible responses is not known. For example, this can be used to understand reasoning behind a numeric rating, an opinion about a feature, or an explanation for an action.**Do** use open response text fields for exploration, they can be a great tool for uncovering new insights.  **Don't** use open response text fields in excess;   because they take time to complete, the likelihood of completion decreases as the number of open response text fields increases. | *                       *  An open text box to collect free form response  *           *  |
+| --- | --- |
+|  |  |
+
+
+| **Overview**Multiple choice questions provide a concrete set of responses that a user can select. They can be either single or multi select.**Usage**Use multiple choice questions when the set of likely responses is known. Common multiple choice questions include age, industry, and current device. Multiple choice questions are often answered in the form of [checkboxes](/components/checkbox) or [radio buttons](/components/radio-button-group)**Do** use multiple choice questions for quick data capture.  **Don't** use multiple choice questions for responses that are too similar, too long, or too complex. | *                     A checkbox or radio button based selection           *  |
+| --- | --- |
+|  |  |
+
+
+| **Overview**Visual feedback provides users the ability to highlight an issue within the product through showing with an image or screenshot in addition to telling through written feedback.**Usage**Use visual feedback when things such as layout or UI elements will be relevant to the information being provided, or when something can be more easily or quickly shown rather than described. This generally involves the user uploading a screen capture or other .png or .jpeg file to illustrate the issue or comment.**Do** use visuals for helping to give further context to the feedback that a user is providing. Situations such as reporting a bug, factual error, or providing usability feedback benefit greatly from added visual feedback. This is best paired with an open response text field to allow the user to further explain the image that they have shared.  **Don't** use visual feedback to collect any type of personally identifying data about the customer or their organization that may unintentionally violate privacy mandates. | *                     Use the file selector component to upload visual feedback           *  |
+| --- | --- |
+|  |  |
+
+### User Initiated Topic Tagging
+
+
+| **Overview**User initiated tagging is a mechanism that allows users to associate or tag their feedback with particular features or product areas in the system to help better explain the context of the feedback and improve analysis.**Usage**Use this when collecting more general feedback that needs to be associated to a particular flow, feature, or element of the system to have better context.**Do** use tagging for allowing users to identify feature areas that their comments are about.  **Don't** create categories that are overly limiting to the user, this should be an optional field or the user should have the ability to choose “other” and fill in their own answer. | *                     Associate feedback with relevant categories through a multi select or autocomplete combobox or multiple choice question           *  |
+| --- | --- |
+|  |  |
+
+### Consent Opt In
+
+
+| **Overview**Consent opt in from users is an important part of collecting feedback in app. Depending on the nature of the feedback provided, how you plan to use the responses, or if you will contact participants for follow up there may be various legal requirements or needs for informed consent from participants to be able to take those next steps with the responses and data that they have provided.**Usage**Use consent opt in when you would like to contact a participant for follow up or additional research and to let them know how their data will be used. Consent opt in often takes the form of a [checkbox](/components/checkbox) or signature [input](/components/input) that is paired with legal language that is relevant to the situation or type of information being collected. This often appears at the beginning or end of a set of research questions and should be required before the user is able to submit their feedback.**Do** use consent opt in for the ability to follow up with a participant for further research sessions and to inform the participant of what they are legally agreeing to, and what their response is being used for.  **Don't** use consent opt in for collecting personal information that could identify users based on their responses or to collect confidential data from participants businesses.  **Note:** Insights for Rating Scale usage were sourced from [https://measuringu.com/rating-scales/](https://measuringu.com/rating-scales/) | *                     A checkbox or signature consent opt in           *  |
+| --- | --- |
+|  |  |
+
+## Feedback Containers
+
+A container is a component that brings together question elements at the atomic level and displays them to the user in the UI.
+
+## Pairing Elements and Containers
+
+Once you have chosen specific question elements to align with your research objective, assess which container would provide the best experience for your users while also enabling you to capture meaningful feedback.
+
+Use this table to help you select the right feedback container based on the elements that you are using.
+
+
+| **Elements** | **Inline** | **Docker Composer** | **Popover** | **Full Page** | **Modal** |
+| --- | --- | --- | --- | --- | --- |
+| Rating Scale | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Yes or No | ✅ |  | ✅ |  |  |
+| Open Response Text Field |  | ✅ |  | ✅ | ✅ |
+| Multiple Choice Question |  | ✅ | ✅ | ✅ | ✅ |
+| Visual Feedback | ✅ | ✅ |  |  | ✅ |
+| User Initiated Topic Tagging |  | ✅ |  | ✅ | ✅ |
+| Consent Opt In | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+## In App Feedback Containers
+
+These guidelines include example containers and their suggested usage. Think of them as mechanisms that you can adapt to meet your own needs.
+
+
+| **Usage**  Inline feedback persists on the UI and it is used to collect a response to short surveys, such as helpful or not, about relevant information in the same section. It’s displayed inline and doesn’t block any other part of the interface, or disrupt a user’s task flow. | *                     Inline feedback is useful for targeting specific features on a page           *  |
+| --- | --- |
+|  |  |
+
+### Docked Composer and Half Sheet
+
+
+| **Usage**  A [docked composer](/component/prompt)* *is a persistent utility bar that can expand or collapse a composer window on desktop. It allows us to gather feedback from users without disrupting them continually using the app to complete tasks. A docked composer could surface the same survey across multiple pages. A half sheet serves a similar function in the mobile space though can be a bit more disruptive to users. | *                     Inline feedback is useful for targeting specific features on a page           *  |
+| --- | --- |
+|  |  |
+
+
+| **Usage**  A [popover](/component/popover)* *is a non modal dialog opened by a clickable trigger element. It is used to display contextual surveys without having a layer cover the app. A popover contains a simple survey that usually does not require multiple steps/pages. | *                     Inline feedback is useful for targeting specific features on a page           *  |
+| --- | --- |
+
+
+| **Usage**  A full page has the most space to display a survey. Usually this is for questions that will require taking the user's attention away from their current tasks. Be sure that the user is opting in to give additional feedback and understands that they will be redirected from their current workflow to a separate full page. Depending on the level of detail you seek to collect, the survey could be presented in multiple steps or pages. | *                     Inline feedback is useful for targeting specific features on a page           *  |
+| --- | --- |
+|  |  |
+
+
+| **Usage**  [Modals](/components/modals) display a fair amount of the content in a layer above the app. A modal is used when a survey needs to be shown without the user losing the page context, and allows them to easily return to the underlying page after the form is submitted or dismissed. Paired with a progress indicator, a feedback form could be displayed progressively in the modal. | *                       *  Modals are effective in capturing more detailed in app feedback, but can be disruptive to a users work flow  *           *  |
+| --- | --- |
+|  |  |
+1b:["$","$L1d",null,{"markdown":"$1e"}]
+1c:["$","nav",null,{"className":"flex items-center justify-between border-t pt-8","style":{"borderColor":"var(--border)"},"children":[["$","div",null,{"className":"flex-1","children":null}],["$","div",null,{"className":"flex-1 text-right","children":["$","$Le",null,{"href":"/pattern/agentic-patterns","className":"group inline-block p-4 rounded-lg border hover:shadow-md transition-all","style":{"borderColor":"var(--border)"},"children":[["$","div",null,{"className":"text-xs mb-1","style":{"color":"var(--slds-gray-text)"},"children":"Next"}],["$","div",null,{"className":"font-medium","style":{"color":"var(--slds-blue)"},"children":"Agentic Patterns"}]]}]}]]}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:null
+13:{"metadata":[["$","title","0",{"children":"Lightning Design System 2 - Salesforce UX"}],["$","meta","1",{"name":"description","content":"The Lightning Design System helps you create the world's best enterprise app experiences."}]],"error":null,"digest":"$undefined"}
+18:"$13:metadata"

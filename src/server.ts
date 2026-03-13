@@ -36,6 +36,7 @@ if (process.env.NODE_ENV === 'production') {
 // Database connection
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
+  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
 });
 
 // Test database connection
@@ -159,6 +160,25 @@ app.get('/api/audit', requireAuth, async (req: any, res): Promise<void> => {
     res.status(500).json({ error: error.message });
   }
 });
+
+// ── Static frontend (Next.js export) ──
+const frontendOutPath = path.resolve(__dirname, '../frontend/out');
+const fs = require('fs');
+if (fs.existsSync(frontendOutPath)) {
+  app.use('/site', express.static(frontendOutPath));
+  app.get('/site/*', (req, res) => {
+    const reqPath = req.path.replace(/^\/site/, '');
+    const htmlFile = path.join(frontendOutPath, reqPath, 'index.html');
+    const directFile = path.join(frontendOutPath, reqPath + '.html');
+    if (fs.existsSync(htmlFile)) {
+      res.sendFile(htmlFile);
+    } else if (fs.existsSync(directFile)) {
+      res.sendFile(directFile);
+    } else {
+      res.sendFile(path.join(frontendOutPath, '404.html'));
+    }
+  });
+}
 
 // 404 handler
 app.use(notFoundHandler);

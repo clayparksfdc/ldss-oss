@@ -1,0 +1,577 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+4:I[8906,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"ThemeProvider"]
+5:I[4974,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"default"]
+6:I[9505,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"Header"]
+7:I[3834,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"DynamicSidebar"]
+d:I[7150,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/dd33a07d33fc611c.css","style"]
+0:{"P":null,"b":"KTtvz2X-1MHTYU9akXno5","p":"","c":["","pattern","user-engagement--engagement-patterns"],"i":false,"f":[[["",{"children":["(frontend)",{"children":[["category","pattern","d"],{"children":[["slug","user-engagement--engagement-patterns","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true]}],["",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(frontend)",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/dd33a07d33fc611c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"light","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var theme = localStorage.getItem('theme');\n              var dark = theme === 'dark' || (theme === 'system' || !theme) && window.matchMedia('(prefers-color-scheme: dark)').matches;\n              document.documentElement.classList.toggle('dark', dark);\n              document.documentElement.classList.toggle('light', !dark);\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"__variable_f367f3 antialiased","id":"frontend-app","style":{"backgroundColor":"var(--background)"},"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{}],["$","div",null,{"className":"flex min-h-[calc(100vh-36px)]","style":{"backgroundColor":"var(--background)"},"children":[["$","$L7",null,{"navigation":[{"id":1,"name":"Get Started","slug":"get-started","hidden":false,"children":[{"id":1,"name":"Get Started","slug":"get-started","url":"/get-started/get-started","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":2,"name":"Transition to SLDS 2","slug":"transition-to-slds-2","url":"/get-started/transition-to-slds-2","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":3,"name":"Admins","slug":"admins","url":"/get-started/admins","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":4,"name":"Designers","slug":"designers","url":"/get-started/designers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":5,"name":"Developers","slug":"developers","url":"/get-started/developers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":6,"name":"Resources","slug":"resources","url":"/get-started/resources","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":2,"name":"AI and SLDS 2","slug":"general","hidden":false,"children":[{"id":7,"name":"AI and SLDS 2","slug":"ai-and-slds-2","url":"/general/ai-and-slds-2","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":8,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/general/agentic-patterns","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":9,"name":"AI Tools","slug":"ai-tools","url":"/general/ai-tools","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":3,"name":"Foundations","slug":"foundation","hidden":false,"children":[{"id":10,"name":"Icons","slug":"icons","url":"/foundation/icons","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"icons--overview","url":"/foundation/icons--overview"},{"name":"Usage","slug":"icons--usage","url":"/foundation/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/foundation/icons--develop"},{"name":"Specifications","slug":"icons--specifications","url":"/foundation/icons--specifications"},{"name":"Accessibility","slug":"icons--accessibility","url":"/foundation/icons--accessibility"},{"name":"Action","slug":"icons--action","url":"/foundation/icons--action"},{"name":"Doctype","slug":"icons--doctype","url":"/foundation/icons--doctype"},{"name":"Object","slug":"icons--object","url":"/foundation/icons--object"},{"name":"Product","slug":"icons--product","url":"/foundation/icons--product"},{"name":"Utility","slug":"icons--utility","url":"/foundation/icons--utility"}]},{"id":11,"name":"Color","slug":"color","url":"/foundation/color","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Color Palette","slug":"color--color-palette","url":"/foundation/color--color-palette"},{"name":"Overview","slug":"color--overview","url":"/foundation/color--overview"},{"name":"Semantic Color","slug":"color--semantic-color","url":"/foundation/color--semantic-color"},{"name":"Styling Hooks","slug":"color--styling-hooks","url":"/foundation/color--styling-hooks"},{"name":"System Palette","slug":"color--system-palette","url":"/foundation/color--system-palette"}]},{"id":12,"name":"Typography","slug":"typography","url":"/foundation/typography","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"typography--overview","url":"/foundation/typography--overview"},{"name":"Usage","slug":"typography--usage","url":"/foundation/typography--usage"},{"name":"Type Styles","slug":"typography--type-styles","url":"/foundation/typography--type-styles"},{"name":"Styling Hooks","slug":"typography--styling-hooks","url":"/foundation/typography--styling-hooks"}]},{"id":13,"name":"Spacing and Sizing","slug":"spacing-and-sizing","url":"/foundation/spacing-and-sizing","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"spacing-and-sizing--overview","url":"/foundation/spacing-and-sizing--overview"},{"name":"Spacing","slug":"spacing-and-sizing--spacing","url":"/foundation/spacing-and-sizing--spacing"},{"name":"Sizing","slug":"spacing-and-sizing--sizing","url":"/foundation/spacing-and-sizing--sizing"},{"name":"Styling Hooks","slug":"spacing-and-sizing--styling-hooks","url":"/foundation/spacing-and-sizing--styling-hooks"}]},{"id":14,"name":"Display Density","slug":"display-density","url":"/foundation/display-density","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"display-density--overview","url":"/foundation/display-density--overview"},{"name":"Custom Configurations","slug":"display-density--custom-configurations","url":"/foundation/display-density--custom-configurations"},{"name":"Styling Hooks","slug":"display-density--styling-hooks","url":"/foundation/display-density--styling-hooks"}]},{"id":15,"name":"Borders and Radius","slug":"borders-and-radius","url":"/foundation/borders-and-radius","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"borders-and-radius--overview","url":"/foundation/borders-and-radius--overview"},{"name":"Color","slug":"borders-and-radius--color","url":"/foundation/borders-and-radius--color"},{"name":"Radius","slug":"borders-and-radius--radius","url":"/foundation/borders-and-radius--radius"},{"name":"Width","slug":"borders-and-radius--width","url":"/foundation/borders-and-radius--width"},{"name":"Styling Hooks","slug":"borders-and-radius--styling-hooks","url":"/foundation/borders-and-radius--styling-hooks"}]},{"id":16,"name":"Shadows","slug":"shadows","url":"/foundation/shadows","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"shadows--overview","url":"/foundation/shadows--overview"},{"name":"Usage","slug":"shadows--usage","url":"/foundation/shadows--usage"},{"name":"Styling Hooks","slug":"shadows--styling-hooks","url":"/foundation/shadows--styling-hooks"}]},{"id":17,"name":"Illustrations","slug":"illustrations","url":"/foundation/illustrations","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"illustrations--overview","url":"/foundation/illustrations--overview"},{"name":"Types","slug":"illustrations--types","url":"/foundation/illustrations--types"},{"name":"UI Text","slug":"illustrations--ui-text","url":"/foundation/illustrations--ui-text"}]}]},{"id":4,"name":"Develop","slug":"develop","hidden":false,"children":[{"id":18,"name":"Global Styling Hooks","slug":"styling-hook-index","url":"/develop/styling-hook-index","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":19,"name":"Utility Classes","slug":"utility-classes","url":"/develop/utility-classes","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":5,"name":"Components","slug":"component","hidden":false,"children":[{"id":20,"name":"Accordion","slug":"accordion","url":"/component/accordion","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"accordion--usage","url":"/component/accordion--usage"},{"name":"Develop","slug":"accordion--develop","url":"/develop/accordion--develop"},{"name":"Specifications","slug":"accordion--specifications","url":"/component/accordion--specifications"},{"name":"Accessibility","slug":"accordion--accessibility","url":"/component/accordion--accessibility"}]},{"id":21,"name":"Avatar","slug":"avatar","url":"/component/avatar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"avatar--usage","url":"/component/avatar--usage"},{"name":"Develop","slug":"avatar--develop","url":"/develop/avatar--develop"},{"name":"Specifications","slug":"avatar--specifications","url":"/component/avatar--specifications"},{"name":"Accessibility","slug":"avatar--accessibility","url":"/component/avatar--accessibility"}]},{"id":22,"name":"Badge","slug":"badge","url":"/component/badge","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"badge--usage","url":"/component/badge--usage"},{"name":"Develop","slug":"badge--develop","url":"/develop/badge--develop"},{"name":"Accessibility","slug":"badge--accessibility","url":"/component/badge--accessibility"}]},{"id":23,"name":"Breadcrumbs","slug":"breadcrumbs","url":"/component/breadcrumbs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"breadcrumbs--usage","url":"/component/breadcrumbs--usage"},{"name":"Specifications","slug":"breadcrumbs--specifications","url":"/component/breadcrumbs--specifications"},{"name":"Accessibility","slug":"breadcrumbs--accessibility","url":"/component/breadcrumbs--accessibility"}]},{"id":24,"name":"Button","slug":"button","url":"/component/button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button--usage","url":"/component/button--usage"},{"name":"Develop","slug":"button--develop","url":"/develop/button--develop"},{"name":"Specifications","slug":"button--specifications","url":"/component/button--specifications"},{"name":"Accessibility","slug":"button--accessibility","url":"/component/button--accessibility"}]},{"id":25,"name":"Button Groups","slug":"button-groups","url":"/component/button-groups","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-groups--usage","url":"/component/button-groups--usage"},{"name":"Accessibility","slug":"button-groups--accessibility","url":"/component/button-groups--accessibility"}]},{"id":26,"name":"Button Icons","slug":"button-icons","url":"/component/button-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-icons--usage","url":"/component/button-icons--usage"},{"name":"Specifications","slug":"button-icons--specifications","url":"/component/button-icons--specifications"},{"name":"Accessibility","slug":"button-icons--accessibility","url":"/component/button-icons--accessibility"}]},{"id":27,"name":"Cards","slug":"cards","url":"/component/cards","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"cards--usage","url":"/component/cards--usage"},{"name":"Develop","slug":"cards--develop","url":"/develop/cards--develop"},{"name":"Specifications","slug":"cards--specifications","url":"/component/cards--specifications"}]},{"id":28,"name":"Carousel","slug":"carousel","url":"/component/carousel","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"carousel--develop","url":"/develop/carousel--develop"},{"name":"Specifications","slug":"carousel--specifications","url":"/component/carousel--specifications"},{"name":"Accessibility","slug":"carousel--accessibility","url":"/component/carousel--accessibility"}]},{"id":29,"name":"Checkbox","slug":"checkbox","url":"/component/checkbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox--usage","url":"/component/checkbox--usage"},{"name":"Specifications","slug":"checkbox--specifications","url":"/component/checkbox--specifications"},{"name":"Accessibility","slug":"checkbox--accessibility","url":"/component/checkbox--accessibility"}]},{"id":30,"name":"Checkbox Button","slug":"checkbox-button","url":"/component/checkbox-button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Specifications","slug":"checkbox-button--specifications","url":"/component/checkbox-button--specifications"},{"name":"Accessibility","slug":"checkbox-button--accessibility","url":"/component/checkbox-button--accessibility"}]},{"id":31,"name":"Checkbox Toggle","slug":"checkbox-toggle","url":"/component/checkbox-toggle","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox-toggle--usage","url":"/component/checkbox-toggle--usage"},{"name":"Specifications","slug":"checkbox-toggle--specifications","url":"/component/checkbox-toggle--specifications"},{"name":"Accessibility","slug":"checkbox-toggle--accessibility","url":"/component/checkbox-toggle--accessibility"}]},{"id":32,"name":"Color Picker","slug":"color-picker","url":"/component/color-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"color-picker--usage","url":"/foundation/color-picker--usage"},{"name":"Specifications","slug":"color-picker--specifications","url":"/foundation/color-picker--specifications"},{"name":"Accessibility","slug":"color-picker--accessibility","url":"/foundation/color-picker--accessibility"}]},{"id":33,"name":"Combobox","slug":"combobox","url":"/component/combobox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"combobox--usage","url":"/component/combobox--usage"},{"name":"Develop","slug":"combobox--develop","url":"/develop/combobox--develop"},{"name":"Specifications","slug":"combobox--specifications","url":"/component/combobox--specifications"}]},{"id":34,"name":"Data Table","slug":"data-table","url":"/component/data-table","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"data-table--usage","url":"/component/data-table--usage"},{"name":"Develop","slug":"data-table--develop","url":"/develop/data-table--develop"},{"name":"Specifications","slug":"data-table--specifications","url":"/component/data-table--specifications"}]},{"id":35,"name":"Datepicker","slug":"datepicker","url":"/component/datepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datepicker--develop","url":"/develop/datepicker--develop"},{"name":"Specifications","slug":"datepicker--specifications","url":"/component/datepicker--specifications"},{"name":"Accessibility","slug":"datepicker--accessibility","url":"/component/datepicker--accessibility"}]},{"id":36,"name":"Datetime Picker","slug":"datetime-picker","url":"/component/datetime-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datetime-picker--develop","url":"/develop/datetime-picker--develop"},{"name":"Accessibility","slug":"datetime-picker--accessibility","url":"/foundation/datetime-picker--accessibility"}]},{"id":37,"name":"Dual Listbox","slug":"dual-listbox","url":"/component/dual-listbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dual-listbox--usage","url":"/component/dual-listbox--usage"},{"name":"Develop","slug":"dual-listbox--develop","url":"/develop/dual-listbox--develop"},{"name":"Specifications","slug":"dual-listbox--specifications","url":"/component/dual-listbox--specifications"},{"name":"Accessibility","slug":"dual-listbox--accessibility","url":"/component/dual-listbox--accessibility"}]},{"id":38,"name":"Dynamic Icons","slug":"dynamic-icons","url":"/component/dynamic-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dynamic-icons--usage","url":"/component/dynamic-icons--usage"},{"name":"Develop","slug":"dynamic-icons--develop","url":"/develop/dynamic-icons--develop"},{"name":"Specifications","slug":"dynamic-icons--specifications","url":"/component/dynamic-icons--specifications"},{"name":"Accessibility","slug":"dynamic-icons--accessibility","url":"/component/dynamic-icons--accessibility"}]},{"id":39,"name":"Empty State","slug":"empty-state","url":"/component/empty-state","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"empty-state--accessibility","url":"/foundation/empty-state--accessibility"}]},{"id":40,"name":"File Selector","slug":"file-selector","url":"/component/file-selector","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"file-selector--usage","url":"/component/file-selector--usage"},{"name":"Specifications","slug":"file-selector--specifications","url":"/component/file-selector--specifications"},{"name":"Accessibility","slug":"file-selector--accessibility","url":"/component/file-selector--accessibility"}]},{"id":41,"name":"Form Element","slug":"form-element","url":"/component/form-element","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"form-element--usage","url":"/component/form-element--usage"},{"name":"Develop","slug":"form-element--develop","url":"/develop/form-element--develop"},{"name":"Specifications","slug":"form-element--specifications","url":"/component/form-element--specifications"},{"name":"Accessibility","slug":"form-element--accessibility","url":"/component/form-element--accessibility"}]},{"id":42,"name":"Icons","slug":"icons","url":"/component/icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"icons--usage","url":"/component/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/develop/icons--develop"},{"name":"Accessibility","slug":"icons--accessibility","url":"/component/icons--accessibility"}]},{"id":43,"name":"Input","slug":"input","url":"/component/input","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"input--usage","url":"/component/input--usage"},{"name":"Specifications","slug":"input--specifications","url":"/component/input--specifications"},{"name":"Accessibility","slug":"input--accessibility","url":"/component/input--accessibility"}]},{"id":44,"name":"Map","slug":"map","url":"/component/map","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"map--accessibility","url":"/foundation/map--accessibility"}]},{"id":45,"name":"Menu","slug":"menu","url":"/component/menu","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"menu--usage","url":"/component/menu--usage"},{"name":"Develop","slug":"menu--develop","url":"/develop/menu--develop"},{"name":"Specifications","slug":"menu--specifications","url":"/component/menu--specifications"},{"name":"Accessibility","slug":"menu--accessibility","url":"/component/menu--accessibility"}]},{"id":46,"name":"Modals","slug":"modals","url":"/component/modals","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"modals--usage","url":"/component/modals--usage"},{"name":"Develop","slug":"modals--develop","url":"/develop/modals--develop"},{"name":"Specifications","slug":"modals--specifications","url":"/component/modals--specifications"},{"name":"Accessibility","slug":"modals--accessibility","url":"/component/modals--accessibility"}]},{"id":47,"name":"Pills","slug":"pills","url":"/component/pills","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"pills--usage","url":"/component/pills--usage"},{"name":"Develop","slug":"pills--develop","url":"/develop/pills--develop"},{"name":"Specifications","slug":"pills--specifications","url":"/component/pills--specifications"},{"name":"Accessibility","slug":"pills--accessibility","url":"/component/pills--accessibility"}]},{"id":48,"name":"Popover","slug":"popover","url":"/component/popover","category":"component","hidden":false,"showTabsInSidebar":"$undefined"},{"id":49,"name":"Progress Bar","slug":"progress-bar","url":"/component/progress-bar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-bar--usage","url":"/component/progress-bar--usage"},{"name":"Specifications","slug":"progress-bar--specifications","url":"/component/progress-bar--specifications"},{"name":"Accessibility","slug":"progress-bar--accessibility","url":"/component/progress-bar--accessibility"}]},{"id":50,"name":"Progress Indicator","slug":"progress-indicator","url":"/component/progress-indicator","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-indicator--usage","url":"/component/progress-indicator--usage"},{"name":"Develop","slug":"progress-indicator--develop","url":"/develop/progress-indicator--develop"},{"name":"Specifications","slug":"progress-indicator--specifications","url":"/component/progress-indicator--specifications"}]},{"id":51,"name":"Progress Ring","slug":"progress-ring","url":"/component/progress-ring","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-ring--usage","url":"/component/progress-ring--usage"},{"name":"Develop","slug":"progress-ring--develop","url":"/develop/progress-ring--develop"},{"name":"Specifications","slug":"progress-ring--specifications","url":"/component/progress-ring--specifications"}]},{"id":52,"name":"Prompt","slug":"prompt","url":"/component/prompt","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"prompt--develop","url":"/develop/prompt--develop"}]},{"id":53,"name":"Radio Button Group","slug":"radio-button-group","url":"/component/radio-button-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-button-group--usage","url":"/component/radio-button-group--usage"},{"name":"Develop","slug":"radio-button-group--develop","url":"/develop/radio-button-group--develop"},{"name":"Specifications","slug":"radio-button-group--specifications","url":"/component/radio-button-group--specifications"},{"name":"Accessibility","slug":"radio-button-group--accessibility","url":"/component/radio-button-group--accessibility"}]},{"id":54,"name":"Radio Group","slug":"radio-group","url":"/component/radio-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-group--usage","url":"/component/radio-group--usage"},{"name":"Develop","slug":"radio-group--develop","url":"/develop/radio-group--develop"},{"name":"Specifications","slug":"radio-group--specifications","url":"/component/radio-group--specifications"},{"name":"Accessibility","slug":"radio-group--accessibility","url":"/component/radio-group--accessibility"}]},{"id":55,"name":"Rich Text Editor","slug":"rich-text-editor","url":"/component/rich-text-editor","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"rich-text-editor--accessibility","url":"/foundation/rich-text-editor--accessibility"}]},{"id":56,"name":"Scoped Tabs","slug":"scoped-tabs","url":"/component/scoped-tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"scoped-tabs--usage","url":"/component/scoped-tabs--usage"},{"name":"Develop","slug":"scoped-tabs--develop","url":"/develop/scoped-tabs--develop"},{"name":"Specifications","slug":"scoped-tabs--specifications","url":"/component/scoped-tabs--specifications"},{"name":"Accessibility","slug":"scoped-tabs--accessibility","url":"/component/scoped-tabs--accessibility"}]},{"id":57,"name":"Select","slug":"select","url":"/component/select","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"select--usage","url":"/component/select--usage"},{"name":"Develop","slug":"select--develop","url":"/develop/select--develop"},{"name":"Specifications","slug":"select--specifications","url":"/component/select--specifications"}]},{"id":58,"name":"Slider","slug":"slider","url":"/component/slider","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"slider--accessibility","url":"/foundation/slider--accessibility"}]},{"id":59,"name":"Spinners","slug":"spinners","url":"/component/spinners","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"spinners--usage","url":"/component/spinners--usage"},{"name":"Specifications","slug":"spinners--specifications","url":"/component/spinners--specifications"},{"name":"Accessibility","slug":"spinners--accessibility","url":"/component/spinners--accessibility"}]},{"id":60,"name":"Tabs","slug":"tabs","url":"/component/tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tabs--usage","url":"/component/tabs--usage"},{"name":"Develop","slug":"tabs--develop","url":"/develop/tabs--develop"},{"name":"Specifications","slug":"tabs--specifications","url":"/component/tabs--specifications"},{"name":"Accessibility","slug":"tabs--accessibility","url":"/component/tabs--accessibility"}]},{"id":61,"name":"Textarea","slug":"textarea","url":"/component/textarea","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"textarea--usage","url":"/component/textarea--usage"},{"name":"Develop","slug":"textarea--develop","url":"/develop/textarea--develop"},{"name":"Specifications","slug":"textarea--specifications","url":"/component/textarea--specifications"},{"name":"Accessibility","slug":"textarea--accessibility","url":"/component/textarea--accessibility"}]},{"id":62,"name":"Tiles","slug":"tiles","url":"/component/tiles","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"tiles--develop","url":"/develop/tiles--develop"},{"name":"Accessibility","slug":"tiles--accessibility","url":"/foundation/tiles--accessibility"}]},{"id":63,"name":"Timepicker","slug":"timepicker","url":"/component/timepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"timepicker--develop","url":"/develop/timepicker--develop"},{"name":"Accessibility","slug":"timepicker--accessibility","url":"/foundation/timepicker--accessibility"}]},{"id":64,"name":"Toast","slug":"toast","url":"/component/toast","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"toast--usage","url":"/component/toast--usage"},{"name":"Develop","slug":"toast--develop","url":"/develop/toast--develop"},{"name":"Specifications","slug":"toast--specifications","url":"/component/toast--specifications"},{"name":"Accessibility","slug":"toast--accessibility","url":"/component/toast--accessibility"}]},{"id":65,"name":"Tooltip","slug":"tooltip","url":"/component/tooltip","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tooltip--usage","url":"/component/tooltip--usage"},{"name":"Specifications","slug":"tooltip--specifications","url":"/component/tooltip--specifications"},{"name":"Accessibility","slug":"tooltip--accessibility","url":"/component/tooltip--accessibility"}]},{"id":66,"name":"Tree","slug":"tree","url":"/component/tree","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree--usage","url":"/component/tree--usage"},{"name":"Specifications","slug":"tree--specifications","url":"/component/tree--specifications"},{"name":"Accessibility","slug":"tree--accessibility","url":"/component/tree--accessibility"}]},{"id":67,"name":"Tree Grid","slug":"tree-grid","url":"/component/tree-grid","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree-grid--usage","url":"/component/tree-grid--usage"},{"name":"Develop","slug":"tree-grid--develop","url":"/develop/tree-grid--develop"},{"name":"Accessibility","slug":"tree-grid--accessibility","url":"/component/tree-grid--accessibility"}]}]},{"id":6,"name":"Patterns","slug":"pattern","hidden":false,"children":[{"id":68,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/pattern/agentic-patterns","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined"},{"id":69,"name":"In App Feedback","slug":"in-app-feedback","url":"/pattern/in-app-feedback","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"In App Feedback Patterns","slug":"in-app-feedback--in-app-feedback-patterns","url":"/pattern/in-app-feedback--in-app-feedback-patterns"}]},{"id":70,"name":"User Engagement","slug":"user-engagement","url":"/pattern/user-engagement","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Overview","slug":"user-engagement--overview","url":"/pattern/user-engagement--overview"},{"name":"Feature Discovery","slug":"user-engagement--feature-discovery","url":"/pattern/user-engagement--feature-discovery"},{"name":"Deeper Learning","slug":"user-engagement--deeper-learning","url":"/pattern/user-engagement--deeper-learning"},{"name":"Troubleshooting","slug":"user-engagement--troubleshooting","url":"/pattern/user-engagement--troubleshooting"},{"name":"Onboarding","slug":"user-engagement--onboarding","url":"/pattern/user-engagement--onboarding"}]}]},{"id":7,"name":"Accessibility","slug":"foundation","hidden":false,"children":[{"id":71,"name":"Global Accessibility Standards","slug":"global-accessibility-standards","url":"/foundation/global-accessibility-standards","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"},{"id":72,"name":"Text and Color Contrast","slug":"text-and-color-contrast","url":"/foundation/text-and-color-contrast","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":8,"name":"Tools","slug":"develop","hidden":false,"children":[{"id":73,"name":"Developer Tools","slug":"developer-tools","url":"/develop/developer-tools","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":74,"name":"Designer Tools","slug":"designer-tools","url":"/design/designer-tools","category":"design","hidden":false,"showTabsInSidebar":"$undefined"},{"id":75,"name":"SLDS Validator","slug":"slds-validator","url":"/tools/slds-validator","category":"tools","hidden":false,"showTabsInSidebar":"$undefined"},{"id":76,"name":"SLDS Linter","slug":"slds-linter","url":"/general/slds-linter","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]}]}],"$L8"]}]]}]}]]}]]}],{"children":[["category","pattern","d"],"$L9",{"children":[["slug","user-engagement--engagement-patterns","oc"],"$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false]},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+e:I[2619,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],""]
+10:I[4431,[],"OutletBoundary"]
+12:I[5278,[],"AsyncMetadataOutlet"]
+14:I[4431,[],"ViewportBoundary"]
+16:I[4431,[],"MetadataBoundary"]
+17:"$Sreact.suspense"
+8:["$","div",null,{"className":"flex-1 flex flex-col overflow-auto","style":{"backgroundColor":"var(--background)"},"children":[["$","main",null,{"className":"flex-1 px-4 sm:px-6 md:px-12 py-0","style":{"backgroundColor":"var(--background)"},"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t pt-8 pb-12 text-[12px] mt-16 transition-colors","style":{"borderColor":"var(--border)","color":"var(--slds-gray-text)","backgroundColor":"var(--footer-bg)"},"children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 md:px-12","children":[["$","div",null,{"className":"flex flex-wrap gap-x-6 gap-y-2 mb-4","children":[["$","$Le",null,{"href":"/general/get-started","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Get Started"}],[["$","a","Terms of Service",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Terms of Service"}],["$","a","Privacy",{"href":"https://www.salesforce.com/company/privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Privacy"}],["$","a","Responsible Disclosure",{"href":"https://www.salesforce.com/company/security/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Responsible Disclosure"}],["$","a","Trust",{"href":"https://trust.salesforce.com/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Trust"}],["$","a","Your Privacy Choices",{"href":"https://www.salesforce.com/company/privacy/full_privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Your Privacy Choices"}],["$","a","Salesforce Legal",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Salesforce Legal"}]]]}],["$","p",null,{"className":"text-[11px]","style":{"color":"var(--slds-gray-text)","opacity":0.7},"children":"© Copyright 2015-present Salesforce, Inc. All rights reserved. Various trademarks held by their respective owners. Salesforce, Inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States"}]]}]}]]}]
+9:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+a:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":["$L11",["$","$L12",null,{"promise":"$@13"}]]}]]}]
+c:["$","$1","h",{"children":[null,[["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L16",null,{"children":["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":"$L18"}]}]}]]}]
+19:I[1542,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],"TabBar"]
+1a:T462e,<h2>Introduction</h2>
+<table>
+<thead>
+<tr>
+<th>Here at Salesforce, we use various engagement patterns to onboard, guide, assist, and educate our users. This section gives an overview of common patterns and offers examples of how they can be used. We also highlight pros and cons for each pattern and identify a few anti-patterns.</th>
+<th>Start using our Design Kits                          <a href="https://www.figma.com/@salesforce">           *         </a>                       *  *           *   <a href="https://www.figma.com/@salesforce">Open in Figma</a></th>
+</tr>
+</thead>
+</table>
+<h2>Components and Patterns</h2>
+<h3>Welcome Mat</h3>
+<p>Onboarding is your first opportunity to introduce a product or service to your customers—and to make a positive first impression. So say hello and make them feel welcome.</p>
+<p>Welcome your users to your product. Don't underestimate the value of these simple yet effective patterns in building trust and developing relationships with your users.</p>
+<p>The welcome mat (aka onboarding modal) is a blocking modal component that appears the first time a user logs into an app after certain scenarios, such as new user, new feature available, or major application updates, are activated. It can contain primary and secondary messages, with an optional call to action. Welcome mats introduce users to your app app—they should feel welcoming and supportive, inspiring to explore the content.</p>
+<h4>Splash Welcome Mat</h4>
+<p>Welcome mats can be designed and configured to support a wide range of use cases. A simple "splash" welcome mat can deliver a welcoming message to users, with or without a single call to action button.</p>
+<h4>Information-Only Welcome Mat</h4>
+<p>An information-only welcome mat can be used to communicate important system or feature updates to users.</p>
+<h4>Checklist Welcome Mat</h4>
+<p>A welcome mat with multiple calls to action can be used to onboard users to a collection of topics related to a given scenario such as a new release or new user.</p>
+<p>See the <a href="https://v1.lightningdesignsystem.com/components/welcome-mat/">Welcome Mat blueprint</a> for implementation information.</p>
+<h4>Usage</h4>
+<p>Use this full blocking modal to make sure that users acknowledge important updates.</p>
+<p>**Use cases:**Introduce a product, new user onboarding, seasonal release, major product update, or update where action is required.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The blocking modal's high visibility grabs users' attention and encourages action.</td>
+<td>The modal completely blocks the viewport.</td>
+</tr>
+<tr>
+<td>It presents a brandable moment and allows you to present multiple content types in one place.</td>
+<td>Some users quickly close anything that auto-pops.</td>
+</tr>
+<tr>
+<td>It's a recognizable pattern; users know what to expect.</td>
+<td>The modal can provide setup steps or other guidance, but users can't take action in the product while the modal is open.</td>
+</tr>
+</tbody>
+</table>
+<h3>Popovers and Prompts</h3>
+<p>Popovers and prompts are non-modal dialog panels that give the user contextual information about your application. Prompts grab the user’s attention and alert them to system-related issues or updates. Prompts can come in many shapes, forms, and sizes. SLDS offers a wide variety of prompt patterns to support a range of use cases.</p>
+<p>Popovers provide a lightweight nudge and raise awareness of new features.</p>
+<h4>Non-Modal Prompt</h4>
+<p>Non-modal prompts engage users, nudging them to take action, or communicating system updates and notifications. A non-modal prompt gives the user information relevant to the current page, app, or larger context. Unlike a modal, a non-modal prompt is nonblocking, allowing the user to complete the current task before taking action. Dismissing removes it permanently (unless frequency rules apply).</p>
+<p>See the <a href="https://v1.lightningdesignsystem.com/components/popovers/#Prompt">Non-Modal Prompt blueprint</a> for implementation information.</p>
+<p>Prompts are flexible components that can contain a wide variety of content layouts.</p>
+<p><strong>Use cases</strong>: Communicate to users about system maintenance and downtime. Alert users of new and updated features. Encourage users to engage with another area of your application that they might not otherwise explore.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prompts and noticeable but not overpowering.</td>
+<td>If prompts are used too frequently, users may become annoyed.</td>
+</tr>
+<tr>
+<td>Prompts are non-blocking, allowing users to interact with a page until ready to take action.</td>
+<td>Prompts may temporarily cover an important part of your page.</td>
+</tr>
+<tr>
+<td>Prompts can be customized using a variety of layouts, with primary and secondary buttons.</td>
+<td></td>
+</tr>
+<tr>
+<td>Prompts can be triggered by time and frequency rules.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4>Feature Popover</h4>
+<p>A feature popover highlights a new feature or points out a significant change to an existing feature. Its content may also link to a help topic, video tutorial, or another page in your application.</p>
+<p>A feature popover may be triggered by a user action, or may simply appear the first time a user arrives on a new or updated page. Unlike a walkthrough, this is a single callout, with no subsequent steps. Once the user closes it, it doesn't appear again. Typically, feature popovers are used to onboard new users to an application, and appear early on in the onboarding process.</p>
+<p>See the <a href="https://v1.lightningdesignsystem.com/components/popovers/?density=comfy&#x26;variant=feature">Feature Popover blueprint</a> for implementation information.</p>
+<p>Feature prompts come in multiple formats.</p>
+<p><strong>Use cases</strong>: Introducing a new feature, highlighting significant change to an existing feature, encouraging a user to take action where they might not otherwise.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Popovers are lightweight and simple.</td>
+<td>Popovers can't be revisited.</td>
+</tr>
+<tr>
+<td>Popover content is often short and to the point.</td>
+<td>Users may dismiss popovers without reading them.</td>
+</tr>
+<tr>
+<td>Popovers are relatively easy to build and implement as part of a larger onboarding strategy.</td>
+<td>If not well timed and well orchestrated, popovers could overload users.</td>
+</tr>
+<tr>
+<td>Popovers point to the feature being promoted, making it's easy for users to take action.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4>Walkthrough</h4>
+<p>A walkthrough gives users a hands-on interactive tour, guiding them through a series of onboarding steps. It's a good way to introduce new features that appear within a single interactive page, or point out a feature's immediate business value. Walkthroughs can also guide users through a series of procedural steps across multiple pages, if the process is straightforward and unlikely to be customized.</p>
+<p>See the <a href="https://v1.lightningdesignsystem.com/components/popovers/?density=comfy&#x26;modifiers=.slds-nubbin_left&#x26;variant=walkthrough">Walkthrough blueprint</a> for implementation information.</p>
+<p>Walkthroughs can be short or, when required to support a complicated workflow, they may be many steps.</p>
+<p><strong>Use cases</strong>: Onboarding users to a new workflow, giving a tour of new features, or providing contextual assistance while configuring or setting up your application.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Walkthroughs guide users through an app's actual interface and support hands-on experience.</td>
+<td>Users may get impatient and not complete a walkthrough series.</td>
+</tr>
+<tr>
+<td>Walkthroughs are more contextual and specific than separate long-form content.</td>
+<td>Users may dismiss or advance without reading walkthroughs and so not fully comprehend how to perform a task.</td>
+</tr>
+<tr>
+<td>Users can closely follow steps because the walkthrough stays on screen while they work.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Docked Assistant</h3>
+<p>The docked assistant is a persistent, nonblocking panel that guides users as they complete tasks or gather information.</p>
+<p>A docked assistant is a flexible pattern that can accommodate a wide variety of content and tools.</p>
+<p>The docked assistant pattern can be expanded or collapsed as needed, and stays with users as they navigate around your product or application.</p>
+<p>In a help and learning context, this panel may contain instructions, guidance, or learning material that users can refer to while working. In response to user actions, it can update its content, register achievements, or offer encouragement.</p>
+<p>The docked assistant is built on the Docked Composer blueprint's base variant. In the context of onboarding and user assistance, the blueprint contains content and tools that support the user engagement scenario. This may be instructional content, setup assistants, or videos.</p>
+<p>See the <a href="https://v1.lightningdesignsystem.com/components/docked-composer/?modifiers=.slds-is-open&#x26;variant=base">Docked Composer blueprint</a> for implementation information.</p>
+<h4>Usage</h4>
+<p>Use the docked assistant to push important information to users while taking up minimal screen real estate.</p>
+<p><strong>Use cases:</strong> Alerting users to new features or recent enhancements related to the current product or page.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A nonblocking panel doesn't interrupt users' work.</td>
+<td>Users can confuse it with other docked panels or utility panels.</td>
+</tr>
+<tr>
+<td>The panel can be minimized, giving users access to the page underneath without permanently dismissing the panel.</td>
+<td>Unlike a feature prompt (which points to a page element), the panel may be disconnected from the element or feature it's associated with.</td>
+</tr>
+<tr>
+<td>An expandable viewport accommodates long-form content.</td>
+<td></td>
+</tr>
+<tr>
+<td>It's good for introducing users to a new feature or productivity tip related to the page they're on.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Tooltip</h3>
+<p>A tooltip (aka info bubble) pops up to display a small piece of contextual information about an element on the screen, whenever the user hovers over or focuses on that element.</p>
+<p>Tooltips typically support input fields and components.</p>
+<p>Rather than enabling action, tooltips provide examples, suggestions, and links to more information. They are not focusable and can't contain focusable content.</p>
+<h4>Usage</h4>
+<p>Each tooltip includes a nubbin, a small triangle pointing to the element it references. The nubbin can appear at any of nine locations—at the top, middle, or bottom of each side of the tooltip.</p>
+<p><strong>Use cases:</strong> Field-level help, icon usage, secondary information about a page element that doesn't require persistent presence on page layouts.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tooltips can provide supporting instructional text for a field or text input.</td>
+<td>Tooltips may be hard to discover under icons.</td>
+</tr>
+<tr>
+<td>They offer lightweight help, in context.</td>
+<td>Space for long-form content is limited.</td>
+</tr>
+<tr>
+<td>They keep users in your product or app by offering info about the page they're using or action they're performing.</td>
+<td>Tooltips can't link to additional resources.</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup Assistant</h3>
+<p>A setup assistant (aka progression system) is a centralized list of tasks designed to help users onboard organizations, clouds, or features.</p>
+<p>Setup assistants come in a variety of shapes and sizes.</p>
+<h4>Usage</h4>
+<p>This prescriptive, detailed guide walks users through the complex process of configuring, setting up, and rolling out features, which can take hours or even days. In the process, it can launch LSF (Lightning Setup Flow) and link to configuration pages, <a href="http://www.trailhead.com/">Trailhead modules</a>, articles, help and training documentation, and videos. Checkboxes, progress indicators, messages, or other rewards encourage users and motivate them to complete required steps.</p>
+<p>See the <a href="https://v1.lightningdesignsystem.com/components/setup-assistant/#site-main-content">Setup Assistant blueprint</a> for implementation information.</p>
+<p>**Use cases:**Configuring a system that requires multiple, distinct tasks, often over an extended time—for example, a new or trial system.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Pros</strong></th>
+<th><strong>Con</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A linear progression lets users know exactly where they are in their setup journey.</td>
+<td>All steps in an assistant may not be relevant for users.</td>
+</tr>
+<tr>
+<td>A series of validated steps inspires user confidence.</td>
+<td></td>
+</tr>
+<tr>
+<td>Great for beginner users who need some guidance on where to begin with your product.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Empty States</h3>
+<p>Empty states tell users that there’s no content to display—and what they can do next.</p>
+<p>Empty states are a great opportunity to onboard users and inject a moment of levity.</p>
+<p>Empty states are messages that appear whenever an element has no content to display to the user—and they're powerful onboarding tools. An empty state message consists of three pieces:</p>
+<ul>
+<li>The <strong>title</strong> describes the situation.</li>
+<li>The <strong>headline</strong>gives you an opportunity to convey more information while adding some fun.</li>
+<li>If needed, you can also include <strong>body text</strong> to add details or engage users.</li>
+</ul>
+<p>For readability, keep** line length** for each of these pieces under 66 characters per line. In general, line length should never exceed the width of your illustration.</p>
+<p>For usage best practices including dos and dont's, see the <a href="/component/empty-state">Empty State guidelines</a>.</p>
+<h4>Usage</h4>
+<p>An empty state is first a means to communicate with users. It should communicate <strong>what</strong> it’s for, <strong>why</strong> they’re seeing it—and <strong>what they can do next</strong>.</p>
+<p>It's also an opportunity to engage users, adding energy and motivating them to interact. It can guide users through an <strong>onboarding</strong> process or help them get more value from Salesforce, without overwhelming them with too much information at once. And it's a great way to reinforce our brand while injecting a bit of fun into the user experience.</p>
+<p>When designing an empty state, be sure to consider how well it will work for <strong>desktop</strong> and <strong>mobile</strong> use cases. Fo example, will it be used in both environments, or just one? Does the CTA apply for mobile users? How will the image work on a small screen?</p>
+<p>For more details, see the <a href="/component/empty-state">Empty States</a> pattern documentation.</p>
+<p>**Use cases:**Empty list, unconfigured filter, empty feed, feature not yet set up or configured.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Empty states are an opportunity to let your brand, voice, and tone shine. Have fun with them.</td>
+<td>It can be difficult to maintain current brand imagery in empty states.</td>
+</tr>
+<tr>
+<td>They create a learning opportunity with informational graphics or guidance on next actions.</td>
+<td>Empty states rely on serendipitous discovery of a feature rather than pushing a notification about its value.</td>
+</tr>
+<tr>
+<td>They can give users a preview of, or value proposition for, a future experience.</td>
+<td></td>
+</tr>
+<tr>
+<td>They can help users be productive because they convey the value of the thing they're missing out on.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Trial Bar</h3>
+<p>The trial bar is a persistent user interface element that helps users wayfind or interact with priority content and tools, supporting a trial or other immersive onboarding scenarios.</p>
+<p>The trial bar docks to the top of your application for easy access and notifications.</p>
+<p>The purpose of this persistent experience is to put the applications, value propositions and key features front and center. The trial bar typically contains the application name plus a list of clickable links designed to expose users to key elements of the application, inspiring an "aha moment." It may also include a countdown to the end of the trial phase and a primary call to action.</p>
+<p>See the <a href="https://v1.lightningdesignsystem.com/components/trial-bar/">Trial Bar blueprint</a> for implementation information.</p>
+<h4>Usage</h4>
+<p>A trial bar should span the width of the upper viewport (the viewable area in a browser). It's best used in full-screen mode, and can't be dismissed by the user.</p>
+<p>**Use cases:**Application trial experiences, temporary states in which users are likely to need onboarding help.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The trial bar appears on all major user-facing app pages.</td>
+<td>It gives users temporary, targeted help for a set amount of time.</td>
+</tr>
+<tr>
+<td>The trial bar takes up a small amount of vertical screen space.</td>
+<td>Users can't remove it.</td>
+</tr>
+</tbody>
+</table>
+<h2>Salesforce Trial Experiences</h2>
+<p>Explore a few Salesforce trials below.</p>f:["$","div",null,{"className":"max-w-4xl","children":[["$","nav",null,{"className":"mb-6","children":["$","ol",null,{"className":"flex items-center gap-2 text-sm","children":[["$","li","/pattern-0",{"className":"flex items-center gap-2","children":[false,["$","$Le",null,{"href":"/pattern","style":{"color":"var(--slds-blue)"},"children":"Patterns"}]]}],["$","li","/pattern/user-engagement-1",{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"h-4 w-4","style":{"color":"var(--slds-gray-text)"},"fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z","clipRule":"evenodd"}]}],["$","span",null,{"style":{"color":"var(--slds-gray-text)"},"children":"User Engagement"}]]}]]}]}],["$","header",null,{"className":"mb-4","children":[["$","h1",null,{"className":"text-4xl font-bold mb-2","style":{"color":"var(--slds-navy)"},"children":"User Engagement"}],"$undefined"]}],["$","$L19",null,{"tabs":[{"name":"Overview","url":"/pattern/user-engagement","active":false},{"name":"Feature Discovery","url":"/pattern/user-engagement--feature-discovery","active":false},{"name":"Deeper Learning","url":"/pattern/user-engagement--deeper-learning","active":false},{"name":"Troubleshooting","url":"/pattern/user-engagement--troubleshooting","active":false},{"name":"Onboarding","url":"/pattern/user-engagement--onboarding","active":false}]}],["$","article",null,{"className":"content-blocks mb-12","dangerouslySetInnerHTML":{"__html":"$1a"}}],"$L1b","$L1c"]}]
+1d:I[9825,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],"ViewMarkdownButton"]
+1e:T3dc3,---
+title: "User Engagement"
+slug: "user-engagement--engagement-patterns"
+category: "pattern"
+parent: "user-engagement"
+order: 0
+---
+
+## Introduction
+
+
+| Here at Salesforce, we use various engagement patterns to onboard, guide, assist, and educate our users. This section gives an overview of common patterns and offers examples of how they can be used. We also highlight pros and cons for each pattern and identify a few anti-patterns. | Start using our Design Kits                          [           *         ](https://www.figma.com/@salesforce)                       *  *           *   [Open in Figma](https://www.figma.com/@salesforce) |
+| --- | --- |
+
+## Components and Patterns
+
+### Welcome Mat
+
+Onboarding is your first opportunity to introduce a product or service to your customers—and to make a positive first impression. So say hello and make them feel welcome.
+
+Welcome your users to your product. Don't underestimate the value of these simple yet effective patterns in building trust and developing relationships with your users.
+
+The welcome mat (aka onboarding modal) is a blocking modal component that appears the first time a user logs into an app after certain scenarios, such as new user, new feature available, or major application updates, are activated. It can contain primary and secondary messages, with an optional call to action. Welcome mats introduce users to your app app—they should feel welcoming and supportive, inspiring to explore the content.
+
+#### Splash Welcome Mat
+
+Welcome mats can be designed and configured to support a wide range of use cases. A simple "splash" welcome mat can deliver a welcoming message to users, with or without a single call to action button.
+
+#### Information-Only Welcome Mat
+
+An information-only welcome mat can be used to communicate important system or feature updates to users.
+
+#### Checklist Welcome Mat
+
+A welcome mat with multiple calls to action can be used to onboard users to a collection of topics related to a given scenario such as a new release or new user.
+
+See the [Welcome Mat blueprint](https://v1.lightningdesignsystem.com/components/welcome-mat/) for implementation information.
+
+#### Usage
+
+Use this full blocking modal to make sure that users acknowledge important updates.
+
+**Use cases:**Introduce a product, new user onboarding, seasonal release, major product update, or update where action is required.
+
+
+|**Pros** | **Cons** |
+| --- | --- |
+| The blocking modal's high visibility grabs users' attention and encourages action. | The modal completely blocks the viewport. |
+| It presents a brandable moment and allows you to present multiple content types in one place. | Some users quickly close anything that auto-pops. |
+| It's a recognizable pattern; users know what to expect. | The modal can provide setup steps or other guidance, but users can't take action in the product while the modal is open. |
+
+### Popovers and Prompts
+
+Popovers and prompts are non-modal dialog panels that give the user contextual information about your application. Prompts grab the user’s attention and alert them to system-related issues or updates. Prompts can come in many shapes, forms, and sizes. SLDS offers a wide variety of prompt patterns to support a range of use cases.
+
+Popovers provide a lightweight nudge and raise awareness of new features.
+
+#### Non-Modal Prompt
+
+Non-modal prompts engage users, nudging them to take action, or communicating system updates and notifications. A non-modal prompt gives the user information relevant to the current page, app, or larger context. Unlike a modal, a non-modal prompt is nonblocking, allowing the user to complete the current task before taking action. Dismissing removes it permanently (unless frequency rules apply).
+
+See the [Non-Modal Prompt blueprint](https://v1.lightningdesignsystem.com/components/popovers/#Prompt) for implementation information.
+
+Prompts are flexible components that can contain a wide variety of content layouts.
+
+**Use cases**: Communicate to users about system maintenance and downtime. Alert users of new and updated features. Encourage users to engage with another area of your application that they might not otherwise explore.
+
+
+| **Pros** | **Cons** |
+| --- | --- |
+| Prompts and noticeable but not overpowering. | If prompts are used too frequently, users may become annoyed. |
+| Prompts are non-blocking, allowing users to interact with a page until ready to take action. | Prompts may temporarily cover an important part of your page. |
+| Prompts can be customized using a variety of layouts, with primary and secondary buttons. |  |
+| Prompts can be triggered by time and frequency rules. |  |
+
+#### Feature Popover
+
+A feature popover highlights a new feature or points out a significant change to an existing feature. Its content may also link to a help topic, video tutorial, or another page in your application.
+
+A feature popover may be triggered by a user action, or may simply appear the first time a user arrives on a new or updated page. Unlike a walkthrough, this is a single callout, with no subsequent steps. Once the user closes it, it doesn't appear again. Typically, feature popovers are used to onboard new users to an application, and appear early on in the onboarding process.
+
+See the [Feature Popover blueprint](https://v1.lightningdesignsystem.com/components/popovers/?density=comfy&variant=feature) for implementation information.
+
+Feature prompts come in multiple formats.
+
+**Use cases**: Introducing a new feature, highlighting significant change to an existing feature, encouraging a user to take action where they might not otherwise.
+
+
+| **Pros** | **Cons** |
+| --- | --- |
+| Popovers are lightweight and simple. | Popovers can't be revisited. |
+| Popover content is often short and to the point. | Users may dismiss popovers without reading them. |
+| Popovers are relatively easy to build and implement as part of a larger onboarding strategy. | If not well timed and well orchestrated, popovers could overload users. |
+| Popovers point to the feature being promoted, making it's easy for users to take action. |  |
+
+#### Walkthrough
+
+A walkthrough gives users a hands-on interactive tour, guiding them through a series of onboarding steps. It's a good way to introduce new features that appear within a single interactive page, or point out a feature's immediate business value. Walkthroughs can also guide users through a series of procedural steps across multiple pages, if the process is straightforward and unlikely to be customized.
+
+See the [Walkthrough blueprint](https://v1.lightningdesignsystem.com/components/popovers/?density=comfy&modifiers=.slds-nubbin_left&variant=walkthrough) for implementation information.
+
+Walkthroughs can be short or, when required to support a complicated workflow, they may be many steps.
+
+**Use cases**: Onboarding users to a new workflow, giving a tour of new features, or providing contextual assistance while configuring or setting up your application.
+
+
+| **Pros** | **Cons** |
+| --- | --- |
+| Walkthroughs guide users through an app's actual interface and support hands-on experience. | Users may get impatient and not complete a walkthrough series. |
+| Walkthroughs are more contextual and specific than separate long-form content. | Users may dismiss or advance without reading walkthroughs and so not fully comprehend how to perform a task. |
+| Users can closely follow steps because the walkthrough stays on screen while they work. |  |
+
+### Docked Assistant
+
+The docked assistant is a persistent, nonblocking panel that guides users as they complete tasks or gather information.
+
+A docked assistant is a flexible pattern that can accommodate a wide variety of content and tools.
+
+The docked assistant pattern can be expanded or collapsed as needed, and stays with users as they navigate around your product or application.
+
+In a help and learning context, this panel may contain instructions, guidance, or learning material that users can refer to while working. In response to user actions, it can update its content, register achievements, or offer encouragement.
+
+The docked assistant is built on the Docked Composer blueprint's base variant. In the context of onboarding and user assistance, the blueprint contains content and tools that support the user engagement scenario. This may be instructional content, setup assistants, or videos.
+
+See the [Docked Composer blueprint](https://v1.lightningdesignsystem.com/components/docked-composer/?modifiers=.slds-is-open&variant=base) for implementation information.
+
+#### Usage
+
+Use the docked assistant to push important information to users while taking up minimal screen real estate.
+
+**Use cases:** Alerting users to new features or recent enhancements related to the current product or page.
+
+
+| **Pros** | **Cons** |
+| --- | --- |
+| A nonblocking panel doesn't interrupt users' work. | Users can confuse it with other docked panels or utility panels. |
+| The panel can be minimized, giving users access to the page underneath without permanently dismissing the panel. | Unlike a feature prompt (which points to a page element), the panel may be disconnected from the element or feature it's associated with. |
+| An expandable viewport accommodates long-form content. |  |
+| It's good for introducing users to a new feature or productivity tip related to the page they're on. |  |
+
+### Tooltip
+
+A tooltip (aka info bubble) pops up to display a small piece of contextual information about an element on the screen, whenever the user hovers over or focuses on that element.
+
+Tooltips typically support input fields and components.
+
+Rather than enabling action, tooltips provide examples, suggestions, and links to more information. They are not focusable and can't contain focusable content.
+
+#### Usage
+
+Each tooltip includes a nubbin, a small triangle pointing to the element it references. The nubbin can appear at any of nine locations—at the top, middle, or bottom of each side of the tooltip.
+
+**Use cases:** Field-level help, icon usage, secondary information about a page element that doesn't require persistent presence on page layouts.
+
+
+| **Pros** | **Cons** |
+| --- | --- |
+| Tooltips can provide supporting instructional text for a field or text input. | Tooltips may be hard to discover under icons. |
+| They offer lightweight help, in context. | Space for long-form content is limited. |
+| They keep users in your product or app by offering info about the page they're using or action they're performing. | Tooltips can't link to additional resources. |
+
+### Setup Assistant
+
+A setup assistant (aka progression system) is a centralized list of tasks designed to help users onboard organizations, clouds, or features.
+
+Setup assistants come in a variety of shapes and sizes.
+
+#### Usage
+
+This prescriptive, detailed guide walks users through the complex process of configuring, setting up, and rolling out features, which can take hours or even days. In the process, it can launch LSF (Lightning Setup Flow) and link to configuration pages, [Trailhead modules](http://www.trailhead.com/), articles, help and training documentation, and videos. Checkboxes, progress indicators, messages, or other rewards encourage users and motivate them to complete required steps.
+
+See the [Setup Assistant blueprint](https://v1.lightningdesignsystem.com/components/setup-assistant/#site-main-content) for implementation information.
+
+**Use cases:**Configuring a system that requires multiple, distinct tasks, often over an extended time—for example, a new or trial system.
+
+
+|**Pros** | **Con** |
+| --- | --- |
+| A linear progression lets users know exactly where they are in their setup journey. | All steps in an assistant may not be relevant for users. |
+| A series of validated steps inspires user confidence. |  |
+| Great for beginner users who need some guidance on where to begin with your product. |  |
+
+### Empty States
+
+Empty states tell users that there’s no content to display—and what they can do next.
+
+Empty states are a great opportunity to onboard users and inject a moment of levity.
+
+Empty states are messages that appear whenever an element has no content to display to the user—and they're powerful onboarding tools. An empty state message consists of three pieces:
+
+- The **title** describes the situation.
+- The **headline**gives you an opportunity to convey more information while adding some fun.
+- If needed, you can also include **body text** to add details or engage users.
+
+For readability, keep** line length** for each of these pieces under 66 characters per line. In general, line length should never exceed the width of your illustration.
+
+For usage best practices including dos and dont's, see the [Empty State guidelines](/component/empty-state).
+
+#### Usage
+
+An empty state is first a means to communicate with users. It should communicate **what** it’s for, **why** they’re seeing it—and **what they can do next**.
+
+It's also an opportunity to engage users, adding energy and motivating them to interact. It can guide users through an **onboarding** process or help them get more value from Salesforce, without overwhelming them with too much information at once. And it's a great way to reinforce our brand while injecting a bit of fun into the user experience.
+
+When designing an empty state, be sure to consider how well it will work for **desktop** and **mobile** use cases. Fo example, will it be used in both environments, or just one? Does the CTA apply for mobile users? How will the image work on a small screen?
+
+For more details, see the [Empty States](/component/empty-state) pattern documentation.
+
+**Use cases:**Empty list, unconfigured filter, empty feed, feature not yet set up or configured.
+
+
+|**Pros** | **Cons** |
+| --- | --- |
+| Empty states are an opportunity to let your brand, voice, and tone shine. Have fun with them. | It can be difficult to maintain current brand imagery in empty states. |
+| They create a learning opportunity with informational graphics or guidance on next actions. | Empty states rely on serendipitous discovery of a feature rather than pushing a notification about its value. |
+| They can give users a preview of, or value proposition for, a future experience. |  |
+| They can help users be productive because they convey the value of the thing they're missing out on. |  |
+
+### Trial Bar
+
+The trial bar is a persistent user interface element that helps users wayfind or interact with priority content and tools, supporting a trial or other immersive onboarding scenarios.
+
+The trial bar docks to the top of your application for easy access and notifications.
+
+The purpose of this persistent experience is to put the applications, value propositions and key features front and center. The trial bar typically contains the application name plus a list of clickable links designed to expose users to key elements of the application, inspiring an "aha moment." It may also include a countdown to the end of the trial phase and a primary call to action.
+
+See the [Trial Bar blueprint](https://v1.lightningdesignsystem.com/components/trial-bar/) for implementation information.
+
+#### Usage
+
+A trial bar should span the width of the upper viewport (the viewable area in a browser). It's best used in full-screen mode, and can't be dismissed by the user.
+
+**Use cases:**Application trial experiences, temporary states in which users are likely to need onboarding help.
+
+
+|**Pros** | **Cons** |
+| --- | --- |
+| The trial bar appears on all major user-facing app pages. | It gives users temporary, targeted help for a set amount of time. |
+| The trial bar takes up a small amount of vertical screen space. | Users can't remove it. |
+
+## Salesforce Trial Experiences
+
+Explore a few Salesforce trials below.
+1b:["$","$L1d",null,{"markdown":"$1e"}]
+1c:["$","nav",null,{"className":"flex items-center justify-between border-t pt-8","style":{"borderColor":"var(--border)"},"children":[["$","div",null,{"className":"flex-1","children":null}],["$","div",null,{"className":"flex-1 text-right","children":["$","$Le",null,{"href":"/pattern/agentic-patterns","className":"group inline-block p-4 rounded-lg border hover:shadow-md transition-all","style":{"borderColor":"var(--border)"},"children":[["$","div",null,{"className":"text-xs mb-1","style":{"color":"var(--slds-gray-text)"},"children":"Next"}],["$","div",null,{"className":"font-medium","style":{"color":"var(--slds-blue)"},"children":"Agentic Patterns"}]]}]}]]}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:null
+13:{"metadata":[["$","title","0",{"children":"Lightning Design System 2 - Salesforce UX"}],["$","meta","1",{"name":"description","content":"The Lightning Design System helps you create the world's best enterprise app experiences."}]],"error":null,"digest":"$undefined"}
+18:"$13:metadata"

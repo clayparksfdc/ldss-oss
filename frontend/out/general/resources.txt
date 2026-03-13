@@ -1,0 +1,581 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+4:I[8906,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"ThemeProvider"]
+5:I[4974,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"default"]
+6:I[9505,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"Header"]
+7:I[3834,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"DynamicSidebar"]
+d:I[7150,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/dd33a07d33fc611c.css","style"]
+0:{"P":null,"b":"KTtvz2X-1MHTYU9akXno5","p":"","c":["","general","resources"],"i":false,"f":[[["",{"children":["(frontend)",{"children":[["category","general","d"],{"children":[["slug","resources","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true]}],["",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(frontend)",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/dd33a07d33fc611c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"light","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var theme = localStorage.getItem('theme');\n              var dark = theme === 'dark' || (theme === 'system' || !theme) && window.matchMedia('(prefers-color-scheme: dark)').matches;\n              document.documentElement.classList.toggle('dark', dark);\n              document.documentElement.classList.toggle('light', !dark);\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"__variable_f367f3 antialiased","id":"frontend-app","style":{"backgroundColor":"var(--background)"},"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{}],["$","div",null,{"className":"flex min-h-[calc(100vh-36px)]","style":{"backgroundColor":"var(--background)"},"children":[["$","$L7",null,{"navigation":[{"id":1,"name":"Get Started","slug":"get-started","hidden":false,"children":[{"id":1,"name":"Get Started","slug":"get-started","url":"/get-started/get-started","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":2,"name":"Transition to SLDS 2","slug":"transition-to-slds-2","url":"/get-started/transition-to-slds-2","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":3,"name":"Admins","slug":"admins","url":"/get-started/admins","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":4,"name":"Designers","slug":"designers","url":"/get-started/designers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":5,"name":"Developers","slug":"developers","url":"/get-started/developers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":6,"name":"Resources","slug":"resources","url":"/get-started/resources","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":2,"name":"AI and SLDS 2","slug":"general","hidden":false,"children":[{"id":7,"name":"AI and SLDS 2","slug":"ai-and-slds-2","url":"/general/ai-and-slds-2","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":8,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/general/agentic-patterns","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":9,"name":"AI Tools","slug":"ai-tools","url":"/general/ai-tools","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":3,"name":"Foundations","slug":"foundation","hidden":false,"children":[{"id":10,"name":"Icons","slug":"icons","url":"/foundation/icons","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"icons--overview","url":"/foundation/icons--overview"},{"name":"Usage","slug":"icons--usage","url":"/foundation/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/foundation/icons--develop"},{"name":"Specifications","slug":"icons--specifications","url":"/foundation/icons--specifications"},{"name":"Accessibility","slug":"icons--accessibility","url":"/foundation/icons--accessibility"},{"name":"Action","slug":"icons--action","url":"/foundation/icons--action"},{"name":"Doctype","slug":"icons--doctype","url":"/foundation/icons--doctype"},{"name":"Object","slug":"icons--object","url":"/foundation/icons--object"},{"name":"Product","slug":"icons--product","url":"/foundation/icons--product"},{"name":"Utility","slug":"icons--utility","url":"/foundation/icons--utility"}]},{"id":11,"name":"Color","slug":"color","url":"/foundation/color","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Color Palette","slug":"color--color-palette","url":"/foundation/color--color-palette"},{"name":"Overview","slug":"color--overview","url":"/foundation/color--overview"},{"name":"Semantic Color","slug":"color--semantic-color","url":"/foundation/color--semantic-color"},{"name":"Styling Hooks","slug":"color--styling-hooks","url":"/foundation/color--styling-hooks"},{"name":"System Palette","slug":"color--system-palette","url":"/foundation/color--system-palette"}]},{"id":12,"name":"Typography","slug":"typography","url":"/foundation/typography","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"typography--overview","url":"/foundation/typography--overview"},{"name":"Usage","slug":"typography--usage","url":"/foundation/typography--usage"},{"name":"Type Styles","slug":"typography--type-styles","url":"/foundation/typography--type-styles"},{"name":"Styling Hooks","slug":"typography--styling-hooks","url":"/foundation/typography--styling-hooks"}]},{"id":13,"name":"Spacing and Sizing","slug":"spacing-and-sizing","url":"/foundation/spacing-and-sizing","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"spacing-and-sizing--overview","url":"/foundation/spacing-and-sizing--overview"},{"name":"Spacing","slug":"spacing-and-sizing--spacing","url":"/foundation/spacing-and-sizing--spacing"},{"name":"Sizing","slug":"spacing-and-sizing--sizing","url":"/foundation/spacing-and-sizing--sizing"},{"name":"Styling Hooks","slug":"spacing-and-sizing--styling-hooks","url":"/foundation/spacing-and-sizing--styling-hooks"}]},{"id":14,"name":"Display Density","slug":"display-density","url":"/foundation/display-density","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"display-density--overview","url":"/foundation/display-density--overview"},{"name":"Custom Configurations","slug":"display-density--custom-configurations","url":"/foundation/display-density--custom-configurations"},{"name":"Styling Hooks","slug":"display-density--styling-hooks","url":"/foundation/display-density--styling-hooks"}]},{"id":15,"name":"Borders and Radius","slug":"borders-and-radius","url":"/foundation/borders-and-radius","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"borders-and-radius--overview","url":"/foundation/borders-and-radius--overview"},{"name":"Color","slug":"borders-and-radius--color","url":"/foundation/borders-and-radius--color"},{"name":"Radius","slug":"borders-and-radius--radius","url":"/foundation/borders-and-radius--radius"},{"name":"Width","slug":"borders-and-radius--width","url":"/foundation/borders-and-radius--width"},{"name":"Styling Hooks","slug":"borders-and-radius--styling-hooks","url":"/foundation/borders-and-radius--styling-hooks"}]},{"id":16,"name":"Shadows","slug":"shadows","url":"/foundation/shadows","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"shadows--overview","url":"/foundation/shadows--overview"},{"name":"Usage","slug":"shadows--usage","url":"/foundation/shadows--usage"},{"name":"Styling Hooks","slug":"shadows--styling-hooks","url":"/foundation/shadows--styling-hooks"}]},{"id":17,"name":"Illustrations","slug":"illustrations","url":"/foundation/illustrations","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"illustrations--overview","url":"/foundation/illustrations--overview"},{"name":"Types","slug":"illustrations--types","url":"/foundation/illustrations--types"},{"name":"UI Text","slug":"illustrations--ui-text","url":"/foundation/illustrations--ui-text"}]}]},{"id":4,"name":"Develop","slug":"develop","hidden":false,"children":[{"id":18,"name":"Global Styling Hooks","slug":"styling-hook-index","url":"/develop/styling-hook-index","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":19,"name":"Utility Classes","slug":"utility-classes","url":"/develop/utility-classes","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":5,"name":"Components","slug":"component","hidden":false,"children":[{"id":20,"name":"Accordion","slug":"accordion","url":"/component/accordion","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"accordion--usage","url":"/component/accordion--usage"},{"name":"Develop","slug":"accordion--develop","url":"/develop/accordion--develop"},{"name":"Specifications","slug":"accordion--specifications","url":"/component/accordion--specifications"},{"name":"Accessibility","slug":"accordion--accessibility","url":"/component/accordion--accessibility"}]},{"id":21,"name":"Avatar","slug":"avatar","url":"/component/avatar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"avatar--usage","url":"/component/avatar--usage"},{"name":"Develop","slug":"avatar--develop","url":"/develop/avatar--develop"},{"name":"Specifications","slug":"avatar--specifications","url":"/component/avatar--specifications"},{"name":"Accessibility","slug":"avatar--accessibility","url":"/component/avatar--accessibility"}]},{"id":22,"name":"Badge","slug":"badge","url":"/component/badge","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"badge--usage","url":"/component/badge--usage"},{"name":"Develop","slug":"badge--develop","url":"/develop/badge--develop"},{"name":"Accessibility","slug":"badge--accessibility","url":"/component/badge--accessibility"}]},{"id":23,"name":"Breadcrumbs","slug":"breadcrumbs","url":"/component/breadcrumbs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"breadcrumbs--usage","url":"/component/breadcrumbs--usage"},{"name":"Specifications","slug":"breadcrumbs--specifications","url":"/component/breadcrumbs--specifications"},{"name":"Accessibility","slug":"breadcrumbs--accessibility","url":"/component/breadcrumbs--accessibility"}]},{"id":24,"name":"Button","slug":"button","url":"/component/button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button--usage","url":"/component/button--usage"},{"name":"Develop","slug":"button--develop","url":"/develop/button--develop"},{"name":"Specifications","slug":"button--specifications","url":"/component/button--specifications"},{"name":"Accessibility","slug":"button--accessibility","url":"/component/button--accessibility"}]},{"id":25,"name":"Button Groups","slug":"button-groups","url":"/component/button-groups","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-groups--usage","url":"/component/button-groups--usage"},{"name":"Accessibility","slug":"button-groups--accessibility","url":"/component/button-groups--accessibility"}]},{"id":26,"name":"Button Icons","slug":"button-icons","url":"/component/button-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-icons--usage","url":"/component/button-icons--usage"},{"name":"Specifications","slug":"button-icons--specifications","url":"/component/button-icons--specifications"},{"name":"Accessibility","slug":"button-icons--accessibility","url":"/component/button-icons--accessibility"}]},{"id":27,"name":"Cards","slug":"cards","url":"/component/cards","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"cards--usage","url":"/component/cards--usage"},{"name":"Develop","slug":"cards--develop","url":"/develop/cards--develop"},{"name":"Specifications","slug":"cards--specifications","url":"/component/cards--specifications"}]},{"id":28,"name":"Carousel","slug":"carousel","url":"/component/carousel","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"carousel--develop","url":"/develop/carousel--develop"},{"name":"Specifications","slug":"carousel--specifications","url":"/component/carousel--specifications"},{"name":"Accessibility","slug":"carousel--accessibility","url":"/component/carousel--accessibility"}]},{"id":29,"name":"Checkbox","slug":"checkbox","url":"/component/checkbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox--usage","url":"/component/checkbox--usage"},{"name":"Specifications","slug":"checkbox--specifications","url":"/component/checkbox--specifications"},{"name":"Accessibility","slug":"checkbox--accessibility","url":"/component/checkbox--accessibility"}]},{"id":30,"name":"Checkbox Button","slug":"checkbox-button","url":"/component/checkbox-button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Specifications","slug":"checkbox-button--specifications","url":"/component/checkbox-button--specifications"},{"name":"Accessibility","slug":"checkbox-button--accessibility","url":"/component/checkbox-button--accessibility"}]},{"id":31,"name":"Checkbox Toggle","slug":"checkbox-toggle","url":"/component/checkbox-toggle","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox-toggle--usage","url":"/component/checkbox-toggle--usage"},{"name":"Specifications","slug":"checkbox-toggle--specifications","url":"/component/checkbox-toggle--specifications"},{"name":"Accessibility","slug":"checkbox-toggle--accessibility","url":"/component/checkbox-toggle--accessibility"}]},{"id":32,"name":"Color Picker","slug":"color-picker","url":"/component/color-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"color-picker--usage","url":"/foundation/color-picker--usage"},{"name":"Specifications","slug":"color-picker--specifications","url":"/foundation/color-picker--specifications"},{"name":"Accessibility","slug":"color-picker--accessibility","url":"/foundation/color-picker--accessibility"}]},{"id":33,"name":"Combobox","slug":"combobox","url":"/component/combobox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"combobox--usage","url":"/component/combobox--usage"},{"name":"Develop","slug":"combobox--develop","url":"/develop/combobox--develop"},{"name":"Specifications","slug":"combobox--specifications","url":"/component/combobox--specifications"}]},{"id":34,"name":"Data Table","slug":"data-table","url":"/component/data-table","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"data-table--usage","url":"/component/data-table--usage"},{"name":"Develop","slug":"data-table--develop","url":"/develop/data-table--develop"},{"name":"Specifications","slug":"data-table--specifications","url":"/component/data-table--specifications"}]},{"id":35,"name":"Datepicker","slug":"datepicker","url":"/component/datepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datepicker--develop","url":"/develop/datepicker--develop"},{"name":"Specifications","slug":"datepicker--specifications","url":"/component/datepicker--specifications"},{"name":"Accessibility","slug":"datepicker--accessibility","url":"/component/datepicker--accessibility"}]},{"id":36,"name":"Datetime Picker","slug":"datetime-picker","url":"/component/datetime-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datetime-picker--develop","url":"/develop/datetime-picker--develop"},{"name":"Accessibility","slug":"datetime-picker--accessibility","url":"/foundation/datetime-picker--accessibility"}]},{"id":37,"name":"Dual Listbox","slug":"dual-listbox","url":"/component/dual-listbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dual-listbox--usage","url":"/component/dual-listbox--usage"},{"name":"Develop","slug":"dual-listbox--develop","url":"/develop/dual-listbox--develop"},{"name":"Specifications","slug":"dual-listbox--specifications","url":"/component/dual-listbox--specifications"},{"name":"Accessibility","slug":"dual-listbox--accessibility","url":"/component/dual-listbox--accessibility"}]},{"id":38,"name":"Dynamic Icons","slug":"dynamic-icons","url":"/component/dynamic-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dynamic-icons--usage","url":"/component/dynamic-icons--usage"},{"name":"Develop","slug":"dynamic-icons--develop","url":"/develop/dynamic-icons--develop"},{"name":"Specifications","slug":"dynamic-icons--specifications","url":"/component/dynamic-icons--specifications"},{"name":"Accessibility","slug":"dynamic-icons--accessibility","url":"/component/dynamic-icons--accessibility"}]},{"id":39,"name":"Empty State","slug":"empty-state","url":"/component/empty-state","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"empty-state--accessibility","url":"/foundation/empty-state--accessibility"}]},{"id":40,"name":"File Selector","slug":"file-selector","url":"/component/file-selector","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"file-selector--usage","url":"/component/file-selector--usage"},{"name":"Specifications","slug":"file-selector--specifications","url":"/component/file-selector--specifications"},{"name":"Accessibility","slug":"file-selector--accessibility","url":"/component/file-selector--accessibility"}]},{"id":41,"name":"Form Element","slug":"form-element","url":"/component/form-element","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"form-element--usage","url":"/component/form-element--usage"},{"name":"Develop","slug":"form-element--develop","url":"/develop/form-element--develop"},{"name":"Specifications","slug":"form-element--specifications","url":"/component/form-element--specifications"},{"name":"Accessibility","slug":"form-element--accessibility","url":"/component/form-element--accessibility"}]},{"id":42,"name":"Icons","slug":"icons","url":"/component/icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"icons--usage","url":"/component/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/develop/icons--develop"},{"name":"Accessibility","slug":"icons--accessibility","url":"/component/icons--accessibility"}]},{"id":43,"name":"Input","slug":"input","url":"/component/input","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"input--usage","url":"/component/input--usage"},{"name":"Specifications","slug":"input--specifications","url":"/component/input--specifications"},{"name":"Accessibility","slug":"input--accessibility","url":"/component/input--accessibility"}]},{"id":44,"name":"Map","slug":"map","url":"/component/map","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"map--accessibility","url":"/foundation/map--accessibility"}]},{"id":45,"name":"Menu","slug":"menu","url":"/component/menu","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"menu--usage","url":"/component/menu--usage"},{"name":"Develop","slug":"menu--develop","url":"/develop/menu--develop"},{"name":"Specifications","slug":"menu--specifications","url":"/component/menu--specifications"},{"name":"Accessibility","slug":"menu--accessibility","url":"/component/menu--accessibility"}]},{"id":46,"name":"Modals","slug":"modals","url":"/component/modals","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"modals--usage","url":"/component/modals--usage"},{"name":"Develop","slug":"modals--develop","url":"/develop/modals--develop"},{"name":"Specifications","slug":"modals--specifications","url":"/component/modals--specifications"},{"name":"Accessibility","slug":"modals--accessibility","url":"/component/modals--accessibility"}]},{"id":47,"name":"Pills","slug":"pills","url":"/component/pills","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"pills--usage","url":"/component/pills--usage"},{"name":"Develop","slug":"pills--develop","url":"/develop/pills--develop"},{"name":"Specifications","slug":"pills--specifications","url":"/component/pills--specifications"},{"name":"Accessibility","slug":"pills--accessibility","url":"/component/pills--accessibility"}]},{"id":48,"name":"Popover","slug":"popover","url":"/component/popover","category":"component","hidden":false,"showTabsInSidebar":"$undefined"},{"id":49,"name":"Progress Bar","slug":"progress-bar","url":"/component/progress-bar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-bar--usage","url":"/component/progress-bar--usage"},{"name":"Specifications","slug":"progress-bar--specifications","url":"/component/progress-bar--specifications"},{"name":"Accessibility","slug":"progress-bar--accessibility","url":"/component/progress-bar--accessibility"}]},{"id":50,"name":"Progress Indicator","slug":"progress-indicator","url":"/component/progress-indicator","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-indicator--usage","url":"/component/progress-indicator--usage"},{"name":"Develop","slug":"progress-indicator--develop","url":"/develop/progress-indicator--develop"},{"name":"Specifications","slug":"progress-indicator--specifications","url":"/component/progress-indicator--specifications"}]},{"id":51,"name":"Progress Ring","slug":"progress-ring","url":"/component/progress-ring","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-ring--usage","url":"/component/progress-ring--usage"},{"name":"Develop","slug":"progress-ring--develop","url":"/develop/progress-ring--develop"},{"name":"Specifications","slug":"progress-ring--specifications","url":"/component/progress-ring--specifications"}]},{"id":52,"name":"Prompt","slug":"prompt","url":"/component/prompt","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"prompt--develop","url":"/develop/prompt--develop"}]},{"id":53,"name":"Radio Button Group","slug":"radio-button-group","url":"/component/radio-button-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-button-group--usage","url":"/component/radio-button-group--usage"},{"name":"Develop","slug":"radio-button-group--develop","url":"/develop/radio-button-group--develop"},{"name":"Specifications","slug":"radio-button-group--specifications","url":"/component/radio-button-group--specifications"},{"name":"Accessibility","slug":"radio-button-group--accessibility","url":"/component/radio-button-group--accessibility"}]},{"id":54,"name":"Radio Group","slug":"radio-group","url":"/component/radio-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-group--usage","url":"/component/radio-group--usage"},{"name":"Develop","slug":"radio-group--develop","url":"/develop/radio-group--develop"},{"name":"Specifications","slug":"radio-group--specifications","url":"/component/radio-group--specifications"},{"name":"Accessibility","slug":"radio-group--accessibility","url":"/component/radio-group--accessibility"}]},{"id":55,"name":"Rich Text Editor","slug":"rich-text-editor","url":"/component/rich-text-editor","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"rich-text-editor--accessibility","url":"/foundation/rich-text-editor--accessibility"}]},{"id":56,"name":"Scoped Tabs","slug":"scoped-tabs","url":"/component/scoped-tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"scoped-tabs--usage","url":"/component/scoped-tabs--usage"},{"name":"Develop","slug":"scoped-tabs--develop","url":"/develop/scoped-tabs--develop"},{"name":"Specifications","slug":"scoped-tabs--specifications","url":"/component/scoped-tabs--specifications"},{"name":"Accessibility","slug":"scoped-tabs--accessibility","url":"/component/scoped-tabs--accessibility"}]},{"id":57,"name":"Select","slug":"select","url":"/component/select","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"select--usage","url":"/component/select--usage"},{"name":"Develop","slug":"select--develop","url":"/develop/select--develop"},{"name":"Specifications","slug":"select--specifications","url":"/component/select--specifications"}]},{"id":58,"name":"Slider","slug":"slider","url":"/component/slider","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"slider--accessibility","url":"/foundation/slider--accessibility"}]},{"id":59,"name":"Spinners","slug":"spinners","url":"/component/spinners","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"spinners--usage","url":"/component/spinners--usage"},{"name":"Specifications","slug":"spinners--specifications","url":"/component/spinners--specifications"},{"name":"Accessibility","slug":"spinners--accessibility","url":"/component/spinners--accessibility"}]},{"id":60,"name":"Tabs","slug":"tabs","url":"/component/tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tabs--usage","url":"/component/tabs--usage"},{"name":"Develop","slug":"tabs--develop","url":"/develop/tabs--develop"},{"name":"Specifications","slug":"tabs--specifications","url":"/component/tabs--specifications"},{"name":"Accessibility","slug":"tabs--accessibility","url":"/component/tabs--accessibility"}]},{"id":61,"name":"Textarea","slug":"textarea","url":"/component/textarea","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"textarea--usage","url":"/component/textarea--usage"},{"name":"Develop","slug":"textarea--develop","url":"/develop/textarea--develop"},{"name":"Specifications","slug":"textarea--specifications","url":"/component/textarea--specifications"},{"name":"Accessibility","slug":"textarea--accessibility","url":"/component/textarea--accessibility"}]},{"id":62,"name":"Tiles","slug":"tiles","url":"/component/tiles","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"tiles--develop","url":"/develop/tiles--develop"},{"name":"Accessibility","slug":"tiles--accessibility","url":"/foundation/tiles--accessibility"}]},{"id":63,"name":"Timepicker","slug":"timepicker","url":"/component/timepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"timepicker--develop","url":"/develop/timepicker--develop"},{"name":"Accessibility","slug":"timepicker--accessibility","url":"/foundation/timepicker--accessibility"}]},{"id":64,"name":"Toast","slug":"toast","url":"/component/toast","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"toast--usage","url":"/component/toast--usage"},{"name":"Develop","slug":"toast--develop","url":"/develop/toast--develop"},{"name":"Specifications","slug":"toast--specifications","url":"/component/toast--specifications"},{"name":"Accessibility","slug":"toast--accessibility","url":"/component/toast--accessibility"}]},{"id":65,"name":"Tooltip","slug":"tooltip","url":"/component/tooltip","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tooltip--usage","url":"/component/tooltip--usage"},{"name":"Specifications","slug":"tooltip--specifications","url":"/component/tooltip--specifications"},{"name":"Accessibility","slug":"tooltip--accessibility","url":"/component/tooltip--accessibility"}]},{"id":66,"name":"Tree","slug":"tree","url":"/component/tree","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree--usage","url":"/component/tree--usage"},{"name":"Specifications","slug":"tree--specifications","url":"/component/tree--specifications"},{"name":"Accessibility","slug":"tree--accessibility","url":"/component/tree--accessibility"}]},{"id":67,"name":"Tree Grid","slug":"tree-grid","url":"/component/tree-grid","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree-grid--usage","url":"/component/tree-grid--usage"},{"name":"Develop","slug":"tree-grid--develop","url":"/develop/tree-grid--develop"},{"name":"Accessibility","slug":"tree-grid--accessibility","url":"/component/tree-grid--accessibility"}]}]},{"id":6,"name":"Patterns","slug":"pattern","hidden":false,"children":[{"id":68,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/pattern/agentic-patterns","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined"},{"id":69,"name":"In App Feedback","slug":"in-app-feedback","url":"/pattern/in-app-feedback","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"In App Feedback Patterns","slug":"in-app-feedback--in-app-feedback-patterns","url":"/pattern/in-app-feedback--in-app-feedback-patterns"}]},{"id":70,"name":"User Engagement","slug":"user-engagement","url":"/pattern/user-engagement","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Overview","slug":"user-engagement--overview","url":"/pattern/user-engagement--overview"},{"name":"Feature Discovery","slug":"user-engagement--feature-discovery","url":"/pattern/user-engagement--feature-discovery"},{"name":"Deeper Learning","slug":"user-engagement--deeper-learning","url":"/pattern/user-engagement--deeper-learning"},{"name":"Troubleshooting","slug":"user-engagement--troubleshooting","url":"/pattern/user-engagement--troubleshooting"},{"name":"Onboarding","slug":"user-engagement--onboarding","url":"/pattern/user-engagement--onboarding"}]}]},{"id":7,"name":"Accessibility","slug":"foundation","hidden":false,"children":[{"id":71,"name":"Global Accessibility Standards","slug":"global-accessibility-standards","url":"/foundation/global-accessibility-standards","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"},{"id":72,"name":"Text and Color Contrast","slug":"text-and-color-contrast","url":"/foundation/text-and-color-contrast","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":8,"name":"Tools","slug":"develop","hidden":false,"children":[{"id":73,"name":"Developer Tools","slug":"developer-tools","url":"/develop/developer-tools","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":74,"name":"Designer Tools","slug":"designer-tools","url":"/design/designer-tools","category":"design","hidden":false,"showTabsInSidebar":"$undefined"},{"id":75,"name":"SLDS Validator","slug":"slds-validator","url":"/tools/slds-validator","category":"tools","hidden":false,"showTabsInSidebar":"$undefined"},{"id":76,"name":"SLDS Linter","slug":"slds-linter","url":"/general/slds-linter","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]}]}],"$L8"]}]]}]}]]}]]}],{"children":[["category","general","d"],"$L9",{"children":[["slug","resources","oc"],"$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false]},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+e:I[2619,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],""]
+10:I[4431,[],"OutletBoundary"]
+12:I[5278,[],"AsyncMetadataOutlet"]
+14:I[4431,[],"ViewportBoundary"]
+16:I[4431,[],"MetadataBoundary"]
+17:"$Sreact.suspense"
+8:["$","div",null,{"className":"flex-1 flex flex-col overflow-auto","style":{"backgroundColor":"var(--background)"},"children":[["$","main",null,{"className":"flex-1 px-4 sm:px-6 md:px-12 py-0","style":{"backgroundColor":"var(--background)"},"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t pt-8 pb-12 text-[12px] mt-16 transition-colors","style":{"borderColor":"var(--border)","color":"var(--slds-gray-text)","backgroundColor":"var(--footer-bg)"},"children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 md:px-12","children":[["$","div",null,{"className":"flex flex-wrap gap-x-6 gap-y-2 mb-4","children":[["$","$Le",null,{"href":"/general/get-started","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Get Started"}],[["$","a","Terms of Service",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Terms of Service"}],["$","a","Privacy",{"href":"https://www.salesforce.com/company/privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Privacy"}],["$","a","Responsible Disclosure",{"href":"https://www.salesforce.com/company/security/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Responsible Disclosure"}],["$","a","Trust",{"href":"https://trust.salesforce.com/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Trust"}],["$","a","Your Privacy Choices",{"href":"https://www.salesforce.com/company/privacy/full_privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Your Privacy Choices"}],["$","a","Salesforce Legal",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Salesforce Legal"}]]]}],["$","p",null,{"className":"text-[11px]","style":{"color":"var(--slds-gray-text)","opacity":0.7},"children":"© Copyright 2015-present Salesforce, Inc. All rights reserved. Various trademarks held by their respective owners. Salesforce, Inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States"}]]}]}]]}]
+9:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+a:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":["$L11",["$","$L12",null,{"promise":"$@13"}]]}]]}]
+c:["$","$1","h",{"children":[null,[["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L16",null,{"children":["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":"$L18"}]}]}]]}]
+19:T5674,<h2>SPEAKING Framework</h2>
+<p>Dell Hymes, a linguist and anthropologist, created the SPEAKING framework that we can use as a conceptual framework in planning and analyzing the context and dialogs of our conversation design.</p>
+<table>
+<thead>
+<tr>
+<th>## S  Setting – the time and place, and physical aspects of the situation; consider how the environment affects user’s behavior and decision-making</th>
+<th>Where are the participants/users?  Are the users in an office, at home, or out in the field?  Are the participants under time pressure to solve a case?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>## P  Participant – think of each participants’ motivations, attitude, and behavior</td>
+<td>Who will interact with your digital assistant/bot?  Describe your participants/users in the real world setting  Accessibility  Inclusive  Bot personality</td>
+</tr>
+<tr>
+<td>## E  End – the purpose of the interaction as well as the individual goals of the participants</td>
+<td>What are the goals of each of the participants?  What do the participants want to achieve in the conversation?</td>
+</tr>
+<tr>
+<td>## A  Act Sequence – sequence of events; think of the participant and the goal and then, what are the steps in order for the participants to reach that goal</td>
+<td>This will show the different conversation flows, turn-taking dialogs or paths.  Initial conversation, first time user, returning user? It’s like meeting someone for the first time, there’s an introduction, then getting to know perhaps, then a farewell. However, the next meeting won’t have the same sequence, because you already know that person and it’ll be odd if you make the same introductions or ask the same questions.</td>
+</tr>
+<tr>
+<td>## K  Key – the voice, tone, and manner in which something is said or written</td>
+<td>What’s the mood of the conversation?  What emojis are we going to use?  Punctuation: period (.) or exclamation (!)</td>
+</tr>
+<tr>
+<td>## I  Instrumentalities – the channels of communication</td>
+<td>Are the users using a website or an app?  Channel for chatbots = writing (but often writing like we speak)  Channel for voicebots = speaking</td>
+</tr>
+<tr>
+<td>## N  Norm – the standard sociocultural rules of interaction</td>
+<td>Are there any norms or standard ways on how the participants communicate?  What topics are acceptable for the participants to talk about?  Clear and concise  Truthful in giving information  Repetition and/or asking for clarifications  How do Sales agents communicate with each other and to the customers?  What are the industry’s conversation norms among/between Care Coordinators, Nurses, Physicians, Patients?</td>
+</tr>
+<tr>
+<td>## G  Genre – type of interaction such as chatbot or voice assistant, human-human conversation</td>
+<td>Bot-Human Interaction  Human-Human Interaction</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>S</h2>
+<p>Setting – the time and place, and physical aspects of the situation; consider how the environment affects user’s behavior and decision-making</p>
+<ul>
+<li>Where are the participants/users?</li>
+<li>Are the users in an office, at home, or out in the field?</li>
+<li>Are the participants under time pressure to solve a case?</li>
+</ul>
+<h2>P</h2>
+<p>Participant – think of each participants’ motivations, attitude, and behavior</p>
+<ul>
+<li>Who will interact with your digital assistant/bot?</li>
+<li>Describe your participants/users in the real world setting</li>
+<li>Accessibility</li>
+<li>Inclusive</li>
+<li>Bot personality</li>
+</ul>
+<h2>E</h2>
+<p>End – the purpose of the interaction as well as the individual goals of the participants</p>
+<ul>
+<li>What are the goals of each of the participants?</li>
+<li>What do the participants want to achieve in the conversation?</li>
+</ul>
+<h2>A</h2>
+<p>Act Sequence – sequence of events; think of the participant and the goal and then, what are the steps in order for the participants to reach that goal</p>
+<ul>
+<li>This will show the different conversation flows, turn-taking dialogs or paths.</li>
+<li>Initial conversation, first time user, returning user? It’s like meeting someone for the first time, there’s an introduction, then getting to know perhaps, then a farewell. However, the next meeting won’t have the same sequence, because you already know that person and it’ll be odd if you make the same introductions or ask the same questions.</li>
+</ul>
+<h2>K</h2>
+<p>Key – the voice, tone, and manner in which something is said or written</p>
+<ul>
+<li>What’s the mood of the conversation?</li>
+<li>What emojis are we going to use?</li>
+<li>Punctuation: period (.) or exclamation (!)</li>
+</ul>
+<h2>I</h2>
+<p>Instrumentalities – the channels of communication</p>
+<ul>
+<li>Are the users using a website or an app?</li>
+<li>Channel for chatbots = writing (but often writing like we speak)</li>
+<li>Channel for voicebots = speaking</li>
+</ul>
+<h2>N</h2>
+<p>Norm – the standard sociocultural rules of interaction</p>
+<ul>
+<li>Are there any norms or standard ways on how the participants communicate?</li>
+<li>What topics are acceptable for the participants to talk about?</li>
+<li>Clear and concise</li>
+<li>Truthful in giving information</li>
+<li>Repetition and/or asking for clarifications</li>
+<li>How do Sales agents communicate with each other and to the customers?</li>
+<li>What are the industry’s conversation norms among/between Care Coordinators, Nurses, Physicians, Patients?</li>
+</ul>
+<h2>G</h2>
+<p>Genre – type of interaction such as chatbot or voice assistant, human-human conversation</p>
+<ul>
+<li>Bot-Human Interaction</li>
+<li>Human-Human Interaction</li>
+</ul>
+<h2>Glossary</h2>
+<table>
+<thead>
+<tr>
+<th>### <strong>Channels</strong></th>
+<th>The delivery method of the bot, for example SMS, Chat, WhatsApp, Slack.  Note that a bot can be deployed across multiple channels, and it is important to be aware of each channel's constraints, settings, and interactions.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>### <strong>Choices</strong></td>
+<td>Options delivered to the customer.</td>
+</tr>
+<tr>
+<td>### <strong>Conversational Copy</strong></td>
+<td>Conversational Copy is the text that the bot writes or says to the customer.</td>
+</tr>
+<tr>
+<td>### <strong>Conversation Repair</strong></td>
+<td>Conversation Repair is the process by which a bot guides the user toward an acceptable, understandable response when it is expecting something in a particular format but receives something else.  For example, a customer who is supposed to enter an email address could be given repair attempts such as “please enter this in the form of an email address”, or “email addresses require an @ symbol.”</td>
+</tr>
+<tr>
+<td>### <strong>Dialogs</strong></td>
+<td>A sequence of turn-takings that move a user toward completing a task or goal.</td>
+</tr>
+<tr>
+<td>### <strong>Intents</strong></td>
+<td>The customer's reasons for interacting with your bot. For example, booking a flight, changing an appointment, or getting store hours.  In Einstein Bots, intents are associated directly with dialogs, so if a customer types to change a flight, the bot recognizes the “Book a flight” intent and then opens the “Book a flight” dialog.  Intents are part of the bot’s intent model, which is every intent inside of a particular bot. Intents are made up of utterances, which are the phrases customers use to describe an intent. Learn more at <a href="https://salesforce.vidyard.com/watch/8gLwZz4GFMg6DfvGPXWEs7">How to Enable Natural Language Processing in your Einstein Bot</a></td>
+</tr>
+<tr>
+<td>### <strong>Message</strong></td>
+<td>A singular transmission of communication.</td>
+</tr>
+<tr>
+<td>### <strong>One Breath Test</strong></td>
+<td>A guideline generally used in voice-driven products, which advises that if you can say the response out loud without taking a breath, the response is the right length. For chat experiences, this also helps us keep our dialogs simple and short. We don’t want to send paragraphs of info to a user.</td>
+</tr>
+<tr>
+<td>### <strong>Pattern</strong></td>
+<td>A conversation pattern is a set of utterances that happen in a certain order to create a flow.</td>
+</tr>
+<tr>
+<td>### <strong>Skills</strong></td>
+<td>A chunk of conversation that performs a particular task. This can be defined in multiple turns or multiple dialogs.   Note: Einstein Bots has a feature called Dialog Groups that group dialogs together for easier admin navigation. You can use Dialog Groups to organize turns and dialogs within a Skill, although this is not required.</td>
+</tr>
+<tr>
+<td>### <strong>Turn</strong></td>
+<td>The set of messages of one chat participant, bot or user, until the other participant has input into the system. In Einstein Bots, we would call these dialog steps.</td>
+</tr>
+<tr>
+<td>### <strong>Turn-taking</strong></td>
+<td>Alternating turns in a conversation between two participants, where one speaks and the other listens.</td>
+</tr>
+</tbody>
+</table>
+<h3>Channels</h3>
+<p>The delivery method of the bot, for example SMS, Chat, WhatsApp, Slack.</p>
+<p>Note that a bot can be deployed across multiple channels, and it is important to be aware of each channel's constraints, settings, and interactions.</p>
+<h3>Choices</h3>
+<p>Options delivered to the customer.</p>
+<h3>Conversational Copy</h3>
+<p>Conversational Copy is the text that the bot writes or says to the customer.</p>
+<h3>Conversation Repair</h3>
+<p>Conversation Repair is the process by which a bot guides the user toward an acceptable, understandable response when it is expecting something in a particular format but receives something else.</p>
+<p>For example, a customer who is supposed to enter an email address could be given repair attempts such as “please enter this in the form of an email address”, or “email addresses require an @ symbol.”</p>
+<h3>Dialogs</h3>
+<p>A sequence of turn-takings that move a user toward completing a task or goal.</p>
+<h3>Intents</h3>
+<p>The customer's reasons for interacting with your bot. For example, booking a flight, changing an appointment, or getting store hours.</p>
+<p>In Einstein Bots, intents are associated directly with dialogs, so if a customer types to change a flight, the bot recognizes the “Book a flight” intent and then opens the “Book a flight” dialog.</p>
+<p>Intents are part of the bot’s intent model, which is every intent inside of a particular bot. Intents are made up of utterances, which are the phrases customers use to describe an intent. Learn more at <a href="https://salesforce.vidyard.com/watch/8gLwZz4GFMg6DfvGPXWEs7">How to Enable Natural Language Processing in your Einstein Bot</a></p>
+<h3>Message</h3>
+<p>A singular transmission of communication.</p>
+<h3>One Breath Test</h3>
+<p>A guideline generally used in voice-driven products, which advises that if you can say the response out loud without taking a breath, the response is the right length. For chat experiences, this also helps us keep our dialogs simple and short. We don’t want to send paragraphs of info to a user.</p>
+<h3>Pattern</h3>
+<p>A conversation pattern is a set of utterances that happen in a certain order to create a flow.</p>
+<h3>Skills</h3>
+<p>A chunk of conversation that performs a particular task. This can be defined in multiple turns or multiple dialogs.</p>
+<p>Note: Einstein Bots has a feature called Dialog Groups that group dialogs together for easier admin navigation. You can use Dialog Groups to organize turns and dialogs within a Skill, although this is not required.</p>
+<h3>Turn</h3>
+<p>The set of messages of one chat participant, bot or user, until the other participant has input into the system. In Einstein Bots, we would call these dialog steps.</p>
+<h3>Turn-taking</h3>
+<p>Alternating turns in a conversation between two participants, where one speaks and the other listens.</p>
+<h2>FAQ</h2>
+<h3>When to use Conversational AI?</h3>
+<p>Before moving forward with designing a bot, it's essential to first decide if a conversational experience is definitely the best interface for your users’ needs.</p>
+<p>For example, creating a dialog where you ask the user's name to get to know them can feel personal and help to build rapport with your customers. However, when that is followed by several more questions asking for their address, their last name, etc, the turn-taking becomes cumbersome for the user. In this example, a form would be better.</p>
+<p>Similarly, presenting the content of a lengthy Help article back to the user in an attempt to answer their question is not an ideal bot scenario. This content could be broken into smaller, more conversational key points, or presented as a URL for the user to follow.</p>
+<p>Resolution is key. The bot needs to provide value to the user, or they will lose trust and potentially not interact with the bot in future.</p>
+<table>
+<thead>
+<tr>
+<th>#### Ensure that your users' needs will suit a conversational experience</th>
+<th>#### Don't design an experience that isn't conversational.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The interaction is brief with minimal back-and-forth between user and bot.  There is turn taking between bot and user  The user can complete their task primarily through the chat interface or menu options given  Requires emotional engagement, persuasion, acknowledgment, encouragement  Passes the “one breath test”</td>
+<td>Requires users to enter 5+ pieces of information in succession  Requires users to navigate outside of the chat to complete tasks  Lengthy sentences that become a monologue when spoken</td>
+</tr>
+</tbody>
+</table>
+<h4>Ensure that your users' needs will suit a conversational experience</h4>
+<h4>Don't design an experience that isn't conversational.</h4>
+<ul>
+<li>The interaction is brief with minimal back-and-forth between user and bot.</li>
+<li>There is turn taking between bot and user</li>
+<li>The user can complete their task primarily through the chat interface or menu options given</li>
+<li>Requires emotional engagement, persuasion, acknowledgment, encouragement</li>
+<li>Passes the “one breath test”</li>
+<li>Requires users to enter 5+ pieces of information in succession</li>
+<li>Requires users to navigate outside of the chat to complete tasks</li>
+<li>Lengthy sentences that become a monologue when spoken</li>
+</ul>
+<h3>What roles make up a Conversational AI Team?</h3>
+<p>While there is no definitive answer to who should be involved in building a conversational experience, we have a few suggestions to help you ensure that your bot has the proper investment to get it off the ground, and team resources to maintain it as it gains users. We suggest including:</p>
+<ul>
+<li><strong>Product Managers</strong> to manage contributor alignment and timelines, ensure executive sponsorship, and properly price and package the system for the end user</li>
+<li><strong>Engineers</strong> to build any additional scripts or integrate any APIs or data necessary as the scope for the system evolves</li>
+<li><strong>UX Designers</strong> to ensure accessibility and consistency across devices and unify multimodal experiences</li>
+<li><strong>CCX, UX and/or Technical Writers</strong> to partner with Conversation Design and UX Design to ensure that UI text follows all company brand, style, and tone guidelines.</li>
+<li><strong>Conversation Designers</strong> to craft the information architecture flow and conversational copy</li>
+</ul>
+<h3>What exactly is NLP (and NLU)?</h3>
+<p>People often think of artificial intelligence (AI) when they hear “chatbot,” but not all bots can respond flexibly (like a human) the way AI can. The ones that can, use natural language processing (NLP) or natural language understanding (NLU) to interpret user inputs and respond appropriately. In the world of bots, we call these user inputs “utterances”. Different utterances that signal the same request make up an “intent”. Having an NLP-based bot allows the user to interact with the bot using the same words they would use in regular conversation.</p>
+<h3>Which type of bot is best for your needs?</h3>
+<p>Chatbots can be categorized into the following categories:</p>
+<ul>
+<li><strong>Menu-based bots</strong> (or Decision Tree bots) are based on a set of rules and use a planned, guided dialog. They allow users to select a path based on a menu of options within the chat. These bots are easy to set up, deliver high value on low-level tasks such as password resets, and help you deliver a curated experience to the customer.</li>
+<li><strong>NLP bots</strong> can interpret free text using NLP. Users can choose where an NLP bot moves, so they have more control over the experience. Also, NLP bots can interpret multiple pieces of information within one phrase, so they can complete certain tasks in fewer steps.</li>
+<li><strong>Hybrid bots</strong> use menu-based methods and NLP methods at the right time to create a blended experience. A menu helps customers understand what the bot can do. And NLP helps the bot sound smarter and more conversational.
+<strong>Menu-based bots</strong> are great for automating common requests, easier to implement than NLP bots, and they give customers a sense of what they can do by providing them with clear options off the bat. One would likely use menus when options are limited to a set number of predetermined actions.</li>
+</ul>
+<p><strong>NLP or hybrid bots</strong> are more versatile and conversational but they take more resources to set up and maintain.</p>
+<p>Most strong bot experiences use a combination of menus and NLP intents to offer a well-rounded experience that allows the user some degree of freedom and control in guiding the conversation while offering guardrails and likely suggestions through menus.</p>
+<p>If you choose to create a menu-based bot and later change your mind, don't worry. It's entirely possible to add NLP to your menu-based bot down the track.</p>
+<h4>What are Slack Slash Commands?</h4>
+<p>Slash commands in Slack make it easy to perform very simple tasks, but they’re not always very obvious for the user to discover. At Salesforce, we leverage both NLP and Slash Commands in Slack to provide the best experience.</p>
+<p><strong>NLP</strong>When the user needs to expand or negotiate more context.<strong>Example:</strong> @salesApp Which opportunities should I focus on to meet my quota?</p>
+<p><strong>Slash Command</strong>When the user needs to do basic lookup or task management.<strong>Example:</strong> What is my highest-risk Opportunity? → /sales oppty biggest risk</p>
+<p><strong>Recommendations:</strong></p>
+<ul>
+<li>Always prioritize NLP/free text inputs from the user — this meets the user where they are.</li>
+<li>Educate user on Slash commands as a back-up resource during conversation repair.
+For more information on NLP, intents and different types of bots, <a href="https://help.salesforce.com/s/articleView?id=sf.bots_service_train_bot.htm&#x26;type=5">check out this article.</a></li>
+</ul>
+<h3>What is the Uncanny Valley?</h3>
+<p>The Uncanny Valley is a psychological concept that describes the feelings of unease or revulsion that people tend to have toward artificial representations of human beings, as robots or computer animations, that closely imitate many but not all the features and behaviors of actual human beings.</p>
+<p>Is conversation design for bots different for conversation design for generative AI? If so, how?</p>
+<p>Conversation design for generative AI use cases is more commonly referred to as prompt design. At Salesforce, that involves helping shape and create prompts and provide feedback on any interaction needed from the user for a conversational interface. The involvement of a conversation designer here helps ensure output quality, making sure it's precise, accurate, unbiased at scale, and, if needed, considerate of customer data in context. Conversation design also takes into account the fact that there might be prompt injection attacks or attempts to jailbreak the model, helping to safeguard internal prompts from undesirable attempts to harm the business of both the user and Salesforce and defining how the model should handle said attempts.</p>
+<p>For bots, conversation designers work in Einstein Bot Builder to create information architectures and language designs, along with training the bot's intents, which the model interprets using NLP.</p>
+<p>What do we consider a high quality prompt?</p>
+<p>To make the model output as precise and efficient to get the job done in the way our users need, designing a high quality prompt is crucial. We define high quality as:</p>
+<ul>
+<li>Tightly scoped</li>
+<li>Explicit about what will be done with the model output</li>
+<li>Clear about the nature of the relationship between the recipient of the model output and the model output itself</li>
+<li>Linguistically explicit about the style (AKA "tone") of the model output</li>
+<li>Localizable</li>
+</ul>
+<h2>Learning on Trailhead</h2>
+<p>Check out these Trails for deeper learnings related to Conversation Design.</p>
+<h3>Help and Training</h3>
+<ul>
+<li><a href="https://help.salesforce.com/s/articleView?language=en_US&#x26;id=sf.bots_service_intent_manual_utterance.htm&#x26;type=5">Write Utterances for Einstein Bots</a></li>
+<li><a href="https://help.salesforce.com/s/articleView?id=service.bots_service_intent_exact.htm&#x26;type=5">Use Exact Matching for Intents</a></li>
+<li><a href="https://help.salesforce.com/s/articleView?id=service.bots_service_train_bot.htm&#x26;type=5">Use Intents to Understand Your Customers</a></li>
+</ul>
+<h3>Additional Links</h3>
+<ul>
+<li>Greg Bennett: 📺 <a href="https://www.youtube.com/watch?v=PDaFoBtphzM">Conversation Design The Salesforce Way | L3-AI 2021</a>, August 11 2021</li>
+<li><a href="https://medium.com/salesforce-ux/chatbot-conversational-style-f7b1d584fb1d">9 Tips to Design Conversational Style for Your Bot</a>, October 6, 2017</li>
+<li><a href="https://medium.com/salesforce-ux/conversation-design-is-the-future-of-ux-8e52f4793cfc">Conversation Design is the Future of UX</a>, March 4, 2021</li>
+</ul>f:["$","div",null,{"className":"max-w-4xl","children":[["$","nav",null,{"className":"mb-6","children":["$","ol",null,{"className":"flex items-center gap-2 text-sm","children":[["$","li","/general-0",{"className":"flex items-center gap-2","children":[false,["$","$Le",null,{"href":"/general","style":{"color":"var(--slds-blue)"},"children":"AI and SLDS 2"}]]}],["$","li","/general/resources-1",{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"h-4 w-4","style":{"color":"var(--slds-gray-text)"},"fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z","clipRule":"evenodd"}]}],["$","span",null,{"style":{"color":"var(--slds-gray-text)"},"children":"Conversation Design"}]]}]]}]}],["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-4xl font-bold mb-2","style":{"color":"var(--slds-navy)"},"children":"Conversation Design"}],"$undefined"]}],null,["$","article",null,{"className":"content-blocks mb-12","dangerouslySetInnerHTML":{"__html":"$19"}}],"$L1a","$L1b"]}]
+1c:I[9825,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],"ViewMarkdownButton"]
+1d:T4f27,---
+title: "Conversation Design"
+slug: "resources"
+category: "general"
+url: "https://www.lightningdesignsystem.com/2e1ef8501/p/33c7b6-conversation-design-/b/15e60b"
+extractedAt: "2026-02-21T18:12:05.502Z"
+---
+
+## SPEAKING Framework
+
+Dell Hymes, a linguist and anthropologist, created the SPEAKING framework that we can use as a conceptual framework in planning and analyzing the context and dialogs of our conversation design.
+
+
+| ## S  Setting – the time and place, and physical aspects of the situation; consider how the environment affects user’s behavior and decision-making | Where are the participants/users?  Are the users in an office, at home, or out in the field?  Are the participants under time pressure to solve a case? |
+| --- | --- |
+| ## P  Participant – think of each participants’ motivations, attitude, and behavior | Who will interact with your digital assistant/bot?  Describe your participants/users in the real world setting  Accessibility  Inclusive  Bot personality |
+| ## E  End – the purpose of the interaction as well as the individual goals of the participants | What are the goals of each of the participants?  What do the participants want to achieve in the conversation? |
+| ## A  Act Sequence – sequence of events; think of the participant and the goal and then, what are the steps in order for the participants to reach that goal | This will show the different conversation flows, turn-taking dialogs or paths.  Initial conversation, first time user, returning user? It’s like meeting someone for the first time, there’s an introduction, then getting to know perhaps, then a farewell. However, the next meeting won’t have the same sequence, because you already know that person and it’ll be odd if you make the same introductions or ask the same questions. |
+| ## K  Key – the voice, tone, and manner in which something is said or written | What’s the mood of the conversation?  What emojis are we going to use?  Punctuation: period (.) or exclamation (!) |
+| ## I  Instrumentalities – the channels of communication | Are the users using a website or an app?  Channel for chatbots = writing (but often writing like we speak)  Channel for voicebots = speaking |
+| ## N  Norm – the standard sociocultural rules of interaction | Are there any norms or standard ways on how the participants communicate?  What topics are acceptable for the participants to talk about?  Clear and concise  Truthful in giving information  Repetition and/or asking for clarifications  How do Sales agents communicate with each other and to the customers?  What are the industry’s conversation norms among/between Care Coordinators, Nurses, Physicians, Patients? |
+| ## G  Genre – type of interaction such as chatbot or voice assistant, human-human conversation | Bot-Human Interaction  Human-Human Interaction |
+|  |  |
+
+## S
+
+Setting – the time and place, and physical aspects of the situation; consider how the environment affects user’s behavior and decision-making
+
+- Where are the participants/users?
+- Are the users in an office, at home, or out in the field?
+- Are the participants under time pressure to solve a case?
+
+## P
+
+Participant – think of each participants’ motivations, attitude, and behavior
+
+- Who will interact with your digital assistant/bot?
+- Describe your participants/users in the real world setting
+- Accessibility
+- Inclusive
+- Bot personality
+
+## E
+
+End – the purpose of the interaction as well as the individual goals of the participants
+
+- What are the goals of each of the participants?
+- What do the participants want to achieve in the conversation?
+
+## A
+
+Act Sequence – sequence of events; think of the participant and the goal and then, what are the steps in order for the participants to reach that goal
+
+- This will show the different conversation flows, turn-taking dialogs or paths.
+- Initial conversation, first time user, returning user? It’s like meeting someone for the first time, there’s an introduction, then getting to know perhaps, then a farewell. However, the next meeting won’t have the same sequence, because you already know that person and it’ll be odd if you make the same introductions or ask the same questions.
+
+## K
+
+Key – the voice, tone, and manner in which something is said or written
+
+- What’s the mood of the conversation?
+- What emojis are we going to use?
+- Punctuation: period (.) or exclamation (!)
+
+## I
+
+Instrumentalities – the channels of communication
+
+- Are the users using a website or an app?
+- Channel for chatbots = writing (but often writing like we speak)
+- Channel for voicebots = speaking
+
+## N
+
+Norm – the standard sociocultural rules of interaction
+
+- Are there any norms or standard ways on how the participants communicate?
+- What topics are acceptable for the participants to talk about?
+- Clear and concise
+- Truthful in giving information
+- Repetition and/or asking for clarifications
+- How do Sales agents communicate with each other and to the customers?
+- What are the industry’s conversation norms among/between Care Coordinators, Nurses, Physicians, Patients?
+
+## G
+
+Genre – type of interaction such as chatbot or voice assistant, human-human conversation
+
+- Bot-Human Interaction
+- Human-Human Interaction
+
+## Glossary
+
+
+| ### **Channels** | The delivery method of the bot, for example SMS, Chat, WhatsApp, Slack.  Note that a bot can be deployed across multiple channels, and it is important to be aware of each channel's constraints, settings, and interactions. |
+| --- | --- |
+| ### **Choices** | Options delivered to the customer. |
+| ### **Conversational Copy** | Conversational Copy is the text that the bot writes or says to the customer. |
+| ### **Conversation Repair** | Conversation Repair is the process by which a bot guides the user toward an acceptable, understandable response when it is expecting something in a particular format but receives something else.  For example, a customer who is supposed to enter an email address could be given repair attempts such as “please enter this in the form of an email address”, or “email addresses require an @ symbol.” |
+| ### **Dialogs** | A sequence of turn-takings that move a user toward completing a task or goal. |
+| ### **Intents** | The customer's reasons for interacting with your bot. For example, booking a flight, changing an appointment, or getting store hours.  In Einstein Bots, intents are associated directly with dialogs, so if a customer types to change a flight, the bot recognizes the “Book a flight” intent and then opens the “Book a flight” dialog.  Intents are part of the bot’s intent model, which is every intent inside of a particular bot. Intents are made up of utterances, which are the phrases customers use to describe an intent. Learn more at [How to Enable Natural Language Processing in your Einstein Bot](https://salesforce.vidyard.com/watch/8gLwZz4GFMg6DfvGPXWEs7) |
+| ### **Message** | A singular transmission of communication. |
+| ### **One Breath Test** | A guideline generally used in voice-driven products, which advises that if you can say the response out loud without taking a breath, the response is the right length. For chat experiences, this also helps us keep our dialogs simple and short. We don’t want to send paragraphs of info to a user. |
+| ### **Pattern** | A conversation pattern is a set of utterances that happen in a certain order to create a flow. |
+| ### **Skills** | A chunk of conversation that performs a particular task. This can be defined in multiple turns or multiple dialogs.   Note: Einstein Bots has a feature called Dialog Groups that group dialogs together for easier admin navigation. You can use Dialog Groups to organize turns and dialogs within a Skill, although this is not required. |
+| ### **Turn** | The set of messages of one chat participant, bot or user, until the other participant has input into the system. In Einstein Bots, we would call these dialog steps. |
+| ### **Turn-taking** | Alternating turns in a conversation between two participants, where one speaks and the other listens. |
+
+### Channels
+
+The delivery method of the bot, for example SMS, Chat, WhatsApp, Slack.
+
+Note that a bot can be deployed across multiple channels, and it is important to be aware of each channel's constraints, settings, and interactions.
+
+### Choices
+
+Options delivered to the customer.
+
+### Conversational Copy
+
+Conversational Copy is the text that the bot writes or says to the customer.
+
+### Conversation Repair
+
+Conversation Repair is the process by which a bot guides the user toward an acceptable, understandable response when it is expecting something in a particular format but receives something else.
+
+For example, a customer who is supposed to enter an email address could be given repair attempts such as “please enter this in the form of an email address”, or “email addresses require an @ symbol.”
+
+### Dialogs
+
+A sequence of turn-takings that move a user toward completing a task or goal.
+
+### Intents
+
+The customer's reasons for interacting with your bot. For example, booking a flight, changing an appointment, or getting store hours.
+
+In Einstein Bots, intents are associated directly with dialogs, so if a customer types to change a flight, the bot recognizes the “Book a flight” intent and then opens the “Book a flight” dialog.
+
+Intents are part of the bot’s intent model, which is every intent inside of a particular bot. Intents are made up of utterances, which are the phrases customers use to describe an intent. Learn more at [How to Enable Natural Language Processing in your Einstein Bot](https://salesforce.vidyard.com/watch/8gLwZz4GFMg6DfvGPXWEs7)
+
+### Message
+
+A singular transmission of communication.
+
+### One Breath Test
+
+A guideline generally used in voice-driven products, which advises that if you can say the response out loud without taking a breath, the response is the right length. For chat experiences, this also helps us keep our dialogs simple and short. We don’t want to send paragraphs of info to a user.
+
+### Pattern
+
+A conversation pattern is a set of utterances that happen in a certain order to create a flow.
+
+### Skills
+
+A chunk of conversation that performs a particular task. This can be defined in multiple turns or multiple dialogs.
+
+Note: Einstein Bots has a feature called Dialog Groups that group dialogs together for easier admin navigation. You can use Dialog Groups to organize turns and dialogs within a Skill, although this is not required.
+
+### Turn
+
+The set of messages of one chat participant, bot or user, until the other participant has input into the system. In Einstein Bots, we would call these dialog steps.
+
+### Turn-taking
+
+Alternating turns in a conversation between two participants, where one speaks and the other listens.
+
+## FAQ
+
+### When to use Conversational AI?
+
+Before moving forward with designing a bot, it's essential to first decide if a conversational experience is definitely the best interface for your users’ needs.
+
+For example, creating a dialog where you ask the user's name to get to know them can feel personal and help to build rapport with your customers. However, when that is followed by several more questions asking for their address, their last name, etc, the turn-taking becomes cumbersome for the user. In this example, a form would be better.
+
+Similarly, presenting the content of a lengthy Help article back to the user in an attempt to answer their question is not an ideal bot scenario. This content could be broken into smaller, more conversational key points, or presented as a URL for the user to follow.
+
+Resolution is key. The bot needs to provide value to the user, or they will lose trust and potentially not interact with the bot in future.
+
+
+| #### Ensure that your users' needs will suit a conversational experience | #### Don't design an experience that isn't conversational. |
+| --- | --- |
+| The interaction is brief with minimal back-and-forth between user and bot.  There is turn taking between bot and user  The user can complete their task primarily through the chat interface or menu options given  Requires emotional engagement, persuasion, acknowledgment, encouragement  Passes the “one breath test” | Requires users to enter 5+ pieces of information in succession  Requires users to navigate outside of the chat to complete tasks  Lengthy sentences that become a monologue when spoken |
+
+#### Ensure that your users' needs will suit a conversational experience
+
+#### Don't design an experience that isn't conversational.
+
+- The interaction is brief with minimal back-and-forth between user and bot.
+- There is turn taking between bot and user
+- The user can complete their task primarily through the chat interface or menu options given
+- Requires emotional engagement, persuasion, acknowledgment, encouragement
+- Passes the “one breath test”
+- Requires users to enter 5+ pieces of information in succession
+- Requires users to navigate outside of the chat to complete tasks
+- Lengthy sentences that become a monologue when spoken
+
+### What roles make up a Conversational AI Team?
+
+While there is no definitive answer to who should be involved in building a conversational experience, we have a few suggestions to help you ensure that your bot has the proper investment to get it off the ground, and team resources to maintain it as it gains users. We suggest including:
+
+- **Product Managers** to manage contributor alignment and timelines, ensure executive sponsorship, and properly price and package the system for the end user
+- **Engineers** to build any additional scripts or integrate any APIs or data necessary as the scope for the system evolves
+- **UX Designers** to ensure accessibility and consistency across devices and unify multimodal experiences
+- **CCX, UX and/or Technical Writers** to partner with Conversation Design and UX Design to ensure that UI text follows all company brand, style, and tone guidelines.
+- **Conversation Designers** to craft the information architecture flow and conversational copy
+
+### What exactly is NLP (and NLU)?
+
+People often think of artificial intelligence (AI) when they hear “chatbot,” but not all bots can respond flexibly (like a human) the way AI can. The ones that can, use natural language processing (NLP) or natural language understanding (NLU) to interpret user inputs and respond appropriately. In the world of bots, we call these user inputs “utterances”. Different utterances that signal the same request make up an “intent”. Having an NLP-based bot allows the user to interact with the bot using the same words they would use in regular conversation.
+
+### Which type of bot is best for your needs?
+
+Chatbots can be categorized into the following categories:
+
+- **Menu-based bots** (or Decision Tree bots) are based on a set of rules and use a planned, guided dialog. They allow users to select a path based on a menu of options within the chat. These bots are easy to set up, deliver high value on low-level tasks such as password resets, and help you deliver a curated experience to the customer.
+- **NLP bots** can interpret free text using NLP. Users can choose where an NLP bot moves, so they have more control over the experience. Also, NLP bots can interpret multiple pieces of information within one phrase, so they can complete certain tasks in fewer steps.
+- **Hybrid bots** use menu-based methods and NLP methods at the right time to create a blended experience. A menu helps customers understand what the bot can do. And NLP helps the bot sound smarter and more conversational.
+**Menu-based bots** are great for automating common requests, easier to implement than NLP bots, and they give customers a sense of what they can do by providing them with clear options off the bat. One would likely use menus when options are limited to a set number of predetermined actions.
+
+**NLP or hybrid bots** are more versatile and conversational but they take more resources to set up and maintain.
+
+Most strong bot experiences use a combination of menus and NLP intents to offer a well-rounded experience that allows the user some degree of freedom and control in guiding the conversation while offering guardrails and likely suggestions through menus.
+
+If you choose to create a menu-based bot and later change your mind, don't worry. It's entirely possible to add NLP to your menu-based bot down the track.
+
+#### What are Slack Slash Commands?
+
+Slash commands in Slack make it easy to perform very simple tasks, but they’re not always very obvious for the user to discover. At Salesforce, we leverage both NLP and Slash Commands in Slack to provide the best experience.
+
+**NLP**When the user needs to expand or negotiate more context.**Example:** @salesApp Which opportunities should I focus on to meet my quota?
+
+**Slash Command**When the user needs to do basic lookup or task management.**Example:** What is my highest-risk Opportunity? → /sales oppty biggest risk
+
+**Recommendations:**
+
+- Always prioritize NLP/free text inputs from the user — this meets the user where they are.
+- Educate user on Slash commands as a back-up resource during conversation repair.
+For more information on NLP, intents and different types of bots, [check out this article.](https://help.salesforce.com/s/articleView?id=sf.bots_service_train_bot.htm&type=5)
+
+### What is the Uncanny Valley?
+
+The Uncanny Valley is a psychological concept that describes the feelings of unease or revulsion that people tend to have toward artificial representations of human beings, as robots or computer animations, that closely imitate many but not all the features and behaviors of actual human beings.
+
+Is conversation design for bots different for conversation design for generative AI? If so, how?
+
+Conversation design for generative AI use cases is more commonly referred to as prompt design. At Salesforce, that involves helping shape and create prompts and provide feedback on any interaction needed from the user for a conversational interface. The involvement of a conversation designer here helps ensure output quality, making sure it's precise, accurate, unbiased at scale, and, if needed, considerate of customer data in context. Conversation design also takes into account the fact that there might be prompt injection attacks or attempts to jailbreak the model, helping to safeguard internal prompts from undesirable attempts to harm the business of both the user and Salesforce and defining how the model should handle said attempts.
+
+For bots, conversation designers work in Einstein Bot Builder to create information architectures and language designs, along with training the bot's intents, which the model interprets using NLP.
+
+What do we consider a high quality prompt?
+
+To make the model output as precise and efficient to get the job done in the way our users need, designing a high quality prompt is crucial. We define high quality as:
+
+- Tightly scoped
+- Explicit about what will be done with the model output
+- Clear about the nature of the relationship between the recipient of the model output and the model output itself
+- Linguistically explicit about the style (AKA "tone") of the model output
+- Localizable
+
+## Learning on Trailhead
+
+Check out these Trails for deeper learnings related to Conversation Design.
+
+### Help and Training
+
+- [Write Utterances for Einstein Bots](https://help.salesforce.com/s/articleView?language=en_US&id=sf.bots_service_intent_manual_utterance.htm&type=5)
+- [Use Exact Matching for Intents](https://help.salesforce.com/s/articleView?id=service.bots_service_intent_exact.htm&type=5)
+- [Use Intents to Understand Your Customers](https://help.salesforce.com/s/articleView?id=service.bots_service_train_bot.htm&type=5)
+
+### Additional Links
+
+- Greg Bennett: 📺 [Conversation Design The Salesforce Way | L3-AI 2021](https://www.youtube.com/watch?v=PDaFoBtphzM), August 11 2021
+- [9 Tips to Design Conversational Style for Your Bot](https://medium.com/salesforce-ux/chatbot-conversational-style-f7b1d584fb1d), October 6, 2017
+- [Conversation Design is the Future of UX](https://medium.com/salesforce-ux/conversation-design-is-the-future-of-ux-8e52f4793cfc), March 4, 20211a:["$","$L1c",null,{"markdown":"$1d"}]
+1b:["$","nav",null,{"className":"flex items-center justify-between border-t pt-8","style":{"borderColor":"var(--border)"},"children":[["$","div",null,{"className":"flex-1","children":null}],["$","div",null,{"className":"flex-1 text-right","children":["$","$Le",null,{"href":"/general/ai-and-slds-2","className":"group inline-block p-4 rounded-lg border hover:shadow-md transition-all","style":{"borderColor":"var(--border)"},"children":[["$","div",null,{"className":"text-xs mb-1","style":{"color":"var(--slds-gray-text)"},"children":"Next"}],["$","div",null,{"className":"font-medium","style":{"color":"var(--slds-blue)"},"children":"AI and SLDS 2"}]]}]}]]}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:null
+13:{"metadata":[["$","title","0",{"children":"Lightning Design System 2 - Salesforce UX"}],["$","meta","1",{"name":"description","content":"The Lightning Design System helps you create the world's best enterprise app experiences."}]],"error":null,"digest":"$undefined"}
+18:"$13:metadata"

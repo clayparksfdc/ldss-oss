@@ -110,9 +110,24 @@ router.get(
 
 router.get(
   '/github/callback',
-  passport.authenticate('github-enterprise', { failureRedirect: '/editor' }),
-  (_req: AuthenticatedRequest, res: Response) => {
-    res.redirect('/editor');
+  (req, res, next) => {
+    passport.authenticate('github-enterprise', (err: any, user: any, info: any) => {
+      if (err) {
+        console.error('OAuth callback error:', err.message || err);
+        return res.status(500).json({ success: false, error: { message: err.message || 'OAuth authentication failed' } });
+      }
+      if (!user) {
+        console.error('OAuth callback: no user returned', info);
+        return res.redirect('/editor');
+      }
+      req.logIn(user, (loginErr) => {
+        if (loginErr) {
+          console.error('Login error:', loginErr);
+          return res.status(500).json({ success: false, error: { message: 'Login failed' } });
+        }
+        return res.redirect('/editor');
+      });
+    })(req, res, next);
   }
 );
 

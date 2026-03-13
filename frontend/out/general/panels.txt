@@ -1,0 +1,746 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+4:I[8906,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"ThemeProvider"]
+5:I[4974,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"default"]
+6:I[9505,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"Header"]
+7:I[3834,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"DynamicSidebar"]
+d:I[7150,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/dd33a07d33fc611c.css","style"]
+0:{"P":null,"b":"KTtvz2X-1MHTYU9akXno5","p":"","c":["","general","panels"],"i":false,"f":[[["",{"children":["(frontend)",{"children":[["category","general","d"],{"children":[["slug","panels","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true]}],["",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(frontend)",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/dd33a07d33fc611c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"light","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var theme = localStorage.getItem('theme');\n              var dark = theme === 'dark' || (theme === 'system' || !theme) && window.matchMedia('(prefers-color-scheme: dark)').matches;\n              document.documentElement.classList.toggle('dark', dark);\n              document.documentElement.classList.toggle('light', !dark);\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"__variable_f367f3 antialiased","id":"frontend-app","style":{"backgroundColor":"var(--background)"},"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{}],["$","div",null,{"className":"flex min-h-[calc(100vh-36px)]","style":{"backgroundColor":"var(--background)"},"children":[["$","$L7",null,{"navigation":[{"id":1,"name":"Get Started","slug":"get-started","hidden":false,"children":[{"id":1,"name":"Get Started","slug":"get-started","url":"/get-started/get-started","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":2,"name":"Transition to SLDS 2","slug":"transition-to-slds-2","url":"/get-started/transition-to-slds-2","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":3,"name":"Admins","slug":"admins","url":"/get-started/admins","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":4,"name":"Designers","slug":"designers","url":"/get-started/designers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":5,"name":"Developers","slug":"developers","url":"/get-started/developers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":6,"name":"Resources","slug":"resources","url":"/get-started/resources","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":2,"name":"AI and SLDS 2","slug":"general","hidden":false,"children":[{"id":7,"name":"AI and SLDS 2","slug":"ai-and-slds-2","url":"/general/ai-and-slds-2","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":8,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/general/agentic-patterns","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":9,"name":"AI Tools","slug":"ai-tools","url":"/general/ai-tools","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":3,"name":"Foundations","slug":"foundation","hidden":false,"children":[{"id":10,"name":"Icons","slug":"icons","url":"/foundation/icons","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"icons--overview","url":"/foundation/icons--overview"},{"name":"Usage","slug":"icons--usage","url":"/foundation/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/foundation/icons--develop"},{"name":"Specifications","slug":"icons--specifications","url":"/foundation/icons--specifications"},{"name":"Accessibility","slug":"icons--accessibility","url":"/foundation/icons--accessibility"},{"name":"Action","slug":"icons--action","url":"/foundation/icons--action"},{"name":"Doctype","slug":"icons--doctype","url":"/foundation/icons--doctype"},{"name":"Object","slug":"icons--object","url":"/foundation/icons--object"},{"name":"Product","slug":"icons--product","url":"/foundation/icons--product"},{"name":"Utility","slug":"icons--utility","url":"/foundation/icons--utility"}]},{"id":11,"name":"Color","slug":"color","url":"/foundation/color","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Color Palette","slug":"color--color-palette","url":"/foundation/color--color-palette"},{"name":"Overview","slug":"color--overview","url":"/foundation/color--overview"},{"name":"Semantic Color","slug":"color--semantic-color","url":"/foundation/color--semantic-color"},{"name":"Styling Hooks","slug":"color--styling-hooks","url":"/foundation/color--styling-hooks"},{"name":"System Palette","slug":"color--system-palette","url":"/foundation/color--system-palette"}]},{"id":12,"name":"Typography","slug":"typography","url":"/foundation/typography","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"typography--overview","url":"/foundation/typography--overview"},{"name":"Usage","slug":"typography--usage","url":"/foundation/typography--usage"},{"name":"Type Styles","slug":"typography--type-styles","url":"/foundation/typography--type-styles"},{"name":"Styling Hooks","slug":"typography--styling-hooks","url":"/foundation/typography--styling-hooks"}]},{"id":13,"name":"Spacing and Sizing","slug":"spacing-and-sizing","url":"/foundation/spacing-and-sizing","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"spacing-and-sizing--overview","url":"/foundation/spacing-and-sizing--overview"},{"name":"Spacing","slug":"spacing-and-sizing--spacing","url":"/foundation/spacing-and-sizing--spacing"},{"name":"Sizing","slug":"spacing-and-sizing--sizing","url":"/foundation/spacing-and-sizing--sizing"},{"name":"Styling Hooks","slug":"spacing-and-sizing--styling-hooks","url":"/foundation/spacing-and-sizing--styling-hooks"}]},{"id":14,"name":"Display Density","slug":"display-density","url":"/foundation/display-density","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"display-density--overview","url":"/foundation/display-density--overview"},{"name":"Custom Configurations","slug":"display-density--custom-configurations","url":"/foundation/display-density--custom-configurations"},{"name":"Styling Hooks","slug":"display-density--styling-hooks","url":"/foundation/display-density--styling-hooks"}]},{"id":15,"name":"Borders and Radius","slug":"borders-and-radius","url":"/foundation/borders-and-radius","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"borders-and-radius--overview","url":"/foundation/borders-and-radius--overview"},{"name":"Color","slug":"borders-and-radius--color","url":"/foundation/borders-and-radius--color"},{"name":"Radius","slug":"borders-and-radius--radius","url":"/foundation/borders-and-radius--radius"},{"name":"Width","slug":"borders-and-radius--width","url":"/foundation/borders-and-radius--width"},{"name":"Styling Hooks","slug":"borders-and-radius--styling-hooks","url":"/foundation/borders-and-radius--styling-hooks"}]},{"id":16,"name":"Shadows","slug":"shadows","url":"/foundation/shadows","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"shadows--overview","url":"/foundation/shadows--overview"},{"name":"Usage","slug":"shadows--usage","url":"/foundation/shadows--usage"},{"name":"Styling Hooks","slug":"shadows--styling-hooks","url":"/foundation/shadows--styling-hooks"}]},{"id":17,"name":"Illustrations","slug":"illustrations","url":"/foundation/illustrations","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"illustrations--overview","url":"/foundation/illustrations--overview"},{"name":"Types","slug":"illustrations--types","url":"/foundation/illustrations--types"},{"name":"UI Text","slug":"illustrations--ui-text","url":"/foundation/illustrations--ui-text"}]}]},{"id":4,"name":"Develop","slug":"develop","hidden":false,"children":[{"id":18,"name":"Global Styling Hooks","slug":"styling-hook-index","url":"/develop/styling-hook-index","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":19,"name":"Utility Classes","slug":"utility-classes","url":"/develop/utility-classes","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":5,"name":"Components","slug":"component","hidden":false,"children":[{"id":20,"name":"Accordion","slug":"accordion","url":"/component/accordion","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"accordion--usage","url":"/component/accordion--usage"},{"name":"Develop","slug":"accordion--develop","url":"/develop/accordion--develop"},{"name":"Specifications","slug":"accordion--specifications","url":"/component/accordion--specifications"},{"name":"Accessibility","slug":"accordion--accessibility","url":"/component/accordion--accessibility"}]},{"id":21,"name":"Avatar","slug":"avatar","url":"/component/avatar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"avatar--usage","url":"/component/avatar--usage"},{"name":"Develop","slug":"avatar--develop","url":"/develop/avatar--develop"},{"name":"Specifications","slug":"avatar--specifications","url":"/component/avatar--specifications"},{"name":"Accessibility","slug":"avatar--accessibility","url":"/component/avatar--accessibility"}]},{"id":22,"name":"Badge","slug":"badge","url":"/component/badge","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"badge--usage","url":"/component/badge--usage"},{"name":"Develop","slug":"badge--develop","url":"/develop/badge--develop"},{"name":"Accessibility","slug":"badge--accessibility","url":"/component/badge--accessibility"}]},{"id":23,"name":"Breadcrumbs","slug":"breadcrumbs","url":"/component/breadcrumbs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"breadcrumbs--usage","url":"/component/breadcrumbs--usage"},{"name":"Specifications","slug":"breadcrumbs--specifications","url":"/component/breadcrumbs--specifications"},{"name":"Accessibility","slug":"breadcrumbs--accessibility","url":"/component/breadcrumbs--accessibility"}]},{"id":24,"name":"Button","slug":"button","url":"/component/button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button--usage","url":"/component/button--usage"},{"name":"Develop","slug":"button--develop","url":"/develop/button--develop"},{"name":"Specifications","slug":"button--specifications","url":"/component/button--specifications"},{"name":"Accessibility","slug":"button--accessibility","url":"/component/button--accessibility"}]},{"id":25,"name":"Button Groups","slug":"button-groups","url":"/component/button-groups","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-groups--usage","url":"/component/button-groups--usage"},{"name":"Accessibility","slug":"button-groups--accessibility","url":"/component/button-groups--accessibility"}]},{"id":26,"name":"Button Icons","slug":"button-icons","url":"/component/button-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-icons--usage","url":"/component/button-icons--usage"},{"name":"Specifications","slug":"button-icons--specifications","url":"/component/button-icons--specifications"},{"name":"Accessibility","slug":"button-icons--accessibility","url":"/component/button-icons--accessibility"}]},{"id":27,"name":"Cards","slug":"cards","url":"/component/cards","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"cards--usage","url":"/component/cards--usage"},{"name":"Develop","slug":"cards--develop","url":"/develop/cards--develop"},{"name":"Specifications","slug":"cards--specifications","url":"/component/cards--specifications"}]},{"id":28,"name":"Carousel","slug":"carousel","url":"/component/carousel","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"carousel--develop","url":"/develop/carousel--develop"},{"name":"Specifications","slug":"carousel--specifications","url":"/component/carousel--specifications"},{"name":"Accessibility","slug":"carousel--accessibility","url":"/component/carousel--accessibility"}]},{"id":29,"name":"Checkbox","slug":"checkbox","url":"/component/checkbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox--usage","url":"/component/checkbox--usage"},{"name":"Specifications","slug":"checkbox--specifications","url":"/component/checkbox--specifications"},{"name":"Accessibility","slug":"checkbox--accessibility","url":"/component/checkbox--accessibility"}]},{"id":30,"name":"Checkbox Button","slug":"checkbox-button","url":"/component/checkbox-button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Specifications","slug":"checkbox-button--specifications","url":"/component/checkbox-button--specifications"},{"name":"Accessibility","slug":"checkbox-button--accessibility","url":"/component/checkbox-button--accessibility"}]},{"id":31,"name":"Checkbox Toggle","slug":"checkbox-toggle","url":"/component/checkbox-toggle","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox-toggle--usage","url":"/component/checkbox-toggle--usage"},{"name":"Specifications","slug":"checkbox-toggle--specifications","url":"/component/checkbox-toggle--specifications"},{"name":"Accessibility","slug":"checkbox-toggle--accessibility","url":"/component/checkbox-toggle--accessibility"}]},{"id":32,"name":"Color Picker","slug":"color-picker","url":"/component/color-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"color-picker--usage","url":"/foundation/color-picker--usage"},{"name":"Specifications","slug":"color-picker--specifications","url":"/foundation/color-picker--specifications"},{"name":"Accessibility","slug":"color-picker--accessibility","url":"/foundation/color-picker--accessibility"}]},{"id":33,"name":"Combobox","slug":"combobox","url":"/component/combobox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"combobox--usage","url":"/component/combobox--usage"},{"name":"Develop","slug":"combobox--develop","url":"/develop/combobox--develop"},{"name":"Specifications","slug":"combobox--specifications","url":"/component/combobox--specifications"}]},{"id":34,"name":"Data Table","slug":"data-table","url":"/component/data-table","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"data-table--usage","url":"/component/data-table--usage"},{"name":"Develop","slug":"data-table--develop","url":"/develop/data-table--develop"},{"name":"Specifications","slug":"data-table--specifications","url":"/component/data-table--specifications"}]},{"id":35,"name":"Datepicker","slug":"datepicker","url":"/component/datepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datepicker--develop","url":"/develop/datepicker--develop"},{"name":"Specifications","slug":"datepicker--specifications","url":"/component/datepicker--specifications"},{"name":"Accessibility","slug":"datepicker--accessibility","url":"/component/datepicker--accessibility"}]},{"id":36,"name":"Datetime Picker","slug":"datetime-picker","url":"/component/datetime-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datetime-picker--develop","url":"/develop/datetime-picker--develop"},{"name":"Accessibility","slug":"datetime-picker--accessibility","url":"/foundation/datetime-picker--accessibility"}]},{"id":37,"name":"Dual Listbox","slug":"dual-listbox","url":"/component/dual-listbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dual-listbox--usage","url":"/component/dual-listbox--usage"},{"name":"Develop","slug":"dual-listbox--develop","url":"/develop/dual-listbox--develop"},{"name":"Specifications","slug":"dual-listbox--specifications","url":"/component/dual-listbox--specifications"},{"name":"Accessibility","slug":"dual-listbox--accessibility","url":"/component/dual-listbox--accessibility"}]},{"id":38,"name":"Dynamic Icons","slug":"dynamic-icons","url":"/component/dynamic-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dynamic-icons--usage","url":"/component/dynamic-icons--usage"},{"name":"Develop","slug":"dynamic-icons--develop","url":"/develop/dynamic-icons--develop"},{"name":"Specifications","slug":"dynamic-icons--specifications","url":"/component/dynamic-icons--specifications"},{"name":"Accessibility","slug":"dynamic-icons--accessibility","url":"/component/dynamic-icons--accessibility"}]},{"id":39,"name":"Empty State","slug":"empty-state","url":"/component/empty-state","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"empty-state--accessibility","url":"/foundation/empty-state--accessibility"}]},{"id":40,"name":"File Selector","slug":"file-selector","url":"/component/file-selector","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"file-selector--usage","url":"/component/file-selector--usage"},{"name":"Specifications","slug":"file-selector--specifications","url":"/component/file-selector--specifications"},{"name":"Accessibility","slug":"file-selector--accessibility","url":"/component/file-selector--accessibility"}]},{"id":41,"name":"Form Element","slug":"form-element","url":"/component/form-element","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"form-element--usage","url":"/component/form-element--usage"},{"name":"Develop","slug":"form-element--develop","url":"/develop/form-element--develop"},{"name":"Specifications","slug":"form-element--specifications","url":"/component/form-element--specifications"},{"name":"Accessibility","slug":"form-element--accessibility","url":"/component/form-element--accessibility"}]},{"id":42,"name":"Icons","slug":"icons","url":"/component/icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"icons--usage","url":"/component/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/develop/icons--develop"},{"name":"Accessibility","slug":"icons--accessibility","url":"/component/icons--accessibility"}]},{"id":43,"name":"Input","slug":"input","url":"/component/input","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"input--usage","url":"/component/input--usage"},{"name":"Specifications","slug":"input--specifications","url":"/component/input--specifications"},{"name":"Accessibility","slug":"input--accessibility","url":"/component/input--accessibility"}]},{"id":44,"name":"Map","slug":"map","url":"/component/map","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"map--accessibility","url":"/foundation/map--accessibility"}]},{"id":45,"name":"Menu","slug":"menu","url":"/component/menu","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"menu--usage","url":"/component/menu--usage"},{"name":"Develop","slug":"menu--develop","url":"/develop/menu--develop"},{"name":"Specifications","slug":"menu--specifications","url":"/component/menu--specifications"},{"name":"Accessibility","slug":"menu--accessibility","url":"/component/menu--accessibility"}]},{"id":46,"name":"Modals","slug":"modals","url":"/component/modals","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"modals--usage","url":"/component/modals--usage"},{"name":"Develop","slug":"modals--develop","url":"/develop/modals--develop"},{"name":"Specifications","slug":"modals--specifications","url":"/component/modals--specifications"},{"name":"Accessibility","slug":"modals--accessibility","url":"/component/modals--accessibility"}]},{"id":47,"name":"Pills","slug":"pills","url":"/component/pills","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"pills--usage","url":"/component/pills--usage"},{"name":"Develop","slug":"pills--develop","url":"/develop/pills--develop"},{"name":"Specifications","slug":"pills--specifications","url":"/component/pills--specifications"},{"name":"Accessibility","slug":"pills--accessibility","url":"/component/pills--accessibility"}]},{"id":48,"name":"Popover","slug":"popover","url":"/component/popover","category":"component","hidden":false,"showTabsInSidebar":"$undefined"},{"id":49,"name":"Progress Bar","slug":"progress-bar","url":"/component/progress-bar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-bar--usage","url":"/component/progress-bar--usage"},{"name":"Specifications","slug":"progress-bar--specifications","url":"/component/progress-bar--specifications"},{"name":"Accessibility","slug":"progress-bar--accessibility","url":"/component/progress-bar--accessibility"}]},{"id":50,"name":"Progress Indicator","slug":"progress-indicator","url":"/component/progress-indicator","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-indicator--usage","url":"/component/progress-indicator--usage"},{"name":"Develop","slug":"progress-indicator--develop","url":"/develop/progress-indicator--develop"},{"name":"Specifications","slug":"progress-indicator--specifications","url":"/component/progress-indicator--specifications"}]},{"id":51,"name":"Progress Ring","slug":"progress-ring","url":"/component/progress-ring","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-ring--usage","url":"/component/progress-ring--usage"},{"name":"Develop","slug":"progress-ring--develop","url":"/develop/progress-ring--develop"},{"name":"Specifications","slug":"progress-ring--specifications","url":"/component/progress-ring--specifications"}]},{"id":52,"name":"Prompt","slug":"prompt","url":"/component/prompt","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"prompt--develop","url":"/develop/prompt--develop"}]},{"id":53,"name":"Radio Button Group","slug":"radio-button-group","url":"/component/radio-button-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-button-group--usage","url":"/component/radio-button-group--usage"},{"name":"Develop","slug":"radio-button-group--develop","url":"/develop/radio-button-group--develop"},{"name":"Specifications","slug":"radio-button-group--specifications","url":"/component/radio-button-group--specifications"},{"name":"Accessibility","slug":"radio-button-group--accessibility","url":"/component/radio-button-group--accessibility"}]},{"id":54,"name":"Radio Group","slug":"radio-group","url":"/component/radio-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-group--usage","url":"/component/radio-group--usage"},{"name":"Develop","slug":"radio-group--develop","url":"/develop/radio-group--develop"},{"name":"Specifications","slug":"radio-group--specifications","url":"/component/radio-group--specifications"},{"name":"Accessibility","slug":"radio-group--accessibility","url":"/component/radio-group--accessibility"}]},{"id":55,"name":"Rich Text Editor","slug":"rich-text-editor","url":"/component/rich-text-editor","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"rich-text-editor--accessibility","url":"/foundation/rich-text-editor--accessibility"}]},{"id":56,"name":"Scoped Tabs","slug":"scoped-tabs","url":"/component/scoped-tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"scoped-tabs--usage","url":"/component/scoped-tabs--usage"},{"name":"Develop","slug":"scoped-tabs--develop","url":"/develop/scoped-tabs--develop"},{"name":"Specifications","slug":"scoped-tabs--specifications","url":"/component/scoped-tabs--specifications"},{"name":"Accessibility","slug":"scoped-tabs--accessibility","url":"/component/scoped-tabs--accessibility"}]},{"id":57,"name":"Select","slug":"select","url":"/component/select","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"select--usage","url":"/component/select--usage"},{"name":"Develop","slug":"select--develop","url":"/develop/select--develop"},{"name":"Specifications","slug":"select--specifications","url":"/component/select--specifications"}]},{"id":58,"name":"Slider","slug":"slider","url":"/component/slider","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"slider--accessibility","url":"/foundation/slider--accessibility"}]},{"id":59,"name":"Spinners","slug":"spinners","url":"/component/spinners","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"spinners--usage","url":"/component/spinners--usage"},{"name":"Specifications","slug":"spinners--specifications","url":"/component/spinners--specifications"},{"name":"Accessibility","slug":"spinners--accessibility","url":"/component/spinners--accessibility"}]},{"id":60,"name":"Tabs","slug":"tabs","url":"/component/tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tabs--usage","url":"/component/tabs--usage"},{"name":"Develop","slug":"tabs--develop","url":"/develop/tabs--develop"},{"name":"Specifications","slug":"tabs--specifications","url":"/component/tabs--specifications"},{"name":"Accessibility","slug":"tabs--accessibility","url":"/component/tabs--accessibility"}]},{"id":61,"name":"Textarea","slug":"textarea","url":"/component/textarea","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"textarea--usage","url":"/component/textarea--usage"},{"name":"Develop","slug":"textarea--develop","url":"/develop/textarea--develop"},{"name":"Specifications","slug":"textarea--specifications","url":"/component/textarea--specifications"},{"name":"Accessibility","slug":"textarea--accessibility","url":"/component/textarea--accessibility"}]},{"id":62,"name":"Tiles","slug":"tiles","url":"/component/tiles","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"tiles--develop","url":"/develop/tiles--develop"},{"name":"Accessibility","slug":"tiles--accessibility","url":"/foundation/tiles--accessibility"}]},{"id":63,"name":"Timepicker","slug":"timepicker","url":"/component/timepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"timepicker--develop","url":"/develop/timepicker--develop"},{"name":"Accessibility","slug":"timepicker--accessibility","url":"/foundation/timepicker--accessibility"}]},{"id":64,"name":"Toast","slug":"toast","url":"/component/toast","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"toast--usage","url":"/component/toast--usage"},{"name":"Develop","slug":"toast--develop","url":"/develop/toast--develop"},{"name":"Specifications","slug":"toast--specifications","url":"/component/toast--specifications"},{"name":"Accessibility","slug":"toast--accessibility","url":"/component/toast--accessibility"}]},{"id":65,"name":"Tooltip","slug":"tooltip","url":"/component/tooltip","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tooltip--usage","url":"/component/tooltip--usage"},{"name":"Specifications","slug":"tooltip--specifications","url":"/component/tooltip--specifications"},{"name":"Accessibility","slug":"tooltip--accessibility","url":"/component/tooltip--accessibility"}]},{"id":66,"name":"Tree","slug":"tree","url":"/component/tree","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree--usage","url":"/component/tree--usage"},{"name":"Specifications","slug":"tree--specifications","url":"/component/tree--specifications"},{"name":"Accessibility","slug":"tree--accessibility","url":"/component/tree--accessibility"}]},{"id":67,"name":"Tree Grid","slug":"tree-grid","url":"/component/tree-grid","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree-grid--usage","url":"/component/tree-grid--usage"},{"name":"Develop","slug":"tree-grid--develop","url":"/develop/tree-grid--develop"},{"name":"Accessibility","slug":"tree-grid--accessibility","url":"/component/tree-grid--accessibility"}]}]},{"id":6,"name":"Patterns","slug":"pattern","hidden":false,"children":[{"id":68,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/pattern/agentic-patterns","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined"},{"id":69,"name":"In App Feedback","slug":"in-app-feedback","url":"/pattern/in-app-feedback","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"In App Feedback Patterns","slug":"in-app-feedback--in-app-feedback-patterns","url":"/pattern/in-app-feedback--in-app-feedback-patterns"}]},{"id":70,"name":"User Engagement","slug":"user-engagement","url":"/pattern/user-engagement","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Overview","slug":"user-engagement--overview","url":"/pattern/user-engagement--overview"},{"name":"Feature Discovery","slug":"user-engagement--feature-discovery","url":"/pattern/user-engagement--feature-discovery"},{"name":"Deeper Learning","slug":"user-engagement--deeper-learning","url":"/pattern/user-engagement--deeper-learning"},{"name":"Troubleshooting","slug":"user-engagement--troubleshooting","url":"/pattern/user-engagement--troubleshooting"},{"name":"Onboarding","slug":"user-engagement--onboarding","url":"/pattern/user-engagement--onboarding"}]}]},{"id":7,"name":"Accessibility","slug":"foundation","hidden":false,"children":[{"id":71,"name":"Global Accessibility Standards","slug":"global-accessibility-standards","url":"/foundation/global-accessibility-standards","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"},{"id":72,"name":"Text and Color Contrast","slug":"text-and-color-contrast","url":"/foundation/text-and-color-contrast","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":8,"name":"Tools","slug":"develop","hidden":false,"children":[{"id":73,"name":"Developer Tools","slug":"developer-tools","url":"/develop/developer-tools","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":74,"name":"Designer Tools","slug":"designer-tools","url":"/design/designer-tools","category":"design","hidden":false,"showTabsInSidebar":"$undefined"},{"id":75,"name":"SLDS Validator","slug":"slds-validator","url":"/tools/slds-validator","category":"tools","hidden":false,"showTabsInSidebar":"$undefined"},{"id":76,"name":"SLDS Linter","slug":"slds-linter","url":"/general/slds-linter","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]}]}],"$L8"]}]]}]}]]}]]}],{"children":[["category","general","d"],"$L9",{"children":[["slug","panels","oc"],"$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false]},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+e:I[2619,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],""]
+10:I[4431,[],"OutletBoundary"]
+12:I[5278,[],"AsyncMetadataOutlet"]
+14:I[4431,[],"ViewportBoundary"]
+16:I[4431,[],"MetadataBoundary"]
+17:"$Sreact.suspense"
+8:["$","div",null,{"className":"flex-1 flex flex-col overflow-auto","style":{"backgroundColor":"var(--background)"},"children":[["$","main",null,{"className":"flex-1 px-4 sm:px-6 md:px-12 py-0","style":{"backgroundColor":"var(--background)"},"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t pt-8 pb-12 text-[12px] mt-16 transition-colors","style":{"borderColor":"var(--border)","color":"var(--slds-gray-text)","backgroundColor":"var(--footer-bg)"},"children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 md:px-12","children":[["$","div",null,{"className":"flex flex-wrap gap-x-6 gap-y-2 mb-4","children":[["$","$Le",null,{"href":"/general/get-started","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Get Started"}],[["$","a","Terms of Service",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Terms of Service"}],["$","a","Privacy",{"href":"https://www.salesforce.com/company/privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Privacy"}],["$","a","Responsible Disclosure",{"href":"https://www.salesforce.com/company/security/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Responsible Disclosure"}],["$","a","Trust",{"href":"https://trust.salesforce.com/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Trust"}],["$","a","Your Privacy Choices",{"href":"https://www.salesforce.com/company/privacy/full_privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Your Privacy Choices"}],["$","a","Salesforce Legal",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Salesforce Legal"}]]]}],["$","p",null,{"className":"text-[11px]","style":{"color":"var(--slds-gray-text)","opacity":0.7},"children":"© Copyright 2015-present Salesforce, Inc. All rights reserved. Various trademarks held by their respective owners. Salesforce, Inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States"}]]}]}]]}]
+9:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+a:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":["$L11",["$","$L12",null,{"promise":"$@13"}]]}]]}]
+c:["$","$1","h",{"children":[null,[["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L16",null,{"children":["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":"$L18"}]}]}]]}]
+19:T4788,<h2>Introduction</h2>
+<p>Panels present momentary tasks, properties, and supplemental information associated with the current builder, or a selection made within the canvas.</p>
+<p>Start using our Design Kits</p>
+<p><a href="https://www.figma.com/community/file/1415890669347272207">Open in Figma</a>Panels present momentary tasks, properties, and supplemental information associated with the current builder, or a selection made within the canvas.</p>
+<h3>Start using our Design Kits</h3>
+<p>Open in Figma</p>
+<h2>Usage</h2>
+<p>Panel hierarchy moves from left to right. The left panel hosts primary functions and tasks used in the builder. The right panel (or a floating variant) hosts secondary functions, plus supplemental information related to active canvas items.</p>
+<p>Builder panels</p>
+<h2>Panel Behavior</h2>
+<p>By default, panels are non-modal dialogs that float above the canvas on a raised z-index. Use panel overlay behavior if a panel’s content takes temporary focus.</p>
+<p>Panels may also open as drawers, reflowing canvas content. Use this option if panel content shares focus with the canvas—for example, where both panel and canvas must be referenced at the same time.</p>
+<p>Panel overlay behavior</p>
+<p>Panel drawer behavior</p>
+<h2>Parts</h2>
+<p>A panel consists of the following parts:</p>
+<h3>Header</h3>
+<ul>
+<li>Title: Identifies the panel; usually a title or the name of a selected element.</li>
+<li>Close button (as needed): Icon located at the top right of the panel header.</li>
+<li>Dock/undock button (as needed): Icon located at the top right of the panel header. Commonly used with the floating panel variant.</li>
+</ul>
+<h3>Body</h3>
+<ul>
+<li>Display of information, properties, and forms can be customized.</li>
+<li>Group inputs, content, and configuration requirements in sections.</li>
+<li>Tabs may use either accordions or static section headers. Do not use both in one tab.</li>
+</ul>
+<h3>Horizontal tabs</h3>
+<ul>
+<li>Tabs can be implemented between the header and body. Use the <a href="https://www.lightningdesignsystem.com/2e1ef8501/p/318c20-scoped-tabs/t/4538883ea2">tabs with overflow menu</a> when necessary.
+Tabs can be implemented between the header and body. Use the tabs with overflow menu when necessary.</li>
+</ul>
+<h3>Accordions</h3>
+<ul>
+<li>Use accordions to group sections of information, streamline workflow, and minimize scrolling. Do not use accordions with only one section*.*</li>
+<li>The first accordion should be open by default. Expand only one accordion at a time. Clicking a collapsed accordion expands it and collapses any open accordions.</li>
+</ul>
+<h3>Static sections</h3>
+<ul>
+<li>Panels can be organized with static section titles and subtitles. The panel title may serve as a section title if only one static section is needed.</li>
+</ul>
+<h2>Panel Sizing</h2>
+<p>Default Builder panel width is 320px. Panel width should be fixed, but may be adjusted to suit content. Fixed panel height should extend from the header to the base of the window.</p>
+<p>Default height for floating panels is 400px. Floating panels may be vertically resized.</p>
+<p>Panel sizing options: 320px (default), 400px, 640px</p>
+<h2>Panel Navigation</h2>
+<h3>Toggle Panel Visibility</h3>
+<p>Use a button icon in the builder header toolbar to toggle panel visibility.</p>
+<p>Panel toggle</p>
+<h3>Dock Panel to Right Side</h3>
+<p>Use a button icon in the panel header to dock or undock a floating panel to the side of the window. The canvas will resize when a floating panel is docked and expand when it is undocked.</p>
+<p>Note: floating panels are only supported for Experience Builder, Commerce Page Designer and other web content builders.</p>
+<p>Dock a floating panel</p>
+<p>Undock a docked panel</p>
+<h2>Component Panel Variants for Content Builders</h2>
+<h3>Fixed Component Panel (Base)</h3>
+<p>The left-hand component panel lists items used on the canvas. It is open by default, and can be closed using a toolbar action button. It uses drawer behavior and does not overlay other elements.</p>
+<p>The base version of this panel has a header and a body area. Body content may be organized with tabs, accordions, and static sections. Add a search bar to help users locate components by name.</p>
+<p>Base component panel</p>
+<p>Component list, with components grouped using accordions</p>
+<p>ℹ️ Accessibility Note: For the best keyboard experience, if the sections are a list of elements, build panel sections as HTML list boxes.</p>
+<h3>Fixed Component Panel (Page Tree)</h3>
+<p>Use a page tree to outline the structure and hierarchy of components on the canvas. Select an element in the page tree and the canvas will move and highlight the selection. The page tree supports other actions such as delete or drag and drop to move elements.</p>
+<p>Page tree shows hierarchy of sections and components on the canvas</p>
+<h3>Flexible Component Panel</h3>
+<p>Add a vertical tab bar or rail to the base component panel to create this variant.</p>
+<p>ℹ️ Note<div></div> flexible component panel is only supported for Experience Builder, Commerce Page Designer and other web content builders.</p>
+<p>The vertical tab bar sits beside the canvas and provides space for multiple component panel options. Selecting an icon on the bar opens a panel, causing the canvas to resize in the remaining available space. The tab bar and panel use drawer behavior and do not overlay other elements.</p>
+<p>Vertical tab bar</p>
+<p>Vertical tab bar with open panel</p>
+<h2>Property Panel Variants for Content Builders</h2>
+<h3>Fixed Property Panel (Base)</h3>
+<p>Content builders use the property panel to configure and style selected content on the canvas. This panel is open by default, and persists unless it is closed; a close button is optional. It uses drawer behavior and does not overlay other elements.</p>
+<p>ℹ️ Note: Because canvas updates happen continuously as changes are made, the base panel does not use a footer action bar. See Canvas update recommendations.</p>
+<p>The base version of this panel has a header and a body area. Body content may be organized with tabs, accordions, and static sections.</p>
+<h3>Fixed Property Panel (Content-specific Header)</h3>
+<p>This panel variation is positioned over the base panel. When a component is selected, its header background color and icon change to reflect the chosen component type. The panel may also contain a short component description and action menu.</p>
+<p>Property panel with content-specific header</p>
+<h3>Floating Panel</h3>
+<p>Floating property panels appear over the canvas to provide context for selected items. This panel variation supports the flexible panel configuration.</p>
+<p>ℹ️ Note<div></div> floating panel and flexible panel configuration are only supported for Experience Builder, Commerce Page Designer and other web content builders.</p>
+<p>Each floating panel has a header and a body area. The header contains a Dock to Side icon. Body content may be organized with tabs, accordions, and static sections. The body has a minimum height of 310 pixels; floating panels can be resized vertically.</p>
+<p>ℹ️ Accessibility Note: If floating panels can be dragged and resized, include a keyboard equivalent for these actions.</p>
+<p>A floating panel corresponds to the selected component, outlined in blue.</p>
+<p>A floating panel with resizing corresponds to the selected component, outlined in blue</p>
+<p>Docked floating panel</p>
+<p><strong>Floating Panel Guidelines</strong></p>
+<p>Default Position</p>
+<p>When launching a floating panel, initial open position should be in the canvas space to the right of the selected item (determined contextually by canvas scroll position and screen height). Use a consistent distance from the selected item's bounding box to the edge of the floating panel.</p>
+<p>Size</p>
+<p>The default width of a floating panel should remain consistent with base panel size guidelines. Default height varies based on content. Use scrolling for panels containing a large amount of content. Floating panels should not extend beyond the viewable screen area.</p>
+<p>Moving</p>
+<p>Floating panels may be dragged to other points on the canvas. Include a drag icon in the panel header for use by voice command and keyboard users. Upon closing or reopening, the panel inherits all defaults.</p>
+<p>Docking</p>
+<p>Add a Dock icon to the panel header to allow users to dock floating panels. These panels dock at the right side of the builder, follow fixed panel guidelines, and cause the canvas to resize. Their docked state persists when the user navigates to other components or closes and reopens the builder.</p>
+<p>Resizing</p>
+<p>If resizing is implemented, include a resize bar at the bottom of the floating panel. The user can extend panel height by hovering over the resize bar located at the bottom of the floating panel. When hovering over the resize bar the mouse cursor reveals handles to indicate resize functionality. Upon closing or reopening, the panel inherits all defaultsFloating Panel Guidelines</p>
+<p>Default Position</p>
+<p>When launching a floating panel, initial open position should be in the canvas space to the right of the selected item (determined contextually by canvas scroll position and screen height). Use a consistent distance from the selected item's bounding box to the edge of the floating panel.</p>
+<p>Size</p>
+<p>The default width of a floating panel should remain consistent with base panel size guidelines. Default height varies based on content. Use scrolling for panels containing a large amount of content. Floating panels should not extend beyond the viewable screen area.</p>
+<p>Moving</p>
+<p>Floating panels may be dragged to other points on the canvas. Include a drag icon in the panel header for use by voice command and keyboard users. Upon closing or reopening, the panel inherits all defaults.</p>
+<p>Docking</p>
+<p>Add a Dock icon to the panel header to allow users to dock floating panels. These panels dock at the right side of the builder, follow fixed panel guidelines, and cause the canvas to resize. Their docked state persists when the user navigates to other components or closes and reopens the builder.</p>
+<p>Resizing</p>
+<p>If resizing is implemented, include a resize bar at the bottom of the floating panel. The user can extend panel height by hovering over the resize bar located at the bottom of the floating panel. When hovering over the resize bar the mouse cursor reveals handles to indicate resize functionality. Upon closing or reopening, the panel inherits all defaults</p>
+<h3>Property Panel Inputs</h3>
+<p>Content builders require specific inputs for common use cases such as adding images, HTML editing, and personalization. Each input should have a persistent, visible label associated with it.</p>
+<h4>HTML/Code Input</h4>
+<p>When editing a code property, such as the contents of a code block, use a Textarea with $font-family-monospace. Use a toolbar for actions such as Merge Fields.</p>
+<h4>Text Input with Actions</h4>
+<p>For basic text properties, include neutral action buttons below the text field or textarea, spaced at $spacing-xx-small.</p>
+<p>For properties that require rich text formatting (e.g., font weight, bullets, and alignment), use the Rich Text Editor and include actions in the toolbar.</p>
+<p>Basic input with action buttons below</p>
+<pre><code>  Basic input with action buttons belowBasic input with action buttons below
+</code></pre>
+<p>Basic input with action buttons below</p>
+<h4>Image Selection</h4>
+<p>Use the image selection pattern when selecting an image, especially from a library.</p>
+<p>In the default empty state, use the Image File Selector component.</p>
+<ul>
+<li>The primary button opens a dropdown list of available sources.</li>
+<li>The secondary button replaces the empty state with an input field, where the user can enter a prehosted URL.</li>
+<li>The cancel button returns to the empty state.
+When the user selects an image, the Files component generates a preview.</li>
+</ul>
+<p>Deleting the image returns to the empty state.</p>
+<p>ℹ️ Accessibility Note: There should be a way for users to add alt text to the images they upload.</p>
+<p>File selector, multiline/image</p>
+<pre><code>  URL input, image selectionFile selector, multiline/image
+</code></pre>
+<p>URL input, image selection</p>
+<p>Selected image preview state</p>
+<h4>Color Picker</h4>
+<p>See Color Picker for more information</p>
+<p>Use color picker component variants to control the color options available for the user.</p>
+<ul>
+<li>When the user can specify any color, use the custom-only version of the SLDS color picker.</li>
+<li>If user-defined colors are allowed and the user has defined swatches, use the base version of the color picker.</li>
+<li>Consider using the predefined-only version to show a limited set of brand colors.</li>
+</ul>
+<h2>Panel Drill-in and Expansion</h2>
+<h3>Panel Drill-in</h3>
+<p>A panel drill-in shows a second level of builder content in a panel. When a user selects its base-layer element, the drill-in layer slides over the existing panel body (below the panel header and any existing tabs).</p>
+<p>The drill-in layer has a header with a back button and title, plus optional actions. It may include a confirmation footer if needed.</p>
+<p>Panel drill-in layer</p>
+<h3>Modal</h3>
+<p>When more space is needed, a modal can be triggered from within a panel.</p>
+<p>Modals are often used for content selection. When the user chooses content from a property panel, a modal launches the media browser. Once actions are performed in the modal, the user selects Done or Save to return focus to the panel, with the panel state and canvas updated.</p>
+<p>Content selection in a modal</p>
+<p>A modal can also offer an expanded view for HTML editing, formula editing, or expression building.</p>
+<p>Expanded view of HTML code in a modal</p>
+<h3>Popover</h3>
+<p>A popover is a nonmodal dialog used to display contextual information. Launched by a clickable trigger element in a panel, it contains at least one focusable element. Popovers can be used to edit a component title and description, update an image name, or set conditional visibility on a component.</p>
+<p>Popover used to edit component information in panel</p>
+<h2>Panel Validation</h2>
+<p>Panels may also display warnings and errors as part of a builder’s validation system.</p>
+<p>Field validation should follow SLDS guidelines for required fields and incomplete or invalid input.</p>
+<p>Tabs and accordions may contain warning or error icons. The associated alerts should also be surfaced to the header and canvas.</p>
+<p>See Validation for more information</p>
+<h2>Canvas Update</h2>
+<p>The canvas should update whenever an action if performed.</p>
+<p><strong>Action</strong></p>
+<p><strong>Canvas Update</strong></p>
+<p>Base panel input change</p>
+<p>Refresh canvas on field blur or property change</p>
+<p>Drill-in panel input change (canvas-related)</p>
+<p>Refresh canvas on field blur or property change</p>
+<p>Drill-in panel input change (configuration-related)</p>
+<p>Commit on confirmation action (Done)</p>
+<p>Popover input change</p>
+<p>Refresh canvas on confirmation action (Done)</p>
+<p>Modal input change</p>
+<p>Refresh canvas on confirmation action (Done)Action</p>
+<p>Canvas Update</p>
+<p>Base panel input change</p>
+<p>Refresh canvas on field blur or property change</p>
+<p>Drill-in panel input change (canvas-related)</p>
+<p>Refresh canvas on field blur or property change</p>
+<p>Drill-in panel input change (configuration-related)</p>
+<p>Commit on confirmation action (Done)</p>
+<p>Popover input change</p>
+<p>Refresh canvas on confirmation action (Done)</p>
+<p>Modal input change</p>
+<p>Refresh canvas on confirmation action (Done)</p>
+<p>When a user enters text or code (for example, basic text, rich text, or HTML), the canvas should refresh continuously based on delimiting/debouncing settings. This update interval should also be tracked in the undo/redo action queue.</p>
+<p>Properties such as as radio buttons, check boxes, and image selections should refresh the canvas on field blur or property change.</p>
+<h3>Undo/Redo</h3>
+<p>User actions (defined as updates to canvas components and changes to component content or properties) are recorded and linked to the toolbar’s undo/redo buttons.</p>
+<p>Text/code property changes: each recorded action is based on a string delimiter</p>
+<p><strong>Examples:</strong></p>
+<p>Delimit by space - typing “hello, friends” > hit undo > the value is now “hello,”</p>
+<p>By a command on the text - bold “hello” > hit undo > “hello” is now unbolded</p>
+<p><strong>Nontext property changes:</strong> the new property value is a recorded action</p>
+<p><strong>Example:</strong></p>
+<p>Choose new option from picklist > hit undo > reverted to previous selection</p>
+<p><strong>Canvas component changes position or is deleted:</strong> each change represents a recorded action</p>
+<p><strong>Example:</strong></p>
+<p>Move a component > hit undo > returns to previous positionExamples:</p>
+<ul>
+<li>Delimit by space - typing “hello, friends” > hit undo > the value is now “hello,”</li>
+<li>By a command on the text - bold “hello” > hit undo > “hello” is now unbolded
+Nontext property changes: the new property value is a recorded action</li>
+</ul>
+<p>Example:</p>
+<ul>
+<li>Choose new option from picklist > hit undo > reverted to previous selection
+Canvas component changes position or is deleted: each change represents a recorded action</li>
+</ul>
+<p>Example:</p>
+<ul>
+<li>Move a component > hit undo > returns to previous position
+ℹ️ Accessibility note: Undo/Redo should provide screen readers with highly specific, visually hidden updates—for example, changes to component x undone instead of changes undone.</li>
+</ul>
+<h3>Saving</h3>
+<p>Changes are saved locally each time the canvas is updated. If a panel is closed, any changes will have been saved locally at the time of the canvas update.</p>
+<p>Server-side saves require a Save button. Warn users against using the Back button and closing tabs with unsaved changes.</p>
+<p>ℹ️ Accessibility note: There should be a visually hidden screen reader announcement to let users know the builder saved.</p>f:["$","div",null,{"className":"max-w-4xl","children":[["$","nav",null,{"className":"mb-6","children":["$","ol",null,{"className":"flex items-center gap-2 text-sm","children":[["$","li","/general-0",{"className":"flex items-center gap-2","children":[false,["$","$Le",null,{"href":"/general","style":{"color":"var(--slds-blue)"},"children":"AI and SLDS 2"}]]}],["$","li","/general/panels-1",{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"h-4 w-4","style":{"color":"var(--slds-gray-text)"},"fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z","clipRule":"evenodd"}]}],["$","span",null,{"style":{"color":"var(--slds-gray-text)"},"children":"Panels"}]]}]]}]}],["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-4xl font-bold mb-2","style":{"color":"var(--slds-navy)"},"children":"Panels"}],"$undefined"]}],null,["$","article",null,{"className":"content-blocks mb-12","dangerouslySetInnerHTML":{"__html":"$19"}}],"$L1a","$L1b"]}]
+1c:I[9825,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],"ViewMarkdownButton"]
+1d:T4421,---
+title: "Panels"
+slug: "panels"
+category: "general"
+url: "https://www.lightningdesignsystem.com/2e1ef8501/p/19ef57-panels"
+extractedAt: "2026-02-21T21:57:46.470Z"
+---
+
+## Introduction
+
+Panels present momentary tasks, properties, and supplemental information associated with the current builder, or a selection made within the canvas.
+
+
+
+Start using our Design Kits
+
+
+
+  
+
+  
+    
+      
+        
+          
+        
+      
+      
+        
+      
+      
+    
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+[Open in Figma](https://www.figma.com/community/file/1415890669347272207)Panels present momentary tasks, properties, and supplemental information associated with the current builder, or a selection made within the canvas.
+
+### Start using our Design Kits
+
+Open in Figma
+
+## Usage
+
+Panel hierarchy moves from left to right. The left panel hosts primary functions and tasks used in the builder. The right panel (or a floating variant) hosts secondary functions, plus supplemental information related to active canvas items.
+
+Builder panels
+
+## Panel Behavior
+
+By default, panels are non-modal dialogs that float above the canvas on a raised z-index. Use panel overlay behavior if a panel’s content takes temporary focus.
+
+Panels may also open as drawers, reflowing canvas content. Use this option if panel content shares focus with the canvas—for example, where both panel and canvas must be referenced at the same time.
+
+Panel overlay behavior
+
+Panel drawer behavior
+
+## Parts
+
+A panel consists of the following parts:
+
+### Header
+
+- Title: Identifies the panel; usually a title or the name of a selected element.
+- Close button (as needed): Icon located at the top right of the panel header.
+- Dock/undock button (as needed): Icon located at the top right of the panel header. Commonly used with the floating panel variant.
+
+### Body
+
+- Display of information, properties, and forms can be customized.
+- Group inputs, content, and configuration requirements in sections.
+- Tabs may use either accordions or static section headers. Do not use both in one tab.
+
+### Horizontal tabs
+
+- Tabs can be implemented between the header and body. Use the [tabs with overflow menu](https://www.lightningdesignsystem.com/2e1ef8501/p/318c20-scoped-tabs/t/4538883ea2) when necessary.
+Tabs can be implemented between the header and body. Use the tabs with overflow menu when necessary.
+
+### Accordions
+
+- Use accordions to group sections of information, streamline workflow, and minimize scrolling. Do not use accordions with only one section*.*
+- The first accordion should be open by default. Expand only one accordion at a time. Clicking a collapsed accordion expands it and collapses any open accordions.
+
+### Static sections
+
+- Panels can be organized with static section titles and subtitles. The panel title may serve as a section title if only one static section is needed.
+
+## Panel Sizing
+
+Default Builder panel width is 320px. Panel width should be fixed, but may be adjusted to suit content. Fixed panel height should extend from the header to the base of the window.
+
+Default height for floating panels is 400px. Floating panels may be vertically resized.
+
+Panel sizing options: 320px (default), 400px, 640px
+
+## Panel Navigation
+
+### Toggle Panel Visibility
+
+Use a button icon in the builder header toolbar to toggle panel visibility.
+
+Panel toggle
+
+### Dock Panel to Right Side
+
+Use a button icon in the panel header to dock or undock a floating panel to the side of the window. The canvas will resize when a floating panel is docked and expand when it is undocked.
+
+Note: floating panels are only supported for Experience Builder, Commerce Page Designer and other web content builders.
+
+Dock a floating panel
+
+Undock a docked panel
+
+## Component Panel Variants for Content Builders
+
+### Fixed Component Panel (Base)
+
+The left-hand component panel lists items used on the canvas. It is open by default, and can be closed using a toolbar action button. It uses drawer behavior and does not overlay other elements.
+
+The base version of this panel has a header and a body area. Body content may be organized with tabs, accordions, and static sections. Add a search bar to help users locate components by name.
+
+Base component panel
+
+Component list, with components grouped using accordions
+
+ℹ️ Accessibility Note: For the best keyboard experience, if the sections are a list of elements, build panel sections as HTML list boxes.
+
+### Fixed Component Panel (Page Tree)
+
+Use a page tree to outline the structure and hierarchy of components on the canvas. Select an element in the page tree and the canvas will move and highlight the selection. The page tree supports other actions such as delete or drag and drop to move elements.
+
+Page tree shows hierarchy of sections and components on the canvas
+
+### Flexible Component Panel
+
+Add a vertical tab bar or rail to the base component panel to create this variant.
+
+ℹ️ Note:The flexible component panel is only supported for Experience Builder, Commerce Page Designer and other web content builders.
+
+The vertical tab bar sits beside the canvas and provides space for multiple component panel options. Selecting an icon on the bar opens a panel, causing the canvas to resize in the remaining available space. The tab bar and panel use drawer behavior and do not overlay other elements.
+
+Vertical tab bar
+
+Vertical tab bar with open panel
+
+## Property Panel Variants for Content Builders
+
+### Fixed Property Panel (Base)
+
+Content builders use the property panel to configure and style selected content on the canvas. This panel is open by default, and persists unless it is closed; a close button is optional. It uses drawer behavior and does not overlay other elements.
+
+ℹ️ Note: Because canvas updates happen continuously as changes are made, the base panel does not use a footer action bar. See Canvas update recommendations.
+
+The base version of this panel has a header and a body area. Body content may be organized with tabs, accordions, and static sections.
+
+### Fixed Property Panel (Content-specific Header)
+
+This panel variation is positioned over the base panel. When a component is selected, its header background color and icon change to reflect the chosen component type. The panel may also contain a short component description and action menu.
+
+Property panel with content-specific header
+
+### Floating Panel
+
+Floating property panels appear over the canvas to provide context for selected items. This panel variation supports the flexible panel configuration.
+
+ℹ️ Note:The floating panel and flexible panel configuration are only supported for Experience Builder, Commerce Page Designer and other web content builders.
+
+Each floating panel has a header and a body area. The header contains a Dock to Side icon. Body content may be organized with tabs, accordions, and static sections. The body has a minimum height of 310 pixels; floating panels can be resized vertically.
+
+ℹ️ Accessibility Note: If floating panels can be dragged and resized, include a keyboard equivalent for these actions.
+
+A floating panel corresponds to the selected component, outlined in blue.
+
+A floating panel with resizing corresponds to the selected component, outlined in blue
+
+Docked floating panel
+
+**Floating Panel Guidelines**
+
+
+
+Default Position
+
+When launching a floating panel, initial open position should be in the canvas space to the right of the selected item (determined contextually by canvas scroll position and screen height). Use a consistent distance from the selected item's bounding box to the edge of the floating panel.
+
+Size
+
+The default width of a floating panel should remain consistent with base panel size guidelines. Default height varies based on content. Use scrolling for panels containing a large amount of content. Floating panels should not extend beyond the viewable screen area.
+
+Moving
+
+Floating panels may be dragged to other points on the canvas. Include a drag icon in the panel header for use by voice command and keyboard users. Upon closing or reopening, the panel inherits all defaults.
+
+Docking
+
+Add a Dock icon to the panel header to allow users to dock floating panels. These panels dock at the right side of the builder, follow fixed panel guidelines, and cause the canvas to resize. Their docked state persists when the user navigates to other components or closes and reopens the builder.
+
+Resizing
+
+If resizing is implemented, include a resize bar at the bottom of the floating panel. The user can extend panel height by hovering over the resize bar located at the bottom of the floating panel. When hovering over the resize bar the mouse cursor reveals handles to indicate resize functionality. Upon closing or reopening, the panel inherits all defaultsFloating Panel Guidelines
+
+Default Position
+
+When launching a floating panel, initial open position should be in the canvas space to the right of the selected item (determined contextually by canvas scroll position and screen height). Use a consistent distance from the selected item's bounding box to the edge of the floating panel.
+
+Size
+
+The default width of a floating panel should remain consistent with base panel size guidelines. Default height varies based on content. Use scrolling for panels containing a large amount of content. Floating panels should not extend beyond the viewable screen area.
+
+Moving
+
+Floating panels may be dragged to other points on the canvas. Include a drag icon in the panel header for use by voice command and keyboard users. Upon closing or reopening, the panel inherits all defaults.
+
+Docking
+
+Add a Dock icon to the panel header to allow users to dock floating panels. These panels dock at the right side of the builder, follow fixed panel guidelines, and cause the canvas to resize. Their docked state persists when the user navigates to other components or closes and reopens the builder.
+
+Resizing
+
+If resizing is implemented, include a resize bar at the bottom of the floating panel. The user can extend panel height by hovering over the resize bar located at the bottom of the floating panel. When hovering over the resize bar the mouse cursor reveals handles to indicate resize functionality. Upon closing or reopening, the panel inherits all defaults
+
+### Property Panel Inputs
+
+Content builders require specific inputs for common use cases such as adding images, HTML editing, and personalization. Each input should have a persistent, visible label associated with it.
+
+#### HTML/Code Input
+
+When editing a code property, such as the contents of a code block, use a Textarea with $font-family-monospace. Use a toolbar for actions such as Merge Fields.
+
+#### Text Input with Actions
+
+For basic text properties, include neutral action buttons below the text field or textarea, spaced at $spacing-xx-small.
+
+For properties that require rich text formatting (e.g., font weight, bullets, and alignment), use the Rich Text Editor and include actions in the toolbar.
+
+Basic input with action buttons below
+
+
+    
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+  
+
+  
+    
+      
+        
+      
+      
+        
+      
+      Basic input with action buttons belowBasic input with action buttons below
+
+Basic input with action buttons below
+
+#### Image Selection
+
+Use the image selection pattern when selecting an image, especially from a library.
+
+In the default empty state, use the Image File Selector component.
+
+- The primary button opens a dropdown list of available sources.
+- The secondary button replaces the empty state with an input field, where the user can enter a prehosted URL.
+- The cancel button returns to the empty state.
+When the user selects an image, the Files component generates a preview.
+
+Deleting the image returns to the empty state.
+
+ℹ️ Accessibility Note: There should be a way for users to add alt text to the images they upload.
+
+File selector, multiline/image
+
+
+    
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+  
+
+  
+    
+      
+        
+      
+      
+      URL input, image selectionFile selector, multiline/image
+
+URL input, image selection
+
+Selected image preview state
+
+#### Color Picker
+
+See Color Picker for more information
+
+Use color picker component variants to control the color options available for the user.
+
+- When the user can specify any color, use the custom-only version of the SLDS color picker.
+- If user-defined colors are allowed and the user has defined swatches, use the base version of the color picker.
+- Consider using the predefined-only version to show a limited set of brand colors.
+
+## Panel Drill-in and Expansion
+
+### Panel Drill-in
+
+A panel drill-in shows a second level of builder content in a panel. When a user selects its base-layer element, the drill-in layer slides over the existing panel body (below the panel header and any existing tabs).
+
+The drill-in layer has a header with a back button and title, plus optional actions. It may include a confirmation footer if needed.
+
+Panel drill-in layer
+
+### Modal
+
+When more space is needed, a modal can be triggered from within a panel.
+
+Modals are often used for content selection. When the user chooses content from a property panel, a modal launches the media browser. Once actions are performed in the modal, the user selects Done or Save to return focus to the panel, with the panel state and canvas updated.
+
+Content selection in a modal
+
+A modal can also offer an expanded view for HTML editing, formula editing, or expression building.
+
+Expanded view of HTML code in a modal
+
+### Popover
+
+A popover is a nonmodal dialog used to display contextual information. Launched by a clickable trigger element in a panel, it contains at least one focusable element. Popovers can be used to edit a component title and description, update an image name, or set conditional visibility on a component.
+
+Popover used to edit component information in panel
+
+## Panel Validation
+
+Panels may also display warnings and errors as part of a builder’s validation system.
+
+Field validation should follow SLDS guidelines for required fields and incomplete or invalid input.
+
+Tabs and accordions may contain warning or error icons. The associated alerts should also be surfaced to the header and canvas.
+
+See Validation for more information
+
+## Canvas Update
+
+The canvas should update whenever an action if performed.
+
+**Action**
+
+**Canvas Update**
+
+Base panel input change
+
+Refresh canvas on field blur or property change
+
+Drill-in panel input change (canvas-related)
+
+Refresh canvas on field blur or property change
+
+Drill-in panel input change (configuration-related)
+
+Commit on confirmation action (Done)
+
+Popover input change
+
+Refresh canvas on confirmation action (Done)
+
+Modal input change
+
+Refresh canvas on confirmation action (Done)Action
+
+Canvas Update
+
+Base panel input change
+
+Refresh canvas on field blur or property change
+
+Drill-in panel input change (canvas-related)
+
+Refresh canvas on field blur or property change
+
+Drill-in panel input change (configuration-related)
+
+Commit on confirmation action (Done)
+
+Popover input change
+
+Refresh canvas on confirmation action (Done)
+
+Modal input change
+
+Refresh canvas on confirmation action (Done)
+
+When a user enters text or code (for example, basic text, rich text, or HTML), the canvas should refresh continuously based on delimiting/debouncing settings. This update interval should also be tracked in the undo/redo action queue.
+
+Properties such as as radio buttons, check boxes, and image selections should refresh the canvas on field blur or property change.
+
+### Undo/Redo
+
+User actions (defined as updates to canvas components and changes to component content or properties) are recorded and linked to the toolbar’s undo/redo buttons.
+
+Text/code property changes: each recorded action is based on a string delimiter
+
+**Examples:**
+
+Delimit by space - typing “hello, friends” > hit undo > the value is now “hello,”
+
+By a command on the text - bold “hello” > hit undo > “hello” is now unbolded
+
+
+
+**Nontext property changes:** the new property value is a recorded action
+
+**Example:**
+
+Choose new option from picklist > hit undo > reverted to previous selection
+
+
+
+**Canvas component changes position or is deleted:** each change represents a recorded action
+
+
+
+
+
+**Example:**
+
+Move a component > hit undo > returns to previous positionExamples:
+
+- Delimit by space - typing “hello, friends” > hit undo > the value is now “hello,”
+- By a command on the text - bold “hello” > hit undo > “hello” is now unbolded
+Nontext property changes: the new property value is a recorded action
+
+Example:
+
+- Choose new option from picklist > hit undo > reverted to previous selection
+Canvas component changes position or is deleted: each change represents a recorded action
+
+Example:
+
+- Move a component > hit undo > returns to previous position
+ℹ️ Accessibility note: Undo/Redo should provide screen readers with highly specific, visually hidden updates—for example, changes to component x undone instead of changes undone.
+
+### Saving
+
+Changes are saved locally each time the canvas is updated. If a panel is closed, any changes will have been saved locally at the time of the canvas update.
+
+Server-side saves require a Save button. Warn users against using the Back button and closing tabs with unsaved changes.
+
+ℹ️ Accessibility note: There should be a visually hidden screen reader announcement to let users know the builder saved.
+
+1a:["$","$L1c",null,{"markdown":"$1d"}]
+1b:["$","nav",null,{"className":"flex items-center justify-between border-t pt-8","style":{"borderColor":"var(--border)"},"children":[["$","div",null,{"className":"flex-1","children":null}],["$","div",null,{"className":"flex-1 text-right","children":["$","$Le",null,{"href":"/general/ai-and-slds-2","className":"group inline-block p-4 rounded-lg border hover:shadow-md transition-all","style":{"borderColor":"var(--border)"},"children":[["$","div",null,{"className":"text-xs mb-1","style":{"color":"var(--slds-gray-text)"},"children":"Next"}],["$","div",null,{"className":"font-medium","style":{"color":"var(--slds-blue)"},"children":"AI and SLDS 2"}]]}]}]]}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:null
+13:{"metadata":[["$","title","0",{"children":"Lightning Design System 2 - Salesforce UX"}],["$","meta","1",{"name":"description","content":"The Lightning Design System helps you create the world's best enterprise app experiences."}]],"error":null,"digest":"$undefined"}
+18:"$13:metadata"

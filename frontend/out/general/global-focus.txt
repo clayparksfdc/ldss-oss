@@ -1,0 +1,696 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+4:I[8906,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"ThemeProvider"]
+5:I[4974,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"default"]
+6:I[9505,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"Header"]
+7:I[3834,["176","static/chunks/176-c4a8215ca4d82670.js","559","static/chunks/app/(frontend)/layout-7d182d37ea57fa65.js"],"DynamicSidebar"]
+d:I[7150,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/dd33a07d33fc611c.css","style"]
+0:{"P":null,"b":"KTtvz2X-1MHTYU9akXno5","p":"","c":["","general","global-focus"],"i":false,"f":[[["",{"children":["(frontend)",{"children":[["category","general","d"],{"children":[["slug","global-focus","oc"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true]}],["",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(frontend)",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/dd33a07d33fc611c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"light","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var theme = localStorage.getItem('theme');\n              var dark = theme === 'dark' || (theme === 'system' || !theme) && window.matchMedia('(prefers-color-scheme: dark)').matches;\n              document.documentElement.classList.toggle('dark', dark);\n              document.documentElement.classList.toggle('light', !dark);\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"__variable_f367f3 antialiased","id":"frontend-app","style":{"backgroundColor":"var(--background)"},"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{}],["$","div",null,{"className":"flex min-h-[calc(100vh-36px)]","style":{"backgroundColor":"var(--background)"},"children":[["$","$L7",null,{"navigation":[{"id":1,"name":"Get Started","slug":"get-started","hidden":false,"children":[{"id":1,"name":"Get Started","slug":"get-started","url":"/get-started/get-started","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":2,"name":"Transition to SLDS 2","slug":"transition-to-slds-2","url":"/get-started/transition-to-slds-2","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":3,"name":"Admins","slug":"admins","url":"/get-started/admins","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":4,"name":"Designers","slug":"designers","url":"/get-started/designers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":5,"name":"Developers","slug":"developers","url":"/get-started/developers","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"},{"id":6,"name":"Resources","slug":"resources","url":"/get-started/resources","category":"get-started","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":2,"name":"AI and SLDS 2","slug":"general","hidden":false,"children":[{"id":7,"name":"AI and SLDS 2","slug":"ai-and-slds-2","url":"/general/ai-and-slds-2","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":8,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/general/agentic-patterns","category":"general","hidden":false,"showTabsInSidebar":"$undefined"},{"id":9,"name":"AI Tools","slug":"ai-tools","url":"/general/ai-tools","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":3,"name":"Foundations","slug":"foundation","hidden":false,"children":[{"id":10,"name":"Icons","slug":"icons","url":"/foundation/icons","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"icons--overview","url":"/foundation/icons--overview"},{"name":"Usage","slug":"icons--usage","url":"/foundation/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/foundation/icons--develop"},{"name":"Specifications","slug":"icons--specifications","url":"/foundation/icons--specifications"},{"name":"Accessibility","slug":"icons--accessibility","url":"/foundation/icons--accessibility"},{"name":"Action","slug":"icons--action","url":"/foundation/icons--action"},{"name":"Doctype","slug":"icons--doctype","url":"/foundation/icons--doctype"},{"name":"Object","slug":"icons--object","url":"/foundation/icons--object"},{"name":"Product","slug":"icons--product","url":"/foundation/icons--product"},{"name":"Utility","slug":"icons--utility","url":"/foundation/icons--utility"}]},{"id":11,"name":"Color","slug":"color","url":"/foundation/color","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Color Palette","slug":"color--color-palette","url":"/foundation/color--color-palette"},{"name":"Overview","slug":"color--overview","url":"/foundation/color--overview"},{"name":"Semantic Color","slug":"color--semantic-color","url":"/foundation/color--semantic-color"},{"name":"Styling Hooks","slug":"color--styling-hooks","url":"/foundation/color--styling-hooks"},{"name":"System Palette","slug":"color--system-palette","url":"/foundation/color--system-palette"}]},{"id":12,"name":"Typography","slug":"typography","url":"/foundation/typography","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"typography--overview","url":"/foundation/typography--overview"},{"name":"Usage","slug":"typography--usage","url":"/foundation/typography--usage"},{"name":"Type Styles","slug":"typography--type-styles","url":"/foundation/typography--type-styles"},{"name":"Styling Hooks","slug":"typography--styling-hooks","url":"/foundation/typography--styling-hooks"}]},{"id":13,"name":"Spacing and Sizing","slug":"spacing-and-sizing","url":"/foundation/spacing-and-sizing","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"spacing-and-sizing--overview","url":"/foundation/spacing-and-sizing--overview"},{"name":"Spacing","slug":"spacing-and-sizing--spacing","url":"/foundation/spacing-and-sizing--spacing"},{"name":"Sizing","slug":"spacing-and-sizing--sizing","url":"/foundation/spacing-and-sizing--sizing"},{"name":"Styling Hooks","slug":"spacing-and-sizing--styling-hooks","url":"/foundation/spacing-and-sizing--styling-hooks"}]},{"id":14,"name":"Display Density","slug":"display-density","url":"/foundation/display-density","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"display-density--overview","url":"/foundation/display-density--overview"},{"name":"Custom Configurations","slug":"display-density--custom-configurations","url":"/foundation/display-density--custom-configurations"},{"name":"Styling Hooks","slug":"display-density--styling-hooks","url":"/foundation/display-density--styling-hooks"}]},{"id":15,"name":"Borders and Radius","slug":"borders-and-radius","url":"/foundation/borders-and-radius","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"borders-and-radius--overview","url":"/foundation/borders-and-radius--overview"},{"name":"Color","slug":"borders-and-radius--color","url":"/foundation/borders-and-radius--color"},{"name":"Radius","slug":"borders-and-radius--radius","url":"/foundation/borders-and-radius--radius"},{"name":"Width","slug":"borders-and-radius--width","url":"/foundation/borders-and-radius--width"},{"name":"Styling Hooks","slug":"borders-and-radius--styling-hooks","url":"/foundation/borders-and-radius--styling-hooks"}]},{"id":16,"name":"Shadows","slug":"shadows","url":"/foundation/shadows","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"shadows--overview","url":"/foundation/shadows--overview"},{"name":"Usage","slug":"shadows--usage","url":"/foundation/shadows--usage"},{"name":"Styling Hooks","slug":"shadows--styling-hooks","url":"/foundation/shadows--styling-hooks"}]},{"id":17,"name":"Illustrations","slug":"illustrations","url":"/foundation/illustrations","category":"foundation","hidden":false,"showTabsInSidebar":true,"tabs":[{"name":"Overview","slug":"illustrations--overview","url":"/foundation/illustrations--overview"},{"name":"Types","slug":"illustrations--types","url":"/foundation/illustrations--types"},{"name":"UI Text","slug":"illustrations--ui-text","url":"/foundation/illustrations--ui-text"}]}]},{"id":4,"name":"Develop","slug":"develop","hidden":false,"children":[{"id":18,"name":"Global Styling Hooks","slug":"styling-hook-index","url":"/develop/styling-hook-index","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":19,"name":"Utility Classes","slug":"utility-classes","url":"/develop/utility-classes","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":5,"name":"Components","slug":"component","hidden":false,"children":[{"id":20,"name":"Accordion","slug":"accordion","url":"/component/accordion","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"accordion--usage","url":"/component/accordion--usage"},{"name":"Develop","slug":"accordion--develop","url":"/develop/accordion--develop"},{"name":"Specifications","slug":"accordion--specifications","url":"/component/accordion--specifications"},{"name":"Accessibility","slug":"accordion--accessibility","url":"/component/accordion--accessibility"}]},{"id":21,"name":"Avatar","slug":"avatar","url":"/component/avatar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"avatar--usage","url":"/component/avatar--usage"},{"name":"Develop","slug":"avatar--develop","url":"/develop/avatar--develop"},{"name":"Specifications","slug":"avatar--specifications","url":"/component/avatar--specifications"},{"name":"Accessibility","slug":"avatar--accessibility","url":"/component/avatar--accessibility"}]},{"id":22,"name":"Badge","slug":"badge","url":"/component/badge","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"badge--usage","url":"/component/badge--usage"},{"name":"Develop","slug":"badge--develop","url":"/develop/badge--develop"},{"name":"Accessibility","slug":"badge--accessibility","url":"/component/badge--accessibility"}]},{"id":23,"name":"Breadcrumbs","slug":"breadcrumbs","url":"/component/breadcrumbs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"breadcrumbs--usage","url":"/component/breadcrumbs--usage"},{"name":"Specifications","slug":"breadcrumbs--specifications","url":"/component/breadcrumbs--specifications"},{"name":"Accessibility","slug":"breadcrumbs--accessibility","url":"/component/breadcrumbs--accessibility"}]},{"id":24,"name":"Button","slug":"button","url":"/component/button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button--usage","url":"/component/button--usage"},{"name":"Develop","slug":"button--develop","url":"/develop/button--develop"},{"name":"Specifications","slug":"button--specifications","url":"/component/button--specifications"},{"name":"Accessibility","slug":"button--accessibility","url":"/component/button--accessibility"}]},{"id":25,"name":"Button Groups","slug":"button-groups","url":"/component/button-groups","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-groups--usage","url":"/component/button-groups--usage"},{"name":"Accessibility","slug":"button-groups--accessibility","url":"/component/button-groups--accessibility"}]},{"id":26,"name":"Button Icons","slug":"button-icons","url":"/component/button-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"button-icons--usage","url":"/component/button-icons--usage"},{"name":"Specifications","slug":"button-icons--specifications","url":"/component/button-icons--specifications"},{"name":"Accessibility","slug":"button-icons--accessibility","url":"/component/button-icons--accessibility"}]},{"id":27,"name":"Cards","slug":"cards","url":"/component/cards","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"cards--usage","url":"/component/cards--usage"},{"name":"Develop","slug":"cards--develop","url":"/develop/cards--develop"},{"name":"Specifications","slug":"cards--specifications","url":"/component/cards--specifications"}]},{"id":28,"name":"Carousel","slug":"carousel","url":"/component/carousel","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"carousel--develop","url":"/develop/carousel--develop"},{"name":"Specifications","slug":"carousel--specifications","url":"/component/carousel--specifications"},{"name":"Accessibility","slug":"carousel--accessibility","url":"/component/carousel--accessibility"}]},{"id":29,"name":"Checkbox","slug":"checkbox","url":"/component/checkbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox--usage","url":"/component/checkbox--usage"},{"name":"Specifications","slug":"checkbox--specifications","url":"/component/checkbox--specifications"},{"name":"Accessibility","slug":"checkbox--accessibility","url":"/component/checkbox--accessibility"}]},{"id":30,"name":"Checkbox Button","slug":"checkbox-button","url":"/component/checkbox-button","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Specifications","slug":"checkbox-button--specifications","url":"/component/checkbox-button--specifications"},{"name":"Accessibility","slug":"checkbox-button--accessibility","url":"/component/checkbox-button--accessibility"}]},{"id":31,"name":"Checkbox Toggle","slug":"checkbox-toggle","url":"/component/checkbox-toggle","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"checkbox-toggle--usage","url":"/component/checkbox-toggle--usage"},{"name":"Specifications","slug":"checkbox-toggle--specifications","url":"/component/checkbox-toggle--specifications"},{"name":"Accessibility","slug":"checkbox-toggle--accessibility","url":"/component/checkbox-toggle--accessibility"}]},{"id":32,"name":"Color Picker","slug":"color-picker","url":"/component/color-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"color-picker--usage","url":"/foundation/color-picker--usage"},{"name":"Specifications","slug":"color-picker--specifications","url":"/foundation/color-picker--specifications"},{"name":"Accessibility","slug":"color-picker--accessibility","url":"/foundation/color-picker--accessibility"}]},{"id":33,"name":"Combobox","slug":"combobox","url":"/component/combobox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"combobox--usage","url":"/component/combobox--usage"},{"name":"Develop","slug":"combobox--develop","url":"/develop/combobox--develop"},{"name":"Specifications","slug":"combobox--specifications","url":"/component/combobox--specifications"}]},{"id":34,"name":"Data Table","slug":"data-table","url":"/component/data-table","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"data-table--usage","url":"/component/data-table--usage"},{"name":"Develop","slug":"data-table--develop","url":"/develop/data-table--develop"},{"name":"Specifications","slug":"data-table--specifications","url":"/component/data-table--specifications"}]},{"id":35,"name":"Datepicker","slug":"datepicker","url":"/component/datepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datepicker--develop","url":"/develop/datepicker--develop"},{"name":"Specifications","slug":"datepicker--specifications","url":"/component/datepicker--specifications"},{"name":"Accessibility","slug":"datepicker--accessibility","url":"/component/datepicker--accessibility"}]},{"id":36,"name":"Datetime Picker","slug":"datetime-picker","url":"/component/datetime-picker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"datetime-picker--develop","url":"/develop/datetime-picker--develop"},{"name":"Accessibility","slug":"datetime-picker--accessibility","url":"/foundation/datetime-picker--accessibility"}]},{"id":37,"name":"Dual Listbox","slug":"dual-listbox","url":"/component/dual-listbox","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dual-listbox--usage","url":"/component/dual-listbox--usage"},{"name":"Develop","slug":"dual-listbox--develop","url":"/develop/dual-listbox--develop"},{"name":"Specifications","slug":"dual-listbox--specifications","url":"/component/dual-listbox--specifications"},{"name":"Accessibility","slug":"dual-listbox--accessibility","url":"/component/dual-listbox--accessibility"}]},{"id":38,"name":"Dynamic Icons","slug":"dynamic-icons","url":"/component/dynamic-icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"dynamic-icons--usage","url":"/component/dynamic-icons--usage"},{"name":"Develop","slug":"dynamic-icons--develop","url":"/develop/dynamic-icons--develop"},{"name":"Specifications","slug":"dynamic-icons--specifications","url":"/component/dynamic-icons--specifications"},{"name":"Accessibility","slug":"dynamic-icons--accessibility","url":"/component/dynamic-icons--accessibility"}]},{"id":39,"name":"Empty State","slug":"empty-state","url":"/component/empty-state","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"empty-state--accessibility","url":"/foundation/empty-state--accessibility"}]},{"id":40,"name":"File Selector","slug":"file-selector","url":"/component/file-selector","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"file-selector--usage","url":"/component/file-selector--usage"},{"name":"Specifications","slug":"file-selector--specifications","url":"/component/file-selector--specifications"},{"name":"Accessibility","slug":"file-selector--accessibility","url":"/component/file-selector--accessibility"}]},{"id":41,"name":"Form Element","slug":"form-element","url":"/component/form-element","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"form-element--usage","url":"/component/form-element--usage"},{"name":"Develop","slug":"form-element--develop","url":"/develop/form-element--develop"},{"name":"Specifications","slug":"form-element--specifications","url":"/component/form-element--specifications"},{"name":"Accessibility","slug":"form-element--accessibility","url":"/component/form-element--accessibility"}]},{"id":42,"name":"Icons","slug":"icons","url":"/component/icons","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"icons--usage","url":"/component/icons--usage"},{"name":"Develop","slug":"icons--develop","url":"/develop/icons--develop"},{"name":"Accessibility","slug":"icons--accessibility","url":"/component/icons--accessibility"}]},{"id":43,"name":"Input","slug":"input","url":"/component/input","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"input--usage","url":"/component/input--usage"},{"name":"Specifications","slug":"input--specifications","url":"/component/input--specifications"},{"name":"Accessibility","slug":"input--accessibility","url":"/component/input--accessibility"}]},{"id":44,"name":"Map","slug":"map","url":"/component/map","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"map--accessibility","url":"/foundation/map--accessibility"}]},{"id":45,"name":"Menu","slug":"menu","url":"/component/menu","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"menu--usage","url":"/component/menu--usage"},{"name":"Develop","slug":"menu--develop","url":"/develop/menu--develop"},{"name":"Specifications","slug":"menu--specifications","url":"/component/menu--specifications"},{"name":"Accessibility","slug":"menu--accessibility","url":"/component/menu--accessibility"}]},{"id":46,"name":"Modals","slug":"modals","url":"/component/modals","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"modals--usage","url":"/component/modals--usage"},{"name":"Develop","slug":"modals--develop","url":"/develop/modals--develop"},{"name":"Specifications","slug":"modals--specifications","url":"/component/modals--specifications"},{"name":"Accessibility","slug":"modals--accessibility","url":"/component/modals--accessibility"}]},{"id":47,"name":"Pills","slug":"pills","url":"/component/pills","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"pills--usage","url":"/component/pills--usage"},{"name":"Develop","slug":"pills--develop","url":"/develop/pills--develop"},{"name":"Specifications","slug":"pills--specifications","url":"/component/pills--specifications"},{"name":"Accessibility","slug":"pills--accessibility","url":"/component/pills--accessibility"}]},{"id":48,"name":"Popover","slug":"popover","url":"/component/popover","category":"component","hidden":false,"showTabsInSidebar":"$undefined"},{"id":49,"name":"Progress Bar","slug":"progress-bar","url":"/component/progress-bar","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-bar--usage","url":"/component/progress-bar--usage"},{"name":"Specifications","slug":"progress-bar--specifications","url":"/component/progress-bar--specifications"},{"name":"Accessibility","slug":"progress-bar--accessibility","url":"/component/progress-bar--accessibility"}]},{"id":50,"name":"Progress Indicator","slug":"progress-indicator","url":"/component/progress-indicator","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-indicator--usage","url":"/component/progress-indicator--usage"},{"name":"Develop","slug":"progress-indicator--develop","url":"/develop/progress-indicator--develop"},{"name":"Specifications","slug":"progress-indicator--specifications","url":"/component/progress-indicator--specifications"}]},{"id":51,"name":"Progress Ring","slug":"progress-ring","url":"/component/progress-ring","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"progress-ring--usage","url":"/component/progress-ring--usage"},{"name":"Develop","slug":"progress-ring--develop","url":"/develop/progress-ring--develop"},{"name":"Specifications","slug":"progress-ring--specifications","url":"/component/progress-ring--specifications"}]},{"id":52,"name":"Prompt","slug":"prompt","url":"/component/prompt","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"prompt--develop","url":"/develop/prompt--develop"}]},{"id":53,"name":"Radio Button Group","slug":"radio-button-group","url":"/component/radio-button-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-button-group--usage","url":"/component/radio-button-group--usage"},{"name":"Develop","slug":"radio-button-group--develop","url":"/develop/radio-button-group--develop"},{"name":"Specifications","slug":"radio-button-group--specifications","url":"/component/radio-button-group--specifications"},{"name":"Accessibility","slug":"radio-button-group--accessibility","url":"/component/radio-button-group--accessibility"}]},{"id":54,"name":"Radio Group","slug":"radio-group","url":"/component/radio-group","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"radio-group--usage","url":"/component/radio-group--usage"},{"name":"Develop","slug":"radio-group--develop","url":"/develop/radio-group--develop"},{"name":"Specifications","slug":"radio-group--specifications","url":"/component/radio-group--specifications"},{"name":"Accessibility","slug":"radio-group--accessibility","url":"/component/radio-group--accessibility"}]},{"id":55,"name":"Rich Text Editor","slug":"rich-text-editor","url":"/component/rich-text-editor","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"rich-text-editor--accessibility","url":"/foundation/rich-text-editor--accessibility"}]},{"id":56,"name":"Scoped Tabs","slug":"scoped-tabs","url":"/component/scoped-tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"scoped-tabs--usage","url":"/component/scoped-tabs--usage"},{"name":"Develop","slug":"scoped-tabs--develop","url":"/develop/scoped-tabs--develop"},{"name":"Specifications","slug":"scoped-tabs--specifications","url":"/component/scoped-tabs--specifications"},{"name":"Accessibility","slug":"scoped-tabs--accessibility","url":"/component/scoped-tabs--accessibility"}]},{"id":57,"name":"Select","slug":"select","url":"/component/select","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"select--usage","url":"/component/select--usage"},{"name":"Develop","slug":"select--develop","url":"/develop/select--develop"},{"name":"Specifications","slug":"select--specifications","url":"/component/select--specifications"}]},{"id":58,"name":"Slider","slug":"slider","url":"/component/slider","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Accessibility","slug":"slider--accessibility","url":"/foundation/slider--accessibility"}]},{"id":59,"name":"Spinners","slug":"spinners","url":"/component/spinners","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"spinners--usage","url":"/component/spinners--usage"},{"name":"Specifications","slug":"spinners--specifications","url":"/component/spinners--specifications"},{"name":"Accessibility","slug":"spinners--accessibility","url":"/component/spinners--accessibility"}]},{"id":60,"name":"Tabs","slug":"tabs","url":"/component/tabs","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tabs--usage","url":"/component/tabs--usage"},{"name":"Develop","slug":"tabs--develop","url":"/develop/tabs--develop"},{"name":"Specifications","slug":"tabs--specifications","url":"/component/tabs--specifications"},{"name":"Accessibility","slug":"tabs--accessibility","url":"/component/tabs--accessibility"}]},{"id":61,"name":"Textarea","slug":"textarea","url":"/component/textarea","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"textarea--usage","url":"/component/textarea--usage"},{"name":"Develop","slug":"textarea--develop","url":"/develop/textarea--develop"},{"name":"Specifications","slug":"textarea--specifications","url":"/component/textarea--specifications"},{"name":"Accessibility","slug":"textarea--accessibility","url":"/component/textarea--accessibility"}]},{"id":62,"name":"Tiles","slug":"tiles","url":"/component/tiles","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"tiles--develop","url":"/develop/tiles--develop"},{"name":"Accessibility","slug":"tiles--accessibility","url":"/foundation/tiles--accessibility"}]},{"id":63,"name":"Timepicker","slug":"timepicker","url":"/component/timepicker","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Develop","slug":"timepicker--develop","url":"/develop/timepicker--develop"},{"name":"Accessibility","slug":"timepicker--accessibility","url":"/foundation/timepicker--accessibility"}]},{"id":64,"name":"Toast","slug":"toast","url":"/component/toast","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"toast--usage","url":"/component/toast--usage"},{"name":"Develop","slug":"toast--develop","url":"/develop/toast--develop"},{"name":"Specifications","slug":"toast--specifications","url":"/component/toast--specifications"},{"name":"Accessibility","slug":"toast--accessibility","url":"/component/toast--accessibility"}]},{"id":65,"name":"Tooltip","slug":"tooltip","url":"/component/tooltip","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tooltip--usage","url":"/component/tooltip--usage"},{"name":"Specifications","slug":"tooltip--specifications","url":"/component/tooltip--specifications"},{"name":"Accessibility","slug":"tooltip--accessibility","url":"/component/tooltip--accessibility"}]},{"id":66,"name":"Tree","slug":"tree","url":"/component/tree","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree--usage","url":"/component/tree--usage"},{"name":"Specifications","slug":"tree--specifications","url":"/component/tree--specifications"},{"name":"Accessibility","slug":"tree--accessibility","url":"/component/tree--accessibility"}]},{"id":67,"name":"Tree Grid","slug":"tree-grid","url":"/component/tree-grid","category":"component","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Usage","slug":"tree-grid--usage","url":"/component/tree-grid--usage"},{"name":"Develop","slug":"tree-grid--develop","url":"/develop/tree-grid--develop"},{"name":"Accessibility","slug":"tree-grid--accessibility","url":"/component/tree-grid--accessibility"}]}]},{"id":6,"name":"Patterns","slug":"pattern","hidden":false,"children":[{"id":68,"name":"Agentic Patterns","slug":"agentic-patterns","url":"/pattern/agentic-patterns","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined"},{"id":69,"name":"In App Feedback","slug":"in-app-feedback","url":"/pattern/in-app-feedback","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"In App Feedback Patterns","slug":"in-app-feedback--in-app-feedback-patterns","url":"/pattern/in-app-feedback--in-app-feedback-patterns"}]},{"id":70,"name":"User Engagement","slug":"user-engagement","url":"/pattern/user-engagement","category":"pattern","hidden":false,"showTabsInSidebar":"$undefined","tabs":[{"name":"Overview","slug":"user-engagement--overview","url":"/pattern/user-engagement--overview"},{"name":"Feature Discovery","slug":"user-engagement--feature-discovery","url":"/pattern/user-engagement--feature-discovery"},{"name":"Deeper Learning","slug":"user-engagement--deeper-learning","url":"/pattern/user-engagement--deeper-learning"},{"name":"Troubleshooting","slug":"user-engagement--troubleshooting","url":"/pattern/user-engagement--troubleshooting"},{"name":"Onboarding","slug":"user-engagement--onboarding","url":"/pattern/user-engagement--onboarding"}]}]},{"id":7,"name":"Accessibility","slug":"foundation","hidden":false,"children":[{"id":71,"name":"Global Accessibility Standards","slug":"global-accessibility-standards","url":"/foundation/global-accessibility-standards","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"},{"id":72,"name":"Text and Color Contrast","slug":"text-and-color-contrast","url":"/foundation/text-and-color-contrast","category":"foundation","hidden":false,"showTabsInSidebar":"$undefined"}]},{"id":8,"name":"Tools","slug":"develop","hidden":false,"children":[{"id":73,"name":"Developer Tools","slug":"developer-tools","url":"/develop/developer-tools","category":"develop","hidden":false,"showTabsInSidebar":"$undefined"},{"id":74,"name":"Designer Tools","slug":"designer-tools","url":"/design/designer-tools","category":"design","hidden":false,"showTabsInSidebar":"$undefined"},{"id":75,"name":"SLDS Validator","slug":"slds-validator","url":"/tools/slds-validator","category":"tools","hidden":false,"showTabsInSidebar":"$undefined"},{"id":76,"name":"SLDS Linter","slug":"slds-linter","url":"/general/slds-linter","category":"general","hidden":false,"showTabsInSidebar":"$undefined"}]}]}],"$L8"]}]]}]}]]}]]}],{"children":[["category","general","d"],"$L9",{"children":[["slug","global-focus","oc"],"$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false]},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+e:I[2619,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],""]
+10:I[4431,[],"OutletBoundary"]
+12:I[5278,[],"AsyncMetadataOutlet"]
+14:I[4431,[],"ViewportBoundary"]
+16:I[4431,[],"MetadataBoundary"]
+17:"$Sreact.suspense"
+8:["$","div",null,{"className":"flex-1 flex flex-col overflow-auto","style":{"backgroundColor":"var(--background)"},"children":[["$","main",null,{"className":"flex-1 px-4 sm:px-6 md:px-12 py-0","style":{"backgroundColor":"var(--background)"},"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t pt-8 pb-12 text-[12px] mt-16 transition-colors","style":{"borderColor":"var(--border)","color":"var(--slds-gray-text)","backgroundColor":"var(--footer-bg)"},"children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 md:px-12","children":[["$","div",null,{"className":"flex flex-wrap gap-x-6 gap-y-2 mb-4","children":[["$","$Le",null,{"href":"/general/get-started","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Get Started"}],[["$","a","Terms of Service",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Terms of Service"}],["$","a","Privacy",{"href":"https://www.salesforce.com/company/privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Privacy"}],["$","a","Responsible Disclosure",{"href":"https://www.salesforce.com/company/security/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Responsible Disclosure"}],["$","a","Trust",{"href":"https://trust.salesforce.com/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Trust"}],["$","a","Your Privacy Choices",{"href":"https://www.salesforce.com/company/privacy/full_privacy/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Your Privacy Choices"}],["$","a","Salesforce Legal",{"href":"https://www.salesforce.com/company/legal/","target":"_blank","rel":"noopener noreferrer","className":"transition-colors","style":{"color":"var(--slds-gray-text)"},"children":"Salesforce Legal"}]]]}],["$","p",null,{"className":"text-[11px]","style":{"color":"var(--slds-gray-text)","opacity":0.7},"children":"© Copyright 2015-present Salesforce, Inc. All rights reserved. Various trademarks held by their respective owners. Salesforce, Inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States"}]]}]}]]}]
+9:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+a:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":["$L11",["$","$L12",null,{"promise":"$@13"}]]}]]}]
+c:["$","$1","h",{"children":[null,[["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L16",null,{"children":["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":"$L18"}]}]}]]}]
+19:T52a1,<p>Keyboard navigation of single page apps and large web interfaces can get complicated in a hurry. Use focus management appropriately to guide keyboard users through dynamic UIs.</p>
+<p>Many users navigate web interfaces with only their keyboard, tabbing between focusable elements and using arrow keys to navigate interactive widgets such as menus. In dynamic user interfaces, the set of focusable elements on the screen changes as the user interacts with it.</p>
+<p>When a user's action causes a UI change, such as an element appearing or disappearing from the screen, we can use focus management techniques to prevent the user from getting lost. When focus management is done right, it helps keyboard and screen reader users discover UI changes and easily reach the next logical step in their flow.</p>
+<h2>Key Principles</h2>
+<h3>Maintain Logical Focus Order</h3>
+<p>The focus order should follow the visual and logical order of the content. Users should be able to tab through interactive elements, such as links, buttons, and form fields, in a predictable and intuitive sequence.</p>
+<h4>Best Practices:</h4>
+<ul>
+<li>Use semantic HTML elements like <code>&#x3C;button></code>, <code>&#x3C;a></code>, and <code>&#x3C;input></code>, which have built-in focus behavior.</li>
+<li>Avoid skipping focusable elements or creating confusing jumps in the focus sequence.</li>
+<li>Use the <code>tabindex</code> attribute sparingly to adjust focus order, ensuring it aligns with user expectations.</li>
+</ul>
+<h3>Provide Visual Focus Indicators</h3>
+<p>The Lightning Design System uses a global styling hook for all focus states, creating a visual cue for sighted keyboard users, users working in low visibility situations, and those with cognitive disabilities. Ensure any custom components utilize this global style for seamless integration.</p>
+<h4>Best Practices:</h4>
+<ul>
+<li>Use the focus styling hook to define focus styles.</li>
+<li>Avoid removing the focus outline unless you replace it with an equally visible alternative.</li>
+</ul>
+<h3>Manage Focus Programmatically</h3>
+<p>Dynamic interfaces, such as modals, panels, popovers, and single-page experiences, often need programmatic control of focus. Managing focus helps users understand what changed on the screen and ensures that keyboard and assistive technology users aren’t left behind.</p>
+<h4>When to Use Programmatic Focus</h4>
+<p><strong>Opening Modals</strong></p>
+<p>Move focus to the most meaningful element based on the modal’s purpose and structure. Refer to <a href="https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/92a50f-global-focus/t/836dcb0951">Determining the Initial Focus When a Modal Opens</a> for specific guidance on multi-step modals, titled modals, and fallback behaviors.</p>
+<h4>Closing Modals</h4>
+<p>When the dialog closes, return focus to the element that triggered it. This helps users stay oriented in the flow they were working in.</p>
+<h4>Error Handling</h4>
+<p>If a form submission fails, move focus to the error message or the first invalid field. This immediately directs users to what needs attention.</p>
+<h3>Dynamic Interface Updates</h3>
+<p>For components that replace content on a page, such as guided flows, filtered results, or inline edit regions, move focus to the updated heading or the first meaningful control so that users understand what has changed.</p>
+<h4>Examples</h4>
+<p><strong>Focusing on an Element in a Modal</strong></p>
+<pre><code>// Identify the appropriate target using your modal's initial-focus rules
+const target = this.template.querySelector(
+  '#modal-title, #step-subtitle, .first-interactive'
+);
+
+target?.focus();
+</code></pre>
+<p><strong>Returning Focus to the Trigger</strong></p>
+<pre><code>// After the modal closes
+triggerButton.focus();
+</code></pre>
+<p><strong>Focusing on an Error Message or Invalid Field</strong></p>
+<pre><code>const error = this.template.querySelector('.slds-form-element__help');
+error?.focus();
+</code></pre>
+<h3>Prevent Focus Traps</h3>
+<p>Focus traps occur when users cannot navigate out of a particular section of the interface, such as a modal or dropdown menu.</p>
+<h4>Best Practices:</h4>
+<ul>
+<li>Ensure that users can tab forward and backward through all focusable elements.</li>
+<li>Provide an escape mechanism, such as the <code>Escape</code> key, to exit the trapped area.
+<strong>Example:</strong> In a modal dialog, loop the focus back to the first element when users tab past the last focusable element.</li>
+</ul>
+<h3>Skip Navigation Links</h3>
+<p>Provide a "Skip to Main Content" link at the top of the page to allow keyboard users to bypass repetitive navigation elements.</p>
+<p><strong>Example:</strong></p>
+<p><code>&#x3C;a href="#main-content" class="skip-link">Skip to Main Content&#x3C;/a></code></p>
+<h3>Handle Focus Loss Gracefully</h3>
+<p>Focus should never disappear or become "lost" when users interact with the application. This often happens in dynamic interfaces when elements are removed or replaced.</p>
+<h4>Best Practices:</h4>
+<ul>
+<li>When removing an element that currently has focus, move focus to a relevant nearby element.</li>
+<li>Ensure focus transitions are seamless and logical.</li>
+</ul>
+<h3>Errors</h3>
+<ul>
+<li>
+<p>When the user attempts to save and is presented with an error:
+If there are form element errors, place focus on the first input field with an associated error message. This makes it easy for the user to quickly correct the value.</p>
+</li>
+<li>
+<p>If an error popover appears, such as in the Docked Form Footer component, place focus inside the popover.</p>
+</li>
+<li>
+<p>If a page-level error appears, place focus on the error message.</p>
+</li>
+<li>
+<p>For error toasts, refer to the focus guidelines for Toasts.
+When the user attempts to save and is presented with an error:</p>
+</li>
+<li>
+<p>If there are form element errors, place focus on the first input field with an associated error message. This makes it easy for the user to quickly correct the value.</p>
+</li>
+<li>
+<p>If an error popover appears, such as in the Docked Form Footer component, place focus inside the popover.</p>
+</li>
+<li>
+<p>If a page-level error appears, place focus on the error message.
+For error toasts, refer to the focus guidelines for Toasts.</p>
+</li>
+</ul>
+<h2>Lists and Tables</h2>
+<p><strong>Component and Utility Class Examples</strong></p>
+<h3>Removing an item</h3>
+<p>When a row is removed from a list, via a button or menu on that list item, where to place focus depends on where the item sits within the list:</p>
+<ul>
+<li><strong>First row or any middle row:</strong> Place focus on the first focusable element in the next row.</li>
+<li><strong>Last row in the list:</strong> Place focus on last focusable element of previous row.</li>
+<li><strong>Only row in the list:</strong> Place focus on the list container or any content identifying the list as being empty.</li>
+</ul>
+<h3>Displaying more items in a list</h3>
+<p>There are several ways to show more items in a list. The important aspect is to ensure that focus is never lost and that when new items are added, focus continues to move "downhill."</p>
+<h4>"Show More" / "Show Less" toggle button</h4>
+<p>Vertical Navigation is a good example of this strategy, as it uses markup for Expandable Sections inline with a list.</p>
+<ul>
+<li>User tabs through the items in the list.</li>
+<li>If there is a "Show More" button, user tabs to this button after the last item in the list.</li>
+<li>Pressing the "Show More" button reveals more items below the toggle, but focus remains on this button.</li>
+<li>Pressing <strong>Tab</strong> on the "Show More" button moves focus to the first item after the button.</li>
+</ul>
+<h4>Disappearing "Show More" button</h4>
+<p>Instead of a "Show More" / "Show Less" toggle, sometimes there may only be a single “Show More” button that goes away when pressed. If this is the case, place focus on the first new item that is added to the list.</p>
+<h4>Lazy loading or infinite scrolling lists</h4>
+<ul>
+<li>If a list loads as a user scrolls down the page, it also needs to load as a user tabs through the items in the list. There should be no hiccups when tabbing through a lazy loading list. It is best to load new items as the user’s focus approaches the end of the list. Don’t wait until they reach the last item, or tab beyond the last item.</li>
+<li>There must be some keyboard mechanism for moving beyond an infinitely loading list. This will prevent a keyboard-only user from getting stuck in a list that "never ends" when they want to move beyond the list. Options include but are not limited to:
+A skip link before the list to take a user to the first focusable element after the list</li>
+<li>A keyboard shortcut to move the user to the first focusable element after the list
+If a list loads as a user scrolls down the page, it also needs to load as a user tabs through the items in the list. There should be no hiccups when tabbing through a lazy loading list. It is best to load new items as the user’s focus approaches the end of the list. Don’t wait until they reach the last item, or tab beyond the last item.</li>
+</ul>
+<p>There must be some keyboard mechanism for moving beyond an infinitely loading list. This will prevent a keyboard-only user from getting stuck in a list that "never ends" when they want to move beyond the list. Options include but are not limited to:</p>
+<ul>
+<li>A skip link before the list to take a user to the first focusable element after the list</li>
+<li>A keyboard shortcut to move the user to the first focusable element after the list</li>
+</ul>
+<h2>Dialogs</h2>
+<p>Dialogs appear in two primary forms—<strong>modal</strong> and <strong>non-modal</strong>—depending on how they interact with the rest of the application.</p>
+<h3>Modal Dialogs</h3>
+<p>A modal dialog appears above the main application, disabling interaction with the content behind it. Users must close the modal before returning to the underlying page.</p>
+<p><strong>Examples:</strong> Modals, Welcome Mat</p>
+<h3>Non-Modal Dialogs</h3>
+<p>A non-modal dialog sits above the main application but doesn’t block it. Users can move focus back and forth between the dialog and the main interface.</p>
+<p><strong>Examples:</strong> Docked Composers, Notification Cards, Panels, Popovers, Trial Bar</p>
+<h3>Opening Dialogs</h3>
+<p>Users open dialogs by activating a trigger, typically a button, by clicking or pressing the Enter or Space key. When the dialog opens, move focus into the dialog and trap it there so keyboard users stay within the dialog. Tabbing past the last focusable element should loop focus back to the first.</p>
+<h4>Example: Dialog Trigger (LWC)</h4>
+<pre><code>&#x3C;template>
+  &#x3C;lightning-button
+      label="Open Modal"
+      onclick={handleOpen}
+      aria-controls="demo-modal">
+  &#x3C;/lightning-button>
+
+  &#x3C;template if:true={isOpen}>
+    &#x3C;section
+      role="dialog"
+      aria-modal="true"
+      id="demo-modal"
+      class="slds-modal slds-fade-in-open">
+
+      &#x3C;div class="slds-modal__container">
+        &#x3C;!-- modal content here -->
+      &#x3C;/div>
+
+    &#x3C;/section>
+    &#x3C;div class="slds-backdrop slds-backdrop_open">&#x3C;/div>
+  &#x3C;/template>
+&#x3C;/template>
+</code></pre>
+<h3>Determining the Initial Focus When a Modal Opens</h3>
+<p>To set initial focus where users expect it, use this decision flow. The goal is to give keyboard and assistive technology users a <strong>clear orientation</strong> the moment the modal becomes active. Follow these tiers to determine the most meaningful starting point.</p>
+<h4>Tier 1: Multi-Step Modals</h4>
+<p>To help users understand that a step has changed when a modal contains multiple steps and its subtitle updates, place focus on the step subtitle by making it temporarily focusable with tabindex="-1".</p>
+<p><strong>Example: Step Subtitle (LWC)</strong></p>
+<pre><code>&#x3C;h2 class="slds-text-heading_medium"
+    tabindex="-1"
+    aria-live="polite"
+    id="step-subtitle">
+  Step 2: Confirm Details
+&#x3C;/h2>
+</code></pre>
+<pre><code>// After rendering a new step
+const subtitle = this.template.querySelector('#step-subtitle');
+subtitle?.focus();
+</code></pre>
+<h4>Tier 2: Standard Modal With a Title</h4>
+<p>If the modal isn’t a wizard and contains a visible title, focus the modal title. This focus provides immediate context without skipping ahead to interactive controls.</p>
+<p><strong>Example: Modal Title (LWC)</strong></p>
+<pre><code>&#x3C;h1
+  class="slds-modal__title slds-hyphenate"
+  id="modal-title"
+  tabindex="-1">
+  Edit Contact
+&#x3C;/h1>
+</code></pre>
+<pre><code>connectedCallback() {
+  requestAnimationFrame(() => {
+    const title = this.template.querySelector('#modal-title');
+    title?.focus();
+  });
+}
+</code></pre>
+<h4>Tier 3: No Title?... Focus the First Useful Interactive Element</h4>
+<p>Look for the first interactive control in the modal body (not the footer), and follow these steps. This shift of focus ensures that users always have a clear, actionable starting point.</p>
+<ul>
+<li>If the first interactive element is tooltip-only (hover-triggered): <strong>→</strong> Focus the close button (<strong>X</strong>).</li>
+<li>Otherwise: <strong>→</strong> Focus the first interactive element.</li>
+<li>If the modal contains no interactive elements: <strong>→</strong> Focus the close button.
+<strong>Example: First Interactive Element (Blueprint HTML)</strong></li>
+</ul>
+<pre><code>&#x3C;div class="slds-modal__content">
+  &#x3C;lightning-input
+    label="Name"
+    id="first-field">
+  &#x3C;/lightning-input>
+&#x3C;/div>
+</code></pre>
+<pre><code>&#x3C;script>
+  const field = document.getElementById('first-field');
+  field?.focus();
+&#x3C;/script>
+</code></pre>
+<p><strong>Example: Fallback to Close Button (LWC)</strong></p>
+<pre><code>&#x3C;button
+  class="slds-button slds-button_icon slds-modal__close"
+  title="Close"
+  id="modal-close">
+  &#x3C;lightning-icon icon-name="utility:close">&#x3C;/lightning-icon>
+&#x3C;/button>
+</code></pre>
+<pre><code>const closeButton = this.template.querySelector('#modal-close');
+closeButton?.focus();
+</code></pre>
+<p><strong>Tier 4: None of the Above</strong></p>
+<p>If none of the previous conditions apply, focus on the close button. This shift of focus ensures the user can immediately exit if the modal does not offer a meaningful interactive entry point.</p>
+<h3>Closing dialogs</h3>
+<ul>
+<li>The <strong>Escape</strong> key should close the dialog. Actions such as "OK" or "Cancel" may also be applicable.</li>
+<li>When closing the dialog via one of the above mechanisms, focus must return to the item that triggered the dialog.
+If the dialog was triggered from within a menu, place focus on the menu’s trigger.</li>
+<li>If the trigger no longer exists in the DOM, place the focus in a logical location, depending on the new page landscape. An example of this would be deleting a record from a table view. If you choose the "Delete" action from the record's actions menu, you’ll get a modal prompt to confirm deletion. After the deletion, the row and thus the action menu will be gone. In this case, consult our Lists and Tables focus guidelines to learn where to place focus after removing an item.</li>
+<li>If closing a dialog results in a Toast or other confirmation, place focus inside of the toast. When the toast closes, place focus on the element that initially triggered the dialog.
+The <strong>Escape</strong> key should close the dialog. Actions such as "OK" or "Cancel" may also be applicable.</li>
+</ul>
+<p>When closing the dialog via one of the above mechanisms, focus must return to the item that triggered the dialog.</p>
+<ul>
+<li>If the dialog was triggered from within a menu, place focus on the menu’s trigger.</li>
+<li>If the trigger no longer exists in the DOM, place the focus in a logical location, depending on the new page landscape. An example of this would be deleting a record from a table view. If you choose the "Delete" action from the record's actions menu, you’ll get a modal prompt to confirm deletion. After the deletion, the row and thus the action menu will be gone. In this case, consult our Lists and Tables focus guidelines to learn where to place focus after removing an item.
+If closing a dialog results in a Toast or other confirmation, place focus inside of the toast. When the toast closes, place focus on the element that initially triggered the dialog.</li>
+</ul>
+<h3>Moving in and out of non-modal dialogs</h3>
+<p>Pressing <strong>Cmd/Ctrl + F6</strong> should move focus between the dialog, other open dialogs, and the application.</p>
+<h2>Notification cards</h2>
+<p>Notification cards appear as a series of non-modal dialogs, preceded by a visually hidden DOM element with a defined <code>aria-live</code> attribute. Updates to the content of the aria-live element will read out to screen reader users.</p>
+<ul>
+<li>When a notification card appears, the focus remains where it is. The text inside the aria-live element should be updated to announce the card's arrival to screen readers.</li>
+<li>Pressing <strong>Cmd/Ctrl + F6</strong> will move through the various non-modal dialogs that are open on the screen, ultimately leading to the notification card.</li>
+<li>If there are multiple cards, <strong>Cmd/Ctrl + F6</strong> should move focus through the cards.</li>
+<li>From the last card, <strong>Cmd/Ctrl + F6</strong> should move focus out of the notification cards and back to the app.</li>
+</ul>
+<h2>Rich Text Editors</h2>
+<p>Newly loaded rich text editors should not grab focus.</p>
+<h4>Component Examples</h4>
+<h2>Toasts</h2>
+<p>Toasts work like dialogs, but with the attribute <code>role="alert"</code>. This attribute ensures that their contents are read by screen readers.</p>
+<h3>Launching a toast</h3>
+<p>Toasts may only be launched based on a user action, such as saving, creating, deleting or converting a record. This is because toast components act as dialogs. As dialogs, focus must go into them in order for their contents to be read by screen readers. It would be confusing and inappropriate to move focus into dialog without the user triggering this action themselves.</p>
+<h3>Exiting a toast</h3>
+<p>When exiting, focus should go to the item that triggered the toast, such as the button that launched a create dialog.</p>
+<h3>Multiple toasts</h3>
+<p>If there are multiple toasts, <strong>Cmd/Ctrl + F6</strong> should move focus from toast to toast and then back to the application.</p>
+<h2>Global Orchestration</h2>
+<p>For interfaces with a number of alerts, panels, composers, and major sections of the page, focus orchestration at an app-wide level allows the user to easily navigate the application. The industry standard is to use the <strong>F6</strong> key for global focus management. For web UIs, combine the <strong>F6</strong> key with the <strong>Cmd</strong> key on Mac or the <strong>Ctrl</strong> key on other operating systems so as not to conflict with browsers' app-wide keyboard shortcuts. Pressing <strong>Cmd/Ctrl + F6</strong> should cycle a user through the following regions in a reliable and consistent sequence:</p>
+<ul>
+<li>Open non-modal dialogs</li>
+<li>Open utility panels</li>
+<li>Open docked composers</li>
+<li>Task notifications</li>
+<li>Toast messages</li>
+<li>Main content</li>
+<li>Split view
+When the user presses <strong>Cmd/Ctrl + F6</strong> to navigate to the next region, focus should go to the first focusable element in that region if nothing was previously focused there, or to the element in that region that last held focus. Pressing <strong>Shift + Cmd/Ctrl + F6</strong> should follow these same rules, but move focus into the previous region instead of the next one.</li>
+</ul>
+<h2>Page Loads and Refreshes</h2>
+<p>Depending on how a page is loaded, the placement of focus varies. The guidelines below are based on Salesforce's Lightning UI and may not universally apply to other apps.</p>
+<ul>
+<li><strong>Refresh or direct navigation to URL:</strong> Focus goes to the very beginning of the page, before the skip navigation links.</li>
+<li><strong>Global Navigation:</strong> When opening an object or record from the global navigation, focus should go to center stage.</li>
+<li><strong>Global Navigation (Console):</strong> When choosing a record or object in Console apps, focus should go to the workspace tab for the new item added. When opening a new subtab from a workspace tab, focus should go to the subtab’s tab.</li>
+<li><strong>Vertical Navigation:</strong> When choosing an item from a vertical navigation, such as that in Reports, Dashboards, Files, or Chatter, focus should go to center stage for this object.</li>
+<li><strong>App Launcher:</strong> When switching applications, focus should go to the very beginning of the page, before the skip navigation links.</li>
+<li><strong>Global Search:</strong> When performing a global search, focus should go to the results.</li>
+<li><strong>Skip Links:</strong> When clicking on a skip link, focus should be placed where the skip link says it will go, e.g. main navigation, main content area, etc.</li>
+</ul>f:["$","div",null,{"className":"max-w-4xl","children":[["$","nav",null,{"className":"mb-6","children":["$","ol",null,{"className":"flex items-center gap-2 text-sm","children":[["$","li","/general-0",{"className":"flex items-center gap-2","children":[false,["$","$Le",null,{"href":"/general","style":{"color":"var(--slds-blue)"},"children":"AI and SLDS 2"}]]}],["$","li","/general/global-focus-1",{"className":"flex items-center gap-2","children":[["$","svg",null,{"className":"h-4 w-4","style":{"color":"var(--slds-gray-text)"},"fill":"currentColor","viewBox":"0 0 20 20","children":["$","path",null,{"fillRule":"evenodd","d":"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z","clipRule":"evenodd"}]}],["$","span",null,{"style":{"color":"var(--slds-gray-text)"},"children":"Global Focus · Lightning Design System 2"}]]}]]}]}],["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-4xl font-bold mb-2","style":{"color":"var(--slds-navy)"},"children":"Global Focus · Lightning Design System 2"}],"$undefined"]}],null,["$","article",null,{"className":"content-blocks mb-12","dangerouslySetInnerHTML":{"__html":"$19"}}],"$L1a","$L1b"]}]
+1c:I[9825,["176","static/chunks/176-c4a8215ca4d82670.js","679","static/chunks/app/(frontend)/%5Bcategory%5D/%5B%5B...slug%5D%5D/page-60ac1905b8d1f8e2.js"],"ViewMarkdownButton"]
+1d:T4b3c,---
+title: "Global Focus · Lightning Design System 2"
+slug: "global-focus"
+category: "general"
+url: "https://www.lightningdesignsystem.com/2e1ef8501/p/92a50f-global-focus"
+extractedAt: "2026-02-21T22:00:11.129Z"
+---
+
+Keyboard navigation of single page apps and large web interfaces can get complicated in a hurry. Use focus management appropriately to guide keyboard users through dynamic UIs.
+
+Many users navigate web interfaces with only their keyboard, tabbing between focusable elements and using arrow keys to navigate interactive widgets such as menus. In dynamic user interfaces, the set of focusable elements on the screen changes as the user interacts with it.
+
+When a user's action causes a UI change, such as an element appearing or disappearing from the screen, we can use focus management techniques to prevent the user from getting lost. When focus management is done right, it helps keyboard and screen reader users discover UI changes and easily reach the next logical step in their flow.
+
+## Key Principles
+
+### Maintain Logical Focus Order
+
+The focus order should follow the visual and logical order of the content. Users should be able to tab through interactive elements, such as links, buttons, and form fields, in a predictable and intuitive sequence.
+
+#### Best Practices:
+
+- Use semantic HTML elements like `<button>`, `<a>`, and `<input>`, which have built-in focus behavior.
+- Avoid skipping focusable elements or creating confusing jumps in the focus sequence.
+- Use the `tabindex` attribute sparingly to adjust focus order, ensuring it aligns with user expectations.
+
+### Provide Visual Focus Indicators
+
+The Lightning Design System uses a global styling hook for all focus states, creating a visual cue for sighted keyboard users, users working in low visibility situations, and those with cognitive disabilities. Ensure any custom components utilize this global style for seamless integration.
+
+#### Best Practices:
+
+- Use the focus styling hook to define focus styles.
+- Avoid removing the focus outline unless you replace it with an equally visible alternative.
+
+### Manage Focus Programmatically
+
+Dynamic interfaces, such as modals, panels, popovers, and single-page experiences, often need programmatic control of focus. Managing focus helps users understand what changed on the screen and ensures that keyboard and assistive technology users aren’t left behind.
+
+#### When to Use Programmatic Focus
+
+**Opening Modals**
+
+Move focus to the most meaningful element based on the modal’s purpose and structure. Refer to [Determining the Initial Focus When a Modal Opens](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/92a50f-global-focus/t/836dcb0951) for specific guidance on multi-step modals, titled modals, and fallback behaviors.
+
+#### Closing Modals
+
+When the dialog closes, return focus to the element that triggered it. This helps users stay oriented in the flow they were working in.
+
+#### Error Handling
+
+If a form submission fails, move focus to the error message or the first invalid field. This immediately directs users to what needs attention.
+
+### Dynamic Interface Updates
+
+For components that replace content on a page, such as guided flows, filtered results, or inline edit regions, move focus to the updated heading or the first meaningful control so that users understand what has changed.
+
+#### Examples
+
+**Focusing on an Element in a Modal**
+
+```
+// Identify the appropriate target using your modal's initial-focus rules
+const target = this.template.querySelector(
+  '#modal-title, #step-subtitle, .first-interactive'
+);
+
+target?.focus();
+```
+
+**Returning Focus to the Trigger**
+
+```
+// After the modal closes
+triggerButton.focus();
+```
+
+**Focusing on an Error Message or Invalid Field**
+
+```
+const error = this.template.querySelector('.slds-form-element__help');
+error?.focus();
+```
+
+### Prevent Focus Traps
+
+Focus traps occur when users cannot navigate out of a particular section of the interface, such as a modal or dropdown menu.
+
+#### Best Practices:
+
+- Ensure that users can tab forward and backward through all focusable elements.
+- Provide an escape mechanism, such as the `Escape` key, to exit the trapped area.
+**Example:** In a modal dialog, loop the focus back to the first element when users tab past the last focusable element.
+
+### Skip Navigation Links
+
+Provide a "Skip to Main Content" link at the top of the page to allow keyboard users to bypass repetitive navigation elements.
+
+**Example:**
+
+`<a href="#main-content" class="skip-link">Skip to Main Content</a>`
+
+### Handle Focus Loss Gracefully
+
+Focus should never disappear or become "lost" when users interact with the application. This often happens in dynamic interfaces when elements are removed or replaced.
+
+#### Best Practices:
+
+- When removing an element that currently has focus, move focus to a relevant nearby element.
+- Ensure focus transitions are seamless and logical.
+
+### Errors
+
+- When the user attempts to save and is presented with an error:
+If there are form element errors, place focus on the first input field with an associated error message. This makes it easy for the user to quickly correct the value.
+- If an error popover appears, such as in the Docked Form Footer component, place focus inside the popover.
+- If a page-level error appears, place focus on the error message.
+- For error toasts, refer to the focus guidelines for Toasts.
+When the user attempts to save and is presented with an error:
+
+- If there are form element errors, place focus on the first input field with an associated error message. This makes it easy for the user to quickly correct the value.
+- If an error popover appears, such as in the Docked Form Footer component, place focus inside the popover.
+- If a page-level error appears, place focus on the error message.
+For error toasts, refer to the focus guidelines for Toasts.
+
+## Lists and Tables
+
+**Component and Utility Class Examples**
+
+### Removing an item
+
+When a row is removed from a list, via a button or menu on that list item, where to place focus depends on where the item sits within the list:
+
+- **First row or any middle row:** Place focus on the first focusable element in the next row.
+- **Last row in the list:** Place focus on last focusable element of previous row.
+- **Only row in the list:** Place focus on the list container or any content identifying the list as being empty.
+
+### Displaying more items in a list
+
+There are several ways to show more items in a list. The important aspect is to ensure that focus is never lost and that when new items are added, focus continues to move "downhill."
+
+#### "Show More" / "Show Less" toggle button
+
+Vertical Navigation is a good example of this strategy, as it uses markup for Expandable Sections inline with a list.
+
+- User tabs through the items in the list.
+- If there is a "Show More" button, user tabs to this button after the last item in the list.
+- Pressing the "Show More" button reveals more items below the toggle, but focus remains on this button.
+- Pressing **Tab** on the "Show More" button moves focus to the first item after the button.
+
+#### Disappearing "Show More" button
+
+Instead of a "Show More" / "Show Less" toggle, sometimes there may only be a single “Show More” button that goes away when pressed. If this is the case, place focus on the first new item that is added to the list.
+
+#### Lazy loading or infinite scrolling lists
+
+- If a list loads as a user scrolls down the page, it also needs to load as a user tabs through the items in the list. There should be no hiccups when tabbing through a lazy loading list. It is best to load new items as the user’s focus approaches the end of the list. Don’t wait until they reach the last item, or tab beyond the last item.
+- There must be some keyboard mechanism for moving beyond an infinitely loading list. This will prevent a keyboard-only user from getting stuck in a list that "never ends" when they want to move beyond the list. Options include but are not limited to:
+A skip link before the list to take a user to the first focusable element after the list
+- A keyboard shortcut to move the user to the first focusable element after the list
+If a list loads as a user scrolls down the page, it also needs to load as a user tabs through the items in the list. There should be no hiccups when tabbing through a lazy loading list. It is best to load new items as the user’s focus approaches the end of the list. Don’t wait until they reach the last item, or tab beyond the last item.
+
+There must be some keyboard mechanism for moving beyond an infinitely loading list. This will prevent a keyboard-only user from getting stuck in a list that "never ends" when they want to move beyond the list. Options include but are not limited to:
+
+- A skip link before the list to take a user to the first focusable element after the list
+- A keyboard shortcut to move the user to the first focusable element after the list
+
+## Dialogs
+
+Dialogs appear in two primary forms—**modal** and **non-modal**—depending on how they interact with the rest of the application.
+
+### Modal Dialogs
+
+A modal dialog appears above the main application, disabling interaction with the content behind it. Users must close the modal before returning to the underlying page.
+
+**Examples:** Modals, Welcome Mat
+
+### Non-Modal Dialogs
+
+A non-modal dialog sits above the main application but doesn’t block it. Users can move focus back and forth between the dialog and the main interface.
+
+**Examples:** Docked Composers, Notification Cards, Panels, Popovers, Trial Bar
+
+### Opening Dialogs
+
+Users open dialogs by activating a trigger, typically a button, by clicking or pressing the Enter or Space key. When the dialog opens, move focus into the dialog and trap it there so keyboard users stay within the dialog. Tabbing past the last focusable element should loop focus back to the first.
+
+#### Example: Dialog Trigger (LWC)
+
+```
+<template>
+  <lightning-button
+      label="Open Modal"
+      onclick={handleOpen}
+      aria-controls="demo-modal">
+  </lightning-button>
+
+  <template if:true={isOpen}>
+    <section
+      role="dialog"
+      aria-modal="true"
+      id="demo-modal"
+      class="slds-modal slds-fade-in-open">
+
+      <div class="slds-modal__container">
+        <!-- modal content here -->
+      </div>
+
+    </section>
+    <div class="slds-backdrop slds-backdrop_open"></div>
+  </template>
+</template>
+```
+
+### Determining the Initial Focus When a Modal Opens
+
+To set initial focus where users expect it, use this decision flow. The goal is to give keyboard and assistive technology users a **clear orientation** the moment the modal becomes active. Follow these tiers to determine the most meaningful starting point.
+
+#### Tier 1: Multi-Step Modals
+
+To help users understand that a step has changed when a modal contains multiple steps and its subtitle updates, place focus on the step subtitle by making it temporarily focusable with tabindex="-1".
+
+**Example: Step Subtitle (LWC)**
+
+```
+<h2 class="slds-text-heading_medium"
+    tabindex="-1"
+    aria-live="polite"
+    id="step-subtitle">
+  Step 2: Confirm Details
+</h2>
+```
+
+```
+// After rendering a new step
+const subtitle = this.template.querySelector('#step-subtitle');
+subtitle?.focus();
+```
+
+#### Tier 2: Standard Modal With a Title
+
+If the modal isn’t a wizard and contains a visible title, focus the modal title. This focus provides immediate context without skipping ahead to interactive controls.
+
+**Example: Modal Title (LWC)**
+
+```
+<h1
+  class="slds-modal__title slds-hyphenate"
+  id="modal-title"
+  tabindex="-1">
+  Edit Contact
+</h1>
+```
+
+```
+connectedCallback() {
+  requestAnimationFrame(() => {
+    const title = this.template.querySelector('#modal-title');
+    title?.focus();
+  });
+}
+```
+
+#### Tier 3: No Title?... Focus the First Useful Interactive Element
+
+Look for the first interactive control in the modal body (not the footer), and follow these steps. This shift of focus ensures that users always have a clear, actionable starting point.
+
+- If the first interactive element is tooltip-only (hover-triggered): **→** Focus the close button (**X**).
+- Otherwise: **→** Focus the first interactive element.
+- If the modal contains no interactive elements: **→** Focus the close button.
+**Example: First Interactive Element (Blueprint HTML)**
+
+```
+<div class="slds-modal__content">
+  <lightning-input
+    label="Name"
+    id="first-field">
+  </lightning-input>
+</div>
+```
+
+```
+<script>
+  const field = document.getElementById('first-field');
+  field?.focus();
+</script>
+```
+
+**Example: Fallback to Close Button (LWC)**
+
+```
+<button
+  class="slds-button slds-button_icon slds-modal__close"
+  title="Close"
+  id="modal-close">
+  <lightning-icon icon-name="utility:close"></lightning-icon>
+</button>
+```
+
+```
+const closeButton = this.template.querySelector('#modal-close');
+closeButton?.focus();
+```
+
+**Tier 4: None of the Above**
+
+If none of the previous conditions apply, focus on the close button. This shift of focus ensures the user can immediately exit if the modal does not offer a meaningful interactive entry point.
+
+### Closing dialogs
+
+- The **Escape** key should close the dialog. Actions such as "OK" or "Cancel" may also be applicable.
+- When closing the dialog via one of the above mechanisms, focus must return to the item that triggered the dialog.
+If the dialog was triggered from within a menu, place focus on the menu’s trigger.
+- If the trigger no longer exists in the DOM, place the focus in a logical location, depending on the new page landscape. An example of this would be deleting a record from a table view. If you choose the "Delete" action from the record's actions menu, you’ll get a modal prompt to confirm deletion. After the deletion, the row and thus the action menu will be gone. In this case, consult our Lists and Tables focus guidelines to learn where to place focus after removing an item.
+- If closing a dialog results in a Toast or other confirmation, place focus inside of the toast. When the toast closes, place focus on the element that initially triggered the dialog.
+The **Escape** key should close the dialog. Actions such as "OK" or "Cancel" may also be applicable.
+
+When closing the dialog via one of the above mechanisms, focus must return to the item that triggered the dialog.
+
+- If the dialog was triggered from within a menu, place focus on the menu’s trigger.
+- If the trigger no longer exists in the DOM, place the focus in a logical location, depending on the new page landscape. An example of this would be deleting a record from a table view. If you choose the "Delete" action from the record's actions menu, you’ll get a modal prompt to confirm deletion. After the deletion, the row and thus the action menu will be gone. In this case, consult our Lists and Tables focus guidelines to learn where to place focus after removing an item.
+If closing a dialog results in a Toast or other confirmation, place focus inside of the toast. When the toast closes, place focus on the element that initially triggered the dialog.
+
+### Moving in and out of non-modal dialogs
+
+Pressing **Cmd/Ctrl + F6** should move focus between the dialog, other open dialogs, and the application.
+
+## Notification cards
+
+Notification cards appear as a series of non-modal dialogs, preceded by a visually hidden DOM element with a defined `aria-live` attribute. Updates to the content of the aria-live element will read out to screen reader users.
+
+- When a notification card appears, the focus remains where it is. The text inside the aria-live element should be updated to announce the card's arrival to screen readers.
+- Pressing **Cmd/Ctrl + F6** will move through the various non-modal dialogs that are open on the screen, ultimately leading to the notification card.
+- If there are multiple cards, **Cmd/Ctrl + F6** should move focus through the cards.
+- From the last card, **Cmd/Ctrl + F6** should move focus out of the notification cards and back to the app.
+
+## Rich Text Editors
+
+Newly loaded rich text editors should not grab focus.
+
+#### Component Examples
+
+## Toasts
+
+Toasts work like dialogs, but with the attribute `role="alert"`. This attribute ensures that their contents are read by screen readers.
+
+### Launching a toast
+
+Toasts may only be launched based on a user action, such as saving, creating, deleting or converting a record. This is because toast components act as dialogs. As dialogs, focus must go into them in order for their contents to be read by screen readers. It would be confusing and inappropriate to move focus into dialog without the user triggering this action themselves.
+
+### Exiting a toast
+
+When exiting, focus should go to the item that triggered the toast, such as the button that launched a create dialog.
+
+### Multiple toasts
+
+If there are multiple toasts, **Cmd/Ctrl + F6** should move focus from toast to toast and then back to the application.
+
+## Global Orchestration
+
+For interfaces with a number of alerts, panels, composers, and major sections of the page, focus orchestration at an app-wide level allows the user to easily navigate the application. The industry standard is to use the **F6** key for global focus management. For web UIs, combine the **F6** key with the **Cmd** key on Mac or the **Ctrl** key on other operating systems so as not to conflict with browsers' app-wide keyboard shortcuts. Pressing **Cmd/Ctrl + F6** should cycle a user through the following regions in a reliable and consistent sequence:
+
+- Open non-modal dialogs
+- Open utility panels
+- Open docked composers
+- Task notifications
+- Toast messages
+- Main content
+- Split view
+When the user presses **Cmd/Ctrl + F6** to navigate to the next region, focus should go to the first focusable element in that region if nothing was previously focused there, or to the element in that region that last held focus. Pressing **Shift + Cmd/Ctrl + F6** should follow these same rules, but move focus into the previous region instead of the next one.
+
+## Page Loads and Refreshes
+
+Depending on how a page is loaded, the placement of focus varies. The guidelines below are based on Salesforce's Lightning UI and may not universally apply to other apps.
+
+- **Refresh or direct navigation to URL:** Focus goes to the very beginning of the page, before the skip navigation links.
+- **Global Navigation:** When opening an object or record from the global navigation, focus should go to center stage.
+- **Global Navigation (Console):** When choosing a record or object in Console apps, focus should go to the workspace tab for the new item added. When opening a new subtab from a workspace tab, focus should go to the subtab’s tab.
+- **Vertical Navigation:** When choosing an item from a vertical navigation, such as that in Reports, Dashboards, Files, or Chatter, focus should go to center stage for this object.
+- **App Launcher:** When switching applications, focus should go to the very beginning of the page, before the skip navigation links.
+- **Global Search:** When performing a global search, focus should go to the results.
+- **Skip Links:** When clicking on a skip link, focus should be placed where the skip link says it will go, e.g. main navigation, main content area, etc.1a:["$","$L1c",null,{"markdown":"$1d"}]
+1b:["$","nav",null,{"className":"flex items-center justify-between border-t pt-8","style":{"borderColor":"var(--border)"},"children":[["$","div",null,{"className":"flex-1","children":null}],["$","div",null,{"className":"flex-1 text-right","children":["$","$Le",null,{"href":"/general/ai-and-slds-2","className":"group inline-block p-4 rounded-lg border hover:shadow-md transition-all","style":{"borderColor":"var(--border)"},"children":[["$","div",null,{"className":"text-xs mb-1","style":{"color":"var(--slds-gray-text)"},"children":"Next"}],["$","div",null,{"className":"font-medium","style":{"color":"var(--slds-blue)"},"children":"AI and SLDS 2"}]]}]}]]}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:null
+13:{"metadata":[["$","title","0",{"children":"Lightning Design System 2 - Salesforce UX"}],["$","meta","1",{"name":"description","content":"The Lightning Design System helps you create the world's best enterprise app experiences."}]],"error":null,"digest":"$undefined"}
+18:"$13:metadata"
