@@ -23,6 +23,14 @@ interface RichTextEditorProps {
   onContentChange: (markdown: string) => void;
 }
 
+function extractFrontmatter(md: string): { frontmatter: string; body: string } {
+  const match = md.match(/^(---\r?\n[\s\S]*?\r?\n---)\r?\n?/);
+  if (match) {
+    return { frontmatter: match[1], body: md.slice(match[0].length) };
+  }
+  return { frontmatter: '', body: md };
+}
+
 export function RichTextEditor({ content, onContentChange }: RichTextEditorProps) {
   const skipUpdateRef = useRef(false);
   const [showInsertMenu, setShowInsertMenu] = useState(false);
@@ -30,7 +38,11 @@ export function RichTextEditor({ content, onContentChange }: RichTextEditorProps
   const insertMenuRef = useRef<HTMLDivElement>(null);
   const insertBtnRef = useRef<HTMLButtonElement>(null);
 
-  const processedContent = useRef(preprocessDirectivesForEditor(content));
+  const { frontmatter, body } = extractFrontmatter(content);
+  const frontmatterRef = useRef(frontmatter);
+  frontmatterRef.current = frontmatter;
+
+  const processedContent = useRef(preprocessDirectivesForEditor(body));
 
   const editor = useEditor({
     extensions: [
@@ -60,18 +72,21 @@ export function RichTextEditor({ content, onContentChange }: RichTextEditorProps
       if (skipUpdateRef.current) return;
       const store = (editor.storage as unknown as Record<string, MarkdownStorage>);
       const rawMd = store.markdown.getMarkdown();
-      const md = postprocessDirectivesFromEditor(rawMd);
-      onContentChange(md);
+      const bodyMd = postprocessDirectivesFromEditor(rawMd);
+      const fm = frontmatterRef.current;
+      const full = fm ? `${fm}\n${bodyMd}` : bodyMd;
+      onContentChange(full);
     },
   });
 
   useEffect(() => {
     if (!editor) return;
     const store = (editor.storage as unknown as Record<string, MarkdownStorage>);
-    const currentMd = postprocessDirectivesFromEditor(store.markdown.getMarkdown());
-    if (content !== currentMd) {
+    const currentBodyMd = postprocessDirectivesFromEditor(store.markdown.getMarkdown());
+    const { body: incomingBody } = extractFrontmatter(content);
+    if (incomingBody !== currentBodyMd) {
       skipUpdateRef.current = true;
-      const processed = preprocessDirectivesForEditor(content);
+      const processed = preprocessDirectivesForEditor(incomingBody);
       editor.commands.setContent(processed);
       skipUpdateRef.current = false;
     }
