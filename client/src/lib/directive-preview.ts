@@ -17,6 +17,7 @@ function compact(html: string): string {
 }
 
 function escapeHtml(s: string): string {
+  if (s == null || s === undefined) return '';
   return s
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
@@ -77,6 +78,14 @@ function renderLeafDirective(name: string, attrsStr: string): string {
   }
 
   return '';
+}
+
+/**
+ * Strip YAML frontmatter from markdown so it isn't rendered as content.
+ */
+export function stripFrontmatter(md: string): string {
+  const fmMatch = md.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
+  return fmMatch ? fmMatch[2] : md;
 }
 
 /**
@@ -195,6 +204,98 @@ export function preprocessDirectives(md: string): string {
   }
 
   return out.join('\n');
+}
+
+/**
+ * Expand <div data-directive-type="..."> blocks (from RTE) into rendered HTML.
+ * Uses same logic as frontend markdown.ts renderDataDirectives.
+ */
+export function renderDataDirectives(html: string): string {
+  return html.replace(
+    /<div\s+data-directive-type="([^"]+)"\s+data-directive-attrs="([^"]*)"\s+data-directive-children="([^"]*)"[^>]*>\s*<\/div>/g,
+    (_match, type: string, attrsEncoded: string, childrenEncoded: string) => {
+      const attrs = parseJsonAttr(attrsEncoded);
+      const children: Array<{ type: string; attrs: Record<string, string> }> = parseJsonAttr(childrenEncoded) || [];
+
+      switch (type) {
+        case 'hero-banner': {
+          const { title, image, version, updated, tagline } = attrs;
+          const style = image ? `background-image:url(${escapeHtml(image)});background-size:cover;background-position:center;` : '';
+          const base = 'min-height:200px;padding:2rem;border-radius:0.5rem;color:white;display:flex;flex-direction:column;justify-content:flex-end;margin-bottom:1.5rem;background-color:#1B3A6B;';
+          return `<div style="${base}${style}"><h1 style="font-size:1.75rem;font-weight:700;margin:0 0 0.5rem;color:white">${escapeHtml(title || '')}</h1>${version ? `<p style="color:#93c5fd;font-size:0.875rem;margin:0 0 0.25rem">${escapeHtml(version)}</p>` : ''}${updated ? `<p style="color:rgba(255,255,255,0.7);font-size:0.75rem;margin:0 0 0.5rem">${escapeHtml(updated)}</p>` : ''}${tagline ? `<p style="color:white;font-size:1rem;font-weight:600;margin:0">${escapeHtml(tagline)}</p>` : ''}</div>`;
+        }
+        case 'video-embed': {
+          const { src, title } = attrs;
+          if (!src) return '';
+          const h = title ? `<h2 style="font-size:1.125rem;font-weight:600;color:#032D60;margin-bottom:0.75rem">${escapeHtml(title)}</h2>` : '';
+          return `<div style="margin-bottom:1.5rem">${h}<div style="width:100%;aspect-ratio:16/9;background:#000;border-radius:0.5rem;overflow:hidden"><video controls preload="metadata" style="width:100%;height:100%"><source src="${escapeHtml(src)}" type="video/mp4"/></video></div></div>`;
+        }
+        case 'card-grid': {
+          const cols = Math.min(children.filter((c: any) => c.type === 'card').length, 3);
+          const cards = children
+            .filter((c: any) => c.type === 'card')
+            .map((c: any) => renderCardInline(c.attrs))
+            .join('');
+          return `<div style="display:grid;grid-template-columns:repeat(${cols},1fr);gap:1rem;margin:1rem 0 1.5rem">${cards}</div>`;
+        }
+        case 'link-grid': {
+          const cols = Math.min(children.length, 4);
+          const links = children
+            .filter((c: any) => c.type === 'link-card')
+            .map((c: any) => renderLinkCardInline(c.attrs))
+            .join('');
+          return `<div style="display:grid;grid-template-columns:repeat(${cols},1fr);gap:1rem;margin:1rem 0 1.5rem">${links}</div>`;
+        }
+        case 'callout': {
+          const typeVal = attrs.type || 'info';
+          const colors: Record<string, { bg: string; border: string }> = {
+            info: { bg: '#EEF4FF', border: '#0176D3' },
+            warning: { bg: '#FFF8E1', border: '#DD7A01' },
+            error: { bg: '#FEF0F3', border: '#B60554' },
+            success: { bg: '#DEF9F3', border: '#056764' },
+          };
+          const c = colors[typeVal] || colors.info;
+          const body = escapeHtml(attrs.body || '');
+          return `<div style="padding:1rem 1.25rem;border-radius:0.5rem;margin-bottom:1rem;border-left:4px solid ${c.border};background:${c.bg}">${body.replace(/\n/g, '<br/>')}</div>`;
+        }
+        default:
+          return _match;
+      }
+    }
+  );
+}
+
+function parseJsonAttr(encoded: string): any {
+  if (!encoded) return {};
+  try {
+    const decoded = encoded
+      .replace(/&quot;/g, '"')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&#39;/g, "'")
+      .replace(/&#x27;/g, "'");
+    return JSON.parse(decoded);
+  } catch {
+    return {};
+  }
+}
+
+function renderCardInline(a: Record<string, string>): string {
+  const media = a.image
+    ? `<div style="height:8rem;overflow:hidden;background:#F3F3F3"><img src="${escapeHtml(a.image)}" alt="" style="width:100%;height:100%;object-fit:cover"/></div>`
+    : a.gradient
+      ? `<div style="height:8rem;background:linear-gradient(135deg,${a.gradient.replace(/\s+/g, ',')})"></div>`
+      : '';
+  const titleHtml = a.title ? `<h3 style="font-size:0.9375rem;font-weight:600;color:#032D60;margin:0 0 0.25rem">${escapeHtml(a.title)}</h3>` : '';
+  const descHtml = a.description ? `<p style="font-size:0.8125rem;color:#706E6B;margin:0;line-height:1.5">${escapeHtml(a.description)}</p>` : '';
+  return `<a href="${escapeHtml(a.href || '#')}" style="display:block;border:1px solid #E5E5E5;border-radius:0.5rem;overflow:hidden;background:white;text-decoration:none;color:inherit">${media}<div style="padding:0.75rem 1rem">${titleHtml}${descHtml}</div></a>`;
+}
+
+function renderLinkCardInline(a: Record<string, string>): string {
+  const bgStyle = a.gradient ? `background:linear-gradient(135deg,${a.gradient.replace(/\s+/g, ',')})` : 'background:#F3F3F3';
+  const ext = a.href?.startsWith('http') ? ' target="_blank" rel="noopener noreferrer"' : '';
+  return `<a href="${escapeHtml(a.href || '#')}"${ext} style="display:block;border:1px solid #E5E5E5;border-radius:0.5rem;overflow:hidden;background:white;text-decoration:none;color:inherit"><div style="height:4rem;${bgStyle};display:flex;align-items:center;justify-content:center"></div><div style="padding:0.5rem 0.75rem"><span style="font-size:0.8125rem;font-weight:600;color:#3E3E3C">${escapeHtml(a.title || '')}</span></div></a>`;
 }
 
 /**

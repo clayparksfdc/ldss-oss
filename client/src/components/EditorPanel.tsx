@@ -4,7 +4,7 @@ import { marked } from 'marked';
 import { fetchLocalFile, saveLocalFile, publishFile, fetchRemoteContent, syncFromGitHub, type AuthUser } from '../api';
 import { Toolbar } from './Toolbar';
 import { RichTextEditor } from './RichTextEditor';
-import { preprocessDirectives, renderStorybookEmbeds } from '../lib/directive-preview';
+import { preprocessDirectives, renderStorybookEmbeds, renderDataDirectives, stripFrontmatter } from '../lib/directive-preview';
 
 interface EditorPanelProps {
   filePath: string;
@@ -69,9 +69,10 @@ export function EditorPanel({ filePath, user }: EditorPanelProps) {
 
   const updatePreview = useCallback((md: string) => {
     try {
-      const processed = preprocessDirectives(md);
+      const body = stripFrontmatter(md);
+      const processed = preprocessDirectives(body);
       const html = marked.parse(processed, { async: false }) as string;
-      setPreviewHtml(renderStorybookEmbeds(html));
+      setPreviewHtml(renderStorybookEmbeds(renderDataDirectives(html)));
     } catch {
       setPreviewHtml('<p style="color:red">Preview error</p>');
     }
