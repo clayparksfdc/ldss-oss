@@ -61,7 +61,7 @@ app.use(helmet({
       imgSrc: ["'self'", "data:", "blob:", "https://avatars.githubusercontent.com", "https://*.githubusercontent.com", "https://res.cloudinary.com"],
       connectSrc: ["'self'", "http://localhost:*", "https://*.herokuapp.com"],
       workerSrc: ["'self'", "blob:", "https://cdn.jsdelivr.net"],
-      frameSrc: ["'self'", "https://*.storybook.js.org", "https://*.chromatic.com", "https://*.herokuapp.com"],
+      frameSrc: ["'self'", "https://*.storybook.js.org", "https://*.chromatic.com", "https://*.herokuapp.com", "https://v1.lightningdesignsystem.com"],
       mediaSrc: ["'self'", "https://res.cloudinary.com"],
     },
   },

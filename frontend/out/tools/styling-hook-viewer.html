@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightning Blue CSS Variable Comparison Tool</title>
+    <link rel="stylesheet" href="/assets/sldsPlusTemplate.css">
+    <style>
+        :root {
+            --app-sidebar-width: 280px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Salesforce Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: var(--slds-g-color-surface-1, #f3f3f3);
+            color: var(--slds-g-color-on-surface-1, #181818);
+        }
+
+        /* Header */
+        .app-header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--slds-g-color-brand-base-40, #0b5cab);
+            color: white;
+            z-index: 100;
+            box-shadow: var(--slds-g-shadow-2, 0 2px 4px rgba(0,0,0,0.1));
+        }
+
+        .app-header-top {
+            height: 64px;
+            display: flex;
+            align-items: center;
+            padding: 0 var(--slds-g-spacing-5, 1.5rem);
+        }
+
+        .app-header h1 {
+            font-size: var(--slds-g-font-scale-3, 1.25rem);
+            font-weight: var(--slds-g-font-weight-6, 600);
+            margin: 0;
+        }
+
+        .app-header .badge {
+            background: var(--slds-g-color-brand-base-60, #1b96ff);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--slds-g-radius-border-pill, 15rem);
+            font-size: var(--slds-g-font-scale-neg-1, 0.875rem);
+            margin-left: 1rem;
+        }
+
+        /* Tab Navigation */
+        .app-tabs {
+            display: flex;
+            gap: 0;
+            background: var(--slds-g-color-brand-base-30, #084f8c);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .app-tab {
+            padding: 0.75rem 1.5rem;
+            background: transparent;
+            border: none;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: var(--slds-g-font-scale-neg-1, 0.875rem);
+            font-weight: var(--slds-g-font-weight-6, 600);
+            cursor: pointer;
+            transition: all 0.15s ease;
+            border-bottom: 3px solid transparent;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .app-tab:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .app-tab.active {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-bottom-color: var(--slds-g-color-brand-base-70, #57a3fd);
+        }
+
+        /* Main Layout */
+        .app-container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .app-sidebar {
+            position: sticky;
+            top: 0;
+            align-self: flex-start;
+            height: 100vh;
+            width: var(--app-sidebar-width);
+            min-width: var(--app-sidebar-width);
+            background: var(--slds-g-color-surface-container-1, #fff);
+            border-right: 1px solid var(--slds-g-color-border-1, #c9c9c9);
+            padding: var(--slds-g-spacing-4, 1rem);
+            overflow-y: auto;
+        }
+
+        .sidebar-section {
+            margin-bottom: var(--slds-g-spacing-5, 1.5rem);
+        }
+
+        .sidebar-section h3 {
+            font-size: var(--slds-g-font-scale-neg-1, 0.875rem);
+            font-weight: var(--slds-g-font-weight-7, 700);
+            color: var(--slds-g-color-on-surface-2, #444);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin: 0 0 var(--slds-g-spacing-3, 0.75rem) 0;
+        }
+
+        /* Search Input */
+        .search-container {
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: var(--slds-g-spacing-3, 0.75rem) var(--slds-g-spacing-4, 1rem);
+            padding-left: 2.5rem;
+            border: 1px solid var(--slds-g-color-border-1, #c9c9c9);
+            border-radius: var(--slds-g-radius-border-2, 0.5rem);
+            font-size: var(--slds-g-font-scale-0, 1rem);
+            background: var(--slds-g-color-surface-container-1, #fff);
+            transition: border-color 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--slds-g-color-brand-base-50, #0176d3);
+            box-shadow: 0 0 0 3px rgba(1, 118, 211, 0.15);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--slds-g-color-neutral-base-65, #a0a0a0);
+        }
+
+        /* Filter Buttons */
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: var(--slds-g-spacing-2, 0.5rem);
+        }
+
+        .filter-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: var(--slds-g-spacing-2, 0.5rem) var(--slds-g-spacing-3, 0.75rem);
+            background: transparent;
+            border: 1px solid transparent;
+            border-radius: var(--slds-g-radius-border-2, 0.5rem);
+            cursor: pointer;
+            font-size: var(--slds-g-font-scale-neg-1, 0.875rem);
+            color: var(--slds-g-color-on-surface-2, #444);
+            transition: all 0.15s ease;
+            text-align: left;
+        }
+
+        .filter-btn:hover {
+            background: var(--slds-g-color-surface-container-2, #f3f3f3);
+        }
+
+        .filter-btn.active {
+            background: var(--slds-g-color-brand-base-90, #d8e6fe);
+            color: var(--slds-g-color-brand-base-40, #0b5cab);
+            font-weight: var(--slds-g-font-weight-6, 600);
+        }
+
+        .filter-btn .count {
+            background: var(--slds-g-color-surface-container-3, #e5e5e5);
+            padding: 0.125rem 0.5rem;
+            border-radius: var(--slds-g-radius-border-pill, 15rem);
+            font-size: 0.75rem;
+        }
+
+        .filter-btn.active .count {
+            background: var(--slds-g-color-brand-base-80, #aacbff);
+        }
+
+        /* Main Content */
+        .app-main {
+            flex: 1;
+            min-width: 0;
+            padding: var(--slds-g-spacing-5, 1.5rem);
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--slds-g-spacing-4, 1rem);
+            margin-bottom: var(--slds-g-spacing-5, 1.5rem);
+        }
+
+        .stat-card {
+            background: var(--slds-g-color-surface-container-1, #fff);
+            border-radius: var(--slds-g-radius-border-2, 0.5rem);
+            padding: var(--slds-g-spacing-4, 1rem);
+            box-shadow: var(--slds-g-shadow-1, 0 1px 2px rgba(0,0,0,0.1));
+        }
+
+        .stat-card .label {
+            font-size: var(--slds-g-font-scale-neg-1, 0.875rem);
+            color: var(--slds-g-color-on-surface-3, #747474);
+            margin-bottom: var(--slds-g-spacing-1, 0.25rem);
+        }
+
+        .stat-card .value {
+            font-size: var(--slds-g-font-scale-4, 1.5rem);
+            font-weight: var(--slds-g-font-weight-7, 700);
+            color: var(--slds-g-color-brand-base-40, #0b5cab);
+        }
+
+        /* Table Container */
+        .table-container {
+            background: var(--slds-g-color-surface-container-1, #fff);
+            border-radius: var(--slds-g-radius-border-2, 0.5rem);
+            box-shadow: var(--slds-g-shadow-1, 0 1px 2px rgba(0,0,0,0.1));
+            overflow: hidden;
+        }
+
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--slds-g-spacing-4, 1rem);
+            border-bottom: 1px solid var(--slds-g-color-border-1, #c9c9c9);
+        }
+
+        .table-header h2 {
+            font-size: var(--slds-g-font-scale-2, 1.125rem);
+            font-weight: var(--slds-g-font-weight-6, 600);
+            margin: 0;
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: var(--slds-g-spacing-1, 0.25rem);
+            background: var(--slds-g-color-surface-container-2, #f3f3f3);
+            padding: 0.25rem;
+            border-radius: var(--slds-g-radius-border-2, 0.5rem);
+        }
+
+        .view-toggle button {
+            padding: 0.5rem 1rem;
+            border: none;
+            background: transparent;
+            border-radius: var(--slds-g-radius-border-1, 0.25rem);
+            cursor: pointer;
+            font-size: var(--slds-g-font-scale-neg-1, 0.875rem);
+            color: var(--slds-g-color-on-surface-2, #444);
+            transition: all 0.15s ease;
+        }
+
+        .view-toggle button.active {
+            background: var(--slds-g-color-surface-container-1, #fff);
+            box-shadow: var(--slds-g-shadow-1, 0 1px 2px rgba(0,0,0,0.1));
+        }
+
+        /* Table Styles */
+        .variable-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .variable-table th {
+            background: var(--slds-g-color-surface-container-2, #f3f3f3);
+            padding: var(--slds-g-spacing-3, 0.75rem) var(--slds-g-spacing-4, 1rem);
+            text-align: left;
+            font-weight: var(--slds-g-font-weight-6, 600);
+            font-size: var(--slds-g-font-scale-neg-1, 0.875rem);
+            color: var(--slds-g-color-on-surface-2, #444);
+            border-bottom: 1px solid var(--slds-g-color-border-1, #c9c9c9);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .variable-table td {
+            padding: var(--slds-g-spacing-3, 0.75rem) var(--slds-g-spacing-4, 1rem);
+            border-bottom: 1px solid var(--slds-g-color-border-1, #c9c9c9);
+            font-size: var(--slds-g-font-scale-neg-1, 0.875rem);
+            vertical-align: top;
+        }
+
+        .variable-table tr:hover {
+            background: var(--slds-g-color-surface-container-2, #f3f3f3);
+        }
+
+        .variable-table tr.different {
+            background: rgba(255, 186, 144, 0.1);
+        }
+
+        .variable-table tr.different:hover {
+            background: rgba(255, 186, 144, 0.2);
+        }
+
+        .var-name {
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 0.8rem;
+            color: var(--slds-g-color-brand-base-40, #0b5cab);
+            word-break: break-all;
+        }
+
+        .var-value {
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 0.75rem;
+        }
+
+        .var-value.reference {
+            color: var(--slds-g-color-on-surface-3, #747474);
+        }
+
+        .var-value.raw {
+            color: var(--slds-g-color-on-surface-1, #181818);
+            font-weight: var(--slds-g-font-weight-5, 500);
+        }
+
+        .value-cell {
+            min-width: 200px;
+        }
+
+        .value-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .value-label {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            color: var(--slds-g-color-on-surface-3, #747474);
+            letter-spacing: 0.05em;
+        }
+
+        /* Visual Previews */
+        .preview-cell {
+            width: 180px;
+        }
+
+        .preview-container {
+            display: flex;
+            gap: var(--slds-g-spacing-2, 0.5rem);
+            flex-wrap: wrap;
+        }
+
+        .preview-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .preview-box .label {
+            font-size: 0.6rem;
+            color: var(--slds-g-color-on-surface-3, #747474);
+            white-space: nowrap;
+        }
+
+        .preview-box.dark-mode {
+            background: #1a1a1a;
+            padding: 4px;
+            border-radius: var(--slds-g-radius-border-1, 0.25rem);
+        }
+
+        .preview-box.dark-mode .label {
+            color: #a0a0a0;
+        }
+
+        .color-preview {
+            width: 32px;
+            height: 32px;
+            border-radius: var(--slds-g-radius-border-1, 0.25rem);
+            border: 1px solid var(--slds-g-color-border-1, #c9c9c9);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .color-preview::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: repeating-conic-gradient(#e5e5e5 0% 25%, transparent 0% 50%) 50% / 8px 8px;
+        }
+
+        .color-preview .swatch {
+            position: absolute;
+            inset: 0;
+        }
+
+        .radius-preview {
+            width: 32px;
+            height: 32px;
+            background: var(--slds-g-color-brand-base-50, #0176d3);
+            border: 1px solid var(--slds-g-color-border-1, #c9c9c9);
+        }
+
+        .shadow-preview {
+            width: 32px;
+            height: 32px;
+            background: var(--slds-g-color-surface-container-1, #fff);
+            border-radius: var(--slds-g-radius-border-1, 0.25rem);
+        }
+
+        .spacing-preview {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+        }
+
+        .spacing-preview .bar {
+            background: var(--slds-g-color-brand-base-50, #0176d3);
+            height: 4px;
+        }
+
+        .sizing-preview {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+        }
+
+        .sizing-preview .box {
+            background: var(--slds-g-color-brand-base-50, #0176d3);
+        }
+
+        .font-size-preview {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+        }
+
+        .font-size-preview span {
+            font-weight: bold;
+            color: var(--slds-g-color-brand-base-40, #0b5cab);
+        }
+
+        .font-weight-preview {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            font-size: 0.75rem;
+            color: var(--slds-g-color-brand-base-40, #0b5cab);
+        }
+
+        /* No Preview */
+        .no-preview {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--slds-g-color-on-surface-3, #747474);
+            font-size: 0.6rem;
+        }
+
+        /* Different Badge */
+        .diff-badge {
+            display: inline-block;
+            padding: 0.125rem 0.5rem;
+            background: var(--slds-g-color-warning-base-60, #dd7a01);
+            color: white;
+            font-size: 0.65rem;
+            font-weight: var(--slds-g-font-weight-6, 600);
+            border-radius: var(--slds-g-radius-border-pill, 15rem);
+            margin-left: 0.5rem;
+        }
+
+        /* Table scrollable area */
+        .table-scroll {
+            max-height: calc(100vh - 280px);
+            overflow-y: auto;
+        }
+
+        /* Loading State */
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem;
+            color: var(--slds-g-color-on-surface-3, #747474);
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--slds-g-color-border-1, #c9c9c9);
+            border-top-color: var(--slds-g-color-brand-base-50, #0176d3);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Category Badge */
+        .category-badge {
+            display: inline-block;
+            padding: 0.125rem 0.5rem;
+            border-radius: var(--slds-g-radius-border-pill, 15rem);
+            font-size: 0.65rem;
+            font-weight: var(--slds-g-font-weight-5, 500);
+            margin-left: 0.5rem;
+        }
+
+        .category-badge.color { background: #e8f5e9; color: #2e7d32; }
+        .category-badge.spacing { background: #e3f2fd; color: #1565c0; }
+        .category-badge.sizing { background: #fff3e0; color: #ef6c00; }
+        .category-badge.font { background: #fce4ec; color: #c2185b; }
+        .category-badge.radius { background: #f3e5f5; color: #7b1fa2; }
+        .category-badge.shadow { background: #eceff1; color: #455a64; }
+        .category-badge.other { background: #f5f5f5; color: #616161; }
+
+        /* Type Badge */
+        .type-badge {
+            display: inline-block;
+            padding: 0.125rem 0.5rem;
+            border-radius: var(--slds-g-radius-border-pill, 15rem);
+            font-size: 0.65rem;
+            font-weight: var(--slds-g-font-weight-5, 500);
+            margin-left: 0.5rem;
+        }
+
+        .type-badge.global { background: #e1f5fe; color: #01579b; }
+        .type-badge.semantic { background: #f3e5f5; color: #4a148c; }
+        .type-badge.reference { background: #fff9c4; color: #f57f17; }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--slds-g-color-on-surface-3, #747474);
+        }
+
+        .empty-state h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--slds-g-color-on-surface-2, #444);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .app-sidebar {
+                display: none;
+            }
+            .app-main {
+                margin-left: 0; /* no-op now, kept for specificity */
+            }
+        }
+
+        /* Only Different Toggle */
+        .toggle-container {
+            display: flex;
+            align-items: center;
+            gap: var(--slds-g-spacing-2, 0.5rem);
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 44px;
+            height: 24px;
+        }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            inset: 0;
+            background: var(--slds-g-color-surface-container-3, #e5e5e5);
+            border-radius: 24px;
+            transition: 0.3s;
+        }
+
+        .toggle-slider::before {
+            position: absolute;
+            content: '';
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background: white;
+            border-radius: 50%;
+            transition: 0.3s;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+
+        .toggle-switch input:checked + .toggle-slider {
+            background: var(--slds-g-color-brand-base-50, #0176d3);
+        }
+
+        .toggle-switch input:checked + .toggle-slider::before {
+            transform: translateX(20px);
+        }
+
+        .toggle-label {
+            font-size: var(--slds-g-font-scale-neg-1, 0.875rem);
+            color: var(--slds-g-color-on-surface-2, #444);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header (minimal, embedded in site) -->
+    <header class="app-header" style="position:relative;">
+        <div class="app-header-top">
+            <h1>Styling Hook Comparison — Lightning Blue vs Cosmos</h1>
+            <span class="badge" id="variable-count">Loading...</span>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="app-sidebar">
+            <!-- Search -->
+            <div class="sidebar-section">
+                <h3>Search</h3>
+                <div class="search-container">
+                    <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                    <input type="text" class="search-input" id="search-input" placeholder="Search variables...">
+                </div>
+            </div>
+
+            <!-- Variable Type Filter -->
+            <div class="sidebar-section">
+                <h3>Variable Type</h3>
+                <div class="filter-group" id="type-filters">
+                    <button class="filter-btn active" data-filter="all">
+                        All Variables
+                        <span class="count" id="count-all">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="global">
+                        Global (--slds-g)
+                        <span class="count" id="count-global">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="semantic">
+                        Shared (--slds-s)
+                        <span class="count" id="count-semantic">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="reference">
+                        Reference (--slds-r)
+                        <span class="count" id="count-reference">0</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="sidebar-section">
+                <h3>Category</h3>
+                <div class="filter-group" id="category-filters">
+                    <button class="filter-btn active" data-category="all">
+                        All Categories
+                        <span class="count" id="count-cat-all">0</span>
+                    </button>
+                    <button class="filter-btn" data-category="color">
+                        Colors
+                        <span class="count" id="count-cat-color">0</span>
+                    </button>
+                    <button class="filter-btn" data-category="spacing">
+                        Spacing
+                        <span class="count" id="count-cat-spacing">0</span>
+                    </button>
+                    <button class="filter-btn" data-category="sizing">
+                        Sizing
+                        <span class="count" id="count-cat-sizing">0</span>
+                    </button>
+                    <button class="filter-btn" data-category="font">
+                        Typography
+                        <span class="count" id="count-cat-font">0</span>
+                    </button>
+                    <button class="filter-btn" data-category="radius">
+                        Border Radius
+                        <span class="count" id="count-cat-radius">0</span>
+                    </button>
+                    <button class="filter-btn" data-category="shadow">
+                        Shadows
+                        <span class="count" id="count-cat-shadow">0</span>
+                    </button>
+                    <button class="filter-btn" data-category="other">
+                        Other
+                        <span class="count" id="count-cat-other">0</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Difference Filter -->
+            <div class="sidebar-section">
+                <h3>Differences</h3>
+                <div class="toggle-container">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="diff-toggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                    <span class="toggle-label">Show only different values</span>
+                </div>
+                <div style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--slds-g-color-on-surface-3, #747474);">
+                    <span id="diff-count">0</span> variables have different values
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="app-main">
+            <!-- Stats -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="label">Total Variables</div>
+                    <div class="value" id="stat-total">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="label">Lightning Blue Variables</div>
+                    <div class="value" id="stat-slds">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="label">Cosmos Variables</div>
+                    <div class="value" id="stat-plus">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="label">Different Values</div>
+                    <div class="value" id="stat-diff">-</div>
+                </div>
+            </div>
+
+            <!-- Table -->
+            <div class="table-container">
+                <div class="table-header">
+                    <h2>Variable Comparison</h2>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div class="view-toggle">
+                            <button class="active" data-view="all">All Columns</button>
+                            <button data-view="compact">Compact</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-scroll" id="table-scroll">
+                    <div class="loading" id="loading">
+                        <div class="spinner"></div>
+                        <div>Loading and parsing CSS files...</div>
+                    </div>
+                    <table class="variable-table" id="variable-table" style="display: none;">
+                        <thead>
+                            <tr>
+                                <th>Variable Name</th>
+                                <th>Tags</th>
+                                <th class="value-cell">Lightning Blue</th>
+                                <th class="value-cell">Cosmos</th>
+                                <th class="preview-cell">Preview</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body">
+                        </tbody>
+                    </table>
+                    <div class="empty-state" id="empty-state" style="display: none;">
+                        <h3>No variables found</h3>
+                        <p>Try adjusting your search or filters</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // CSS Variable Parser and Comparison Tool
+        class CSSVariableParser {
+            constructor() {
+                this.sldsVars = new Map();      // --slds-g-* and --slds-s-* for display
+                this.plusVars = new Map();      // --slds-g-* and --slds-s-* for display
+                this.sldsAllVars = new Map();   // All vars including --slds-r-* for SLDS resolution
+                this.plusAllVars = new Map();   // All vars including --slds-r-* for Plus resolution
+                this.allVars = new Map();       // Combined for fallback
+            }
+
+            // Parse CSS text and extract variables
+            parseCSS(cssText, targetMap) {
+                // Match CSS variable declarations: --variable-name: value;
+                // Capture --slds-g-*, --slds-s-*, and --slds-r-* (reference values)
+                const varRegex = /--(slds-[gsr]-[a-zA-Z0-9-]+)\s*:\s*([^;]+);/g;
+                let match;
+
+                while ((match = varRegex.exec(cssText)) !== null) {
+                    const varName = `--${match[1]}`;
+                    const value = match[2].trim();
+                    
+                    // Only keep the first definition (usually in :root)
+                    if (!targetMap.has(varName)) {
+                        targetMap.set(varName, value);
+                    }
+                }
+            }
+            
+            // Parse all variables including --slds-r-* for resolution lookup
+            parseAllVars(cssText, targetMap) {
+                // Match all slds CSS variable declarations including -r- raw values
+                const varRegex = /--(slds-[a-zA-Z]-[a-zA-Z0-9-]+)\s*:\s*([^;]+);/g;
+                let match;
+
+                while ((match = varRegex.exec(cssText)) !== null) {
+                    const varName = `--${match[1]}`;
+                    const value = match[2].trim();
+                    
+                    if (!targetMap.has(varName)) {
+                        targetMap.set(varName, value);
+                    }
+                }
+            }
+
+            // Resolve variable references to raw values
+            resolveValue(value, sourceMap, visited = new Set()) {
+                if (!value || visited.has(value)) {
+                    return value;
+                }
+
+                visited.add(value);
+
+                // Check for var() references
+                const varRefRegex = /var\(\s*(--[a-zA-Z0-9-]+)(?:\s*,\s*([^)]+))?\s*\)/g;
+                let resolved = value;
+                let hasReference = false;
+
+                resolved = value.replace(varRefRegex, (match, varName, fallback) => {
+                    hasReference = true;
+                    // First try the same source map
+                    if (sourceMap.has(varName)) {
+                        return this.resolveValue(sourceMap.get(varName), sourceMap, new Set(visited));
+                    }
+                    // Then try the combined map
+                    if (this.allVars.has(varName)) {
+                        return this.resolveValue(this.allVars.get(varName), this.allVars, new Set(visited));
+                    }
+                    // Use fallback if available
+                    if (fallback) {
+                        return this.resolveValue(fallback.trim(), sourceMap, new Set(visited));
+                    }
+                    return match;
+                });
+
+                return resolved;
+            }
+
+            // Parse light-dark() function and return { light, dark } values
+            parseLightDark(value) {
+                if (!value || !value.includes('light-dark(')) {
+                    return null;
+                }
+
+                // Handle nested light-dark() in complex values like shadows
+                const lightDarkRegex = /light-dark\(\s*([^,]+),\s*([^)]+)\)/g;
+                let lightValue = value;
+                let darkValue = value;
+
+                // Replace each light-dark() with the appropriate value
+                lightValue = value.replace(lightDarkRegex, (match, light, dark) => light.trim());
+                darkValue = value.replace(lightDarkRegex, (match, light, dark) => dark.trim());
+
+                return { light: lightValue, dark: darkValue };
+            }
+
+            // Categorize a variable based on its name
+            categorizeVariable(varName) {
+                const name = varName.toLowerCase();
+                if (name.includes('color') || name.includes('accent') || name.includes('brand') || 
+                    name.includes('surface') || name.includes('border') && name.includes('color') ||
+                    name.includes('link-color') || name.includes('error') || name.includes('warning') ||
+                    name.includes('success') || name.includes('neutral') || name.includes('palette')) {
+                    return 'color';
+                }
+                if (name.includes('spacing') || name.includes('gap') || name.includes('margin') || 
+                    name.includes('padding')) {
+                    return 'spacing';
+                }
+                if (name.includes('sizing') || name.includes('width') || name.includes('height') ||
+                    name.includes('content-') && name.includes('sizing')) {
+                    return 'sizing';
+                }
+                if (name.includes('font') || name.includes('scale') || name.includes('weight') ||
+                    name.includes('line') && name.includes('height')) {
+                    return 'font';
+                }
+                if (name.includes('radius')) {
+                    return 'radius';
+                }
+                if (name.includes('shadow')) {
+                    return 'shadow';
+                }
+                return 'other';
+            }
+
+            // Check if a value is a color
+            isColor(value) {
+                if (!value) return false;
+                const colorPatterns = [
+                    /^#[0-9a-fA-F]{3,8}$/,
+                    /^rgb(a)?\s*\(/,
+                    /^hsl(a)?\s*\(/,
+                    /^light-dark\s*\(/,
+                    /^(transparent|currentColor|inherit)$/i
+                ];
+                return colorPatterns.some(pattern => pattern.test(value.trim()));
+            }
+
+            // Get the combined data for display
+            getCombinedData() {
+                const combined = new Map();
+
+                // Add all SLDS vars
+                for (const [name, value] of this.sldsVars) {
+                    const sldsRaw = this.resolveValue(value, this.sldsAllVars);
+                    const sldsLightDark = this.parseLightDark(sldsRaw);
+                    
+                    combined.set(name, {
+                        name,
+                        sldsRef: value,
+                        sldsRaw: sldsRaw,
+                        sldsLight: sldsLightDark ? sldsLightDark.light : null,
+                        sldsDark: sldsLightDark ? sldsLightDark.dark : null,
+                        plusRef: null,
+                        plusRaw: null,
+                        plusLight: null,
+                        plusDark: null,
+                        category: this.categorizeVariable(name),
+                        type: name.includes('--slds-g-') ? 'global' : (name.includes('--slds-s-') ? 'semantic' : 'reference')
+                    });
+                }
+
+                    // Add/merge Cosmos vars
+                for (const [name, value] of this.plusVars) {
+                    const plusRaw = this.resolveValue(value, this.plusAllVars);
+                    const plusLightDark = this.parseLightDark(plusRaw);
+                    
+                    if (combined.has(name)) {
+                        const existing = combined.get(name);
+                        existing.plusRef = value;
+                        existing.plusRaw = plusRaw;
+                        existing.plusLight = plusLightDark ? plusLightDark.light : null;
+                        existing.plusDark = plusLightDark ? plusLightDark.dark : null;
+                    } else {
+                        combined.set(name, {
+                            name,
+                            sldsRef: null,
+                            sldsRaw: null,
+                            sldsLight: null,
+                            sldsDark: null,
+                            plusRef: value,
+                            plusRaw: plusRaw,
+                            plusLight: plusLightDark ? plusLightDark.light : null,
+                            plusDark: plusLightDark ? plusLightDark.dark : null,
+                            category: this.categorizeVariable(name),
+                            type: name.includes('--slds-g-') ? 'global' : 'semantic'
+                        });
+                    }
+                }
+
+                return Array.from(combined.values()).sort((a, b) => a.name.localeCompare(b.name));
+            }
+        }
+
+        // UI Controller
+        class VariableViewer {
+            constructor() {
+                this.parser = new CSSVariableParser();
+                this.data = [];
+                this.filteredData = [];
+                this.filters = {
+                    search: '',
+                    type: 'all',
+                    category: 'all',
+                    onlyDifferent: false
+                };
+                this.compactView = false;
+            }
+
+            async init() {
+                try {
+                    // Load both CSS files
+                    const [sldsCSS, plusCSS] = await Promise.all([
+                        fetch('/assets/sldsTemplate.css').then(r => r.text()),
+                        fetch('/assets/sldsPlusTemplate.css').then(r => r.text())
+                    ]);
+
+                    // Parse CSS files for display (only --slds-g-* and --slds-s-*)
+                    this.parser.parseCSS(sldsCSS, this.parser.sldsVars);
+                    this.parser.parseCSS(plusCSS, this.parser.plusVars);
+
+                    // Build file-specific resolution maps (includes --slds-r-* raw values)
+                    this.parser.parseAllVars(sldsCSS, this.parser.sldsAllVars);
+                    this.parser.parseAllVars(plusCSS, this.parser.plusAllVars);
+                    
+                    // Build combined fallback map
+                    for (const [name, value] of this.parser.sldsAllVars) {
+                        this.parser.allVars.set(name, value);
+                    }
+                    for (const [name, value] of this.parser.plusAllVars) {
+                        this.parser.allVars.set(name, value);
+                    }
+
+                    // Get combined data
+                    this.data = this.parser.getCombinedData();
+                    this.filteredData = [...this.data];
+
+                    // Update UI
+                    this.updateStats();
+                    this.updateCounts();
+                    this.renderTable();
+                    this.setupEventListeners();
+
+                    // Hide loading, show table
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('variable-table').style.display = 'table';
+
+                } catch (error) {
+                    console.error('Error loading CSS files:', error);
+                    document.getElementById('loading').innerHTML = `
+                        <div style="color: var(--slds-g-color-error-base-50, #ea001e);">
+                            Error loading CSS files. Make sure you're serving this page from a web server.
+                        </div>
+                    `;
+                }
+            }
+
+            updateStats() {
+                const diffCount = this.data.filter(v => 
+                    v.sldsRaw && v.plusRaw && v.sldsRaw !== v.plusRaw
+                ).length;
+
+                document.getElementById('stat-total').textContent = this.data.length;
+                document.getElementById('stat-slds').textContent = this.parser.sldsVars.size;
+                document.getElementById('stat-plus').textContent = this.parser.plusVars.size;
+                document.getElementById('stat-diff').textContent = diffCount;
+                document.getElementById('variable-count').textContent = `${this.data.length} variables`;
+                document.getElementById('diff-count').textContent = diffCount;
+            }
+
+            updateCounts() {
+                // Type counts
+                document.getElementById('count-all').textContent = this.data.length;
+                document.getElementById('count-global').textContent = this.data.filter(v => v.type === 'global').length;
+                document.getElementById('count-semantic').textContent = this.data.filter(v => v.type === 'semantic').length;
+                document.getElementById('count-reference').textContent = this.data.filter(v => v.type === 'reference').length;
+
+                // Category counts
+                document.getElementById('count-cat-all').textContent = this.data.length;
+                const categories = ['color', 'spacing', 'sizing', 'font', 'radius', 'shadow', 'other'];
+                categories.forEach(cat => {
+                    document.getElementById(`count-cat-${cat}`).textContent = 
+                        this.data.filter(v => v.category === cat).length;
+                });
+            }
+
+            applyFilters() {
+                this.filteredData = this.data.filter(v => {
+                    // Search filter
+                    if (this.filters.search) {
+                        const search = this.filters.search.toLowerCase();
+                        if (!v.name.toLowerCase().includes(search) &&
+                            !(v.sldsRef && v.sldsRef.toLowerCase().includes(search)) &&
+                            !(v.plusRef && v.plusRef.toLowerCase().includes(search))) {
+                            return false;
+                        }
+                    }
+
+                    // Type filter
+                    if (this.filters.type !== 'all' && v.type !== this.filters.type) {
+                        return false;
+                    }
+
+                    // Category filter
+                    if (this.filters.category !== 'all' && v.category !== this.filters.category) {
+                        return false;
+                    }
+
+                    // Only different filter
+                    if (this.filters.onlyDifferent) {
+                        if (!v.sldsRaw || !v.plusRaw || v.sldsRaw === v.plusRaw) {
+                            return false;
+                        }
+                    }
+
+                    return true;
+                });
+
+                this.renderTable();
+            }
+
+            createPreview(variable, value, isPlus = false, mode = 'light') {
+                if (!value) return '<div class="no-preview">N/A</div>';
+
+                const category = variable.category;
+                let rawValue;
+                
+                if (mode === 'dark') {
+                    rawValue = isPlus ? variable.plusDark : variable.sldsDark;
+                } else if (mode === 'light' && (isPlus ? variable.plusLight : variable.sldsLight)) {
+                    rawValue = isPlus ? variable.plusLight : variable.sldsLight;
+                } else {
+                    rawValue = isPlus ? variable.plusRaw : variable.sldsRaw;
+                }
+
+                if (!rawValue) return '<div class="no-preview">-</div>';
+
+                switch (category) {
+                    case 'color':
+                        return this.createColorPreview(rawValue);
+                    case 'radius':
+                        return this.createRadiusPreview(rawValue);
+                    case 'shadow':
+                        return this.createShadowPreview(rawValue);
+                    case 'spacing':
+                        return this.createSpacingPreview(rawValue);
+                    case 'sizing':
+                        return this.createSizingPreview(rawValue);
+                    case 'font':
+                        return this.createFontPreview(variable.name, rawValue);
+                    default:
+                        return '<div class="no-preview">-</div>';
+                }
+            }
+
+            createColorPreview(value) {
+                if (!value) return '<div class="no-preview">-</div>';
+
+                return `
+                    <div class="color-preview">
+                        <div class="swatch" style="background: ${value};"></div>
+                    </div>
+                `;
+            }
+
+            createRadiusPreview(value) {
+                if (!value) return '<div class="no-preview">-</div>';
+                return `<div class="radius-preview" style="border-radius: ${value};"></div>`;
+            }
+
+            createShadowPreview(value) {
+                if (!value || value === 'none') return '<div class="no-preview">none</div>';
+                
+                return `<div class="shadow-preview" style="box-shadow: ${value};"></div>`;
+            }
+
+            createSpacingPreview(value) {
+                if (!value) return '<div class="no-preview">-</div>';
+                // Convert rem to approximate pixel for preview (max 32px)
+                const numValue = parseFloat(value);
+                const width = Math.min(Math.max(numValue * 16, 2), 32);
+                return `
+                    <div class="spacing-preview">
+                        <div class="bar" style="width: ${width}px;"></div>
+                    </div>
+                `;
+            }
+
+            createSizingPreview(value) {
+                if (!value) return '<div class="no-preview">-</div>';
+                // For ch values, estimate pixel size
+                let numValue = parseFloat(value);
+                let unit = value.replace(/[\d.]+/, '').trim();
+                
+                if (unit === 'ch') {
+                    numValue = numValue * 0.5; // Scale down for preview
+                } else if (unit === 'rem') {
+                    numValue = numValue * 16;
+                }
+                
+                const size = Math.min(Math.max(numValue, 4), 32);
+                return `
+                    <div class="sizing-preview">
+                        <div class="box" style="width: ${size}px; height: ${size}px;"></div>
+                    </div>
+                `;
+            }
+
+            createFontPreview(name, value) {
+                if (!value) return '<div class="no-preview">-</div>';
+                
+                if (name.includes('weight')) {
+                    return `<div class="font-weight-preview" style="font-weight: ${value};">Aa</div>`;
+                }
+                
+                // Font size
+                const numValue = parseFloat(value);
+                const fontSize = Math.min(Math.max(numValue * 16, 10), 24);
+                return `<div class="font-size-preview"><span style="font-size: ${fontSize}px;">A</span></div>`;
+            }
+
+            renderTable() {
+                const tbody = document.getElementById('table-body');
+                const emptyState = document.getElementById('empty-state');
+                const table = document.getElementById('variable-table');
+
+                if (this.filteredData.length === 0) {
+                    table.style.display = 'none';
+                    emptyState.style.display = 'block';
+                    return;
+                }
+
+                table.style.display = 'table';
+                emptyState.style.display = 'none';
+
+                const html = this.filteredData.map(v => {
+                    const isDifferent = v.sldsRaw && v.plusRaw && v.sldsRaw !== v.plusRaw;
+                    const rowClass = isDifferent ? 'different' : '';
+                    
+                    // Check if either has light-dark values
+                    const sldsHasLightDark = v.sldsLight && v.sldsDark;
+                    const plusHasLightDark = v.plusLight && v.plusDark;
+
+                    return `
+                        <tr class="${rowClass}">
+                            <td>
+                                <span class="var-name">${this.escapeHtml(v.name)}</span>
+                            </td>
+                            <td>
+                                <span class="type-badge ${v.type}">${v.type}</span>
+                                <span class="category-badge ${v.category}">${v.category}</span>
+                                ${isDifferent ? '<span class="diff-badge">Different</span>' : ''}
+                            </td>
+                            <td class="value-cell">
+                                <div class="value-wrapper">
+                                    ${v.sldsRef ? `
+                                        <div>
+                                            <span class="value-label">Reference:</span>
+                                            <div class="var-value reference">${this.escapeHtml(this.truncateValue(v.sldsRef))}</div>
+                                        </div>
+                                        <div>
+                                            <span class="value-label">Resolved:</span>
+                                            <div class="var-value raw">${this.escapeHtml(this.truncateValue(v.sldsRaw))}</div>
+                                        </div>
+                                        ${sldsHasLightDark ? `
+                                            <div style="margin-top: 0.25rem; padding-top: 0.25rem; border-top: 1px dashed #ddd;">
+                                                <span class="value-label">Light:</span>
+                                                <div class="var-value raw">${this.escapeHtml(this.truncateValue(v.sldsLight))}</div>
+                                            </div>
+                                            <div>
+                                                <span class="value-label">Dark:</span>
+                                                <div class="var-value raw">${this.escapeHtml(this.truncateValue(v.sldsDark))}</div>
+                                            </div>
+                                        ` : ''}
+                                    ` : '<span class="var-value" style="color: #999;">Not defined</span>'}
+                                </div>
+                            </td>
+                            <td class="value-cell">
+                                <div class="value-wrapper">
+                                    ${v.plusRef ? `
+                                        <div>
+                                            <span class="value-label">Reference:</span>
+                                            <div class="var-value reference">${this.escapeHtml(this.truncateValue(v.plusRef))}</div>
+                                        </div>
+                                        <div>
+                                            <span class="value-label">Resolved:</span>
+                                            <div class="var-value raw">${this.escapeHtml(this.truncateValue(v.plusRaw))}</div>
+                                        </div>
+                                        ${plusHasLightDark ? `
+                                            <div style="margin-top: 0.25rem; padding-top: 0.25rem; border-top: 1px dashed #ddd;">
+                                                <span class="value-label">Light:</span>
+                                                <div class="var-value raw">${this.escapeHtml(this.truncateValue(v.plusLight))}</div>
+                                            </div>
+                                            <div>
+                                                <span class="value-label">Dark:</span>
+                                                <div class="var-value raw">${this.escapeHtml(this.truncateValue(v.plusDark))}</div>
+                                            </div>
+                                        ` : ''}
+                                    ` : '<span class="var-value" style="color: #999;">Not defined</span>'}
+                                </div>
+                            </td>
+                            <td class="preview-cell">
+                                <div class="preview-container">
+                                    ${v.sldsRaw ? `
+                                        <div class="preview-box">
+                                            <span class="label">${sldsHasLightDark ? 'Lightning Blue Light' : 'Lightning Blue'}</span>
+                                            ${this.createPreview(v, v.sldsRef, false, 'light')}
+                                        </div>
+                                        ${sldsHasLightDark ? `
+                                            <div class="preview-box dark-mode">
+                                                <span class="label">Lightning Blue Dark</span>
+                                                ${this.createPreview(v, v.sldsRef, false, 'dark')}
+                                            </div>
+                                        ` : ''}
+                                    ` : ''}
+                                    ${v.plusRaw ? `
+                                        <div class="preview-box">
+                                            <span class="label">${plusHasLightDark ? 'Cosmos Light' : 'Cosmos'}</span>
+                                            ${this.createPreview(v, v.plusRef, true, 'light')}
+                                        </div>
+                                        ${plusHasLightDark ? `
+                                            <div class="preview-box dark-mode">
+                                                <span class="label">Cosmos Dark</span>
+                                                ${this.createPreview(v, v.plusRef, true, 'dark')}
+                                            </div>
+                                        ` : ''}
+                                    ` : ''}
+                                </div>
+                            </td>
+                        </tr>
+                    `;
+                }).join('');
+
+                tbody.innerHTML = html;
+            }
+
+            truncateValue(value) {
+                if (!value) return '';
+                if (value.length > 80) {
+                    return value.substring(0, 77) + '...';
+                }
+                return value;
+            }
+
+            escapeHtml(text) {
+                if (!text) return '';
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
+            setupEventListeners() {
+                // Search
+                let searchTimeout;
+                document.getElementById('search-input').addEventListener('input', (e) => {
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => {
+                        this.filters.search = e.target.value;
+                        this.applyFilters();
+                    }, 200);
+                });
+
+                // Type filters
+                document.querySelectorAll('#type-filters .filter-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        document.querySelectorAll('#type-filters .filter-btn').forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                        this.filters.type = btn.dataset.filter;
+                        this.applyFilters();
+                    });
+                });
+
+                // Category filters
+                document.querySelectorAll('#category-filters .filter-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        document.querySelectorAll('#category-filters .filter-btn').forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                        this.filters.category = btn.dataset.category;
+                        this.applyFilters();
+                    });
+                });
+
+                // Different toggle
+                document.getElementById('diff-toggle').addEventListener('change', (e) => {
+                    this.filters.onlyDifferent = e.target.checked;
+                    this.applyFilters();
+                });
+
+                // View toggle
+                document.querySelectorAll('.view-toggle button').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        document.querySelectorAll('.view-toggle button').forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                        this.compactView = btn.dataset.view === 'compact';
+                        this.renderTable();
+                    });
+                });
+            }
+        }
+
+        // Initialize the viewer
+        document.addEventListener('DOMContentLoaded', () => {
+            const viewer = new VariableViewer();
+            viewer.init();
+        });
+    </script>
+</body>
+</html>

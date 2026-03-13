@@ -58,7 +58,9 @@
     - [Types](/foundation/illustrations--types)
     - [UI Text](/foundation/illustrations--ui-text)
 - Develop
-  - [Global Styling Hooks](/develop/styling-hook-index)
+  - [Global Styling Hooks](/develop/styling-hook-index) {sidebar}
+    - [Reference](/develop/styling-hook-index)
+    - [Visualizer](/develop/styling-hook-visualizer)
   - [Utility Classes](/develop/utility-classes)
 - Components
   - [Accordion](/component/accordion)
@@ -268,3 +270,6 @@
   - [Designer Tools](/design/designer-tools)
   - [SLDS Validator](/tools/slds-validator)
   - [SLDS Linter](/general/slds-linter)
+- Legacy
+  - [Legacy Blueprints](/legacy/blueprints)
+  - [SLDS v1 ↗](/legacy/slds-v1)
