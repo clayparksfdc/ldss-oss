@@ -1,9 +1,8 @@
 import { Octokit } from '@octokit/rest';
 import { AppError, CreatePROptions, GitHubFile, PullRequest } from '../types';
 
-const GHE_API_URL = process.env.GHE_BASE_URL
-  ? `${process.env.GHE_BASE_URL}/api/v3`
-  : undefined;
+const GH_BASE = process.env.GHE_BASE_URL || 'https://github.com';
+const CUSTOM_API_URL = (GH_BASE !== 'https://github.com') ? `${GH_BASE}/api/v3` : undefined;
 
 export class GitHubAPIService {
   private octokit: Octokit;
@@ -13,7 +12,7 @@ export class GitHubAPIService {
   constructor(token: string, owner: string, repo: string) {
     this.octokit = new Octokit({
       auth: token,
-      ...(GHE_API_URL && { baseUrl: GHE_API_URL }),
+      ...(CUSTOM_API_URL && { baseUrl: CUSTOM_API_URL }),
     });
     this.owner = owner;
     this.repo = repo;

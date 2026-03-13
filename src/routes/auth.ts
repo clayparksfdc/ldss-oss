@@ -7,21 +7,21 @@ import { asyncHandler } from '../middleware/error';
 
 const router = express.Router();
 
-const GHE_BASE = process.env.GHE_BASE_URL || 'https://git.soma.salesforce.com';
-const GHE_API = `${GHE_BASE}/api/v3`;
+const GH_BASE = process.env.GHE_BASE_URL || 'https://github.com';
+const GH_API = GH_BASE === 'https://github.com' ? 'https://api.github.com' : `${GH_BASE}/api/v3`;
 
 export const initializePassport = (pool: Pool) => {
   const strategy = new OAuth2Strategy(
     {
-      authorizationURL: `${GHE_BASE}/login/oauth/authorize`,
-      tokenURL: `${GHE_BASE}/login/oauth/access_token`,
+      authorizationURL: `${GH_BASE}/login/oauth/authorize`,
+        tokenURL: `${GH_BASE}/login/oauth/access_token`,
       clientID: process.env.GHE_CLIENT_ID || '',
       clientSecret: process.env.GHE_CLIENT_SECRET || '',
       callbackURL: process.env.GHE_CALLBACK_URL || 'http://localhost:4000/auth/github/callback',
     },
     async (accessToken: string, _refreshToken: string, _profile: any, done: any) => {
         try {
-          const userRes = await fetch(`${GHE_API}/user`, {
+          const userRes = await fetch(`${GH_API}/user`, {
             headers: { Authorization: `token ${accessToken}` },
           });
 
@@ -31,7 +31,7 @@ export const initializePassport = (pool: Pool) => {
 
           const ghUser: any = await userRes.json();
 
-          const emailsRes = await fetch(`${GHE_API}/user/emails`, {
+          const emailsRes = await fetch(`${GH_API}/user/emails`, {
             headers: { Authorization: `token ${accessToken}` },
           });
           let email = ghUser.email || '';
@@ -80,7 +80,7 @@ export const initializePassport = (pool: Pool) => {
   // Wrap the internal OAuth2 getOAuthAccessToken to capture detailed errors
   const originalGetToken = (strategy as any)._oauth2.getOAuthAccessToken.bind((strategy as any)._oauth2);
   (strategy as any)._oauth2.getOAuthAccessToken = function(code: string, params: any, cb: any) {
-    console.log('[OAuth] Exchanging code for token at:', `${GHE_BASE}/login/oauth/access_token`);
+    console.log('[OAuth] Exchanging code for token at:', `${GH_BASE}/login/oauth/access_token`);
     originalGetToken(code, params, (err: any, accessToken: any, refreshToken: any, results: any) => {
       if (err) {
         console.error('[OAuth] Token exchange failed:', {

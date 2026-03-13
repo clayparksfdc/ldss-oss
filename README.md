@@ -4,6 +4,7 @@ A markdown-driven documentation site for the Salesforce Lightning Design System 
 
 **Live:** [https://ldss-cms-9e2bad355514.herokuapp.com](https://ldss-cms-9e2bad355514.herokuapp.com)
 **CMS Editor:** [https://ldss-cms-9e2bad355514.herokuapp.com/editor](https://ldss-cms-9e2bad355514.herokuapp.com/editor)
+**Repo:** [https://github.com/clayparksfdc/ldss-oss](https://github.com/clayparksfdc/ldss-oss)
 
 ## Project Structure
 
@@ -58,7 +59,7 @@ The documentation site is a **statically exported Next.js app**. All pages are p
 
 ### CMS (Content Management)
 
-The CMS is an **Express.js server** with a **Vite React SPA** editor. Content editors authenticate with GitHub Enterprise OAuth and can:
+The CMS is an **Express.js server** with a **Vite React SPA** editor. Content editors authenticate with GitHub OAuth and can:
 
 - Browse and edit markdown content with a rich-text (Tiptap) or code (Monaco) editor
 - Preview rendered content in real-time
@@ -72,9 +73,9 @@ On save/publish, the CMS creates a new branch and PR on the target GitHub repo u
 
 ### Prerequisites
 
-- Node.js 20+ (22+ recommended)
+- Node.js 20+
 - PostgreSQL running locally
-- A GitHub Enterprise OAuth application ([register one here](https://git.soma.salesforce.com/settings/applications/new))
+- A GitHub OAuth application ([register one here](https://github.com/settings/applications/new))
 
 ### 1. Set up the database
 
@@ -95,14 +96,14 @@ Key variables:
 | Variable | Description |
 |---|---|
 | `DATABASE_URL` | PostgreSQL connection string |
-| `GHE_BASE_URL` | GitHub Enterprise base URL |
-| `GHE_CLIENT_ID` | OAuth app client ID |
-| `GHE_CLIENT_SECRET` | OAuth app client secret |
+| `GHE_CLIENT_ID` | GitHub OAuth app client ID |
+| `GHE_CLIENT_SECRET` | GitHub OAuth app client secret |
 | `GHE_CALLBACK_URL` | OAuth callback (`http://localhost:4000/auth/github/callback`) |
-| `GITHUB_OWNER` | Target repo owner |
-| `GITHUB_REPO` | Target repo name |
+| `GITHUB_OWNER` | Target repo owner (e.g. `clayparksfdc`) |
+| `GITHUB_REPO` | Target repo name (e.g. `ldss-oss`) |
 | `GITHUB_CONTENT_PATH` | Path prefix for content in the repo (e.g. `content`) |
 | `SESSION_SECRET` | Session encryption secret |
+| `GHE_BASE_URL` | *(Optional)* Set only for GitHub Enterprise. Omit for public GitHub. |
 
 ### 3. Install and run the CMS server
 
@@ -175,12 +176,11 @@ The entire application runs on a **single Heroku dyno** (`ldss-cms`). The CMS se
 | `NODE_ENV` | `production` |
 | `DATABASE_URL` | Auto-set by Heroku PostgreSQL addon |
 | `SESSION_SECRET` | Random secret for session encryption |
-| `GHE_BASE_URL` | `https://git.soma.salesforce.com` |
-| `GHE_CLIENT_ID` | Production OAuth app client ID |
-| `GHE_CLIENT_SECRET` | Production OAuth app client secret |
-| `GHE_CALLBACK_URL` | `https://ldss-cms-9e2bad355514.herokuapp.com/auth/github/callback` |
-| `GITHUB_OWNER` | `clay-park` |
-| `GITHUB_REPO` | `ldss-oss-github` |
+| `GHE_CLIENT_ID` | GitHub OAuth app client ID |
+| `GHE_CLIENT_SECRET` | GitHub OAuth app client secret |
+| `GHE_CALLBACK_URL` | `https://<your-app>.herokuapp.com/auth/github/callback` |
+| `GITHUB_OWNER` | `clayparksfdc` |
+| `GITHUB_REPO` | `ldss-oss` |
 | `GITHUB_CONTENT_PATH` | `content` |
 | `CONTENT_DIR` | `/app/content` |
 
