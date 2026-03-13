@@ -99,7 +99,8 @@ function buildHeroBannerHast(node: any) {
  * Uses <details>/<summary> for CSS-only collapsible code sections.
  */
 function preprocessLegacyComponentExamples(content: string): string {
-  const re = /::: legacy-component-example\s+title="([^"]*)"\s*:::\s*([\s\S]*?)\s*:::/g;
+  // Container format: opening line (no ::: at end), newline, content, newline, :::
+  const re = /::: legacy-component-example\s+title="([^"]*)"\s*[\r\n]+([\s\S]*?)[\r\n]+\s*:::/g;
   return content.replace(re, (_match, title, htmlBlock) => {
     const html = htmlBlock.trim();
     const escapedCode = html
