@@ -1,5 +1,6 @@
 import express, { Response } from 'express';
 import { Pool } from 'pg';
+import { logAudit } from '../lib/audit';
 import {
   AuthenticatedRequest,
   AppError,
@@ -74,11 +75,11 @@ export const createGitHubRouter = (pool: Pool) => {
       };
       res.json(response);
 
-      await pool.query(
-        'INSERT INTO audit_log (user_id, action, file_path, pr_url, metadata) VALUES ($1, $2, $3, $4, $5)',
-        [req.user!.id, 'publish_content', filePath, pr.html_url,
-         JSON.stringify({ pr_number: pr.number, commit_message: commitMessage })]
-      );
+      logAudit(pool, req.user!.id, 'publish_content', {
+        file_path: filePath,
+        pr_url: pr.html_url,
+        metadata: { pr_number: pr.number, commit_message: commitMessage },
+      });
     })
   );
 
@@ -139,11 +140,10 @@ ${repoFiles.map((f) => `- \`${f.path}\``).join('\n')}
       };
       res.json(response);
 
-      await pool.query(
-        'INSERT INTO audit_log (user_id, action, pr_url, metadata) VALUES ($1, $2, $3, $4)',
-        [req.user!.id, 'publish_batch', pr.html_url,
-         JSON.stringify({ pr_number: pr.number, files: filePaths, title })]
-      );
+      logAudit(pool, req.user!.id, 'publish_batch', {
+        pr_url: pr.html_url,
+        metadata: { pr_number: pr.number, files: filePaths, title },
+      });
     })
   );
 

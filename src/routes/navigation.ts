@@ -1,5 +1,6 @@
 import express, { Response } from 'express';
 import { Pool } from 'pg';
+import { logAudit } from '../lib/audit';
 import { AuthenticatedRequest, AppError } from '../types';
 import { GitHubAPIService } from '../services/github-api';
 import { requireAuth, requireEditor } from '../middleware/auth';
@@ -86,17 +87,11 @@ export const createNavigationRouter = (pool: Pool) => {
         pr_number: pr.number,
       });
 
-      // Log the action
-      await pool.query(
-        'INSERT INTO audit_log (user_id, action, file_path, pr_url, metadata) VALUES ($1, $2, $3, $4, $5)',
-        [
-          req.user!.id,
-          'update_navigation',
-          navigationPath,
-          pr.html_url,
-          JSON.stringify({ pr_number: pr.number }),
-        ]
-      );
+      logAudit(pool, req.user!.id, 'update_navigation', {
+        file_path: navigationPath,
+        pr_url: pr.html_url,
+        metadata: { pr_number: pr.number },
+      });
     })
   );
 

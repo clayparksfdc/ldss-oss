@@ -1,5 +1,6 @@
 import express, { Response } from 'express';
 import { Pool } from 'pg';
+import { logAudit } from '../lib/audit';
 import {
   AuthenticatedRequest,
   AppError,
@@ -75,11 +76,7 @@ export const createContentRouter = (pool: Pool) => {
         data: response,
       });
 
-      // Log access
-      await pool.query(
-        'INSERT INTO audit_log (user_id, action, file_path) VALUES ($1, $2, $3)',
-        [req.user!.id, 'view_content', filePath]
-      );
+      logAudit(pool, req.user!.id, 'view_content', { file_path: filePath });
     })
   );
 
@@ -120,11 +117,7 @@ export const createContentRouter = (pool: Pool) => {
 
       res.json(response);
 
-      // Log draft save
-      await pool.query(
-        'INSERT INTO audit_log (user_id, action, file_path) VALUES ($1, $2, $3)',
-        [req.user!.id, 'save_draft', filePath]
-      );
+      logAudit(pool, req.user!.id, 'save_draft', { file_path: filePath });
     })
   );
 
@@ -154,11 +147,7 @@ export const createContentRouter = (pool: Pool) => {
         message: 'Draft deleted successfully',
       });
 
-      // Log draft deletion
-      await pool.query(
-        'INSERT INTO audit_log (user_id, action, file_path) VALUES ($1, $2, $3)',
-        [req.user!.id, 'delete_draft', filePath]
-      );
+      logAudit(pool, req.user!.id, 'delete_draft', { file_path: filePath });
     })
   );
 

@@ -120,15 +120,18 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
     .map(c => c.name)
 
   const getPageUrl = (page: NavPage) =>
-    `/${page.category?.toLowerCase().replace(/\s+/g, '-')}/${page.slug}`
+    page.url?.startsWith('http') ? page.url : `/${page.category?.toLowerCase().replace(/\s+/g, '-')}/${page.slug}`
 
   const isPageActive = (page: NavPage) => {
+    if (page.url?.startsWith('http')) return false
     const pageUrl = getPageUrl(page)
     if (pathname === pageUrl) return true
     // Also active if we're on a sub-tab of this page
     const activeParent = getActiveParentSlug()
     return activeParent === page.slug
   }
+
+  const isExternalLink = (page: NavPage) => page.url?.startsWith('http') ?? false
 
   const [expandedPages, setExpandedPages] = useState<string[]>(() => {
     if (!pathname) return []
@@ -160,23 +163,34 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
     const isPageExpanded = expandedPages.includes(page.slug)
 
     if (hasSidebarTabs) {
+      const pageUrl = getPageUrl(page)
+      const isExternal = isExternalLink(page)
+      const linkProps = {
+        className: `flex-1 block pl-4 pr-1 py-[6px] text-[13px] rounded-md transition-colors sidebar-page-link`,
+        style: {
+          backgroundColor: isActive ? "var(--sidebar-active-bg)" : "transparent",
+          color: isActive ? "var(--slds-blue)" : "var(--slds-gray-dark)",
+          fontWeight: isActive ? 500 : 400,
+        } as React.CSSProperties,
+      }
       return (
         <div key={page.id}>
           <div className="flex items-center">
-            <Link
-              href={getPageUrl(page) as any}
-              className="flex-1 block pl-4 pr-1 py-[6px] text-[13px] rounded-md transition-colors sidebar-page-link"
-              style={{
-                backgroundColor: isActive ? "var(--sidebar-active-bg)" : "transparent",
-                color: isActive ? "var(--slds-blue)" : "var(--slds-gray-dark)",
-                fontWeight: isActive ? 500 : 400,
-              }}
-              onClick={() => {
-                if (!isPageExpanded) togglePageExpanded(page.slug)
-              }}
-            >
-              <span className="truncate">{page.name}</span>
-            </Link>
+            {isExternal ? (
+              <a href={pageUrl} target="_blank" rel="noopener noreferrer" {...linkProps}>
+                <span className="truncate">{page.name}</span>
+              </a>
+            ) : (
+              <Link
+                href={pageUrl as any}
+                {...linkProps}
+                onClick={() => {
+                  if (!isPageExpanded) togglePageExpanded(page.slug)
+                }}
+              >
+                <span className="truncate">{page.name}</span>
+              </Link>
+            )}
             <button
               onClick={() => togglePageExpanded(page.slug)}
               className="p-1 mr-1 rounded transition-colors flex-shrink-0 sidebar-chevron-btn"
@@ -214,19 +228,25 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
       )
     }
 
+    const pageUrl = getPageUrl(page)
+    const isExternal = isExternalLink(page)
+    const linkClass = "block pl-4 pr-3 py-[6px] text-[13px] rounded-md transition-colors sidebar-page-link"
+    const linkStyle = {
+      backgroundColor: isActive ? "var(--sidebar-active-bg)" : "transparent",
+      color: isActive ? "var(--slds-blue)" : "var(--slds-gray-dark)",
+      fontWeight: isActive ? 500 : 400,
+    } as React.CSSProperties
     return (
       <div key={page.id}>
-        <Link
-          href={getPageUrl(page) as any}
-          className="block pl-4 pr-3 py-[6px] text-[13px] rounded-md transition-colors sidebar-page-link"
-          style={{
-            backgroundColor: isActive ? "var(--sidebar-active-bg)" : "transparent",
-            color: isActive ? "var(--slds-blue)" : "var(--slds-gray-dark)",
-            fontWeight: isActive ? 500 : 400,
-          }}
-        >
-          <span className="truncate">{page.name}</span>
-        </Link>
+        {isExternal ? (
+          <a href={pageUrl} target="_blank" rel="noopener noreferrer" className={linkClass} style={linkStyle}>
+            <span className="truncate">{page.name}</span>
+          </a>
+        ) : (
+          <Link href={pageUrl as any} className={linkClass} style={linkStyle}>
+            <span className="truncate">{page.name}</span>
+          </Link>
+        )}
       </div>
     )
   }

@@ -21,7 +21,9 @@ function resolveContentDir(): string {
   return candidates[0];
 }
 
-function readTree(dir: string, relativeTo: string): FileEntry[] {
+const MARKDOWN_EXT = /\.(md|mdx)$/i;
+
+function readTree(dir: string, relativeTo: string, markdownOnly = false): FileEntry[] {
   if (!fs.existsSync(dir)) return [];
   const entries = fs.readdirSync(dir, { withFileTypes: true })
     .filter(e => !e.name.startsWith('.') && !e.name.startsWith('_'))
@@ -31,34 +33,45 @@ function readTree(dir: string, relativeTo: string): FileEntry[] {
       return a.name.localeCompare(b.name);
     });
 
-  return entries.map(entry => {
+  const result: FileEntry[] = [];
+  for (const entry of entries) {
     const fullPath = path.join(dir, entry.name);
     const relPath = path.relative(relativeTo, fullPath);
 
     if (entry.isDirectory()) {
-      return {
+      result.push({
         name: entry.name,
         path: relPath,
-        type: 'directory' as const,
-        children: readTree(fullPath, relativeTo),
-      };
+        type: 'directory',
+        children: readTree(fullPath, relativeTo, markdownOnly),
+      });
+    } else if (!markdownOnly || MARKDOWN_EXT.test(entry.name)) {
+      result.push({
+        name: entry.name,
+        path: relPath,
+        type: 'file',
+      });
     }
-    return {
-      name: entry.name,
-      path: relPath,
-      type: 'file' as const,
-    };
-  });
+  }
+  return result;
 }
 
 export const createLocalContentRouter = () => {
   const router = express.Router();
   const contentDir = resolveContentDir();
 
+  const CACHE_TTL_MS = 10_000;
+  let filesCache: { tree: FileEntry[]; at: number } | null = null;
+
   router.get('/files', (_req, res) => {
     try {
-      const files = readTree(contentDir, contentDir);
-      res.json({ files, contentDir });
+      const now = Date.now();
+      if (filesCache && now - filesCache.at < CACHE_TTL_MS) {
+        return res.json({ files: filesCache.tree, contentDir });
+      }
+      const tree = readTree(contentDir, contentDir, true);
+      filesCache = { tree, at: now };
+      res.json({ files: tree, contentDir });
     } catch (err: any) {
       res.status(500).json({ error: err.message });
     }
@@ -106,6 +119,7 @@ export const createLocalContentRouter = () => {
 
       fs.mkdirSync(path.dirname(resolved), { recursive: true });
       fs.writeFileSync(resolved, content, 'utf-8');
+      filesCache = null;
       res.json({ success: true, path: filePath });
     } catch (err: any) {
       res.status(500).json({ error: err.message });
@@ -133,6 +147,7 @@ export const createLocalContentRouter = () => {
 
       fs.mkdirSync(path.dirname(resolved), { recursive: true });
       fs.writeFileSync(resolved, content || '', 'utf-8');
+      filesCache = null;
       res.json({ success: true, path: filePath });
     } catch (err: any) {
       res.status(500).json({ error: err.message });
@@ -159,6 +174,7 @@ export const createLocalContentRouter = () => {
       }
 
       fs.unlinkSync(resolved);
+      filesCache = null;
       res.json({ success: true });
     } catch (err: any) {
       res.status(500).json({ error: err.message });

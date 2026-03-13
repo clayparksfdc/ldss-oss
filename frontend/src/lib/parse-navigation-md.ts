@@ -34,12 +34,18 @@ function parseLink(text: string): { name: string; url: string } | null {
   return { name: m[1], url: m[2] };
 }
 
-function slugFromUrl(url: string): string {
+function slugFromUrl(url: string, fallbackName?: string): string {
+  if (url.startsWith('http://') || url.startsWith('https://')) {
+    return fallbackName?.toLowerCase().replace(/\s+/g, '-').replace(/[↗]/g, '').trim() || 'external';
+  }
   const parts = url.replace(/^\//, '').split('/');
-  return parts[parts.length - 1];
+  return parts[parts.length - 1] || fallbackName?.toLowerCase().replace(/\s+/g, '-') || '';
 }
 
-function categoryFromUrl(url: string): string {
+function categoryFromUrl(url: string, parentCategory?: string): string {
+  if (url.startsWith('http://') || url.startsWith('https://')) {
+    return parentCategory?.toLowerCase().replace(/\s+/g, '-') || 'external';
+  }
   const parts = url.replace(/^\//, '').split('/');
   return parts[0];
 }
@@ -91,7 +97,7 @@ export function parseNavigationMarkdown(filePath?: string): NavCategory[] {
       const link = parseLink(cleanContent);
       if (!link || !currentCategory) continue;
 
-      const pageCat = categoryFromUrl(link.url);
+      const pageCat = categoryFromUrl(link.url, currentCategory.name);
 
       // First child determines the category slug when it was
       // initially derived from the display name.
@@ -105,7 +111,7 @@ export function parseNavigationMarkdown(filePath?: string): NavCategory[] {
       currentPage = {
         id: ++pageId,
         name: link.name,
-        slug: slugFromUrl(link.url),
+        slug: slugFromUrl(link.url, link.name),
         url: link.url,
         category: pageCat,
         hidden: false,

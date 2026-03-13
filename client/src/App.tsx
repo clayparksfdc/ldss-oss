@@ -1,12 +1,18 @@
 import { useState, useCallback, useEffect } from 'react';
 import { Header } from './components/Header';
+
+function getAuthErrorFromUrl(): boolean {
+  if (typeof window === 'undefined') return false;
+  const params = new URLSearchParams(window.location.search);
+  return params.get('auth_error') === '1';
+}
 import { FileBrowser } from './components/FileBrowser';
 import { EditorPanel } from './components/EditorPanel';
 import { Dashboard } from './components/Dashboard';
 import { NewFileDialog } from './components/NewFileDialog';
 import { NavigationManager } from './components/NavigationManager';
 import { TokenManager } from './components/TokenManager';
-import { fetchCurrentUser, logout, type AuthUser } from './api';
+import { fetchCurrentUser, logout, invalidateFilesCache, type AuthUser } from './api';
 import './App.css';
 
 type AppView = 'files' | 'navigation' | 'tokens';
@@ -19,8 +25,16 @@ export default function App() {
   const [appView, setAppView] = useState<AppView>('files');
   const [user, setUser] = useState<AuthUser | null>(null);
   const [authLoading, setAuthLoading] = useState(true);
+  const [authErrorFromUrl, setAuthErrorFromUrl] = useState(false);
 
   useEffect(() => {
+    const hadError = getAuthErrorFromUrl();
+    setAuthErrorFromUrl(hadError);
+    if (hadError && typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      url.searchParams.delete('auth_error');
+      window.history.replaceState({}, '', url.pathname + url.search);
+    }
     fetchCurrentUser()
       .then(u => setUser(u))
       .finally(() => setAuthLoading(false));
@@ -46,6 +60,7 @@ export default function App() {
 
   const handleFileCreated = useCallback(() => {
     setShowNewFileDialog(false);
+    invalidateFilesCache();
     setRefreshKey(k => k + 1);
   }, []);
 
@@ -103,6 +118,11 @@ export default function App() {
                 <h1 style={{ fontSize: 22, fontWeight: 700, color: '#032D60', margin: '0 0 8px' }}>
                   Lightning Design System CMS
                 </h1>
+                {authErrorFromUrl && (
+                  <p style={{ fontSize: 13, color: '#C23934', margin: '0 0 16px', lineHeight: 1.5, background: '#FED3D1', padding: '10px 14px', borderRadius: 8 }}>
+                    Session timed out or something went wrong. Please try signing in again.
+                  </p>
+                )}
                 <p style={{ fontSize: 14, color: '#706E6B', margin: '0 0 32px', lineHeight: 1.5 }}>
                   Sign in with your GitHub Enterprise account to manage content.
                 </p>

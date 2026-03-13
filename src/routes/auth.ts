@@ -4,6 +4,7 @@ import { Strategy as OAuth2Strategy } from 'passport-oauth2';
 import { Pool } from 'pg';
 import { AuthenticatedRequest, User, AppError } from '../types';
 import { asyncHandler } from '../middleware/error';
+import { logAudit } from '../lib/audit';
 
 const router = express.Router();
 
@@ -64,10 +65,9 @@ export const initializePassport = (pool: Pool) => {
             user = created.rows[0];
           }
 
-          await pool.query(
-            'INSERT INTO audit_log (user_id, action, metadata) VALUES ($1, $2, $3)',
-            [user.id, 'login', JSON.stringify({ email: user.email, github_login: ghUser.login })]
-          );
+          logAudit(pool, user.id, 'login', {
+            metadata: { email: user.email, github_login: ghUser.login },
+          });
 
           (user as any)._accessToken = accessToken;
           return done(null, user);
@@ -131,7 +131,7 @@ router.get(
     passport.authenticate('github-enterprise', (err: any, user: any, info: any) => {
       if (err) {
         console.error('OAuth callback error:', err.message || err);
-        return res.status(500).json({ success: false, error: { message: err.message || 'OAuth authentication failed' } });
+        return res.redirect('/editor?auth_error=1');
       }
       if (!user) {
         console.error('OAuth callback: no user returned', info);
@@ -140,7 +140,7 @@ router.get(
       req.logIn(user, (loginErr) => {
         if (loginErr) {
           console.error('Login error:', loginErr);
-          return res.status(500).json({ success: false, error: { message: 'Login failed' } });
+          return res.redirect('/editor?auth_error=1');
         }
         return res.redirect('/editor');
       });
