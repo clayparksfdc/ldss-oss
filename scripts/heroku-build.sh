@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [ "${HEROKU_APP_TYPE:-}" = "cms" ]; then
+if [ "${APP_TYPE:-${HEROKU_APP_TYPE:-}}" = "cms" ]; then
   echo "==> Building CMS (Express + Vite client)..."
 
   cd lightning-design-system-cms
@@ -21,7 +21,7 @@ if [ "${HEROKU_APP_TYPE:-}" = "cms" ]; then
 
   echo "==> CMS build complete."
 
-elif [ "${HEROKU_APP_TYPE:-}" = "frontend" ]; then
+elif [ "${APP_TYPE:-${HEROKU_APP_TYPE:-}}" = "frontend" ]; then
   echo "==> Building Frontend (Next.js)..."
 
   cd lightning-design-system
@@ -35,6 +35,6 @@ elif [ "${HEROKU_APP_TYPE:-}" = "frontend" ]; then
   echo "==> Frontend build complete."
 
 else
-  echo "ERROR: HEROKU_APP_TYPE env var not set. Set it to 'frontend' or 'cms'."
+  echo "ERROR: APP_TYPE env var not set. Set it to 'frontend' or 'cms'."
   exit 1
 fi
