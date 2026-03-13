@@ -13,6 +13,7 @@ dotenv.config();
 
 // Import routes
 import authRouter, { initializePassport } from './routes/auth';
+import { createCachedStore } from './session/cached-store';
 import { createContentRouter } from './routes/content';
 import { createGitHubRouter } from './routes/github';
 import { createNavigationRouter } from './routes/navigation';
@@ -145,19 +146,25 @@ if (frontendExists) {
 }
 
 // ── Session & auth (only for /auth, /api, /editor) ──
+// Industry-standard CMS session: 1-day rolling, in-memory cache to reduce DB lookups
+const SESSION_MAX_AGE_MS = 24 * 60 * 60 * 1000; // 1 day
+const SESSION_CACHE_TTL_MS = 10 * 60 * 1000;   // 10 min cache (avoids DB on repeated requests)
+
 const PgSession = connectPgSimple(session);
+const pgStore = new PgSession({
+  pool,
+  tableName: 'session',
+  createTableIfMissing: false,
+});
 app.use(
   session({
-    store: new PgSession({
-      pool,
-      tableName: 'session',
-      createTableIfMissing: false,
-    }),
+    store: createCachedStore(pgStore, SESSION_CACHE_TTL_MS),
     secret: process.env.SESSION_SECRET || 'your-secret-key-change-in-production',
     resave: false,
     saveUninitialized: false,
+    rolling: true,  // Reset cookie expiry on each request (stay logged in while active)
     cookie: {
-      maxAge: 30 * 24 * 60 * 60 * 1000, // 30 days
+      maxAge: SESSION_MAX_AGE_MS,
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
