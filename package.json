@@ -4,7 +4,7 @@
   "description": "CMS backend for Lightning Design System documentation",
   "main": "dist/server.js",
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
   },
   "scripts": {
     "dev": "ts-node src/server.ts",
