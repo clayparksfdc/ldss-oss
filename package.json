@@ -12,7 +12,7 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "db:setup": "psql -U postgres -f schema.sql",
-    "heroku-postbuild": "npx tsc && cd client && npm install && npx tsc -b && npx vite build"
+    "heroku-postbuild": "./node_modules/.bin/tsc && cd client && npm install --legacy-peer-deps && ./node_modules/.bin/tsc -b && ./node_modules/.bin/vite build"
   },
   "keywords": [
     "cms",
