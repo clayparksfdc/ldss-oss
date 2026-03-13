@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import Editor, { type OnMount } from '@monaco-editor/react';
 import { marked } from 'marked';
-import { fetchLocalFile, saveLocalFile, publishFile, type AuthUser } from '../api';
+import { fetchLocalFile, saveLocalFile, publishFile, fetchRemoteContent, syncFromGitHub, type AuthUser } from '../api';
 import { Toolbar } from './Toolbar';
 import { RichTextEditor } from './RichTextEditor';
 import { preprocessDirectives } from '../lib/directive-preview';
@@ -14,10 +14,14 @@ interface EditorPanelProps {
 export type EditorMode = 'code' | 'richtext' | 'preview';
 type SaveStatus = 'idle' | 'saving' | 'saved' | 'error';
 type PublishStatus = 'idle' | 'publishing' | 'published' | 'error';
+type SyncStatus = 'checking' | 'synced' | 'diverged' | 'remote-only' | 'local-only' | 'error';
 
 export function EditorPanel({ filePath, user }: EditorPanelProps) {
   const [content, setContent] = useState('');
   const [originalContent, setOriginalContent] = useState('');
+  const [, setRemoteContent] = useState<string | null>(null);
+  const [syncStatus, setSyncStatus] = useState<SyncStatus>('checking');
+  const [syncing, setSyncing] = useState(false);
   const [loading, setLoading] = useState(true);
   const [editorMode, setEditorMode] = useState<EditorMode>('richtext');
   const [saveStatus, setSaveStatus] = useState<SaveStatus>('idle');
@@ -30,15 +34,31 @@ export function EditorPanel({ filePath, user }: EditorPanelProps) {
   useEffect(() => {
     setLoading(true);
     setSaveStatus('idle');
+    setPublishStatus('idle');
+    setLastPrUrl(null);
+    setSyncStatus('checking');
+
     fetchLocalFile(filePath)
       .then(data => {
         setContent(data.content);
         setOriginalContent(data.content);
         updatePreview(data.content);
+
+        fetchRemoteContent(filePath).then(remote => {
+          setRemoteContent(remote);
+          if (remote === null) {
+            setSyncStatus('local-only');
+          } else if (remote === data.content) {
+            setSyncStatus('synced');
+          } else {
+            setSyncStatus('diverged');
+          }
+        }).catch(() => setSyncStatus('error'));
       })
       .catch(() => {
         setContent('');
         setOriginalContent('');
+        setSyncStatus('error');
       })
       .finally(() => setLoading(false));
   }, [filePath]);
@@ -129,12 +149,35 @@ export function EditorPanel({ filePath, user }: EditorPanelProps) {
       const result = await publishFile(filePath, content, message);
       setPublishStatus('published');
       setLastPrUrl(result.pr_url);
+      // After publishing, the remote will have the PR but default branch hasn't changed yet
+      // Mark as diverged since the PR needs to be merged first
+      setSyncStatus('diverged');
     } catch (err: any) {
       setPublishStatus('error');
       alert(`Publish failed: ${err.message}`);
       setTimeout(() => setPublishStatus('idle'), 3000);
     }
   }, [filePath, content]);
+
+  const handleSync = useCallback(async () => {
+    if (!confirm('This will overwrite your local file with the version from the default branch. Continue?')) return;
+    try {
+      setSyncing(true);
+      const synced = await syncFromGitHub(filePath);
+      setContent(synced);
+      setOriginalContent(synced);
+      setRemoteContent(synced);
+      updatePreview(synced);
+      setSyncStatus('synced');
+      setPublishStatus('idle');
+      setLastPrUrl(null);
+    } catch (err: any) {
+      alert(`Sync failed: ${err.message}`);
+      setSyncStatus('error');
+    } finally {
+      setSyncing(false);
+    }
+  }, [filePath, updatePreview]);
 
   const hasChanges = content !== originalContent;
 
@@ -155,6 +198,9 @@ export function EditorPanel({ filePath, user }: EditorPanelProps) {
         publishStatus={publishStatus}
         lastPrUrl={lastPrUrl}
         onPublish={handlePublish}
+        syncStatus={syncStatus}
+        syncing={syncing}
+        onSync={handleSync}
       />
       <div className="editor-body">
         {editorMode === 'code' && (

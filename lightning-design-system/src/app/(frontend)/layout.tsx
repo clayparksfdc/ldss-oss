@@ -4,6 +4,7 @@ import { Header } from "@/components/layout/Header";
 import { DynamicSidebar } from "@/components/layout/Sidebar";
 import { Footer } from "@/components/layout/Footer";
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
+import StorybookThemeToggle from "@/components/markdown/StorybookThemeToggle";
 import { getNavigation } from "@/lib/navigation";
 import "./globals.css";
 
@@ -40,6 +41,7 @@ export default function FrontendLayout({
       </head>
       <body className={`${inter.variable} antialiased`} id="frontend-app" style={{ backgroundColor: "var(--background)" }}>
         <ThemeProvider>
+          <StorybookThemeToggle />
           <Header />
           <div className="flex min-h-[calc(100vh-36px)]" style={{ backgroundColor: "var(--background)" }}>
             <DynamicSidebar navigation={navigation} />

@@ -66,6 +66,30 @@ export async function publishFile(
   return res.json();
 }
 
+// ── Sync with GitHub (fetch remote content, optionally overwrite local) ──
+
+export async function fetchRemoteContent(filePath: string): Promise<string | null> {
+  const res = await fetch(`${BASE}/api/github/remote/${encodeURIComponent(filePath)}`, {
+    credentials: 'include',
+  });
+  if (!res.ok) return null;
+  const data = await res.json();
+  return data.notFound ? null : data.content;
+}
+
+export async function syncFromGitHub(filePath: string): Promise<string> {
+  const res = await fetch(`${BASE}/api/github/sync/${encodeURIComponent(filePath)}`, {
+    method: 'POST',
+    credentials: 'include',
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ error: res.statusText }));
+    throw new Error(err.error?.message || err.message || 'Sync failed');
+  }
+  const data = await res.json();
+  return data.content;
+}
+
 // ── Health / Dashboard ──
 
 export async function fetchHealth() {

@@ -648,6 +648,69 @@ html.dark {
     margin-bottom: 2rem;
     background: var(--storybook-bg);
   }
+  .storybook-embed-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background: #F3F3F3;
+    border-bottom: 1px solid var(--border);
+  }
+  html.dark .storybook-embed-toolbar {
+    background: #1e2730;
+  }
+  .storybook-embed-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: #3E3E3C;
+  }
+  html.dark .storybook-embed-title {
+    color: #c0c8d0;
+  }
+  .storybook-theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: #706E6B;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .storybook-theme-toggle:hover {
+    background: rgba(0,0,0,0.08);
+    color: #032D60;
+  }
+  html.dark .storybook-theme-toggle:hover {
+    background: rgba(255,255,255,0.1);
+    color: #93c5fd;
+  }
+  .storybook-theme-toggle[data-theme="dark"] {
+    background: #1a1e24;
+    color: #f0c54d;
+    border-color: #333;
+  }
+  .storybook-open-link {
+    display: inline-flex;
+    align-items: center;
+    color: #706E6B;
+    transition: color 0.15s;
+  }
+  .storybook-open-link:hover {
+    color: #032D60;
+  }
+  html.dark .storybook-open-link {
+    color: #8899a6;
+  }
+  html.dark .storybook-open-link:hover {
+    color: #93c5fd;
+  }
+  .storybook-embed[data-sb-dark="true"] iframe {
+    filter: none;
+  }
 
   /* Hide scrollbar for horizontal tab scrolling on mobile */
   .scrollbar-hide {

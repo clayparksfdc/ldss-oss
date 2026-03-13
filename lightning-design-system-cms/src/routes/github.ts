@@ -10,6 +10,13 @@ import { GitHubAPIService } from '../services/github-api';
 import { requireEditor } from '../middleware/auth';
 import { asyncHandler } from '../middleware/error';
 
+const CONTENT_PREFIX = process.env.GITHUB_CONTENT_PATH || '';
+
+function toRepoPath(localPath: string): string {
+  if (!CONTENT_PREFIX) return localPath;
+  return `${CONTENT_PREFIX}/${localPath}`.replace(/\/+/g, '/');
+}
+
 function getUserGitHub(req: AuthenticatedRequest): GitHubAPIService {
   if (!req.githubToken) {
     throw new AppError('GitHub token not available — please log in again', 401);
@@ -39,14 +46,15 @@ export const createGitHubRouter = (pool: Pool) => {
         throw new AppError('File is locked by another user', 423);
       }
 
+      const repoPath = toRepoPath(filePath);
       const ghService = getUserGitHub(req);
       const pr = await ghService.createPR({
         branch: `cms-update-${Date.now()}`,
-        files: [{ path: filePath, content: markdown }],
+        files: [{ path: repoPath, content: markdown }],
         title: commitMessage,
         body: `**Updated by:** ${req.user!.name} (@${req.user!.github_login})
 
-**File:** \`${filePath}\`
+**File:** \`${repoPath}\`
 
 ---
 *This PR was created via the Lightning Design System CMS.*`,
@@ -103,16 +111,17 @@ export const createGitHubRouter = (pool: Pool) => {
       }
 
       const ghService = getUserGitHub(req);
+      const repoFiles = files.map((f: any) => ({ path: toRepoPath(f.path), content: f.content }));
       const pr = await ghService.createPR({
         branch: `cms-batch-${Date.now()}`,
-        files: files.map((f: any) => ({ path: f.path, content: f.content })),
+        files: repoFiles,
         title,
         body: `**Updated by:** ${req.user!.name} (@${req.user!.github_login})
 
 **Description:** ${description || 'Batch content update'}
 
 **Files changed:**
-${files.map((f: any) => `- \`${f.path}\``).join('\n')}
+${repoFiles.map((f) => `- \`${f.path}\``).join('\n')}
 
 ---
 *This PR was created via the Lightning Design System CMS.*`,
@@ -135,6 +144,64 @@ ${files.map((f: any) => `- \`${f.path}\``).join('\n')}
         [req.user!.id, 'publish_batch', pr.html_url,
          JSON.stringify({ pr_number: pr.number, files: filePaths, title })]
       );
+    })
+  );
+
+  // Fetch the file from the repo default branch and overwrite the local copy
+  router.post(
+    '/sync/:path(*)',
+    requireEditor,
+    asyncHandler(async (req: AuthenticatedRequest, res: Response) => {
+      const localPath = req.params.path;
+      if (!localPath) throw new AppError('File path is required', 400);
+
+      const repoPath = toRepoPath(localPath);
+      const ghService = getUserGitHub(req);
+      const { content } = await ghService.getFile(repoPath);
+
+      // Overwrite the local file with what's on the default branch
+      const fs = await import('fs');
+      const path = await import('path');
+      const contentDir = process.env.CONTENT_DIR || path.default.resolve(__dirname, '../../../content');
+      const resolved = path.default.resolve(contentDir, localPath);
+
+      if (!resolved.startsWith(contentDir)) {
+        throw new AppError('Access denied', 403);
+      }
+
+      fs.default.mkdirSync(path.default.dirname(resolved), { recursive: true });
+      fs.default.writeFileSync(resolved, content, 'utf-8');
+
+      // Clear any drafts for this file
+      await pool.query('DELETE FROM drafts WHERE user_id = $1 AND file_path = $2', [
+        req.user!.id, localPath,
+      ]);
+
+      res.json({ success: true, content, path: localPath });
+    })
+  );
+
+  // Get the file content from the repo (without overwriting local) for comparison
+  router.get(
+    '/remote/:path(*)',
+    requireEditor,
+    asyncHandler(async (req: AuthenticatedRequest, res: Response) => {
+      const localPath = req.params.path;
+      if (!localPath) throw new AppError('File path is required', 400);
+
+      const repoPath = toRepoPath(localPath);
+      const ghService = getUserGitHub(req);
+
+      try {
+        const { content } = await ghService.getFile(repoPath);
+        res.json({ success: true, content });
+      } catch (err: any) {
+        if (err.statusCode === 404) {
+          res.json({ success: true, content: null, notFound: true });
+          return;
+        }
+        throw err;
+      }
     })
   );
 

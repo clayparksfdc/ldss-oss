@@ -3,7 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { processMarkdown } from './markdown';
 
-const contentDirectory = path.join(process.cwd(), 'content');
+const contentDirectory = process.env.CONTENT_DIR || path.resolve(process.cwd(), '..', 'content');
 
 export interface ContentMetadata {
   title: string;

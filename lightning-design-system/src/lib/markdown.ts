@@ -160,30 +160,131 @@ function renderStorybookEmbeds(html: string): string {
 
       if (!url) return '';
 
-      return `<div class="storybook-embed rounded-lg border border-[#E5E5E5] overflow-hidden mb-8 bg-white">
-  <div class="flex items-center justify-between px-4 py-2.5 bg-[#F3F3F3] border-b border-[#E5E5E5]">
+      return `<div class="storybook-embed rounded-lg overflow-hidden mb-8" data-storybook-url="${url}">
+  <div class="storybook-embed-toolbar">
     <div class="flex items-center gap-3">
       <div class="flex gap-1.5">
         <span class="w-3 h-3 rounded-full bg-[#FF5F56]"></span>
         <span class="w-3 h-3 rounded-full bg-[#FFBD2E]"></span>
         <span class="w-3 h-3 rounded-full bg-[#27C93F]"></span>
       </div>
-      <span class="text-[13px] text-[#3E3E3C] font-medium">${title}</span>
+      <span class="storybook-embed-title">${title}</span>
     </div>
-    <a href="${url}" target="_blank" rel="noopener noreferrer"
-       class="text-[#706E6B] hover:text-[#032D60] transition-colors"
-       title="Open in new tab">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-        <polyline points="15 3 21 3 21 9"></polyline>
-        <line x1="10" y1="14" x2="21" y2="3"></line>
-      </svg>
-    </a>
+    <div class="flex items-center gap-2">
+      <button class="storybook-theme-toggle" data-theme="light" title="Toggle light/dark mode">
+        <svg class="storybook-theme-icon-light" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="storybook-theme-icon-dark" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+      <a href="${url}" target="_blank" rel="noopener noreferrer" class="storybook-open-link" title="Open in new tab">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </a>
+    </div>
   </div>
   <iframe src="${url}" style="width:100%;height:${h};border:none;" loading="lazy" title="${title}"></iframe>
 </div>`;
     }
   );
+}
+
+/**
+ * Convert legacy data-directive-type HTML divs into rendered component HTML.
+ * These divs carry their config in data-directive-attrs and data-directive-children
+ * JSON attributes and need to be expanded into the class-based markup the CSS expects.
+ */
+function renderDataDirectives(html: string): string {
+  return html.replace(
+    /<div\s+data-directive-type="([^"]+)"\s+data-directive-attrs="([^"]*)"\s+data-directive-children="([^"]*)"[^>]*>\s*<\/div>/g,
+    (_match, type: string, attrsEncoded: string, childrenEncoded: string) => {
+      const attrs = parseJsonAttr(attrsEncoded);
+      const children: Array<{ type: string; attrs: Record<string, string> }> = parseJsonAttr(childrenEncoded) || [];
+
+      switch (type) {
+        case 'video-embed': {
+          const { src, title } = attrs;
+          if (!src) return '';
+          const heading = title ? `<h2>${esc(title)}</h2>` : '';
+          return `<div class="video-embed">${heading}<div class="video-embed-wrapper"><video controls preload="metadata"><source src="${esc(src)}" type="video/mp4"></video></div></div>`;
+        }
+
+        case 'card-grid': {
+          const cols = children.length <= 2 ? 2 : 3;
+          const cards = children
+            .filter((c: any) => c.type === 'card')
+            .map((c: any) => renderCard(c.attrs))
+            .join('');
+          return `<div class="card-grid card-grid-${cols}">${cards}</div>`;
+        }
+
+        case 'link-grid': {
+          const cols = Math.min(children.length, 4);
+          const links = children
+            .filter((c: any) => c.type === 'link-card')
+            .map((c: any) => renderLinkCard(c.attrs))
+            .join('');
+          return `<div class="link-grid link-grid-${cols}">${links}</div>`;
+        }
+
+        case 'hero-banner': {
+          const { title, image, version, updated, tagline } = attrs;
+          const style = image ? ` style="background-image:url(${esc(image)})"` : '';
+          return `<div class="hero-banner"${style}><h1>${esc(title || '')}</h1>${version ? `<p class="hero-version">${esc(version)}</p>` : ''}${updated ? `<p class="hero-updated">${esc(updated)}</p>` : ''}${tagline ? `<p class="hero-tagline">${esc(tagline)}</p>` : ''}</div>`;
+        }
+
+        default:
+          return _match;
+      }
+    }
+  );
+}
+
+function parseJsonAttr(encoded: string): any {
+  if (!encoded) return {};
+  try {
+    const decoded = encoded
+      .replace(/&quot;/g, '"')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&#39;/g, "'")
+      .replace(/&#x27;/g, "'");
+    return JSON.parse(decoded);
+  } catch {
+    return {};
+  }
+}
+
+function esc(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function renderCard(a: Record<string, string>): string {
+  const cls = `md-card${a.gradient ? ' md-card-gradient' : ''}${a.image ? ' md-card-image' : ''}`;
+  let media = '';
+  if (a.image) {
+    media = `<div class="md-card-media"><img src="${esc(a.image)}" alt="" loading="lazy"></div>`;
+  } else if (a.gradient) {
+    media = `<div class="md-card-media" style="background:linear-gradient(135deg, ${a.gradient.replace(/\s+/g, ', ')})"></div>`;
+  }
+  const titleHtml = a.title ? `<h3>${esc(a.title)}</h3>` : '';
+  const descHtml = a.description ? `<p class="md-card-desc">${esc(a.description)}</p>` : '';
+  return `<a class="${cls}" href="${esc(a.href || '#')}">${media}<div class="md-card-body">${titleHtml}${descHtml}</div></a>`;
+}
+
+function renderLinkCard(a: Record<string, string>): string {
+  const isExternal = a.href?.startsWith('http');
+  const target = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
+  const gradientStyle = a.gradient ? ` style="background:linear-gradient(135deg, ${a.gradient.replace(/\s+/g, ', ')})"` : '';
+  const iconHtml = a.icon ? `<span class="md-link-icon md-link-icon-${esc(a.icon)}"></span>` : '';
+  const titleHtml = a.title ? `<h3>${esc(a.title)}</h3>` : '';
+  return `<a class="md-link-card" href="${esc(a.href || '#')}"${target}><div class="md-link-card-media"${gradientStyle}>${iconHtml}</div><div class="md-link-card-body">${titleHtml}</div></a>`;
 }
 
 /**
@@ -200,7 +301,10 @@ export async function processMarkdown(content: string): Promise<string> {
     .use(rehypeStringify, { allowDangerousHtml: true })
     .process(content);
 
-  return renderStorybookEmbeds(String(result));
+  let html = String(result);
+  html = renderDataDirectives(html);
+  html = renderStorybookEmbeds(html);
+  return html;
 }
 
 /**

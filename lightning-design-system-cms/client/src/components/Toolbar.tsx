@@ -4,6 +4,7 @@ import type { EditorMode } from './EditorPanel';
 type SaveStatus = 'idle' | 'saving' | 'saved' | 'error';
 
 type PublishStatus = 'idle' | 'publishing' | 'published' | 'error';
+type SyncStatus = 'checking' | 'synced' | 'diverged' | 'remote-only' | 'local-only' | 'error';
 
 interface ToolbarProps {
   editorMode: EditorMode;
@@ -16,6 +17,9 @@ interface ToolbarProps {
   publishStatus: PublishStatus;
   lastPrUrl: string | null;
   onPublish: () => void;
+  syncStatus: SyncStatus;
+  syncing: boolean;
+  onSync: () => void;
 }
 
 const SNIPPETS = [
@@ -69,6 +73,15 @@ const SNIPPETS = [
   },
 ];
 
+const SYNC_BADGE: Record<SyncStatus, { label: string; color: string; bg: string }> = {
+  checking:    { label: 'Checking…',       color: '#706E6B', bg: '#f0f0f0' },
+  synced:      { label: 'Synced with remote', color: '#2e844a', bg: '#e3f5e8' },
+  diverged:    { label: 'Not synced',      color: '#ba5d00', bg: '#fff3e0' },
+  'remote-only': { label: 'Remote only',   color: '#706E6B', bg: '#f0f0f0' },
+  'local-only':  { label: 'Local only',    color: '#706E6B', bg: '#f0f0f0' },
+  error:       { label: 'Sync error',      color: '#c23934', bg: '#fce4e4' },
+};
+
 export function Toolbar({
   editorMode,
   onEditorModeChange,
@@ -80,6 +93,9 @@ export function Toolbar({
   publishStatus,
   lastPrUrl,
   onPublish,
+  syncStatus,
+  syncing,
+  onSync,
 }: ToolbarProps) {
   const [showPalette, setShowPalette] = useState(false);
   const paletteRef = useRef<HTMLDivElement>(null);
@@ -201,6 +217,38 @@ export function Toolbar({
       )}
 
       <div className="toolbar-spacer" />
+
+      {/* Sync status badge + button */}
+      {canPublish && (
+        <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginRight: 8 }}>
+          <span style={{
+            fontSize: 11, fontWeight: 600, padding: '3px 8px', borderRadius: 4,
+            color: SYNC_BADGE[syncStatus].color,
+            background: SYNC_BADGE[syncStatus].bg,
+            whiteSpace: 'nowrap',
+          }}>
+            {syncStatus === 'synced' && '✓ '}
+            {syncStatus === 'diverged' && '⚠ '}
+            {SYNC_BADGE[syncStatus].label}
+          </span>
+          {(syncStatus === 'diverged' || syncStatus === 'error') && (
+            <button
+              onClick={onSync}
+              disabled={syncing || hasChanges}
+              title={hasChanges ? 'Save your changes first' : 'Overwrite local file with the version from the default branch'}
+              style={{
+                fontSize: 11, fontWeight: 600, padding: '3px 10px', borderRadius: 4,
+                background: '#0176D3', color: 'white', border: 'none',
+                cursor: syncing || hasChanges ? 'not-allowed' : 'pointer',
+                opacity: syncing || hasChanges ? 0.5 : 1,
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {syncing ? 'Syncing…' : '↓ Sync from remote'}
+            </button>
+          )}
+        </div>
+      )}
 
       {statusLabel && (
         <span className={`save-status ${saveStatus}`}>

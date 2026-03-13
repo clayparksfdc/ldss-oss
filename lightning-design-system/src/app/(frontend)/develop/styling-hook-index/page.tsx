@@ -21,7 +21,7 @@ export const metadata = {
 };
 
 export default function StylingHookIndexPage() {
-  const jsonPath = path.join(process.cwd(), 'content', 'data', 'design-tokens.json');
+  const jsonPath = path.join(process.env.CONTENT_DIR || path.resolve(process.cwd(), '..', 'content'), 'data', 'design-tokens.json');
   let data: TokenData = { generatedAt: '', source: '', totalTokens: 0, categories: {} };
   if (fs.existsSync(jsonPath)) {
     data = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));

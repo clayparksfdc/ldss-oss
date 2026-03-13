@@ -53,7 +53,7 @@ function categoryFromUrl(url: string): string {
  *       - [Tab Name](/cat/slug--tab) (level 2 — link = sub-tab of parent page)
  */
 export function parseNavigationMarkdown(filePath?: string): NavCategory[] {
-  const mdPath = filePath ?? path.join(process.cwd(), 'content', 'navigation.md');
+  const mdPath = filePath ?? path.join(process.env.CONTENT_DIR || path.resolve(process.cwd(), '..', 'content'), 'navigation.md');
   const raw = fs.readFileSync(mdPath, 'utf-8');
   const lines = raw.split('\n');
 
