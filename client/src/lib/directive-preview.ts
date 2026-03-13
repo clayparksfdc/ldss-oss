@@ -16,6 +16,15 @@ function compact(html: string): string {
   return html.replace(/\n\s*/g, '');
 }
 
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 function renderLeafDirective(name: string, attrsStr: string): string {
   const a = parseAttrs(attrsStr);
 
@@ -83,11 +92,13 @@ export function preprocessDirectives(md: string): string {
   while (i < lines.length) {
     const line = lines[i];
 
-    // Container directive: :::name{attrs}
-    const containerMatch = line.match(/^:::([\w-]+)\{([^}]*)\}\s*$/);
-    if (containerMatch) {
-      const [, name, attrs] = containerMatch;
-      const a = parseAttrs(attrs);
+    // Container directive: :::name{attrs} or ::: name attr="val" attr2="val2"
+    const braceMatch = line.match(/^:::([\w-]+)\{([^}]*)\}\s*$/);
+    const spaceMatch = line.match(/^:::\s+([\w-]+)\s*(.*)$/);
+    const name = braceMatch?.[1] ?? spaceMatch?.[1];
+    const attrsStr = braceMatch?.[2] ?? spaceMatch?.[2] ?? '';
+    if (name) {
+      const a = parseAttrs(attrsStr);
 
       if (name === 'card-grid' || name === 'link-grid') {
         const cols = a.columns || (name === 'link-grid' ? '4' : '2');
@@ -126,6 +137,43 @@ export function preprocessDirectives(md: string): string {
         continue;
       }
 
+      if (name === 'component-demo') {
+        const storybook = a.storybook || '';
+        const title = a.title || 'Component Demo';
+        const height = a.height || '400';
+        const h = height.endsWith('px') ? height : height + 'px';
+        i++; // skip directive line
+        while (i < lines.length && !lines[i].match(/^:::\s*$/)) i++;
+        i++; // skip :::
+        if (storybook) {
+          const demoHtml = compact(`<div class="component-demo-preview" style="border:1px solid #E5E5E5;border-radius:0.5rem;overflow:hidden;margin-bottom:1.5rem">
+            <div style="background:#F4F6F9;border-bottom:1px solid #E5E5E5;padding:8px 16px;display:flex;align-items:center;justify-content:space-between">
+              <span style="font-size:14px;font-weight:600;color:#032D60">${escapeHtml(title)}</span>
+              <a href="${escapeHtml(storybook)}" target="_blank" rel="noopener noreferrer" style="font-size:12px;color:#0176D3;text-decoration:none">Open ↗</a>
+            </div>
+            <iframe src="${escapeHtml(storybook)}" style="width:100%;height:${h};border:none" loading="lazy" title="${escapeHtml(title)}"></iframe>
+          </div>`);
+          out.push('', demoHtml, '');
+        } else {
+          out.push('', '<div style="padding:16px;background:#FEF0F3;border:1px solid #B60554;border-radius:8px;color:#721c24;font-size:14px">No Storybook URL provided for component-demo</div>', '');
+        }
+        continue;
+      }
+
+      if (name === 'code-example') {
+        const lang = a.language || 'javascript';
+        const codeLines: string[] = [];
+        i++;
+        while (i < lines.length && !lines[i].match(/^:::\s*$/)) {
+          codeLines.push(lines[i]);
+          i++;
+        }
+        i++;
+        const code = escapeHtml(codeLines.join('\n'));
+        out.push('', `<pre style="margin:1rem 0;padding:1rem;background:#1e1e1e;color:#d4d4d4;border-radius:8px;overflow:auto;font-size:13px;line-height:1.5"><code class="language-${escapeHtml(lang)}">${code}</code></pre>`, '');
+        continue;
+      }
+
       out.push(line);
       i++;
       continue;
@@ -147,4 +195,32 @@ export function preprocessDirectives(md: string): string {
   }
 
   return out.join('\n');
+}
+
+/**
+ * Post-process HTML to render ```storybook fenced blocks as iframe embeds.
+ */
+export function renderStorybookEmbeds(html: string): string {
+  return html.replace(
+    /<pre><code class="[^"]*language-storybook[^"]*">([\s\S]*?)<\/code><\/pre>/g,
+    (_match, inner: string) => {
+      const decoded = inner
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"');
+      const url = decoded.match(/^url:\s*(.+)$/m)?.[1]?.trim() ?? '';
+      const title = decoded.match(/^title:\s*(.+)$/m)?.[1]?.trim() ?? 'Storybook Preview';
+      const height = decoded.match(/^height:\s*(.+)$/m)?.[1]?.trim() ?? '400px';
+      const h = height.endsWith('px') ? height : height + 'px';
+      if (!url) return '';
+      return `<div class="component-demo-preview" style="border:1px solid #E5E5E5;border-radius:0.5rem;overflow:hidden;margin-bottom:1.5rem">
+        <div style="background:#F4F6F9;border-bottom:1px solid #E5E5E5;padding:8px 16px;display:flex;align-items:center;justify-content:space-between">
+          <span style="font-size:14px;font-weight:600;color:#032D60">${escapeHtml(title)}</span>
+          <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" style="font-size:12px;color:#0176D3;text-decoration:none">Open ↗</a>
+        </div>
+        <iframe src="${escapeHtml(url)}" style="width:100%;height:${h};border:none" loading="lazy" title="${escapeHtml(title)}"></iframe>
+      </div>`;
+    }
+  );
 }

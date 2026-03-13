@@ -1,5 +1,20 @@
 const BASE = '';
 
+function handleAuthFailure(status: number): void {
+  if (status === 401 || status === 500) {
+    window.location.href = status === 500 ? '/editor?auth_error=1' : '/editor';
+  }
+}
+
+async function fetchWithAuth(url: string, init?: RequestInit): Promise<Response> {
+  const res = await fetch(url, { ...init, credentials: 'include' });
+  if (res.status === 401 || res.status === 500) {
+    handleAuthFailure(res.status);
+    throw new Error(res.status === 401 ? 'Session expired' : 'Session timed out');
+  }
+  return res;
+}
+
 export interface FileEntry {
   name: string;
   path: string;
@@ -43,7 +58,7 @@ export async function fetchCurrentUser(): Promise<AuthUser | null> {
 }
 
 export async function logout(): Promise<void> {
-  await fetch(`${BASE}/auth/logout`, { method: 'POST', credentials: 'include' });
+  await fetchWithAuth(`${BASE}/auth/logout`, { method: 'POST' });
 }
 
 // ── Publish to GitHub (creates branch + commit + PR as the logged-in user) ──
@@ -53,9 +68,8 @@ export async function publishFile(
   markdown: string,
   commitMessage: string
 ): Promise<PublishResult> {
-  const res = await fetch(`${BASE}/api/github/publish/${encodeURIComponent(filePath)}`, {
+  const res = await fetchWithAuth(`${BASE}/api/github/publish/${encodeURIComponent(filePath)}`, {
     method: 'POST',
-    credentials: 'include',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ markdown, commitMessage }),
   });
@@ -69,18 +83,15 @@ export async function publishFile(
 // ── Sync with GitHub (fetch remote content, optionally overwrite local) ──
 
 export async function fetchRemoteContent(filePath: string): Promise<string | null> {
-  const res = await fetch(`${BASE}/api/github/remote/${encodeURIComponent(filePath)}`, {
-    credentials: 'include',
-  });
+  const res = await fetchWithAuth(`${BASE}/api/github/remote/${encodeURIComponent(filePath)}`);
   if (!res.ok) return null;
   const data = await res.json();
   return data.notFound ? null : data.content;
 }
 
 export async function syncFromGitHub(filePath: string): Promise<string> {
-  const res = await fetch(`${BASE}/api/github/sync/${encodeURIComponent(filePath)}`, {
+  const res = await fetchWithAuth(`${BASE}/api/github/sync/${encodeURIComponent(filePath)}`, {
     method: 'POST',
-    credentials: 'include',
   });
   if (!res.ok) {
     const err = await res.json().catch(() => ({ error: res.statusText }));
@@ -98,33 +109,56 @@ export async function fetchHealth() {
 }
 
 export async function fetchStats(): Promise<DashboardStats> {
-  const res = await fetch(`${BASE}/api/dashboard/stats`, { credentials: 'include' });
+  const res = await fetchWithAuth(`${BASE}/api/dashboard/stats`);
   return res.json();
 }
 
 export async function fetchRecentActivity() {
-  const res = await fetch(`${BASE}/api/dashboard/recent-activity`, { credentials: 'include' });
+  const res = await fetchWithAuth(`${BASE}/api/dashboard/recent-activity`);
   return res.json();
 }
 
 // ── Local file operations (filesystem-based editing) ──
 
-export async function fetchLocalFiles(): Promise<FileEntry[]> {
-  const res = await fetch(`${BASE}/api/local/files`, { credentials: 'include' });
+const FILES_CACHE_KEY = 'ldss-cms-files';
+const FILES_CACHE_TTL_MS = 15_000;
+
+export async function fetchLocalFiles(useCache = true): Promise<FileEntry[]> {
+  if (useCache && typeof sessionStorage !== 'undefined') {
+    try {
+      const cached = sessionStorage.getItem(FILES_CACHE_KEY);
+      if (cached) {
+        const { files, at } = JSON.parse(cached);
+        if (Date.now() - at < FILES_CACHE_TTL_MS) return files;
+      }
+    } catch { /* ignore */ }
+  }
+  const res = await fetchWithAuth(`${BASE}/api/local/files`);
   const data = await res.json();
-  return data.files || [];
+  const files = data.files || [];
+  if (typeof sessionStorage !== 'undefined') {
+    try {
+      sessionStorage.setItem(FILES_CACHE_KEY, JSON.stringify({ files, at: Date.now() }));
+    } catch { /* ignore */ }
+  }
+  return files;
+}
+
+export function invalidateFilesCache(): void {
+  try {
+    sessionStorage?.removeItem(FILES_CACHE_KEY);
+  } catch { /* ignore */ }
 }
 
 export async function fetchLocalFile(filePath: string): Promise<{ content: string; path: string }> {
-  const res = await fetch(`${BASE}/api/local/file?path=${encodeURIComponent(filePath)}`, { credentials: 'include' });
+  const res = await fetchWithAuth(`${BASE}/api/local/file?path=${encodeURIComponent(filePath)}`);
   if (!res.ok) throw new Error(`Failed to load file: ${res.statusText}`);
   return res.json();
 }
 
 export async function saveLocalFile(filePath: string, content: string): Promise<void> {
-  const res = await fetch(`${BASE}/api/local/file`, {
+  const res = await fetchWithAuth(`${BASE}/api/local/file`, {
     method: 'PUT',
-    credentials: 'include',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ path: filePath, content }),
   });
@@ -132,9 +166,8 @@ export async function saveLocalFile(filePath: string, content: string): Promise<
 }
 
 export async function createLocalFile(filePath: string, content: string): Promise<void> {
-  const res = await fetch(`${BASE}/api/local/file`, {
+  const res = await fetchWithAuth(`${BASE}/api/local/file`, {
     method: 'POST',
-    credentials: 'include',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ path: filePath, content }),
   });
@@ -142,9 +175,8 @@ export async function createLocalFile(filePath: string, content: string): Promis
 }
 
 export async function deleteLocalFile(filePath: string): Promise<void> {
-  const res = await fetch(`${BASE}/api/local/file?path=${encodeURIComponent(filePath)}`, {
+  const res = await fetchWithAuth(`${BASE}/api/local/file?path=${encodeURIComponent(filePath)}`, {
     method: 'DELETE',
-    credentials: 'include',
   });
   if (!res.ok) throw new Error(`Failed to delete file: ${res.statusText}`);
 }

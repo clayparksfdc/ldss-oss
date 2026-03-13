@@ -131,7 +131,7 @@ router.get(
     passport.authenticate('github-enterprise', (err: any, user: any, info: any) => {
       if (err) {
         console.error('OAuth callback error:', err.message || err);
-        return res.status(500).json({ success: false, error: { message: err.message || 'OAuth authentication failed' } });
+        return res.redirect('/editor?auth_error=1');
       }
       if (!user) {
         console.error('OAuth callback: no user returned', info);
@@ -140,7 +140,7 @@ router.get(
       req.logIn(user, (loginErr) => {
         if (loginErr) {
           console.error('Login error:', loginErr);
-          return res.status(500).json({ success: false, error: { message: 'Login failed' } });
+          return res.redirect('/editor?auth_error=1');
         }
         return res.redirect('/editor');
       });

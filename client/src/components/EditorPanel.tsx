@@ -4,7 +4,7 @@ import { marked } from 'marked';
 import { fetchLocalFile, saveLocalFile, publishFile, fetchRemoteContent, syncFromGitHub, type AuthUser } from '../api';
 import { Toolbar } from './Toolbar';
 import { RichTextEditor } from './RichTextEditor';
-import { preprocessDirectives } from '../lib/directive-preview';
+import { preprocessDirectives, renderStorybookEmbeds } from '../lib/directive-preview';
 
 interface EditorPanelProps {
   filePath: string;
@@ -43,31 +43,35 @@ export function EditorPanel({ filePath, user }: EditorPanelProps) {
         setContent(data.content);
         setOriginalContent(data.content);
         updatePreview(data.content);
+        setLoading(false);
 
-        fetchRemoteContent(filePath).then(remote => {
-          setRemoteContent(remote);
-          if (remote === null) {
-            setSyncStatus('local-only');
-          } else if (remote === data.content) {
-            setSyncStatus('synced');
-          } else {
-            setSyncStatus('diverged');
-          }
-        }).catch(() => setSyncStatus('error'));
+        // Run GitHub sync check async — don't block file display
+        fetchRemoteContent(filePath)
+          .then(remote => {
+            setRemoteContent(remote);
+            if (remote === null) {
+              setSyncStatus('local-only');
+            } else if (remote === data.content) {
+              setSyncStatus('synced');
+            } else {
+              setSyncStatus('diverged');
+            }
+          })
+          .catch(() => setSyncStatus('error'));
       })
       .catch(() => {
         setContent('');
         setOriginalContent('');
         setSyncStatus('error');
-      })
-      .finally(() => setLoading(false));
+        setLoading(false);
+      });
   }, [filePath]);
 
   const updatePreview = useCallback((md: string) => {
     try {
       const processed = preprocessDirectives(md);
       const html = marked.parse(processed, { async: false }) as string;
-      setPreviewHtml(html);
+      setPreviewHtml(renderStorybookEmbeds(html));
     } catch {
       setPreviewHtml('<p style="color:red">Preview error</p>');
     }
