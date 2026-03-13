@@ -3,6 +3,7 @@
  * Reduces PostgreSQL round-trips for repeated requests (e.g. loading files).
  * Industry-standard pattern for CMS: cache session lookups with short TTL.
  */
+import { EventEmitter } from 'events';
 import session from 'express-session';
 import type { SessionData } from 'express-session';
 
@@ -26,40 +27,42 @@ export function createCachedStore(store: session.Store, ttlMs = DEFAULT_TTL_MS):
   const pruneInterval = setInterval(pruneExpired, 5 * 60 * 1000);
   if (pruneInterval.unref) pruneInterval.unref();
 
-  return {
-    ...store,
-    get(sid: string, cb: (err: any, session?: SessionData | null) => void): void {
-      const entry = cache.get(sid);
-      if (entry && entry.expiresAt > Date.now()) {
-        return process.nextTick(() => cb(null, entry.data ?? undefined));
-      }
-      cache.delete(sid);
+  // Express-session expects store to be an EventEmitter (has .on); delegate to underlying store
+  const delegateEventEmitter = (store as unknown as EventEmitter);
+  const wrapped = Object.create(delegateEventEmitter);
 
-      store.get(sid, (err, session) => {
-        if (!err && session) {
-          cache.set(sid, {
-            data: session,
-            expiresAt: Date.now() + ttlMs,
-          });
-        }
-        cb(err, session);
-      });
-    },
-    set(sid: string, session: SessionData, cb?: (err?: any) => void): void {
-      cache.delete(sid);
-      store.set(sid, session, cb);
-    },
-    destroy(sid: string, cb?: (err?: any) => void): void {
-      cache.delete(sid);
-      store.destroy(sid, cb);
-    },
-    touch(sid: string, session: SessionData, cb?: () => void): void {
-      // Don't invalidate cache — session data unchanged; touch only extends expiry in PG
-      if (typeof store.touch === 'function') {
-        store.touch(sid, session, cb);
-      } else {
-        process.nextTick(() => cb?.());
+  wrapped.get = function (sid: string, cb: (err: any, session?: SessionData | null) => void): void {
+    const entry = cache.get(sid);
+    if (entry && entry.expiresAt > Date.now()) {
+      return process.nextTick(() => cb(null, entry.data ?? undefined));
+    }
+    cache.delete(sid);
+
+    store.get(sid, (err, sess) => {
+      if (!err && sess) {
+        cache.set(sid, { data: sess, expiresAt: Date.now() + ttlMs });
       }
-    },
-  } as session.Store;
+      cb(err, sess);
+    });
+  };
+
+  wrapped.set = function (sid: string, sess: SessionData, cb?: (err?: any) => void): void {
+    cache.delete(sid);
+    store.set(sid, sess, cb);
+  };
+
+  wrapped.destroy = function (sid: string, cb?: (err?: any) => void): void {
+    cache.delete(sid);
+    store.destroy(sid, cb);
+  };
+
+  wrapped.touch = function (sid: string, sess: SessionData, cb?: () => void): void {
+    if (typeof store.touch === 'function') {
+      store.touch(sid, sess, cb);
+    } else {
+      process.nextTick(() => cb?.());
+    }
+  };
+
+  return wrapped as session.Store;
 }
