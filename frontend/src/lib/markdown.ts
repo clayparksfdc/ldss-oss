@@ -93,6 +93,32 @@ function buildHeroBannerHast(node: any) {
   ];
 }
 
+/**
+ * Preprocess: replace ::: legacy-component-example title="..." ::: ... ::: blocks
+ * with raw HTML. This avoids the complexity of injecting raw HTML via Hast.
+ * Uses <details>/<summary> for CSS-only collapsible code sections.
+ */
+function preprocessLegacyComponentExamples(content: string): string {
+  const re = /::: legacy-component-example\s+title="([^"]*)"\s*:::\s*([\s\S]*?)\s*:::/g;
+  return content.replace(re, (_match, title, htmlBlock) => {
+    const html = htmlBlock.trim();
+    const escapedCode = html
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+
+    return `<div class="legacy-component-example">
+<h3 class="legacy-component-example-title">${title || 'Example'}</h3>
+<div class="legacy-component-example-preview slds-scope">${html}</div>
+<details class="legacy-component-example-code">
+<summary>View code</summary>
+<pre><code class="language-html">${escapedCode}</code></pre>
+</details>
+</div>`;
+  });
+}
+
 const remarkCustomDirectives: Plugin<[], Root> = () => {
   return (tree) => {
     visit(tree, (node: any) => {
@@ -291,6 +317,8 @@ function renderLinkCard(a: Record<string, string>): string {
  * Process markdown content with custom directives
  */
 export async function processMarkdown(content: string): Promise<string> {
+  content = preprocessLegacyComponentExamples(content);
+
   const result = await unified()
     .use(remarkParse)
     .use(remarkGfm)

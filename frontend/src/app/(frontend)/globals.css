@@ -457,6 +457,49 @@ html.dark {
     border-radius: 0.375rem;
   }
 
+  /* ── Legacy Component Example Directive (SLDS1) ── */
+  .legacy-component-example {
+    margin: 1.5rem 0 2.5rem;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .legacy-component-example-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    background: var(--surface-sunken);
+    border-bottom: 1px solid var(--border);
+    color: var(--slds-navy);
+  }
+  .legacy-component-example-preview {
+    padding: 1rem;
+    background: var(--surface);
+    min-height: 2rem;
+  }
+  .legacy-component-example-code {
+    border-top: 1px solid var(--border);
+  }
+  .legacy-component-example-code summary {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--slds-blue);
+    user-select: none;
+  }
+  .legacy-component-example-code summary:hover {
+    text-decoration: underline;
+  }
+  .legacy-component-example-code pre {
+    margin: 0;
+    padding: 1rem;
+    max-height: 20rem;
+    overflow: auto;
+    background: var(--code-block-bg);
+  }
+
   /* ── Card Grid Directive ── */
   .card-grid {
     display: grid;

@@ -16,7 +16,10 @@ A markdown-driven documentation site for the Salesforce Lightning Design System 
 │   ├── component/           # Component documentation
 │   ├── foundation/          # Foundation pages
 │   ├── get-started/         # Getting started guides
+│   ├── legacy-slds1/         # Legacy SLDS 1 component blueprints
 │   └── ...                  # Other content categories
+├── scripts/
+│   └── extract-legacy-components.mjs  # Generates legacy component pages from vrt-all-components.html
 ├── frontend/                # Next.js static site (SSG)
 │   ├── src/
 │   │   ├── app/             # Next.js App Router pages
