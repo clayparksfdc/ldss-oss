@@ -160,6 +160,11 @@ app.get('/api/audit', requireAuth, async (req: any, res): Promise<void> => {
   }
 });
 
+// Redirect SLDS v1 link to external site (no page load)
+app.get('/legacy/slds-v1', (_req, res) => {
+  res.redirect(302, 'https://v1.lightningdesignsystem.com/');
+});
+
 // ── Static frontend (Next.js export) served at root ──
 const frontendOutPath = path.resolve(__dirname, '../frontend/out');
 const fs = require('fs');

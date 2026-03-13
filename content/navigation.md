@@ -272,4 +272,4 @@
   - [SLDS Linter](/general/slds-linter)
 - Legacy
   - [Legacy Blueprints](/legacy/blueprints)
-  - [SLDS v1 ↗](/legacy/slds-v1)
+  - [SLDS v1 ↗](https://v1.lightningdesignsystem.com/)

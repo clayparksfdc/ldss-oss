@@ -156,7 +156,6 @@ export default async function ContentPage({ params }: ContentPageProps) {
 
 const EXPLICIT_ROUTES = new Set([
   'legacy/blueprints',
-  'legacy/slds-v1',
   'develop/styling-hook-visualizer',
 ]);
 
@@ -172,6 +171,7 @@ export async function generateStaticParams() {
   for (const cat of nav) {
     for (const page of cat.children) {
       const url = page.url.replace(/^\//, '');
+      if (url.startsWith('http')) continue;
       if (EXPLICIT_ROUTES.has(url)) continue;
       const parts = url.split('/');
       const category = parts[0];
@@ -184,6 +184,7 @@ export async function generateStaticParams() {
       if (page.tabs) {
         for (const tab of page.tabs) {
           const tabUrl = tab.url.replace(/^\//, '');
+          if (tabUrl.startsWith('http')) continue;
           if (EXPLICIT_ROUTES.has(tabUrl)) continue;
           const tabParts = tabUrl.split('/');
           const tabCat = tabParts[0];
