@@ -11,17 +11,15 @@ const GHE_BASE = process.env.GHE_BASE_URL || 'https://git.soma.salesforce.com';
 const GHE_API = `${GHE_BASE}/api/v3`;
 
 export const initializePassport = (pool: Pool) => {
-  passport.use(
-    'github-enterprise',
-    new OAuth2Strategy(
-      {
-        authorizationURL: `${GHE_BASE}/login/oauth/authorize`,
-        tokenURL: `${GHE_BASE}/login/oauth/access_token`,
-        clientID: process.env.GHE_CLIENT_ID || '',
-        clientSecret: process.env.GHE_CLIENT_SECRET || '',
-        callbackURL: process.env.GHE_CALLBACK_URL || 'http://localhost:4000/auth/github/callback',
-      },
-      async (accessToken: string, _refreshToken: string, _profile: any, done: any) => {
+  const strategy = new OAuth2Strategy(
+    {
+      authorizationURL: `${GHE_BASE}/login/oauth/authorize`,
+      tokenURL: `${GHE_BASE}/login/oauth/access_token`,
+      clientID: process.env.GHE_CLIENT_ID || '',
+      clientSecret: process.env.GHE_CLIENT_SECRET || '',
+      callbackURL: process.env.GHE_CALLBACK_URL || 'http://localhost:4000/auth/github/callback',
+    },
+    async (accessToken: string, _refreshToken: string, _profile: any, done: any) => {
         try {
           const userRes = await fetch(`${GHE_API}/user`, {
             headers: { Authorization: `token ${accessToken}` },
@@ -77,8 +75,27 @@ export const initializePassport = (pool: Pool) => {
           return done(error as Error);
         }
       }
-    )
   );
+
+  // Wrap the internal OAuth2 getOAuthAccessToken to capture detailed errors
+  const originalGetToken = (strategy as any)._oauth2.getOAuthAccessToken.bind((strategy as any)._oauth2);
+  (strategy as any)._oauth2.getOAuthAccessToken = function(code: string, params: any, cb: any) {
+    console.log('[OAuth] Exchanging code for token at:', `${GHE_BASE}/login/oauth/access_token`);
+    originalGetToken(code, params, (err: any, accessToken: any, refreshToken: any, results: any) => {
+      if (err) {
+        console.error('[OAuth] Token exchange failed:', {
+          statusCode: err.statusCode,
+          data: typeof err.data === 'string' ? err.data.substring(0, 500) : err.data,
+          message: err.message,
+        });
+      } else {
+        console.log('[OAuth] Token exchange succeeded');
+      }
+      cb(err, accessToken, refreshToken, results);
+    });
+  };
+
+  passport.use('github-enterprise', strategy);
 
   passport.serializeUser((user: any, done) => {
     done(null, { id: user.id, accessToken: user._accessToken });
