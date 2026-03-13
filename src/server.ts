@@ -39,8 +39,13 @@ const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
   max: 10,
-  idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 10000,
+  idleTimeoutMillis: 20000,
+  connectionTimeoutMillis: 30000,
+  keepAlive: true,
+});
+
+pool.on('error', (err) => {
+  console.error('Unexpected pool error:', err.message);
 });
 
 // Test database connection
