@@ -29,6 +29,10 @@ import { requireAuth } from './middleware/auth';
 const app = express();
 const PORT = process.env.PORT || 4000;
 
+if (process.env.NODE_ENV === 'production') {
+  app.set('trust proxy', 1);
+}
+
 // Database connection
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
@@ -54,17 +58,19 @@ app.use(helmet({
       styleSrc: ["'self'", "'unsafe-inline'", "https://cdn.jsdelivr.net"],
       fontSrc: ["'self'", "https://cdn.jsdelivr.net", "data:"],
       imgSrc: ["'self'", "data:", "blob:", "https://avatars.githubusercontent.com", "https://*.githubusercontent.com"],
-      connectSrc: ["'self'", "http://localhost:*"],
+      connectSrc: ["'self'", "http://localhost:*", "https://*.herokuapp.com"],
       workerSrc: ["'self'", "blob:", "https://cdn.jsdelivr.net"],
     },
   },
 }));
+const allowedOrigins = [
+  process.env.FRONTEND_URL || 'http://localhost:3000',
+  'http://localhost:5173',
+].filter(Boolean);
+
 app.use(
   cors({
-    origin: [
-      process.env.FRONTEND_URL || 'http://localhost:3000',
-      'http://localhost:5173',
-    ],
+    origin: allowedOrigins,
     credentials: true,
   })
 );
