@@ -1,22 +1,25 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+export NPM_CONFIG_PRODUCTION=false
+
 if [ "${APP_TYPE:-${HEROKU_APP_TYPE:-}}" = "cms" ]; then
   echo "==> Building CMS (Express + Vite client)..."
 
   cd lightning-design-system-cms
 
   echo "  -> Installing CMS server dependencies..."
-  NODE_ENV=development npm install --production=false
+  npm install
+  echo "  -> Installed: $(ls node_modules/.bin/tsc 2>/dev/null && echo 'tsc found' || echo 'tsc NOT found')"
 
   echo "  -> Building CMS server (TypeScript)..."
-  ./node_modules/.bin/tsc
+  npm run build
 
   echo "  -> Installing CMS client dependencies..."
   cd client
-  NODE_ENV=development npm install --production=false
+  npm install
   echo "  -> Building CMS client (Vite)..."
-  ./node_modules/.bin/tsc -b && ./node_modules/.bin/vite build
+  npm run build
   cd ..
 
   echo "==> CMS build complete."
@@ -27,10 +30,11 @@ elif [ "${APP_TYPE:-${HEROKU_APP_TYPE:-}}" = "frontend" ]; then
   cd lightning-design-system
 
   echo "  -> Installing frontend dependencies..."
-  NODE_ENV=development npm install --production=false
+  npm install
+  echo "  -> Installed: $(ls node_modules/.bin/next 2>/dev/null && echo 'next found' || echo 'next NOT found')"
 
   echo "  -> Building Next.js..."
-  NODE_ENV=production ./node_modules/.bin/next build
+  npm run build
 
   echo "==> Frontend build complete."
 
