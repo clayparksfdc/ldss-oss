@@ -165,6 +165,10 @@ app.get('/api/audit', requireAuth, async (req: any, res): Promise<void> => {
 const frontendOutPath = path.resolve(__dirname, '../frontend/out');
 const fs = require('fs');
 if (fs.existsSync(frontendOutPath)) {
+  app.use('/_next', express.static(path.join(frontendOutPath, '_next'), { maxAge: '1y' }));
+  app.use('/assets', express.static(path.join(frontendOutPath, 'assets'), { maxAge: '1d' }));
+  app.use('/media', express.static(path.join(frontendOutPath, 'media'), { maxAge: '1d' }));
+
   app.use('/site', express.static(frontendOutPath));
   app.get('/site/*', (req, res) => {
     const reqPath = req.path.replace(/^\/site/, '');
