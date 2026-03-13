@@ -110,7 +110,7 @@ function preprocessLegacyComponentExamples(content: string): string {
 
     return `<div class="legacy-component-example">
 <h3 class="legacy-component-example-title">${title || 'Example'}</h3>
-<div class="legacy-component-example-preview slds-scope">${html}</div>
+<div class="legacy-component-example-preview" data-legacy-preview>${html}</div>
 <details class="legacy-component-example-code">
 <summary>View code</summary>
 <pre><code class="language-html">${escapedCode}</code></pre>

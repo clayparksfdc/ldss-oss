@@ -126,6 +126,11 @@ function generateMarkdown(component) {
 }
 
 function main() {
+  if (!fs.existsSync(VRT_PATH)) {
+    console.error(`VRT file not found: ${VRT_PATH}`);
+    console.error('The vrt-all-components.html source was removed. Legacy component markdown files are the source of truth.');
+    process.exit(1);
+  }
   console.log('Reading VRT file...');
   const vrtHtml = fs.readFileSync(VRT_PATH, 'utf-8');
 

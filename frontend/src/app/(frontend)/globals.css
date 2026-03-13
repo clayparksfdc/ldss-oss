@@ -474,8 +474,7 @@ html.dark {
     color: var(--slds-navy);
   }
   .legacy-component-example-preview {
-    padding: 1rem;
-    background: var(--surface);
+    display: block;
     min-height: 2rem;
   }
   .legacy-component-example-code {
