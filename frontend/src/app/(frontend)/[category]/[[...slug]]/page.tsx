@@ -154,6 +154,12 @@ export default async function ContentPage({ params }: ContentPageProps) {
   );
 }
 
+const EXPLICIT_ROUTES = new Set([
+  'legacy/blueprints',
+  'legacy/slds-v1',
+  'develop/styling-hook-visualizer',
+]);
+
 export async function generateStaticParams() {
   const { parseNavigationMarkdown } = await import('@/lib/parse-navigation-md');
   const { getAllContentFiles } = await import('@/lib/content');
@@ -166,6 +172,7 @@ export async function generateStaticParams() {
   for (const cat of nav) {
     for (const page of cat.children) {
       const url = page.url.replace(/^\//, '');
+      if (EXPLICIT_ROUTES.has(url)) continue;
       const parts = url.split('/');
       const category = parts[0];
       const slug = parts.length > 1 ? parts.slice(1) : undefined;
@@ -177,6 +184,7 @@ export async function generateStaticParams() {
       if (page.tabs) {
         for (const tab of page.tabs) {
           const tabUrl = tab.url.replace(/^\//, '');
+          if (EXPLICIT_ROUTES.has(tabUrl)) continue;
           const tabParts = tabUrl.split('/');
           const tabCat = tabParts[0];
           const tabSlug = tabParts.length > 1 ? tabParts.slice(1) : undefined;
@@ -195,6 +203,8 @@ export async function generateStaticParams() {
   for (const file of files) {
     const rel = pathMod.relative(contentDir, file).replace(/\.mdx?$/, '').replace(/\\/g, '/');
     if (rel === 'home' || rel === 'navigation') continue;
+    const routeKey = rel;
+    if (EXPLICIT_ROUTES.has(routeKey)) continue;
     const parts = rel.split('/');
     const category = parts[0];
     const slug = parts.length > 1 ? parts.slice(1) : undefined;

@@ -167,6 +167,7 @@ if (fs.existsSync(frontendOutPath)) {
   app.use('/_next', express.static(path.join(frontendOutPath, '_next'), { maxAge: '1y' }));
   app.use('/assets', express.static(path.join(frontendOutPath, 'assets'), { maxAge: '1d' }));
   app.use('/media', express.static(path.join(frontendOutPath, 'media'), { maxAge: '1d' }));
+  app.use('/tools', express.static(path.join(frontendOutPath, 'tools'), { maxAge: '1d' }));
 
   app.use(express.static(frontendOutPath, { index: 'index.html' }));
 
