@@ -1,5 +1,6 @@
 import express, { Response } from 'express';
 import { Pool } from 'pg';
+import { logAudit } from '../lib/audit';
 import { AuthenticatedRequest, AppError, LockResponse, FileLock } from '../types';
 import { requireAuth, requireEditor } from '../middleware/auth';
 import { asyncHandler } from '../middleware/error';
@@ -133,11 +134,7 @@ export const createLocksRouter = (pool: Pool) => {
 
       res.json(response);
 
-      // Log the lock acquisition
-      await pool.query(
-        'INSERT INTO audit_log (user_id, action, file_path) VALUES ($1, $2, $3)',
-        [req.user!.id, 'acquire_lock', filePath]
-      );
+      logAudit(pool, req.user!.id, 'acquire_lock', { file_path: filePath });
     })
   );
 
@@ -170,11 +167,7 @@ export const createLocksRouter = (pool: Pool) => {
         message: 'Lock released',
       });
 
-      // Log the lock release
-      await pool.query(
-        'INSERT INTO audit_log (user_id, action, file_path) VALUES ($1, $2, $3)',
-        [req.user!.id, 'release_lock', filePath]
-      );
+      logAudit(pool, req.user!.id, 'release_lock', { file_path: filePath });
     })
   );
 

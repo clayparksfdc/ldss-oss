@@ -4,6 +4,7 @@ import { Strategy as OAuth2Strategy } from 'passport-oauth2';
 import { Pool } from 'pg';
 import { AuthenticatedRequest, User, AppError } from '../types';
 import { asyncHandler } from '../middleware/error';
+import { logAudit } from '../lib/audit';
 
 const router = express.Router();
 
@@ -64,10 +65,9 @@ export const initializePassport = (pool: Pool) => {
             user = created.rows[0];
           }
 
-          await pool.query(
-            'INSERT INTO audit_log (user_id, action, metadata) VALUES ($1, $2, $3)',
-            [user.id, 'login', JSON.stringify({ email: user.email, github_login: ghUser.login })]
-          );
+          logAudit(pool, user.id, 'login', {
+            metadata: { email: user.email, github_login: ghUser.login },
+          });
 
           (user as any)._accessToken = accessToken;
           return done(null, user);

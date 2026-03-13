@@ -6,6 +6,7 @@ import helmet from 'helmet';
 import { Pool } from 'pg';
 import connectPgSimple from 'connect-pg-simple';
 import dotenv from 'dotenv';
+import fs from 'fs';
 
 // Load environment variables
 dotenv.config();
@@ -33,10 +34,13 @@ if (process.env.NODE_ENV === 'production') {
   app.set('trust proxy', 1);
 }
 
-// Database connection
+// Database connection with tuned pool for Heroku
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
+  max: 10,
+  idleTimeoutMillis: 30000,
+  connectionTimeoutMillis: 10000,
 });
 
 // Test database connection
@@ -48,9 +52,7 @@ pool.query('SELECT NOW()', (err, res) => {
   }
 });
 
-// GitHub repo config (per-user tokens are attached at request time via auth middleware)
-
-// Middleware
+// Middleware (no session yet)
 app.use(helmet({
   contentSecurityPolicy: {
     directives: {
@@ -80,7 +82,64 @@ app.use(
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-// Session configuration
+// ── NO-SESSION routes (skip DB for static content) ──
+app.get('/health', (_req, res) => {
+  res.json({
+    status: 'ok',
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || 'development',
+  });
+});
+
+app.get('/legacy/slds-v1', (_req, res) => {
+  res.redirect(302, 'https://v1.lightningdesignsystem.com/');
+});
+
+const frontendOutPath = path.resolve(__dirname, '../frontend/out');
+const frontendExists = fs.existsSync(frontendOutPath);
+
+if (frontendExists) {
+  app.use('/_next', express.static(path.join(frontendOutPath, '_next'), { maxAge: '1y' }));
+  app.use('/assets', express.static(path.join(frontendOutPath, 'assets'), { maxAge: '1d' }));
+  app.use('/media', express.static(path.join(frontendOutPath, 'media'), { maxAge: '1d' }));
+  app.use('/tools', express.static(path.join(frontendOutPath, 'tools'), { maxAge: '1d' }));
+  app.use(express.static(frontendOutPath, { index: 'index.html' }));
+
+  // Build HTML route cache at startup (avoids fs.existsSync on every request)
+  const htmlRouteCache = new Map<string, string>();
+  const walk = (dir: string, base = '') => {
+    try {
+      const entries = fs.readdirSync(dir, { withFileTypes: true });
+      for (const e of entries) {
+        const rel = path.join(base, e.name);
+        if (e.isDirectory()) {
+          const idx = path.join(dir, e.name, 'index.html');
+          if (fs.existsSync(idx)) htmlRouteCache.set('/' + rel, idx);
+          walk(path.join(dir, e.name), rel);
+        } else if (e.name.endsWith('.html') && e.name !== 'index.html') {
+          htmlRouteCache.set('/' + rel.replace(/\.html$/, ''), path.join(dir, e.name));
+        }
+      }
+    } catch (_) { /* ignore */ }
+  };
+  walk(frontendOutPath);
+  const notFoundPath = path.join(frontendOutPath, '404.html');
+
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api') || req.path.startsWith('/auth') ||
+        req.path.startsWith('/editor') || req.path === '/health') {
+      return next();
+    }
+    const cached = htmlRouteCache.get(req.path);
+    if (cached) {
+      res.sendFile(cached);
+    } else {
+      res.sendFile(fs.existsSync(notFoundPath) ? notFoundPath : path.join(frontendOutPath, 'index.html'));
+    }
+  });
+}
+
+// ── Session & auth (only for /auth, /api, /editor) ──
 const PgSession = connectPgSimple(session);
 app.use(
   session({
@@ -101,37 +160,23 @@ app.use(
   })
 );
 
-// Initialize Passport
 const passportInstance = initializePassport(pool);
 app.use(passportInstance.initialize());
 app.use(passportInstance.session());
 
-// Health check endpoint
-app.get('/health', (_req, res) => {
-  res.json({
-    status: 'ok',
-    timestamp: new Date().toISOString(),
-    environment: process.env.NODE_ENV || 'development',
-  });
-});
-
-// ── Public routes ──
 app.use('/auth', authRouter);
 
-// Editor SPA (CMS admin panel)
 const editorPath = path.resolve(__dirname, '../public/editor');
 app.use('/editor', express.static(editorPath));
 app.get('/editor/*', (_req, res) => {
   res.sendFile(path.join(editorPath, 'index.html'));
 });
 
-// ── Auth gate: all /api/* routes require a valid GitHub session ──
 app.use('/api', (req, res, next) => {
   if (req.user) return next();
   res.status(401).json({ error: 'Authentication required' });
 });
 
-// ── Protected API routes ──
 app.use('/api/content', createContentRouter(pool));
 app.use('/api/github', createGitHubRouter(pool));
 app.use('/api/navigation', createNavigationRouter(pool));
@@ -160,39 +205,7 @@ app.get('/api/audit', requireAuth, async (req: any, res): Promise<void> => {
   }
 });
 
-// Redirect SLDS v1 link to external site (no page load)
-app.get('/legacy/slds-v1', (_req, res) => {
-  res.redirect(302, 'https://v1.lightningdesignsystem.com/');
-});
-
-// ── Static frontend (Next.js export) served at root ──
-const frontendOutPath = path.resolve(__dirname, '../frontend/out');
-const fs = require('fs');
-if (fs.existsSync(frontendOutPath)) {
-  app.use('/_next', express.static(path.join(frontendOutPath, '_next'), { maxAge: '1y' }));
-  app.use('/assets', express.static(path.join(frontendOutPath, 'assets'), { maxAge: '1d' }));
-  app.use('/media', express.static(path.join(frontendOutPath, 'media'), { maxAge: '1d' }));
-  app.use('/tools', express.static(path.join(frontendOutPath, 'tools'), { maxAge: '1d' }));
-
-  app.use(express.static(frontendOutPath, { index: 'index.html' }));
-
-  app.get('*', (req, res, next) => {
-    if (req.path.startsWith('/api') || req.path.startsWith('/auth') ||
-        req.path.startsWith('/editor') || req.path === '/health') {
-      return next();
-    }
-    const reqPath = req.path;
-    const htmlFile = path.join(frontendOutPath, reqPath, 'index.html');
-    const directFile = path.join(frontendOutPath, reqPath + '.html');
-    if (fs.existsSync(htmlFile)) {
-      res.sendFile(htmlFile);
-    } else if (fs.existsSync(directFile)) {
-      res.sendFile(directFile);
-    } else {
-      res.sendFile(path.join(frontendOutPath, '404.html'));
-    }
-  });
-} else {
+if (!frontendExists) {
   app.get('/', (_req, res) => res.redirect('/editor'));
   app.use(notFoundHandler);
 }
