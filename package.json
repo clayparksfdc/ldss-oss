@@ -8,9 +8,5 @@
   "scripts": {
     "heroku-postbuild": "bash ./scripts/heroku-build.sh"
   },
-  "devDependencies": {
-    "@types/node": "^25.4.0",
-    "node-html-parser": "^7.1.0",
-    "tsx": "^4.21.0"
-  }
+  "dependencies": {}
 }
