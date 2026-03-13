@@ -58,9 +58,11 @@ app.use(helmet({
       scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://cdn.jsdelivr.net"],
       styleSrc: ["'self'", "'unsafe-inline'", "https://cdn.jsdelivr.net"],
       fontSrc: ["'self'", "https://cdn.jsdelivr.net", "data:"],
-      imgSrc: ["'self'", "data:", "blob:", "https://avatars.githubusercontent.com", "https://*.githubusercontent.com"],
+      imgSrc: ["'self'", "data:", "blob:", "https://avatars.githubusercontent.com", "https://*.githubusercontent.com", "https://res.cloudinary.com"],
       connectSrc: ["'self'", "http://localhost:*", "https://*.herokuapp.com"],
       workerSrc: ["'self'", "blob:", "https://cdn.jsdelivr.net"],
+      frameSrc: ["'self'", "https://*.storybook.js.org", "https://*.chromatic.com"],
+      mediaSrc: ["'self'", "https://res.cloudinary.com"],
     },
   },
 }));
@@ -116,15 +118,12 @@ app.get('/health', (_req, res) => {
 // ── Public routes ──
 app.use('/auth', authRouter);
 
-// Editor SPA (public — the SPA itself shows login screen for unauthenticated users)
+// Editor SPA (CMS admin panel)
 const editorPath = path.resolve(__dirname, '../public/editor');
 app.use('/editor', express.static(editorPath));
 app.get('/editor/*', (_req, res) => {
   res.sendFile(path.join(editorPath, 'index.html'));
 });
-
-// Root redirects to editor
-app.get('/', (_req, res) => res.redirect('/editor'));
 
 // ── Auth gate: all /api/* routes require a valid GitHub session ──
 app.use('/api', (req, res, next) => {
@@ -161,7 +160,7 @@ app.get('/api/audit', requireAuth, async (req: any, res): Promise<void> => {
   }
 });
 
-// ── Static frontend (Next.js export) ──
+// ── Static frontend (Next.js export) served at root ──
 const frontendOutPath = path.resolve(__dirname, '../frontend/out');
 const fs = require('fs');
 if (fs.existsSync(frontendOutPath)) {
@@ -169,9 +168,14 @@ if (fs.existsSync(frontendOutPath)) {
   app.use('/assets', express.static(path.join(frontendOutPath, 'assets'), { maxAge: '1d' }));
   app.use('/media', express.static(path.join(frontendOutPath, 'media'), { maxAge: '1d' }));
 
-  app.use('/site', express.static(frontendOutPath));
-  app.get('/site/*', (req, res) => {
-    const reqPath = req.path.replace(/^\/site/, '');
+  app.use(express.static(frontendOutPath, { index: 'index.html' }));
+
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api') || req.path.startsWith('/auth') ||
+        req.path.startsWith('/editor') || req.path === '/health') {
+      return next();
+    }
+    const reqPath = req.path;
     const htmlFile = path.join(frontendOutPath, reqPath, 'index.html');
     const directFile = path.join(frontendOutPath, reqPath + '.html');
     if (fs.existsSync(htmlFile)) {
@@ -182,10 +186,10 @@ if (fs.existsSync(frontendOutPath)) {
       res.sendFile(path.join(frontendOutPath, '404.html'));
     }
   });
+} else {
+  app.get('/', (_req, res) => res.redirect('/editor'));
+  app.use(notFoundHandler);
 }
-
-// 404 handler
-app.use(notFoundHandler);
 
 // Global error handler (must be last)
 app.use(errorHandler);

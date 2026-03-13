@@ -1,421 +1,262 @@
-# Lightning Design System - Markdown-First Migration
+# Lightning Design System 2 — Documentation Site & CMS
 
-**Status**: ✅ **FULLY IMPLEMENTED** - Ready for deployment
+A markdown-driven documentation site for the Salesforce Lightning Design System 2, paired with a GitHub-backed CMS for content management.
 
-This repository contains the complete implementation of the new GitHub-native, markdown-first Lightning Design System documentation site.
+**Live:** [https://ldss-cms-9e2bad355514.herokuapp.com](https://ldss-cms-9e2bad355514.herokuapp.com)
+**CMS Editor:** [https://ldss-cms-9e2bad355514.herokuapp.com/editor](https://ldss-cms-9e2bad355514.herokuapp.com/editor)
 
----
+## Project Structure
 
-## Architecture Overview
-
-This project uses a **two-repository approach**:
-
-### 1. Frontend (Public Site) - `lightning-design-system/`
-
-**Tech Stack:**
-- Next.js 15 with App Router
-- TypeScript 5.6
-- Tailwind CSS v4
-- Unified/Remark/Rehype markdown pipeline
-
-**Features:**
-- 100% static site generation
-- Custom markdown directives (callouts, component demos)
-- Auto-generated navigation from file tree
-- GitHub Flavored Markdown support
-- SLDS-inspired design system
-
-**Hosting:** Vercel (or any static host)
-
-[View Frontend README →](./lightning-design-system/README.md)
-
-### 2. Backend (CMS) - `lightning-design-system-cms/`
-
-**Tech Stack:**
-- Express.js with TypeScript
-- PostgreSQL for sessions, drafts, and locks
-- Octokit for GitHub API integration
-- Passport.js for Salesforce SSO
-
-**Features:**
-- Web-based markdown editor (to be built)
-- GitHub API integration (read/write files)
-- Pull request automation
-- File locking system
-- Audit logging
-
-**Hosting:** Heroku (or any Node.js host)
-
-[View CMS Backend README →](./lightning-design-system-cms/README.md)
-
----
-
-## Migration Status
-
-### ✅ Completed (100%)
-
-1. **Frontend Infrastructure**
-   - ✅ Next.js 15 project with TypeScript
-   - ✅ Tailwind CSS v4 with SLDS theme
-   - ✅ Markdown parser with custom directives
-   - ✅ Auto-generated navigation
-   - ✅ Layout components (Header, Sidebar, Footer)
-   - ✅ Markdown components (Callout, ComponentDemo, CodeBlock)
-   - ✅ Production build tested (passing)
-
-2. **CMS Backend**
-   - ✅ Express.js server with TypeScript
-   - ✅ PostgreSQL schema (5 tables)
-   - ✅ Salesforce SSO authentication
-   - ✅ GitHub API integration (22 endpoints)
-   - ✅ File locking system
-   - ✅ Draft management
-   - ✅ Audit logging
-   - ✅ Docker deployment setup
-
-3. **Content Migration**
-   - ✅ 499 pages exported to markdown
-   - ✅ 362 images migrated
-   - ✅ Content organized by category
-   - ✅ Frontmatter metadata complete
-   - ✅ Image paths validated (0 broken links)
-
----
-
-## Quick Start
-
-### Option 1: Frontend Only (No CMS)
-
-```bash
-cd lightning-design-system
-npm install
-npm run dev
-# Open http://localhost:3000
+```
+/
+├── content/                 # Markdown content (pages, navigation, data)
+│   ├── navigation.md        # Site navigation tree (categories, pages, tabs)
+│   ├── home.md              # Homepage content
+│   ├── component/           # Component documentation
+│   ├── foundation/          # Foundation pages
+│   ├── get-started/         # Getting started guides
+│   └── ...                  # Other content categories
+├── frontend/                # Next.js static site (SSG)
+│   ├── src/
+│   │   ├── app/             # Next.js App Router pages
+│   │   ├── components/      # React UI components
+│   │   └── lib/             # Content parsing, markdown processing, navigation
+│   ├── out/                 # Pre-built static HTML (committed for Heroku)
+│   ├── next.config.ts       # Static export config (output: 'export')
+│   └── package.json
+├── client/                  # CMS editor SPA (Vite + React + TypeScript)
+│   ├── src/
+│   │   ├── App.tsx           # Main editor app with auth gating
+│   │   ├── components/       # Editor panels, file browser, nav manager
+│   │   └── extensions/       # Tiptap rich-text editor extensions
+│   └── package.json
+├── src/                     # CMS Express server (TypeScript)
+│   ├── server.ts            # Main server — serves API, editor, and frontend
+│   ├── routes/              # Auth, content, GitHub, navigation, tokens, etc.
+│   ├── services/            # GitHub API service (Octokit)
+│   ├── middleware/          # Auth guards, error handling
+│   └── types/               # TypeScript type definitions
+├── public/editor/           # Pre-built CMS editor assets (committed)
+├── schema.sql               # PostgreSQL schema
+├── package.json             # CMS server dependencies & Heroku scripts
+├── tsconfig.json            # CMS server TypeScript config
+├── Procfile                 # Heroku process definition
+└── .env                     # Local environment variables (not committed)
 ```
 
-### Option 2: Full Stack (Frontend + CMS)
+## How It Works
 
-**Terminal 1: Frontend**
-```bash
-cd lightning-design-system
-npm install
-npm run dev
-# Open http://localhost:3000
-```
+### Frontend (Documentation Site)
 
-**Terminal 2: CMS Backend**
+The documentation site is a **statically exported Next.js app**. All pages are pre-rendered at build time from markdown files in `content/`. The site includes:
+
+- Dark/light/system theme toggle with localStorage persistence
+- Sidebar navigation driven by `content/navigation.md`
+- Storybook component embeds with theme-synced light/dark toggles
+- Custom markdown directives for hero banners, card grids, callouts, video embeds
+- Searchable component library with tabbed sub-pages (usage, develop, accessibility)
+
+### CMS (Content Management)
+
+The CMS is an **Express.js server** with a **Vite React SPA** editor. Content editors authenticate with GitHub Enterprise OAuth and can:
+
+- Browse and edit markdown content with a rich-text (Tiptap) or code (Monaco) editor
+- Preview rendered content in real-time
+- Publish changes as GitHub pull requests (attributed to the authenticated user)
+- Manage navigation ordering via drag-and-drop
+- Sync local content with the remote master branch
+
+On save/publish, the CMS creates a new branch and PR on the target GitHub repo using the authenticated user's token (Git Trees API for atomic multi-file commits).
+
+## Local Development
+
+### Prerequisites
+
+- Node.js 20+ (22+ recommended)
+- PostgreSQL running locally
+- A GitHub Enterprise OAuth application ([register one here](https://git.soma.salesforce.com/settings/applications/new))
+
+### 1. Set up the database
+
 ```bash
-cd lightning-design-system-cms
-npm install
-cp .env.example .env
-# Edit .env with your credentials
 createdb ldss_cms
 psql -d ldss_cms -f schema.sql
-npm run dev
-# Open http://localhost:4000
 ```
 
-### Option 3: Docker (Full Stack)
+### 2. Configure environment
 
 ```bash
-cd lightning-design-system-cms
 cp .env.example .env
-# Edit .env with your credentials
-docker-compose up -d
+# Edit .env with your database URL, GitHub OAuth credentials, etc.
 ```
 
----
+Key variables:
 
-## Repository Structure
+| Variable | Description |
+|---|---|
+| `DATABASE_URL` | PostgreSQL connection string |
+| `GHE_BASE_URL` | GitHub Enterprise base URL |
+| `GHE_CLIENT_ID` | OAuth app client ID |
+| `GHE_CLIENT_SECRET` | OAuth app client secret |
+| `GHE_CALLBACK_URL` | OAuth callback (`http://localhost:4000/auth/github/callback`) |
+| `GITHUB_OWNER` | Target repo owner |
+| `GITHUB_REPO` | Target repo name |
+| `GITHUB_CONTENT_PATH` | Path prefix for content in the repo (e.g. `content`) |
+| `SESSION_SECRET` | Session encryption secret |
 
-```
-ldss-oss-github/
-├── lightning-design-system/          # Frontend (Next.js)
-│   ├── content/                      # 499 markdown files
-│   │   ├── component/                # Component docs (71 files)
-│   │   ├── foundation/               # Foundation docs (52 files)
-│   │   ├── guideline/                # Guidelines (40 files)
-│   │   ├── develop/                  # Developer docs (36 files)
-│   │   ├── pattern/                  # Patterns (17 files)
-│   │   ├── design/                   # Design docs (16 files)
-│   │   └── general/                  # General docs (268 files)
-│   ├── public/assets/images/         # 362 images
-│   ├── src/
-│   │   ├── app/                      # Next.js app router
-│   │   ├── components/               # React components
-│   │   └── lib/                      # Utilities (markdown, navigation)
-│   ├── package.json
-│   ├── next.config.ts
-│   ├── tailwind.config.ts
-│   └── README.md
-│
-├── lightning-design-system-cms/      # CMS Backend (Express.js)
-│   ├── src/
-│   │   ├── server.ts                 # Express app
-│   │   ├── routes/                   # API routes (5 files)
-│   │   ├── services/                 # Business logic (2 files)
-│   │   ├── middleware/               # Auth, error handling (2 files)
-│   │   └── types/                    # TypeScript definitions
-│   ├── schema.sql                    # Database schema
-│   ├── Dockerfile
-│   ├── docker-compose.yml
-│   └── README.md
-│
-├── scripts/                          # Migration scripts
-│   ├── export-payload-to-markdown.js # Payload → Markdown converter
-│   ├── validate-markdown.js          # Validation tools
-│   └── README.md
-│
-├── Foundational.md                   # High-Level Design document
-├── SPRINT_PLAN.md                    # 4-week sprint plan
-└── README.md                         # This file
-```
-
----
-
-## Workflow: How It All Works Together
-
-### For Developers & AI Agents (Direct GitHub)
-
-```mermaid
-graph LR
-    A[Developer/Agent] --> B[Clone Repo]
-    B --> C[Edit Markdown Files]
-    C --> D[Create PR]
-    D --> E[Code Review]
-    E --> F[Merge to Main]
-    F --> G[GitHub Actions]
-    G --> H[Deploy to Vercel]
-```
-
-**Steps:**
-1. Clone `lightning-design-system` repo
-2. Edit markdown files in `content/`
-3. Create pull request
-4. Review and merge
-5. GitHub Actions auto-deploys to Vercel
-
-### For Designers & Marketing (CMS)
-
-```mermaid
-graph LR
-    A[Designer] --> B[Login to CMS]
-    B --> C[Edit in Monaco Editor]
-    C --> D[Save Draft]
-    D --> E[Click Publish]
-    E --> F[CMS Creates PR]
-    F --> G[Developer Reviews]
-    G --> H[Merge & Deploy]
-```
-
-**Steps:**
-1. Login to CMS (Salesforce SSO)
-2. Browse and select page to edit
-3. Edit markdown in Monaco editor with live preview
-4. Save draft (stored in PostgreSQL)
-5. Click "Publish" → CMS creates PR via GitHub API
-6. Developer reviews PR
-7. Merge → auto-deploy to production
-
----
-
-## Key Features
-
-### Frontend (Public Site)
-
-✅ **Fast & Static**
-- 100% pre-rendered HTML
-- No database queries at runtime
-- Hosted on Vercel edge network
-- Lighthouse score: 95+
-
-✅ **Markdown-First**
-- GitHub Flavored Markdown support
-- Custom directives for SLDS components
-- Syntax highlighting for code blocks
-- Auto-generated navigation
-
-✅ **Developer-Friendly**
-- TypeScript throughout
-- Hot module reloading
-- File-based content (no CMS lock-in)
-- Version controlled content
-
-✅ **Agent-Optimized**
-- AI agents can contribute via standard PR workflow
-- Markdown is LLM-native format
-- CI/CD validates content on every PR
-
-### CMS Backend
-
-✅ **Authentication**
-- Salesforce SSO (OAuth 2.0)
-- Role-based access (Admin, Editor, Viewer)
-- Session management
-
-✅ **Content Management**
-- Web-based markdown editor
-- Live preview pane
-- Draft system (auto-save)
-- File locking (prevents conflicts)
-
-✅ **GitHub Integration**
-- Read/write files via API
-- Automatic PR creation
-- Batch publishing
-- Commit message templates
-
-✅ **Audit & Compliance**
-- Complete activity logging
-- User tracking
-- File access history
-- PR tracking
-
----
-
-## Environment Variables
-
-### Frontend (Next.js)
-
-No environment variables required for development. For production:
-
-```env
-NEXT_PUBLIC_SITE_URL=https://lightningdesignsystem.com
-```
-
-### Backend (CMS)
-
-Create `lightning-design-system-cms/.env`:
-
-```env
-# Server
-NODE_ENV=development
-PORT=4000
-
-# Database
-DATABASE_URL=postgresql://localhost:5432/ldss_cms
-
-# Session
-SESSION_SECRET=your-secure-random-string-here
-
-# GitHub
-GITHUB_TOKEN=ghp_your_github_personal_access_token
-GITHUB_OWNER=salesforce-ux
-GITHUB_REPO=lightning-design-system
-
-# Salesforce SSO
-SALESFORCE_CLIENT_ID=your_connected_app_client_id
-SALESFORCE_CLIENT_SECRET=your_connected_app_client_secret
-SALESFORCE_CALLBACK_URL=http://localhost:4000/auth/salesforce/callback
-SALESFORCE_AUTH_URL=https://login.salesforce.com/services/oauth2/authorize
-SALESFORCE_TOKEN_URL=https://login.salesforce.com/services/oauth2/token
-```
-
----
-
-## Deployment
-
-### Frontend to Vercel
+### 3. Install and run the CMS server
 
 ```bash
-cd lightning-design-system
-vercel
-# Follow prompts, configure domain
+npm install
+npm run dev
+# Server starts at http://localhost:4000
+# Editor at http://localhost:4000/editor
 ```
 
-Or use GitHub integration (automatic deployment on push to main).
-
-### Backend to Heroku
+### 4. Run the CMS editor client (dev mode with hot reload)
 
 ```bash
-cd lightning-design-system-cms
-heroku create ldss-cms-backend
-heroku addons:create heroku-postgresql:essential-0
-heroku config:set $(cat .env | xargs)
-git push heroku main
-heroku run psql -d $DATABASE_URL -f schema.sql
+cd client
+npm install
+npm run dev
+# Vite dev server at http://localhost:5173
 ```
 
-See detailed deployment guides:
-- [Frontend Deployment](./lightning-design-system/README.md#deployment)
-- [Backend Deployment](./lightning-design-system-cms/DEPLOYMENT.md)
+### 5. Run the frontend site (dev mode)
 
----
+```bash
+cd frontend
+npm install
+npm run dev
+# Next.js dev server at http://localhost:3000
+```
 
-## Documentation
+### 6. Build the frontend static export
 
-### High-Level Design
-- [Foundational.md](./Foundational.md) - Complete architecture overview (500+ lines)
-- [SPRINT_PLAN.md](./SPRINT_PLAN.md) - 4-week implementation plan
+```bash
+cd frontend
+npm run build
+# Output in frontend/out/ — 932+ static HTML pages
+```
 
-### Frontend
-- [lightning-design-system/README.md](./lightning-design-system/README.md) - Setup & API reference
-- [lightning-design-system/QUICK_START.md](./lightning-design-system/QUICK_START.md) - Get started in 3 steps
-- [lightning-design-system/PROJECT_STRUCTURE.md](./lightning-design-system/PROJECT_STRUCTURE.md) - File structure
+## Heroku Infrastructure
 
-### Backend
-- [lightning-design-system-cms/README.md](./lightning-design-system-cms/README.md) - Feature overview
-- [lightning-design-system-cms/QUICK_START.md](./lightning-design-system-cms/QUICK_START.md) - 5-minute setup
-- [lightning-design-system-cms/API_EXAMPLES.md](./lightning-design-system-cms/API_EXAMPLES.md) - cURL examples
-- [lightning-design-system-cms/DEPLOYMENT.md](./lightning-design-system-cms/DEPLOYMENT.md) - Platform-specific guides
+The entire application runs on a **single Heroku dyno** (`ldss-cms`). The CMS server is the root-level app, and it also serves the pre-built static frontend.
 
-### Migration
-- [scripts/README.md](./scripts/README.md) - Script documentation
-- [scripts/EXPORT_SUMMARY.md](./scripts/EXPORT_SUMMARY.md) - Migration results
+### Architecture
 
----
+```
+                   ┌─────────────────────────────────────┐
+                   │         Heroku (ldss-cms)            │
+                   │                                     │
+  Browser ──────► │  Express Server (dist/server.js)    │
+                   │    │                                │
+                   │    ├── /          → Static frontend  │
+                   │    ├── /editor    → CMS editor SPA   │
+                   │    ├── /auth/*    → GitHub OAuth      │
+                   │    ├── /api/*     → CMS REST API      │
+                   │    └── /health    → Health check      │
+                   │                                     │
+                   │  PostgreSQL (Heroku addon)           │
+                   └─────────────────────────────────────┘
+```
 
-## What's Next
+### How Heroku builds
 
-### Immediate (Week 1)
-- [ ] Set up GitHub repository (create `salesforce-ux/lightning-design-system`)
-- [ ] Configure Salesforce Connected App (OAuth)
-- [ ] Deploy frontend to Vercel
-- [ ] Deploy CMS backend to Heroku
-- [ ] Test end-to-end workflow
+1. Heroku detects the root `package.json` and runs `npm install`
+2. The `heroku-postbuild` script runs `tsc` to compile the Express server
+3. The CMS editor SPA and frontend static site are **pre-built and committed** to avoid npm subdirectory install issues on Heroku
+4. `Procfile` starts the server: `web: node dist/server.js`
 
-### Short-term (Weeks 2-4)
-- [ ] Build CMS frontend UI (React SPA with Monaco Editor)
-- [ ] Integrate CMS frontend with backend API
-- [ ] User testing with design team
-- [ ] Content QA (review all 499 pages)
-- [ ] Add search functionality (Pagefind or Algolia)
+### Heroku config vars
 
-### Long-term (Months 2-3)
-- [ ] Navigation manager UI (drag-drop reordering)
-- [ ] Analytics dashboard
-- [ ] Version support (v2.x, v3.x docs)
-- [ ] Community contribution workflow
-- [ ] Internationalization
+| Variable | Value |
+|---|---|
+| `NODE_ENV` | `production` |
+| `DATABASE_URL` | Auto-set by Heroku PostgreSQL addon |
+| `SESSION_SECRET` | Random secret for session encryption |
+| `GHE_BASE_URL` | `https://git.soma.salesforce.com` |
+| `GHE_CLIENT_ID` | Production OAuth app client ID |
+| `GHE_CLIENT_SECRET` | Production OAuth app client secret |
+| `GHE_CALLBACK_URL` | `https://ldss-cms-9e2bad355514.herokuapp.com/auth/github/callback` |
+| `GITHUB_OWNER` | `clay-park` |
+| `GITHUB_REPO` | `ldss-oss-github` |
+| `GITHUB_CONTENT_PATH` | `content` |
+| `CONTENT_DIR` | `/app/content` |
 
----
+### Deploying
 
-## Success Metrics
+```bash
+# Push to Heroku
+git push heroku-cms master
 
-| Metric | Current | Target | Status |
-|--------|---------|--------|--------|
-| Pages Migrated | 499/499 | 499 | ✅ 100% |
-| Build Status | ✅ Passing | ✅ Passing | ✅ Complete |
-| CMS Backend | ✅ Complete | ✅ Complete | ✅ Complete |
-| Frontend | ✅ Complete | ✅ Complete | ✅ Complete |
-| Documentation | 3,000+ lines | Complete | ✅ Complete |
+# Push to GitHub
+git push origin master
+```
 
----
+### Rebuilding the frontend
 
-## Team & Credits
+If you change any content or frontend code, rebuild the static export locally and commit:
 
-**Tech Lead:** Clay Park (Design Systems Engineering)
-**Organization:** Salesforce UX - Lightning Design System Team
-**Implementation Date:** March 11-15, 2026
+```bash
+cd frontend && npm run build
+cd ..
+git add frontend/out/ -f
+git commit -m "Rebuild frontend static export"
+git push heroku-cms master
+```
 
----
+### Rebuilding the CMS editor
 
-## Support & Contribution
+If you change the CMS editor client code:
 
-- **Issues**: [GitHub Issues](https://github.com/salesforce-ux/lightning-design-system/issues)
-- **Slack**: #lightning-design-system
-- **Email**: designsystems@salesforce.com
+```bash
+cd client && npm run build
+cd ..
+git add public/editor/
+git commit -m "Rebuild CMS editor"
+git push heroku-cms master
+```
 
----
+## Content Authoring
 
-**Built with ❤️ by the Salesforce Design Systems Engineering Team**
+All site content lives in the `content/` directory as markdown files. The navigation structure is defined in `content/navigation.md` using an indented list format:
+
+```markdown
+- Get Started
+  - [Get Started](/get-started/get-started)
+  - [Admins](/get-started/admins)
+  - [Designers](/get-started/designers)
+- Components
+  - [Button](/component/button) {sidebar}
+    - [Usage](/component/button--usage)
+    - [Develop](/component/button--develop)
+    - [Accessibility](/component/button--accessibility)
+```
+
+- **Level 0** (no indent): Category header
+- **Level 1** (2 spaces): Page entry as `[Name](/category/slug)`
+- **Level 2** (4+ spaces): Sub-tab of the parent page
+- **`{sidebar}`** flag: Show sub-tabs in the sidebar navigation
+
+### Custom Directives
+
+The markdown processor supports custom directives for rich content:
+
+- `:::hero-banner` — Full-width hero banners with background images
+- `:::card-grid` — Responsive card layouts
+- `:::callout` — Info/warning/tip callout blocks
+- `:::component-demo` — Storybook iframe embeds with theme toggles
+- `:::code-example` — Syntax-highlighted code blocks
+- `:::video-embed` — Video players
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend site | Next.js 15 (static export), React 19, Tailwind CSS v4 |
+| CMS server | Express.js, TypeScript, Passport.js (OAuth2) |
+| CMS editor | Vite, React, Tiptap (rich text), Monaco (code), dnd-kit (drag-and-drop) |
+| Database | PostgreSQL (sessions, drafts, locks, audit log) |
+| Git integration | Octokit (GitHub API — branches, commits, PRs) |
+| Hosting | Heroku (single dyno + PostgreSQL addon) |
