@@ -162,7 +162,7 @@ ${repoFiles.map((f) => `- \`${f.path}\``).join('\n')}
       // Overwrite the local file with what's on the default branch
       const fs = await import('fs');
       const path = await import('path');
-      const contentDir = process.env.CONTENT_DIR || path.default.resolve(__dirname, '../../../content');
+      const contentDir = process.env.CONTENT_DIR || path.default.resolve(__dirname, '../../content');
       const resolved = path.default.resolve(contentDir, localPath);
 
       if (!resolved.startsWith(contentDir)) {

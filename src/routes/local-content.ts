@@ -12,8 +12,8 @@ interface FileEntry {
 function resolveContentDir(): string {
   if (process.env.CONTENT_DIR) return process.env.CONTENT_DIR;
   const candidates = [
-    path.resolve(__dirname, '../../../content'),
-    path.resolve(process.cwd(), '../content'),
+    path.resolve(__dirname, '../../content'),
+    path.resolve(process.cwd(), 'content'),
   ];
   for (const c of candidates) {
     if (fs.existsSync(c)) return c;

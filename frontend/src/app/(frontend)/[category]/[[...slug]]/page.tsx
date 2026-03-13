@@ -155,6 +155,55 @@ export default async function ContentPage({ params }: ContentPageProps) {
 }
 
 export async function generateStaticParams() {
-  // This would be populated with actual content paths
-  return [];
+  const { parseNavigationMarkdown } = await import('@/lib/parse-navigation-md');
+  const { getAllContentFiles } = await import('@/lib/content');
+  const pathMod = await import('path');
+
+  const params: { category: string; slug?: string[] }[] = [];
+  const seen = new Set<string>();
+
+  const nav = parseNavigationMarkdown();
+  for (const cat of nav) {
+    for (const page of cat.children) {
+      const url = page.url.replace(/^\//, '');
+      const parts = url.split('/');
+      const category = parts[0];
+      const slug = parts.length > 1 ? parts.slice(1) : undefined;
+      const key = `${category}/${slug ? slug.join('/') : ''}`;
+      if (!seen.has(key)) {
+        seen.add(key);
+        params.push({ category, slug });
+      }
+      if (page.tabs) {
+        for (const tab of page.tabs) {
+          const tabUrl = tab.url.replace(/^\//, '');
+          const tabParts = tabUrl.split('/');
+          const tabCat = tabParts[0];
+          const tabSlug = tabParts.length > 1 ? tabParts.slice(1) : undefined;
+          const tabKey = `${tabCat}/${tabSlug ? tabSlug.join('/') : ''}`;
+          if (!seen.has(tabKey)) {
+            seen.add(tabKey);
+            params.push({ category: tabCat, slug: tabSlug });
+          }
+        }
+      }
+    }
+  }
+
+  const contentDir = process.env.CONTENT_DIR || pathMod.resolve(process.cwd(), '..', 'content');
+  const files = getAllContentFiles(contentDir);
+  for (const file of files) {
+    const rel = pathMod.relative(contentDir, file).replace(/\.mdx?$/, '').replace(/\\/g, '/');
+    if (rel === 'home' || rel === 'navigation') continue;
+    const parts = rel.split('/');
+    const category = parts[0];
+    const slug = parts.length > 1 ? parts.slice(1) : undefined;
+    const key = `${category}/${slug ? slug.join('/') : ''}`;
+    if (!seen.has(key)) {
+      seen.add(key);
+      params.push({ category, slug });
+    }
+  }
+
+  return params;
 }

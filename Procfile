@@ -1,1 +1,1 @@
-web: bash ./scripts/heroku-start.sh
+web: node dist/server.js
