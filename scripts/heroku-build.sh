@@ -1,30 +1,23 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Save and unset NODE_ENV so npm installs devDependencies needed for building
-SAVED_NODE_ENV="${NODE_ENV:-}"
-unset NODE_ENV
-
 if [ "${APP_TYPE:-${HEROKU_APP_TYPE:-}}" = "cms" ]; then
   echo "==> Building CMS (Express + Vite client)..."
 
   cd lightning-design-system-cms
 
   echo "  -> Installing CMS server dependencies..."
-  npm install
+  NODE_ENV=development npm install --production=false
 
   echo "  -> Building CMS server (TypeScript)..."
-  npm run build
+  ./node_modules/.bin/tsc
 
   echo "  -> Installing CMS client dependencies..."
   cd client
-  npm install
+  NODE_ENV=development npm install --production=false
   echo "  -> Building CMS client (Vite)..."
-  npm run build
+  ./node_modules/.bin/tsc -b && ./node_modules/.bin/vite build
   cd ..
-
-  echo "  -> Pruning devDependencies for production..."
-  NODE_ENV=production npm prune
 
   echo "==> CMS build complete."
 
@@ -34,13 +27,10 @@ elif [ "${APP_TYPE:-${HEROKU_APP_TYPE:-}}" = "frontend" ]; then
   cd lightning-design-system
 
   echo "  -> Installing frontend dependencies..."
-  npm install
+  NODE_ENV=development npm install --production=false
 
   echo "  -> Building Next.js..."
-  npm run build
-
-  echo "  -> Pruning devDependencies for production..."
-  NODE_ENV=production npm prune
+  NODE_ENV=production ./node_modules/.bin/next build
 
   echo "==> Frontend build complete."
 
@@ -48,6 +38,3 @@ else
   echo "ERROR: APP_TYPE env var not set. Set it to 'frontend' or 'cms'."
   exit 1
 fi
-
-# Restore NODE_ENV
-export NODE_ENV="${SAVED_NODE_ENV}"
