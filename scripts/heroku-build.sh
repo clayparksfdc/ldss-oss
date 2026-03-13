@@ -6,18 +6,21 @@ if [ "${APP_TYPE:-${HEROKU_APP_TYPE:-}}" = "cms" ]; then
 
   cd lightning-design-system-cms
 
-  echo "  -> Installing CMS server dependencies..."
-  npm install
+  echo "  -> Installing CMS server dependencies (including devDependencies for build)..."
+  npm install --include=dev
 
   echo "  -> Building CMS server (TypeScript)..."
-  npm run build
+  npx tsc
 
   echo "  -> Installing CMS client dependencies..."
   cd client
-  npm install
+  npm install --include=dev
   echo "  -> Building CMS client (Vite)..."
-  npm run build
+  npx vite build
   cd ..
+
+  echo "  -> Pruning devDependencies..."
+  npm prune --omit=dev
 
   echo "==> CMS build complete."
 
@@ -26,11 +29,14 @@ elif [ "${APP_TYPE:-${HEROKU_APP_TYPE:-}}" = "frontend" ]; then
 
   cd lightning-design-system
 
-  echo "  -> Installing frontend dependencies..."
-  npm install
+  echo "  -> Installing frontend dependencies (including devDependencies for build)..."
+  npm install --include=dev
 
   echo "  -> Building Next.js..."
-  npm run build
+  npx next build
+
+  echo "  -> Pruning devDependencies..."
+  npm prune --omit=dev
 
   echo "==> Frontend build complete."
 
