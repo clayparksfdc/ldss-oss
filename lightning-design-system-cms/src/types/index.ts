@@ -1,19 +1,20 @@
 import { Request } from 'express';
 
-// User types
 export interface User {
   id: number;
-  salesforce_id: string;
+  github_id: number;
+  github_login: string;
   email: string;
   name: string;
+  avatar_url: string;
   role: 'admin' | 'editor' | 'viewer';
   created_at: Date;
   updated_at: Date;
 }
 
-// Extend Express Request to include user
 export interface AuthenticatedRequest extends Request {
   user?: User;
+  githubToken?: string;
 }
 
 // Draft types
@@ -142,37 +143,25 @@ export class AppError extends Error {
   }
 }
 
-// Session types
 declare module 'express-session' {
   interface SessionData {
     userId?: number;
-    salesforceId?: string;
+    githubAccessToken?: string;
   }
 }
 
-// Environment variables
 export interface EnvConfig {
-  // Server
   NODE_ENV: string;
   PORT: string;
   SESSION_SECRET: string;
   FRONTEND_URL: string;
-
-  // Database
   DATABASE_URL: string;
-
-  // GitHub
-  GITHUB_TOKEN: string;
   GITHUB_OWNER: string;
   GITHUB_REPO: string;
-
-  // Salesforce OAuth
-  SALESFORCE_CLIENT_ID: string;
-  SALESFORCE_CLIENT_SECRET: string;
-  SALESFORCE_CALLBACK_URL: string;
-  SALESFORCE_AUTH_URL: string;
-  SALESFORCE_TOKEN_URL: string;
-
-  // File locks
+  GITHUB_BASE_BRANCH: string;
+  GHE_CLIENT_ID: string;
+  GHE_CLIENT_SECRET: string;
+  GHE_CALLBACK_URL: string;
+  GHE_BASE_URL: string;
   LOCK_DURATION_MINUTES: string;
 }

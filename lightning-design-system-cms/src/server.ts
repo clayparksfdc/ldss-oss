@@ -1,6 +1,6 @@
 import express from 'express';
 import session from 'express-session';
-import type {} from 'passport';
+import 'passport';
 import cors from 'cors';
 import helmet from 'helmet';
 import { Pool } from 'pg';
@@ -9,9 +9,6 @@ import dotenv from 'dotenv';
 
 // Load environment variables
 dotenv.config();
-
-// Import services
-import { GitHubAPIService } from './services/github-api';
 
 // Import routes
 import authRouter, { initializePassport } from './routes/auth';
@@ -26,6 +23,7 @@ import path from 'path';
 
 // Import middleware
 import { errorHandler, notFoundHandler } from './middleware/error';
+import { requireAuth } from './middleware/auth';
 
 // Initialize Express app
 const app = express();
@@ -45,12 +43,7 @@ pool.query('SELECT NOW()', (err, res) => {
   }
 });
 
-// Initialize GitHub service
-const githubService = new GitHubAPIService(
-  process.env.GITHUB_TOKEN || '',
-  process.env.GITHUB_OWNER || '',
-  process.env.GITHUB_REPO || ''
-);
+// GitHub repo config (per-user tokens are attached at request time via auth middleware)
 
 // Middleware
 app.use(helmet({
@@ -60,7 +53,7 @@ app.use(helmet({
       scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://cdn.jsdelivr.net"],
       styleSrc: ["'self'", "'unsafe-inline'", "https://cdn.jsdelivr.net"],
       fontSrc: ["'self'", "https://cdn.jsdelivr.net", "data:"],
-      imgSrc: ["'self'", "data:", "blob:"],
+      imgSrc: ["'self'", "data:", "blob:", "https://avatars.githubusercontent.com", "https://*.githubusercontent.com"],
       connectSrc: ["'self'", "http://localhost:*"],
       workerSrc: ["'self'", "blob:", "https://cdn.jsdelivr.net"],
     },
@@ -68,7 +61,10 @@ app.use(helmet({
 }));
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+    origin: [
+      process.env.FRONTEND_URL || 'http://localhost:3000',
+      'http://localhost:5173',
+    ],
     credentials: true,
   })
 );
@@ -110,31 +106,36 @@ app.get('/health', (_req, res) => {
   });
 });
 
-// API Routes
+// ── Public routes ──
 app.use('/auth', authRouter);
-app.use('/api/content', createContentRouter(pool, githubService));
-app.use('/api/github', createGitHubRouter(pool, githubService));
-app.use('/api/navigation', createNavigationRouter(pool, githubService));
-app.use('/api/locks', createLocksRouter(pool));
-app.use('/api/local', createLocalContentRouter());
-app.use('/api/tokens', createTokensRouter());
-app.use('/', createDashboardRouter(pool));
 
-// Serve the built CMS editor SPA
+// Editor SPA (public — the SPA itself shows login screen for unauthenticated users)
 const editorPath = path.resolve(__dirname, '../public/editor');
 app.use('/editor', express.static(editorPath));
 app.get('/editor/*', (_req, res) => {
   res.sendFile(path.join(editorPath, 'index.html'));
 });
 
-// Audit log endpoint (admin only could be added with middleware)
-app.get('/api/audit', async (req: any, res): Promise<void> => {
-  try {
-    if (!req.user) {
-      res.status(401).json({ error: 'Not authenticated' });
-      return;
-    }
+// Root redirects to editor
+app.get('/', (_req, res) => res.redirect('/editor'));
 
+// ── Auth gate: all /api/* routes require a valid GitHub session ──
+app.use('/api', (req, res, next) => {
+  if (req.user) return next();
+  res.status(401).json({ error: 'Authentication required' });
+});
+
+// ── Protected API routes ──
+app.use('/api/content', createContentRouter(pool));
+app.use('/api/github', createGitHubRouter(pool));
+app.use('/api/navigation', createNavigationRouter(pool));
+app.use('/api/locks', createLocksRouter(pool));
+app.use('/api/local', createLocalContentRouter());
+app.use('/api/tokens', createTokensRouter());
+app.use('/api/dashboard', createDashboardRouter(pool));
+
+app.get('/api/audit', requireAuth, async (req: any, res): Promise<void> => {
+  try {
     const limit = parseInt((req.query.limit as string) || '50', 10);
     const offset = parseInt((req.query.offset as string) || '0', 10);
 
@@ -147,10 +148,7 @@ app.get('/api/audit', async (req: any, res): Promise<void> => {
       [limit, offset]
     );
 
-    res.json({
-      success: true,
-      logs: result.rows,
-    });
+    res.json({ success: true, logs: result.rows });
   } catch (error: any) {
     res.status(500).json({ error: error.message });
   }

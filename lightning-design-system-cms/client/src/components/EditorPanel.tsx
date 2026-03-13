@@ -1,24 +1,28 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import Editor, { type OnMount } from '@monaco-editor/react';
 import { marked } from 'marked';
-import { fetchLocalFile, saveLocalFile } from '../api';
+import { fetchLocalFile, saveLocalFile, publishFile, type AuthUser } from '../api';
 import { Toolbar } from './Toolbar';
 import { RichTextEditor } from './RichTextEditor';
 import { preprocessDirectives } from '../lib/directive-preview';
 
 interface EditorPanelProps {
   filePath: string;
+  user: AuthUser | null;
 }
 
 export type EditorMode = 'code' | 'richtext' | 'preview';
 type SaveStatus = 'idle' | 'saving' | 'saved' | 'error';
+type PublishStatus = 'idle' | 'publishing' | 'published' | 'error';
 
-export function EditorPanel({ filePath }: EditorPanelProps) {
+export function EditorPanel({ filePath, user }: EditorPanelProps) {
   const [content, setContent] = useState('');
   const [originalContent, setOriginalContent] = useState('');
   const [loading, setLoading] = useState(true);
   const [editorMode, setEditorMode] = useState<EditorMode>('richtext');
   const [saveStatus, setSaveStatus] = useState<SaveStatus>('idle');
+  const [publishStatus, setPublishStatus] = useState<PublishStatus>('idle');
+  const [lastPrUrl, setLastPrUrl] = useState<string | null>(null);
   const [previewHtml, setPreviewHtml] = useState('');
   const editorRef = useRef<any>(null);
   const saveTimeoutRef = useRef<number>(0);
@@ -113,6 +117,25 @@ export function EditorPanel({ filePath }: EditorPanelProps) {
     editor.focus();
   }, [editorMode]);
 
+  const handlePublish = useCallback(async () => {
+    const message = window.prompt(
+      'Enter a commit message for this change:',
+      `Update ${filePath.split('/').pop()}`
+    );
+    if (!message) return;
+
+    try {
+      setPublishStatus('publishing');
+      const result = await publishFile(filePath, content, message);
+      setPublishStatus('published');
+      setLastPrUrl(result.pr_url);
+    } catch (err: any) {
+      setPublishStatus('error');
+      alert(`Publish failed: ${err.message}`);
+      setTimeout(() => setPublishStatus('idle'), 3000);
+    }
+  }, [filePath, content]);
+
   const hasChanges = content !== originalContent;
 
   if (loading) {
@@ -128,6 +151,10 @@ export function EditorPanel({ filePath }: EditorPanelProps) {
         onSave={handleSave}
         saveStatus={saveStatus}
         hasChanges={hasChanges}
+        canPublish={!!user}
+        publishStatus={publishStatus}
+        lastPrUrl={lastPrUrl}
+        onPublish={handlePublish}
       />
       <div className="editor-body">
         {editorMode === 'code' && (

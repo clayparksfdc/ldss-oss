@@ -1,11 +1,13 @@
 -- PostgreSQL schema for Lightning Design System CMS
 
--- Users table
+-- Users table (GitHub Enterprise identity)
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
-    salesforce_id VARCHAR(255) UNIQUE NOT NULL,
-    email VARCHAR(255) UNIQUE NOT NULL,
+    github_id INTEGER UNIQUE NOT NULL,
+    github_login VARCHAR(255) UNIQUE NOT NULL,
+    email VARCHAR(255) NOT NULL,
     name VARCHAR(255) NOT NULL,
+    avatar_url TEXT DEFAULT '',
     role VARCHAR(50) NOT NULL DEFAULT 'editor',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -86,7 +88,7 @@ BEGIN
 END;
 $$ language 'plpgsql';
 
-COMMENT ON TABLE users IS 'Stores user information from Salesforce SSO';
+COMMENT ON TABLE users IS 'Stores user information from GitHub Enterprise OAuth';
 COMMENT ON TABLE session IS 'Express session storage';
 COMMENT ON TABLE drafts IS 'Stores draft content before publishing to GitHub';
 COMMENT ON TABLE file_locks IS 'Prevents concurrent editing of the same file';

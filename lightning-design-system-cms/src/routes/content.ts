@@ -12,7 +12,7 @@ import { GitHubAPIService } from '../services/github-api';
 import { requireAuth, requireEditor } from '../middleware/auth';
 import { asyncHandler } from '../middleware/error';
 
-export const createContentRouter = (pool: Pool, githubService: GitHubAPIService) => {
+export const createContentRouter = (pool: Pool) => {
   const router = express.Router();
 
   /**
@@ -29,8 +29,8 @@ export const createContentRouter = (pool: Pool, githubService: GitHubAPIService)
         throw new AppError('File path is required', 400);
       }
 
-      // Get file from GitHub
-      const { content, sha } = await githubService.getFile(filePath);
+      const ghService = GitHubAPIService.forUser(req.githubToken!);
+      const { content, sha } = await ghService.getFile(filePath);
 
       // Check for user's draft
       const draftResult = await pool.query<Draft>(
@@ -100,8 +100,8 @@ export const createContentRouter = (pool: Pool, githubService: GitHubAPIService)
         throw new AppError('Markdown content is required', 400);
       }
 
-      // Verify file exists in GitHub
-      await githubService.getFile(filePath);
+      const ghService = GitHubAPIService.forUser(req.githubToken!);
+      await ghService.getFile(filePath);
 
       // Upsert draft
       const result = await pool.query<Draft>(

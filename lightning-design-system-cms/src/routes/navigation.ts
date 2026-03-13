@@ -5,7 +5,7 @@ import { GitHubAPIService } from '../services/github-api';
 import { requireAuth, requireEditor } from '../middleware/auth';
 import { asyncHandler } from '../middleware/error';
 
-export const createNavigationRouter = (pool: Pool, githubService: GitHubAPIService) => {
+export const createNavigationRouter = (pool: Pool) => {
   const router = express.Router();
 
   /**
@@ -19,7 +19,8 @@ export const createNavigationRouter = (pool: Pool, githubService: GitHubAPIServi
       const navigationPath = 'navigation.json'; // or whatever path is used
 
       try {
-        const { content } = await githubService.getFile(navigationPath);
+        const ghService = GitHubAPIService.forUser(req.githubToken!);
+        const { content } = await ghService.getFile(navigationPath);
         const navigation = JSON.parse(content);
 
         res.json({
@@ -61,8 +62,8 @@ export const createNavigationRouter = (pool: Pool, githubService: GitHubAPIServi
         throw new AppError('Navigation must have an items array', 400);
       }
 
-      // Create a pull request with the updated navigation
-      const pr = await githubService.createPR({
+      const ghService = GitHubAPIService.forUser(req.githubToken!);
+      const pr = await ghService.createPR({
         branch: `cms-nav-update-${Date.now()}`,
         files: [
           {
@@ -109,7 +110,8 @@ export const createNavigationRouter = (pool: Pool, githubService: GitHubAPIServi
     asyncHandler(async (req: AuthenticatedRequest, res: Response) => {
       const { path = '' } = req.query;
 
-      const files = await githubService.listFiles(path as string);
+      const ghService = GitHubAPIService.forUser(req.githubToken!);
+      const files = await ghService.listFiles(path as string);
 
       // Build tree structure
       const tree = files.map((file) => ({

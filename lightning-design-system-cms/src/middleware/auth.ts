@@ -1,9 +1,6 @@
 import { Response, NextFunction } from 'express';
 import { AuthenticatedRequest, AppError } from '../types';
 
-/**
- * Middleware to check if user is authenticated
- */
 export const requireAuth = (
   req: AuthenticatedRequest,
   res: Response,
@@ -12,44 +9,34 @@ export const requireAuth = (
   if (!req.user) {
     throw new AppError('Authentication required', 401);
   }
+  req.githubToken = (req.user as any)._accessToken;
   next();
 };
 
-/**
- * Middleware to check if user has a specific role
- */
 export const requireRole = (...roles: string[]) => {
   return (req: AuthenticatedRequest, res: Response, next: NextFunction): void => {
     if (!req.user) {
       throw new AppError('Authentication required', 401);
     }
-
     if (!roles.includes(req.user.role)) {
       throw new AppError('Insufficient permissions', 403);
     }
-
+    req.githubToken = (req.user as any)._accessToken;
     next();
   };
 };
 
-/**
- * Middleware to check if user is an admin
- */
 export const requireAdmin = requireRole('admin');
 
-/**
- * Middleware to check if user can edit content
- */
 export const requireEditor = requireRole('admin', 'editor');
 
-/**
- * Optional auth - sets user if authenticated but doesn't require it
- */
 export const optionalAuth = (
   req: AuthenticatedRequest,
   res: Response,
   next: NextFunction
 ): void => {
-  // User will be set by passport if authenticated
+  if (req.user) {
+    req.githubToken = (req.user as any)._accessToken;
+  }
   next();
 };

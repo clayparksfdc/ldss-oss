@@ -4,7 +4,7 @@ import { Pool } from 'pg';
 export const createDashboardRouter = (pool: Pool) => {
   const router = express.Router();
 
-  router.get('/api/dashboard/stats', async (_req, res) => {
+  router.get('/stats', async (_req, res) => {
     try {
       const [users, drafts, locks, audits] = await Promise.all([
         pool.query('SELECT COUNT(*) as count FROM users'),
@@ -24,7 +24,7 @@ export const createDashboardRouter = (pool: Pool) => {
     }
   });
 
-  router.get('/api/dashboard/recent-activity', async (_req, res) => {
+  router.get('/recent-activity', async (_req, res) => {
     try {
       const result = await pool.query(
         `SELECT al.action, al.file_path, al.created_at, u.name, u.email
@@ -37,10 +37,6 @@ export const createDashboardRouter = (pool: Pool) => {
     } catch {
       res.json([]);
     }
-  });
-
-  router.get('/', (_req, res) => {
-    res.send(dashboardHTML);
   });
 
   return router;
@@ -247,7 +243,7 @@ const dashboardHTML = `<!DOCTYPE html>
           <li><span class="method post">POST</span><span class="endpoint-path">/api/locks/:path</span><span class="endpoint-desc">Acquire file lock</span></li>
           <li><span class="method delete">DEL</span><span class="endpoint-path">/api/locks/:path</span><span class="endpoint-desc">Release file lock</span></li>
           <li><span class="method get">GET</span><span class="endpoint-path">/api/audit</span><span class="endpoint-desc">View audit log</span></li>
-          <li><span class="method get">GET</span><span class="endpoint-path">/auth/salesforce</span><span class="endpoint-desc">Salesforce SSO login</span></li>
+          <li><span class="method get">GET</span><span class="endpoint-path">/auth/github</span><span class="endpoint-desc">GitHub Enterprise SSO login</span></li>
         </ul>
       </div>
     </div>
