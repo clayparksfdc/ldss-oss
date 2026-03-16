@@ -6,11 +6,74 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import type { NavCategory, NavPage } from "@/lib/navigation"
 
+interface SearchEntry {
+  title: string
+  category: string
+  url: string
+  body: string
+}
+
 interface SearchResult {
   title: string
   slug: string
   category: string
   url: string
+  snippet?: string
+}
+
+let _indexPromise: Promise<SearchEntry[]> | null = null
+
+function loadSearchIndex(): Promise<SearchEntry[]> {
+  if (!_indexPromise) {
+    _indexPromise = fetch('/search-index.json')
+      .then(r => r.ok ? r.json() : [])
+      .catch(() => [])
+  }
+  return _indexPromise
+}
+
+function searchIndex(entries: SearchEntry[], query: string): SearchResult[] {
+  const terms = query.toLowerCase().split(/\s+/).filter(Boolean)
+  if (terms.length === 0) return []
+
+  const scored: { entry: SearchEntry; score: number; snippet?: string }[] = []
+
+  for (const entry of entries) {
+    const titleLower = entry.title.toLowerCase()
+    const bodyLower = entry.body.toLowerCase()
+    const catLower = entry.category.toLowerCase()
+    let score = 0
+
+    for (const term of terms) {
+      if (titleLower.includes(term)) score += 10
+      if (titleLower === term) score += 20
+      if (titleLower.startsWith(term)) score += 5
+      if (catLower.includes(term)) score += 2
+      if (bodyLower.includes(term)) score += 1
+    }
+
+    if (score > 0) {
+      let snippet: string | undefined
+      const firstTerm = terms[0]
+      const bodyIdx = bodyLower.indexOf(firstTerm)
+      if (bodyIdx >= 0) {
+        const start = Math.max(0, bodyIdx - 40)
+        const end = Math.min(entry.body.length, bodyIdx + firstTerm.length + 80)
+        snippet = (start > 0 ? '…' : '') + entry.body.slice(start, end).trim() + (end < entry.body.length ? '…' : '')
+      }
+      scored.push({ entry, score, snippet })
+    }
+  }
+
+  scored.sort((a, b) => b.score - a.score)
+
+  return scored.slice(0, 20).map(s => ({
+    title: s.entry.title,
+    slug: s.entry.url.split('/').pop() || '',
+    category: s.entry.category,
+    url: s.entry.url,
+    snippet: s.snippet,
+  }))
 }
 
 interface DynamicSidebarProps {
@@ -62,6 +125,7 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
   const [searchResults, setSearchResults] = useState<SearchResult[]>([])
   const [isSearching, setIsSearching] = useState(false)
   const searchTimeout = useRef<NodeJS.Timeout | null>(null)
+  const indexRef = useRef<SearchEntry[] | null>(null)
 
   const handleSearch = useCallback((query: string) => {
     setSearchQuery(query)
@@ -76,15 +140,16 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
     setIsSearching(true)
     searchTimeout.current = setTimeout(async () => {
       try {
-        const res = await fetch(`/api/site-search?q=${encodeURIComponent(query)}`)
-        const data = await res.json()
-        setSearchResults(data.results || [])
+        if (!indexRef.current) {
+          indexRef.current = await loadSearchIndex()
+        }
+        setSearchResults(searchIndex(indexRef.current, query))
       } catch {
         setSearchResults([])
       } finally {
         setIsSearching(false)
       }
-    }, 250)
+    }, 150)
   }, [])
 
   useEffect(() => {
@@ -402,6 +467,11 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
                   {result.category && (
                     <span className="block text-[11px] mt-0.5 truncate" style={{ color: "var(--slds-gray-text)" }}>
                       {result.category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+                    </span>
+                  )}
+                  {result.snippet && (
+                    <span className="block text-[11px] mt-0.5 line-clamp-2" style={{ color: "var(--slds-gray-text)", opacity: 0.8 }}>
+                      {result.snippet}
                     </span>
                   )}
                 </Link>
