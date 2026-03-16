@@ -3,11 +3,27 @@
 import { usePathname } from 'next/navigation';
 import { useEffect } from 'react';
 
-const SLDS_CSS_HREF = '/assets/sldsPlusTemplate.css';
+const SLDS_CSS_HREF = '/assets/sldsTemplate.css';
+
+let _sheetPromise: Promise<CSSStyleSheet | null> | null = null;
+
+function getSLDSSheet(): Promise<CSSStyleSheet | null> {
+  if (!_sheetPromise) {
+    _sheetPromise = fetch(SLDS_CSS_HREF)
+      .then((r) => (r.ok ? r.text() : Promise.reject()))
+      .then((css) => {
+        const sheet = new CSSStyleSheet();
+        return sheet.replace(css);
+      })
+      .catch(() => null);
+  }
+  return _sheetPromise;
+}
 
 /**
- * Scopes SLDS 1 CSS to only .legacy-component-example-preview elements using Shadow DOM.
- * Keeps headlines and code snippets unaffected. Applies white background for examples.
+ * Scopes SLDS 1 CSS to .legacy-component-example-preview elements via Shadow DOM.
+ * Uses fetch + adoptedStyleSheets (Constructable Stylesheets) so the CSS
+ * reliably applies inside the shadow root, unlike <link> which can silently fail.
  */
 export default function LegacyComponentScope() {
   const pathname = usePathname();
@@ -17,29 +33,33 @@ export default function LegacyComponentScope() {
     if (!isLegacy) return;
 
     const previews = document.querySelectorAll('.legacy-component-example-preview');
-    previews.forEach((el) => {
-      if ((el as HTMLElement).dataset.scoped === 'true') return;
+    if (previews.length === 0) return;
 
-      const html = el.innerHTML;
-      (el as HTMLElement).dataset.scoped = 'true';
-      el.innerHTML = '';
+    getSLDSSheet().then((sheet) => {
+      previews.forEach((el) => {
+        if ((el as HTMLElement).dataset.scoped === 'true') return;
 
-      const shadow = el.attachShadow({ mode: 'open' });
-      const wrapper = document.createElement('div');
-      wrapper.style.background = '#fff';
-      wrapper.style.padding = '1rem';
-      wrapper.style.minHeight = '2rem';
+        const html = el.innerHTML;
+        (el as HTMLElement).dataset.scoped = 'true';
+        el.innerHTML = '';
 
-      const link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = SLDS_CSS_HREF;
+        const shadow = el.attachShadow({ mode: 'open' });
 
-      const content = document.createElement('div');
-      content.innerHTML = html;
+        if (sheet) {
+          shadow.adoptedStyleSheets = [sheet];
+        }
 
-      shadow.appendChild(link);
-      shadow.appendChild(wrapper);
-      wrapper.appendChild(content);
+        const wrapper = document.createElement('div');
+        wrapper.style.background = '#fff';
+        wrapper.style.padding = '1rem';
+        wrapper.style.minHeight = '2rem';
+
+        const content = document.createElement('div');
+        content.innerHTML = html;
+
+        shadow.appendChild(wrapper);
+        wrapper.appendChild(content);
+      });
     });
   }, [pathname, isLegacy]);
 
