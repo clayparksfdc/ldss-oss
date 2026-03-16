@@ -5,19 +5,29 @@ import { useEffect } from 'react';
 
 const SLDS_CSS_HREF = '/assets/sldsTemplate.css';
 
-let _sheetPromise: Promise<CSSStyleSheet | null> | null = null;
+const RESET_CSS = `:host { all: initial; display: block; }`;
 
-function getSLDSSheet(): Promise<CSSStyleSheet | null> {
-  if (!_sheetPromise) {
-    _sheetPromise = fetch(SLDS_CSS_HREF)
-      .then((r) => (r.ok ? r.text() : Promise.reject()))
-      .then((css) => {
-        const sheet = new CSSStyleSheet();
-        return sheet.replace(css);
-      })
-      .catch(() => null);
+let _sheetsPromise: Promise<CSSStyleSheet[]> | null = null;
+
+function getSLDSSheets(): Promise<CSSStyleSheet[]> {
+  if (!_sheetsPromise) {
+    _sheetsPromise = (async () => {
+      const resetSheet = new CSSStyleSheet();
+      await resetSheet.replace(RESET_CSS);
+
+      try {
+        const res = await fetch(SLDS_CSS_HREF);
+        if (!res.ok) return [resetSheet];
+        const css = await res.text();
+        const sldsSheet = new CSSStyleSheet();
+        await sldsSheet.replace(css);
+        return [resetSheet, sldsSheet];
+      } catch {
+        return [resetSheet];
+      }
+    })();
   }
-  return _sheetPromise;
+  return _sheetsPromise;
 }
 
 /**
@@ -35,7 +45,7 @@ export default function LegacyComponentScope() {
     const previews = document.querySelectorAll('.legacy-component-example-preview');
     if (previews.length === 0) return;
 
-    getSLDSSheet().then((sheet) => {
+    getSLDSSheets().then((sheets) => {
       previews.forEach((el) => {
         if ((el as HTMLElement).dataset.scoped === 'true') return;
 
@@ -44,10 +54,7 @@ export default function LegacyComponentScope() {
         el.innerHTML = '';
 
         const shadow = el.attachShadow({ mode: 'open' });
-
-        if (sheet) {
-          shadow.adoptedStyleSheets = [sheet];
-        }
+        shadow.adoptedStyleSheets = sheets;
 
         const wrapper = document.createElement('div');
         wrapper.style.background = '#fff';
