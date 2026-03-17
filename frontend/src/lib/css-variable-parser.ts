@@ -43,21 +43,52 @@ export class CSSVariableParser {
     }
   }
 
+  private extractVarCall(str: string, start: number): { end: number; varName: string; fallback: string | null } | null {
+    if (str.slice(start, start + 4) !== 'var(') return null;
+    let i = start + 4;
+    while (i < str.length && str[i] === ' ') i++;
+    const nameStart = i;
+    while (i < str.length && /[a-zA-Z0-9-]/.test(str[i])) i++;
+    const varName = str.slice(nameStart, i);
+    if (!varName.startsWith('--')) return null;
+    while (i < str.length && str[i] === ' ') i++;
+    if (str[i] === ')') return { end: i + 1, varName, fallback: null };
+    if (str[i] !== ',') return null;
+    i++;
+    while (i < str.length && str[i] === ' ') i++;
+    const fallbackStart = i;
+    let depth = 1;
+    while (i < str.length && depth > 0) {
+      if (str[i] === '(') depth++;
+      else if (str[i] === ')') depth--;
+      if (depth > 0) i++;
+    }
+    const fallback = str.slice(fallbackStart, i).trim();
+    return { end: i + 1, varName, fallback: fallback || null };
+  }
+
   resolveValue(value: string, sourceMap: Map<string, string>, visited = new Set<string>()): string {
     if (!value || visited.has(value)) return value;
     visited.add(value);
-    const varRefRegex = /var\(\s*(--[a-zA-Z0-9-]+)(?:\s*,\s*([^)]+))?\s*\)/g;
-    let resolved = value;
-    resolved = value.replace(varRefRegex, (_match, varName: string, fallback: string) => {
-      if (sourceMap.has(varName)) {
-        return this.resolveValue(sourceMap.get(varName)!, sourceMap, new Set(visited));
+    let resolved = '';
+    let pos = 0;
+    while (pos < value.length) {
+      const varIdx = value.indexOf('var(', pos);
+      if (varIdx === -1) { resolved += value.slice(pos); break; }
+      resolved += value.slice(pos, varIdx);
+      const parsed = this.extractVarCall(value, varIdx);
+      if (!parsed) { resolved += 'var('; pos = varIdx + 4; continue; }
+      pos = parsed.end;
+      if (sourceMap.has(parsed.varName)) {
+        resolved += this.resolveValue(sourceMap.get(parsed.varName)!, sourceMap, new Set(visited));
+      } else if (this.allVars.has(parsed.varName)) {
+        resolved += this.resolveValue(this.allVars.get(parsed.varName)!, this.allVars, new Set(visited));
+      } else if (parsed.fallback) {
+        resolved += this.resolveValue(parsed.fallback, sourceMap, new Set(visited));
+      } else {
+        resolved += value.slice(varIdx, parsed.end);
       }
-      if (this.allVars.has(varName)) {
-        return this.resolveValue(this.allVars.get(varName)!, this.allVars, new Set(visited));
-      }
-      if (fallback) return this.resolveValue(fallback.trim(), sourceMap, new Set(visited));
-      return _match;
-    });
+    }
     return resolved;
   }
 
