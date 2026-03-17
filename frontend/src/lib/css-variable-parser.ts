@@ -1,5 +1,5 @@
 /**
- * CSS variable parser for comparing Lightning Blue (sldsTemplate) vs Cosmos (sldsPlusTemplate).
+ * CSS variable parser for comparing Lightning Blue (salesforce-lightning-design-system) vs Cosmos (sldsPlusTemplate).
  */
 
 export interface VariableData {

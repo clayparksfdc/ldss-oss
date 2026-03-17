@@ -418,7 +418,12 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
           <img
             src="/assets/slds-logo.png"
             alt="Lightning Design System"
-            className="h-[52px] w-auto"
+            className="h-[52px] w-auto dark:hidden"
+          />
+          <img
+            src="/assets/ldsLogo-dark.png"
+            alt="Lightning Design System"
+            className="h-[52px] w-auto hidden dark:block"
           />
         </Link>
 

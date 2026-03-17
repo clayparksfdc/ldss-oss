@@ -3,7 +3,8 @@
 import { usePathname } from 'next/navigation';
 import { useEffect } from 'react';
 
-const SLDS_CSS_HREF = '/assets/sldsTemplate.css';
+const SLDS_CSS_HREF = '/assets/styles/salesforce-lightning-design-system.css';
+const TOKENS_CSS_HREF = '/assets/styles/designTokens.css';
 
 const RESET_CSS = `:host { all: initial; display: block; }`;
 
@@ -16,12 +17,25 @@ function getSLDSSheets(): Promise<CSSStyleSheet[]> {
       await resetSheet.replace(RESET_CSS);
 
       try {
-        const res = await fetch(SLDS_CSS_HREF);
-        if (!res.ok) return [resetSheet];
-        const css = await res.text();
-        const sldsSheet = new CSSStyleSheet();
-        await sldsSheet.replace(css);
-        return [resetSheet, sldsSheet];
+        const [sldsRes, tokensRes] = await Promise.all([
+          fetch(SLDS_CSS_HREF),
+          fetch(TOKENS_CSS_HREF),
+        ]);
+        const sheets: CSSStyleSheet[] = [resetSheet];
+
+        if (tokensRes.ok) {
+          const tokensSheet = new CSSStyleSheet();
+          await tokensSheet.replace(await tokensRes.text());
+          sheets.push(tokensSheet);
+        }
+
+        if (sldsRes.ok) {
+          const sldsSheet = new CSSStyleSheet();
+          await sldsSheet.replace(await sldsRes.text());
+          sheets.push(sldsSheet);
+        }
+
+        return sheets;
       } catch {
         return [resetSheet];
       }

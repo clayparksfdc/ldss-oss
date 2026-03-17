@@ -16,15 +16,17 @@ export function StylingHookVisualizer() {
     let cancelled = false;
     (async () => {
       try {
-        const [sldsCSS, plusCSS] = await Promise.all([
-          fetch('/assets/sldsTemplate.css').then(r => r.text()),
-          fetch('/assets/sldsPlusTemplate.css').then(r => r.text()),
+        const [sldsCSS, tokensCSS, plusCSS] = await Promise.all([
+          fetch('/assets/styles/salesforce-lightning-design-system.css').then(r => r.text()),
+          fetch('/assets/styles/designTokens.css').then(r => r.text()),
+          fetch('/assets/styles/sldsPlusTemplate.css').then(r => r.text()),
         ]);
         if (cancelled) return;
+        const combinedSldsCSS = sldsCSS + '\n' + tokensCSS;
         const parser = new CSSVariableParser();
-        parser.parseCSS(sldsCSS, parser.sldsVars);
+        parser.parseCSS(combinedSldsCSS, parser.sldsVars);
         parser.parseCSS(plusCSS, parser.plusVars);
-        parser.parseAllVars(sldsCSS, parser.sldsAllVars);
+        parser.parseAllVars(combinedSldsCSS, parser.sldsAllVars);
         parser.parseAllVars(plusCSS, parser.plusAllVars);
         for (const [k, v] of parser.sldsAllVars) parser.allVars.set(k, v);
         for (const [k, v] of parser.plusAllVars) parser.allVars.set(k, v);

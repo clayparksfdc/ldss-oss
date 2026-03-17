@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lightning Blue CSS Variable Comparison Tool</title>
-    <link rel="stylesheet" href="/assets/sldsPlusTemplate.css">
+    <link rel="stylesheet" href="/assets/styles/sldsPlusTemplate.css">
     <style>
         :root {
             --app-sidebar-width: 280px;
@@ -1005,8 +1005,8 @@
                 try {
                     // Load both CSS files
                     const [sldsCSS, plusCSS] = await Promise.all([
-                        fetch('/assets/sldsTemplate.css').then(r => r.text()),
-                        fetch('/assets/sldsPlusTemplate.css').then(r => r.text())
+                        fetch('/assets/styles/salesforce-lightning-design-system.css').then(r => r.text()),
+                        fetch('/assets/styles/sldsPlusTemplate.css').then(r => r.text())
                     ]);
 
                     // Parse CSS files for display (only --slds-g-* and --slds-s-*)
