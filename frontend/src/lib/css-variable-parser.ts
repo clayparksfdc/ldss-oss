@@ -34,7 +34,7 @@ export class CSSVariableParser {
   }
 
   parseAllVars(cssText: string, targetMap: Map<string, string>) {
-    const varRegex = /--(slds-[a-zA-Z]-[a-zA-Z0-9-]+)\s*:\s*([^;]+);/g;
+    const varRegex = /--([a-zA-Z][a-zA-Z0-9-]*)\s*:\s*([^;]+);/g;
     let match;
     while ((match = varRegex.exec(cssText)) !== null) {
       const varName = `--${match[1]}`;
