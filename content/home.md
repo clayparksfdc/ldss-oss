@@ -1,14 +1,13 @@
 ---
 title: Lightning Design System 2
 ---
-
 <div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Lightning Design System 2&quot;,&quot;image&quot;:&quot;/media/home.jpg&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;tagline&quot;:&quot;The design system that powers Salesforce&quot;}" data-directive-children="[]">
 </div>
 
 <div data-directive-type="video-embed" data-directive-attrs="{&quot;title&quot;:&quot;Welcome to SLDS 2&quot;,&quot;src&quot;:&quot;https://res.cloudinary.com/hvgsfnaoa/video/upload/q_auto:best/f_auto/slds-doc-site/videos/SLDS_2_GA_Launch_Full_Video_j0g6sh.mp4&quot;}" data-directive-children="[]">
 </div>
 
-## *Pro-code control, no-code design System*
+## *Pro-code control, no-code design Systems*
 
 What makes SLDS 2 different is a new architecture that prioritizes CSS custom properties and offers new tools that make it easier to validate, migrate, and create components. SLDS 2 is expanding to support the dynamic UI needs of generative-AI experiences.
 
