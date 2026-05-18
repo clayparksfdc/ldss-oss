@@ -6,6 +6,8 @@ url: "/ai-and-slds-2/ai-and-slds-2"
 extractedAt: "2026-02-21T18:07:13.502Z"
 ---
 
+<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;AI and SLDS 2&quot;,&quot;tagline&quot;:&quot;Re-imagining design systems for the agentic era.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130509/ldss-cms-dev/local/media/ai-and-slds-2-6ff62acb.jpg&quot;}" data-directive-children="[]">
+</div>
 With [Agentforce](https://www.salesforce.com/agentforce/), we’re re-imagining how design systems work — both within the design-development workflow and within dynamically generated user experiences. Agentforce is the agentic layer of our platform designed for deploying autonomous AI agents across any business function. We’re updating our design system so that you can take advantage of these new capabilities while creating consistent, scalable, and on-brand results.
 
 SLDS 2 is the beginning of our autonomous AI design. You can explore the agentic aspects of our design system in a few ways:

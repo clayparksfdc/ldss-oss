@@ -5,6 +5,8 @@ category: "get-started"
 order: 0
 ---
 
+<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Get Started&quot;,&quot;tagline&quot;:&quot;Start building with Lightning Design System 2.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;gradient&quot;:&quot;linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F59E0B 100%)&quot;}" data-directive-children="[]">
+</div>
 A [design system](https://www.salesforce.com/blog/what-is-a-design-system/) is a collection of guidelines, reusable components, standards, and other resources that help ensure designers and developers build consistent digital experiences and applications. Salesforce Lightning Design System 2 (SLDS 2) provides a rich, new architecture, reusable components, and modern web standards that help you design and build apps that match the core Salesforce experience.
 
 SLDS 2 includes the resources to create user interfaces consistent with Salesforce design principles, visual language, and best practices. Rather than spend time focusing on pixels, developers can focus on application logic and designers can focus on user experience, interactions, and flows. This system ensures creation across all Salesforce applications is consistent, accessible, and efficient.

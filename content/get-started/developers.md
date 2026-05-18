@@ -5,6 +5,8 @@ category: "get-started"
 order: 0
 ---
 
+<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Developers&quot;,&quot;tagline&quot;:&quot;Access the framework for building consistent and scalable interfaces.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130509/ldss-cms-dev/local/media/developers-cfd27449.jpg&quot;}" data-directive-children="[]">
+</div>
 SLDS 2 is your comprehensive framework for building consistent, scalable interfaces across Salesforce products. This system includes reusable components, styling hooks, and standardized guidelines to ensure seamless collaboration between designers and developers. The design system is built to help you focus on functionality and efficiency while maintaining design integrity across all platforms. By using this system, you’ll speed up development, reduce redundant work, and ensure your code aligns with the latest design standards.
 
 To get started, explore the component library to integrate pre-built, tested UI elements into your projects. Review the documentation for implementation details, styling hooks for consistent styling, and code snippets for easy integration. Check out tools that can improve developer productivity and code quality.

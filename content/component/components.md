@@ -5,6 +5,8 @@ category: "component"
 order: 0
 ---
 
+<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Components&quot;,&quot;tagline&quot;:&quot;Reusable UI primitives that match Salesforce design language.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;gradient&quot;:&quot;linear-gradient(135deg, #064E3B 0%, #0E7490 50%, #0EA5E9 100%)&quot;}" data-directive-children="[]">
+</div>
 SLDS 2 includes a curated collection of reusable components that guide and inform users’ interactions within our products and apps. These components are designed to make it easy to create a consistent and efficient user interface across an ecosystem of applications.
 
 ## Component Types
