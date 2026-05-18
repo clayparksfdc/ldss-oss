@@ -6,8 +6,6 @@ url: "https://www.lightningdesignsystem.com/2e1ef8501/p/897980-interaction-model
 extractedAt: "2026-02-21T18:08:03.562Z"
 ---
 
-![ ](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/814a08e33bf95d6ceef7e5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6K7NON45%2F20260221%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260221T180436Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=263d6a837ee47468f3458f50559c7d14489e3c228425b3053b1803aa749d3998)
-**
 
 ## AI Assistant
 

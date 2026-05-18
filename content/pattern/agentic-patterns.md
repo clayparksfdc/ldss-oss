@@ -6,7 +6,7 @@ url: "https://www.lightningdesignsystem.com/2e1ef8501/p/03c548-agentic-patterns"
 extractedAt: "2026-02-21T18:08:09.575Z"
 ---
 
-![ ](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/950665cb017a9b1369a664?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6K7NON45%2F20260221%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260221T180436Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=fa89a719c2b8a454e71dc47ac58833082ba514e9747f7d41151478687ae00544)
+![ ](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779129075/ldss-cms-dev/zeroheight/40baae-agentic-experience/IzAY7vlcInDhn0mjZPbfog-5bc9f71e.png)
 **
 
 Agentic experiences are systems and interfaces that empower users to accomplish their goals with the help of autonomous AI agents. Use these patterns to create agentic experiences in Salesforce products.
