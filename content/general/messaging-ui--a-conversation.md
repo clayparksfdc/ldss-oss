@@ -60,7 +60,7 @@ These are notifications about events that happen during the conversation. Exampl
 
 ### Message Entries
 
-These are the individual messages sent back and forth. (Details in [Message Entries](https://www.lightningdesignsystem.com/2e1ef8501/p/9649ad).)
+These are the individual messages sent back and forth. (Details in Message Entries.)
 
 ### Summary or Highlights
 

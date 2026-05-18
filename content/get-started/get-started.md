@@ -25,7 +25,7 @@ Ready to get started with SLDS 2? We've got you covered!
 ::card{title="Admins" href="/general/admins" description="Adopt Salesforce Cosmos to get the new design and SLDS 2 features."}
 ::card{title="Designers" href="/design/designers" description="Connect to essential components and tools to create great experiences."}
 ::card{title="Developers" href="/develop/developers" description="Access the framework for building consistent and scalable interfaces."}
-::card{title="Agentic Experiences" href="https://www.lightningdesignsystem.com/2e1ef8501/p/95c37a" description="Understand how SLDS 2 is a foundation for the future of AI interfaces."}
+
 ::card{title="Transition to SLDS 2" href="/general/transition-to-slds-2" description="Get step-by-step instructions for making the move to SLDS 2."}
 ::card{title="Resources" href="/general/resources" description="Learn more about SLDS 2 and Salesforce Cosmos."}
 :::

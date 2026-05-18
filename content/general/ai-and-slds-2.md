@@ -19,7 +19,7 @@ SLDS 2 is the beginning of our autonomous AI design. You can explore the agentic
 :::card-grid{columns="3"}
 ::card{title="Agentic Patterns" href="/ai-and-slds-2/agentic-patterns"}
 ::card{title="Vibe Coding and SLDS" href="/ai-and-slds-2/vibe-coding-and-slds"}
-::card{title="Salesforce DX MCP" href="https://www.lightningdesignsystem.com/2e1ef8501/p/116694"}
+
 ::card{title="Agentic Experience Figma Library" href="https://www.figma.com/community/file/1478970084463860424"}
 ::card{title="Future of Salesforce Design" href="https://www.salesforce.com/plus/experience/Dreamforce_2024/series/the_future_of_ai_at_dreamforce_2024/episode/episode-s1e19" description="Salesforce Chief Design Officer, Kat Holmes, shares insights about where design is headed."}
 ::card{title="Why We Designed Agentforce With Primitive Components" href="https://www.salesforce.com/blog/modular-design-benefits-agentforce/" description="When we take a modular design approach, our AI assistant can respond with varying formats."}

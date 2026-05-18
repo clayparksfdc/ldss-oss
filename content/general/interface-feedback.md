@@ -61,7 +61,7 @@ Example: Account created.
 A relevant and helpful feedback experience can be designed in three steps.
 
 1. Select the appropriate [feedback type](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/7241f7-interface-patterns/t/833454785f) based on the user's interaction with the application.
-2. Pick a [component](https://www.lightningdesignsystem.com/2e1ef8501/p/7241f7) from the matrix below that fits the user flow, UI, and has the right level of visibility.
+2. Pick a component from the matrix below that fits the user flow, UI, and has the right level of visibility.
 3. Determine which feedback state, such as success or error, best characterizes the message.
 
 Select the appropriate feedback type based on the user's interaction with the application.
@@ -94,19 +94,11 @@ System
 
 ✅
 
-
-
-
-
 ✅
 
 ✅
 
-
-
 ✅
-
-
 
 2
 
@@ -115,10 +107,6 @@ Engagement
 ✅
 
 ✅
-
-
-
-
 
 ✅
 
@@ -134,19 +122,7 @@ Access
 
 ✅
 
-
-
-
-
-
-
 ✅
-
-
-
-
-
-
 
 4
 
@@ -157,10 +133,6 @@ Standard
 ✅
 
 ✅
-
-
-
-
 
 ✅Feedback Type
 

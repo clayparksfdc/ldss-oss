@@ -38,10 +38,6 @@ Urgent
 
 ✅
 
-
-
-
-
 ✅
 
 ✅
@@ -57,14 +53,6 @@ Standard
 ✅
 
 ✅
-
-
-
-
-
-
-
-
 
 Discrete
 
@@ -116,19 +104,11 @@ Urgent notifications use components that interrupt the user's workflow to presen
 
 A docked composer expands into a docked assistant, allowing users to complete tasks or gather information through chat, a dialer, or email. The notification can be minimized and docked at the bottom of the console. In live collaborations, it appears expanded at the bottom right of the screen.
 
-
-
 PriorityUrgent
 
-
-
-**Usage** A docked composer is marked as read after it’s minimized or dragged to a new window. It's also used in [onboarding](https://www.lightningdesignsystem.com/2e1ef8501/p/732cfe) to highlight features that boost productivity and can be reviewed later if dismissed.
-
-
+**Usage** A docked composer is marked as read after it’s minimized or dragged to a new window. It's also used in onboarding to highlight features that boost productivity and can be reviewed later if dismissed.
 
 Component[Docked Composer](https://v1.lightningdesignsystem.com/components/docked-composer/) 
-
-
 
   
 
@@ -166,25 +146,15 @@ Announce New Messages: Use aria-live="polite" to audibly announce when new messa
 
 A docked composer with chat input
 
-
     
     
   
-
-
-
-
-
-
-
 
   
     
     
     
   
-
-
 
   
 
@@ -202,19 +172,11 @@ A docked composter with a videoA docked composer with chat input
 
 Modals and prompts present information that requires halting the current workflow. They show content in a layer preceding the app and are centered vertically in the viewport.
 
-
-
 PriorityUrgent
-
-
 
 **Usage** To dismiss a prompt, a user must confirm its call to action. A modal can be dismissed via the close icon, cancel button, or by clicking outside the dialog window.
 
-
-
 Component[Modal](/component/modals)[Prompt](/component/prompt)
-
-
 
   
 
@@ -244,19 +206,11 @@ A modal
 
 Welcome mats are specialized modals used for [deeper learning](/general/user-engagement), such as highlighting new features. They typically include an informational pane and an actionable pane.
 
-
-
 PriorityUrgent
-
-
 
 **Usage** A welcome mat displays information in a layer preceding the app. It can trigger walkthroughs, other modals, videos, or direct users to a URL.
 
-
-
 Component[Welcome Mat](https://v1.lightningdesignsystem.com/components/welcome-mat/)
-
-
 
   
 
@@ -286,19 +240,11 @@ A welcome mat
 
 The notification bell and its accompanying tray deliver urgent, standard, and discreet notifications. Clicking the bell icon expands and collapses the tray.
 
-
-
 PriorityUrgent, Standard, or Discreet
-
-
 
 **Usage** When a new notification arrives, an enumerated badge appears on the bell, and the count of notifications is updated. Each item in the tray allows direct navigation to its content.
 
-
-
 Component[Stateful Button Icon](https://v1.lightningdesignsystem.com/components/button-icons/#Stateful) (Bell)[Popover](https://v1.lightningdesignsystem.com/components/popovers/#site-main-content) (dialog with list of notifications)
-
-
 
   
 
@@ -336,19 +282,11 @@ Standard notifications push relevant, timely information to improve productivity
 
 Notification tiles present time-sensitive information like work reminders, upcoming events, and due tasks. After they’re dismissed, view them in the notification tray.
 
-
-
 PriorityStandard
-
-
 
 **Usage** Clicking the body of a tile dismisses it and opens its URL in a new browser tab. The tile can also be dismissed by clicking the X icon.
 
-
-
 Component[Notification Tiles](https://v1.lightningdesignsystem.com/components/notifications/)
-
-
 
   
 
@@ -386,23 +324,13 @@ Announce New Tiles: When a new tile appears, it must be announced to screen read
 
 An alert presents status information for the entire app or a specific record, and persists until it’s dismissed or replaced. App-wide alerts include system maintenance or browser issues. Record status alerts notify users of changes to a specific record.
 
-
-
 PriorityStandard
-
-
 
 **Usage** Alert banners appear without user initiation, communicate system- or page-wide states, and persist throughout a user’s session.
 
-
-
 An alert shows one of these states: [Error](/general/interface-feedback/t/135c158535), [Warning](/general/interface-feedback/t/a79d2790f8), [Informational](/general/interface-feedback/t/8cdf28f107), and [Offline](/general/interface-feedback/t/a5763afbc7).
 
-
-
 Component[Alert](https://www.lightningdesignsystem.com/2e1ef8501/p/541420)
-
-
 
   
 
@@ -480,25 +408,15 @@ aria-role="status" and aria-live="polite".
 
 An alert positioned above the header
 
-
     
     
   
-
-
-
-
-
-
-
 
   
     
     
     
   
-
-
 
   
 
@@ -520,19 +438,11 @@ Discreet notifications act as pull notifications, providing awareness without di
 
 A scoped notification presents information specific to a component or page section. It's tethered to its component and isn’t dismissible or viewable elsewhere.
 
-
-
 PriorityDiscreet
-
-
 
 **Usage** Scoped notifications are used for information that isn't important enough to justify a full alert.
 
-
-
 Component[Scoped Notification](https://v1.lightningdesignsystem.com/components/scoped-notifications/)
-
-
 
   
 

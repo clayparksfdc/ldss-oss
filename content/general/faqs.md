@@ -28,7 +28,7 @@ The main goals of SLDS 2 are:
 
 ### What are key differences between SLDS 1 and SLDS 2?
 
-- SLDS 2 provides a [UI refresh](https://www.salesforce.com/blog/new-ui-design-insights/#h-what-is-the-new-ui-design) on the Lightning visual style with our new Salesforce Cosmos theme. Access the new theme or create a custom SLDS 2 from [Themes & Branding in Setup](https://help.salesforce.com/s/articleView?id=release-notes.rn_general_slds_themes_beta.htm&release=254&type=5). Discover the details on updates to our [Visual Design Principles](https://www.lightningdesignsystem.com/2e1ef8501/p/207fb6).
+- SLDS 2 provides a [UI refresh](https://www.salesforce.com/blog/new-ui-design-insights/#h-what-is-the-new-ui-design) on the Lightning visual style with our new Salesforce Cosmos theme. Access the new theme or create a custom SLDS 2 from [Themes & Branding in Setup](https://help.salesforce.com/s/articleView?id=release-notes.rn_general_slds_themes_beta.htm&release=254&type=5). Discover the details on updates to our Visual Design Principles.
 - SLDS 2 supports the SLDS 2 themes such as Cosmos in [Lightning Base Components](https://help.salesforce.com/s/articleView?id=release-notes.rn_lc_slds2_support.htm&release=254&type=5), while SLDS 1 will continue to support the Lightning themes.
 - SLDS 2 only uses a [styling hook](https://www.lightningdesignsystem.com/2e1ef8501/p/319e5f)-based architecture while SLDS 1 is based in a mixture of design tokens and styling hooks.
 
