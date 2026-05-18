@@ -8,7 +8,7 @@ extractedAt: "2026-02-21T16:54:47.093Z"
 
 Turn a Figma UI design into component code with Agentforce Vibes.
 
-![](/assets/images/slds-uploads-fEqRPJthdmPk9qjsqF9u8A.png)
+![](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130507/ldss-cms-dev/local/assets/images/slds-uploads-fEqRPJthdmPk9qjsqF9u8A-6a291d76.png)
 
 ## Overview
 
@@ -28,7 +28,7 @@ RoleToolFunctionConstruction managerAI agentAgentforce Vibes IDEAgentforce Vibes
 
 You can write your component code the old-school way: from scratch in your favorite code editor. But that’s cumbersome because you must manually:
 
-![](/assets/images/slds-uploads-UZGKMbMuWLIyF3B6qSajYA.png)
+![](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130507/ldss-cms-dev/local/assets/images/slds-uploads-UZGKMbMuWLIyF3B6qSajYA-97451133.png)
 *Check SLDS 2 documentation on styling hooks, component designs, and utility classes to write the correct CSS and HTML
 
   
@@ -93,7 +93,7 @@ Use our code validation and completion tool, SLDS Linter*
 
 Instead of all that manual work, you want to write correct code simply and easily. So you lean into the power of AI to get you there faster and more efficiently by following these steps:
 
-![](/assets/images/slds-uploads-UZGKMbMuWLIyF3B6qSajYA.png)
+![](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130507/ldss-cms-dev/local/assets/images/slds-uploads-UZGKMbMuWLIyF3B6qSajYA-97451133.png)
 *Complete the Prerequisites
 
   

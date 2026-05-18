@@ -22,7 +22,7 @@ To learn more about custom themes, check out these resources.
 
 ℹ️ Note: Once you enable Salesforce Cosmos, or a custom theme, it activates for everyone in your org.
 
-![Split-screen comparing old Lightning UI and the new SLDS 2 default theme called "Salesforce Cosmos." ](/assets/images/slds-uploads-EAEgqVwJGF3JXxCEQXGKJA.webp)
+![Split-screen comparing old Lightning UI and the new SLDS 2 default theme called "Salesforce Cosmos." ](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130506/ldss-cms-dev/local/assets/images/slds-uploads-EAEgqVwJGF3JXxCEQXGKJA-2243adda.webp)
 *Split-screen comparing old Lightning UI and the new SLDS 2 default theme called "Salesforce Cosmos."*
 
 ### Color Modes
@@ -41,7 +41,7 @@ To get hands-on with dark mode:
 - Read a deeper overview with examples in the [Dark Mode in SLDS 2: Quick Look](https://trailhead.salesforce.com/content/learn/modules/dark-mode-in-slds-2-quick-look) Trailhead module.
 - Learn how to create a custom theme, plus how to preview and activate dark mode in the [Dark Mode-Ready Components in SLDS 2](https://trailhead.salesforce.com/content/learn/modules/dark-mode-ready-components-in-slds-2) Trailhead module.
 
-![An example Salesforce org with SLDS 2 and dark mode activated.](/assets/images/slds-uploads-OMDe_Lfpeix4DtKkVHFa2g.png)
+![An example Salesforce org with SLDS 2 and dark mode activated.](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130506/ldss-cms-dev/local/assets/images/slds-uploads-OMDe_Lfpeix4DtKkVHFa2g-f1bab2f7.png)
 *An example Salesforce org with SLDS 2 and dark mode activated.*
 
 Quick Links

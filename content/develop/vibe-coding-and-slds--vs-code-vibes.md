@@ -16,7 +16,7 @@ Complete the prerequisites. Then complete these steps to build your component co
 
 In a browser window, log in to your Salesforce sandbox.
 
-![](/assets/images/slds-uploads-tJqPenuiP21QeQy7DJFn1A.png)
+![](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130506/ldss-cms-dev/local/assets/images/slds-uploads-tJqPenuiP21QeQy7DJFn1A-1a5c903d.png)
 *Open a Lightning Experience page.
 
   
@@ -81,7 +81,7 @@ Notice your list of custom components. Later on when Agentforce Vibes creates yo
 
 You must tell VS Code where to find the MCP servers.
 
-![](/assets/images/slds-uploads-tJqPenuiP21QeQy7DJFn1A.png)
+![](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130506/ldss-cms-dev/local/assets/images/slds-uploads-tJqPenuiP21QeQy7DJFn1A-1a5c903d.png)
 *In Figma Desktop, obtain a personal access token from Figma.
 
   
@@ -171,7 +171,7 @@ Replace YOUR_PERSONAL_ACCESS_TOKEN with your new Figma token.*
 
 Next, follow these steps in VS Code.
 
-![](/assets/images/slds-uploads-tJqPenuiP21QeQy7DJFn1A.png)
+![](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130506/ldss-cms-dev/local/assets/images/slds-uploads-tJqPenuiP21QeQy7DJFn1A-1a5c903d.png)
 *Open your Salesforce DX project.
 
   

@@ -31,6 +31,10 @@ scripts/zh-cache/
 scripts/zh-image-inventory.json
 scripts/zh-cloudinary-map.json
 
+# Local-images migration artifacts — regenerable from frontend/public/ + Cloudinary
+scripts/local-cloudinary-map.json
+scripts/local-orphan-images.json
+
 # OS
 .DS_Store
 Thumbs.db

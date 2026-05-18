@@ -6,7 +6,7 @@ url: "https://www.lightningdesignsystem.com/2e1ef8501/p/0364a5-prompt-design-gui
 extractedAt: "2026-02-21T18:08:15.563Z"
 ---
 
-![](/assets/images/slds-uploads-hNFPDK2YyLZu8lHWDer-rA.png)
+![](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130507/ldss-cms-dev/local/assets/images/slds-uploads-hNFPDK2YyLZu8lHWDer-rA-a7a73c9a.png)
 
 ## Introduction
 

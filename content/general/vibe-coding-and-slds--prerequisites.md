@@ -16,7 +16,7 @@ Before you work with Agentforce Vibes to create your component code, complete th
 
 You need the Figma Desktop app, version 2.103.7 or higher.
 
-![](/assets/images/slds-uploads-tJqPenuiP21QeQy7DJFn1A.png)
+![](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130506/ldss-cms-dev/local/assets/images/slds-uploads-tJqPenuiP21QeQy7DJFn1A-1a5c903d.png)
 *Open your project in the Figma Desktop app.
 
   
@@ -107,7 +107,7 @@ Make sure the Server status is set to Local server.*
 
 Complete these instructions in the Figma Desktop app in Dev Mode.
 
-![](/assets/images/slds-uploads-7OIALEMGCAs2GPrpdcYk-A.png)
+![](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130507/ldss-cms-dev/local/assets/images/slds-uploads-7OIALEMGCAs2GPrpdcYk-A-d5857169.png)
 *If it's not open already, open your design.
 
   

@@ -18,7 +18,7 @@ Complete these instructions in your sandbox.
 
 ℹ️ Note: As of Spring ‘26, all Salesforce sandboxes include Agentforce Vibes IDE.
 
-![](/assets/images/slds-uploads-tJqPenuiP21QeQy7DJFn1A.png)
+![](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130506/ldss-cms-dev/local/assets/images/slds-uploads-tJqPenuiP21QeQy7DJFn1A-1a5c903d.png)
 *Open a Lightning Experience page.
 
   
