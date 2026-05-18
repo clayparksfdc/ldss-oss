@@ -1,13 +1,13 @@
 # Zeroheight link healing report
 
-Generated: 2026-05-18T20:20:58.662Z
+Generated: 2026-05-18T21:52:08.855Z
 Mode: ✅ APPLIED
 
 ## Summary
 
-- Files touched: **54**
-- External zh links rewritten: **34**
-- Unmapped (left alone): **55**
+- Files touched: **58**
+- External zh links rewritten: **47**
+- Unmapped (left alone): **57**
 
 ## Files
 
@@ -15,58 +15,62 @@ Mode: ✅ APPLIED
 |---|---|---|
 | `accessibility/keyboard-interaction.md` | 0 | 1 |
 | `ai-and-slds-2/conversation-design.md` | 0 | 2 |
+| `component/button--usage.md` | 1 | 0 |
 | `component/button-groups--specifications.md` | 0 | 1 |
+| `component/datetime-picker--accessibility.md` | 2 | 0 |
+| `component/file-selector--accessibility.md` | 2 | 0 |
+| `component/scoped-tabs--usage.md` | 1 | 0 |
 | `component/slider--specifications.md` | 0 | 1 |
+| `component/tree-grid--accessibility.md` | 1 | 0 |
 | `component/tree-grid--specifications.md` | 0 | 1 |
+| `component/vertical-navigation--usage.md` | 1 | 0 |
 | `design/conversation-design--best-practices.md` | 0 | 1 |
 | `design/conversation-design--language-and-style.md` | 0 | 6 |
 | `design/conversation-design--overview.md` | 0 | 2 |
 | `design/conversation-design.md` | 0 | 2 |
-| `design/designers.md` | 2 | 1 |
-| `design/global-styling-hooks--about.md` | 1 | 0 |
-| `design/global-styling-hooks.md` | 1 | 0 |
-| `design/prompt-design-guide.md` | 1 | 0 |
+| `design/designers.md` | 0 | 1 |
+| `design/faqs--designer.md` | 1 | 0 |
 | `develop/box--examples.md` | 0 | 1 |
-| `develop/develop.md` | 1 | 0 |
-| `develop/developer-tools.md` | 1 | 0 |
-| `develop/developer.md` | 4 | 0 |
-| `develop/developers.md` | 3 | 2 |
+| `develop/developers.md` | 0 | 2 |
 | `develop/faqs--developer.md` | 4 | 0 |
-| `develop/styling-hook-index.md` | 1 | 0 |
+| `develop/margin--examples.md` | 2 | 0 |
+| `foundation/borders-and-radius--color.md` | 1 | 0 |
+| `foundation/color--overview.md` | 3 | 0 |
+| `foundation/display-density--overview.md` | 8 | 0 |
+| `foundation/icons--overview.md` | 3 | 0 |
 | `foundation/icons--specifications.md` | 0 | 1 |
 | `foundation/semantic-color.md` | 0 | 1 |
+| `foundation/spacing-and-sizing--styling-hooks.md` | 2 | 0 |
 | `foundation/tree-grid--specifications.md` | 0 | 1 |
-| `general/ai-and-slds-2.md` | 2 | 1 |
+| `foundation/typography--styling-hooks.md` | 2 | 0 |
+| `general/ai-and-slds-2.md` | 0 | 1 |
 | `general/box--examples.md` | 0 | 1 |
 | `general/box.md` | 0 | 1 |
-| `general/builder.md` | 1 | 0 |
-| `general/components.md` | 1 | 0 |
-| `general/faqs--general.md` | 0 | 2 |
+| `general/faqs--general.md` | 1 | 2 |
 | `general/faqs.md` | 0 | 2 |
-| `general/get-started.md` | 1 | 0 |
-| `general/global-styling-hooks--about.md` | 1 | 0 |
-| `general/global-styling-hooks.md` | 1 | 0 |
 | `general/header.md` | 0 | 1 |
-| `general/interaction-models.md` | 1 | 0 |
 | `general/interface-feedback--feedback-states.md` | 0 | 1 |
 | `general/interface-feedback--overview.md` | 0 | 2 |
 | `general/interface-feedback.md` | 0 | 2 |
 | `general/keyboard-interaction.md` | 0 | 1 |
+| `general/margin--examples.md` | 2 | 0 |
 | `general/messaging-ui--a-conversation.md` | 0 | 2 |
 | `general/notifications--notification-priority.md` | 0 | 2 |
+| `general/padding--examples.md` | 2 | 0 |
 | `general/semantic-color.md` | 0 | 1 |
-| `general/slds-1.md` | 1 | 0 |
 | `general/slider--specifications.md` | 0 | 1 |
-| `general/tools.md` | 1 | 0 |
-| `general/utility-classes.md` | 1 | 0 |
 | `general/vertical-navigation--specifications.md` | 0 | 1 |
-| `get-started/designers.md` | 2 | 1 |
-| `get-started/get-started.md` | 1 | 1 |
+| `general/vertical-navigation--usage.md` | 1 | 0 |
+| `get-started/designers.md` | 0 | 1 |
+| `get-started/faqs--designer.md` | 1 | 0 |
+| `get-started/faqs--developer.md` | 4 | 0 |
+| `get-started/faqs--general.md` | 1 | 2 |
+| `get-started/get-started.md` | 0 | 1 |
 | `guideline/conversation-design--language-and-style.md` | 0 | 4 |
 | `guideline/conversation-design--overview.md` | 0 | 1 |
 | `guideline/conversation-design.md` | 0 | 2 |
 | `guideline/messaging-ui--a-conversation.md` | 0 | 1 |
-| `pattern/agentic-patterns.md` | 1 | 0 |
+| `pattern/vertical-navigation--usage.md` | 1 | 0 |
 
 ## Unmapped URLs
 

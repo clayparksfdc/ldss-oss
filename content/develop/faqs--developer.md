@@ -14,19 +14,19 @@ Explore essential questions for developers to integrate and optimize SLDS 2 in y
 
 Using SLDS 2:
 
-- Reduces development time by providing pre-designed, standardized components.
-- Ensures design consistency with Salesforce applications.
-- Offers tools to create responsive, accessible, and visually cohesive experiences.
-- Follows best practices that align with Salesforce’s UI and UX standards.
+* Reduces development time by providing pre-designed, standardized components.
+* Ensures design consistency with Salesforce applications.
+* Offers tools to create responsive, accessible, and visually cohesive experiences.
+* Follows best practices that align with Salesforce’s UI and UX standards.
 
 ### What components and tools does SLDS 2 include for developers?
 
 SLDS 2 provides a wide range of components and tools, including:
 
-- [Lightning Base Components](/component/components/b/1930c8):  Reusable, out-of-the-box elements such as buttons, icons, forms, and tabs. Compose new components using the base components to create your own custom UI and apps that look like Salesforce and follow SLDS 2 guidelines. The base components get the latest SLDS component blueprint updates automatically.
-- [Component Blueprints:](/component/components/b/459d9d) Create your own custom components that follow our design guidelines.
-- [Utility classes](/develop/utility-classes): Ready-to-use CSS classes such as layout helpers, color classes, spacing, and and styling for responsive designs.
-- [Developer Tools:](/develop/developer-tools) Increase productivity by using tools that help developers seamlessly transition to SLDS 2, improve code quality, and ensure code adheres to best practices.
+* [Lightning Base Components](/component/components/b/1930c8):  Reusable, out-of-the-box elements such as buttons, icons, forms, and tabs. Compose new components using the base components to create your own custom UI and apps that look like Salesforce and follow SLDS 2 guidelines. The base components get the latest SLDS component blueprint updates automatically.
+* [Component Blueprints:](/component/components/b/459d9d) Create your own custom components that follow our design guidelines.
+* [Utility classes](/develop/utility-classes): Ready-to-use CSS classes such as layout helpers, color classes, spacing, and and styling for responsive designs.
+* [Developer Tools:](/develop/developer-tools) Increase productivity by using tools that help developers seamlessly transition to SLDS 2, improve code quality, and ensure code adheres to best practices.
 
 ### How can developers customize SLDS 2 components?
 
@@ -34,9 +34,8 @@ While SLDS 2 encourages standard component use to maintain consistency, designer
 
 ### What are some best practices for implementing SLDS 2 with Lightning Web Components (LWC)?
 
-- Use SLDS 2 Styling Hooks: Styling hooks allow you to customize SLDS 2 styles in Lightning Web Components without modifying core SLDS 2 files.
-- Apply SLDS 2 Utility Classes: Add SLDS 2 utility classes for spacing, alignment, and text formatting directly in your component code instead of using custom CSS. This makes your component styling easier to maintain.
-- Avoid Inline Styles: Inline styles can override SLDS 2 utility classes and make theme updates harder to manage.
+* Use SLDS 2 Styling Hooks: Styling hooks allow you to customize SLDS 2 styles in Lightning Web Components without modifying core SLDS 2 files.
+* Apply SLDS 2 Utility Classes: Add SLDS 2 utility classes for spacing, alignment, and text formatting directly in your component code instead of using custom CSS. This makes your component styling easier to maintain.
+* Avoid Inline Styles: Inline styles can override SLDS 2 utility classes and make theme updates harder to manage.
 
-You can find detailed guidance in the LWC Developer Guide
-
+You can find detailed guidance in the [LWC Developer Guide](https://developer.salesforce.com/docs/component-library/documentation/lwc)

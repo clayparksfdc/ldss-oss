@@ -6,7 +6,11 @@ parent: "display-density"
 order: 0
 ---
 
-An artistic depiction of display density.
+![Density Banner](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/b3a8742439b40d9a4b8db7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6SJI2PWU%2F20260518%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260518T042852Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4d82451c106c5de634c7a3f728f2f0f0417ff2bfb4d9b4418071bec7d69dbe0a)
+
+**Density Banner**
+
+---
 
 ## About
 
@@ -14,64 +18,92 @@ Display density controls the spacing and layout of interface elements within a g
 
 Display density is a user preference setting. Because users select which display density setting to use, Salesforce interfaces are designed to work well in both. Here’s how you can design with display density in mind too.
 
-Side-by-side comparison showing the same interface in comfy and compact
+![Density About](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/a3f121d681fb2082aee91d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6SJI2PWU%2F20260518%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260518T042852Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7b262cc9ebf28c7501c5b965e3fa6050c21e4ac18428344a15d05fccae315a19)
+
+**Density About**
+
+---
 
 ## Comfy
 
-Comfy is the default density setting in Salesforce. The comfy setting offers a spacious view with increased vertical and horizontal spacing, and vertically stacked [form elements](/component/form-element).
+Comfy is the default density setting in Salesforce. The comfy setting offers a spacious view with increased vertical and horizontal spacing, and vertically stacked [form elements](/component/form-element/t/c02eea1705).
 
-### Comfy setting benefits:
+![Comfy](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/033cb2e939fd2085914839?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6SJI2PWU%2F20260518%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260518T042852Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5dc0b313678941d2b433a9528f3cbbaa9d7c25eccba4d7c5090a396609a999cb)
 
-- Better accommodation for localized content with longer text
-- Enhanced visual separation for improved accessibility
-- Reduced cognitive load and better scannability, particularly for new users
+**Comfy**
 
-### Comfy setting considerations:
+---
 
-- Make sure that critical information remains prominent despite additional whitespace.
-- Test with localized content to verify that the spacing accommodates longer text.
-- Consider vertical scrolling requirements, as elements use more vertical space.
+### **Comfy setting benefits:**
+
+* Better accommodation for localized content with longer text
+* Enhanced visual separation for improved accessibility
+* Reduced cognitive load and better scannability, particularly for new users
+
+### **Comfy setting considerations:**
+
+* Make sure that critical information remains prominent despite additional whitespace.
+* Test with localized content to verify that the spacing accommodates longer text.
+* Consider vertical scrolling requirements, as elements use more vertical space.
 
 ## Compact
 
-Compact mode creates a denser view with reduced spacing between elements, more information visibility in the viewport, and horizontally stacked [form elements](/component/form-element).
+Compact mode creates a denser view with reduced spacing between elements, more information visibility in the viewport, and horizontally stacked [form elements](/component/form-element/t/8bccc5eb64).
 
-### Compact setting benefits:
+![Compact](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/b771c3cf05a4929248010b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6SJI2PWU%2F20260518%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260518T042852Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0d3e4190a40d4f92fb7207667a6df313657a16e94a839d2d4c88f27f390724d6)
 
-- Improved efficiency if working with large data sets
-- Reduced scrolling for data-heavy screens
-- More information is visible simultaneously
+**Compact**
 
-### Compact setting considerations:
+---
 
-- Verify that touch targets remain large enough for comfortable interaction.
-- Make sure that text remains readable with the reduced spacing.
-- Test how horizontal layouts behave in narrower viewports.
+###  **Compact setting benefits:**
+
+* Improved efficiency if working with large data sets
+* Reduced scrolling for data-heavy screens
+* More information is visible simultaneously
+
+### **Compact setting considerations:**
+
+* Verify that touch targets remain large enough for comfortable interaction.
+* Make sure that text remains readable with the reduced spacing.
+* Test how horizontal layouts behave in narrower viewports.
 
 ## User Control of Density
 
 To personalize the look of Lightning Experience, a user clicks their profile image at the top of a Salesforce page, and then selects a display density. After a user changes their display density setting, the page automatically refreshes. Salesforce admins can also set org-wide defaults. As you design and develop, make sure that the interface adapts appropriately to both density settings.
 
+![User Control of Density](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/b1988dc9f3d06e8ebb1bfc?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6SJI2PWU%2F20260518%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260518T042852Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ba6f35d5755aaf8cea58c3d36be5fdf749269fa79be1369b1ca9bec7c67f7197)
+
+**User Control of Density**
+
+---
+
 ## Density-Aware Styling Hooks
 
-Use density-aware styling hooks if specific areas, components, spacing, and typographical elements require the ability to adapt or respond to a user’s density setting.
+Use density-aware styling hooks if specific areas, components, spacing, and typographical elements require the ability to adapt or respond to a user’s density setting. 
 
 **Elements that typically benefit from density-aware styling hooks:**
 
-- Data-dense components like tables, lists, and grids
-- Form layouts and field arrangements
-- Card and container padding
-- Navigation and toolbar spacing
+* Data-dense components like tables, lists, and grids
+* Form layouts and field arrangements
+* Card and container padding
+* Navigation and toolbar spacing
 
 ### Considerations
 
-If you use density-aware styling hooks, make sure that you match the styling hooks with the appropriate properties.
+If you use density-aware styling hooks, make sure that you match the styling hooks with the appropriate properties. 
 
-- For top-bottom-left-right spacing: `--slds-g-spacing-var-[size]`
-- For horizontal spacing:  `--slds-g-spacing-var-inline-[size]`
-- For vertical spacing: `--slds-g-spacing-var-block-[size]`
-- For font sizes: `--slds-g-font-scale-var-[size]`
-- For font line height: ` --slds-g-font-lineheight-var-base`
+* For top-bottom-left-right spacing: `--slds-g-spacing-var-[size]`
+* For horizontal spacing:  `--slds-g-spacing-var-inline-[size]`
+* For vertical spacing: `--slds-g-spacing-var-block-[size]`
+* For font sizes: `--slds-g-font-scale-var-[size]`
+* For font line height:  `--slds-g-font-lineheight-var-base`
+
+![Considerations](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/5a7280aae12ed43feffdc4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6SJI2PWU%2F20260518%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260518T042852Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=925e70bba7e4e34a8280609e67bef72683950f946a33307466d6c9301bfb4106)
+
+**Considerations**
+
+---
 
 ## SLDS Components with Built-in Density Support
 
@@ -79,16 +111,18 @@ SLDS includes several components with built-in density adaptation that automatic
 
 The following components include density-aware styling hooks, which enable automatic adjustments for different display densities.
 
-- [Cards](/component/cards)
-- [File selector](/component/file-selector)
-- [Tabs](/component/tabs)
+* [Cards](/component/cards)
+* [File selector](/component/file-selector)
+* [Tabs](/component/tabs)
+
 When using component blueprints, make sure that you use the standard SLDS markup patterns and CSS classes. The following component blueprints include density-aware styling hooks that can be configured:
 
-- [Cards](/component/cards)
-- [Feed](https://v1.lightningdesignsystem.com/components/feeds/)
-- [File selector](/component/file-selector)
-- [Page header](https://v1.lightningdesignsystem.com/components/page-headers/)
-- [Path](https://v1.lightningdesignsystem.com/components/path/)
-- [Split view](https://v1.lightningdesignsystem.com/components/split-view/)
-- [Tabs](/component/tabs)
+* [Cards](/component/cards)
+* [Feed](https://v1.lightningdesignsystem.com/components/feeds/)
+* [File selector](/component/file-selector)
+* [Page header](https://v1.lightningdesignsystem.com/components/page-headers/)
+* [Path](https://v1.lightningdesignsystem.com/components/path/)
+* [Split view](https://v1.lightningdesignsystem.com/components/split-view/)
+* [Tabs](/component/tabs)
+
 To reference component blueprints, see the [Salesforce Lightning Design System 1](https://v1.lightningdesignsystem.com/) website.

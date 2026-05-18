@@ -10,13 +10,12 @@ order: 0
 
 ### Mouse
 
-- Users can interact with the File Selector component using a mouse by clicking the Button to open the file dialog. After selecting files, users can click the “Remove” icon to delete a selected file.
-- The cursor will change to indicate clickable areas, such as a pointer cursor when hovering over interactive elements.
+* Users can interact with the File Selector component using a mouse by clicking the Button to open the file dialog. After selecting files, users can click the “Remove” icon to delete a selected file.
+* The cursor will change to indicate clickable areas, such as a pointer cursor when hovering over interactive elements.
 
 ### Keyboard
 
 The component supports keyboard interactions, allowing users to navigate through the File Selector using standard keyboard commands.
-
 
 | **Action** | **Key Command** |
 | --- | --- |
@@ -29,32 +28,32 @@ When the component is loaded, the initial focus should be set on the Button, mak
 
 ### Other
 
-- Users relying on assistive devices, such as screen readers or speech recognition software, will navigate the component through verbal commands or keyboard shortcuts.
-- Screen readers should announce the File Selector’s purpose and current state (e.g., how many files have been selected).
-- Magnifiers and braille displays provide tactile feedback and visual enhancements to aid in interaction.
+* Users relying on assistive devices, such as screen readers or speech recognition software, will navigate the component through verbal commands or keyboard shortcuts.
+* Screen readers should announce the File Selector’s purpose and current state (e.g., how many files have been selected).
+* Magnifiers and braille displays provide tactile feedback and visual enhancements to aid in interaction.
 
 ## Design Considerations
 
-- All interactive elements are clearly labeled and distinguishable.
-- Visual focus indicators are present to show users where they are within the component.
-- Sufficient color contrast is maintained to ensure readability for users with visual impairments.
-- Alternative text is provided for any icons or images used within the File Selector.
+* All interactive elements are clearly labeled and distinguishable.
+* Visual focus indicators are present to show users where they are within the component.
+* Sufficient color contrast is maintained to ensure readability for users with visual impairments.
+* Alternative text is provided for any icons or images used within the File Selector.
 
 ## Development Considerations
 
-- Implementing ARIA attributes to enhance component descriptions for assistive technologies.
-- Ensuring keyboard navigability throughout the component without getting trapped in any interactive elements.
-- Testing the component with various assistive technologies to ensure compatibility and functionality.
+* Implementing ARIA attributes to enhance component descriptions for assistive technologies.
+* Ensuring keyboard navigability throughout the component without getting trapped in any interactive elements.
+* Testing the component with various assistive technologies to ensure compatibility and functionality.
 
 ## Content Considerations
 
-- Clear and concise instructions regarding file upload processes.
-- Error messages must be descriptive and provide guidance on how to resolve issues (such as file size limits).
-- Any labels or instructional text must be legible and easy to understand.
+* Clear and concise instructions regarding file upload processes.
+* Error messages must be descriptive and provide guidance on how to resolve issues (such as file size limits).
+* Any labels or instructional text must be legible and easy to understand.
 
 ## Accessibility Labels
 
-The File Selector component should include appropriate accessibility labels for interactive elements such as [buttons](/components/button) and [inputs](/components/input).
+The File Selector component should include appropriate accessibility labels for interactive elements such as [buttons](/component/button) and [inputs](/component/input).
 
 ## Internationalization
 

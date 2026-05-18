@@ -16,21 +16,21 @@ The Salesforce Lightning Design System 1 (SLDS 1) website has migrated to make s
 
 ### What is SLDS 2?
 
-The Salesforce Lightning Design System 2 (SLDS 2) is the latest design system for Salesforce products built on the Lightning platform, it's an evolution of SLDS 1. The design system is a free offering created for developers, designers, administrators, and partners to design and build usable and accessible experiences. It includes reusable UI components, guidelines, and tools.Reference our [help article](https://help.salesforce.com/s/articleView?id=xcloud.customize_ui_enhancedlex.htm&type=5) for detailed information on availability**.**
+The Salesforce Lightning Design System 2 (SLDS 2) is the latest design system for Salesforce products built on the Lightning platform, it's an evolution of SLDS 1. The design system is a free offering created for developers, designers, administrators, and partners to design and build usable and accessible experiences. It includes reusable UI components, guidelines, and tools. Reference our [help article](https://help.salesforce.com/s/articleView?id=xcloud.customize_ui_enhancedlex.htm&type=5) for detailed information on availability**.**
 
 SLDS 2 includes a comprehensive set of design guidelines, components, and resources that help you create consistent, accessible, and user-friendly Salesforce applications. SLDS 2 includes CSS frameworks and components that adhere to Salesforce’s visual and user experience standards.
 
 **The main goals of SLDS 2 are:**
 
-- Provide a refreshed UI while maintaining a unified and consistent look and feel across all Salesforce applications and agentic experiences.
-- Improve accessibility and responsiveness, ensuring Salesforce applications are usable across devices and accessible to all users.
-- Streamline the design-to-development handoff by offering reusable, ready-made components in both Figma kits and code.
+* Provide a refreshed UI while maintaining a unified and consistent look and feel across all Salesforce applications and agentic experiences.
+* Improve accessibility and responsiveness, ensuring Salesforce applications are usable across devices and accessible to all users.
+* Streamline the design-to-development handoff by offering reusable, ready-made components in both Figma kits and code.
 
-### What are key differences between SLDS 1 and SLDS 2?
+### What are key differences between SLDS 1 and SLDS 2? 
 
-- SLDS 2 provides a [UI refresh](https://www.salesforce.com/blog/new-ui-design-insights/#h-what-is-the-new-ui-design) on the Lightning visual style with our new Salesforce Cosmos theme. Access the new theme or create a custom SLDS 2 from [Themes & Branding in Setup](https://help.salesforce.com/s/articleView?id=release-notes.rn_general_slds_themes_beta.htm&release=254&type=5). Discover the details on updates to our [Visual Design Principles](/foundations/foundations).
-- SLDS 2 supports the SLDS 2 themes such as Cosmos in [Lightning Base Components](https://help.salesforce.com/s/articleView?id=release-notes.rn_lc_slds2_support.htm&release=254&type=5), while SLDS 1 will continue to support the Lightning themes.
-- SLDS 2 only uses a [styling hook](/develop/global-styling-hooks)-based architecture while SLDS 1 is based in a mixture of design tokens and styling hooks.
+* SLDS 2 provides a [UI refresh](https://www.salesforce.com/blog/new-ui-design-insights/#h-what-is-the-new-ui-design) on the Lightning visual style with our new Salesforce Cosmos theme. Access the new theme or create a custom SLDS 2 from [Themes & Branding in Setup](https://help.salesforce.com/s/articleView?id=release-notes.rn_general_slds_themes_beta.htm&release=254&type=5). Discover the details on updates to our [Visual Design Principles](https://www.lightningdesignsystem.com/2e1ef8501/p/207fb6). 
+* SLDS 2 supports the SLDS 2 themes such as Cosmos in [Lightning Base Components](https://help.salesforce.com/s/articleView?id=release-notes.rn_lc_slds2_support.htm&release=254&type=5), while SLDS 1 will continue to support the Lightning themes.
+* SLDS 2 only uses a [styling hook](https://www.lightningdesignsystem.com/2e1ef8501/p/319e5f)-based architecture while SLDS 1 is based in a mixture of design tokens and styling hooks.
 
 ### Who uses SLDS 2?
 
@@ -38,23 +38,19 @@ SLDS 2 is designed for developers, designers, and anyone building applications o
 
 ### Why transition to SLDS 2?
 
-SLDS 2 paves the way for future innovation, including dark mode, advanced styling, and agentic capabilities. Moving to SLDS 2 ensures companies can future-proof their orgs and unlock new UX capabilities when they become available. Discover details on the transition process to SLDS 2 in our [transition guide](/get-started/transition-to-slds-2).
+SLDS 2 paves the way for future innovation, including dark mode, advanced styling, and agentic capabilities. Moving to SLDS 2 ensures companies can future-proof their orgs and unlock new UX capabilities when they become available. Discover details on the transition process to SLDS 2 in our [transition guide](/general/transition-to-slds-2).
 
 ### What is Salesforce Cosmos and how is it different from SLDS 2?
 
-**Salesforce Cosmos**is the new default theme for SLDS 2, providing a refresh of the visual styles that appear in the UI. Released in Winter ’25 and formerly known as Enhanced Lightning User Interface (UI), the Salesforce Cosmos theme delivers a modern design that improves navigation, page load speed, and approachability.
+**Salesforce Cosmos** is the new default theme for SLDS 2, providing a refresh of the visual styles that appear in the UI. Released in Winter ’25 and formerly known as Enhanced Lightning User Interface (UI), the Salesforce Cosmos theme delivers a modern design that improves navigation, page load speed, and approachability.
 
-**SLDS 2**is the latest design system for Salesforce products built on the Lightning Platform.
+**SLDS 2** is the latest design system for Salesforce products built on the Lightning Platform.
 
 To put it more simply, Salesforce Cosmos is the new default visual design (the visual style that end users see), while SLDS 2 is the foundation on which Cosmos was built (the building blocks used to make the theme).
 
-### When will Salesforce Cosmos and SLDS 2 be available?
+### **When will Salesforce Cosmos and SLDS 2 be available?**
 
-**SLDS 2** is GA as of the Winter '26 release. SLDS 2 feature availability, including Salesforce Cosmos, varies by product and edition. Some SLDS 2 features are generally available, but some features are still works in progress.
-
-**Salesforce Cosmos** is the first theme available in SLDS 2. It began its gradual release to new orgs in Winter ’25 and will be available to existing orgs as the standard SLDS 2 theme in Winter ’26. 
-
-Find detailed availability information in this [help article](https://help.salesforce.com/s/articleView?id=sf.customize_ui_enhancedlex.htm&type=5).
+**SLDS 2** is GA as of the Winter '26 release. SLDS 2 feature availability, including Salesforce Cosmos, varies by product and edition. Some SLDS 2 features are generally available, but some features are still works in progress.**Salesforce Cosmos** is the first theme available in SLDS 2. It began its gradual release to new orgs in Winter ’25 and will be available to existing orgs as the standard SLDS 2 theme in Winter ’26. Find detailed availability information in this [help article](https://help.salesforce.com/s/articleView?id=sf.customize_ui_enhancedlex.htm&type=5).
 
 ### Is the change to SLDS 2 and Cosmos mandatory?
 
@@ -62,7 +58,7 @@ No, moving to SLDS 2 and Salesforce Cosmos isn't mandatory. Customers can opt in
 
 ### How is the transition to SLDS 2 different than the Classic to Lightning migration?
 
-The transition from Classic to Lightning was a platform change that required migration to the Lightning Component framework. Moving to SLDS 2 and Salesforce Cosmos is less complex because they operate on the Lightning Component framework and the CSS modifications don't impact system functionality.
+The transition from Classic to Lightning was a platform change that required migration to the Lightning Component framework. Moving to SLDS 2 and Salesforce Cosmos is less complex because they operate on the Lightning Component framework and the CSS modifications don't impact system functionality. 
 
 ### Does Salesforce Cosmos and SLDS 2 work with an ISV's managed packages?
 
@@ -70,15 +66,15 @@ Yes, an ISV can update their UI and components to support SLDS 2. If the new Cos
 
 ### What are styling hooks, and why are they important?
 
-[Styling Hooks](/develop/global-styling-hooks) in SLDS 2 are CSS variables that define essential design properties like colors, spacing, fonts, and borders. They ensure consistent styling across applications and make it easy to apply theming changes without manually updating each component. They also help keep designs aligned with Salesforce’s branding.
+[Styling Hooks](https://zeroheight.com/2e1ef8501/p/319e5f) in SLDS 2 are CSS variables that define essential design properties like colors, spacing, fonts, and borders. They ensure consistent styling across applications and make it easy to apply theming changes without manually updating each component. They also help keep designs aligned with Salesforce’s branding.
 
 ### How does SLDS 2 ensure accessibility?
 
 SLDS 2 adheres to the[ Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/), ensuring compatibility with screen readers and other assistive technologies. Accessible design features include:
 
-- ARIA roles and labels on components.
-- Keyboard-friendly navigation and focus management.
-- High contrast ratios and clear visual indicators.
+* ARIA roles and labels on components.
+* Keyboard-friendly navigation and focus management.
+* High contrast ratios and clear visual indicators.
 
 ### Is SLDS 2 responsive?
 
@@ -111,9 +107,3 @@ While SLDS 2 shares similarities with design systems like Material Design and IB
 ### Where can I learn more and stay updated on SLDS 2?
 
 Keep the learning going with the latest information:
-
-:::card-grid{columns=3}
-::card{title="Trailhead" description="Learn best practices on working with SLDS 2 and Salesforce UX principles." href="https://trailhead.salesforce.com/"}
-::card{title="Design Trailblazer Community" description="Discover valuable insights, design discussions, and questions about SLDS 2." href="https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000GvbxSAC"}
-::card{title="Salesforce Developer Forums" description="Connect with other developers, ask questions, and find SLDS 2-specific discussions." href="https://developer.salesforce.com/forums/"}
-:::

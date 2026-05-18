@@ -12,14 +12,28 @@ Truncation utility classes manage the display of text that overflows its contain
 
 ### Single Line
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--single-line](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--single-line)
+
 ### Single Line with Nested Grid Containers
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--single-line-within-nested-grid-containers](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--single-line-within-nested-grid-containers)
 
 ### Maximum Width of 25%
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--max-width-25](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--max-width-25)
+
 ### Maximum Width of 33%
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--max-width-33](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--max-width-33)
 
 ### Maximum Width of 50%
 
-### Maximum Width of 66%
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--max-width-50](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--max-width-50)
 
 ### Maximum Width of 66%
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--max-width-66](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--max-width-66)
+
+### Maximum Width of 66%
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--max-width-75](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-truncation--max-width-75)

@@ -14,21 +14,21 @@ Explore topics specific to designers such as designer assets, guidelines, and to
 
 Using SLDS 2:
 
-- Ensures visual and functional consistency across the Salesforce ecosystem
-- Accelerates creation of layouts, flows, and interfaces
-- Aligns designs with Salesforce guidelines
-- Reduces design and development time and streamlines handoff from design to development
-- Improves overall usability
+* Ensures visual and functional consistency across the Salesforce ecosystem
+* Accelerates creation of layouts, flows, and interfaces
+* Aligns designs with Salesforce guidelines
+* Reduces design and development time and streamlines handoff from design to development
+* Improves overall usability
 
 ### What design assets and tools are available in SLDS 2?
 
 SLDS 2 provides various design assets and tools, including:
 
-- **Figma Kits:** Documented style guide and pre-built components like buttons, data tables, forms, and navigation.
-- **Icons:** A comprehensive set of icons specifically designed for Salesforce applications.
-- **Styling Hooks:** CSS Variables representing common design attributes (colors, typography, spacing), making it easy to maintain and apply themes across designs.
+* **Figma Kits:** Documented style guide and pre-built components like buttons, data tables, forms, and navigation.
+* **Icons:** A comprehensive set of icons specifically designed for Salesforce applications.
+* **Styling Hooks:** CSS Variables representing common design attributes (colors, typography, spacing), making it easy to maintain and apply themes across designs.
 
-Find all assets and tools at Designer Tools.
+Find all assets and tools at [Designer Tools](/design/designer-tools).
 
 ### How do styling hooks appear in Figma?
 
@@ -41,4 +41,3 @@ While SLDS 2 encourages standard component use to maintain consistency, designer
 ### How does SLDS 2 ensure consistency across Salesforce applications?
 
 SLDS 2 promotes consistency through strict design guidelines, component reuse, and styling hooks. Like other leading design systems, SLDS 2 provides predefined components and styles that maintain uniformity in spacing, colors, and typography across Salesforce applications. By following SLDS 2 standards, designers ensure their work aligns with the cohesive Salesforce brand identity.
-

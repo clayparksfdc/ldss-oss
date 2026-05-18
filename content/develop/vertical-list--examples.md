@@ -6,84 +6,90 @@ parent: "vertical-list"
 order: 0
 ---
 
-Vertical list utility classes make it easier to organize content into vertically stacked lists with consistent spacing, alignment, borders and layout.
+Vertical list utility classes make it easier to organize content into vertically stacked lists with consistent spacing, alignment, borders and layout. 
 
 ## Example
 
 ### Base
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--default
-title: Utilities With Code Vertical List - Default
-height: 400px
-```
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--default](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--default)
 
 ### Dotted
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--dotted
-title: Utilities With Code Vertical List - Dotted
-height: 400px
-```
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--dotted](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--dotted)
 
 ### Decimal
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--decimal
-title: Utilities With Code Vertical List - Decimal
-height: 400px
-```
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--decimal](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--decimal)
 
 ### Links
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--links
-title: Utilities With Code Vertical List - Links
-height: 400px
-```
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--links](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--links)
 
 #### Block Links
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--block-links](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--block-links)
+
 #### Block Links with Space
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--block-links-with-space](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--block-links-with-space)
 
 #### Inline Block Links
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--inline-block-links](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--inline-block-links)
+
 #### Block Links with Space
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--inline-block-links-with-space](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--inline-block-links-with-space)
 
 ### Nested Vertical Lists
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--block-links
-title: Utilities With Code Vertical List - Block Links
-height: 400px
-```
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--nested-vertical-lists](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--nested-vertical-lists)
 
 ### Top
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--block-links-with-space
-title: Utilities With Code Vertical List - Block Links With Space
-height: 400px
-```
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--top](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--top)
 
 #### With Space
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--top-with-space](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--top-with-space)
+
 #### With Link
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--top-with-link](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--top-with-link)
+
 #### With Link and Space
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--top-with-link-and-space](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--top-with-link-and-space)
 
 ### Bottom
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--bottom](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--bottom)
+
 #### With Space
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--bottom-with-space](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--bottom-with-space)
 
 #### With Link
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--bottom-with-link](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--bottom-with-link)
+
 #### With Link and Space
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--bottom-with-link-and-space](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--bottom-with-link-and-space)
 
 ### Around
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--around](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--around)
+
 #### With Space
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--around-with-space](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--around-with-space)
 
 #### With Link
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--around-with-link](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--around-with-link)
+
 #### With Link and Space
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--around-with-link-and-space](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-vertical-list--around-with-link-and-space)

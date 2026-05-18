@@ -14,21 +14,21 @@ Explore topics specific to designers such as designer assets, guidelines, and to
 
 Using SLDS 2:
 
-- Ensures visual and functional consistency across the Salesforce ecosystem
-- Accelerates creation of layouts, flows, and interfaces
-- Aligns designs with Salesforce guidelines
-- Reduces design and development time and streamlines handoff from design to development
-- Improves overall usability
+* Ensures visual and functional consistency across the Salesforce ecosystem
+* Accelerates creation of layouts, flows, and interfaces
+* Aligns designs with Salesforce guidelines
+* Reduces design and development time and streamlines handoff from design to development
+* Improves overall usability
 
 ### What design assets and tools are available in SLDS 2?
 
 SLDS 2 provides various design assets and tools, including:
 
-- **Figma Kits:** Documented style guide and pre-built components like buttons, data tables, forms, and navigation.
-- **Icons:** A comprehensive set of icons specifically designed for Salesforce applications.
-- **Styling Hooks:** CSS Variables representing common design attributes (colors, typography, spacing), making it easy to maintain and apply themes across designs.
+* **Figma Kits:** Documented style guide and pre-built components like buttons, data tables, forms, and navigation.
+* **Icons:** A comprehensive set of icons specifically designed for Salesforce applications.
+* **Styling Hooks:** CSS Variables representing common design attributes (colors, typography, spacing), making it easy to maintain and apply themes across designs.
 
-Find all assets and tools at [Designer Tools](/tools/designer-tools).
+Find all assets and tools at [Designer Tools](/design/designer-tools).
 
 ### How do styling hooks appear in Figma?
 

@@ -19,4 +19,8 @@ To align a card-like component flush to another card-like component positioned b
 
 #### Before
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-layout--above](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-layout--above)
+
 #### After
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-layout--below](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-layout--below)

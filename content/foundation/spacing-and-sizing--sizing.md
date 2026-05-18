@@ -12,10 +12,15 @@ Sizing refers to the dimensions of a component, such as height, width, or size v
 
 A design system applies sizing in a few key ways.
 
-- Defines the physical dimensions of elements like buttons, icons, and cards.
-- Provides scalable size options (small, medium, large) to accommodate different contexts.
-- Supports responsiveness to make sure that designs function well on all screen sizes.
-Sizing within the styling hooks refers to the fixed height or width of an element.
+* Defines the physical dimensions of elements like buttons, icons, and cards.
+* Provides scalable size options (small, medium, large) to accommodate different contexts.
+* Supports responsiveness to make sure that designs function well on all screen sizes.
+
+![Overview-Sizing](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/059ec345dab6eb13c85b74?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6SJI2PWU%2F20260518%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260518T042853Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c8fa41c8415340f7e2e2878fdf8076f5dd2e88fdf34d63e61d3781d2891092fb)
+
+**Overview-Sizing**
+
+---
 
 ## Sizing Scale
 
@@ -24,3 +29,9 @@ The `sizing` values are used to create dimensions of an element, like using heig
 ### Dimensions
 
 Use these styling hooks for elements such as icons to set their height and width relative to the root element's font-size.
+
+![sizing-scale - px](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/fd45932186460710220aec?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6SJI2PWU%2F20260518%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260518T042853Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a5730c629a0aa02fc6bb542eaabf1c07b96827ecc4901506c2f0dbba597aad28)
+
+**sizing-scale - px**
+
+---

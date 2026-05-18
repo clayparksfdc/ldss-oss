@@ -6,36 +6,36 @@ parent: "slider"
 order: 0
 ---
 
-## Interactions
+## **Interactions**
 
 ### Mouse
 
-- Users can drag the handle to adjust the value.
+* Users can drag the handle to adjust the value.
 
 ### Keyboard
 
-- **Tab** moves focus to the handle.
-- While focused, **Left**, **Right**, **Up**, and **Down** keys increment/decrement the slider.
+* **Tab** moves focus to the handle.
+* While focused, **Left**, **Right**, **Up**, and **Down** keys increment/decrement the slider.
 
 ### Other
 
-- Screen readers should announce current value and range.
+* Screen readers should announce current value and range.
 
-## Design Considerations
+## **Design Considerations**
 
-- Ensure sufficient contrast between track and handle.
-- Provide clear focus indicators for keyboard users.
+* Ensure sufficient contrast between track and handle.
+* Provide clear focus indicators for keyboard users.
 
-## Development Considerations
+## **Development Considerations**
 
-- Implement `aria-valuenow`, `aria-valuemin`, and `aria-valuemax` attributes.
-- Ensure the component is navigable via keyboard.
-- Use `aria-labelledby` for clear descriptions.
+* Implement `aria-valuenow`, `aria-valuemin`, and `aria-valuemax` attributes.
+* Ensure the component is navigable via keyboard.
+* Use `aria-labelledby` for clear descriptions.
 
-## Content Considerations
+## **Content Considerations**
 
-- Use concise labels and instructions.
+* Use concise labels and instructions.
 
-## Internationalization
+## **Internationalization**
 
-- Ensure proper formatting for different number formats and RTL languages.
+* Ensure proper formatting for different number formats and RTL languages.

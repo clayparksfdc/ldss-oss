@@ -9,18 +9,24 @@ order: 0
 
 ### Mouse
 
-- Users can click tabs or the overflow menu to switch content.
+* Users can click tabs or the overflow menu to switch content.
 
 ### Keyboard
 
-- **Tab:** Navigates into and out of tab panels.
-- **Shift+Tab:** Moves focus back to the selected tab when focus is on first element in a tab panel.
-- **Arrow keys:** Move between tabs.
--**Enter/Space:** Activate the overflow menu.
+* **Tab:** Navigates into and out of tab panels.
+* **Shift+Tab:** Moves focus back to the selected tab when focus is on first element in a tab panel.
+* **Arrow keys:** Move between tabs.
+* **Enter/Space:** Activate the overflow menu.
+
+![Scoped Tabs - Tab Order](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/5d2f212a42c4b6d213de60?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6SJI2PWU%2F20260518%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260518T183621Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=450a0e9399ac74d1449025fe5de7b71a453c72aa8d6cc74052e4c7034e6dcd53)
+
+**Scoped Tabs - Tab Order**
+
+---
 
 ### Other
 
-**Screen Readers:** Tabs are announced using roles like `tablist`, `tab`, and `tabpanel`
+**Screen Readers:** Tabs are announced using roles like `tablist`, `tab`, and `tabpanel` 
 
 **Magnifiers and High Contrast:** Clear focus indicators and labels ensure usability.
 
@@ -28,8 +34,8 @@ order: 0
 
 ## Design Considerations
 
-- Use concise, clear labels.
-- Place commonly used tabs to the left for logical task flow.
+* Use concise, clear labels.
+* Place commonly used tabs to the left for logical task flow.
 
 ## Development Considerations
 
@@ -37,30 +43,33 @@ order: 0
 
 The following markup is crucial for Accessibility:
 
-- Selected tab’s anchor has `aria-selected="true"`, all other tabs’ anchors have `aria-selected="false"`
-- Selected tab’s anchor has `tabindex="0"`, all other tabs have `tabindex="-1"`
-- Each tab’s anchor has an `aria-controls` attribute whose value is the id of the associated `<div role="tabpanel">`
-- Each tab panel has an `aria-labelledby` attribute whose value is the id of its associated `<a role="tab">`
+* Selected tab’s anchor has `aria-selected="true"`, all other tabs’ anchors have `aria-selected="false"`
+* Selected tab’s anchor has `tabindex="0"`, all other tabs have `tabindex="-1"`
+* Each tab’s anchor has an `aria-controls` attribute whose value is the id of the associated `<div role="tabpanel">`
+* Each tab panel has an `aria-labelledby` attribute whose value is the id of its associated `<a role="tab">`
+
 **JavaScript Needs**
 
 The active tab has two markup requirements:
 
-- The `.slds-active` class should be placed on the li with `.slds-tabs_{variant}__item.`
-- The corresponding `.slds-tabs_{variant}__content` container receives `.slds-show`.
-- In order to achieve the focus state styling, apply `.slds-has-focus` to the parent `li`.
-- Inactive `.slds-tabs_{variant}__content` containers receive `.slds-hide`.
-- When the user clicks a different tab, move the `.slds-active` class and toggle the `.slds-hide/.slds-show` classes.
+* The `.slds-active` class should be placed on the li with `.slds-tabs_{variant}__item.`
+* The corresponding `.slds-tabs_{variant}__content` container receives `.slds-show`.
+* In order to achieve the focus state styling, apply `.slds-has-focus` to the parent `li`.
+* Inactive `.slds-tabs_{variant}__content` containers receive `.slds-hide`.
+* When the user clicks a different tab, move the `.slds-active` class and toggle the `.slds-hide/.slds-show` classes.
+
 **Error Handling**
 
 Include accessible feedback for loading errors, such as toasts or alerts.
 
 ## Accessibility Labels
 
-**ARIA Roles**:
+**ARIA Roles**: 
 
 Tabbed UIs have three parts with specific ARIA role requirements:
 
-- The tab list, which should have `role="tablist"`
-- The tabs in that list, which should each be an `<a role="tab">` anchor wrapped in a `<li role="presentation">` list item
-- The tab panels, which display each tab’s content and should each have `role="tabpanel"`
+* The tab list, which should have `role="tablist"`
+* The tabs in that list, which should each be an `<a role="tab">` anchor wrapped in a `<li role="presentation">` list item
+* The tab panels, which display each tab’s content and should each have `role="tabpanel"`
+
 If additional context is needed for a tab’s purpose, use `aria-describedby` with a description that screen readers can interpret.

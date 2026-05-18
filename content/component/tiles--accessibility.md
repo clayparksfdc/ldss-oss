@@ -9,27 +9,27 @@ order: 0
 
 ### Mouse
 
-- Users can click on a tile or interactive elements within it.
+* Users can click on a tile or interactive elements within it.
 
 ### Keyboard
 
-- **Tab** navigates between interactive elements.
-- **Enter** selects or activates a tile action.
-- Arrow keys navigate between tiles (if implemented).
+* **Tab** navigates between interactive elements.
+* **Enter** selects or activates a tile action.
+* Arrow keys navigate between tiles (if implemented).
 
 ### Other
 
-- Screen readers announce tile content and available actions.
+* Screen readers announce tile content and available actions.
 
-## Design Considerations
+## **Design Considerations**
 
-- Ensure sufficient contrast between tile background and text.
-- Maintain consistent focus states.
+* Ensure sufficient contrast between tile background and text.
+* Maintain consistent focus states.
 
-## Development Considerations
+## **Development Considerations**
 
-- Support keyboard interactions for all actionable elements.
+* Support keyboard interactions for all actionable elements.
 
-## Content Considerations
+## **Content Considerations**
 
-- Ensure text is concise and meaningful for assistive technologies.
+* Ensure text is concise and meaningful for assistive technologies.

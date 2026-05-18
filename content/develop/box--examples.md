@@ -12,10 +12,18 @@ A [box theme](https://www.lightningdesignsystem.com/2e1ef8501/p/11cfec) can be a
 
 ## Examples
 
-### Base
+### Base 
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-box--size-default](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-box--size-default)
 
 ### Small
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-box--size-small](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-box--size-small)
+
 ### X-Small
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-box--size-x-small](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-box--size-x-small)
+
 ### XX-Small
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-box--size-xx-small](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-box--size-xx-small)

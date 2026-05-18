@@ -12,86 +12,88 @@ When building an enterprise application, the heading level can vary depending on
 
 ## Examples
 
-### Base
+### Base 
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--body-size-default
-title: Utilities With Code Text - Body Size Default
-height: 400px
-```
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--body-size-default](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--body-size-default)
 
 ### Body Size
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--body-size-small
-title: Utilities With Code Text - Body Size Small
-height: 400px
-```
-
 #### Small
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--body-size-small](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--body-size-small)
 
 ### Heading Size
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--heading-size-large
-title: Utilities With Code Text - Heading Size Large
-height: 400px
-```
-
 #### Large
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--heading-size-large](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--heading-size-large)
 
 #### Medium
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--heading-size-medium](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--heading-size-medium)
+
 #### Small
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--heading-size-small](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--heading-size-small)
 
 ### Title
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--heading-size-medium
-title: Utilities With Code Text - Heading Size Medium
-height: 400px
-```
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--title](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--title)
 
 #### Title Uppercase
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--title-uppercase](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--title-uppercase)
+
 ### Longform
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--heading-size-small
-title: Utilities With Code Text - Heading Size Small
-height: 400px
-```
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--longform](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--longform)
 
 ### Align
 
-```storybook
-url: https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--title
-title: Utilities With Code Text - Title
-height: 400px
-```
-
 #### Left
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--align-left](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--align-left)
 
 #### Right
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--align-right](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--align-right)
+
 #### Center
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--align-center](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--align-center)
 
 ### Color
 
 #### Default
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-default](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-default)
+
 #### Success
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-success](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-success)
 
 #### Weak
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-weak](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-weak)
+
 #### Error
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-error](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-error)
 
 #### Destructive Actions
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-destructive-actions](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-destructive-actions)
+
 #### Inverse
 
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-inverse](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-inverse)
+
 #### Inverse-Weak
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-inverse-weak](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--color-inverse-weak)
 
 ### Font
 
 #### Monospace
+
+[https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--font-monospace](https://slds2-metadata-stories-54d63ecb6c29.herokuapp.com/iframe.html?id=utilities-with-code-text--font-monospace)
