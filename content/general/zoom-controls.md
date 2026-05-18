@@ -2,13 +2,13 @@
 title: "Zoom Controls"
 slug: "zoom-controls"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/3447c3-zoom-controls"
+url: "/general/zoom-controls"
 extractedAt: "2026-02-21T21:57:56.007Z"
 ---
 
 ## Introduction
 
-Use a [Button Group](https://www.lightningdesignsystem.com/2e1ef8501/p/30363d) to create a zoom tool that allows users to magnify or minimize the screen view, zooming in or out on items viewed.
+Use a [Button Group](/component/button-groups) to create a zoom tool that allows users to magnify or minimize the screen view, zooming in or out on items viewed.
 
 The preferred mode is **incremental zoom**, a button group using the minus, plus, and expand/contract icons. Users can click to incrementally zoom out (-) or zoom in (+), and can toggle between zoom-to-fit (contract) and zoom-to-100% (expand) views of the canvas.
 

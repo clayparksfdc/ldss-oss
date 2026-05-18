@@ -2,7 +2,7 @@
 title: "Admins"
 slug: "admins"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/771012-admins"
+url: "/general/admins"
 extractedAt: "2026-02-21T18:06:07.555Z"
 ---
 

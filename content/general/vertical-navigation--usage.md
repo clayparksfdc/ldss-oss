@@ -47,7 +47,7 @@ The vertical navigation component is designed to help users filter and access co
 ### Customization Options:
 
 - Icons and badges may be added to nav items.
-- May be made filterable by appending the vertical nav to an input using [the Quickfind](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/60977d-vertical-navigation/t/c9ba8d8265).
+- May be made filterable by appending the vertical nav to an input using [the Quickfind](/component/vertical-navigation/t/c9ba8d8265).
 
 
 ### Size

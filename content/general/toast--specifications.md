@@ -2,7 +2,7 @@
 title: "Toast"
 slug: "toast--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/216f79-toast/b/143824"
+url: "/component/toast/b/143824"
 extractedAt: "2026-02-21T21:55:59.701Z"
 ---
 

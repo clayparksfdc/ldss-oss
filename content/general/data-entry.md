@@ -2,7 +2,7 @@
 title: "Data Entry"
 slug: "data-entry"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/33f0d7-data-entry"
+url: "/general/data-entry"
 extractedAt: "2026-02-21T21:57:58.960Z"
 ---
 
@@ -396,7 +396,7 @@ An example of a picklist
 
 #### Dual Listbox
 
-The [dual listbox](https://www.lightningdesignsystem.com/2e1ef8501/p/763763) lets you move items between two lists, making it easy to select and organize options. Use this control when the user needs to select more than one option and define the order of the selected items.
+The [dual listbox](/component/dual-listbox) lets you move items between two lists, making it easy to select and organize options. Use this control when the user needs to select more than one option and define the order of the selected items.
 
 
 

@@ -2,7 +2,7 @@
 title: "Position"
 slug: "position"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/95944e-position"
+url: "/develop/position"
 extractedAt: "2026-02-21T21:41:55.719Z"
 ---
 

@@ -2,7 +2,7 @@
 title: "Timepicker"
 slug: "timepicker--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/82218a-timepicker/b/303931"
+url: "/component/timepicker/b/303931"
 extractedAt: "2026-02-21T21:55:48.095Z"
 ---
 

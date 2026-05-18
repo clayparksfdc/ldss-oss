@@ -2,7 +2,7 @@
 title: "FAQs"
 slug: "designer"
 category: "design"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/313db3-faqs/b/80b00b"
+url: "/general/faqs/b/80b00b"
 extractedAt: "2026-02-21T18:07:00.499Z"
 ---
 

@@ -67,7 +67,7 @@ As you read, keep these key concepts in mind.
 
 - **Semantic UI Colors:** A set of semantically-named styling hooks to represent the design properties that express the SLDS visual design. The styling hook names indicate where or how the colors are meant to be used. These styling hooks are mutable, so their values can change with the theme selected. 
 
-**Surface:**Colors used for backgrounds and large areas of the application that create visual depth with a new visual stacking context.
+**Surface:** Colors used for backgrounds and large areas of the application that create visual depth with a new visual stacking context.
 -**Accent:** Colors, typically brand colors, used to draw the user's attention to a particular area.
 - **Container:** The fill color for elements that contain text or icons.
 - **On:** Colors to use for text or icons that are placed on a colored container. Each surface, accent, and feedback color has a paired color that's designed to be used with it. For example, an on-accent color is paired with an accent-container color.
@@ -76,7 +76,7 @@ As you read, keep these key concepts in mind.
 - **Color Palettes:** A range of accessible color palettes. These styling hooks are named after the colors they represent, rather than their intended use. They can be used anywhere within the user interface. These values are constant and won't change, regardless of the theme selected.
 - **Ranges:** Every global styling hook set uses names that end in a numerical range, starting at 1 and ending at 100. The lowest number is always the lightest color of a color range or the lowest value of a property range. The highest number x is the darkest color of a color range or the largest value of a property range.
 
-- **Surface:**Colors used for backgrounds and large areas of the application that create visual depth with a new visual stacking context.
+- **Surface:** Colors used for backgrounds and large areas of the application that create visual depth with a new visual stacking context.
 -**Accent:** Colors, typically brand colors, used to draw the user's attention to a particular area.
 - **Container:** The fill color for elements that contain text or icons.
 - **On:** Colors to use for text or icons that are placed on a colored container. Each surface, accent, and feedback color has a paired color that's designed to be used with it. For example, an on-accent color is paired with an accent-container color.

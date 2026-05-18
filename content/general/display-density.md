@@ -2,7 +2,7 @@
 title: "Display Density"
 slug: "display-density"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/805bbe-display-density"
+url: "/foundation/display-density"
 extractedAt: "2026-02-21T18:20:37.569Z"
 ---
 
@@ -78,19 +78,19 @@ SLDS includes several components with built-in density adaptation that automatic
 
 The following components include density-aware styling hooks, which enable automatic adjustments for different display densities.
 
-- [Cards](https://www.lightningdesignsystem.com/2e1ef8501/p/33cd77-cards)
-- [File selector](https://www.lightningdesignsystem.com/2e1ef8501/p/77d584-file-selector)
-- [Tabs](https://www.lightningdesignsystem.com/2e1ef8501/p/1152cf-tabs)
+- [Cards](/component/cards)
+- [File selector](/component/file-selector)
+- [Tabs](/component/tabs)
 
 When using component blueprints, make sure that you use the standard SLDS markup patterns and CSS classes. The following component blueprints include density-aware styling hooks that can be configured:
 
-- [Cards](https://www.lightningdesignsystem.com/2e1ef8501/p/33cd77-cards)
+- [Cards](/component/cards)
 - [Feed](https://v1.lightningdesignsystem.com/components/feeds/)
-- [File selector](https://www.lightningdesignsystem.com/2e1ef8501/p/77d584-file-selector)
+- [File selector](/component/file-selector)
 - [Page header](https://v1.lightningdesignsystem.com/components/page-headers/)
 - [Path](https://v1.lightningdesignsystem.com/components/path/)
 - [Split view](https://v1.lightningdesignsystem.com/components/split-view/)
-- [Tabs](https://www.lightningdesignsystem.com/2e1ef8501/p/1152cf-tabs)
+- [Tabs](/component/tabs)
 
 To reference component blueprints, see the Salesforce Lightning Design System 1 website.
 

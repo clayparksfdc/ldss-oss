@@ -2,7 +2,7 @@
 title: "Modals"
 slug: "modals"
 category: "component"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/16a791-modals"
+url: "/component/modals"
 extractedAt: "2026-02-21T21:57:32.562Z"
 ---
 
@@ -49,4 +49,4 @@ Modal
 - Provide focus in any context by obscuring anything below the modal.
 - Obscures canvas completely.
 - Difficult to cross-reference other elements on canvas and tool palette.
-*See how modals can be used for specific use cases in *[*Content Builders*](https://www.lightningdesignsystem.com/2e1ef8501/p/69f08a-configuration/t/4f54345c66)*.*
+*See how modals can be used for specific use cases in *[*Content Builders*](/general/configuration/t/4f54345c66)*.*

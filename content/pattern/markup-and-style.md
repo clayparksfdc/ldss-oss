@@ -56,7 +56,7 @@ In order to make this framework easy to use with other frameworks, we’ve added
 
 ### Scoping
 
-In some cases, within the Salesforce ecosystem, SLDS CSS is not yet available. In those cases, for example, when building within Lightning Applications (my.app), or deploying components via Lightning Out, you should scope components built with SLDS. In this case, we have [provided a tool for you to create your custom-scoped CSS](https://www.lightningdesignsystem.com/2e1ef8501/p/014cb2).
+In some cases, within the Salesforce ecosystem, SLDS CSS is not yet available. In those cases, for example, when building within Lightning Applications (my.app), or deploying components via Lightning Out, you should scope components built with SLDS. In this case, we have [provided a tool for you to create your custom-scoped CSS](/general/slds-scope-customizer).
 
 The components built with your custom-scoped SLDS will need your custom scoped class at the highest level of the DOM where the components are included. In some cases this will be a wrapper at the component level, in other cases you may wrap several components. Do not place your custom class on the body element of the application if you are including non-SLDS components within that area as well. This would cause the non-SLDS components to be scoped and could override expected styles with unwanted effects.
 

@@ -94,12 +94,12 @@ Place toggles where a user expects binary actions, such as in settings menus or 
 
 ### States
 
-1. **Default:**The toggle is in an active state or “on”.
+1. **Default:** The toggle is in an active state or “on”.
 2.**Hover:** When you hover over it, the toggle slightly changes its appearance to show that it’s interactive.
-3. **Inactive:**Represents the inactive state or “off”.
+3. **Inactive:** Represents the inactive state or “off”.
 4.**Disabled + Inactive:** The toggle appears darker gray and inactive when it’s unavailable for interaction.
-5. **Disabled + Active:**The toggle appears darker gray and active when it's not available for interaction.
-6.**Focus:**When the toggle is focused using keyboard navigation, it's highlighted. Focus is applied to both inactive and active states.
+5. **Disabled + Active:** The toggle appears darker gray and active when it's not available for interaction.
+6.**Focus:** When the toggle is focused using keyboard navigation, it's highlighted. Focus is applied to both inactive and active states.
 
 ### Interactions
 

@@ -2,7 +2,7 @@
 title: "Rich Text Editor"
 slug: "rich-text-editor--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/35614c-rich-text-editor/b/90a252"
+url: "/component/rich-text-editor/b/90a252"
 extractedAt: "2026-02-21T21:52:57.794Z"
 ---
 

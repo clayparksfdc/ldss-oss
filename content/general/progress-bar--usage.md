@@ -2,7 +2,7 @@
 title: "Progress Bar"
 slug: "progress-bar--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/70ad36-progress-bar/b/9986f1"
+url: "/component/progress-bar/b/9986f1"
 extractedAt: "2026-02-21T21:51:37.308Z"
 ---
 
@@ -119,7 +119,7 @@ Best for side panels, dashboards, or where vertical space is more readily availa
     
   
 
-**Progress Label**(optional)**: **Text to show additional information about the process such as percentages or numeric values.
+**Progress Label**(optional)**: ** Text to show additional information about the process such as percentages or numeric values.
 
 
 
@@ -228,9 +228,9 @@ Each size also supports the radius modifier, allowing for rounded variants.
 
 ### States
 
-1. **Default:**When the bar percentage is not filled (0%).
-2.**Active:**The ongoing progression of a task, visually represented by the bar gradually filling from 0% to 100%.
-3.**Complete:**The finished bar value is at 100% when the process is completed. Alternatively, a success Progress Bar can be used to show the completed process.
+1. **Default:** When the bar percentage is not filled (0%).
+2.**Active:** The ongoing progression of a task, visually represented by the bar gradually filling from 0% to 100%.
+3.**Complete:** The finished bar value is at 100% when the process is completed. Alternatively, a success Progress Bar can be used to show the completed process.
 
 Default: When the bar percentage is not filled (0%).
 
@@ -260,7 +260,7 @@ Best practices for error messaging:
 - Ensure clarity and conciseness in error messages.
 - Provide guidance on how users can resolve the issue.
 - Position error messages near the relevant component for better visibility.
-**Success**A success variant can be added to a progress bar to signify when the process was completed.
+**Success** A success variant can be added to a progress bar to signify when the process was completed.
 
 
 

@@ -2,7 +2,7 @@
 title: "Rich Text Editor"
 slug: "rich-text-editor--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/35614c-rich-text-editor/b/39205c"
+url: "/component/rich-text-editor/b/39205c"
 extractedAt: "2026-02-21T21:52:52.399Z"
 ---
 
@@ -45,7 +45,7 @@ A content editor with formatting options such as bold, italic, underline, and li
 
 ### Anatomy
 
-**Field Label:**Describes the purpose of the rich text editor.
+**Field Label:** Describes the purpose of the rich text editor.
 
 
 
@@ -75,69 +75,7 @@ A content editor with formatting options such as bold, italic, underline, and li
     
   
 
-**Toolbar:**Provides formatting controls and editing actions for rich text content.
-
-
-
-
-
-  
-
-  
-    
-      
-        
-      
-      
-      
-    
-    
-  
-
-
-
-
-
-
-
-
-  
-    
-    
-    
-  
-
-**Placeholder Text:**Optional text for a hint or example to guide the user to enter appropriate input. 
-
-
-
-  
-
-  
-    
-      
-        
-      
-      
-      
-    
-    
-  
-
-
-
-
-
-
-
-
-  
-    
-    
-    
-  
-
-**Content Area:**The editable region where users enter and format rich text.
+**Toolbar:** Provides formatting controls and editing actions for rich text content.
 
 
 
@@ -169,7 +107,69 @@ A content editor with formatting options such as bold, italic, underline, and li
     
   
 
-**Supporting Text:**Offers additional guidance or contextual information such as the character limit, or displays errors or confirmation messages after user action.Field Label:  Describes the purpose of the rich text editor.
+**Placeholder Text:** Optional text for a hint or example to guide the user to enter appropriate input. 
+
+
+
+  
+
+  
+    
+      
+        
+      
+      
+      
+    
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+**Content Area:** The editable region where users enter and format rich text.
+
+
+
+
+
+  
+
+  
+    
+      
+        
+      
+      
+      
+    
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+**Supporting Text:** Offers additional guidance or contextual information such as the character limit, or displays errors or confirmation messages after user action.Field Label:  Describes the purpose of the rich text editor.
 
 Toolbar: Provides formatting controls and editing actions for rich text content.
 
@@ -210,7 +210,7 @@ Supporting Text: Offers additional guidance or contextual information such as th
 1.**Default:** The initial state before user interaction. Include placeholder content to guide users if needed.
 2. **Focus**: Highlights the input field when it receives focus.
 3. **Error:** Shows an error message when input data fails validation criteria. It’s recommended to add an error icon to your error message.
-4. **Disabled:**Color changes to light gray to show it’s not usable and the field doesn't receive focus.
+4. **Disabled:** Color changes to light gray to show it’s not usable and the field doesn't receive focus.
 
 Default: The initial state before user interaction. Include placeholder content to guide users if needed.
 

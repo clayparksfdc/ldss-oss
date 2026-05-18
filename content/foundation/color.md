@@ -64,7 +64,7 @@ As you read, keep these key concepts in mind.
 
 - **Semantic UI Colors:** A set of semantically-named styling hooks to represent the design properties that express the SLDS visual design. The styling hook names indicate where or how the colors are meant to be used. These styling hooks are mutable, so their values can change with the theme selected. 
 
-**Surface:**Colors used for backgrounds and large areas of the application that create visual depth with a new visual stacking context.
+**Surface:** Colors used for backgrounds and large areas of the application that create visual depth with a new visual stacking context.
 -**Accent:** Colors, typically brand colors, used to draw the user's attention to a particular area.
 - **Container:** The fill color for elements that contain text or icons.
 - **On:** Colors to use for text or icons that are placed on a colored container. Each surface, accent, and feedback color has a paired color that's designed to be used with it. For example, an on-accent color is paired with an accent-container color.

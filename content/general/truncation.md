@@ -2,7 +2,7 @@
 title: "Truncation"
 slug: "truncation"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/51c13d-truncation"
+url: "/develop/truncation"
 extractedAt: "2026-02-21T21:42:39.774Z"
 ---
 

@@ -2,7 +2,7 @@
 title: "Select"
 slug: "select--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/60fa86-select/b/725421"
+url: "/component/select/b/725421"
 extractedAt: "2026-02-21T21:53:47.324Z"
 ---
 

@@ -2,7 +2,7 @@
 title: "Datepicker"
 slug: "datepicker--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/531362-datepicker/b/74d5d4"
+url: "/component/datepicker/b/74d5d4"
 extractedAt: "2026-02-21T21:47:58.659Z"
 ---
 

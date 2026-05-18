@@ -2,7 +2,7 @@
 title: "Vibe Coding and SLDS"
 slug: "vibe-coding-and-slds--vs-code-vibes"
 category: "develop"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/75a154-vibe-coding-and-slds/b/094c33"
+url: "/ai-and-slds-2/vibe-coding-and-slds/b/094c33"
 extractedAt: "2026-02-21T16:55:01.134Z"
 ---
 

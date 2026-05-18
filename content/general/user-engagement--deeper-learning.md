@@ -2,7 +2,7 @@
 title: "User Engagement"
 slug: "user-engagement--deeper-learning"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/25d63d-user-engagement/b/9621e2"
+url: "/general/user-engagement/b/9621e2"
 extractedAt: "2026-02-21T22:00:02.363Z"
 ---
 
@@ -324,7 +324,7 @@ Empty states are the perfect opportunity to have fun with users and educate them
 
 Prompt popovers triggered at the right time and place can be valuable to users' journey with your product.
 
-- **Welcome Mat:**Link to***walkthroughs***, ***videos***, or ***Trailhead*** to guide users through more complex concepts or tasks.
+- **Welcome Mat:** Link to***walkthroughs***, ***videos***, or ***Trailhead*** to guide users through more complex concepts or tasks.
 - **Setup Assistant:** Link to ***walkthroughs*** or concept ***help topics*** to explain why something is configured in a certain way.
-- **Feature Popover**and** Docked Assistant:**Link to***help topics*** to provide more detailed explanation about the purpose and benefits of the feature you're calling users' attention to.
+- **Feature Popover**and** Docked Assistant:** Link to***help topics*** to provide more detailed explanation about the purpose and benefits of the feature you're calling users' attention to.
 - **Error Message** and **Empty State**: Link to ***help topics*** containing more information about the issue the user's running into and what can be done to resolve or work around it.

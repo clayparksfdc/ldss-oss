@@ -2,7 +2,7 @@
 title: "Nodes"
 slug: "nodes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/8001a6-nodes"
+url: "/general/nodes"
 extractedAt: "2026-02-21T21:57:36.082Z"
 ---
 

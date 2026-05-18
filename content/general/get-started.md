@@ -2,7 +2,7 @@
 title: "Get Started"
 slug: "get-started"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/76969d-get-started"
+url: "/general/get-started"
 extractedAt: "2026-02-21T18:05:49.538Z"
 ---
 

@@ -68,12 +68,12 @@ For languages that read right-to-left, the labels can be positioned to the left 
 
 1. **Unselected**: The checkbox’s default state
 2. **Selected:** A user's current selection within a range of options
-3. **Intermediate:**Indicates a partial selection, such as when a parent checkbox controls multiple child checkboxes and some of them are selected.
+3. **Intermediate:** Indicates a partial selection, such as when a parent checkbox controls multiple child checkboxes and some of them are selected.
 
-1.**Error:**Indicates an error, usually a required selection is missed.
-2.**Read Only:**Shows the state of selection but can't be interacted with.
+1.**Error:** Indicates an error, usually a required selection is missed.
+2.**Read Only:** Shows the state of selection but can't be interacted with.
 3.**Disabled:** Disabled items don't receive focus.
-4. **Focus:**Displays a focus outline for keyboard users.
+4. **Focus:** Displays a focus outline for keyboard users.
 
 ### Interactions
 

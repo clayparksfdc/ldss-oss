@@ -9,7 +9,7 @@ order: 0
 
 ### Mouse
 
-- **Hover Behavior:**Buttons retain their existing hover behavior within empty state. No other elements should receive focus or interaction.
+- **Hover Behavior:** Buttons retain their existing hover behavior within empty state. No other elements should receive focus or interaction.
 
 ### Keyboard
 
@@ -19,8 +19,8 @@ order: 0
 
 ### Other
 
-- **Screen Readers:**Screen readers should not announce illustrations, instead relying on the accompanying descriptive text.
--**Magnification Tools:**The illustration primitive within Empty State uses svg files to remain visually distinct and scalable images without pixelation or distortion.
+- **Screen Readers:** Screen readers should not announce illustrations, instead relying on the accompanying descriptive text.
+-**Magnification Tools:** The illustration primitive within Empty State uses svg files to remain visually distinct and scalable images without pixelation or distortion.
 
 ## Design Considerations
 

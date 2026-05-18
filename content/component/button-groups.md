@@ -74,17 +74,17 @@ Avoid long text; icons can be used for frequently recognized actions.
 
 ### States
 
-1. **Default:**Buttons are visible and active.
-2.**Hover:**Button changes color slightly to indicate interactivity.
-3.**Active:**Button color changes to show it’s been clicked.
+1. **Default:** Buttons are visible and active.
+2.**Hover:** Button changes color slightly to indicate interactivity.
+3.**Active:** Button color changes to show it’s been clicked.
 4.**Disabled:** Button is visible but not clickable, revealing that its action isn't available for certain users or conditions.
-5. **Focus:**Button receives a highlighted border for keyboard navigation accessibility.
+5. **Focus:** Button receives a highlighted border for keyboard navigation accessibility.
 
 ### Interactions
 
 -**Click:** Executes the primary action tied to the button.
-- **Dropdown Expand:**Split buttons expand to show additional options on click.
--**Loading:**Indicates data is loading for actions that take time to complete, such as "Processing" or a loading spinner.
+- **Dropdown Expand:** Split buttons expand to show additional options on click.
+-**Loading:** Indicates data is loading for actions that take time to complete, such as "Processing" or a loading spinner.
 
 ### Responsive
 

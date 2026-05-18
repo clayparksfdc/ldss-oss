@@ -2,7 +2,7 @@
 title: "Avatar"
 slug: "avatar--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/94085e-avatar/b/39205c"
+url: "/component/avatar/b/39205c"
 extractedAt: "2026-02-21T21:43:50.429Z"
 ---
 
@@ -326,7 +326,7 @@ An avatar’s anatomy consists of a container containing an icon, a set of initi
     
   
 
-**Image**Container
+**Image** Container
 
 Icon
 

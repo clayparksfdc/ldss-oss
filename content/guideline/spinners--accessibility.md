@@ -2,7 +2,7 @@
 title: "Spinners"
 slug: "spinners--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/959d6d-spinners/b/938300"
+url: "/component/spinners/b/938300"
 extractedAt: "2026-02-21T21:54:18.617Z"
 ---
 

@@ -2,7 +2,7 @@
 title: "Tree Grid"
 slug: "tree-grid--develop"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/1234e1-tree-grid/b/739388"
+url: "/component/tree-grid/b/739388"
 extractedAt: "2026-02-21T21:56:43.701Z"
 ---
 

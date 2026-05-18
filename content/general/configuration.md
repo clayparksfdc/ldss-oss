@@ -2,7 +2,7 @@
 title: "Configuration"
 slug: "configuration"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/69f08a-configuration"
+url: "/general/configuration"
 extractedAt: "2026-02-21T21:57:11.119Z"
 ---
 

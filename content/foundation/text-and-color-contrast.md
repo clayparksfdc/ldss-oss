@@ -2,7 +2,7 @@
 title: "Text and Color Contrast"
 slug: "text-and-color-contrast"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/99d436-text-and-color-contrast"
+url: "/accessibility/text-and-color-contrast"
 extractedAt: "2026-02-21T22:00:08.494Z"
 ---
 

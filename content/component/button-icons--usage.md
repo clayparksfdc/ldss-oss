@@ -145,13 +145,13 @@ Don’t use any text when using button icons, except for tooltips that offer con
 
 Button icons follow the same behavior as standard buttons.
 
-1. **Default:**Standard appearance without interaction.
-2.**Hover:**Background color changes to show interactivity.
-3.**Active:**Icon color changes to show selection.
+1. **Default:** Standard appearance without interaction.
+2.**Hover:** Background color changes to show interactivity.
+3.**Active:** Icon color changes to show selection.
 4.**Focus**: Border or shadow to indicate keyboard focus.
 5. **Disabled**: Grayed-out and non-interactive
 
-****Hover vs. Focus:**** When a user hovers their cursor over an interactive element, a hover state is triggered to indicate this action. Similarly, a focused state is activated when a user highlights an element using an input method like a keyboard or voice.*
+**** Hover vs. Focus:**** When a user hovers their cursor over an interactive element, a hover state is triggered to indicate this action. Similarly, a focused state is activated when a user highlights an element using an input method like a keyboard or voice.*
 
 ### Interactions
 

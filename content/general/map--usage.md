@@ -2,7 +2,7 @@
 title: "Map"
 slug: "map--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/160625-map/b/39205c"
+url: "/component/map/b/39205c"
 extractedAt: "2026-02-21T21:50:25.118Z"
 ---
 
@@ -97,7 +97,7 @@ The map component visually represents geographic locations using an interactive 
 
 ### Anatomy
 
-**Map:**One or more locations, using geocoding data and mapping imagery from Google Maps.
+**Map:** One or more locations, using geocoding data and mapping imagery from Google Maps.
 
 
 
@@ -129,43 +129,7 @@ The map component visually represents geographic locations using an interactive 
 
 
 
-**Map details:**Provides details about a selected location, including its name, address, and optional directions.
-
-
-
-
-
-  
-
-  
-    
-      
-        
-      
-      
-      
-    
-    
-  
-
-
-
-
-
-
-
-
-  
-    
-    
-    
-  
-
-
-
-**Location list:**Title, description, and an icon. These items are relevant to the marker but not specifically related to location.
-
-
+**Map details:** Provides details about a selected location, including its name, address, and optional directions.
 
 
 
@@ -199,7 +163,7 @@ The map component visually represents geographic locations using an interactive 
 
 
 
-**Title text:**Title of the relevant locations on the associated map.
+**Location list:** Title, description, and an icon. These items are relevant to the marker but not specifically related to location.
 
 
 
@@ -235,7 +199,11 @@ The map component visually represents geographic locations using an interactive 
 
 
 
-**Map row (active):**Title, description, and an icon. These items are relevant to the marker but not specifically related to location.
+**Title text:** Title of the relevant locations on the associated map.
+
+
+
+
 
 
 
@@ -267,7 +235,39 @@ The map component visually represents geographic locations using an interactive 
 
 
 
-**Map row (default):**Title, description, and an icon. These items are relevant to the marker but not specifically related to location.Map: One or more locations, using geocoding data and mapping imagery from Google Maps.
+**Map row (active):** Title, description, and an icon. These items are relevant to the marker but not specifically related to location.
+
+
+
+  
+
+  
+    
+      
+        
+      
+      
+      
+    
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+**Map row (default):** Title, description, and an icon. These items are relevant to the marker but not specifically related to location.Map: One or more locations, using geocoding data and mapping imagery from Google Maps.
 
 Map details: Provides details about a selected location, including its name, address, and optional directions.
 

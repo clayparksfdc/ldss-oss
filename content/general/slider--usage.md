@@ -2,7 +2,7 @@
 title: "Slider"
 slug: "slider--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/0176bc-slider/b/021cb6"
+url: "/component/slider/b/021cb6"
 extractedAt: "2026-02-21T21:53:55.851Z"
 ---
 
@@ -113,7 +113,7 @@ A slider that allows users to select a value by moving a handle up or down along
 
 
 
-**Range:**Indicates the range boundaries.
+**Range:** Indicates the range boundaries.
 
 
 

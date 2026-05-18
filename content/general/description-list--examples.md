@@ -2,7 +2,7 @@
 title: "Description List"
 slug: "description-list--examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/62faac-description-list/b/51d413"
+url: "/develop/description-list/b/51d413"
 extractedAt: "2026-02-21T21:39:54.894Z"
 ---
 

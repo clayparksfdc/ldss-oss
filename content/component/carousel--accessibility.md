@@ -81,4 +81,4 @@ A Carousel is built using a tabbed UI specification and requires the following t
 
 **Localizable Text:** Ensure that all carousel text, such as button labels and announcements, is localizable to support multiple languages.
 
-**RTL Support:**The Carousel component is compatible with right-to-left (RTL) layouts, ensuring that elements like navigation arrows are correctly oriented based on the reading direction.
+**RTL Support:** The Carousel component is compatible with right-to-left (RTL) layouts, ensuring that elements like navigation arrows are correctly oriented based on the reading direction.

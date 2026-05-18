@@ -2,7 +2,7 @@
 title: "Tiles"
 slug: "tiles--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/87b648-tiles/b/358856"
+url: "/component/tiles/b/358856"
 extractedAt: "2026-02-21T21:55:25.899Z"
 ---
 

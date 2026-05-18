@@ -2,7 +2,7 @@
 title: "Typography"
 slug: "typography--styling-hooks"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/93288f-typography/b/48e09b"
+url: "/foundation/typography/b/48e09b"
 extractedAt: "2026-02-21T21:37:53.689Z"
 ---
 
@@ -32,6 +32,6 @@ Line height values are set to unitless numbers, which are multiplied by the font
 
 ## Density-Aware Typography
 
-These density-aware styling hooks control spacing that’s applied equally to all sides of an element when the system switches between comfy and compact display density settings. The spacing corresponds to the top, bottom, left, and right margins or paddings. To learn how display density works in SLDS, see [Display Density.](https://www.lightningdesignsystem.com/2e1ef8501/p/805bbe)
+These density-aware styling hooks control spacing that’s applied equally to all sides of an element when the system switches between comfy and compact display density settings. The spacing corresponds to the top, bottom, left, and right margins or paddings. To learn how display density works in SLDS, see [Display Density.](/foundation/display-density)
 
 Density-aware styling hooks are available for several categories of styling properties. Use these hooks to ensure your components adapt correctly to the user's chosen density setting.

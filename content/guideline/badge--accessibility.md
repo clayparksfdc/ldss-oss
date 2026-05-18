@@ -2,7 +2,7 @@
 title: "Badge"
 slug: "badge--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/78871c-badge/b/74d5d4"
+url: "/component/badge/b/74d5d4"
 extractedAt: "2026-02-21T21:44:26.102Z"
 ---
 

@@ -2,7 +2,7 @@
 title: "Prompt"
 slug: "prompt--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/925906-prompt/b/59e6cd"
+url: "/component/prompt/b/59e6cd"
 extractedAt: "2026-02-21T21:52:04.602Z"
 ---
 
@@ -240,7 +240,7 @@ Customizable header with two action buttons.
     
   
 
-**Brand button**Title
+**Brand button** Title
 
 Header
 

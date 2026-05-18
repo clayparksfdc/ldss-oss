@@ -76,9 +76,9 @@ Each size also supports the radius modifier, allowing for rounded variants.
 
 ### States
 
-1. **Default:**When the bar percentage is not filled (0%).
-2.**Active:**The ongoing progression of a task, visually represented by the bar gradually filling from 0% to 100%.
-3.**Complete:**The finished bar value is at 100% when the process is completed. Alternatively, a success Progress Bar can be used to show the completed process.
+1. **Default:** When the bar percentage is not filled (0%).
+2.**Active:** The ongoing progression of a task, visually represented by the bar gradually filling from 0% to 100%.
+3.**Complete:** The finished bar value is at 100% when the process is completed. Alternatively, a success Progress Bar can be used to show the completed process.
 
 ### Validation
 

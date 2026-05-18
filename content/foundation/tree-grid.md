@@ -2,7 +2,7 @@
 title: "Tree Grid"
 slug: "tree-grid"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/1234e1-tree-grid"
+url: "/component/tree-grid"
 extractedAt: "2026-02-21T21:56:33.175Z"
 ---
 
@@ -97,7 +97,7 @@ A Tree Grid is used to display complex hierarchical data where users need to nav
 
 
 
-**Selected Row:**A highlighted row indicating user selection.
+**Selected Row:** A highlighted row indicating user selection.
 
 
 
@@ -405,7 +405,7 @@ A Tree Grid is used to display complex hierarchical data where users need to nav
 
 
 
-**Action Menu (optional):**A menu that extends the actions users are able to perform. 
+**Action Menu (optional):** A menu that extends the actions users are able to perform. 
 
 
 
@@ -769,7 +769,7 @@ Interactive states in tree grids are inherently complex because they must accoun
 
 ### Interactions
 
-**Expand/Collapse Nodes**Parent nodes can be expanded to expose the nested child nodes, and collapsed to hide them.
+**Expand/Collapse Nodes** Parent nodes can be expanded to expose the nested child nodes, and collapsed to hide them.
 
 
 
@@ -777,21 +777,21 @@ Row SelectionUsers can select one or more rows via checkboxes for bulk actions l
 
 
 
-**Row Actions**Actions like "Edit," "Delete," or "View Details" are available for individual rows through dropdown menus.
+**Row Actions** Actions like "Edit," "Delete," or "View Details" are available for individual rows through dropdown menus.
 
 
 
 
 
-**Text Wrapping and Clipping**Content in cells, including headers, can either wrap to show all text or clip to fit within the column width. When columns are set to Clip Text, the content will be truncated (...), exposing only what the cell’s width allows. If a column is set to Wrap Text, then each cell in that column will expand its height to reveal all the content. This will also expand the entire row as well.
+**Text Wrapping and Clipping** Content in cells, including headers, can either wrap to show all text or clip to fit within the column width. When columns are set to Clip Text, the content will be truncated (...), exposing only what the cell’s width allows. If a column is set to Wrap Text, then each cell in that column will expand its height to reveal all the content. This will also expand the entire row as well.
 
 
 
-**Infinite Scrolling**Rows load dynamically in batches as users scroll, reducing initial page load time. A Spinner is shown when data is being fetched.
+**Infinite Scrolling** Rows load dynamically in batches as users scroll, reducing initial page load time. A Spinner is shown when data is being fetched.
 
 
 
-**Error**Highlights rows or cells with validation issues, using red borders or icons.#### Expand/Collapse Nodes
+**Error** Highlights rows or cells with validation issues, using red borders or icons.#### Expand/Collapse Nodes
 
 Parent nodes can be expanded to expose the nested child nodes, and collapsed to hide them.
 

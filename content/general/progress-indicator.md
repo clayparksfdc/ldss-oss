@@ -2,7 +2,7 @@
 title: "Progress Indicator"
 slug: "progress-indicator"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/64d280-progress-indicator"
+url: "/component/progress-indicator"
 extractedAt: "2026-02-21T21:51:17.159Z"
 ---
 
@@ -160,7 +160,7 @@ The progress indicator visually represents the steps in a process. It consists o
 
 
 
-**Tooltip:**Displays the step label on hover.Completed Step: Shows that the step was finished.
+**Tooltip:** Displays the step label on hover.Completed Step: Shows that the step was finished.
 
 Current Step: Highlights the active step.
 
@@ -187,10 +187,10 @@ Tooltip: Displays the step label on hover.
 
 The Progress Indicator has the following states:
 
-1.**Default:**Neutral appearance with a grey dot.
+1.**Default:** Neutral appearance with a grey dot.
 2.**Hover:** Displays the step label in a tooltip.
-3. **Active:**Indicates the currently selected step.
-4.**Focus:**The step is selected when it receives focus.
+3. **Active:** Indicates the currently selected step.
+4.**Focus:** The step is selected when it receives focus.
 
 Default: Neutral appearance with a grey dot.
 
@@ -202,7 +202,7 @@ Focus: The step is selected when it receives focus.
 
 ### Interactions
 
-**Completed Step**Shows that the step was finished.
+**Completed Step** Shows that the step was finished.
 
 
 
@@ -217,7 +217,7 @@ Focus: The step is selected when it receives focus.
 
 
 
-**Current Step**Highlights the active step.
+**Current Step** Highlights the active step.
 
 
 
@@ -232,7 +232,7 @@ Focus: The step is selected when it receives focus.
 
 
 
-**Uncompleted Step**Represents a step that hasn't started.
+**Uncompleted Step** Represents a step that hasn't started.
 
 
 
@@ -255,7 +255,7 @@ Represents a step that hasn't started.
 
 Display an error state if users fail to complete required fields before progressing.
 
-**Error**Shows that an error has occurred in the step.
+**Error** Shows that an error has occurred in the step.
 
 
 

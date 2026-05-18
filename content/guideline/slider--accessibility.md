@@ -2,7 +2,7 @@
 title: "Slider"
 slug: "slider--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/0176bc-slider/b/13dd46"
+url: "/component/slider/b/13dd46"
 extractedAt: "2026-02-21T21:54:04.601Z"
 ---
 

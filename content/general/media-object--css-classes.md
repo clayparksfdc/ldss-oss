@@ -2,7 +2,7 @@
 title: "Media Object"
 slug: "media-object--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/87b07a-media-object/b/85154d"
+url: "/develop/media-object/b/85154d"
 extractedAt: "2026-02-21T21:41:35.374Z"
 ---
 

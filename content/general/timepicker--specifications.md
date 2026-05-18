@@ -2,7 +2,7 @@
 title: "Timepicker"
 slug: "timepicker--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/82218a-timepicker/b/3518bc"
+url: "/component/timepicker/b/3518bc"
 extractedAt: "2026-02-21T21:55:45.291Z"
 ---
 

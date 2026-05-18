@@ -2,7 +2,7 @@
 title: "Vibe Coding and SLDS"
 slug: "vibe-coding-and-slds--salesforce-sandbox-vibes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/75a154-vibe-coding-and-slds/b/62916b"
+url: "/ai-and-slds-2/vibe-coding-and-slds/b/62916b"
 extractedAt: "2026-02-21T16:54:57.623Z"
 ---
 

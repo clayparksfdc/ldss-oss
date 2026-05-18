@@ -2,7 +2,7 @@
 title: "Datetime Picker"
 slug: "datetime-picker--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/653453-datetime-picker/b/74d5d4"
+url: "/component/datetime-picker/b/74d5d4"
 extractedAt: "2026-02-21T21:48:12.943Z"
 ---
 
@@ -11,7 +11,7 @@ extractedAt: "2026-02-21T21:48:12.943Z"
 ### Mouse
 
 - **Hover States**: When a user hovers over the input field or dropdown, the cursor changes to cursor: text to indicate interactivity.
-- **Click Actions**: Users can click on the input field to open the calendar and time dropdowns, allowing them to select a date and time easily. Clicking the calendar icon opens the calendar widget, which follows the[ Datepicker](https://www.lightningdesignsystem.com/2e1ef8501/p/531362) Accessibility guidance.
+- **Click Actions**: Users can click on the input field to open the calendar and time dropdowns, allowing them to select a date and time easily. Clicking the calendar icon opens the calendar widget, which follows the[ Datepicker](/component/datepicker) Accessibility guidance.
 
 ### Keyboard
 

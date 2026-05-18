@@ -2,7 +2,7 @@
 title: "Tools"
 slug: "tools"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/05b46d-tools"
+url: "/general/tools"
 extractedAt: "2026-02-21T22:00:23.049Z"
 ---
 

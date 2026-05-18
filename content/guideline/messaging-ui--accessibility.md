@@ -2,7 +2,7 @@
 title: "Messaging UI"
 slug: "messaging-ui--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/48e48d-messaging-ui/b/39ed89"
+url: "/general/messaging-ui/b/39ed89"
 extractedAt: "2026-02-21T21:58:59.195Z"
 ---
 

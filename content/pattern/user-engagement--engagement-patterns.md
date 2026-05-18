@@ -40,7 +40,7 @@ See the [Welcome Mat blueprint](https://v1.lightningdesignsystem.com/components/
 
 Use this full blocking modal to make sure that users acknowledge important updates.
 
-**Use cases:**Introduce a product, new user onboarding, seasonal release, major product update, or update where action is required.
+**Use cases:** Introduce a product, new user onboarding, seasonal release, major product update, or update where action is required.
 
 
 |**Pros** | **Cons** |
@@ -171,7 +171,7 @@ This prescriptive, detailed guide walks users through the complex process of con
 
 See the [Setup Assistant blueprint](https://v1.lightningdesignsystem.com/components/setup-assistant/#site-main-content) for implementation information.
 
-**Use cases:**Configuring a system that requires multiple, distinct tasks, often over an extended time—for example, a new or trial system.
+**Use cases:** Configuring a system that requires multiple, distinct tasks, often over an extended time—for example, a new or trial system.
 
 
 |**Pros** | **Con** |
@@ -206,7 +206,7 @@ When designing an empty state, be sure to consider how well it will work for **d
 
 For more details, see the [Empty States](/component/empty-state) pattern documentation.
 
-**Use cases:**Empty list, unconfigured filter, empty feed, feature not yet set up or configured.
+**Use cases:** Empty list, unconfigured filter, empty feed, feature not yet set up or configured.
 
 
 |**Pros** | **Cons** |
@@ -230,7 +230,7 @@ See the [Trial Bar blueprint](https://v1.lightningdesignsystem.com/components/tr
 
 A trial bar should span the width of the upper viewport (the viewable area in a browser). It's best used in full-screen mode, and can't be dismissed by the user.
 
-**Use cases:**Application trial experiences, temporary states in which users are likely to need onboarding help.
+**Use cases:** Application trial experiences, temporary states in which users are likely to need onboarding help.
 
 
 |**Pros** | **Cons** |

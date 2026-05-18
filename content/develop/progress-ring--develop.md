@@ -2,7 +2,7 @@
 title: "Progress Ring"
 slug: "progress-ring--develop"
 category: "develop"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/050982-progress-ring/b/09e06c"
+url: "/component/progress-ring/b/09e06c"
 extractedAt: "2026-02-21T21:51:53.119Z"
 ---
 

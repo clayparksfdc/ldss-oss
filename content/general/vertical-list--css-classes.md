@@ -2,7 +2,7 @@
 title: "Vertical List"
 slug: "vertical-list--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/2131a9-vertical-list/b/85154d"
+url: "/develop/vertical-list/b/85154d"
 extractedAt: "2026-02-21T21:42:55.221Z"
 ---
 

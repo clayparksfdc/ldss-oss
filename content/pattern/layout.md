@@ -2,7 +2,7 @@
 title: "Layout"
 slug: "layout"
 category: "pattern"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/33e9af-layout"
+url: "/develop/layout"
 extractedAt: "2026-02-21T21:58:24.881Z"
 ---
 

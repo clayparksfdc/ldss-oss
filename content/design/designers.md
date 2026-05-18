@@ -2,7 +2,7 @@
 title: "Designers"
 slug: "designers"
 category: "design"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/874349-designers"
+url: "/design/designers"
 extractedAt: "2026-02-21T18:06:13.534Z"
 ---
 
@@ -10,23 +10,9 @@ SLDS 2 provides the tools you need to create cohesive, user-friendly interfaces.
 
 To get started, explore the component library for ready-made elements. Then familiarize yourself with the style guide to ensure visual consistency, and review design principles for guidance on interaction and user flows. Whether you’re working on a new project or refining existing designs, the design system is here to streamline your workflow and make collaboration with developers smoother.
 
-[
-Principles
-Understand our design principles that guide our design decisions and process.
-
-](https://www.lightningdesignsystem.com/2e1ef8501/p/207fb6)
-[
-Foundations
-Understand how we apply visual design to our components and products across Salesforce.
-
-](https://www.lightningdesignsystem.com/2e1ef8501/p/67a7b2)
-[
-Components
-Familiarize yourself with the reusable components that you can incorporate into your designs.
-
-](https://www.lightningdesignsystem.com/2e1ef8501/p/755aff)
-[
-Designer Tools
-Find UI libraries, an essential resource for creating consistent, high-quality designs.
-
-](https://www.lightningdesignsystem.com/2e1ef8501/p/2963ba)
+:::card-grid{columns="3"}
+::card{title="Principles" href="https://www.lightningdesignsystem.com/2e1ef8501/p/207fb6" description="Understand our design principles that guide our design decisions and process."}
+::card{title="Foundations" href="/foundation/foundations" description="Understand how we apply visual design to our components and products across Salesforce."}
+::card{title="Components" href="/component/components" description="Familiarize yourself with the reusable components that you can incorporate into your designs."}
+::card{title="Designer Tools" href="/design/designer-tools" description="Find UI libraries, an essential resource for creating consistent, high-quality designs."}
+:::

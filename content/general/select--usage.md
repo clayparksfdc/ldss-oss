@@ -2,7 +2,7 @@
 title: "Select"
 slug: "select--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/60fa86-select/b/70905d"
+url: "/component/select/b/70905d"
 extractedAt: "2026-02-21T22:01:22.220Z"
 ---
 
@@ -137,7 +137,7 @@ Multi-selection component with an exposed list and scrollbar
     
   
 
-**Supporting Text:**Additional instructions. *(optional)*
+**Supporting Text:** Additional instructions. *(optional)*
 
 
 
@@ -169,7 +169,7 @@ Multi-selection component with an exposed list and scrollbar
     
   
 
-**Dropdown Arrows:**Indicates a menu will open over the dropdown field
+**Dropdown Arrows:** Indicates a menu will open over the dropdown field
 
 
 
@@ -218,7 +218,7 @@ List Items: Display available choices.
 
 The variants here show the available label positions the select component uses relative to the dropdown menu. The positioning of the label in relation to the dropdown menu for the select component is shown in the variants here.
 
-**Standard**The default, which displays the label above the dropdown menu.
+**Standard** The default, which displays the label above the dropdown menu.
 
 
 
@@ -237,7 +237,7 @@ The variants here show the available label positions the select component uses r
 
 
 
-**Hidden**Hides the label but makes it available to assistive technology. If you provide a value for `field-level-help`, the tooltip icon is still displayed.
+**Hidden** Hides the label but makes it available to assistive technology. If you provide a value for `field-level-help`, the tooltip icon is still displayed.
 
 
 
@@ -301,10 +301,10 @@ Can adjust width but should align with form elements.
 ### States
 
 1. **Default**: Ready for selection.
-2. **Active:**The dropdown menu expands, exposing selectable options.
-3.**Disabled:**Grayed out, indicating the select component is currently unavailable.
-4.**Focus-Closed:**Dark border around the triggering select component.
-5.**Focus-Open:**Dark border around the triggering select component and highlighting the first option in the open menu.
+2. **Active:** The dropdown menu expands, exposing selectable options.
+3.**Disabled:** Grayed out, indicating the select component is currently unavailable.
+4.**Focus-Closed:** Dark border around the triggering select component.
+5.**Focus-Open:** Dark border around the triggering select component and highlighting the first option in the open menu.
 
 Default: Ready for selection.
 

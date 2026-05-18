@@ -2,13 +2,13 @@
 title: "Scoped Tabs · Lightning Design System 2"
 slug: "scoped-tabs"
 category: "component"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/318c20-scoped-tabs"
+url: "/component/scoped-tabs"
 extractedAt: "2026-02-21T21:53:03.319Z"
 ---
 
 ## Overview
 
-Scoped tabs are a variant of the [tabs](https://www.lightningdesignsystem.com/2e1ef8501/p/1152cf) component and have a more targeted purpose. Instead of structuring the main content of a page, they segment content within a page's main body or subsection. Like the main tabs, scoped tabs help users focus on their current task because only one tab's contents are visible at any given time.
+Scoped tabs are a variant of the [tabs](/component/tabs) component and have a more targeted purpose. Instead of structuring the main content of a page, they segment content within a page's main body or subsection. Like the main tabs, scoped tabs help users focus on their current task because only one tab's contents are visible at any given time.
 
 - Scoped tabs are a secondary tabset that complements the main tabs on a page.
 - Scoped tabs help you group related content into sections. Users can easily switch between sections without leaving the page.
@@ -68,17 +68,17 @@ Use three to five tabs for related sections, providing quick access to task-crit
 | *                                * ** ** ** | **Overflow Menu: **A dropdown for additional tabs that don’t fit in the visible area. |
 | *                                * ** ** ** | **Content area: **Displays content of the active tab. |
 
-**Container: **Encloses the tabset and associated content.
+**Container: ** Encloses the tabset and associated content.
 
-**Tabset: **The** **container that holds a group of tabs.
+**Tabset: ** The** **container that holds a group of tabs.
 
 **Tab:** Individual navigational items within the tabset.
 
 **Label**: A concise name describing the tab’s content.
 
-**Overflow Menu: **A dropdown for additional tabs that don’t fit in the visible area.
+**Overflow Menu: ** A dropdown for additional tabs that don’t fit in the visible area.
 
-**Content area: **Displays content of the active tab.
+**Content area: ** Displays content of the active tab.
 
 ### Customization Options
 
@@ -105,8 +105,8 @@ Scoped tabs are enclosed in a bordered container. Align the container with nearb
 
 1. **Selected:** The active tab is highlighted with a text label color change and the bottom border is remove.
 2. **Default:** Scoped tabs are inactive except for the default selected tab.
-3. **Hover: **The tab changes color.
-4. **Focus: **Focus follows selection. The active/focused tab is highlighted with a text label color change and the bottom border is removed. An underline is also shown on the label as a focus indicator.
+3. **Hover: ** The tab changes color.
+4. **Focus: ** Focus follows selection. The active/focused tab is highlighted with a text label color change and the bottom border is removed. An underline is also shown on the label as a focus indicator.
 
 ### Interactions
 

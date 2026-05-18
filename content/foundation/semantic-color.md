@@ -2,7 +2,7 @@
 title: "Color"
 slug: "semantic-color"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/655b28-color/b/25b51f"
+url: "/foundation/color/b/25b51f"
 extractedAt: "2026-02-21T18:18:10.522Z"
 ---
 
@@ -60,7 +60,7 @@ Surface colors are reserved for the bottom layer of a surface. These elements ar
 - Popovers
 Anything that comes into the application's view and has a higher stacking context than a previous surface ultimately establishes a new surface.
 
-**ℹ️ **Don't apply any decoration, brand bands, or textures to an application background.
+**ℹ️ ** Don't apply any decoration, brand bands, or textures to an application background.
 
 ### Surface-container
 

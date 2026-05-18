@@ -26,7 +26,7 @@ Validation can take several forms:
 - For builders that don’t allow saving or secondary actions when invalid components exist, errors are highlighted in the header, canvas, and panels. Errors must be fixed before saving or using a secondary action.
 - If warnings and errors exist at the same time, both should appear in the header. Saving and secondary actions should be prohibited until all errors are fixed.
 
-**ℹ️ Accessibility Note:**When buildingvalidation, work with Engineering to specify and implement screen reader notifications.
+**ℹ️ Accessibility Note:** When buildingvalidation, work with Engineering to specify and implement screen reader notifications.
 
 ## Variations
 

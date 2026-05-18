@@ -2,7 +2,7 @@
 title: "Visibility"
 slug: "visibility"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/7671f9-visibility"
+url: "/develop/visibility"
 extractedAt: "2026-02-21T21:42:58.131Z"
 ---
 

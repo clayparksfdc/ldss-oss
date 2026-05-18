@@ -2,7 +2,7 @@
 title: "Visibility"
 slug: "visibility--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/7671f9-visibility/b/85154d"
+url: "/develop/visibility/b/85154d"
 extractedAt: "2026-02-21T21:43:06.487Z"
 ---
 

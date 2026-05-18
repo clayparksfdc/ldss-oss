@@ -2,7 +2,7 @@
 title: "Checkbox"
 slug: "checkbox--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/980561-checkbox/b/74d5d4"
+url: "/component/checkbox/b/74d5d4"
 extractedAt: "2026-02-21T21:46:29.140Z"
 ---
 

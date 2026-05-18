@@ -2,7 +2,7 @@
 title: "Conversation Design"
 slug: "conversation-design--language-and-style"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/33c7b6-conversation-design-/b/953d32"
+url: "/ai-and-slds-2/conversation-design/b/953d32"
 extractedAt: "2026-02-21T21:36:38.172Z"
 ---
 

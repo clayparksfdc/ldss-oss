@@ -2,7 +2,7 @@
 title: "Toast"
 slug: "toast--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/216f79-toast/b/74d5d4"
+url: "/component/toast/b/74d5d4"
 extractedAt: "2026-02-21T21:56:02.545Z"
 ---
 

@@ -2,7 +2,7 @@
 title: "Vertical Navigation"
 slug: "vertical-navigation"
 category: "pattern"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/60977d-vertical-navigation"
+url: "/component/vertical-navigation"
 extractedAt: "2026-02-21T21:56:51.955Z"
 ---
 
@@ -62,7 +62,7 @@ The vertical navigation component is designed to help users filter and access co
     
   
 
-**Nav item label:**Name of the linked section or page
+**Nav item label:** Name of the linked section or page
 
 
 
@@ -92,7 +92,7 @@ The vertical navigation component is designed to help users filter and access co
     
   
 
-**Icon (optional):**Offers an additional visual cue to users
+**Icon (optional):** Offers an additional visual cue to users
 
 
 
@@ -122,7 +122,7 @@ The vertical navigation component is designed to help users filter and access co
     
   
 
-**Notification Badge (optional):**Notifies users of new content
+**Notification Badge (optional):** Notifies users of new content
 
 
 
@@ -152,7 +152,7 @@ The vertical navigation component is designed to help users filter and access co
     
   
 
-**Overflow:**Expandable section that nests contentGroup Header: Creates sections within the navigation
+**Overflow:** Expandable section that nests contentGroup Header: Creates sections within the navigation
 
 Nav item label: Name of the linked section or page
 
@@ -165,7 +165,7 @@ Overflow: Expandable section that nests content
 ### Customization Options:
 
 - Icons and badges may be added to nav items.
-- May be made filterable by appending the vertical nav to an input using [the Quickfind](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/60977d-vertical-navigation/t/c9ba8d8265).
+- May be made filterable by appending the vertical nav to an input using [the Quickfind](/component/vertical-navigation/t/c9ba8d8265).
 
 ### Size
 

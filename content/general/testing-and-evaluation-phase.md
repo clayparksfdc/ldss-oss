@@ -2,7 +2,7 @@
 title: "Testing and Evaluation Phase"
 slug: "testing-and-evaluation-phase"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/50a88b-testing-and-evaluation-phase"
+url: "/ai-and-slds-2/testing-and-evaluation-phase"
 extractedAt: "2026-02-21T18:10:25.580Z"
 ---
 
@@ -30,7 +30,7 @@ Use [Salesforce LLM Benchmark for CRM](https://www.salesforceairesearch.com/crm-
 5. **Test prompts with synthetic data** that mimics your customers or actual data, but avoid using real customer data, especially in public models.
 6. **Generate at least 20 model outputs **per prompt version or revision, using direct LLM gateway via any [Salesforce-approved tools](https://developer.salesforce.com/docs/einstein/genai/guide/models-get-started.html), platform, or your company-approved tools.
 7. **Be aware of system prompts **implemented at the platform level that aren’t visible to you.
-8. **Conduct a qualitative analysis** of the model outputs to assess success, use the [Success Heuristics](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/dd99466e17) as a guideline.
+8. **Conduct a qualitative analysis** of the model outputs to assess success, use the [Success Heuristics](/ai-and-slds-2/testing-and-evaluation-phase/t/dd99466e17) as a guideline.
 9. **Document the number of successful** model outputs out of 20 consecutive generations
 10. **Calculate success rate percentage** compare against your success criteria
 11. **Document **version control, note any observations, and share results with the team.
@@ -56,7 +56,7 @@ Try different models if available, adjust simple parameters such as temperature 
 
 **Be aware of system prompts **implemented at the platform level that aren’t visible to you.
 
-**Conduct a qualitative analysis** of the model outputs to assess success, use the [Success Heuristics](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/dd99466e17) as a guideline.
+**Conduct a qualitative analysis** of the model outputs to assess success, use the [Success Heuristics](/ai-and-slds-2/testing-and-evaluation-phase/t/dd99466e17) as a guideline.
 
 **Document the number of successful** model outputs out of 20 consecutive generations
 
@@ -128,21 +128,21 @@ Define the qualities of a successful output and things to look for during testin
 
 |  | **Criteria ** | **Defining Questions** |
 | --- | --- | --- |
-| *                                * ** ** ** | [**Relevance or On-Topic**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/d96aa139ab)** **↓ | Understanding and correct intent recognition  Does the system get what I’m looking for or trying to do?  Does it provide relevant information?  Does it maintain context from previous turns?  Does it respond to expected queries or are some topics missing?  Out-of-scope handling |
-| *                                * ** ** ** | [**Accuracy**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/643de608eb)↓ | No hallucinations - it doesn’t make up data  Correct information provided?  Are the links accurate? |
-| *                                * ** ** ** | [**Clarity**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/c97a3c1e54)↓ | Are responses understandable? Grammatically correct, etc.?  Do they make sense to the user?  Does the system use technical jargon or acronyms?  Is the structure or UI of the response readable and easy to understand? |
-| *                                * ** ** ** | [**Precision or Verbosity**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/03f8200d31)↓ | Are responses too verbose or long?   Are they walls of text that are difficult to scan?  Does it repeat itself or use redundant phrases? |
-| *                                * ** ** ** | [**Comprehensiveness**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/2f3e14a8b6)↓ | Do responses cover all the important info?  Do I have to re-ask about things? |
-| *                                * ** ** ** | [**Variance Across Multiple Turns**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/e4cf41ea3d)↓ | Is the response similar, or different to previous responses?  Is the sentence structure similar, or different to previous responses?  Is the agent asking the same question, without any variation, to clarify the question? |
-| *                                * ** ** ** | [**Helpfulness**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/eef4763d0d)↓ | Is there a clear call-to-action? As in, does the agent ask the user a question whether it’s a clarification or follow-on question, or is there UI that clearly shows to the user that they need to click something to continue the conversation?  Are there interactive elements where it makes sense?  Does the agent include turn-taking cues? |
-| *                                * ** ** ** | [**Naturalness**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/dc30c8d272)↓ | Does it use appropriate style and tone for the context?  Are responses natural and sound like something a person says? |
-| *                                * ** ** ** | [**Error and Fallback Handling**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/514c855b0d)↓ | How are incorrect or ambiguous utterances handled? Typos?  Out-of-scope queries?  Malicious attempt handling? |
+| *                                * ** ** ** | [**Relevance or On-Topic**](/ai-and-slds-2/testing-and-evaluation-phase/t/d96aa139ab)** **↓ | Understanding and correct intent recognition  Does the system get what I’m looking for or trying to do?  Does it provide relevant information?  Does it maintain context from previous turns?  Does it respond to expected queries or are some topics missing?  Out-of-scope handling |
+| *                                * ** ** ** | [**Accuracy**](/ai-and-slds-2/testing-and-evaluation-phase/t/643de608eb)↓ | No hallucinations - it doesn’t make up data  Correct information provided?  Are the links accurate? |
+| *                                * ** ** ** | [**Clarity**](/ai-and-slds-2/testing-and-evaluation-phase/t/c97a3c1e54)↓ | Are responses understandable? Grammatically correct, etc.?  Do they make sense to the user?  Does the system use technical jargon or acronyms?  Is the structure or UI of the response readable and easy to understand? |
+| *                                * ** ** ** | [**Precision or Verbosity**](/ai-and-slds-2/testing-and-evaluation-phase/t/03f8200d31)↓ | Are responses too verbose or long?   Are they walls of text that are difficult to scan?  Does it repeat itself or use redundant phrases? |
+| *                                * ** ** ** | [**Comprehensiveness**](/ai-and-slds-2/testing-and-evaluation-phase/t/2f3e14a8b6)↓ | Do responses cover all the important info?  Do I have to re-ask about things? |
+| *                                * ** ** ** | [**Variance Across Multiple Turns**](/ai-and-slds-2/testing-and-evaluation-phase/t/e4cf41ea3d)↓ | Is the response similar, or different to previous responses?  Is the sentence structure similar, or different to previous responses?  Is the agent asking the same question, without any variation, to clarify the question? |
+| *                                * ** ** ** | [**Helpfulness**](/ai-and-slds-2/testing-and-evaluation-phase/t/eef4763d0d)↓ | Is there a clear call-to-action? As in, does the agent ask the user a question whether it’s a clarification or follow-on question, or is there UI that clearly shows to the user that they need to click something to continue the conversation?  Are there interactive elements where it makes sense?  Does the agent include turn-taking cues? |
+| *                                * ** ** ** | [**Naturalness**](/ai-and-slds-2/testing-and-evaluation-phase/t/dc30c8d272)↓ | Does it use appropriate style and tone for the context?  Are responses natural and sound like something a person says? |
+| *                                * ** ** ** | [**Error and Fallback Handling**](/ai-and-slds-2/testing-and-evaluation-phase/t/514c855b0d)↓ | How are incorrect or ambiguous utterances handled? Typos?  Out-of-scope queries?  Malicious attempt handling? |
 
 **Criteria **
 
 **Defining Questions**
 
-[**Relevance or On-Topic**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/d96aa139ab)** **↓
+[**Relevance or On-Topic**](/ai-and-slds-2/testing-and-evaluation-phase/t/d96aa139ab)** **↓
 
 - Understanding and correct intent recognition
 - Does the system get what I’m looking for or trying to do?
@@ -150,41 +150,41 @@ Define the qualities of a successful output and things to look for during testin
 - Does it maintain context from previous turns?
 - Does it respond to expected queries or are some topics missing?
 - Out-of-scope handling
-[**Accuracy**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/643de608eb)↓
+[**Accuracy**](/ai-and-slds-2/testing-and-evaluation-phase/t/643de608eb)↓
 
 - No hallucinations - it doesn’t make up data
 - Correct information provided?
 - Are the links accurate?
-[**Clarity**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/c97a3c1e54)↓
+[**Clarity**](/ai-and-slds-2/testing-and-evaluation-phase/t/c97a3c1e54)↓
 
 - Are responses understandable? Grammatically correct, etc.?
 - Do they make sense to the user?
 - Does the system use technical jargon or acronyms?
 - Is the structure or UI of the response readable and easy to understand?
-[**Precision or Verbosity**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/03f8200d31)↓
+[**Precision or Verbosity**](/ai-and-slds-2/testing-and-evaluation-phase/t/03f8200d31)↓
 
 - Are responses too verbose or long?
 - Are they walls of text that are difficult to scan?
 - Does it repeat itself or use redundant phrases?
-[**Comprehensiveness**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/2f3e14a8b6)↓
+[**Comprehensiveness**](/ai-and-slds-2/testing-and-evaluation-phase/t/2f3e14a8b6)↓
 
 - Do responses cover all the important info?
 - Do I have to re-ask about things?
-[**Variance Across Multiple Turns**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/e4cf41ea3d)↓
+[**Variance Across Multiple Turns**](/ai-and-slds-2/testing-and-evaluation-phase/t/e4cf41ea3d)↓
 
 - Is the response similar, or different to previous responses?
 - Is the sentence structure similar, or different to previous responses?
 - Is the agent asking the same question, without any variation, to clarify the question?
-[**Helpfulness**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/eef4763d0d)↓
+[**Helpfulness**](/ai-and-slds-2/testing-and-evaluation-phase/t/eef4763d0d)↓
 
 - Is there a clear call-to-action? As in, does the agent ask the user a question whether it’s a clarification or follow-on question, or is there UI that clearly shows to the user that they need to click something to continue the conversation?
 - Are there interactive elements where it makes sense?
 - Does the agent include turn-taking cues?
-[**Naturalness**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/dc30c8d272)↓
+[**Naturalness**](/ai-and-slds-2/testing-and-evaluation-phase/t/dc30c8d272)↓
 
 - Does it use appropriate style and tone for the context?
 - Are responses natural and sound like something a person says?
-[**Error and Fallback Handling**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/50a88b-testing-and-evaluation-phase/t/514c855b0d)↓
+[**Error and Fallback Handling**](/ai-and-slds-2/testing-and-evaluation-phase/t/514c855b0d)↓
 
 - How are incorrect or ambiguous utterances handled? Typos?
 - Out-of-scope queries?

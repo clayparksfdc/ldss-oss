@@ -2,7 +2,7 @@
 title: "Pills"
 slug: "pills"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/108a86-pills"
+url: "/component/pills"
 extractedAt: "2026-02-21T21:51:03.521Z"
 ---
 
@@ -25,8 +25,8 @@ A pill container is a listbox that groups and displays multiple pills in a row. 
 
 There are two available Pill Containers:
 
-- **Standard**Displays pills in an unordered listbox as an unordered list (<ul>), while maintaining listbox semantics for accessibility. Visually similar to the standard listbox, but semantically structured for screen readers to interpret each pill as a list item.
--**Bare**A standard listbox container that holds Bare Pills, which have no icons or borders. The container retains the same border and background styling as other pill containers, ensuring consistent structure while presenting a simplified visual treatment for each pill.
+- **Standard** Displays pills in an unordered listbox as an unordered list (<ul>), while maintaining listbox semantics for accessibility. Visually similar to the standard listbox, but semantically structured for screen readers to interpret each pill as a list item.
+-**Bare** A standard listbox container that holds Bare Pills, which have no icons or borders. The container retains the same border and background styling as other pill containers, ensuring consistent structure while presenting a simplified visual treatment for each pill.
 
 #### Controlling How Pills Display
 
@@ -289,7 +289,7 @@ Icon or AvatarA pill can have an icon or avatar that appears in front of the lab
 
 
 
-**Links**The pill label can act as a hyperlink for navigation. Specifying a target to change where the link should open is not supported. The link opens on the same tab or window. 
+**Links** The pill label can act as a hyperlink for navigation. Specifying a target to change where the link should open is not supported. The link opens on the same tab or window. 
 
 
 

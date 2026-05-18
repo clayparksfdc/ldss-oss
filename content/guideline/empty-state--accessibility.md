@@ -2,7 +2,7 @@
 title: "Empty State"
 slug: "empty-state--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/09f001-empty-state/b/74d5d4"
+url: "/component/empty-state/b/74d5d4"
 extractedAt: "2026-02-21T21:49:08.243Z"
 ---
 
@@ -10,7 +10,7 @@ extractedAt: "2026-02-21T21:49:08.243Z"
 
 ### Mouse
 
-- **Hover Behavior:**Buttons retain their existing hover behavior within empty state. No other elements should receive focus or interaction.
+- **Hover Behavior:** Buttons retain their existing hover behavior within empty state. No other elements should receive focus or interaction.
 Hover Behavior: Buttons retain their existing hover behavior within empty state. No other elements should receive focus or interaction.
 
 ### Keyboard
@@ -21,8 +21,8 @@ Hover Behavior: Buttons retain their existing hover behavior within empty state.
 
 ### Other
 
-- **Screen Readers:**Screen readers should not announce illustrations, instead relying on the accompanying descriptive text.
--**Magnification Tools:**The illustration primitive within Empty State uses svg files to remain visually distinct and scalable images without pixelation or distortion.
+- **Screen Readers:** Screen readers should not announce illustrations, instead relying on the accompanying descriptive text.
+-**Magnification Tools:** The illustration primitive within Empty State uses svg files to remain visually distinct and scalable images without pixelation or distortion.
 
 ## Design Considerations
 

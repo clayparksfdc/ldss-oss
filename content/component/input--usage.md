@@ -163,11 +163,11 @@ Use `aria-live="assertive"` to announce error messages to screen readers as soon
 
 Also see [form element - View Mode](/component/form-element).
 5. **Error**: Shows error messages when input data fails validation criteria. It’s recommended to add an error icon to your error message.
-6. **Dirty:**When an input has  unsaved changes, they have a light yellow highlight surrounding the field and label.
+6. **Dirty:** When an input has  unsaved changes, they have a light yellow highlight surrounding the field and label.
 
 Also see [form element - View Mode](/component/form-element).
 
-**Dirty:**When an input has  unsaved changes, they have a light yellow highlight surrounding the field and label.
+**Dirty:** When an input has  unsaved changes, they have a light yellow highlight surrounding the field and label.
 
 ```storybook
 url: https://sds-site-docs-1fea39e7763a.herokuapp.com/iframe.html?id=components-input--url-input

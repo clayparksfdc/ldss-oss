@@ -2,7 +2,7 @@
 title: "Alignment"
 slug: "alignment--examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/670c3f-alignment/b/879e0a"
+url: "/develop/alignment/b/879e0a"
 extractedAt: "2026-02-21T21:39:26.464Z"
 ---
 

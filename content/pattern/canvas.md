@@ -15,7 +15,7 @@ order: 0
 
 The canvas provides a visual representation of the content, app, or process a user is building. Users create, configure, and save that representation using UI controls in the header, panels, or the canvas itself.
 
-ℹ️ **Accessibility Note:**When building a canvas solution, partner with engineering to specify and implement both keyboard and mouse controls for all canvas interaction.
+ℹ️ **Accessibility Note:** When building a canvas solution, partner with engineering to specify and implement both keyboard and mouse controls for all canvas interaction.
 
 ### Canvas Navigation
 

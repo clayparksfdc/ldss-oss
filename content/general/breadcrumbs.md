@@ -2,7 +2,7 @@
 title: "Breadcrumbs"
 slug: "breadcrumbs"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/13cc12-breadcrumbs"
+url: "/component/breadcrumbs"
 extractedAt: "2026-02-21T21:44:28.953Z"
 ---
 
@@ -158,7 +158,7 @@ The breadcrumbs component is made up of two primary sections, link, and overflow
     
   
 
-**Chevron:**Breadcrumbs are evenly spaced with chevron icons between them to show the path to the current page.
+**Chevron:** Breadcrumbs are evenly spaced with chevron icons between them to show the path to the current page.
 
 
 
@@ -188,7 +188,7 @@ The breadcrumbs component is made up of two primary sections, link, and overflow
     
   
 
-**Breadcrumb:**An individual item or link within the breadcrumbs trail.
+**Breadcrumb:** An individual item or link within the breadcrumbs trail.
 
 
 

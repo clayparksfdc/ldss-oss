@@ -2,7 +2,7 @@
 title: "Textarea"
 slug: "textarea--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/11f590-textarea/b/39205c"
+url: "/component/textarea/b/39205c"
 extractedAt: "2026-02-21T22:01:24.980Z"
 ---
 
@@ -56,7 +56,7 @@ Base textarea component type
 
 ### Anatomy
 
-**Field label:**Describes the purpose of the text area.
+**Field label:** Describes the purpose of the text area.
 
 
 
@@ -116,7 +116,7 @@ Base textarea component type
     
   
 
-**Placeholder Text:**Optional text for a hint or example to guide the user to enter appropriate input. 
+**Placeholder Text:** Optional text for a hint or example to guide the user to enter appropriate input. 
 
 
 
@@ -214,11 +214,11 @@ Associate support text and error messages with the textarea field using aria-des
 
 ### States
 
-1. **Default:**The initial state before user interaction. Include placeholder content to guide users if needed, but not to replace the field label.
-2.**Active/Focus:**When the input is activated, the focus indicator appears and placeholder text disappears.
-3.**Disabled:**Color changes to light gray to show it’s not usable and the field doesn't receive focus.
-4.**Required:**Displays a red asterisk before the label to indicate the input is required to proceed.
-5.**Error:**Shows an error message when input data fails validation criteria. It’s recommended to add an error icon to your error message.
+1. **Default:** The initial state before user interaction. Include placeholder content to guide users if needed, but not to replace the field label.
+2.**Active/Focus:** When the input is activated, the focus indicator appears and placeholder text disappears.
+3.**Disabled:** Color changes to light gray to show it’s not usable and the field doesn't receive focus.
+4.**Required:** Displays a red asterisk before the label to indicate the input is required to proceed.
+5.**Error:** Shows an error message when input data fails validation criteria. It’s recommended to add an error icon to your error message.
 
 Default: The initial state before user interaction. Include placeholder content to guide users if needed, but not to replace the field label.
 
@@ -253,7 +253,7 @@ No pre-selected content is typically used in the textarea component, except for 
 Validation in textarea is in two categories:
 
 1.**Required field:** Users must provide input to the field before submitting a form.
-2. **Character limits:**Users must enter content that meets a minimum or maximum number of characters, or is between minimum and maximum character limits.
+2. **Character limits:** Users must enter content that meets a minimum or maximum number of characters, or is between minimum and maximum character limits.
 Required field: Users must provide input to the field before submitting a form.
 
 Character limits: Users must enter content that meets a minimum or maximum number of characters, or is between minimum and maximum character limits.

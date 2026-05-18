@@ -2,7 +2,7 @@
 title: "Spinners"
 slug: "spinners--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/959d6d-spinners/b/95fdbf"
+url: "/component/spinners/b/95fdbf"
 extractedAt: "2026-02-21T21:54:15.725Z"
 ---
 

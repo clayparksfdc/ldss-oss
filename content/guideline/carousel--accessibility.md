@@ -2,7 +2,7 @@
 title: "Carousel"
 slug: "carousel--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/99642e-carousel/b/74d5d4"
+url: "/component/carousel/b/74d5d4"
 extractedAt: "2026-02-21T21:46:02.309Z"
 ---
 

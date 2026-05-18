@@ -2,7 +2,7 @@
 title: "Builder · Lightning Design System 2"
 slug: "builder"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/450761-builder"
+url: "/general/builder"
 extractedAt: "2026-02-21T21:57:08.043Z"
 ---
 
@@ -34,7 +34,7 @@ When should you think about using a builder? Start, as always, with the user. If
 - Creating and defining a series of logical actions that result in different outputs
 - Defining the relationship of one element to another—for example, in a workflow or visual layout
 - Saving and tracking multiple drafts or versions
-If a builder isn’t a good fit, consider using another framework, such as a [directional modal](https://www.lightningdesignsystem.com/2e1ef8501/p/01c12a-modals/t/8195981cc0), [Channel Studios on Marketing Cloud](https://www.salesforce.com/products/marketing-cloud/overview/), or use an [expression](https://v1.lightningdesignsystem.com/components/expression/), [form element](https://www.lightningdesignsystem.com/2e1ef8501/p/96252b), or [filter](https://www.lightningdesignsystem.com/2e1ef8501/p/58ff5f).
+If a builder isn’t a good fit, consider using another framework, such as a [directional modal](/component/modals/t/8195981cc0), [Channel Studios on Marketing Cloud](https://www.salesforce.com/products/marketing-cloud/overview/), or use an [expression](https://v1.lightningdesignsystem.com/components/expression/), [form element](/component/form-element), or [filter](/general/rules-filters-and-logic).
 
 ## Workflow
 
@@ -68,7 +68,7 @@ Launch a builder from a standard record detail page; use an action button (blue 
 Record view in a Salesforce Console app; blue brand button opens the builder
 
 - In Salesforce Console, a builder should open in a new window or browser tab—**not** in a console tab or subtab.
-- A utility bar that overlays the interface can persist over a builder. If the user navigates away from the builder by clicking the utility bar, an alert should warn that unsaved changes may be lost. See [Modal usage](https://www.lightningdesignsystem.com/2e1ef8501/p/16a791) for warning messages.
+- A utility bar that overlays the interface can persist over a builder. If the user navigates away from the builder by clicking the utility bar, an alert should warn that unsaved changes may be lost. See [Modal usage](/component/modals) for warning messages.
 - Builder record metadata can be represented in a console tab or sub-tab.
 
 ### Record Information: Names, Versions, and Statuses
@@ -93,7 +93,7 @@ The builder header should include the builder name, file name, and save status.
 
 Builder header layout
 
-*For more information about the Builder header, see *[*Header Guidelines*](https://www.lightningdesignsystem.com/2e1ef8501/p/44f418)* and *[*Builder Header*](https://v1.lightningdesignsystem.com/components/builder-header/)*.*
+*For more information about the Builder header, see *[*Header Guidelines*](/general/header)* and *[*Builder Header*](https://v1.lightningdesignsystem.com/components/builder-header/)*.*
 
 ### Settings and Help
 
@@ -110,7 +110,7 @@ Saving is a server-side snapshot of an object and its state. Note that saving do
 #### When and how can I save my builder objects?
 
 - Use a Save button to initiate a server-side save of the entire object.
-- When a builder allows manual saving, users should be allowed to save even when their work contains errors. (See [Validation](https://www.lightningdesignsystem.com/2e1ef8501/p/312197) for more information on messaging.)
+- When a builder allows manual saving, users should be allowed to save even when their work contains errors. (See [Validation](/general/validation) for more information on messaging.)
 - When a save also triggers activation/publication, allow the file to be saved without push. Alert the user to any errors blocking activation/publication.
 
 #### What about versioning?
@@ -128,7 +128,7 @@ Saving is a server-side snapshot of an object and its state. Note that saving do
 
 Clearly communicate the status of save, activate, and other actions, without overwhelming users or drawing focus from the task at hand.
 
-*For more information, see *[*Status Text*](https://www.lightningdesignsystem.com/2e1ef8501/p/44f418-header/t/df5ebf1f46)* in the Header Toolbar section.*
+*For more information, see *[*Status Text*](/general/header/t/df5ebf1f46)* in the Header Toolbar section.*
 
 ### Autosave
 
@@ -147,7 +147,7 @@ Place the Activate or Publish action at the right side of the builder toolbar, w
 
 Activate action button
 
-*For more information, see *[*Activate/Deactivate*](https://www.lightningdesignsystem.com/2e1ef8501/p/44f418-header/t/b0ad78ac2c)* in the Header Toolbar section.*
+*For more information, see *[*Activate/Deactivate*](/general/header/t/b0ad78ac2c)* in the Header Toolbar section.*
 
 ### Exiting a Builder
 

@@ -28,7 +28,7 @@ Ensure progress text or percentages are clear and readable when magnified.
 Progress Bars do not require direct interaction, but step navigation (if available) should work with speech recognition or other input devices.
 - **Braille Displays**: 
 The current progress should be output as text, using attributes like `aria-valuetext`.
-- **Text labels:**Ensure that progress labels are included to provide additional information, such as percentages or numeric values, unless all segments of the progress bar meet a 3:1 contrast ratio against each other and the background.
+- **Text labels:** Ensure that progress labels are included to provide additional information, such as percentages or numeric values, unless all segments of the progress bar meet a 3:1 contrast ratio against each other and the background.
 
 ## Design Considerations
 

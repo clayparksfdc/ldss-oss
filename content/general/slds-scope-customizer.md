@@ -2,7 +2,7 @@
 title: "SLDS Scope Customizer"
 slug: "slds-scope-customizer"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/014cb2-slds-scope-customizer"
+url: "/general/slds-scope-customizer"
 extractedAt: "2026-02-21T22:00:36.710Z"
 ---
 

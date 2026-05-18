@@ -2,7 +2,7 @@
 title: "Grid"
 slug: "grid"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/61d07d-grid"
+url: "/develop/grid"
 extractedAt: "2026-02-21T21:40:15.943Z"
 ---
 

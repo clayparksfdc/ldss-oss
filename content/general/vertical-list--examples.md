@@ -2,7 +2,7 @@
 title: "Vertical List"
 slug: "vertical-list--examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/2131a9-vertical-list/b/788fe9"
+url: "/develop/vertical-list/b/788fe9"
 extractedAt: "2026-02-21T21:42:52.113Z"
 ---
 

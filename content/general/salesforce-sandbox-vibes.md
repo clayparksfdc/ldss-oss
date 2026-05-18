@@ -57,11 +57,11 @@ If this is your first time using Agentforce Vibes, click **I agree to the terms*
 
 In the Type a message… window, type a prompt to open your Salesforce DX project.
 
-**Example: **Open my Salesforce DX project.
+**Example: ** Open my Salesforce DX project.
 
 To build your design, enter a prompt and include a link to your Figma design. For this example, we’re building a checkbox toggle.
 
-**Example: **Grab the currently selected checkbox toggle from Figma by using the Figma MCP server. Build it as a Lightning Web Component (LWC), and use Lightning base components if possible. Then deploy it to my org. Use the Salesforce DX MCP server as necessary. [link to your Figma design].
+**Example: ** Grab the currently selected checkbox toggle from Figma by using the Figma MCP server. Build it as a Lightning Web Component (LWC), and use Lightning base components if possible. Then deploy it to my org. Use the Salesforce DX MCP server as necessary. [link to your Figma design].
 
 Agentforce Vibes analyzes your Figma design, and begins to create the required files. Don’t worry, this will take a few minutes.
 

@@ -74,7 +74,7 @@ Keep tooltips concise, with 200 characters or less. This ensures optimal readabi
 
 ### States
 
-1. **Default:**The tooltip is hidden until triggered
+1. **Default:** The tooltip is hidden until triggered
 2.**Hover**: Appears when the user hovers over the trigger element.
 3. **Focus**: Appears when the user focuses on the trigger element using the keyboard.
 

@@ -2,7 +2,7 @@
 title: "Alignment"
 slug: "alignment--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/670c3f-alignment/b/0742d9"
+url: "/develop/alignment/b/0742d9"
 extractedAt: "2026-02-21T21:39:29.251Z"
 ---
 

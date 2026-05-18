@@ -2,7 +2,7 @@
 title: "Dynamic Icons"
 slug: "dynamic-icons"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/26424b-dynamic-icons"
+url: "/component/dynamic-icons"
 extractedAt: "2026-02-21T21:48:16.042Z"
 ---
 
@@ -28,7 +28,7 @@ Dynamic icons are used to guide users through workflows and signal important inf
 
 **Utility icons:** For actions or functionality (such as edit and refresh).
 - **Dynamic icons:** For real-time status changes (such as loading spinners, success indicators).
-- **Standard icons:**For Salesforce-specific objects (such as Accounts, Opportunities).
+- **Standard icons:** For Salesforce-specific objects (such as Accounts, Opportunities).
 
 Don’t use dynamic icons as a replacement for actionable components like buttons or links that need direct user interaction.
 
@@ -36,7 +36,7 @@ Use the correct icon type that aligns with their purpose:
 
 -**Utility icons:** For actions or functionality (such as edit and refresh).
 - **Dynamic icons:** For real-time status changes (such as loading spinners, success indicators).
-- **Standard icons:**For Salesforce-specific objects (such as Accounts, Opportunities).
+- **Standard icons:** For Salesforce-specific objects (such as Accounts, Opportunities).
 
 ## Types
 
@@ -84,7 +84,7 @@ Displays key scores to inform users of account status or engagement level.
 
 
 
-**Use case:**The Score icon is shown on account pages, helping sales teams quickly assess lead quality or engagement levels to prioritize follow-up actions.
+**Use case:** The Score icon is shown on account pages, helping sales teams quickly assess lead quality or engagement levels to prioritize follow-up actions.
 
 
 
@@ -120,7 +120,7 @@ Waffle Icon
 
 Used to access the Salesforce App Launcher.
 
-**Use Case:**The Waffle icon is located in the header and opens the App Launcher, allowing users to quickly switch between Salesforce applications like Sales Cloud, Service Cloud, or Experience Cloud.### Ellie Icon
+**Use Case:** The Waffle icon is located in the header and opens the App Launcher, allowing users to quickly switch between Salesforce applications like Sales Cloud, Service Cloud, or Experience Cloud.### Ellie Icon
 
 Represents Einstein features. Used to signal AI-powered insights and recommendations across various Salesforce products.
 
@@ -176,8 +176,8 @@ Dynamic Icons can exhibit various states, including:
 - **Hover**: Only the Waffle and Global Action Help Dynamic Icons use a hover state. The hover state is triggered when the mouse cursor hovers over the icon, and provides a visual indicator such as color or size.
 - **Active:** Occurs when the icon is clicked or selected, like Help changing its appearance to indicate an action has been triggered.
 - **Error or Failure State:** Icons like Strength change their appearance to show errors, for example if a password is too weak and a red icon appears.
-- **Pause State:**Icons like Ellie and Strength pause when waiting for user input. Typing pauses when typing activity stops.
--**Static State:**Icons like Ellie stop updating or animating, signaling completion of an action.
+- **Pause State:** Icons like Ellie and Strength pause when waiting for user input. Typing pauses when typing activity stops.
+-**Static State:** Icons like Ellie stop updating or animating, signaling completion of an action.
 -**Typing State:** Indicates typing activity is detected. Pauses when typing activity stops.
 
 ### Interactions
@@ -186,7 +186,7 @@ Dynamic icons are interactive depending on context. Some icons act as visual ind
 
 - **Feedback:** The animated Typing dynamic icon provides an animated visual indicator of an ongoing process.
 - **Actionable:** Waffle opens a menu or displays additional resources when clicked.
-- **Static:**Trend icon, Ellie, and Strength serve as informational indicators without triggering further actions.
+- **Static:** Trend icon, Ellie, and Strength serve as informational indicators without triggering further actions.
 
 ## Related Components
 

@@ -2,7 +2,7 @@
 title: "Form Element · Lightning Design System 2"
 slug: "form-element"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/96252b-form-element"
+url: "/component/form-element"
 extractedAt: "2026-02-21T21:49:34.534Z"
 ---
 
@@ -58,15 +58,15 @@ Form element provides a standardized structure to ensure accessibility, responsi
 | *                                * ** ** ** | **Static input component**: Read-only version of the input component. |
 | *                                * ** ** ** | **Edit Icon**: Displayed if inline edit is enabled. |
 
-**Required Asterisk: **Communicates that the input is required and triggers validation upon form submission.
+**Required Asterisk: ** Communicates that the input is required and triggers validation upon form submission.
 
 **Field Label**: Describes the purpose of the input field.
 
-**Helptext Icon: **Triggers a tooltip to provide the user with additional information.
+**Helptext Icon: ** Triggers a tooltip to provide the user with additional information.
 
 **Input Component**: The main area where users type or select their data.
 
-**Supporting Text: **Provides additional guidance or contextual information.
+**Supporting Text: ** Provides additional guidance or contextual information.
 
 **Validation Message**: Displays errors or confirmation messages after user action.
 

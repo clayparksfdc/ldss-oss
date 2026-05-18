@@ -2,7 +2,7 @@
 title: "Combobox"
 slug: "combobox--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/31c42a-combobox/b/8144d3"
+url: "/component/combobox/b/8144d3"
 extractedAt: "2026-02-21T21:47:26.477Z"
 ---
 

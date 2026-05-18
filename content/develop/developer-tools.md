@@ -2,7 +2,7 @@
 title: "Developer Tools"
 slug: "developer-tools"
 category: "develop"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/3427aa-developer-tools"
+url: "/develop/developer-tools"
 extractedAt: "2026-02-21T22:00:28.529Z"
 ---
 

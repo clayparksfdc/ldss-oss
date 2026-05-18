@@ -138,7 +138,7 @@ Floating property panels appear over the canvas to provide context for selected 
 
 Each floating panel has a header and a body area. The header contains a Dock to Side icon. Body content may be organized with tabs, accordions, and static sections. The body has a minimum height of 310 pixels; floating panels can be resized vertically.
 
-ℹ️ **Accessibility Note:**If floating panels can be dragged and resized, include a keyboard equivalent for these actions.
+ℹ️ **Accessibility Note:** If floating panels can be dragged and resized, include a keyboard equivalent for these actions.
 
 A floating panel corresponds to the selected component, outlined in blue.
 
@@ -186,7 +186,7 @@ When the user selects an image, the [Files](/component/file-selector) component 
 
 Deleting the image returns to the empty state.
 
-**ℹ️ Accessibility Note:**There should be a way for users to add alt text to the images they upload.
+**ℹ️ Accessibility Note:** There should be a way for users to add alt text to the images they upload.
 
 
 | *                     File selector, multiline/image           *  | *                     URL input, image selection           *  |

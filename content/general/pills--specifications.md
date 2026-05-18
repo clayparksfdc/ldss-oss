@@ -2,7 +2,7 @@
 title: "Pills"
 slug: "pills--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/108a86-pills/b/641c4b"
+url: "/component/pills/b/641c4b"
 extractedAt: "2026-02-21T21:51:11.751Z"
 ---
 

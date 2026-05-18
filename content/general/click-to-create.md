@@ -2,7 +2,7 @@
 title: "Click to Create"
 slug: "click-to-create"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/437535-click-to-create"
+url: "/general/click-to-create"
 extractedAt: "2026-02-21T21:57:16.480Z"
 ---
 

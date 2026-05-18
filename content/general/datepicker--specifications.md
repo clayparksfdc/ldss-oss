@@ -2,7 +2,7 @@
 title: "Datepicker"
 slug: "datepicker--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/531362-datepicker/b/4734fd"
+url: "/component/datepicker/b/4734fd"
 extractedAt: "2026-02-21T21:47:55.383Z"
 ---
 

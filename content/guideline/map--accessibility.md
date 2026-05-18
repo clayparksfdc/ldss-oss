@@ -2,7 +2,7 @@
 title: "Map"
 slug: "map--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/160625-map/b/74d5d4"
+url: "/component/map/b/74d5d4"
 extractedAt: "2026-02-21T21:50:32.849Z"
 ---
 

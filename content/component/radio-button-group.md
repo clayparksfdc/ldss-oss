@@ -2,7 +2,7 @@
 title: "Radio Button Group"
 slug: "radio-button-group"
 category: "component"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/2052d7-radio-button-group"
+url: "/component/radio-button-group"
 extractedAt: "2026-02-21T21:52:15.935Z"
 ---
 
@@ -58,9 +58,9 @@ Use icons when text isn't needed or takes up too much space.
 | --- | --- |
 | *                                * ** ** ** | **Buttons: **Element that indicates if an option is selected or unselected. |
 
-**Field Label: **Describes the purpose of the radio button group.
+**Field Label: ** Describes the purpose of the radio button group.
 
-**Buttons: **Element that indicates if an option is selected or unselected.
+**Buttons: ** Element that indicates if an option is selected or unselected.
 
 ### Customization Options
 

@@ -2,7 +2,7 @@
 title: "Designer Tools"
 slug: "designer-tools"
 category: "design"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/2963ba-designer-tools"
+url: "/design/designer-tools"
 extractedAt: "2026-02-21T22:00:25.793Z"
 ---
 

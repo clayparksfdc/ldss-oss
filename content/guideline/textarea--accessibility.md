@@ -2,7 +2,7 @@
 title: "Textarea"
 slug: "textarea--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/11f590-textarea/b/74d5d4"
+url: "/component/textarea/b/74d5d4"
 extractedAt: "2026-02-21T21:54:57.766Z"
 ---
 

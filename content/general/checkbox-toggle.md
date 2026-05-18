@@ -2,7 +2,7 @@
 title: "Checkbox Toggle"
 slug: "checkbox-toggle"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/00c862-checkbox-toggle"
+url: "/component/checkbox-toggle"
 extractedAt: "2026-02-21T21:46:46.516Z"
 ---
 
@@ -64,7 +64,7 @@ The checkbox toggle aligns with the Salesforce Lightning Design System. It's eas
 
 A checkbox toggle is made up of two primary sections (Handle and Track) with various elements that support usability and accessibility:
 
-**Handle:**The circular switch that moves to indicate the current state.
+**Handle:** The circular switch that moves to indicate the current state.
 
 
 
@@ -98,7 +98,7 @@ A checkbox toggle is made up of two primary sections (Handle and Track) with var
 
 
 
-**Track:**The background line that the handle moves along.
+**Track:** The background line that the handle moves along.
 
 
 
@@ -132,7 +132,7 @@ A checkbox toggle is made up of two primary sections (Handle and Track) with var
 
 
 
-**Check:**The icon indicates the active state.
+**Check:** The icon indicates the active state.
 
 
 
@@ -166,7 +166,7 @@ A checkbox toggle is made up of two primary sections (Handle and Track) with var
 
 
 
-**Field Label:**A text label indicating the purpose of the toggle.
+**Field Label:** A text label indicating the purpose of the toggle.
 
 
 
@@ -200,7 +200,7 @@ A checkbox toggle is made up of two primary sections (Handle and Track) with var
 
 
 
-**State Label:**Label identifying the switch state. *(optional)*
+**State Label:** Label identifying the switch state. *(optional)*
 
 
 
@@ -234,7 +234,7 @@ A checkbox toggle is made up of two primary sections (Handle and Track) with var
 
 
 
-**Required:**An asterisk (*) signifies a required selection when the conditions apply.Handle: The circular switch that moves to indicate the current state.
+**Required:** An asterisk (*) signifies a required selection when the conditions apply.Handle: The circular switch that moves to indicate the current state.
 
 Track: The background line that the handle moves along.
 
@@ -310,12 +310,12 @@ Place toggles where a user expects binary actions, such as in settings menus or 
 
 ### States
 
-1. **Default:**The toggle is in an active state or “on”.
+1. **Default:** The toggle is in an active state or “on”.
 2.**Hover:** When you hover over it, the toggle slightly changes its appearance to show that it’s interactive.
-3. **Inactive:**Represents the inactive state or “off”.
+3. **Inactive:** Represents the inactive state or “off”.
 4.**Disabled + Inactive:** The toggle appears darker gray and inactive when it’s unavailable for interaction.
-5. **Disabled + Active:**The toggle appears darker gray and active when it's not available for interaction.
-6.**Focus:**When the toggle is focused using keyboard navigation, it's highlighted. Focus is applied to both inactive and active states.
+5. **Disabled + Active:** The toggle appears darker gray and active when it's not available for interaction.
+6.**Focus:** When the toggle is focused using keyboard navigation, it's highlighted. Focus is applied to both inactive and active states.
 
 Default: The toggle is in an active state or “on”.
 

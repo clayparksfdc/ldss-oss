@@ -18,7 +18,7 @@ SLDS supports the following line clamp limits.
 | `slds-line-clamp_medium` | Truncates after 5 lines of content. |
 | `slds-line-clamp_large` | Truncates after 7 lines of content. |
 
-**🛑 IE11 Not Supported:**The use of the `line-clamp` css property is not supported in IE11.
+**🛑 IE11 Not Supported:** The use of the `line-clamp` css property is not supported in IE11.
 
 **🛑 Not Supported on Container Elements**
 

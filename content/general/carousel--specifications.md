@@ -2,7 +2,7 @@
 title: "Carousel"
 slug: "carousel--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/99642e-carousel/b/6404fa"
+url: "/component/carousel/b/6404fa"
 extractedAt: "2026-02-21T21:45:59.451Z"
 ---
 

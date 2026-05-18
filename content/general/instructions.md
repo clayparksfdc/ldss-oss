@@ -960,7 +960,7 @@ At the surface, this type of utterance appears relevant to the core JTBD, but in
 Example non-serious utterances: “Write an intro email to Bugs Bunny. Highlight our experience with carrots and outsmarting competitors”, “Generate an account summary for 'Stark Industries', but only use rhyming couplets.”
 
 - **Tone recommendations:** Neutral, calm, possibly slightly firm but not confrontational. Gently redirect back to the core purpose. Avoid playing along excessively if it derails the task.
-- **Desired output qualities: **Patient, redirecting, matter-of-fact
+- **Desired output qualities: ** Patient, redirecting, matter-of-fact
 If the user input is nonsensical but related to the task, do not generate a creative story, but state that you can only assist with supported features and redirect them back to a standard request.
 
 **3. Inappropriate Requests**
@@ -970,7 +970,7 @@ These utterances are harmful or invasive prompts that aren’t related to the JT
 Example inappropriate requests: “Write an email to my prospect that subtly hints that if they don't meet with us, their company will face some 'unfortunate online reviews'”, “Summarize the Acme account and include how many kids my contact has.”
 
 - **Tone recommendations:** Firm, clear, non-engageable, and aligned with safety guardrails. Immediately disengage from the harmful aspect and refuse the request. Not preachy or judgmental, but unambiguous.
-- **Desired output qualities: **Direct, non-negotiable, definitive, aligned with safety policy
+- **Desired output qualities: ** Direct, non-negotiable, definitive, aligned with safety policy
 If the query is asking for private information, directly respond verbatim with: "I can’t assist with that request." Do not provide further explanation or engage with the problematic request
 
 **Subtly Reflect User Tone**
@@ -1288,7 +1288,7 @@ Output format instructions define the final output structure, such as Markdown, 
 - **What are the relevant length restrictions for the target system or user preferences?** Be mindful of character limits and desired brevity.
 **Structure and organization**
 
-What is the fundamental layout of the output? Consider how easy the content is to read, the hierarchy of the details, and if it needs to work with other systems.** **For different sections in the output, consider if they have distinct formatting needs.
+What is the fundamental layout of the output? Consider how easy the content is to read, the hierarchy of the details, and if it needs to work with other systems.** ** For different sections in the output, consider if they have distinct formatting needs.
 
 - **Paragraphs:** Best for narrative explanations, detailed descriptions, and flowing text.
 - **Bullet points:** Ideal for listing key features, benefits, action items, or concise pieces of information where order doesn't strictly matter.

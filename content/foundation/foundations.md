@@ -55,31 +55,12 @@ SLDS 2 isn’t just functional, it’s expressive. We design experiences that sp
 
 A design system’s foundation aligns design and development, ensuring consistency, usability, and scalability. It combines reusable code, a unified visual language, accessibility standards for inclusivity, and guiding principles to maintain clarity and purpose. Together, these elements help teams create cohesive, user-focused experiences efficiently.
 
-[
-Iconography
-
-](https://www.lightningdesignsystem.com/2e1ef8501/p/83309d)
-[
-Color
-
-](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/655b28-color)
-[
-Typography
-
-](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/93288f-typography)
-[
-Spacing and Sizing
-
-](https://www.lightningdesignsystem.com/2e1ef8501/p/03d6b0)
-[
-Borders and Radius
-
-](https://www.lightningdesignsystem.com/2e1ef8501/p/7770b4)
-[
-Shadows
-
-](https://www.lightningdesignsystem.com/2e1ef8501/p/64b580)
-[
-Illustrations
-
-](https://www.lightningdesignsystem.com/2e1ef8501/p/759a28)
+:::card-grid{columns="3"}
+::card{title="Iconography" href="/component/icons"}
+::card{title="Color" href="/foundation/color"}
+::card{title="Typography" href="/foundation/typography"}
+::card{title="Spacing and Sizing" href="/foundation/spacing-and-sizing"}
+::card{title="Borders and Radius" href="/foundation/borders-and-radius"}
+::card{title="Shadows" href="/foundation/shadows"}
+::card{title="Illustrations" href="/foundation/illustrations"}
+:::

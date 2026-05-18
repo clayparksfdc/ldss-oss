@@ -40,7 +40,7 @@ Dynamic interfaces, such as modals, panels, popovers, and single-page experience
 
 **Opening Modals**
 
-Move focus to the most meaningful element based on the modal’s purpose and structure. Refer to [Determining the Initial Focus When a Modal Opens](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/92a50f-global-focus/t/836dcb0951) for specific guidance on multi-step modals, titled modals, and fallback behaviors.
+Move focus to the most meaningful element based on the modal’s purpose and structure. Refer to [Determining the Initial Focus When a Modal Opens](/accessibility/global-focus/t/836dcb0951) for specific guidance on multi-step modals, titled modals, and fallback behaviors.
 
 #### Closing Modals
 

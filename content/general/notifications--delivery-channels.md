@@ -2,7 +2,7 @@
 title: "Notifications"
 slug: "notifications--delivery-channels"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/70cff7-notifications/b/52e5ae"
+url: "/general/notifications/b/52e5ae"
 extractedAt: "2026-02-21T21:59:16.611Z"
 ---
 

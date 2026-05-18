@@ -2,7 +2,7 @@
 title: "Border"
 slug: "border--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/75f0aa-border/b/4373cb"
+url: "/develop/border/b/4373cb"
 extractedAt: "2026-02-21T21:39:37.409Z"
 ---
 

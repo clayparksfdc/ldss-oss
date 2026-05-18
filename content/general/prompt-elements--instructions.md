@@ -2,7 +2,7 @@
 title: "Prompt Elements"
 slug: "prompt-elements--instructions"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/59dd9a-prompt-elements/b/78f9eb"
+url: "/ai-and-slds-2/prompt-elements/b/78f9eb"
 extractedAt: "2026-02-21T21:35:56.760Z"
 ---
 
@@ -1421,7 +1421,7 @@ At the surface, this type of utterance appears relevant to the core JTBD, but in
 Example non-serious utterances: “Write an intro email to Bugs Bunny. Highlight our experience with carrots and outsmarting competitors”, “Generate an account summary for 'Stark Industries', but only use rhyming couplets.”
 
 - **Tone recommendations:** Neutral, calm, possibly slightly firm but not confrontational. Gently redirect back to the core purpose. Avoid playing along excessively if it derails the task.
-- **Desired output qualities:**Patient, redirecting, matter-of-fact
+- **Desired output qualities:** Patient, redirecting, matter-of-fact
 If the user input is nonsensical but related to the task, do not generate a creative story, but state that you can only assist with supported features and redirect them back to a standard request.
 
 3. Inappropriate Requests
@@ -1430,7 +1430,7 @@ These utterances are harmful or invasive prompts that aren’t related to the JT
 Example inappropriate requests: “Write an email to my prospect that subtly hints that if they don't meet with us, their company will face some 'unfortunate online reviews'”, “Summarize the Acme account and include how many kids my contact has.”
 
 -**Tone recommendations:** Firm, clear, non-engageable, and aligned with safety guardrails. Immediately disengage from the harmful aspect and refuse the request. Not preachy or judgmental, but unambiguous.
-- **Desired output qualities:**Direct, non-negotiable, definitive, aligned with safety policy
+- **Desired output qualities:** Direct, non-negotiable, definitive, aligned with safety policy
 If the query is asking for private information, directly respond verbatim with: "I can’t assist with that request." Do not provide further explanation or engage with the problematic request
 
 Subtly Reflect User Tone

@@ -11,11 +11,14 @@ lastModified: "2026-03-11"
 
 ## About
 
-Icons are symbols used to represent features, functionality, or content. Visit the [icon page](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/83309d-icons/b/586464) to see a library of all icons and the [icon component](https://www.lightningdesignsystem.com/2e1ef8501/p/19e451) for implementation details.
+Icons are symbols used to represent features, functionality, or content. Visit the [icon page](/component/icons/b/586464) to see a library of all icons and the [icon component](/component/icons) for implementation details.
 
 Several types of icons communicate information within Salesforce, each with variations based on what they represent and their use case. Here are the icon types, in order of most use to least use.
 
-[Get IconsDownload the SLDS Icons zip folder with both svg and png file types.](https://v1.lightningdesignsystem.com/assets/downloads/salesforce-lightning-design-system-icons.zip)[Icons for FigmaAccess the SLDS icons in the Figma UI Kit.](https://www.figma.com/community/file/854597149359643291)[Browse Icons Browse the SLDS icon library](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/83309d-iconography/b/586464)
+:::card-grid{columns="2"}
+::card{title="Get Icons" href="https://v1.lightningdesignsystem.com/assets/downloads/salesforce-lightning-design-system-icons.zip" description="Download the SLDS Icons zip folder with both svg and png file types."}
+::card{title="Icons for Figma" href="https://www.figma.com/community/file/854597149359643291" description="Access the SLDS icons in the Figma UI Kit."}
+:::[Browse Icons Browse the SLDS icon library](/component/icons/b/586464)
 
 ### Icon Types
 
@@ -23,7 +26,7 @@ Several types of icons communicate information within Salesforce, each with vari
 
 Utility icons are simple single-color glyphs that identify labels and actions. You can use them across all device types. These icons don't have a background shape and can be any color. You can use them on their own or paired with text. If you pair them with text, make sure the icon color matches the text color. For example, if an icon sits next to a title, use the same `on-surface-3` (blue 15) color.
 
-[Utility IconsExample: File](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/83309d-iconography/b/875c85)
+[Utility IconsExample: File](/component/icons/b/875c85)
 
 ℹ️ Utility icons haven't changed in SLDS 2.
 
@@ -31,7 +34,7 @@ Utility icons are simple single-color glyphs that identify labels and actions. Y
 
 Object icons fall into two categories, standard and custom. Standard object icons represent objects (such as Accounts, Leads, Opportunities, and Cases) and related entities that come with Salesforce. Custom object icons are a unique set of icons used to represent custom objects that customers create. Both types of object icons feature a white glyph against a solid background color. Object icons use a specific limited color palette.
 
-[Object Icons (Standard and Custom)Example: Account](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/83309d-iconography/b/51fcff)
+[Object Icons (Standard and Custom)Example: Account](/component/icons/b/51fcff)
 
 ℹ️ SLDS 2 updates the background shape of standard icons to a circle.
 
@@ -39,7 +42,7 @@ Object icons fall into two categories, standard and custom. Standard object icon
 
 Doctype icons represent document file formats. Each doctype icon features a white glyph representing its file type, on a background resembling a piece of paper with a folded corner.
 
-[Doctype IconsExample: MS Word](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/83309d-iconography/b/09f294)
+[Doctype IconsExample: MS Word](/component/icons/b/09f294)
 
 ℹ️ Doctype icons haven't changed in SLDS 2.
 
@@ -47,7 +50,7 @@ Doctype icons represent document file formats. Each doctype icon features a whit
 
 Action icons are touch-device-specific icons that appear next to an item—for example, a page header or card—so users can take action in a specific context. Each action icon features a white glyph on a colored circle. Action icons use a specific limited color palette.
 
-[Action IconsExample: Email](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/83309d-iconography/b/74a6f0)
+[Action IconsExample: Email](/component/icons/b/74a6f0)
 
 ℹ️ Action icons haven't changed in SLDS 2.
 
@@ -55,7 +58,7 @@ Action icons are touch-device-specific icons that appear next to an item—for e
 
 Product icons represent Salesforce applications and feature the product branding. On the desktop, they’re used only in the App Launcher and at the top left of each Salesforce application window. On mobile device home screens, they launch the corresponding mobile app. Product icons are two-color and use official product color palettes.
 
-[Product IconsExample: Sales Cloud](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/83309d-iconography/b/568217)
+[Product IconsExample: Sales Cloud](/component/icons/b/568217)
 
 ## Design Principles
 
@@ -65,7 +68,7 @@ Salesforce icon design is a blend of professional and playful. Our icons are sim
 
 Screen readers handle icons in two different ways. If an icon is informational, the screen reader reads it out loud. If an icon is decorative, the screen reader ignores it. Choose the right icon type for your use case. If you're using an informational icon, write an accessible label for it.
 
-For more information on icon accessibility, see the [Icon](https://www.lightningdesignsystem.com/2e1ef8501/p/19e451) component.
+For more information on icon accessibility, see the [Icon](/component/icons) component.
 
 ### Informational Icons
 

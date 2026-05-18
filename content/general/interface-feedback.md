@@ -2,7 +2,7 @@
 title: "Interface Feedback"
 slug: "interface-feedback"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/12db58-interface-feedback"
+url: "/general/interface-feedback"
 extractedAt: "2026-02-21T21:59:19.295Z"
 ---
 
@@ -243,8 +243,8 @@ A salesperson updates an opportunity record after a sale, changing some of the i
 
 [Scoped Notification](https://v1.lightningdesignsystem.com/components/scoped-notifications/)**:** Best for empty states, inaccessible states, or field-level errors, not for success messages.
 3. [Popover](https://v1.lightningdesignsystem.com/components/popovers/#site-main-content)**:** Suggests a user action or communicates an error after data submission.
-4. [Toast](https://www.lightningdesignsystem.com/2e1ef8501/p/216f79)**:** Confirms a create, edit, or delete action.
-5. [Modal](https://www.lightningdesignsystem.com/2e1ef8501/p/16a791)**:** Warns a user or confirms an action is intentional.
+4. [Toast](/component/toast)**:** Confirms a create, edit, or delete action.
+5. [Modal](/component/modals)**:** Warns a user or confirms an action is intentional.
 6. Since this is a simple confirmation of a successful edit, a toast is the most appropriate component.
 
 *Feedback Component: Toast*
@@ -262,8 +262,8 @@ Choose a Component Four components are available for standard feedback.
 
 - [Scoped Notification](https://v1.lightningdesignsystem.com/components/scoped-notifications/)**:** Best for empty states, inaccessible states, or field-level errors, not for success messages.
 - [Popover](https://v1.lightningdesignsystem.com/components/popovers/#site-main-content)**:** Suggests a user action or communicates an error after data submission.
-- [Toast](https://www.lightningdesignsystem.com/2e1ef8501/p/216f79)**:** Confirms a create, edit, or delete action.
-- [Modal](https://www.lightningdesignsystem.com/2e1ef8501/p/16a791)**:** Warns a user or confirms an action is intentional.
+- [Toast](/component/toast)**:** Confirms a create, edit, or delete action.
+- [Modal](/component/modals)**:** Warns a user or confirms an action is intentional.
 Since this is a simple confirmation of a successful edit, a toast is the most appropriate component.
 
 - *Feedback Component: Toast*

@@ -11,7 +11,7 @@ order: 0
 
 Only one section can be expanded at a time.
 
-**Use Case:**Use to help the user concentrate on one section at a time.
+**Use Case:** Use to help the user concentrate on one section at a time.
 
 ```storybook
 url: https://sds-site-docs-1fea39e7763a.herokuapp.com/iframe.html?id=components-accordion-lbc-examples--conditional
@@ -23,7 +23,7 @@ height: 400px
 
 Allows multiple sections to be open at once.
 
-**Use Case:**When users need to reference more than one section at a time.
+**Use Case:** When users need to reference more than one section at a time.
 
 ```storybook
 url: https://sds-site-docs-1fea39e7763a.herokuapp.com/iframe.html?id=components-accordion-lbc-examples--multiple

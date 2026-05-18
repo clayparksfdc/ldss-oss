@@ -2,7 +2,7 @@
 title: "Tree"
 slug: "tree--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/950b57-tree/b/887cfc"
+url: "/component/tree/b/887cfc"
 extractedAt: "2026-02-21T21:56:22.179Z"
 ---
 
@@ -30,7 +30,7 @@ The Tree component is ideal for presenting hierarchical data, such as file direc
 
 ### Anatomy
 
-**Group Header:**Use to group related items within the tree.
+**Group Header:** Use to group related items within the tree.
 
 
 
@@ -90,7 +90,7 @@ The Tree component is ideal for presenting hierarchical data, such as file direc
     
   
 
-**Left Icon (optional):**Provides more context about each node
+**Left Icon (optional):** Provides more context about each node
 
 
 
@@ -120,7 +120,7 @@ The Tree component is ideal for presenting hierarchical data, such as file direc
     
   
 
-**Label:**Name of the tree node.
+**Label:** Name of the tree node.
 
 
 

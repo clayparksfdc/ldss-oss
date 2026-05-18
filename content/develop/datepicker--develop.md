@@ -2,7 +2,7 @@
 title: "Datepicker"
 slug: "datepicker--develop"
 category: "develop"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/531362-datepicker/b/09e06c"
+url: "/component/datepicker/b/09e06c"
 extractedAt: "2026-02-21T21:47:52.489Z"
 ---
 

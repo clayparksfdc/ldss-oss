@@ -2,7 +2,7 @@
 title: "Vibe Coding and SLDS"
 slug: "vibe-coding-and-slds"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/75a154-vibe-coding-and-slds"
+url: "/ai-and-slds-2/vibe-coding-and-slds"
 extractedAt: "2026-02-21T18:07:27.518Z"
 ---
 
@@ -69,13 +69,13 @@ Use our code validation and completion tool, SLDS Linter
 Instead of all that manual work, you want to write correct code simply and easily. So you lean into the power of AI to get you there faster and more efficiently by following these steps:
 
 
-| *                       *  *           * ** ** ** | Complete the [Prerequisites](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/75a154-vibe-coding-and-slds/b/568f95) |
+| *                       *  *           * ** ** ** | Complete the [Prerequisites](/ai-and-slds-2/vibe-coding-and-slds/b/568f95) |
 | --- | --- |
-| *                       *  *           * ** ** ** | Either use the [Agentforce Vibes in Your Salesforce Sandbox](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/75a154-vibe-coding-and-slds/b/62916b) or the [Agentforce Vibes in VS Code](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/75a154-vibe-coding-and-slds/b/094c33) topic to build your UI code to be compliant with SLDS 2 |
+| *                       *  *           * ** ** ** | Either use the [Agentforce Vibes in Your Salesforce Sandbox](/ai-and-slds-2/vibe-coding-and-slds/b/62916b) or the [Agentforce Vibes in VS Code](/ai-and-slds-2/vibe-coding-and-slds/b/094c33) topic to build your UI code to be compliant with SLDS 2 |
 
-Complete the [Prerequisites](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/75a154-vibe-coding-and-slds/b/568f95)
+Complete the [Prerequisites](/ai-and-slds-2/vibe-coding-and-slds/b/568f95)
 
-Either use the [Agentforce Vibes in Your Salesforce Sandbox](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/75a154-vibe-coding-and-slds/b/62916b) or the [Agentforce Vibes in VS Code](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/75a154-vibe-coding-and-slds/b/094c33) topic to build your UI code to be compliant with SLDS 2
+Either use the [Agentforce Vibes in Your Salesforce Sandbox](/ai-and-slds-2/vibe-coding-and-slds/b/62916b) or the [Agentforce Vibes in VS Code](/ai-and-slds-2/vibe-coding-and-slds/b/094c33) topic to build your UI code to be compliant with SLDS 2
 
 ## Architecture
 

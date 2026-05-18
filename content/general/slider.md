@@ -2,7 +2,7 @@
 title: "Slider · Lightning Design System 2"
 slug: "slider"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/0176bc-slider"
+url: "/component/slider"
 extractedAt: "2026-02-21T21:53:52.949Z"
 ---
 
@@ -63,7 +63,7 @@ A slider that allows users to select a value by moving a handle up or down along
 
 **Field Label**: The field label describes the purpose of the slider, helping users understand what value they are adjusting.
 
-**Range: **Indicates the range boundaries.
+**Range: ** Indicates the range boundaries.
 
 **Handle:** The draggable handle that allows users to select a value by moving it along the track.
 

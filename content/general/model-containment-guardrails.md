@@ -9,7 +9,7 @@ order: 0
 
 Model containment guardrails are higher-level, foundational constraints that define the ethical, safety, and compliance boundaries for an LLM's behavior. Acting as a crucial safety net, they're designed to prevent undesirable actions, mitigate risks, and ensure the AI operates within trustworthy parameters.
 
-Importantly, these guardrails differ from **Instructions** [use case-specific guardrails](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/59dd9a-prompt-elements/t/772d4575cb) because they apply across all LLM behavior, regardless of the specific subtask being performed. They prevent harmful or undesirable actions during or around any task execution, rather than enforcing the task itself.
+Importantly, these guardrails differ from **Instructions** [use case-specific guardrails](/ai-and-slds-2/prompt-elements/t/772d4575cb) because they apply across all LLM behavior, regardless of the specific subtask being performed. They prevent harmful or undesirable actions during or around any task execution, rather than enforcing the task itself.
 
 - **Focus:** Safety, appropriateness, data integrity, and ethical considerations.
 - **Purpose:** Mitigate risks associated with misinformation, offensive content, and data privacy violations.

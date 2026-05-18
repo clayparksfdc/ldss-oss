@@ -81,7 +81,7 @@ Use the rich text editor to enable users to create text input and format it with
 1.**Default:** The initial state before user interaction. Include placeholder content to guide users if needed.
 2. **Focus**: Highlights the input field when it receives focus.
 3. **Error:** Shows an error message when input data fails validation criteria. It’s recommended to add an error icon to your error message.
-4. **Disabled:**Color changes to light gray to show it’s not usable and the field doesn't receive focus.
+4. **Disabled:** Color changes to light gray to show it’s not usable and the field doesn't receive focus.
 
 ### Interactions
 

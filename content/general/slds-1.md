@@ -2,7 +2,7 @@
 title: "SLDS 1 ↗︎"
 slug: "slds-1"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/274843-slds-1-"
+url: "/general/slds-1"
 extractedAt: "2026-02-21T22:00:40.239Z"
 ---
 

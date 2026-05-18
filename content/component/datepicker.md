@@ -87,11 +87,11 @@ By default, the datepicker calendar renders above all modals and the main Salesf
 
 ### States
 
-1. **Default:**If no date is selected, the datepicker displays the current date or an empty field.
+1. **Default:** If no date is selected, the datepicker displays the current date or an empty field.
 2.**Disabled:** Disabled dates appear unavailable and can’t be selected.
-3. **Hover:**Hovering over a date highlights it to indicate a selection.
-4.**Active:**The calendar opens when you click the date input field. However, it doesn’t open upon receiving focus. Tab to the calendar button icon and open it by pressing Enter or the spacebar.
-5.**Selected:**The selected date remains highlighted after you select it.
+3. **Hover:** Hovering over a date highlights it to indicate a selection.
+4.**Active:** The calendar opens when you click the date input field. However, it doesn’t open upon receiving focus. Tab to the calendar button icon and open it by pressing Enter or the spacebar.
+5.**Selected:** The selected date remains highlighted after you select it.
 6.**Focus:** When the field receives focus through keyboard navigation, it's highlighted to make it easier to identify.
 
 ### Interactions

@@ -2,7 +2,7 @@
 title: "Horizontal List"
 slug: "horizontal-list--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/24ab86-horizontal-list/b/85154d"
+url: "/component/horizontal-list/b/85154d"
 extractedAt: "2026-02-21T21:40:37.139Z"
 ---
 

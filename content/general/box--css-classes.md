@@ -2,7 +2,7 @@
 title: "Box"
 slug: "box--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/674e1b-box/b/05e89c"
+url: "/develop/box/b/05e89c"
 extractedAt: "2026-02-21T21:39:46.639Z"
 ---
 

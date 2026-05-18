@@ -2,7 +2,7 @@
 title: "Borders and Radius"
 slug: "borders-and-radius--overview"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/7770b4-borders-and-radius/b/68b3fd"
+url: "/foundation/borders-and-radius/b/68b3fd"
 extractedAt: "2026-02-21T21:38:26.690Z"
 ---
 

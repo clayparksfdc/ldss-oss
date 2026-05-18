@@ -113,7 +113,7 @@ Saving commits all changes to the server. Status text updates to reflect saving 
 - Use “Save As” to create a new copy of a current record.
 - Don’t use [toasts](/components/toast) or [alerts](/component/alert) for save messages. When users save often, toasts can be disruptive. Banners are reserved for systemwide messages.
 
-ℹ️ **Accessibility Note:**Background status text changes should not trigger screen reader alerts.
+ℹ️ **Accessibility Note:** Background status text changes should not trigger screen reader alerts.
 
 Status text shows saving in-progress
 

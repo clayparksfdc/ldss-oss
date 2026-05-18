@@ -65,10 +65,10 @@ The progress indicator visually represents the steps in a process. It consists o
 
 The Progress Indicator has the following states:
 
-1.**Default:**Neutral appearance with a grey dot.
+1.**Default:** Neutral appearance with a grey dot.
 2.**Hover:** Displays the step label in a tooltip.
-3. **Active:**Indicates the currently selected step.
-4.**Focus:**The step is selected when it receives focus.
+3. **Active:** Indicates the currently selected step.
+4.**Focus:** The step is selected when it receives focus.
 
 ### Interactions
 

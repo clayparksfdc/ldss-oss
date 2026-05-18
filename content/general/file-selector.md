@@ -2,7 +2,7 @@
 title: "File Selector"
 slug: "file-selector"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/77d584-file-selector"
+url: "/component/file-selector"
 extractedAt: "2026-02-21T21:49:11.041Z"
 ---
 
@@ -86,7 +86,7 @@ As a dedicated drop zone for single image files.
 
 #### Anatomy
 
-**Field Label -**Describes the purpose of the file selector.
+**Field Label -** Describes the purpose of the file selector.
 
 
 
@@ -198,7 +198,7 @@ Use at least 16px margin between the file selector and adjacent components.
 
 #### Anatomy
 
-**Field Label:**Describes the purpose of the file selector.
+**Field Label:** Describes the purpose of the file selector.
 
 
 
@@ -317,19 +317,19 @@ The image file selector's width adjusts to fill the available space.
 
 - **Default:** Standard appearance when no files are uploaded.
 - **Hover:** Buttons highlight to show interactivity.
-- **Drag over:**The drop zone borders change color to signal that the file can be dropped.
+- **Drag over:** The drop zone borders change color to signal that the file can be dropped.
 -**Drag over with error:** The drop zone shows a visual indicator, such as an error icon, to signal that the file can’t be dropped.
 - **Disabled:** The component is unavailable if file uploads aren’t allowed.
-- **File uploaded:**Shows a confirmation message that the file has been successfully uploaded.
--**Error:**If the file size or type is invalid, an error message appears below the component.
+- **File uploaded:** Shows a confirmation message that the file has been successfully uploaded.
+-**Error:** If the file size or type is invalid, an error message appears below the component.
 
 ### Interactions
 
--**Triggers:**Clicking the button or dropping a file into the drop area activates the upload.
--**Drag:**Supports moving files into the drop zone.
+-**Triggers:** Clicking the button or dropping a file into the drop area activates the upload.
+-**Drag:** Supports moving files into the drop zone.
 -**Expanded or collapsed:** Optional behavior, users can switch file previews on and off.
-- **Image File Selector:**Optional cropping control.
--**Integrated File Selector:**Designed to be used in a form or workflow, so users can upload files directly as part of tasks like completing a form or submitting a request. This turns an entire container, such as a modal, composer, or page, into a file drop zone.
+- **Image File Selector:** Optional cropping control.
+-**Integrated File Selector:** Designed to be used in a form or workflow, so users can upload files directly as part of tasks like completing a form or submitting a request. This turns an entire container, such as a modal, composer, or page, into a file drop zone.
 
 ### Loading
 

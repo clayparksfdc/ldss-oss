@@ -2,7 +2,7 @@
 title: "Color Picker"
 slug: "color-picker--specifications"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/67c0e9-color-picker/b/46a466"
+url: "/component/color-picker/b/46a466"
 extractedAt: "2026-02-21T21:47:08.586Z"
 ---
 

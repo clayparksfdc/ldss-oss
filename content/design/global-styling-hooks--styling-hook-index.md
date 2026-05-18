@@ -2,7 +2,7 @@
 title: "Global Styling Hooks"
 slug: "global-styling-hooks--styling-hook-index"
 category: "design"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/591960-global-styling-hooks/b/768d36"
+url: "/design/global-styling-hooks/b/768d36"
 extractedAt: "2026-02-23T01:26:01.374Z"
 ---
 

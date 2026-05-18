@@ -2,7 +2,7 @@
 title: "FAQs"
 slug: "faqs"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/313db3-faqs"
+url: "/general/faqs"
 extractedAt: "2026-02-21T18:06:48.502Z"
 ---
 

@@ -2,7 +2,7 @@
 title: "In App Feedback"
 slug: "in-app-feedback"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/67b473-in-app-feedback"
+url: "/general/in-app-feedback"
 extractedAt: "2026-02-21T21:58:11.016Z"
 ---
 

@@ -21,7 +21,7 @@ For clarity and engagement, each notification needs a few key elements, which cr
 
 Each notification must include:
 
-- **Origin: **The identity of the user or system that initiated the communication.
+- **Origin: ** The identity of the user or system that initiated the communication.
 - **Content:** The core message, designed to encourage engagement.
 - **Action:** One or more clear actions the recipient can take.
 - **Timing:** The time the information was delivered or the time that has passed since an incident or event occurred.

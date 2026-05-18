@@ -2,7 +2,7 @@
 title: "Line Clamp"
 slug: "line-clamp--examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/39c0a2-line-clamp/b/788fe9"
+url: "/develop/line-clamp/b/788fe9"
 extractedAt: "2026-02-21T21:41:14.145Z"
 ---
 

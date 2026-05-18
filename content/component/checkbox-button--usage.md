@@ -2,7 +2,7 @@
 title: "Checkbox Button"
 slug: "checkbox-button--usage"
 category: "component"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/70ca9d-checkbox-button/b/39205c"
+url: "/component/checkbox-button/b/39205c"
 extractedAt: "2026-02-21T21:46:35.307Z"
 ---
 
@@ -71,15 +71,15 @@ The checkbox button is 32x32 pixels in the browser and resizes for mobile and ta
 
 ### States
 
-1. **Default: **Checkbox is unchecked.
-2. **Hover: **When you  hover over the checkbox, the background color changes to show interactivity.
-3. **Active: **The checkbox becomes checked when you select it.
-4. **Focused: **If you use keyboard navigation to reach the checkbox, it receives focus and you can press Enter or the spacebar to activate it.
-5. **Disabled: **The checkbox appears grayed out and isn't interactive.
+1. **Default: ** Checkbox is unchecked.
+2. **Hover: ** When you  hover over the checkbox, the background color changes to show interactivity.
+3. **Active: ** The checkbox becomes checked when you select it.
+4. **Focused: ** If you use keyboard navigation to reach the checkbox, it receives focus and you can press Enter or the spacebar to activate it.
+5. **Disabled: ** The checkbox appears grayed out and isn't interactive.
 1. **Selected:** Check box is checked
 2. **Selected + hover:** When you hover over the checked checkbox, the background changes to show  interactivity.
 3. **Selected + active:** The checkbox becomes unchecked when you select it.
 4. **Selected + focus:** If you use keyboard navigation to reach the checkbox, it receives focus and you can press Enter or the spacebar to activate it.
-5. **Selected + disabled: **The checkbox appears grayed out and is not interactive.
+5. **Selected + disabled: ** The checkbox appears grayed out and is not interactive.
 
 ## Related Components

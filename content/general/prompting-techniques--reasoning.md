@@ -2,7 +2,7 @@
 title: "Prompting Techniques"
 slug: "prompting-techniques--reasoning"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/682769-prompting-techniques/b/622d5e"
+url: "/ai-and-slds-2/prompting-techniques/b/622d5e"
 extractedAt: "2026-02-21T21:36:26.860Z"
 ---
 

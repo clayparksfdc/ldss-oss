@@ -2,7 +2,7 @@
 title: "Interactions"
 slug: "interactions--examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/91e7b1-interactions/b/788fe9"
+url: "/develop/interactions/b/788fe9"
 extractedAt: "2026-02-21T21:40:53.969Z"
 ---
 

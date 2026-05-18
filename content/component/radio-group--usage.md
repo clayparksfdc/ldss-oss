@@ -63,9 +63,9 @@ Arrange radio buttons vertically, with enough padding between each option to pre
 
 1.**Default**: The initial state before user interaction.
 2. **Selected**: Indicates the current selection within the group.
-3. **Focus:**Highlights the radio button when the user navigates through the set using a keyboard. For this component, selection follows focus—when an item is in focus, it's also selected.
-4.**Error:**Indicates a problem by highlighting the options in pink and displaying an error message to inform the user that a selection is required or invalid.
-5.**Disabled:**Displays radio buttons in light gray and non-interactive, indicating that the user can't select or change any of the options.
+3. **Focus:** Highlights the radio button when the user navigates through the set using a keyboard. For this component, selection follows focus—when an item is in focus, it's also selected.
+4.**Error:** Indicates a problem by highlighting the options in pink and displaying an error message to inform the user that a selection is required or invalid.
+5.**Disabled:** Displays radio buttons in light gray and non-interactive, indicating that the user can't select or change any of the options.
 
 ### Interactions
 

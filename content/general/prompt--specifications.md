@@ -2,7 +2,7 @@
 title: "Prompt"
 slug: "prompt--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/925906-prompt/b/3389e1"
+url: "/component/prompt/b/3389e1"
 extractedAt: "2026-02-21T21:52:10.385Z"
 ---
 

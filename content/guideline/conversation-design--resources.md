@@ -2,7 +2,7 @@
 title: "Conversation Design"
 slug: "conversation-design--resources"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/33c7b6-conversation-design-/b/15e60b"
+url: "/ai-and-slds-2/conversation-design/b/15e60b"
 extractedAt: "2026-02-21T21:36:48.594Z"
 ---
 
@@ -155,7 +155,7 @@ Genre – type of interaction such as chatbot or voice assistant, human-human co
 
 ## Glossary
 
-**Channels**The delivery method of the bot, for example SMS, Chat, WhatsApp, Slack.
+**Channels** The delivery method of the bot, for example SMS, Chat, WhatsApp, Slack.
 
 
 
@@ -173,7 +173,7 @@ Conversational Copy is the text that the bot writes or says to the customer.
 
 
 
-**Conversation Repair**Conversation Repair is the process by which a bot guides the user toward an acceptable, understandable response when it is expecting something in a particular format but receives something else.
+**Conversation Repair** Conversation Repair is the process by which a bot guides the user toward an acceptable, understandable response when it is expecting something in a particular format but receives something else.
 
 
 
@@ -185,7 +185,7 @@ A sequence of turn-takings that move a user toward completing a task or goal.
 
 
 
-**Intents**The customer's reasons for interacting with your bot. For example, booking a flight, changing an appointment, or getting store hours.
+**Intents** The customer's reasons for interacting with your bot. For example, booking a flight, changing an appointment, or getting store hours.
 
 
 
@@ -201,7 +201,7 @@ Intents are part of the bot’s intent model, which is every intent inside of a 
 
 A singular transmission of communication.
 
-**One Breath Test**A guideline generally used in voice-driven products, which advises that if you can say the response out loud without taking a breath, the response is the right length. For chat experiences, this also helps us keep our dialogs simple and short. We don’t want to send paragraphs of info to a user.
+**One Breath Test** A guideline generally used in voice-driven products, which advises that if you can say the response out loud without taking a breath, the response is the right length. For chat experiences, this also helps us keep our dialogs simple and short. We don’t want to send paragraphs of info to a user.
 
 
 
@@ -211,7 +211,7 @@ A conversation pattern is a set of utterances that happen in a certain order to 
 
 
 
-**Skills**A chunk of conversation that performs a particular task. This can be defined in multiple turns or multiple dialogs. 
+**Skills** A chunk of conversation that performs a particular task. This can be defined in multiple turns or multiple dialogs. 
 
 
 
@@ -219,11 +219,11 @@ Note: Einstein Bots has a feature called Dialog Groups that group dialogs togeth
 
 
 
-**Turn**The set of messages of one chat participant, bot or user, until the other participant has input into the system. In Einstein Bots, we would call these dialog steps.
+**Turn** The set of messages of one chat participant, bot or user, until the other participant has input into the system. In Einstein Bots, we would call these dialog steps.
 
 
 
-**Turn-taking**Alternating turns in a conversation between two participants, where one speaks and the other listens.### Channels
+**Turn-taking** Alternating turns in a conversation between two participants, where one speaks and the other listens.### Channels
 
 The delivery method of the bot, for example SMS, Chat, WhatsApp, Slack.
 

@@ -2,7 +2,7 @@
 title: "Form Element"
 slug: "form-element--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/96252b-form-element/b/76ea32"
+url: "/component/form-element/b/76ea32"
 extractedAt: "2026-02-21T21:49:37.667Z"
 ---
 
@@ -47,7 +47,7 @@ Form element provides a standardized structure to ensure accessibility, responsi
 
 ### Anatomy
 
-**Required Asterisk:**Communicates that the input is required and triggers validation upon form submission.
+**Required Asterisk:** Communicates that the input is required and triggers validation upon form submission.
 
 
 
@@ -111,7 +111,7 @@ Form element provides a standardized structure to ensure accessibility, responsi
     
   
 
-**Helptext Icon:**Triggers a tooltip to provide the user with additional information.
+**Helptext Icon:** Triggers a tooltip to provide the user with additional information.
 
 
 
@@ -179,7 +179,7 @@ Form element provides a standardized structure to ensure accessibility, responsi
     
   
 
-**Supporting Text:**Provides additional guidance or contextual information.
+**Supporting Text:** Provides additional guidance or contextual information.
 
 
 

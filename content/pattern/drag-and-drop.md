@@ -40,4 +40,4 @@ An example of the green drop zone
 
 - For areas not eligible for a dropped component, set the cursor CSS value to** no-drop**.
 
-ℹ️ **Accessibility Note:**When implementing drag and drop, include a drag handle button. Work with developers to specify and implement equivalent keyboard actions.
+ℹ️ **Accessibility Note:** When implementing drag and drop, include a drag handle button. Work with developers to specify and implement equivalent keyboard actions.

@@ -35,7 +35,7 @@ To ensure the docked composer is usable by everyone, please implement the follow
 
 **Keyboard Movement:** The composer must be movable using keyboard arrow keys, not just by dragging with a mouse. This provides an essential alternative for users with motor disabilities.
 
-**Navigable Region:**Define the composer component as a distinct, navigable region of the page and give it a name that matches its visible title, like Chat or Email Composer. Wrap the component in a landmark so screen reader users can easily find it. Use `role="region" `on the container and `aria-labelledby `to connect it to the visible header's ID.
+**Navigable Region:** Define the composer component as a distinct, navigable region of the page and give it a name that matches its visible title, like Chat or Email Composer. Wrap the component in a landmark so screen reader users can easily find it. Use `role="region" `on the container and `aria-labelledby `to connect it to the visible header's ID.
 
 **Announce New Messages:** Use `aria-live="polite"` to audibly announce when new messages arrive. For clarity, include the component's name, such as New message in Chat, in the announcement.
 
@@ -69,9 +69,9 @@ Badges are designed to be non-interruptive. To simulate the visual cue for low-v
 
 **Control Time Limits:** If a tile disappears automatically, [users must be able to turn off](https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html), adjust, or extend the time limit before it expires.
 
-**Provide a Clear Structure:**Group all visible tiles in a container with `role="log"` and an accessible name, such as `aria-label="Notifications”`. Each tile should be a list item `(<li>)` inside this container to give users context on the number of notifications.
+**Provide a Clear Structure:** Group all visible tiles in a container with `role="log"` and an accessible name, such as `aria-label="Notifications”`. Each tile should be a list item `(<li>)` inside this container to give users context on the number of notifications.
 
-**Announce New Tiles:**When a new tile appears, it must be announced to screen readers using `aria-live="polite"`.
+**Announce New Tiles:** When a new tile appears, it must be announced to screen readers using `aria-live="polite"`.
 
 
 | An alert presents status information for the entire app or a specific record, and persists until it’s dismissed or replaced. App-wide alerts include system maintenance or browser issues. Record status alerts notify users of changes to a specific record.  PriorityStandard**Usage **Alert banners appear without user initiation, communicate system- or page-wide states, and persist throughout a user’s session.  An alert shows one of these states: [Error](/pattern/interface-feedback--feedback-states), [Warning](/pattern/interface-feedback--feedback-states), [Informational](/pattern/interface-feedback--feedback-states), and [Offline](/pattern/interface-feedback--feedback-states).  Component[Alert](/component/alert) | *                     An alert banner           *  |

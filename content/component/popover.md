@@ -2,7 +2,7 @@
 title: "Popover"
 slug: "popover"
 category: "component"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/331f61-popover"
+url: "/component/popover"
 extractedAt: "2026-02-21T21:57:49.812Z"
 ---
 

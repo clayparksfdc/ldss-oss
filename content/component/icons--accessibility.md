@@ -11,13 +11,13 @@ lastModified: "2026-03-11"
 
 ### Mouse
 
-- **Hover Behavior:**Icons should provide visible feedback when hovered, conveying their title or label.
+- **Hover Behavior:** Icons should provide visible feedback when hovered, conveying their title or label.
 
 
 ### Other
 
--**Screen Readers:**Icons must use the alternative-text, associated text labels, or the title attribute to convey their purpose. Screen readers should not announce decorative icons.
--**Magnification Tools:**The SLDS Icon Library uses svg files so icons remain visually distinct and scalable without pixelation or distortion.
+-**Screen Readers:** Icons must use the alternative-text, associated text labels, or the title attribute to convey their purpose. Screen readers should not announce decorative icons.
+-**Magnification Tools:** The SLDS Icon Library uses svg files so icons remain visually distinct and scalable without pixelation or distortion.
 
 
 ## Design Considerations

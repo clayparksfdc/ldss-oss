@@ -59,13 +59,13 @@ The color picker component is designed for cases where users want to select, cus
 
 1.**Color Palette:** A grid of selectable color swatches representing standard color options.
 
-**Color swatch:**A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
-2.**Hue slider:**Lets users adjust the hue (color family) of the selected color.
-3.**Custom range (saturation and brightness matrix):**Adjusts saturation and brightness in a draggable grid. Clicking anywhere on the grid updates the color based on the clicked position, and it moves the range indicator to reflect the new selection.
+**Color swatch:** A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
+2.**Hue slider:** Lets users adjust the hue (color family) of the selected color.
+3.**Custom range (saturation and brightness matrix):** Adjusts saturation and brightness in a draggable grid. Clicking anywhere on the grid updates the color based on the clicked position, and it moves the range indicator to reflect the new selection.
 
-1.**Color swatch:**A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
-2.**Hue slider:**Lets users adjust the hue (color family) of the selected color.
-3.**Custom range (saturation and brightness matrix):**Adjusts saturation and brightness in a draggable grid. Clicking anywhere on the grid updates the color based on the clicked position, and it moves the range indicator to reflect the new selection.
+1.**Color swatch:** A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
+2.**Hue slider:** Lets users adjust the hue (color family) of the selected color.
+3.**Custom range (saturation and brightness matrix):** Adjusts saturation and brightness in a draggable grid. Clicking anywhere on the grid updates the color based on the clicked position, and it moves the range indicator to reflect the new selection.
 
 #### Size
 
@@ -95,9 +95,9 @@ Labels tell users what information is needed in each field.
 ### States
 
 -**Default:** The open popover shows available colors with custom input fields.
-- **Hover:**The cursor changes to a pointing hand over the color swatch.
+- **Hover:** The cursor changes to a pointing hand over the color swatch.
 -**Active:** Displays the selected color in the preview area.
-- **Disabled:**Turns input fields gray if customization is unavailable to the user.
+- **Disabled:** Turns input fields gray if customization is unavailable to the user.
 
 ### Interactions
 

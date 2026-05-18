@@ -2,7 +2,7 @@
 title: "Prompt Elements"
 slug: "prompt-elements"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/59dd9a-prompt-elements"
+url: "/ai-and-slds-2/prompt-elements"
 extractedAt: "2026-02-21T18:08:28.610Z"
 ---
 

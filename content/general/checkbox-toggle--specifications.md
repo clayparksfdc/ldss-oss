@@ -2,7 +2,7 @@
 title: "Checkbox Toggle"
 slug: "checkbox-toggle--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/00c862-checkbox-toggle/b/246722"
+url: "/component/checkbox-toggle/b/246722"
 extractedAt: "2026-02-21T21:46:55.019Z"
 ---
 

@@ -2,7 +2,7 @@
 title: "Print"
 slug: "print--examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/25078f-print/b/788fe9"
+url: "/develop/print/b/788fe9"
 extractedAt: "2026-02-21T21:42:07.026Z"
 ---
 

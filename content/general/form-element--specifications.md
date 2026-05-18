@@ -2,7 +2,7 @@
 title: "Form Element"
 slug: "form-element--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/96252b-form-element/b/1964e0"
+url: "/component/form-element/b/1964e0"
 extractedAt: "2026-02-21T21:49:44.131Z"
 ---
 

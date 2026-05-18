@@ -2,7 +2,7 @@
 title: "Datepicker"
 slug: "datepicker"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/531362-datepicker"
+url: "/component/datepicker"
 extractedAt: "2026-02-21T21:47:46.775Z"
 ---
 
@@ -37,7 +37,7 @@ The default datepicker with full calendar view, allowing users to select any dat
 
 
 
-**Use Case:**Ideal for picking a single date.
+**Use Case:** Ideal for picking a single date.
 
 
 
@@ -64,7 +64,7 @@ Allows users to select a range of dates.
 
 
 
-**Use Case:**Useful for situations that require the selection of a start and end date, such as scheduling events or tasks.
+**Use Case:** Useful for situations that require the selection of a start and end date, such as scheduling events or tasks.
 
 
 
@@ -318,11 +318,11 @@ By default, the datepicker calendar renders above all modals and the main Salesf
 
 ### States
 
-1. **Default:**If no date is selected, the datepicker displays the current date or an empty field.
+1. **Default:** If no date is selected, the datepicker displays the current date or an empty field.
 2.**Disabled:** Disabled dates appear unavailable and can’t be selected.
-3. **Hover:**Hovering over a date highlights it to indicate a selection.
-4.**Active:**The calendar opens when you click the date input field. However, it doesn’t open upon receiving focus. Tab to the calendar button icon and open it by pressing Enter or the spacebar.
-5.**Selected:**The selected date remains highlighted after you select it.
+3. **Hover:** Hovering over a date highlights it to indicate a selection.
+4.**Active:** The calendar opens when you click the date input field. However, it doesn’t open upon receiving focus. Tab to the calendar button icon and open it by pressing Enter or the spacebar.
+5.**Selected:** The selected date remains highlighted after you select it.
 6.**Focus:** When the field receives focus through keyboard navigation, it's highlighted to make it easier to identify.
 
 Default: If no date is selected, the datepicker displays the current date or an empty field.
@@ -339,7 +339,7 @@ Focus: When the field receives focus through keyboard navigation, it's highlight
 
 ### Interactions
 
-**Triggers**Clicking the input field triggers the calendar to open.
+**Triggers** Clicking the input field triggers the calendar to open.
 
 
 

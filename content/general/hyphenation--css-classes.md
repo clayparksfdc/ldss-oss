@@ -2,7 +2,7 @@
 title: "Hyphenation"
 slug: "hyphenation--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/28a4d2-hyphenation/b/85154d"
+url: "/develop/hyphenation/b/85154d"
 extractedAt: "2026-02-21T21:40:45.691Z"
 ---
 

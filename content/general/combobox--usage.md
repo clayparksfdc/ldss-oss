@@ -2,7 +2,7 @@
 title: "Combobox"
 slug: "combobox--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/31c42a-combobox/b/39205c"
+url: "/component/combobox/b/39205c"
 extractedAt: "2026-02-21T21:47:20.959Z"
 ---
 
@@ -31,7 +31,7 @@ Comboboxes are ideal when users choose from a large dataset. They make it easy t
 
 ### Anatomy
 
-**Field Label:**Describes the purpose of the combobox.
+**Field Label:** Describes the purpose of the combobox.
 
 
 
@@ -61,7 +61,7 @@ Comboboxes are ideal when users choose from a large dataset. They make it easy t
     
   
 
-**Dropdown Icon:**Icon to indicate that a menu opens when clicked.
+**Dropdown Icon:** Icon to indicate that a menu opens when clicked.
 
 
 
@@ -91,7 +91,7 @@ Comboboxes are ideal when users choose from a large dataset. They make it easy t
     
   
 
-**Input Field:**Area where users type or select their data.Field Label: Describes the purpose of the combobox.
+**Input Field:** Area where users type or select their data.Field Label: Describes the purpose of the combobox.
 
 Dropdown Icon: Icon to indicate that a menu opens when clicked.
 
@@ -136,11 +136,11 @@ Use label-stacked to place the label above the combobox.
 
 Combobox has the following states:
 
-1.**Default:**Input field displays optional placeholder text.
+1.**Default:** Input field displays optional placeholder text.
 2.**Default with selected item(s)**: The input field displays the selected option(s).
 
 Selected options in the listbox are shown with a checkmark.
-3. **Active/Focus:**Focus indicator is shown on the input field, which displays the optional placeholder text or selected option(s). 
+3. **Active/Focus:** Focus indicator is shown on the input field, which displays the optional placeholder text or selected option(s). 
 The listbox opens by default when the combobox is clicked or receives focus.
 4.**Disabled**: Input is inactive and visually muted.
 

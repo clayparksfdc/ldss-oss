@@ -2,7 +2,7 @@
 title: "Avatar"
 slug: "avatar--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/94085e-avatar/b/01bb37"
+url: "/component/avatar/b/01bb37"
 extractedAt: "2026-02-21T21:43:56.617Z"
 ---
 

@@ -2,7 +2,7 @@
 title: "Dual Listbox"
 slug: "dual-listbox--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/763763-dual-listbox/b/495bf5"
+url: "/component/dual-listbox/b/495bf5"
 extractedAt: "2026-02-21T21:48:53.783Z"
 ---
 

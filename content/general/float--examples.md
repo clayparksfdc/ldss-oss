@@ -2,7 +2,7 @@
 title: "Float"
 slug: "float--examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/340325-float/b/5209bc"
+url: "/develop/float/b/5209bc"
 extractedAt: "2026-02-21T21:40:02.893Z"
 ---
 

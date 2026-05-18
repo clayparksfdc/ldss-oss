@@ -2,7 +2,7 @@
 title: "Illustrations"
 slug: "illustrations--types"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/759a28-illustrations/b/74b610"
+url: "/foundation/illustrations/b/74b610"
 extractedAt: "2026-02-21T21:38:59.422Z"
 ---
 

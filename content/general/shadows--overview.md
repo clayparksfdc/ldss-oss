@@ -2,7 +2,7 @@
 title: "Shadows"
 slug: "shadows--overview"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/64b580-shadows/b/1948b3"
+url: "/foundation/shadows/b/1948b3"
 extractedAt: "2026-02-21T21:38:43.957Z"
 ---
 

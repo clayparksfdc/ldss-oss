@@ -2,7 +2,7 @@
 title: "Prompt Design Guide"
 slug: "prompt-design-guide"
 category: "design"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/0364a5-prompt-design-guide"
+url: "/ai-and-slds-2/prompt-design-guide"
 extractedAt: "2026-02-21T18:08:15.563Z"
 ---
 

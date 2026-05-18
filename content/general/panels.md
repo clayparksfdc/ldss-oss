@@ -2,7 +2,7 @@
 title: "Panels"
 slug: "panels"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/19ef57-panels"
+url: "/general/panels"
 extractedAt: "2026-02-21T21:57:46.470Z"
 ---
 
@@ -86,7 +86,7 @@ A panel consists of the following parts:
 
 ### Horizontal tabs
 
-- Tabs can be implemented between the header and body. Use the [tabs with overflow menu](https://www.lightningdesignsystem.com/2e1ef8501/p/318c20-scoped-tabs/t/4538883ea2) when necessary.
+- Tabs can be implemented between the header and body. Use the [tabs with overflow menu](/component/scoped-tabs/t/4538883ea2) when necessary.
 Tabs can be implemented between the header and body. Use the tabs with overflow menu when necessary.
 
 ### Accordions

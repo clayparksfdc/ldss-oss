@@ -2,7 +2,7 @@
 title: "Breadcrumbs"
 slug: "breadcrumbs--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/13cc12-breadcrumbs/b/45704b"
+url: "/component/breadcrumbs/b/45704b"
 extractedAt: "2026-02-21T21:44:37.488Z"
 ---
 

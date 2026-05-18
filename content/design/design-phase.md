@@ -2,7 +2,7 @@
 title: "Design Phase"
 slug: "design-phase"
 category: "design"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/571eea-design-phase"
+url: "/ai-and-slds-2/design-phase"
 extractedAt: "2026-02-21T18:08:22.501Z"
 ---
 
@@ -53,7 +53,7 @@ Based on your analysis, add or refine the prompt elements you need to fix the sp
 - If the format is inconsistent or unusable**,** refine the output format rules to define the specific structure you need.
 - If the tone is off or the language isn't right, add tone and style instructions to guide the persona and voice.
 - If the LLM misunderstands a complex task, provide examples to demonstrate the desired reasoning or output.
-- If the output is inaccurate, unsafe, or unethical, add specific [model containment guardrails](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/571eea-design-phase/t/dd4a15b972) to enforce boundaries.
+- If the output is inaccurate, unsafe, or unethical, add specific [model containment guardrails](/ai-and-slds-2/design-phase/t/dd4a15b972) to enforce boundaries.
 - If the prompt is long and complex, consider adding task opening and closing statements to keep the LLM focused.
 
 ### 6. Iterate until High Quality Output
@@ -72,8 +72,8 @@ At their core, enterprise-level prompt templates require three key sections: **c
 
 Context provides the LLM with background information about your task, its underlying goal, participants, and the high-level expected output.
 
-- **Key task. **Clearly and directly state the core essential action that you want the LLM to perform. Use strong, unambiguous action verbs and avoid vague requests.
-- **End goal. **Explain the purpose of your task to give the LLM critical strategic context. This helps the LLM understand the business goal and how the output will be used.
+- **Key task. ** Clearly and directly state the core essential action that you want the LLM to perform. Use strong, unambiguous action verbs and avoid vague requests.
+- **End goal. ** Explain the purpose of your task to give the LLM critical strategic context. This helps the LLM understand the business goal and how the output will be used.
 - **Participants and relationships**. LLMs need to know who is involved in the interaction and the relationships between them to tailor the tone, style, and content of the response.
 - **Scenario and setting**. Providing a setting for the LLM is essential as it influences the style, tone, and output format.
 

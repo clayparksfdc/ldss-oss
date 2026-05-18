@@ -2,7 +2,7 @@
 title: "Datetime Picker"
 slug: "datetime-picker--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/653453-datetime-picker/b/632642"
+url: "/component/datetime-picker/b/632642"
 extractedAt: "2026-02-21T21:48:10.461Z"
 ---
 

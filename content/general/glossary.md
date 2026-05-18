@@ -2,7 +2,7 @@
 title: "Glossary"
 slug: "glossary"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/52d596-glossary"
+url: "/general/glossary"
 extractedAt: "2026-02-21T18:12:11.564Z"
 ---
 

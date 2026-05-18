@@ -2,7 +2,7 @@
 title: "Padding"
 slug: "padding--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/93a8e1-padding/b/8818d9"
+url: "/develop/padding/b/8818d9"
 extractedAt: "2026-02-21T21:41:53.041Z"
 ---
 

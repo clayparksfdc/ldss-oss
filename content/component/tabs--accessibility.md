@@ -15,7 +15,7 @@ order: 0
 
 - **Tab:** Navigates into and out of tab panels.
 - **Shift+Tab:** Moves focus back to the selected tab when focus is on first element in a tab panel.
-- **Arrow keys:**Move between tabs.
+- **Arrow keys:** Move between tabs.
 -**Enter/Space:** Activate the overflow menu.
 
 ### Other

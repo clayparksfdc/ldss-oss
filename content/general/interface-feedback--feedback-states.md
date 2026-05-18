@@ -2,7 +2,7 @@
 title: "Interface Feedback"
 slug: "interface-feedback--feedback-states"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/12db58-interface-feedback/b/314366"
+url: "/general/interface-feedback/b/314366"
 extractedAt: "2026-02-21T21:59:27.902Z"
 ---
 
@@ -352,7 +352,7 @@ For a single error, set focus on the invalid field. For multiple errors, display
 
 ### Incomplete Action Errors
 
-In the rare instance that a user submits an action but a system issue prevents it from completing, display an **error**[**toast**](https://www.lightningdesignsystem.com/2e1ef8501/p/216f79)**.**
+In the rare instance that a user submits an action but a system issue prevents it from completing, display an **error**[**toast**](/component/toast)**.**
 
 
 
@@ -370,7 +370,7 @@ A red error toast
 
 ### Card Content Errors
 
-When data inside a component like a card can’t be loaded, display field-level [**inline text**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/6b91590f2f)to explain the issue.
+When data inside a component like a card can’t be loaded, display field-level [**inline text**](/general/interface-feedback/t/6b91590f2f)to explain the issue.
 
 
 
@@ -390,8 +390,8 @@ An inline text error
 
 ### System Errors
 
--**During a Session:** When a system error affects the user's current session, display an **error**[**alert**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/c251034b9a).
-- **At Random:** If a system error occurs randomly, display a [**prompt**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/925906-prompt/b/59e6cd) to notify the user.
+-**During a Session:** When a system error affects the user's current session, display an **error**[**alert**](/general/interface-feedback/t/c251034b9a).
+- **At Random:** If a system error occurs randomly, display a [**prompt**](/component/prompt/b/59e6cd) to notify the user.
 A system error alert
 
 
@@ -436,7 +436,7 @@ An informational state appears when an item has an atypical status, an action ha
 
 ### Status Information
 
-For a status change to a piece of content, display [**inline text**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/6b91590f2f)** with an icon.**
+For a status change to a piece of content, display [**inline text**](/general/interface-feedback/t/6b91590f2f)** with an icon.**
 
 
 
@@ -456,7 +456,7 @@ Icon variant inline text
 
 ### Additional Information
 
-After a successful action that has additional details, display an **informational**[**toast**](https://www.lightningdesignsystem.com/2e1ef8501/p/216f79)**.**
+After a successful action that has additional details, display an **informational**[**toast**](/component/toast)**.**
 
 
 
@@ -474,7 +474,7 @@ An informational toast
 
 ### Admin-Related Status
 
-When an admin-related status applies to the user's session, display an** informational **[**alert.**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/c251034b9a)
+When an admin-related status applies to the user's session, display an** informational **[**alert.**](/general/interface-feedback/t/c251034b9a)
 
 
 
@@ -494,7 +494,7 @@ An alert displayed during an active session
 
 ### System-Related Information
 
-To communicate important but non-disruptive system information, display an **informational**[**toast**](https://zeroheight.com/2e1ef8501/v/latest/p/216f79-toast)or [**alert.**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/c251034b9a)
+To communicate important but non-disruptive system information, display an **informational**[**toast**](https://zeroheight.com/2e1ef8501/v/latest/p/216f79-toast)or [**alert.**](/general/interface-feedback/t/c251034b9a)
 
 
 
@@ -518,7 +518,7 @@ A success state confirms that an action was completed as expected. The component
 
 ### Manual Action
 
-When an action is completed after direct user input, (like submitting a form, display a success [**toast**](https://www.lightningdesignsystem.com/2e1ef8501/p/216f79). However, don't use a toast if the action navigates the user directly to the newly created item.
+When an action is completed after direct user input, (like submitting a form, display a success [**toast**](/component/toast). However, don't use a toast if the action navigates the user directly to the newly created item.
 
 
 
@@ -536,7 +536,7 @@ An example of interface feedback: A green success toast.
 
 ### Automatic Action
 
-When an action is completed automatically, like auto-saving a note, use [**inline text**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/6b91590f2f). This is less obtrusive and ideal for high-frequency validation.
+When an action is completed automatically, like auto-saving a note, use [**inline text**](/general/interface-feedback/t/6b91590f2f). This is less obtrusive and ideal for high-frequency validation.
 
 
 
@@ -558,7 +558,7 @@ A warning state communicates potential issues, nudges a user, or confirms a dest
 
 ### Form
 
-When the system detects a potential issue in a form as it loads, such as duplicates, display[**inline text**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/6b91590f2f)** with an icon.**
+When the system detects a potential issue in a form as it loads, such as duplicates, display[**inline text**](/general/interface-feedback/t/6b91590f2f)** with an icon.**
 
 
 
@@ -598,7 +598,7 @@ A warning popover coming out of a warning icon
 
 ### Incomplete Action
 
-When a user cannot complete an action due to external factors (like permissions), display a **warning**[**toast**](https://www.lightningdesignsystem.com/2e1ef8501/p/216f79)**.**
+When a user cannot complete an action due to external factors (like permissions), display a **warning**[**toast**](/component/toast)**.**
 
 
 
@@ -616,7 +616,7 @@ A warning toast
 
 ### System Related
 
-When a system issue is impacting the current session, display a **warning**[**alert**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/c251034b9a)**.**
+When a system issue is impacting the current session, display a **warning**[**alert**](/general/interface-feedback/t/c251034b9a)**.**
 
 
 
@@ -660,7 +660,7 @@ An empty state is triggered when a component or page has no content to display.
 
 ### Empty Component
 
-When a single component has no items to show, display [**inline text.**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/6b91590f2f)
+When a single component has no items to show, display [**inline text.**](/general/interface-feedback/t/6b91590f2f)
 
 
 
@@ -680,7 +680,7 @@ An empty component with inline text
 
 ### Empty Page
 
-When an entire page has no data or is inaccessible, display an [**illustration with inline text**](https://www.lightningdesignsystem.com/2e1ef8501/p/759a28)**. **
+When an entire page has no data or is inaccessible, display an [**illustration with inline text**](/foundation/illustrations)**. **
 
 
 
@@ -726,7 +726,7 @@ A transient state appears when the system is processing an action like saving or
 
 ### General Actions
 
-Display[**inline text**](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/6b91590f2f) that automatically disappears once processing is complete.
+Display[**inline text**](/general/interface-feedback/t/6b91590f2f) that automatically disappears once processing is complete.
 
 
 

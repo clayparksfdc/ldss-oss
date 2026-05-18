@@ -2,7 +2,7 @@
 title: "Global Styling Hooks"
 slug: "global-styling-hooks--about"
 category: "design"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/591960-global-styling-hooks/b/40abde"
+url: "/design/global-styling-hooks/b/40abde"
 extractedAt: "2026-02-21T21:39:15.007Z"
 ---
 
@@ -14,7 +14,7 @@ If you’re transitioning existing SLDS 1 code to SLDS 2, use these recommendati
 
 - [Prepare Customizations for SLDS Architecture Updates](https://help.salesforce.com/s/articleView?id=001622575&type=1)
 - [SLDS Architecture Updates FAQs](https://help.salesforce.com/s/articleView?id=001622574&type=1)
-- [SLDS 2 Transition Guide](https://www.lightningdesignsystem.com/2e1ef8501/p/8184ad)
+- [SLDS 2 Transition Guide](/general/transition-to-slds-2)
 ⚠️ If you’re looking for guidance on component-level styling hooks in SLDS 1, visit the SLDS 1 website.
 
 ## What are Global Styling Hooks?
@@ -25,12 +25,12 @@ We created a system to define the values and names of global styling hooks. The 
 
 Global styling hooks are organized into several property categories, each addressing a different aspect of design:
 
-- [**Color:**](https://www.lightningdesignsystem.com/2e1ef8501/p/655b28) These properties define the color palette of your application and include primary key colors, UI surface colors, neutral colors, and explicit colors.
-- [**Typography:**](https://www.lightningdesignsystem.com/2e1ef8501/p/93288f) These properties influence the typography in your application, defining aspects like font family, size, weight, line-height, etc.
-- [**Borders and  Radius:**](https://www.lightningdesignsystem.com/2e1ef8501/p/7770b4) These properties manage the curvature of UI elements' corners, impacting the perceived softness or hardness of components.
-- [**Shadows:**](https://www.lightningdesignsystem.com/2e1ef8501/p/64b580) These properties control the appearance of shadows, affecting the depth perception and layering of UI elements.
-- [**Sizing:**](https://www.lightningdesignsystem.com/2e1ef8501/p/03d6b0-spacing-and-sizing/b/25a2cc) These properties dictate the dimensions of UI components, directly affecting layout.
-- [**Spacing:**](https://www.lightningdesignsystem.com/2e1ef8501/p/03d6b0-spacing-and-sizing/b/8315b7) These properties govern the amount of space between UI elements, guiding the overall layout and ensuring adequate whitespace for readability and aesthetics.
+- [**Color:**](/foundation/color) These properties define the color palette of your application and include primary key colors, UI surface colors, neutral colors, and explicit colors.
+- [**Typography:**](/foundation/typography) These properties influence the typography in your application, defining aspects like font family, size, weight, line-height, etc.
+- [**Borders and  Radius:**](/foundation/borders-and-radius) These properties manage the curvature of UI elements' corners, impacting the perceived softness or hardness of components.
+- [**Shadows:**](/foundation/shadows) These properties control the appearance of shadows, affecting the depth perception and layering of UI elements.
+- [**Sizing:**](/foundation/spacing-and-sizing/b/25a2cc) These properties dictate the dimensions of UI components, directly affecting layout.
+- [**Spacing:**](/foundation/spacing-and-sizing/b/8315b7) These properties govern the amount of space between UI elements, guiding the overall layout and ensuring adequate whitespace for readability and aesthetics.
 
 Color: These properties define the color palette of your application and include primary key colors, UI surface colors, neutral colors, and explicit colors.
 
@@ -124,7 +124,7 @@ You may also discover some syntax called @layer. This is an internal mechanism S
 To learn more, check out these resources:
 
 - Learn about[ component-level styling hooks](https://v1.lightningdesignsystem.com/platforms/lightning/styling-hooks/) on the SLDS 1 website
-- Read about[ components](https://www.lightningdesignsystem.com/2e1ef8501/p/755aff) on the SLDS 2 website
+- Read about[ components](/component/components) on the SLDS 2 website
 - Read about[ component blueprints](https://v1.lightningdesignsystem.com/components/overview/) on the SLDS 1 website
-- Discover more about global styling hooks in the[ Global Styling Hooks Reference](https://www.lightningdesignsystem.com/2e1ef8501/p/591960)
-- Read about density-aware styling hooks in [Display Density](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/805bbe-display-density)
+- Discover more about global styling hooks in the[ Global Styling Hooks Reference](/design/global-styling-hooks)
+- Read about density-aware styling hooks in [Display Density](/foundation/display-density)

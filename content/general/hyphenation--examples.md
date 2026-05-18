@@ -2,7 +2,7 @@
 title: "Hyphenation"
 slug: "hyphenation--examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/28a4d2-hyphenation/b/788fe9"
+url: "/develop/hyphenation/b/788fe9"
 extractedAt: "2026-02-21T21:40:42.813Z"
 ---
 

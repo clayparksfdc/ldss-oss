@@ -2,7 +2,7 @@
 title: "Timepicker"
 slug: "timepicker"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/82218a-timepicker"
+url: "/component/timepicker"
 extractedAt: "2026-02-21T21:55:28.411Z"
 ---
 
@@ -32,7 +32,7 @@ The Timepicker enables users to input or select a time in a user-friendly manner
 
 ### Anatomy
 
-**Field label:**Describes the purpose of the input field.
+**Field label:** Describes the purpose of the input field.
 
 
 
@@ -62,7 +62,7 @@ The Timepicker enables users to input or select a time in a user-friendly manner
     
   
 
-**Input Field:**Area where users type or select their data.
+**Input Field:** Area where users type or select their data.
 
 
 
@@ -92,7 +92,7 @@ The Timepicker enables users to input or select a time in a user-friendly manner
     
   
 
-**Listbox:**Container with a list of options, where only one can be selected.
+**Listbox:** Container with a list of options, where only one can be selected.
 
 
 
@@ -122,7 +122,7 @@ The Timepicker enables users to input or select a time in a user-friendly manner
     
   
 
-**Selected listbox item:**Selected menu item in a listbox.
+**Selected listbox item:** Selected menu item in a listbox.
 
 
 
@@ -152,7 +152,7 @@ The Timepicker enables users to input or select a time in a user-friendly manner
     
   
 
-**Listbox item:**Menu item in a listbox.
+**Listbox item:** Menu item in a listbox.
 
 
 
@@ -184,7 +184,7 @@ The Timepicker enables users to input or select a time in a user-friendly manner
     
   
 
-**Dropdown:**Icon to indicate that a menu opens when clicked.Field label: Describes the purpose of the input field.
+**Dropdown:** Icon to indicate that a menu opens when clicked.Field label: Describes the purpose of the input field.
 
 Input Field: Area where users type or select their data.
 

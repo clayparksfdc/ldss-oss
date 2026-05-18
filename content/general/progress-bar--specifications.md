@@ -2,7 +2,7 @@
 title: "Progress Bar"
 slug: "progress-bar--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/70ad36-progress-bar/b/65ec72"
+url: "/component/progress-bar/b/65ec72"
 extractedAt: "2026-02-21T21:51:42.534Z"
 ---
 

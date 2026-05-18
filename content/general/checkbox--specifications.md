@@ -2,7 +2,7 @@
 title: "Checkbox"
 slug: "checkbox--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/980561-checkbox/b/57f366"
+url: "/component/checkbox/b/57f366"
 extractedAt: "2026-02-21T21:46:13.796Z"
 ---
 

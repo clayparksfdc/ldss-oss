@@ -2,7 +2,7 @@
 title: "Breadcrumbs"
 slug: "breadcrumbs--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/13cc12-breadcrumbs/b/74d5d4"
+url: "/component/breadcrumbs/b/74d5d4"
 extractedAt: "2026-02-21T21:44:40.188Z"
 ---
 
@@ -17,7 +17,7 @@ Breadcrumbs should change color on hover to indicate that they are clickable. Th
 - **Tab**: Moves focus between breadcrumb links.
 - **Enter/Spacebar**: Opens the overflow menu, allowing users to tab through hidden breadcrumbs.
 - **Arrow Keys:** Cycle through menu items.
-- **Escape:**Closes the overflow menu.
+- **Escape:** Closes the overflow menu.
 
 ## Design Considerations
 

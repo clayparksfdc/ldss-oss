@@ -2,7 +2,7 @@
 title: "Textarea"
 slug: "textarea--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/11f590-textarea/b/80603b"
+url: "/component/textarea/b/80603b"
 extractedAt: "2026-02-21T21:54:55.328Z"
 ---
 

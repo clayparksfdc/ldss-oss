@@ -2,7 +2,7 @@
 title: "Progress Bar"
 slug: "progress-bar--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/70ad36-progress-bar/b/90c8bb"
+url: "/component/progress-bar/b/90c8bb"
 extractedAt: "2026-02-21T21:51:45.117Z"
 ---
 
@@ -21,11 +21,11 @@ extractedAt: "2026-02-21T21:51:45.117Z"
 
 ### Other
 
-- **Screenreaders:**The Progress Bar must include proper ARIA roles (`role="progressbar"`) and `aria-valuemin`, `aria-valuemax`, and `aria-valuenow` attributes to convey progress information. If labels are included, these must be accessible through `aria-labelledby`.
+- **Screenreaders:** The Progress Bar must include proper ARIA roles (`role="progressbar"`) and `aria-valuemin`, `aria-valuemax`, and `aria-valuenow` attributes to convey progress information. If labels are included, these must be accessible through `aria-labelledby`.
 -**Magnifiers**: Ensure progress text or percentages are clear and readable when magnified.
 - **Alternative Input Devices**: Progress Bars do not require direct interaction, but step navigation (if available) should work with speech recognition or other input devices.
 - **Braille Displays**: The current progress should be output as text, using attributes like `aria-valuetext`.
-- **Text labels:**Ensure that progress labels are included to provide additional information, such as percentages or numeric values, unless all segments of the progress bar meet a 3:1 contrast ratio against each other and the background.
+- **Text labels:** Ensure that progress labels are included to provide additional information, such as percentages or numeric values, unless all segments of the progress bar meet a 3:1 contrast ratio against each other and the background.
 
 ## Design Considerations
 

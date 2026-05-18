@@ -2,7 +2,7 @@
 title: "Drag and Drop"
 slug: "drag-and-drop"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/98fa99-drag-and-drop"
+url: "/general/drag-and-drop"
 extractedAt: "2026-02-21T21:57:21.913Z"
 ---
 

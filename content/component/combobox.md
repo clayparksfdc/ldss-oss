@@ -76,11 +76,11 @@ Use `label-hidden` to hide the label but make it available to assistive technolo
 
 Combobox has the following states:
 
-1.**Default:**Input field displays optional placeholder text.
+1.**Default:** Input field displays optional placeholder text.
 2.**Default with selected item(s)**: The input field displays the selected option(s).
 
 Selected options in the listbox are shown with a checkmark.
-3. **Active/Focus:**Focus indicator is shown on the input field, which displays the optional placeholder text or selected option(s). 
+3. **Active/Focus:** Focus indicator is shown on the input field, which displays the optional placeholder text or selected option(s). 
 
 The listbox opens by default when the combobox is clicked or receives focus.
 4.**Disabled**: Input is inactive and visually muted.

@@ -2,7 +2,7 @@
 title: "Metric Display · Lightning Design System 2"
 slug: "metric-display"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/594f67-metric-display"
+url: "/general/metric-display"
 extractedAt: "2026-02-21T21:58:07.566Z"
 ---
 
@@ -88,7 +88,7 @@ The note is a text string that provides additional context for understanding wha
 
 ### Time Series (Optional)
 
-The time series is a line chart showing the behavior of the metric over time. Each point in the timeline should be reachable with the keyboard and when it has focus it should be labeled with the axis data in a way that's available to assistive technology. The points can all be one tab stop, using the arrow keys to move between them. The value of the most recent data point displayed in the time series should match the latest value reported in the region above. The appearance of the line chart should follow [Chart Guidelines](https://www.lightningdesignsystem.com/2e1ef8501/p/7139a1).
+The time series is a line chart showing the behavior of the metric over time. Each point in the timeline should be reachable with the keyboard and when it has focus it should be labeled with the axis data in a way that's available to assistive technology. The points can all be one tab stop, using the arrow keys to move between them. The value of the most recent data point displayed in the time series should match the latest value reported in the region above. The appearance of the line chart should follow [Chart Guidelines](/general/charts).
 
 A time series is extremely useful because it intuitively conveys the metric value's range, rate of change, and behavioral patterns in the same display. Unfortunately, a lack of the back end services required to store the historical data and render it to the screen may make it impossible to include a time series chart in your application.
 

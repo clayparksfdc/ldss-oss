@@ -16,7 +16,7 @@ Breadcrumbs should change color on hover to indicate that they are clickable. Th
 - **Tab**: Moves focus between breadcrumb links.
 - **Enter/Spacebar**: Opens the overflow menu, allowing users to tab through hidden breadcrumbs.
 - **Arrow Keys:** Cycle through menu items.
-- **Escape:**Closes the overflow menu.
+- **Escape:** Closes the overflow menu.
 
 ## Design Considerations
 

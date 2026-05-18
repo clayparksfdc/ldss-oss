@@ -115,7 +115,7 @@ A flexible panel allows for a larger canvas view. Flexible panel content builder
 
 Note that floating panels overlay the canvas when selected. If the entire canvas must be visible during configuration, use fixed panels.
 
-ℹ️ **Accessibility Note:**When implementing a flexible panel configuration, partner with engineering to specify and implement keyboard controls for floating panels.
+ℹ️ **Accessibility Note:** When implementing a flexible panel configuration, partner with engineering to specify and implement keyboard controls for floating panels.
 
 #### Flexible Panel Configuration States
 

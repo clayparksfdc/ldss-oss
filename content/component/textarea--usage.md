@@ -109,11 +109,11 @@ Error messages, in the form of supporting text, alert users to an issue with the
 
 ### States
 
-1. **Default:**The initial state before user interaction. Include placeholder content to guide users if needed, but not to replace the field label.
-2.**Active/Focus:**When the input is activated, the focus indicator appears and placeholder text disappears.
-3.**Disabled:**Color changes to light gray to show it’s not usable and the field doesn't receive focus.
-4.**Required:**Displays a red asterisk before the label to indicate the input is required to proceed.
-5.**Error:**Shows an error message when input data fails validation criteria. It’s recommended to add an error icon to your error message.
+1. **Default:** The initial state before user interaction. Include placeholder content to guide users if needed, but not to replace the field label.
+2.**Active/Focus:** When the input is activated, the focus indicator appears and placeholder text disappears.
+3.**Disabled:** Color changes to light gray to show it’s not usable and the field doesn't receive focus.
+4.**Required:** Displays a red asterisk before the label to indicate the input is required to proceed.
+5.**Error:** Shows an error message when input data fails validation criteria. It’s recommended to add an error icon to your error message.
 
 ***Hover vs. Focus:**** When you hover your mouse over an interactive element, it triggers a hover state. This is a visual clue that you're hovering over the element. Similarly, when you use a keyboard or voice to select an element, it triggers a focused state. This is a visual clue that the element is selected.*
 
@@ -123,7 +123,7 @@ Error messages, in the form of supporting text, alert users to an issue with the
 
 **Tab**: Navigates to the input field.
 
-**Resizing:**Allows users to resize the input box.
+**Resizing:** Allows users to resize the input box.
 
 ### Scrolling
 
@@ -138,7 +138,7 @@ No pre-selected content is typically used in the textarea component, except for 
 Validation in textarea is in two categories:
 
 1.**Required field:** Users must provide input to the field before submitting a form.
-2. **Character limits:**Users must enter content that meets a minimum or maximum number of characters, or is between minimum and maximum character limits.
+2. **Character limits:** Users must enter content that meets a minimum or maximum number of characters, or is between minimum and maximum character limits.
 
 #### Validation Feedback
 

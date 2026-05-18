@@ -2,7 +2,7 @@
 title: "Notifications"
 slug: "notifications--notification-priority"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/70cff7-notifications/b/89186a"
+url: "/general/notifications/b/89186a"
 extractedAt: "2026-02-21T21:59:13.867Z"
 ---
 
@@ -122,7 +122,7 @@ PriorityUrgent
 
 
 
-**Usage**A docked composer is marked as read after it’s minimized or dragged to a new window. It's also used in [onboarding](https://www.lightningdesignsystem.com/2e1ef8501/p/732cfe) to highlight features that boost productivity and can be reviewed later if dismissed.
+**Usage** A docked composer is marked as read after it’s minimized or dragged to a new window. It's also used in [onboarding](https://www.lightningdesignsystem.com/2e1ef8501/p/732cfe) to highlight features that boost productivity and can be reviewed later if dismissed.
 
 
 
@@ -208,11 +208,11 @@ PriorityUrgent
 
 
 
-**Usage**To dismiss a prompt, a user must confirm its call to action. A modal can be dismissed via the close icon, cancel button, or by clicking outside the dialog window.
+**Usage** To dismiss a prompt, a user must confirm its call to action. A modal can be dismissed via the close icon, cancel button, or by clicking outside the dialog window.
 
 
 
-Component[Modal](https://www.lightningdesignsystem.com/2e1ef8501/p/01c12a)[Prompt](https://www.lightningdesignsystem.com/2e1ef8501/p/925906)
+Component[Modal](/component/modals)[Prompt](/component/prompt)
 
 
 
@@ -242,7 +242,7 @@ A modal
 
 ### Welcome Mat
 
-Welcome mats are specialized modals used for [deeper learning](https://www.lightningdesignsystem.com/2e1ef8501/p/25d63d-user-engagement), such as highlighting new features. They typically include an informational pane and an actionable pane.
+Welcome mats are specialized modals used for [deeper learning](/general/user-engagement), such as highlighting new features. They typically include an informational pane and an actionable pane.
 
 
 
@@ -250,7 +250,7 @@ PriorityUrgent
 
 
 
-**Usage**A welcome mat displays information in a layer preceding the app. It can trigger walkthroughs, other modals, videos, or direct users to a URL.
+**Usage** A welcome mat displays information in a layer preceding the app. It can trigger walkthroughs, other modals, videos, or direct users to a URL.
 
 
 
@@ -292,7 +292,7 @@ PriorityUrgent, Standard, or Discreet
 
 
 
-**Usage**When a new notification arrives, an enumerated badge appears on the bell, and the count of notifications is updated. Each item in the tray allows direct navigation to its content.
+**Usage** When a new notification arrives, an enumerated badge appears on the bell, and the count of notifications is updated. Each item in the tray allows direct navigation to its content.
 
 
 
@@ -342,7 +342,7 @@ PriorityStandard
 
 
 
-**Usage**Clicking the body of a tile dismisses it and opens its URL in a new browser tab. The tile can also be dismissed by clicking the X icon.
+**Usage** Clicking the body of a tile dismisses it and opens its URL in a new browser tab. The tile can also be dismissed by clicking the X icon.
 
 
 
@@ -392,11 +392,11 @@ PriorityStandard
 
 
 
-**Usage**Alert banners appear without user initiation, communicate system- or page-wide states, and persist throughout a user’s session.
+**Usage** Alert banners appear without user initiation, communicate system- or page-wide states, and persist throughout a user’s session.
 
 
 
-An alert shows one of these states: [Error](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/135c158535), [Warning](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/a79d2790f8), [Informational](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/8cdf28f107), and [Offline](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/12db58-interface-feedback/t/a5763afbc7).
+An alert shows one of these states: [Error](/general/interface-feedback/t/135c158535), [Warning](/general/interface-feedback/t/a79d2790f8), [Informational](/general/interface-feedback/t/8cdf28f107), and [Offline](/general/interface-feedback/t/a5763afbc7).
 
 
 
@@ -440,15 +440,15 @@ ErrorInforms the user they can’t proceed
 
 `aria-role="alert"` and `aria-live="assertive"`
 
-**Information**Provides additional details
+**Information** Provides additional details
 
 `aria-role="status"` and `aria-live="polite"`
 
-**Warning**Warns of potential issues
+**Warning** Warns of potential issues
 
 `aria-role="status"`and `aria-live="polite".`
 
-**Offline**Informs the user they are in offline mode
+**Offline** Informs the user they are in offline mode
 
 `aria-role="status"` and `aria-live="polite"`.Alert State
 
@@ -526,7 +526,7 @@ PriorityDiscreet
 
 
 
-**Usage**Scoped notifications are used for information that isn't important enough to justify a full alert.
+**Usage** Scoped notifications are used for information that isn't important enough to justify a full alert.
 
 
 

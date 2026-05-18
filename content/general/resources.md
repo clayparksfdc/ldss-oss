@@ -2,7 +2,7 @@
 title: "Conversation Design"
 slug: "resources"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/33c7b6-conversation-design-/b/15e60b"
+url: "/ai-and-slds-2/conversation-design/b/15e60b"
 extractedAt: "2026-02-21T18:12:05.502Z"
 ---
 
@@ -227,9 +227,9 @@ If you choose to create a menu-based bot and later change your mind, don't worry
 
 Slash commands in Slack make it easy to perform very simple tasks, but they’re not always very obvious for the user to discover. At Salesforce, we leverage both NLP and Slash Commands in Slack to provide the best experience.
 
-**NLP**When the user needs to expand or negotiate more context.**Example:** @salesApp Which opportunities should I focus on to meet my quota?
+**NLP** When the user needs to expand or negotiate more context.**Example:** @salesApp Which opportunities should I focus on to meet my quota?
 
-**Slash Command**When the user needs to do basic lookup or task management.**Example:** What is my highest-risk Opportunity? → /sales oppty biggest risk
+**Slash Command** When the user needs to do basic lookup or task management.**Example:** What is my highest-risk Opportunity? → /sales oppty biggest risk
 
 **Recommendations:**
 

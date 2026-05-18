@@ -2,7 +2,7 @@
 title: "Components"
 slug: "components"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/755aff-components"
+url: "/component/components"
 extractedAt: "2026-02-21T21:43:09.365Z"
 ---
 

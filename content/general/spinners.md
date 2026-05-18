@@ -2,7 +2,7 @@
 title: "Spinners"
 slug: "spinners"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/959d6d-spinners"
+url: "/component/spinners"
 extractedAt: "2026-02-21T21:54:07.496Z"
 ---
 

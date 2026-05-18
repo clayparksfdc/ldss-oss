@@ -2,7 +2,7 @@
 title: "Progress Ring"
 slug: "progress-ring--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/050982-progress-ring/b/39205c"
+url: "/component/progress-ring/b/39205c"
 extractedAt: "2026-02-21T21:51:50.440Z"
 ---
 
@@ -56,7 +56,7 @@ Base Autocomplete
 
 The `base-autocomplete` variant uses the default green fill color and adds a success icon to denote completion when the value is 100. The success icon is only used with the base autocomplete variant.
 
-**Use Case:**Processes where you want to reinforce a sense of accomplishment or show that an operation was successful. For example, after completing an onboarding process, the autocomplete progress ring can provide users with visual confirmation.
+**Use Case:** Processes where you want to reinforce a sense of accomplishment or show that an operation was successful. For example, after completing an onboarding process, the autocomplete progress ring can provide users with visual confirmation.
 
 
 
@@ -77,7 +77,7 @@ Active Step
 
 The brand blue ring highlights the specific step the user is currently completing. 
 
-**Use Case:**Processes like onboarding, forms with multiple steps, or approval processes where it’s critical to show the user’s current step.
+**Use Case:** Processes like onboarding, forms with multiple steps, or approval processes where it’s critical to show the user’s current step.
 
 
 

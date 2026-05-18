@@ -2,7 +2,7 @@
 title: "Utility Classes"
 slug: "utility-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/05098e-utility-classes"
+url: "/develop/utility-classes"
 extractedAt: "2026-02-21T21:39:20.449Z"
 ---
 

@@ -37,7 +37,7 @@ Surface colors are reserved for the bottom layer of a surface. These elements ar
 
 Anything that comes into the application's view and has a higher stacking context than a previous surface ultimately establishes a new surface.
 
-**ℹ️ **Don't apply any decoration, brand bands, or textures to an application background.
+**ℹ️ ** Don't apply any decoration, brand bands, or textures to an application background.
 
 ### Surface-container
 

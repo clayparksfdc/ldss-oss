@@ -2,7 +2,7 @@
 title: "Messaging UI"
 slug: "messaging-ui--messaging-ui-styling"
 category: "design"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/48e48d-messaging-ui/b/2888ce"
+url: "/general/messaging-ui/b/2888ce"
 extractedAt: "2026-02-21T21:58:56.332Z"
 ---
 

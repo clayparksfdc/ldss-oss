@@ -2,7 +2,7 @@
 title: "SLDS Linter"
 slug: "slds-linter"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/012d73-slds-linter"
+url: "/general/slds-linter"
 extractedAt: "2026-02-21T22:00:31.211Z"
 ---
 
@@ -105,9 +105,9 @@ Applies fixes in bulk
 
 ### SLDS Linter includes these features
 
-- **Verified Suggestions**Validation with recommended SLDS 2 styling hooks and an updated ruleset library.
--**Simple set up **Terminal commands install and run SLDS Linter in minutes, no plug-in required.
--**Bulk fixes**Apply suggested fixes across code files with one-click automation.
+- **Verified Suggestions** Validation with recommended SLDS 2 styling hooks and an updated ruleset library.
+-**Simple set up ** Terminal commands install and run SLDS Linter in minutes, no plug-in required.
+-**Bulk fixes** Apply suggested fixes across code files with one-click automation.
 
 ### Get Started
 

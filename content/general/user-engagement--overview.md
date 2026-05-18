@@ -2,7 +2,7 @@
 title: "User Engagement"
 slug: "user-engagement--overview"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/25d63d-user-engagement/b/4365b2"
+url: "/general/user-engagement/b/4365b2"
 extractedAt: "2026-02-21T21:59:49.184Z"
 ---
 

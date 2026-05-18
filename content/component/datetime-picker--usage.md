@@ -72,7 +72,7 @@ The input format can be set to one of these styles.
 #### Labels
 
 - **Field label:** Use title capitalization without end punctuation. If the UI design lacks a visible label, a hidden text label or offscreen field label is required for accessibility.
-- **Field caption:**Use a phrase or a full sentence without end punctuation.
+- **Field caption:** Use a phrase or a full sentence without end punctuation.
 -**Use a field caption in these situations:**
 
 If a label alone doesn't clearly define a field or a fieldset, you can include a field caption with a field label or with the field itself.
@@ -104,7 +104,7 @@ Also, see the [form element](/component/form-element) component.
 
 1. **Default:** Standard display with no user input.
 2. **Disabled:** Disabled pickers are colored light gray to appear unavailable and can't be selected.
-3. **Active:**Border changes to show focus, accessible by keyboard. Input field and dropdown are open for selection.
+3. **Active:** Border changes to show focus, accessible by keyboard. Input field and dropdown are open for selection.
 
 ### Interactions
 

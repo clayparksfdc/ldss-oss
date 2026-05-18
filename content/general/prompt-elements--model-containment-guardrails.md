@@ -2,7 +2,7 @@
 title: "Prompt Elements"
 slug: "prompt-elements--model-containment-guardrails"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/59dd9a-prompt-elements/b/90ab06"
+url: "/ai-and-slds-2/prompt-elements/b/90ab06"
 extractedAt: "2026-02-21T21:36:02.046Z"
 ---
 

@@ -2,7 +2,7 @@
 title: "Description List"
 slug: "description-list--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/62faac-description-list/b/845599"
+url: "/develop/description-list/b/845599"
 extractedAt: "2026-02-21T21:39:57.685Z"
 ---
 

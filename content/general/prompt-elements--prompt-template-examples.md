@@ -2,7 +2,7 @@
 title: "Prompt Elements"
 slug: "prompt-elements--prompt-template-examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/59dd9a-prompt-elements/b/980c11"
+url: "/ai-and-slds-2/prompt-elements/b/980c11"
 extractedAt: "2026-02-21T21:36:21.465Z"
 ---
 

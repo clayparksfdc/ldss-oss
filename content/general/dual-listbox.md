@@ -2,7 +2,7 @@
 title: "Dual Listbox"
 slug: "dual-listbox"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/763763-dual-listbox"
+url: "/component/dual-listbox"
 extractedAt: "2026-02-21T21:48:45.353Z"
 ---
 
@@ -99,7 +99,7 @@ The dual listbox consists of two main sections: the left list of available items
     
   
 
-**Field label:**Describes each list, such as “Available Languages” and “Selected Languages”.
+**Field label:** Describes each list, such as “Available Languages” and “Selected Languages”.
 
 
 
@@ -279,7 +279,7 @@ The dual listbox consists of two main sections: the left list of available items
     
   
 
-**Up and down arrows:**Arrow buttons for changing the order of the selected items. These buttons can also feature labels such as "Move Up" and "Move Down" to clarify actions.Group label: Describes the purpose of the dual listbox, such as "Select Languages".
+**Up and down arrows:** Arrow buttons for changing the order of the selected items. These buttons can also feature labels such as "Move Up" and "Move Down" to clarify actions.Group label: Describes the purpose of the dual listbox, such as "Select Languages".
 
 Field label: Describes each list, such as “Available Languages” and “Selected Languages”.
 
@@ -380,10 +380,10 @@ message-when-value-missing: Customize the message for no selection.
 ### States
 
 1. **Default:** List items are displayed in their standard state.
-2. **Hover:**List items change background color to indicate interactivity.
+2. **Hover:** List items change background color to indicate interactivity.
 3.**Active:** The currently selected list item is highlighted.
-4. **Disabled:**Disabled list items are visible but not interactive.
-5.**Component Disabled:**Both listboxes are grayed-out and non-interactive.
+4. **Disabled:** Disabled list items are visible but not interactive.
+5.**Component Disabled:** Both listboxes are grayed-out and non-interactive.
 
 Default: List items are displayed in their standard state.
 

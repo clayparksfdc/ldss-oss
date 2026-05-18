@@ -2,7 +2,7 @@
 title: "Tree Grid"
 slug: "tree-grid--accessibility"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/1234e1-tree-grid/b/28817c"
+url: "/component/tree-grid/b/28817c"
 extractedAt: "2026-02-21T21:56:49.205Z"
 ---
 
@@ -10,7 +10,7 @@ extractedAt: "2026-02-21T21:56:49.205Z"
 
 ### Keyboard
 
-- Overall keyboard interaction should follow the same keyboard modal as the [Advanced and Inline Edit Data Table](https://www.lightningdesignsystem.com/2e1ef8501/p/86f13a) with some additions
+- Overall keyboard interaction should follow the same keyboard modal as the [Advanced and Inline Edit Data Table](/component/data-table) with some additions
 
 Navigation mode is the default mode. The grid only has a single focusable element at any time and it is either the `tr` or the `td`
 - Actionable mode is enabled when the user presses the `Enter` key, where actionable elements become focusable in the cell

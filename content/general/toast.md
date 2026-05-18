@@ -2,7 +2,7 @@
 title: "Toast"
 slug: "toast"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/216f79-toast"
+url: "/component/toast"
 extractedAt: "2026-02-21T21:55:51.181Z"
 ---
 
@@ -96,7 +96,7 @@ Info
 
 Provides non-critical information to the user.
 
-**Use case:**To communicate updates or general information.
+**Use case:** To communicate updates or general information.
 
 
 

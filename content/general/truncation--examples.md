@@ -2,7 +2,7 @@
 title: "Truncation"
 slug: "truncation--examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/51c13d-truncation/b/788fe9"
+url: "/develop/truncation/b/788fe9"
 extractedAt: "2026-02-21T21:42:42.804Z"
 ---
 

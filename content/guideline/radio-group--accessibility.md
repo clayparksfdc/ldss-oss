@@ -2,7 +2,7 @@
 title: "Radio Group"
 slug: "radio-group--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/19c76a-radio-group/b/74d5d4"
+url: "/component/radio-group/b/74d5d4"
 extractedAt: "2026-02-21T21:52:46.195Z"
 ---
 

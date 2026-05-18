@@ -75,11 +75,11 @@ Dynamic icons are used to guide users through workflows and signal important inf
 
 **Utility icons:** For actions or functionality (such as edit and refresh).
 - **Dynamic icons:** For real-time status changes (such as loading spinners, success indicators).
-- **Standard icons:**For Salesforce-specific objects (such as Accounts, Opportunities).
+- **Standard icons:** For Salesforce-specific objects (such as Accounts, Opportunities).
 
 -**Utility icons:** For actions or functionality (such as edit and refresh).
 - **Dynamic icons:** For real-time status changes (such as loading spinners, success indicators).
-- **Standard icons:**For Salesforce-specific objects (such as Accounts, Opportunities).
+- **Standard icons:** For Salesforce-specific objects (such as Accounts, Opportunities).
 
 ## Types
 
@@ -114,8 +114,8 @@ Dynamic Icons can exhibit various states, including:
 - **Hover**: Only the Waffle and Global Action Help Dynamic Icons use a hover state. The hover state is triggered when the mouse cursor hovers over the icon, and provides a visual indicator such as color or size.
 - **Active:** Occurs when the icon is clicked or selected, like Help changing its appearance to indicate an action has been triggered.
 - **Error or Failure State:** Icons like Strength change their appearance to show errors, for example if a password is too weak and a red icon appears.
-- **Pause State:**Icons like Ellie and Strength pause when waiting for user input. Typing pauses when typing activity stops.
--**Static State:**Icons like Ellie stop updating or animating, signaling completion of an action.
+- **Pause State:** Icons like Ellie and Strength pause when waiting for user input. Typing pauses when typing activity stops.
+-**Static State:** Icons like Ellie stop updating or animating, signaling completion of an action.
 -**Typing State:** Indicates typing activity is detected. Pauses when typing activity stops.
 
 ### Interactions
@@ -124,6 +124,6 @@ Dynamic icons are interactive depending on context. Some icons act as visual ind
 
 - **Feedback:** The animated Typing dynamic icon provides an animated visual indicator of an ongoing process.
 - **Actionable:** Waffle opens a menu or displays additional resources when clicked.
-- **Static:**Trend icon, Ellie, and Strength serve as informational indicators without triggering further actions.
+- **Static:** Trend icon, Ellie, and Strength serve as informational indicators without triggering further actions.
 
 ## Related Components

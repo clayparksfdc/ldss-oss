@@ -2,7 +2,7 @@
 title: "Tiles"
 slug: "tiles"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/87b648-tiles"
+url: "/component/tiles"
 extractedAt: "2026-02-21T21:55:13.951Z"
 ---
 

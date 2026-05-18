@@ -61,7 +61,7 @@ height: 400px
 
 **Dividers**: Creates separators between menu groups. *(optional)*
 
-**Selected Option:**User-selected option that remains until unselected.
+**Selected Option:** User-selected option that remains until unselected.
 
 ### Size & Layout
 
@@ -99,9 +99,9 @@ For example, use "Add Product" instead of "You can add a product here."
 
 1. **Default**: Menu is hidden until triggered.
 2. **Hover**: The background of a menu item changes color when a user hovers their mouse over it.
-3. **Selected:**A menu item can be marked as selected using the `checked` attribute, which displays a checkmark icon to the left of the label.
+3. **Selected:** A menu item can be marked as selected using the `checked` attribute, which displays a checkmark icon to the left of the label.
 4.**Disabled**: A disabled item is grayed out and can’t be hovered over or selected. Use this state when an action isn’t currently available.
-5. **Focus:**When navigating with a keyboard, the focused item is highlighted with the hover and focus ring.
+5. **Focus:** When navigating with a keyboard, the focused item is highlighted with the hover and focus ring.
 
 ### Loading
 

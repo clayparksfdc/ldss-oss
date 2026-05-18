@@ -13,13 +13,13 @@ lastModified: "2026-03-11"
 
 Only one section can be expanded at a time.
 
-**Use Case:**Use to help the user concentrate on one section at a time.
+**Use Case:** Use to help the user concentrate on one section at a time.
 
 ### Multiple
 
 Allows multiple sections to be open at once.
 
-**Use Case:**When users need to reference more than one section at a time.
+**Use Case:** When users need to reference more than one section at a time.
 
 ### Action Menu
 

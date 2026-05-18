@@ -2,7 +2,7 @@
 title: "Global Accessibility Standards"
 slug: "global-accessibility-standards"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/23a1dd-global-accessibility-standards"
+url: "/accessibility/global-accessibility-standards"
 extractedAt: "2026-02-21T22:00:20.227Z"
 ---
 

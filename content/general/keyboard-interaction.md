@@ -2,7 +2,7 @@
 title: "Keyboard Interaction · Lightning Design System 2"
 slug: "keyboard-interaction"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/3491fd-keyboard-interaction"
+url: "/accessibility/keyboard-interaction"
 extractedAt: "2026-02-21T22:00:13.761Z"
 ---
 
@@ -91,7 +91,7 @@ Making drag-and-drop keyboard accessible isn't as hard as you think. Check out [
 
 #### Additional References:
 
-- Base Component: [Combobox](https://www.lightningdesignsystem.com/2e1ef8501/p/31c42a)
+- Base Component: [Combobox](/component/combobox)
 - ARIA Authoring Practices [Combobox](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/)
 
 ### Menu
@@ -130,7 +130,7 @@ Non-modal dialogs always **trap focus**. Pressing Tab while focused in the dialo
 
 #### Additional References:
 
-- Base Component: [Tabs](https://www.lightningdesignsystem.com/2e1ef8501/p/1152cf)
+- Base Component: [Tabs](/component/tabs)
 - ARIA Authoring Practices: [Tabs](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/)
 
 ### Tables and Data Grids
@@ -146,5 +146,5 @@ Highly interactive? Infinite scrolling? Use a grid keyboard pattern:
 
 #### Additional References:
 
-- Base Component: [Data Tables](https://www.lightningdesignsystem.com/2e1ef8501/p/86f13a)
+- Base Component: [Data Tables](/component/data-table)
 - ARIA Authoring Practices: [Grid](https://www.w3.org/WAI/ARIA/apg/patterns/grid/)

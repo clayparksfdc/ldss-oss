@@ -2,7 +2,7 @@
 title: "Agentic Patterns"
 slug: "agentic-patterns"
 category: "pattern"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/03c548-agentic-patterns"
+url: "/ai-and-slds-2/agentic-patterns"
 extractedAt: "2026-02-21T18:08:09.575Z"
 ---
 

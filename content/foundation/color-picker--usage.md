@@ -2,7 +2,7 @@
 title: "Color Picker"
 slug: "color-picker--usage"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/67c0e9-color-picker/b/39205c"
+url: "/component/color-picker/b/39205c"
 extractedAt: "2026-02-21T21:47:02.991Z"
 ---
 
@@ -175,7 +175,7 @@ Example of a swatch color picker closed (left) and open (right).
 
 ### Anatomy
 
-**Dropdown with color swatch:**A small preview box showing the currently selected color. It updates immediately whenever the selected color changes. Pressing the color swatch opens the color palette. 
+**Dropdown with color swatch:** A small preview box showing the currently selected color. It updates immediately whenever the selected color changes. Pressing the color swatch opens the color palette. 
 
 
 
@@ -235,7 +235,7 @@ Example of a swatch color picker closed (left) and open (right).
     
   
 
-**Custom color input (RGB):**Users can view or manually input color values in Hex, RGB (Red, Green, Blue). If valid, it updates the color swatch and other connected elements.
+**Custom color input (RGB):** Users can view or manually input color values in Hex, RGB (Red, Green, Blue). If valid, it updates the color swatch and other connected elements.
 
 
 
@@ -269,11 +269,11 @@ Example of a swatch color picker closed (left) and open (right).
 
 **Color Palette:** A grid of selectable color swatches representing standard color options.
 
-**Color swatch:**A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
+**Color swatch:** A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
 
-**Hue slider:**Lets users adjust the hue (color family) of the selected color.
+**Hue slider:** Lets users adjust the hue (color family) of the selected color.
 
-**Custom range (saturation and brightness matrix):**Adjusts saturation and brightness in a draggable grid. Clicking anywhere on the grid updates the color based on the clicked position, and it moves the range indicator to reflect the new selection.Dropdown with color swatch: A small preview box showing the currently selected color. It updates immediately whenever the selected color changes. Pressing the color swatch opens the color palette.
+**Custom range (saturation and brightness matrix):** Adjusts saturation and brightness in a draggable grid. Clicking anywhere on the grid updates the color based on the clicked position, and it moves the range indicator to reflect the new selection.Dropdown with color swatch: A small preview box showing the currently selected color. It updates immediately whenever the selected color changes. Pressing the color swatch opens the color palette.
 
 Custom color input (Hex): Displays the hexadecimal value of the current color (e.g., #FFFFFF). Users can view or manually enter a hex color. If valid, it updates the color swatch and other connected elements.
 
@@ -281,15 +281,15 @@ Custom color input (RGB): Users can view or manually input color values in Hex, 
 
 1.**Color Palette:** A grid of selectable color swatches representing standard color options.
 
-**Color swatch:**A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
-2.**Hue slider:**Lets users adjust the hue (color family) of the selected color.
-3.**Custom range (saturation and brightness matrix):**Adjusts saturation and brightness in a draggable grid. Clicking anywhere on the grid updates the color based on the clicked position, and it moves the range indicator to reflect the new selection.
+**Color swatch:** A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
+2.**Hue slider:** Lets users adjust the hue (color family) of the selected color.
+3.**Custom range (saturation and brightness matrix):** Adjusts saturation and brightness in a draggable grid. Clicking anywhere on the grid updates the color based on the clicked position, and it moves the range indicator to reflect the new selection.
 
 Color Palette: A grid of selectable color swatches representing standard color options.
 
-1.**Color swatch:**A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
-2.**Hue slider:**Lets users adjust the hue (color family) of the selected color.
-3.**Custom range (saturation and brightness matrix):**Adjusts saturation and brightness in a draggable grid. Clicking anywhere on the grid updates the color based on the clicked position, and it moves the range indicator to reflect the new selection.
+1.**Color swatch:** A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
+2.**Hue slider:** Lets users adjust the hue (color family) of the selected color.
+3.**Custom range (saturation and brightness matrix):** Adjusts saturation and brightness in a draggable grid. Clicking anywhere on the grid updates the color based on the clicked position, and it moves the range indicator to reflect the new selection.
 
 Color swatch: A small preview box showing the currently selected color (“working color”). It updates immediately whenever the selected color changes.
 
@@ -327,9 +327,9 @@ Labels tell users what information is needed in each field.
 ### States
 
 -**Default:** The open popover shows available colors with custom input fields.
-- **Hover:**The cursor changes to a pointing hand over the color swatch.
+- **Hover:** The cursor changes to a pointing hand over the color swatch.
 -**Active:** Displays the selected color in the preview area.
-- **Disabled:**Turns input fields gray if customization is unavailable to the user.
+- **Disabled:** Turns input fields gray if customization is unavailable to the user.
 
 ### Interactions
 

@@ -2,7 +2,7 @@
 title: "Borders and Radius"
 slug: "borders-and-radius--styling-hooks"
 category: "design"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/7770b4-borders-and-radius/b/111c1f"
+url: "/foundation/borders-and-radius/b/111c1f"
 extractedAt: "2026-02-21T21:38:37.657Z"
 ---
 

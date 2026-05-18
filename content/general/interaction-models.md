@@ -2,7 +2,7 @@
 title: "Interaction Models"
 slug: "interaction-models"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/897980-interaction-models"
+url: "/ai-and-slds-2/interaction-models"
 extractedAt: "2026-02-21T18:08:03.562Z"
 ---
 

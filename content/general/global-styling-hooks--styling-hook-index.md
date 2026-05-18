@@ -563,7 +563,7 @@ SLDS font scale examples showing 'The quick brown fox jumps over the lazy dog' a
 
 ### Density-aware Font Scale
 
-These density-aware styling hooks control the font scale when the system switches between comfy and compact display density settings. To learn how display density works in SLDS, see [Display Density](https://www.lightningdesignsystem.com/2e1ef8501/p/805bbe).
+These density-aware styling hooks control the font scale when the system switches between comfy and compact display density settings. To learn how display density works in SLDS, see [Display Density](/foundation/display-density).
 
 | Styling Hook | Description |
 | --- | --- |
@@ -649,7 +649,7 @@ SLDS global spacing examples showing twelve dark blue rectangles increasing in w
 
 ### Density-Aware Spacing
 
-These density-aware styling hooks control spacing that’s applied equally to all sides of an element when the system switches between comfy and compact display density settings. The spacing corresponds to the top, bottom, left, and right margins or paddings. To learn how display density works in SLDS, see [Display Density.](https://www.lightningdesignsystem.com/2e1ef8501/p/805bbe)
+These density-aware styling hooks control spacing that’s applied equally to all sides of an element when the system switches between comfy and compact display density settings. The spacing corresponds to the top, bottom, left, and right margins or paddings. To learn how display density works in SLDS, see [Display Density.](/foundation/display-density)
 
 | Styling Hook | Description |
 | --- | --- |
@@ -669,7 +669,7 @@ These density-aware styling hooks control spacing that’s applied equally to al
 
 ### Density-Aware Vertical Spacing
 
-These density-aware styling hooks control spacing along the vertical (block) axis when the system switches between comfy and compact display density settings. This spacing corresponds to the top and bottom margins or paddings. To learn how display density works in SLDS, see [Display Density.](https://www.lightningdesignsystem.com/2e1ef8501/p/805bbe)
+These density-aware styling hooks control spacing along the vertical (block) axis when the system switches between comfy and compact display density settings. This spacing corresponds to the top and bottom margins or paddings. To learn how display density works in SLDS, see [Display Density.](/foundation/display-density)
 
 | Styling Hook | Description |
 | --- | --- |
@@ -689,7 +689,7 @@ These density-aware styling hooks control spacing along the vertical (block) axi
 
 ### Density-Aware Horizontal Spacing
 
-These density-aware styling hooks control spacing along the horizontal (inline) axis when the system switches between comfy and compact display density settings. This spacing corresponds to left and right margins or paddings. To learn how display density works in SLDS, see [Display Density.](https://www.lightningdesignsystem.com/2e1ef8501/p/805bbe)
+These density-aware styling hooks control spacing along the horizontal (inline) axis when the system switches between comfy and compact display density settings. This spacing corresponds to left and right margins or paddings. To learn how display density works in SLDS, see [Display Density.](/foundation/display-density)
 
 | Styling Hook | Description |
 | --- | --- |

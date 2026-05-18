@@ -2,7 +2,7 @@
 title: "Rich Text Editor"
 slug: "rich-text-editor--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/35614c-rich-text-editor/b/74d5d4"
+url: "/component/rich-text-editor/b/74d5d4"
 extractedAt: "2026-02-21T21:53:00.632Z"
 ---
 

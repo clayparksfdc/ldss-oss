@@ -2,7 +2,7 @@
 title: "Sizing"
 slug: "sizing--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/927990-sizing/b/85154d"
+url: "/develop/sizing/b/85154d"
 extractedAt: "2026-02-21T21:42:26.884Z"
 ---
 

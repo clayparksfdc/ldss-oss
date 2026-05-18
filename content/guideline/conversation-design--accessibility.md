@@ -2,7 +2,7 @@
 title: "Conversation Design"
 slug: "conversation-design--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/33c7b6-conversation-design-/b/30856a"
+url: "/ai-and-slds-2/conversation-design/b/30856a"
 extractedAt: "2026-02-21T21:36:45.833Z"
 ---
 

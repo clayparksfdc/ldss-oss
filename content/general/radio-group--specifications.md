@@ -2,7 +2,7 @@
 title: "Radio Group"
 slug: "radio-group--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/19c76a-radio-group/b/259b98"
+url: "/component/radio-group/b/259b98"
 extractedAt: "2026-02-21T21:52:43.169Z"
 ---
 

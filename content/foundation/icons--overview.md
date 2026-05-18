@@ -2,13 +2,13 @@
 title: "Icons"
 slug: "icons--overview"
 category: "foundation"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/83309d-icons/b/4610b2"
+url: "/component/icons/b/4610b2"
 extractedAt: "2026-02-21T21:36:50.973Z"
 ---
 
 ## About
 
-Icons are symbols used to represent features, functionality, or content. Visit the [icon page](https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/83309d-icons/b/586464) to see a library of all icons and the [icon component](https://www.lightningdesignsystem.com/2e1ef8501/p/19e451) for implementation details.
+Icons are symbols used to represent features, functionality, or content. Visit the [icon page](/component/icons/b/586464) to see a library of all icons and the [icon component](/component/icons) for implementation details.
 
 Several types of icons communicate information within Salesforce, each with variations based on what they represent and their use case. Here are the icon types, in order of most use to least use.
 
@@ -50,7 +50,7 @@ Salesforce icon design is a blend of professional and playful. Our icons are sim
 
 Screen readers handle icons in two different ways. If an icon is informational, the screen reader reads it out loud. If an icon is decorative, the screen reader ignores it. Choose the right icon type for your use case. If you're using an informational icon, write an accessible label for it.
 
-For more information on icon accessibility, see the [Icon](https://www.lightningdesignsystem.com/2e1ef8501/p/19e451) component.
+For more information on icon accessibility, see the [Icon](/component/icons) component.
 
 ### Informational Icons
 

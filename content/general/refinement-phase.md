@@ -2,7 +2,7 @@
 title: "Refinement Phase"
 slug: "refinement-phase"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/2082c6-refinement-phase"
+url: "/ai-and-slds-2/refinement-phase"
 extractedAt: "2026-02-21T18:10:31.595Z"
 ---
 

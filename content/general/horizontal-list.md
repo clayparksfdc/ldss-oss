@@ -2,7 +2,7 @@
 title: "Horizontal List"
 slug: "horizontal-list"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/24ab86-horizontal-list"
+url: "/component/horizontal-list"
 extractedAt: "2026-02-21T21:40:31.047Z"
 ---
 

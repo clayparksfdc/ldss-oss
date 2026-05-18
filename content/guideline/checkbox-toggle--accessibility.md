@@ -2,7 +2,7 @@
 title: "Checkbox Toggle"
 slug: "checkbox-toggle--accessibility"
 category: "guideline"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/00c862-checkbox-toggle/b/74d5d4"
+url: "/component/checkbox-toggle/b/74d5d4"
 extractedAt: "2026-02-21T21:46:57.466Z"
 ---
 

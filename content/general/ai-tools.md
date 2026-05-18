@@ -2,7 +2,7 @@
 title: "AI Tools"
 slug: "ai-tools"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/2337c1-ai-tools"
+url: "/ai-and-slds-2/ai-tools"
 extractedAt: "2026-02-21T18:07:20.501Z"
 ---
 
@@ -18,13 +18,7 @@ Think of it as having a design system expert sitting next to every developer, en
 - Prototype faster using natural language to translate your Figma design into SLDS 2-compatible code.
 - Focus on building lovable experiences instead of learning design standards.
 
-[
-Agentforce Vibes
-Quickly generate experiences people trust and love with design system thinking.
-
-](https://www.salesforce.com/agentforce/developers/vibe-coding/)
-[
-Salesforce DX MCP
-Deeper context and built-in SLDS 2 design system knowledge.
-
-](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_mcp.htm)
+:::card-grid{columns="2"}
+::card{title="Agentforce Vibes" href="https://www.salesforce.com/agentforce/developers/vibe-coding/" description="Quickly generate experiences people trust and love with design system thinking."}
+::card{title="Salesforce DX MCP" href="https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_mcp.htm" description="Deeper context and built-in SLDS 2 design system knowledge."}
+:::

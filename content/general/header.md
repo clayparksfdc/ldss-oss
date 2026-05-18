@@ -2,7 +2,7 @@
 title: "Header"
 slug: "header"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/44f418-header"
+url: "/general/header"
 extractedAt: "2026-02-21T21:57:24.833Z"
 ---
 
@@ -201,7 +201,7 @@ When the user clicks a primary action button, the status text updates to reflect
 Saving commits all changes to the server. Status text updates to reflect saving in progress, then updates again when saving is complete.
 
 - Use “Save As” to create a new copy of a current record.
-- Don’t use [toasts](https://www.lightningdesignsystem.com/2e1ef8501/p/216f79) or [alerts](https://www.lightningdesignsystem.com/2e1ef8501/p/541420) for save messages. When users save often, toasts can be disruptive. Banners are reserved for systemwide messages.
+- Don’t use [toasts](/component/toast) or [alerts](https://www.lightningdesignsystem.com/2e1ef8501/p/541420) for save messages. When users save often, toasts can be disruptive. Banners are reserved for systemwide messages.
 ℹ️ Accessibility Note: Background status text changes should not trigger screen reader alerts.
 
 Status text shows saving in-progress

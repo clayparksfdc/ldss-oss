@@ -2,7 +2,7 @@
 title: "Vertical Navigation"
 slug: "vertical-navigation--accessibility"
 category: "pattern"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/60977d-vertical-navigation/b/136aff"
+url: "/component/vertical-navigation/b/136aff"
 extractedAt: "2026-02-21T21:57:02.825Z"
 ---
 

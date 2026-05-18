@@ -2,7 +2,7 @@
 title: "Margin"
 slug: "margin--css-classes"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/51dd56-margin/b/85154d"
+url: "/develop/margin/b/85154d"
 extractedAt: "2026-02-21T21:41:26.489Z"
 ---
 

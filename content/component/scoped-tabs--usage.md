@@ -89,8 +89,8 @@ Scoped tabs are enclosed in a bordered container. Align the container with nearb
 
 1. **Selected:** The active tab is highlighted with a text label color change and the bottom border is remove.
 2. **Default:** Scoped tabs are inactive except for the default selected tab.
-3. **Hover:**The tab changes color.
-4.**Focus:**Focus follows selection. The active/focused tab is highlighted with a text label color change and the bottom border is removed. An underline is also shown on the label as a focus indicator.
+3. **Hover:** The tab changes color.
+4.**Focus:** Focus follows selection. The active/focused tab is highlighted with a text label color change and the bottom border is removed. An underline is also shown on the label as a focus indicator.
 
 ### Interactions
 

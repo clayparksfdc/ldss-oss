@@ -2,7 +2,7 @@
 title: "Box"
 slug: "box"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/674e1b-box"
+url: "/develop/box"
 extractedAt: "2026-02-21T21:39:40.805Z"
 ---
 

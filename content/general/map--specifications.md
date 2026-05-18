@@ -2,7 +2,7 @@
 title: "Map"
 slug: "map--specifications"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/160625-map/b/0614c5"
+url: "/component/map/b/0614c5"
 extractedAt: "2026-02-21T21:50:30.268Z"
 ---
 

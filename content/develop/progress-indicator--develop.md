@@ -2,7 +2,7 @@
 title: "Progress Indicator"
 slug: "progress-indicator--develop"
 category: "develop"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/64d280-progress-indicator/b/772221"
+url: "/component/progress-indicator/b/772221"
 extractedAt: "2026-02-21T21:51:29.474Z"
 ---
 

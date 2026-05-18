@@ -2,7 +2,7 @@
 title: "Datetime Picker"
 slug: "datetime-picker--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/653453-datetime-picker/b/39205c"
+url: "/component/datetime-picker/b/39205c"
 extractedAt: "2026-02-21T21:48:04.859Z"
 ---
 
@@ -32,7 +32,7 @@ The datetime picker is typically used when an application or record requires bot
 
 ### Anatomy
 
-**Date Field:**Input field that displays the selected date or a date that the user types. 
+**Date Field:** Input field that displays the selected date or a date that the user types. 
 
 
 
@@ -66,7 +66,7 @@ The datetime picker is typically used when an application or record requires bot
 
 
 
-**Time Field:**Input field that displays the selected time or a time that the user types. 
+**Time Field:** Input field that displays the selected time or a time that the user types. 
 
 
 
@@ -100,7 +100,7 @@ The datetime picker is typically used when an application or record requires bot
 
 
 
-**Calendar:**The calendar interface that appears when the user interacts with the input field for the date picklist. 
+**Calendar:** The calendar interface that appears when the user interacts with the input field for the date picklist. 
 
 
 
@@ -134,7 +134,7 @@ The datetime picker is typically used when an application or record requires bot
 
 
 
-**Time Menu:**Opens when the user interacts with the time input field so users can pick a time from a list.Date Field: Input field that displays the selected date or a date that the user types.
+**Time Menu:** Opens when the user interacts with the time input field so users can pick a time from a list.Date Field: Input field that displays the selected date or a date that the user types.
 
 Time Field: Input field that displays the selected time or a time that the user types.
 
@@ -168,7 +168,7 @@ Long: Set date-style="long" to display a long style such as January 7, 2025.
 #### Labels
 
 - **Field label:** Use title capitalization without end punctuation. If the UI design lacks a visible label, a hidden text label or offscreen field label is required for accessibility.
-- **Field caption:**Use a phrase or a full sentence without end punctuation.
+- **Field caption:** Use a phrase or a full sentence without end punctuation.
 -**Use a field caption in these situations:**
 
 If a label alone doesn't clearly define a field or a fieldset, you can include a field caption with a field label or with the field itself.
@@ -204,7 +204,7 @@ Also, see the form element component.
 
 1. **Default:** Standard display with no user input.
 2. **Disabled:** Disabled pickers are colored light gray to appear unavailable and can't be selected.
-3. **Active:**Border changes to show focus, accessible by keyboard. Input field and dropdown are open for selection.
+3. **Active:** Border changes to show focus, accessible by keyboard. Input field and dropdown are open for selection.
 Default: Standard display with no user input.
 
 Disabled: Disabled pickers are colored light gray to appear unavailable and can't be selected.
@@ -213,7 +213,7 @@ Active: Border changes to show focus, accessible by keyboard. Input field and dr
 
 ### Interactions
 
-**Hover**The mouse pointer changes to a text cursor (I-beam) when hovering over the input field.
+**Hover** The mouse pointer changes to a text cursor (I-beam) when hovering over the input field.
 
 
 
@@ -230,7 +230,7 @@ Active: Border changes to show focus, accessible by keyboard. Input field and dr
 
 
 
-**Expanded**Shows calendar or time dropdown.
+**Expanded** Shows calendar or time dropdown.
 
 
 
@@ -247,7 +247,7 @@ Active: Border changes to show focus, accessible by keyboard. Input field and dr
 
 *Example of a datetime picker component with calendar dropdown.*
 
-**Selected**Shows selected date or time.
+**Selected** Shows selected date or time.
 
 
 

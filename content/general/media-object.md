@@ -2,7 +2,7 @@
 title: "Media Object"
 slug: "media-object"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/87b07a-media-object"
+url: "/develop/media-object"
 extractedAt: "2026-02-21T21:41:29.437Z"
 ---
 

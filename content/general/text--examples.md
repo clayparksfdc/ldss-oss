@@ -2,7 +2,7 @@
 title: "Text"
 slug: "text--examples"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/61daff-text/b/788fe9"
+url: "/develop/text/b/788fe9"
 extractedAt: "2026-02-21T21:42:33.791Z"
 ---
 

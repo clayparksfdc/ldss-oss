@@ -2,7 +2,7 @@
 title: "Empty State"
 slug: "empty-state--usage"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/09f001-empty-state/b/39205c"
+url: "/component/empty-state/b/39205c"
 extractedAt: "2026-02-21T21:49:02.343Z"
 ---
 
@@ -34,7 +34,7 @@ Empty states can reduce user confusion and frustration by clearly communicating 
 
 ### Anatomy
 
-**Illustration:**The SVG (or placeholder) that relates to the use case.(*Optional*)
+**Illustration:** The SVG (or placeholder) that relates to the use case.(*Optional*)
 
 
 
@@ -141,7 +141,7 @@ UUID: 887ebfed-63a8-400f-a504-d2a9d4659f9c
 
 
 
-**Medium**Default component size. Primarily for large containers, such as screens, tables, or large cards.
+**Medium** Default component size. Primarily for large containers, such as screens, tables, or large cards.
 
 
 
@@ -175,7 +175,7 @@ Useful for small cards and panels.
 
 
 
-**X-small**Font-size is reduced and image is not displayed. Useful for nested containers or small device sizes.MediumDefault component size. Primarily for large containers, such as screens, tables, or large cards.
+**X-small** Font-size is reduced and image is not displayed. Useful for nested containers or small device sizes.MediumDefault component size. Primarily for large containers, such as screens, tables, or large cards.
 
 Small
 

@@ -2,7 +2,7 @@
 title: "Display Density"
 slug: "display-density--custom-configurations"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/805bbe-display-density/b/897aad"
+url: "/foundation/display-density/b/897aad"
 extractedAt: "2026-02-21T21:38:18.449Z"
 ---
 

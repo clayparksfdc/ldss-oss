@@ -2,7 +2,7 @@
 title: "Displaying Data"
 slug: "displaying-data"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/7540d0-displaying-data"
+url: "/general/displaying-data"
 extractedAt: "2026-02-21T21:58:01.825Z"
 ---
 

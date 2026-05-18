@@ -102,12 +102,12 @@ Place accordions within containers such as cards, panels, or modals.
 
 An accordion component starts with the first section open by default, but you can modify it to expand a specific section upon page load.
 
-1. **Default:**The first section is expanded and all the others are collapsed.
+1. **Default:** The first section is expanded and all the others are collapsed.
 2.**Expanded:** A section that is currently open and has content displayed. Clicking on the accordion section header expands the section
 3. **Collapsed:** A section is hidden, waiting for the user to expand it. Clicking on the accordion header collapses the section.
-4. **Hover:**The section header content is highlighted when the mouse hovers over it to show that it's interactive. Highlighting changes the chevron and title color.
+4. **Hover:** The section header content is highlighted when the mouse hovers over it to show that it's interactive. Highlighting changes the chevron and title color.
 5.**Focus:** A keyboard user has focused on a section header for navigation. Focus underlines the title of the accordion section.
-6. **Disabled:**Disable sections that are unavailable for user interaction. Disabling changes the chevron and title color to a lighter shade.
+6. **Disabled:** Disable sections that are unavailable for user interaction. Disabling changes the chevron and title color to a lighter shade.
 
 
 |**Loading**While content inside an accordion is loading, you can show that data is still being fetched with a spinner or loading message. | *A *[*spinner*](/component/spinners)* displayed over the content of an accordion to indicate loading.* |

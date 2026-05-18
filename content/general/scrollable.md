@@ -2,7 +2,7 @@
 title: "Scrollable"
 slug: "scrollable"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/746954-scrollable"
+url: "/develop/scrollable"
 extractedAt: "2026-02-21T21:42:15.146Z"
 ---
 

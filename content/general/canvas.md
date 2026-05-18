@@ -2,7 +2,7 @@
 title: "Canvas"
 slug: "canvas"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/87cd36-canvas"
+url: "/general/canvas"
 extractedAt: "2026-02-21T21:57:13.655Z"
 ---
 

@@ -86,7 +86,7 @@ Use title case.
 - To make it easy for users to find what they need, present the available items in the order you expect them to be used. This works best for shorter lists.
 - Don’t use double hyphens around “None” or other options.
 
-**Truncation:**If item names are too long to show in the lists, text is truncated with an ellipsis. To make the list accessible to all users, display the full item name in a tooltip or other indicator that users can view or hear.
+**Truncation:** If item names are too long to show in the lists, text is truncated with an ellipsis. To make the list accessible to all users, display the full item name in a tooltip or other indicator that users can view or hear.
 
 #### Content - Validation
 
@@ -121,10 +121,10 @@ Use these attributes to define your own messages:
 ### States
 
 1. **Default:** List items are displayed in their standard state.
-2. **Hover:**List items change background color to indicate interactivity.
+2. **Hover:** List items change background color to indicate interactivity.
 3.**Active:** The currently selected list item is highlighted.
-4. **Disabled:**Disabled list items are visible but not interactive.
-5.**Component Disabled:**Both listboxes are grayed-out and non-interactive.
+4. **Disabled:** Disabled list items are visible but not interactive.
+5.**Component Disabled:** Both listboxes are grayed-out and non-interactive.
 
 ### Interactions
 

@@ -2,7 +2,7 @@
 title: "Badge"
 slug: "badge"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/78871c-badge"
+url: "/component/badge"
 extractedAt: "2026-02-21T21:44:01.876Z"
 ---
 

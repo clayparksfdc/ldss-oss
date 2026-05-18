@@ -85,10 +85,10 @@ Can adjust width but should align with form elements.
 ### States
 
 1. **Default**: Ready for selection.
-2. **Active:**The dropdown menu expands, exposing selectable options.
-3.**Disabled:**Grayed out, indicating the select component is currently unavailable.
-4.**Focus-Closed:**Dark border around the triggering select component.
-5.**Focus-Open:**Dark border around the triggering select component and highlighting the first option in the open menu.
+2. **Active:** The dropdown menu expands, exposing selectable options.
+3.**Disabled:** Grayed out, indicating the select component is currently unavailable.
+4.**Focus-Closed:** Dark border around the triggering select component.
+5.**Focus-Open:** Dark border around the triggering select component and highlighting the first option in the open menu.
 
 ### Interactions
 

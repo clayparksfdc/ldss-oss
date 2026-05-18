@@ -2,7 +2,7 @@
 title: "Carousel"
 slug: "carousel"
 category: "general"
-url: "https://www.lightningdesignsystem.com/2e1ef8501/p/99642e-carousel"
+url: "/component/carousel"
 extractedAt: "2026-02-21T21:45:51.077Z"
 ---
 
@@ -64,7 +64,7 @@ A carousel displays images that users can swipe or click through, often used for
 
 ### Customization Options
 
-**Autoplay: **The autoplay button is an optional element, and can be removed from the carousel.**Full Image:** You can omit the header and description attributes to leave just the image to take up the full carousel without additional text. Alternative text is still required for accessibility, even if the image takes up the full carousel.
+**Autoplay: ** The autoplay button is an optional element, and can be removed from the carousel.**Full Image:** You can omit the header and description attributes to leave just the image to take up the full carousel without additional text. Alternative text is still required for accessibility, even if the image takes up the full carousel.
 
 ### Size
 
@@ -90,13 +90,13 @@ A carousel displays images that users can swipe or click through, often used for
 1. **Default:** Shows the first item within the carousel.
 2. **Hover**: Image indicators are highlighted on hover.
 3. **Focus:** Content and image indicators are keyboard-navigable, highlighting the focused element.
-4. **Selected: **The selected image indicator is highlighted with a different color to make it stand out.
+4. **Selected: ** The selected image indicator is highlighted with a different color to make it stand out.
 
 ### Interactions
 
 **Image**: Selecting an image that has an associated link opens the link according to its target.
 
-**Image Indicator: **Image indicators allow users to navigate between images.
+**Image Indicator: ** Image indicators allow users to navigate between images.
 
 ### Position
 
