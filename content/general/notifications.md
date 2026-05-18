@@ -22,7 +22,7 @@ For clarity and engagement, each notification needs a few key elements, which cr
 
 Each notification must include:
 
-- **Origin: ** The identity of the user or system that initiated the communication.
+- **Origin:** The identity of the user or system that initiated the communication.
 - **Content:** The core message, designed to encourage engagement.
 - **Action:** One or more clear actions the recipient can take.
 - **Timing:** The time the information was delivered or the time that has passed since an incident or event occurred.
@@ -31,8 +31,8 @@ Each notification must include:
 
 While they can appear similar, notifications and interface feedback serve different purposes.
 
-- **Interface feedback **is a direct response to a user's action, like a toast confirming a record change. After interface feedback is dismissed, it isn't retrievable.
-- **Notifications **are traceable. A user can view, dismiss, and revisit a notification’s content later. They aren’t always a reaction to immediate input and can be triggered by system events or other users**.**
+- **Interface feedback**is a direct response to a user's action, like a toast confirming a record change. After interface feedback is dismissed, it isn't retrievable.
+- **Notifications**are traceable. A user can view, dismiss, and revisit a notification’s content later. They aren’t always a reaction to immediate input and can be triggered by system events or other users**.**
 | *                     An example of interface feedback: A green success toast.           * ** ** ** | *                     Another example of interface feedback: A red error popover.           * ** ** ** |
 | --- | --- |
 |  |  |

@@ -47,7 +47,7 @@ Developers are responsible for implementing accessible buttons according to Sale
 - **Focus Management**:  Ensure buttons are keyboard navigable with `tabindex=0` and that focus indicators are visible.
 - **Event Listeners**:  Ensure buttons are clickable with both `Enter` and `Space` keys, and avoid JavaScript that overrides these default actions.
 - **Assistive Technology Compatibility**:  Test buttons with screen readers (e.g., JAWS, NVDA) to ensure compatibility and correct label reading.
-- **Accessibility Labels:** Use `aria-label` or `aria-labelledby` for buttons without visible labels, ensuring screen readers describe the button’s purpose.**Stateful buttons **use ARIA aria-pressed attributes to indicate the state of toggle buttons, so screen readers announce whether a button is pressed (active) or unpressed (default).
+- **Accessibility Labels:** Use `aria-label` or `aria-labelledby` for buttons without visible labels, ensuring screen readers describe the button’s purpose.**Stateful buttons**use ARIA aria-pressed attributes to indicate the state of toggle buttons, so screen readers announce whether a button is pressed (active) or unpressed (default).
 
 ## Content Considerations
 

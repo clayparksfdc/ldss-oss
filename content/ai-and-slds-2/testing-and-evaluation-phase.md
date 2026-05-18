@@ -27,12 +27,12 @@ Use [Salesforce LLM Benchmark for CRM](https://www.salesforceairesearch.com/crm-
 4. Try different models if available, adjust simple parameters such as temperature to affect the creativity of the output. 
 **⚠️ Note:** From our experience, Temperature 0.2 - 0.5 is the range good for creative use cases such as crafting content or emails. Use temperature 0 when you need the LLM to generate deterministic output.
 5. **Test prompts with synthetic data** that mimics your customers or actual data, but avoid using real customer data, especially in public models.
-6. **Generate at least 20 model outputs **per prompt version or revision, using direct LLM gateway via any [Salesforce-approved tools](https://developer.salesforce.com/docs/einstein/genai/guide/models-get-started.html), platform, or your company-approved tools.
-7. **Be aware of system prompts **implemented at the platform level that aren’t visible to you.
+6. **Generate at least 20 model outputs**per prompt version or revision, using direct LLM gateway via any [Salesforce-approved tools](https://developer.salesforce.com/docs/einstein/genai/guide/models-get-started.html), platform, or your company-approved tools.
+7. **Be aware of system prompts**implemented at the platform level that aren’t visible to you.
 8. **Conduct a qualitative analysis** of the model outputs to assess success, use the [Success Heuristics](/ai-and-slds-2/testing-and-evaluation-phase/t/dd99466e17) as a guideline.
 9. **Document the number of successful** model outputs out of 20 consecutive generations
 10. **Calculate success rate percentage** compare against your success criteria
-11. **Document **version control, note any observations, and share results with the team.
+11. **Document**version control, note any observations, and share results with the team.
 **Establish success and acceptance criteria**, and test scenarios, including edge cases.
 
 **Pick your LLM** and set parameters.
@@ -51,9 +51,9 @@ Try different models if available, adjust simple parameters such as temperature 
 - **⚠️ Note:** From our experience, Temperature 0.2 - 0.5 is the range good for creative use cases such as crafting content or emails. Use temperature 0 when you need the LLM to generate deterministic output.
 **Test prompts with synthetic data** that mimics your customers or actual data, but avoid using real customer data, especially in public models.
 
-**Generate at least 20 model outputs **per prompt version or revision, using direct LLM gateway via any [Salesforce-approved tools](https://developer.salesforce.com/docs/einstein/genai/guide/models-get-started.html), platform, or your company-approved tools.
+**Generate at least 20 model outputs**per prompt version or revision, using direct LLM gateway via any [Salesforce-approved tools](https://developer.salesforce.com/docs/einstein/genai/guide/models-get-started.html), platform, or your company-approved tools.
 
-**Be aware of system prompts **implemented at the platform level that aren’t visible to you.
+**Be aware of system prompts**implemented at the platform level that aren’t visible to you.
 
 **Conduct a qualitative analysis** of the model outputs to assess success, use the [Success Heuristics](/ai-and-slds-2/testing-and-evaluation-phase/t/dd99466e17) as a guideline.
 
@@ -61,7 +61,7 @@ Try different models if available, adjust simple parameters such as temperature 
 
 **Calculate success rate percentage** compare against your success criteria
 
-**Document **version control, note any observations, and share results with the team.
+**Document**version control, note any observations, and share results with the team.
 
 ## Success Heuristics for Prompts
 
@@ -137,11 +137,11 @@ Define the qualities of a successful output and things to look for during testin
 | *                                * ** ** ** | [**Naturalness**](/ai-and-slds-2/testing-and-evaluation-phase/t/dc30c8d272)↓ | Does it use appropriate style and tone for the context?  Are responses natural and sound like something a person says? |
 | *                                * ** ** ** | [**Error and Fallback Handling**](/ai-and-slds-2/testing-and-evaluation-phase/t/514c855b0d)↓ | How are incorrect or ambiguous utterances handled? Typos?  Out-of-scope queries?  Malicious attempt handling? |
 
-**Criteria **
+**Criteria**
 
 **Defining Questions**
 
-[**Relevance or On-Topic**](/ai-and-slds-2/testing-and-evaluation-phase/t/d96aa139ab)** **↓
+[**Relevance or On-Topic**](/ai-and-slds-2/testing-and-evaluation-phase/t/d96aa139ab)****↓
 
 - Understanding and correct intent recognition
 - Does the system get what I’m looking for or trying to do?

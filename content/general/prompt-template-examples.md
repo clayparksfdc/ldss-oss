@@ -159,10 +159,10 @@ The data is delimited with ```.
 When I ask you to summarize data from a given JSON, you must strictly follow my instructions below to generate an output.
 
 :::callout
-**Instructions: **
+**Instructions:**
 :::
 
-**Instructions: **
+**Instructions:**
 
 :::callout
 - Generate paragraphs for Programs, its associated products and benefits in detail.

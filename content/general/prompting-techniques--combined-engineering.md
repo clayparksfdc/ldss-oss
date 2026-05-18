@@ -28,7 +28,7 @@ Analyze the following sales opportunity to determine win probability:
 
 **Analysis:** This opportunity shows several positive indicators. The customer is already familiar with our products, reducing adoption concerns. The sales cycle is within normal range, suggesting standard decision processes. Having an identified champion provides internal advocacy. Technical review completion indicates we've passed a major hurdle.
 
-**Win Probability: **75%
+**Win Probability:**75%
 
 **Example 2:**
 

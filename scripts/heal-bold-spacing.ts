@@ -45,11 +45,21 @@ function healLine(line: string, onFix: () => void): string {
   let i = 0;
   while (i < line.length) {
     if (line[i] === '*' && line[i + 1] === '*') {
-      // Toggle bold state
-      result += '**';
-      i += 2;
       const wasBold = inBold;
       inBold = !inBold;
+      // If this is a closing `**`, strip any trailing space we just appended
+      // (e.g. `**word. **next` should become `**word.** next`).
+      if (wasBold && result.length > 0 && result[result.length - 1] === ' ') {
+        // Trim ALL trailing spaces before the closing `**`
+        let trimmed = result;
+        while (trimmed.endsWith(' ')) trimmed = trimmed.slice(0, -1);
+        if (trimmed.length !== result.length) {
+          result = trimmed;
+          onFix();
+        }
+      }
+      result += '**';
+      i += 2;
       // If this was a closing marker AND next char is an uppercase letter, insert a space
       if (wasBold && i < line.length && /[A-Z]/.test(line[i])) {
         result += ' ';

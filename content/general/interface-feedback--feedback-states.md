@@ -474,7 +474,7 @@ An informational toast
 
 ### Admin-Related Status
 
-When an admin-related status applies to the user's session, display an** informational **[**alert.**](/general/interface-feedback/t/c251034b9a)
+When an admin-related status applies to the user's session, display an** informational**[**alert.**](/general/interface-feedback/t/c251034b9a)
 
 
 
@@ -680,7 +680,7 @@ An empty component with inline text
 
 ### Empty Page
 
-When an entire page has no data or is inaccessible, display an [**illustration with inline text**](/foundation/illustrations)**. **
+When an entire page has no data or is inaccessible, display an [**illustration with inline text**](/foundation/illustrations)**.**
 
 
 

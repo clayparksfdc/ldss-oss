@@ -18,7 +18,7 @@ When introducing a new feature to users who are already familiar with the produc
 
 Experienced users don't want unnecessary interruptions. They appreciate enhancements to features they use often, and like to be the first to know about new features, as long as the information is helpful and relevant.
 
-- Use a** feature popover **tohighlight a new feature that the user isn't already taking advantage of but would benefit from.
+- Use a** feature popover**tohighlight a new feature that the user isn't already taking advantage of but would benefit from.
 - If the feature requires more than one step, use a**walkthrough** or **docked assistant**to guide users through the new feature and how it can help them.
 
 

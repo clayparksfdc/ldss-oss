@@ -41,7 +41,7 @@ This density-aware styling hook controls the line height when the system switche
 
 **Comfy  (default)**
 
-**Compact **
+**Compact**
 
 #### --slds-g-font-lineheight-var-base
 

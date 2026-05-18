@@ -60,7 +60,7 @@ Surface colors are reserved for the bottom layer of a surface. These elements ar
 - Popovers
 Anything that comes into the application's view and has a higher stacking context than a previous surface ultimately establishes a new surface.
 
-**ℹ️ ** Don't apply any decoration, brand bands, or textures to an application background.
+**ℹ️** Don't apply any decoration, brand bands, or textures to an application background.
 
 ### Surface-container
 
@@ -169,7 +169,7 @@ These elements can use accent colors:
 
 - Links
 - Icons
-ℹ️ **electric blue-50**, **electric blue-40**, and **electric blue-30 **are reserved for buttons, hover states, and selected or active states. Do not use them for decorative purposes.
+ℹ️ **electric blue-50**, **electric blue-40**, and **electric blue-30**are reserved for buttons, hover states, and selected or active states. Do not use them for decorative purposes.
 
 #### Border
 

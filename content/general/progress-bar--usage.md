@@ -119,7 +119,7 @@ Best for side panels, dashboards, or where vertical space is more readily availa
     
   
 
-**Progress Label**(optional)**: ** Text to show additional information about the process such as percentages or numeric values.
+**Progress Label**(optional)**:** Text to show additional information about the process such as percentages or numeric values.
 
 
 

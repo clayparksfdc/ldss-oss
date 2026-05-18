@@ -106,7 +106,7 @@ Applies fixes in bulk
 ### SLDS Linter includes these features
 
 - **Verified Suggestions** Validation with recommended SLDS 2 styling hooks and an updated ruleset library.
--**Simple set up ** Terminal commands install and run SLDS Linter in minutes, no plug-in required.
+-**Simple set up** Terminal commands install and run SLDS Linter in minutes, no plug-in required.
 -**Bulk fixes** Apply suggested fixes across code files with one-click automation.
 
 ### Get Started

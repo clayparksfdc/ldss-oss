@@ -180,7 +180,7 @@ Embed the grounding data directly within the instructions where it becomes relev
 - Instructions are harder to read and follow, especially if there's a lot of embedded data. if the data breaks up the flow of the instructions too much, it confuses the LLM.
 - Requires careful formatting and potentially delimiters to help the LLM correctly distinguish between instructions and data.
 - If the grounding data needs to be updated, you have to change it in multiple places within the instructions.
-**After Instructions **
+**After Instructions**
 
 Present the core instructions first, followed by a separate section containing the grounding data that the LLM needs to apply or reference to complete the task. We recommend placing larger, less immediately used datasets, like extensive lists or detailed JSON, at the very end of your prompt.
 

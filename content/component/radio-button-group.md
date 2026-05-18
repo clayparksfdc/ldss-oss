@@ -58,9 +58,9 @@ Use icons when text isn't needed or takes up too much space.
 | --- | --- |
 | *                                * ** ** ** | **Buttons: **Element that indicates if an option is selected or unselected. |
 
-**Field Label: ** Describes the purpose of the radio button group.
+**Field Label:** Describes the purpose of the radio button group.
 
-**Buttons: ** Element that indicates if an option is selected or unselected.
+**Buttons:** Element that indicates if an option is selected or unselected.
 
 ### Customization Options
 

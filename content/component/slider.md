@@ -62,7 +62,7 @@ A slider that allows users to select a value by moving a handle up or down along
 
 **Field Label**: The field label describes the purpose of the slider, helping users understand what value they are adjusting.
 
-**Range: ** Indicates the range boundaries.
+**Range:** Indicates the range boundaries.
 
 **Handle:** The draggable handle that allows users to select a value by moving it along the track.
 
@@ -113,7 +113,7 @@ The slider comes in many sizes: x-small, small, medium, and large. The default s
 ### Position
 
 - **Horizontal**: A slider that allows users to select a value by moving a handle left or right along a horizontal track.
-- **Vertical: ** A slider that allows users to select a value by moving a handle left or right along a vertical track.
+- **Vertical:** A slider that allows users to select a value by moving a handle left or right along a vertical track.
 
 ### Responsive
 

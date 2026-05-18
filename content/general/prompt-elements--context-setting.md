@@ -24,17 +24,17 @@ Consider this formula when thinking about how the participants, situation and en
 
 **Scenario 1:** Send an email
 
-As a**Sales Development Representative, **when I’m**reaching out to a new prospect**, I want to **create a personalized introduction email** so I can **get a response and initiate a conversation**.
+As a**Sales Development Representative,**when I’m**reaching out to a new prospect**, I want to **create a personalized introduction email** so I can **get a response and initiate a conversation**.
 
 **Scenario 2:** Summarize
 
-As a**Sales Manager, **when I’m**preparing for a client meeting**, I want to **summarize their recent interactions**so I can **have an informed discussion and build a stronger relationship.** Role or Persona + Situation + Key Task + End Goal
+As a**Sales Manager,**when I’m**preparing for a client meeting**, I want to **summarize their recent interactions**so I can **have an informed discussion and build a stronger relationship.** Role or Persona + Situation + Key Task + End Goal
 
 As a ________ when I’m ___________ I want to __________ so I can __________.
 
 Scenario 1: Send an email
 
-- As a**Sales Development Representative, **when I’m**reaching out to a new prospect**, I want to **create a personalized introduction email** so I can **get a response and initiate a conversation**.
+- As a**Sales Development Representative,**when I’m**reaching out to a new prospect**, I want to **create a personalized introduction email** so I can **get a response and initiate a conversation**.
 As a Sales Development Representative, when I’m reaching out to a new prospect, I want to create a personalized introduction email so I can get a response and initiate a conversation.
 
 Scenario 2: Summarize

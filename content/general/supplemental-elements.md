@@ -64,7 +64,7 @@ Group related commands and label them using a descriptive noun phrase to serve a
 
 - Use meaningful section headers that clearly indicate the purpose of the content within that section. Common sections include: Task, Context, Instructions, Output Format, and Examples.
 - Use Markdown-style headings (#, ##, ###) for clear, hierarchical section titles. The hashes act as delimiters separating the header from other content.
-- Separate data** **in a dedicated data section with clear delimiters to prevent the LLM from confusing data with instructions.
+- Separate data****in a dedicated data section with clear delimiters to prevent the LLM from confusing data with instructions.
 - Assign labels to grounding data. Refer to specific data with its label from now on throughout the prompt for consistency.
 - Instead of a generic header like `## Data ##`, use a descriptive header, like `## Customer Complaint Transcripts ##` , to tell the LLM and other readers the nature of the content within that section.
 **Examples**
@@ -269,7 +269,7 @@ NEVER include generic pleasantries or cliche well wishes. Unacceptable openings:
 Opening: Open with a direct, value-driven statement or insight about the prospect’s company, work, or industry.
 
 1. NEVER include generic pleasantries or cliche well wishes. Unacceptable openings: "I hope this message finds you well.", “We hope you’re having a great week”, "I trust you are well" or similar phrases.
-**Pointer Phrases **
+**Pointer Phrases**
 
 Pointer phrases help the model understand where to look and help in avoiding the model getting confused. They direct the LLM to specific areas with the relevant data or instructions.
 

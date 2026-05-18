@@ -17,9 +17,9 @@ A builder is a tool that lets everyone from developers and admins to business us
 There are four main types of builder:
 
 - **Logic builders** visualize business processes, flows, or sequences.
-- **Content builders **are used to design and configure web pages and other visual elements.
-- **Data builders **help users develop reports and presentations featuring tables, charts, and graphs.
-- **Code builders **are used to develop code views and database schemas.
+- **Content builders**are used to design and configure web pages and other visual elements.
+- **Data builders**help users develop reports and presentations featuring tables, charts, and graphs.
+- **Code builders**are used to develop code views and database schemas.
 
 ### Start using our Design Kits
 

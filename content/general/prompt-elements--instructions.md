@@ -1437,8 +1437,8 @@ Subtly Reflect User Tone
 
 Beyond handling specific challenging utterances, consider instructing the LLM to subtly align with the user's communication style for standard interactions. This doesn't mean mimicking exactly, but rather adjusting aspects like formality or pace if the user is, for example, very formal or seems in a hurry. This approach is rooted in the similarity-attraction effect, a key principle in human-computer interaction extensively explored by Stanford communication professor Clifford Nass. This principle indicates that people naturally build rapport with and respond more positively to communication styles that mirror their own, making the interaction feel more intuitive and responsive.
 
--**Define the dimensions of tone **to mirror. Beyond formality and pace, consider matching the user's level of detail, vocabulary, and structure.
--**Set firm guardrails to stay within the defined brand voice and the LLM role. **
+-**Define the dimensions of tone**to mirror. Beyond formality and pace, consider matching the user's level of detail, vocabulary, and structure.
+-**Set firm guardrails to stay within the defined brand voice and the LLM role.**
 - **Never mirror negative emotions like anger or use inappropriate language, even if the user does.**
 If the user's query is brief and direct, provide a concise answer. If the user's query is longer and more descriptive, adopt a slightly more elaborative tone in your response, while remaining helpful and on-brand.
 

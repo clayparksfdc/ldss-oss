@@ -67,7 +67,7 @@ The Agentforce Vibes Codey avatar.
 
 To allow Agentforce Vibes to auto-deploy metadata to your sandbox, click **Auto-Approve**.
 
-**Note: ** You can configure Agentforce Vibes to run approved terminal commands automatically. To do so, configure [Agentforce Vibes safe commands](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/safe-commands.html).
+**Note:** You can configure Agentforce Vibes to run approved terminal commands automatically. To do so, configure [Agentforce Vibes safe commands](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/safe-commands.html).
 
 The deploy-metadata window with a check next to Auto-approve.
 
@@ -77,7 +77,7 @@ In Type your task here... type a prompt to build your design.
 
 The Type your task here… window in the Agentforce Vibes VS Code extension.
 
-**Example: ** Grab the currently selected checkbox toggle from Figma by using the Figma MCP server. Build it as a Lightning Web Component (LWC), and use Lightning base components if possible. Then deploy it to my org. Use the DX MCP server as necessary.
+**Example:** Grab the currently selected checkbox toggle from Figma by using the Figma MCP server. Build it as a Lightning Web Component (LWC), and use Lightning base components if possible. Then deploy it to my org. Use the DX MCP server as necessary.
 
 Pay attention to the Agentforce Vibes chat window. As it build the files, you may need to click **Accept** or **Save** to accept the commands.
 

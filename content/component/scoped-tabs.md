@@ -68,23 +68,23 @@ Use three to five tabs for related sections, providing quick access to task-crit
 | *                                * ** ** ** | **Overflow Menu: **A dropdown for additional tabs that don’t fit in the visible area. |
 | *                                * ** ** ** | **Content area: **Displays content of the active tab. |
 
-**Container: ** Encloses the tabset and associated content.
+**Container:** Encloses the tabset and associated content.
 
-**Tabset: ** The** **container that holds a group of tabs.
+**Tabset:** The****container that holds a group of tabs.
 
 **Tab:** Individual navigational items within the tabset.
 
 **Label**: A concise name describing the tab’s content.
 
-**Overflow Menu: ** A dropdown for additional tabs that don’t fit in the visible area.
+**Overflow Menu:** A dropdown for additional tabs that don’t fit in the visible area.
 
-**Content area: ** Displays content of the active tab.
+**Content area:** Displays content of the active tab.
 
 ### Customization Options
 
 To apply additional styling, such as background, padding, or text color, use the SLDS utility classes with the `class` attribute.
 
-**Icons **
+**Icons**
 
 Use utility icons or standard object icons to differentiate tabs visually.
 
@@ -105,8 +105,8 @@ Scoped tabs are enclosed in a bordered container. Align the container with nearb
 
 1. **Selected:** The active tab is highlighted with a text label color change and the bottom border is remove.
 2. **Default:** Scoped tabs are inactive except for the default selected tab.
-3. **Hover: ** The tab changes color.
-4. **Focus: ** Focus follows selection. The active/focused tab is highlighted with a text label color change and the bottom border is removed. An underline is also shown on the label as a focus indicator.
+3. **Hover:** The tab changes color.
+4. **Focus:** Focus follows selection. The active/focused tab is highlighted with a text label color change and the bottom border is removed. An underline is also shown on the label as a focus indicator.
 
 ### Interactions
 

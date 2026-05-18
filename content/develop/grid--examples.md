@@ -368,7 +368,7 @@ This overview table outlines the default behavior for columns and shows how that
 
 **Large (>=1024px)**
 
-**ℹ️ ** To make sure columns wrap as they exceed a total column count of 12, add `slds-wrap` to the `slds-grid` container in responsive layouts.
+**ℹ️** To make sure columns wrap as they exceed a total column count of 12, add `slds-wrap` to the `slds-grid` container in responsive layouts.
 
 **Mobile/Desktop Example**
 

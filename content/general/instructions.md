@@ -7,7 +7,7 @@ order: 0
 
 ## Instructions
 
-Think of the **Instructions** section as the detailed roadmap for your LLM. It's where you provide the specific execution steps needed to tackle the **key task **and** **achieve the **goal** you established in **context setting**.
+Think of the **Instructions** section as the detailed roadmap for your LLM. It's where you provide the specific execution steps needed to tackle the **key task**and****achieve the **goal** you established in **context setting**.
 
 ### Sub-task Instructions
 
@@ -790,7 +790,7 @@ Provide sufficient context and rules to enable the LLM to capture language nuanc
 
 If only one language is needed for your use case, the simplest approach is to directly state the target language within your instructions. For more flexible applications, dynamically set the output language based on user preferences stored in your CRM, either by embedding merge fields or referencing specific fields with larger data sections in the prompt.
 
-**Cross-cultural products **
+**Cross-cultural products**
 
 Be mindful when creating prompts for globalization or localization. If your agent uses the same prompt for all markets, language rules shouldn’t be solely based on American English or another single language. Consider the diverse linguistic and cultural needs of different regions to enhance effectiveness and inclusivity.
 
@@ -808,7 +808,7 @@ It’s highly recommended to involve localization professionals to review the qu
 
 Design prompts and underlying systems that allow for easy adaptation and customization to meet the specific needs of different target markets. Incorporate feedback from diverse user groups and localization experts to refine prompts and verify cultural appropriateness.
 
-**Inclusive language and examples **
+**Inclusive language and examples**
 
 Use neutral and universally understood language whenever possible. Avoid idioms, slang, and culturally specific references that don’t always translate well or resonate with global audiences. When providing examples, include a diverse range of cultural contexts or are sufficiently generic to be broadly applicable.
 
@@ -953,14 +953,14 @@ Examples of unfulfillable utterances: “Draft an email to the lead I just spoke
 - **Desired output qualities:** Polite, regretful, informative, guiding
 If the user asks for something you cannot do, politely explain the limitation and suggest an alternative action or resource.
 
-**2. Non-Serious **
+**2. Non-Serious**
 
 At the surface, this type of utterance appears relevant to the core JTBD, but includes nonsensical or frivolous details that indicate that the user is testing boundaries or playing with the system to see how it responds. The user has no true intention of moving forward with the task. Change the tone to gently guide them back to the task.
 
 Example non-serious utterances: “Write an intro email to Bugs Bunny. Highlight our experience with carrots and outsmarting competitors”, “Generate an account summary for 'Stark Industries', but only use rhyming couplets.”
 
 - **Tone recommendations:** Neutral, calm, possibly slightly firm but not confrontational. Gently redirect back to the core purpose. Avoid playing along excessively if it derails the task.
-- **Desired output qualities: ** Patient, redirecting, matter-of-fact
+- **Desired output qualities:** Patient, redirecting, matter-of-fact
 If the user input is nonsensical but related to the task, do not generate a creative story, but state that you can only assist with supported features and redirect them back to a standard request.
 
 **3. Inappropriate Requests**
@@ -970,15 +970,15 @@ These utterances are harmful or invasive prompts that aren’t related to the JT
 Example inappropriate requests: “Write an email to my prospect that subtly hints that if they don't meet with us, their company will face some 'unfortunate online reviews'”, “Summarize the Acme account and include how many kids my contact has.”
 
 - **Tone recommendations:** Firm, clear, non-engageable, and aligned with safety guardrails. Immediately disengage from the harmful aspect and refuse the request. Not preachy or judgmental, but unambiguous.
-- **Desired output qualities: ** Direct, non-negotiable, definitive, aligned with safety policy
+- **Desired output qualities:** Direct, non-negotiable, definitive, aligned with safety policy
 If the query is asking for private information, directly respond verbatim with: "I can’t assist with that request." Do not provide further explanation or engage with the problematic request
 
 **Subtly Reflect User Tone**
 
 Beyond handling specific challenging utterances, consider instructing the LLM to subtly align with the user's communication style for standard interactions. This doesn't mean mimicking exactly, but rather adjusting aspects like formality or pace if the user is, for example, very formal or seems in a hurry. This approach is rooted in the [similarity-attraction effect](https://www.tandfonline.com/doi/full/10.1080/0144929X.2020.1723701#abstract), a key principle in human-computer interaction extensively explored by Stanford communication professor [Clifford Nass](https://mitpress.mit.edu/9780262640657/wired-for-speech/). This principle indicates that people naturally build rapport with and respond more positively to communication styles that mirror their own, making the interaction feel more intuitive and responsive.
 
-- **Define the dimensions of tone **to mirror. Beyond formality and pace, consider matching the user's level of detail, vocabulary, and structure.
-- **Set firm guardrails to stay within the defined brand voice and the LLM role. **
+- **Define the dimensions of tone**to mirror. Beyond formality and pace, consider matching the user's level of detail, vocabulary, and structure.
+- **Set firm guardrails to stay within the defined brand voice and the LLM role.**
 - **Never mirror negative emotions like anger or use inappropriate language, even if the user does.**
 If the user's query is brief and direct, provide a concise answer. If the user's query is longer and more descriptive, adopt a slightly more elaborative tone in your response, while remaining helpful and on-brand.
 
@@ -1115,9 +1115,9 @@ Gets straight to the point without unnecessary fluff. Values clarity, brevity, a
 
 Useful for providing quick answers, summaries, or instructions where ambiguity is undesirable.
 
-**For technical instructions **direct means unambiguous and step-oriented.
+**For technical instructions**direct means unambiguous and step-oriented.
 
-**For busy executives **direct means bottom-line upfront.
+**For busy executives**direct means bottom-line upfront.
 
 - Short and direct sentences and paragraphs
 - Avoiding unnecessary words or phrases
@@ -1288,7 +1288,7 @@ Output format instructions define the final output structure, such as Markdown, 
 - **What are the relevant length restrictions for the target system or user preferences?** Be mindful of character limits and desired brevity.
 **Structure and organization**
 
-What is the fundamental layout of the output? Consider how easy the content is to read, the hierarchy of the details, and if it needs to work with other systems.** ** For different sections in the output, consider if they have distinct formatting needs.
+What is the fundamental layout of the output? Consider how easy the content is to read, the hierarchy of the details, and if it needs to work with other systems.**** For different sections in the output, consider if they have distinct formatting needs.
 
 - **Paragraphs:** Best for narrative explanations, detailed descriptions, and flowing text.
 - **Bullet points:** Ideal for listing key features, benefits, action items, or concise pieces of information where order doesn't strictly matter.
@@ -1344,7 +1344,7 @@ Format your output in Markdown
 
 Format your output in Markdown. The main title should be a H1 heading, and key sections should be H2 headings.
 
-**HTML **
+**HTML**
 
 Sometimes you need the model to output the text in HTML in order to allow engineering to automatically render the output in the UI. Include explicit instructions about the tags to use and exclude. Often a show-and-tell approach helps in guiding the model how to output the HTML.**Examples**
 
@@ -1409,7 +1409,7 @@ The entire output should be wrapped in one <p></p>. Only add one <br> tag after 
 
 Do not generate any CSS. Do not generate code block formatting.
 
-**Links and URLs **
+**Links and URLs**
 
 When you want the LLM to provide clickable URLs immediately within its output, you must specify the exact format for the URL and clearly indicate where it should appear.
 

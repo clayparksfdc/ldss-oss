@@ -28,7 +28,7 @@ For the first draft of your prompt, focus on the absolute essential elements nee
 
 1. **WHAT** do you want the LLM to do?
 2. **WHY** do you want it done?
-3. **WHO **is involved?
+3. **WHO**is involved?
 4. **WHERE** is this happening?
 5. **HOW** should the LLM perform the task?
 
@@ -65,14 +65,14 @@ Think of designing and crafting an effective prompt like building with children'
 
 Similarly, crafting a powerful prompt is an act of design, not just writing. A successful prompt is carefully constructed from several core elements, each serving a specific purpose. Understanding this prompt anatomy is the first step to moving beyond simple questions and start designing instructions that guide LLMs to generate accurate, relevant, and consistently valuable responses.
 
-At their core, enterprise-level prompt templates require three key sections: **context setting, instructions, **and** data for grounding. Model containment guardrails** and other supplementary elements, including** **examples and structural elements, are optional, depending on your use case, and help refine the output. Let's break down each section into its elements.
+At their core, enterprise-level prompt templates require three key sections: **context setting, instructions,**and** data for grounding. Model containment guardrails** and other supplementary elements, including****examples and structural elements, are optional, depending on your use case, and help refine the output. Let's break down each section into its elements.
 
 ### Context Setting
 
 Context provides the LLM with background information about your task, its underlying goal, participants, and the high-level expected output.
 
-- **Key task. ** Clearly and directly state the core essential action that you want the LLM to perform. Use strong, unambiguous action verbs and avoid vague requests.
-- **End goal. ** Explain the purpose of your task to give the LLM critical strategic context. This helps the LLM understand the business goal and how the output will be used.
+- **Key task.** Clearly and directly state the core essential action that you want the LLM to perform. Use strong, unambiguous action verbs and avoid vague requests.
+- **End goal.** Explain the purpose of your task to give the LLM critical strategic context. This helps the LLM understand the business goal and how the output will be used.
 - **Participants and relationships**. LLMs need to know who is involved in the interaction and the relationships between them to tailor the tone, style, and content of the response.
 - **Scenario and setting**. Providing a setting for the LLM is essential as it influences the style, tone, and output format.
 
