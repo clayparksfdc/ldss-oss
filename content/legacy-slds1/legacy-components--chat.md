@@ -142,7 +142,7 @@ SLDS 1 blueprint examples for **Chat**.
               <figure>
                 <a href="#" class="slds-file__figure">
                   <span class="slds-assistive-text">Preview:</span>
-                  <img src="/assets/images/placeholder-img@16x9.jpg" alt="Description of the image" />
+                  <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/placeholder-img_16x9-a63eb9e2.jpg" alt="Description of the image" />
                 </a>
               </figure>
               <div class="slds-file__title slds-file__title_scrim">
@@ -187,7 +187,7 @@ SLDS 1 blueprint examples for **Chat**.
               <figure>
                 <a href="#" class="slds-file__crop slds-file__crop_4-by-3">
                   <span class="slds-assistive-text">Preview:</span>
-                  <img src="/assets/images/placeholder-img@16x9.jpg" alt="Description of the image" />
+                  <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/placeholder-img_16x9-a63eb9e2.jpg" alt="Description of the image" />
                 </a>
                 <figcaption class="slds-file__title slds-file__title_card slds-file-has-actions">
                   <div class="slds-media slds-media_small slds-media_center">
@@ -245,7 +245,7 @@ SLDS 1 blueprint examples for **Chat**.
               <figure>
                 <a href="#" class="slds-file__figure">
                   <span class="slds-assistive-text">Preview:</span>
-                  <img src="/assets/images/placeholder-img@16x9.jpg" alt="Description of the image" />
+                  <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/placeholder-img_16x9-a63eb9e2.jpg" alt="Description of the image" />
                 </a>
               </figure>
               <div class="slds-file__title slds-file__title_scrim">
@@ -279,7 +279,7 @@ SLDS 1 blueprint examples for **Chat**.
               <figure>
                 <a href="#" class="slds-file__figure">
                   <span class="slds-assistive-text">Preview:</span>
-                  <img src="/assets/images/placeholder-img@16x9.jpg" alt="Description of the image" />
+                  <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/placeholder-img_16x9-a63eb9e2.jpg" alt="Description of the image" />
                 </a>
                 <figcaption class="slds-file__title slds-file__title_card slds-file-has-actions">
                   <div class="slds-media slds-media_small slds-media_center">
@@ -334,7 +334,7 @@ SLDS 1 blueprint examples for **Chat**.
               <figure>
                 <a href="#" class="slds-file__figure slds-file__figure_portrait">
                   <span class="slds-assistive-text">Preview:</span>
-                  <img src="/assets/images/placeholder-img@9x16.jpg" alt="Description of the image" />
+                  <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/placeholder-img_9x16-4e387274.jpg" alt="Description of the image" />
                 </a>
                 <figcaption class="slds-file__title slds-file__title_card slds-file-has-actions">
                   <div class="slds-media slds-media_small slds-media_center">

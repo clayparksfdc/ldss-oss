@@ -891,7 +891,7 @@ SLDS 1 blueprint examples for **Page Headers**.
           <div class="slds-media slds-media_small">
             <div class="slds-media__figure">
               <span class="slds-avatar slds-avatar_circle slds-avatar_x-small">
-                <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+                <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
               </span>
             </div>
             <div class="slds-media__body">

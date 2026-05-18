@@ -59,7 +59,7 @@ SLDS 1 blueprint examples for **Avatar**.
 ::: legacy-component-example title="Linked Avatar"
 <a href="#">
   <span class="slds-avatar">
-    <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+    <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
   </span>
 </a>
 :::
@@ -80,30 +80,30 @@ SLDS 1 blueprint examples for **Avatar**.
 
 ::: legacy-component-example title="Circle"
 <span class="slds-avatar slds-avatar_circle">
-  <img alt="Person name" src="/assets/images/avatar2.jpg" title="Person name" />
+  <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person name" />
 </span>
 :::
 
 ::: legacy-component-example title="X-Small"
 <span class="slds-avatar slds-avatar_circle slds-avatar_x-small">
-  <img alt="Person name" src="/assets/images/avatar2.jpg" title="Person name" />
+  <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person name" />
 </span>
 :::
 
 ::: legacy-component-example title="Small"
 <span class="slds-avatar slds-avatar_circle slds-avatar_small">
-  <img alt="Person name" src="/assets/images/avatar2.jpg" title="Person name" />
+  <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person name" />
 </span>
 :::
 
 ::: legacy-component-example title="Medium"
 <span class="slds-avatar slds-avatar_circle slds-avatar_medium">
-  <img alt="Person name" src="/assets/images/avatar2.jpg" title="Person name" />
+  <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person name" />
 </span>
 :::
 
 ::: legacy-component-example title="Large"
 <span class="slds-avatar slds-avatar_circle slds-avatar_large">
-  <img alt="Person name" src="/assets/images/avatar2.jpg" title="Person name" />
+  <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person name" />
 </span>
 :::

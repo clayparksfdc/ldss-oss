@@ -50,7 +50,7 @@ interface MapEntry {
  * dist, and frontend/out (the rebuilt static export).
  */
 function findReferencedPaths(): { existing: Set<string>; missing: Set<string> } {
-  const refRegex = /\/(?:assets\/images|media)\/[a-zA-Z0-9_./-]+\.(?:png|jpg|jpeg|gif|webp|svg)/g;
+  const refRegex = /\/(?:assets\/images|media)\/[a-zA-Z0-9_./@-]+\.(?:png|jpg|jpeg|gif|webp|svg)/g;
   const refs = new Set<string>();
 
   function walk(dir: string) {

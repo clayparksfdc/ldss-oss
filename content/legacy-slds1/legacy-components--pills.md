@@ -44,7 +44,7 @@ SLDS 1 blueprint examples for **Pills**.
 <span class="slds-pill slds-pill_link">
   <span class="slds-pill__icon_container">
     <span class="slds-avatar slds-avatar_circle" title="User avatar">
-      <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+      <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
     </span>
   </span>
   <a href="#" class="slds-pill__action" title="Full pill label verbiage mirrored here">
@@ -236,7 +236,7 @@ SLDS 1 blueprint examples for **Pills**.
     <li class="slds-listbox-item">
       <span class="slds-pill">
         <span class="slds-avatar slds-avatar_x-small slds-pill__icon_container">
-          <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+          <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
         </span>
         <span class="slds-pill__label" title="Full pill label verbiage mirrored here">Pill Label</span>
         <span class="slds-icon_container slds-pill__remove" title="Remove">
@@ -252,7 +252,7 @@ SLDS 1 blueprint examples for **Pills**.
     <li class="slds-listbox-item">
       <span class="slds-pill">
         <span class="slds-avatar slds-avatar_x-small slds-pill__icon_container">
-          <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+          <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
         </span>
         <span class="slds-pill__label" title="Full pill label verbiage mirrored here">Pill Label</span>
         <span class="slds-icon_container slds-pill__remove" title="Remove">

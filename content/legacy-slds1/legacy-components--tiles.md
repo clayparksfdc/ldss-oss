@@ -82,7 +82,7 @@ SLDS 1 blueprint examples for **Tiles**.
   <article class="slds-tile slds-media">
     <div class="slds-media__figure">
       <span class="slds-avatar slds-avatar_circle slds-avatar_medium">
-        <img alt="" src="/assets/images/avatar2.jpg" title="Lexee L. Jackson avatar" />
+        <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lexee L. Jackson avatar" />
       </span>
     </div>
     <div class="slds-media__body">

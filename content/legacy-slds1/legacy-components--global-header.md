@@ -278,7 +278,7 @@ SLDS 1 blueprint examples for **Global Header**.
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
             <button class="slds-button slds-global-actions__avatar slds-global-actions__item-action" title="person name" aria-haspopup="true">
               <span class="slds-avatar slds-avatar_circle slds-avatar_medium">
-                <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+                <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
               </span>
             </button>
           </div>
@@ -571,7 +571,7 @@ SLDS 1 blueprint examples for **Global Header**.
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
             <button class="slds-button slds-global-actions__avatar slds-global-actions__item-action" title="person name" aria-haspopup="true">
               <span class="slds-avatar slds-avatar_circle slds-avatar_medium">
-                <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+                <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
               </span>
             </button>
           </div>
@@ -856,7 +856,7 @@ SLDS 1 blueprint examples for **Global Header**.
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
             <button class="slds-button slds-global-actions__avatar slds-global-actions__item-action" title="person name" aria-haspopup="true">
               <span class="slds-avatar slds-avatar_circle slds-avatar_medium">
-                <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+                <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
               </span>
             </button>
           </div>
@@ -1130,7 +1130,7 @@ SLDS 1 blueprint examples for **Global Header**.
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
             <button class="slds-button slds-global-actions__avatar slds-global-actions__item-action" title="person name" aria-haspopup="true">
               <span class="slds-avatar slds-avatar_circle slds-avatar_medium">
-                <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+                <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
               </span>
             </button>
           </div>
@@ -1323,7 +1323,7 @@ SLDS 1 blueprint examples for **Global Header**.
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
       <button class="slds-button slds-global-actions__avatar slds-global-actions__item-action" title="person name" aria-haspopup="true">
         <span class="slds-avatar slds-avatar_circle slds-avatar_medium">
-          <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+          <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
         </span>
       </button>
     </div>
@@ -1448,7 +1448,7 @@ SLDS 1 blueprint examples for **Global Header**.
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
       <button class="slds-button slds-global-actions__avatar slds-global-actions__item-action" title="person name" aria-haspopup="true">
         <span class="slds-avatar slds-avatar_circle slds-avatar_medium">
-          <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+          <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
         </span>
       </button>
     </div>

@@ -375,7 +375,7 @@ SLDS 1 blueprint examples for **Welcome Mat**.
               <p class="slds-welcome-mat__info-description slds-text-longform">Welcome to Lightning Experience, the modern, beautiful user experience from Salesforce. With a sales-and service-centric mindset, we focused on reinventing the desktop environment to better support your business processes.</p>
               <div class="slds-welcome-mat__info-progress">
                 <div class="slds-welcome-mat__info-badge-container">
-                  <img class="slds-welcome-mat__info-badge" src="/assets/images/welcome-mat/trailhead_badge@2x.png" width="50" height="50" alt="" />
+                  <img class="slds-welcome-mat__info-badge" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/welcome-mat/trailhead_badge_2x-a876de25.png" width="50" height="50" alt="" />
                   <span class="slds-icon_container slds-icon_container_circle slds-icon-action-check" title="Completed">
                     <svg class="slds-icon slds-welcome-mat__icon-check slds-icon_xx-small" aria-hidden="true">
                       <use xlink:href="/assets/icons/action-sprite/svg/symbols.svg#check"></use>
@@ -559,7 +559,7 @@ SLDS 1 blueprint examples for **Welcome Mat**.
               <p class="slds-welcome-mat__info-description slds-text-longform">Welcome to Lightning Experience, the modern, beautiful user experience from Salesforce. With a sales-and service-centric mindset, we focused on reinventing the desktop environment to better support your business processes.</p>
               <div class="slds-welcome-mat__info-progress slds-welcome-mat__info-progress_complete">
                 <div class="slds-welcome-mat__info-badge-container">
-                  <img class="slds-welcome-mat__info-badge" src="/assets/images/welcome-mat/trailhead_badge@2x.png" width="50" height="50" alt="" />
+                  <img class="slds-welcome-mat__info-badge" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/welcome-mat/trailhead_badge_2x-a876de25.png" width="50" height="50" alt="" />
                   <span class="slds-icon_container slds-icon_container_circle slds-icon-action-check" title="Completed">
                     <svg class="slds-icon slds-welcome-mat__icon-check slds-icon_xx-small" aria-hidden="true">
                       <use xlink:href="/assets/icons/action-sprite/svg/symbols.svg#check"></use>

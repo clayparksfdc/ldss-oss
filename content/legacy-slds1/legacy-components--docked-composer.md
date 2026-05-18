@@ -582,7 +582,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                 <li class="slds-listbox-item">
                   <span class="slds-pill">
                     <span class="slds-avatar slds-avatar_x-small slds-pill__icon_container">
-                      <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+                      <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
                     </span>
                     <span class="slds-pill__label" title="jrogers@cloudhub.com">jrogers@cloudhub.com</span>
                     <span class="slds-icon_container slds-pill__remove" title="Remove">
@@ -1061,7 +1061,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
         <span class="slds-avatar slds-avatar_large">
-          <img alt="" src="/assets/images/avatar2.jpg" title="Lei Chan avatar" />
+          <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
         </span>
         <h3 class="slds-text-heading_large">Lei Chan</h3>
         <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
@@ -1118,7 +1118,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
         <span class="slds-avatar slds-avatar_large">
-          <img alt="" src="/assets/images/avatar2.jpg" title="Lei Chan avatar" />
+          <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
         </span>
         <h3 class="slds-text-heading_large">Lei Chan</h3>
         <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
@@ -1177,7 +1177,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
         <div class="slds-media">
           <div class="slds-media__figure">
             <span class="slds-avatar slds-avatar_medium">
-              <img alt="" src="/assets/images/avatar2.jpg" title="Lei Chan avatar" />
+              <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
             </span>
           </div>
           <div class="slds-media__body">
@@ -1248,7 +1248,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
         <span class="slds-avatar slds-avatar_large">
-          <img alt="" src="/assets/images/avatar2.jpg" title="Lei Chan avatar" />
+          <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
         </span>
         <h3 class="slds-text-heading_large">Lei Chan</h3>
         <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
@@ -1302,7 +1302,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
         <span class="slds-avatar slds-avatar_large">
-          <img alt="" src="/assets/images/avatar2.jpg" title="Lei Chan avatar" />
+          <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
         </span>
         <h3 class="slds-text-heading_large">Lei Chan</h3>
         <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
@@ -1360,7 +1360,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
         <span class="slds-avatar slds-avatar_large">
-          <img alt="" src="/assets/images/avatar2.jpg" title="Lei Chan avatar" />
+          <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
         </span>
         <h3 class="slds-text-heading_large">Lei Chan</h3>
         <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
@@ -1418,7 +1418,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
         <span class="slds-avatar slds-avatar_large">
-          <img alt="" src="/assets/images/avatar2.jpg" title="Lei Chan avatar" />
+          <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
         </span>
         <h3 class="slds-text-heading_large">Lei Chan</h3>
         <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
@@ -1478,7 +1478,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
         <div class="slds-media">
           <div class="slds-media__figure">
             <span class="slds-avatar slds-avatar_medium">
-              <img alt="" src="/assets/images/avatar2.jpg" title="Lei Chan avatar" />
+              <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
             </span>
           </div>
           <div class="slds-media__body">
@@ -1548,7 +1548,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
     <div class="slds-docked-composer__body slds-align_absolute-center slds-size_1-of-1" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
         <span class="slds-avatar slds-avatar_large">
-          <img alt="" src="/assets/images/avatar2.jpg" title="Lei Chan avatar" />
+          <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
         </span>
         <h3 class="slds-text-heading_large">Lei Chan</h3>
         <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">

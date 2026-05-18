@@ -66,7 +66,7 @@ SLDS 1 blueprint examples for **Publishers**.
 <div class="slds-media slds-comment slds-hint-parent">
   <div class="slds-media__figure">
     <a class="slds-avatar slds-avatar_circle slds-avatar_medium" href="#">
-      <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+      <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
     </a>
   </div>
   <div class="slds-media__body">
@@ -103,7 +103,7 @@ SLDS 1 blueprint examples for **Publishers**.
 <div class="slds-media slds-comment slds-hint-parent">
   <div class="slds-media__figure">
     <a class="slds-avatar slds-avatar_circle slds-avatar_medium" href="#">
-      <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+      <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
     </a>
   </div>
   <div class="slds-media__body">
@@ -140,7 +140,7 @@ SLDS 1 blueprint examples for **Publishers**.
 <div class="slds-media slds-comment slds-hint-parent">
   <div class="slds-media__figure">
     <a class="slds-avatar slds-avatar_circle slds-avatar_medium" href="#">
-      <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+      <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
     </a>
   </div>
   <div class="slds-media__body">

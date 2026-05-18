@@ -615,7 +615,7 @@ SLDS 1 blueprint examples for **Form Element**.
         <div class="slds-form-element__control">
           <div class="slds-form-element__static">
             <span class="slds-avatar slds-avatar_x-small slds-avatar_circle slds-m-right_xx-small">
-              <img alt="Jack Rogers" src="/assets/images/avatar1.jpg" title="Jack Rogers" />
+              <img alt="Jack Rogers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jack Rogers" />
             </span>
             <a href="#">Jack Rogers</a>
           </div>
@@ -849,7 +849,7 @@ SLDS 1 blueprint examples for **Form Element**.
         <div class="slds-form-element__control">
           <div class="slds-form-element__static">
             <span class="slds-avatar slds-avatar_x-small slds-avatar_circle slds-m-right_xx-small">
-              <img alt="Jack Rogers" src="/assets/images/avatar1.jpg" title="Jack Rogers" />
+              <img alt="Jack Rogers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jack Rogers" />
             </span>
             <a href="#">Jack Rogers</a>
           </div>

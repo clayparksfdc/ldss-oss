@@ -7,10 +7,10 @@ SLDS 1 blueprint examples for **Avatar Group**.
 ::: legacy-component-example title="Base"
 <span class="slds-avatar-group">
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__primary">
-    <img alt="Person 2 name" src="/assets/images/avatar2.jpg" title="Person 2 name" />
+    <img alt="Person 2 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person 2 name" />
   </span>
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__secondary">
-    <img alt="Person 2 name" src="/assets/images/avatar2.jpg" title="Person 2 name" />
+    <img alt="Person 2 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person 2 name" />
   </span>
 </span>
 :::
@@ -61,7 +61,7 @@ SLDS 1 blueprint examples for **Avatar Group**.
 ::: legacy-component-example title="With Mixed Avatar types"
 <span class="slds-avatar-group">
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__primary">
-    <img alt="Person 1 name" src="/assets/images/avatar1.jpg" title="Person 1 name" />
+    <img alt="Person 1 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Person 1 name" />
   </span>
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__secondary">
     <span class="slds-icon_container slds-icon-standard-user slds-avatar-grouped__icon" title="Description of icon when needed">
@@ -90,7 +90,7 @@ SLDS 1 blueprint examples for **Avatar Group**.
     <abbr class="slds-avatar__initials slds-avatar-grouped__initials" title="Person name">WW</abbr>
   </span>
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__secondary">
-    <img alt="Person 1 name" src="/assets/images/avatar1.jpg" title="Person 1 name" />
+    <img alt="Person 1 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Person 1 name" />
   </span>
 </span>
 :::
@@ -98,10 +98,10 @@ SLDS 1 blueprint examples for **Avatar Group**.
 ::: legacy-component-example title="Example 6"
 <span class="slds-avatar-group slds-avatar-group_x-small">
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__primary">
-    <img alt="Person 2 name" src="/assets/images/avatar2.jpg" title="Person 2 name" />
+    <img alt="Person 2 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person 2 name" />
   </span>
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__secondary">
-    <img alt="Person 2 name" src="/assets/images/avatar2.jpg" title="Person 2 name" />
+    <img alt="Person 2 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person 2 name" />
   </span>
 </span>
 :::
@@ -109,10 +109,10 @@ SLDS 1 blueprint examples for **Avatar Group**.
 ::: legacy-component-example title="Example 7"
 <span class="slds-avatar-group slds-avatar-group_small">
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__primary">
-    <img alt="Person 2 name" src="/assets/images/avatar2.jpg" title="Person 2 name" />
+    <img alt="Person 2 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person 2 name" />
   </span>
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__secondary">
-    <img alt="Person 2 name" src="/assets/images/avatar2.jpg" title="Person 2 name" />
+    <img alt="Person 2 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person 2 name" />
   </span>
 </span>
 :::
@@ -120,10 +120,10 @@ SLDS 1 blueprint examples for **Avatar Group**.
 ::: legacy-component-example title="Example 8"
 <span class="slds-avatar-group slds-avatar-group_medium">
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__primary">
-    <img alt="Person 2 name" src="/assets/images/avatar2.jpg" title="Person 2 name" />
+    <img alt="Person 2 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person 2 name" />
   </span>
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__secondary">
-    <img alt="Person 2 name" src="/assets/images/avatar2.jpg" title="Person 2 name" />
+    <img alt="Person 2 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person 2 name" />
   </span>
 </span>
 :::
@@ -131,10 +131,10 @@ SLDS 1 blueprint examples for **Avatar Group**.
 ::: legacy-component-example title="Example 9"
 <span class="slds-avatar-group slds-avatar-group_large">
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__primary">
-    <img alt="Person 2 name" src="/assets/images/avatar2.jpg" title="Person 2 name" />
+    <img alt="Person 2 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person 2 name" />
   </span>
   <span class="slds-avatar slds-avatar-grouped slds-avatar-grouped__secondary">
-    <img alt="Person 2 name" src="/assets/images/avatar2.jpg" title="Person 2 name" />
+    <img alt="Person 2 name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Person 2 name" />
   </span>
 </span>
 :::

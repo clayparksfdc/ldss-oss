@@ -12,7 +12,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <header class="slds-post__header slds-media">
           <div class="slds-media__figure">
             <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_large">
-              <img alt="Jason Rodgers" src="/assets/images/avatar1.jpg" title="Jason Rodgers avatar" />
+              <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -74,7 +74,7 @@ SLDS 1 blueprint examples for **Feeds**.
             <article class="slds-comment slds-media slds-hint-parent">
               <div class="slds-media__figure">
                 <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_medium">
-                  <img alt="Jenna Davis" src="/assets/images/avatar2.jpg" title="Jenna Davis avatar" />
+                  <img alt="Jenna Davis" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Jenna Davis avatar" />
                 </a>
               </div>
               <div class="slds-media__body">
@@ -111,7 +111,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <header class="slds-post__header slds-media">
           <div class="slds-media__figure">
             <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_large">
-              <img alt="Jason Rodgers" src="/assets/images/avatar1.jpg" title="Jason Rodgers avatar" />
+              <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -176,7 +176,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <header class="slds-post__header slds-media">
           <div class="slds-media__figure">
             <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_large">
-              <img alt="Jason Rodgers" src="/assets/images/avatar1.jpg" title="Jason Rodgers avatar" />
+              <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -241,7 +241,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <header class="slds-post__header slds-media">
           <div class="slds-media__figure">
             <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_large">
-              <img alt="Jason Rodgers" src="/assets/images/avatar1.jpg" title="Jason Rodgers avatar" />
+              <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -271,7 +271,7 @@ SLDS 1 blueprint examples for **Feeds**.
             <div class="slds-media__figure slds-medium-show">
               <div class="slds-file slds-size_small">
                 <figure class="slds-file__crop slds-file__crop_16-by-9">
-                  <img src="/assets/images/placeholder-img@16x9.jpg" alt="Description of the image" />
+                  <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/placeholder-img_16x9-a63eb9e2.jpg" alt="Description of the image" />
                 </figure>
               </div>
             </div>
@@ -322,7 +322,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <header class="slds-post__header slds-media">
           <div class="slds-media__figure">
             <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_large">
-              <img alt="Jason Rodgers" src="/assets/images/avatar1.jpg" title="Jason Rodgers avatar" />
+              <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -354,7 +354,7 @@ SLDS 1 blueprint examples for **Feeds**.
                 <figure>
                   <a href="#" class="slds-file__crop slds-file__crop_16-by-9">
                     <span class="slds-assistive-text">Preview:</span>
-                    <img src="/assets/images/placeholder-img@16x9.jpg" alt="Description of the image" />
+                    <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/placeholder-img_16x9-a63eb9e2.jpg" alt="Description of the image" />
                   </a>
                   <figcaption class="slds-file__title slds-file__title_card">
                     <div class="slds-media slds-media_small slds-media_center">
@@ -410,7 +410,7 @@ SLDS 1 blueprint examples for **Feeds**.
                   <a href="#" class="slds-file__crop slds-file__crop_16-by-9">
                     <div class="slds-file_overlay"></div>
                     <span class="slds-assistive-text">Preview:</span>
-                    <img src="/assets/images/placeholder-img@16x9.jpg" alt="Description of the image" />
+                    <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/placeholder-img_16x9-a63eb9e2.jpg" alt="Description of the image" />
                   </a>
                   <figcaption class="slds-file__title slds-file__title_overlay slds-align_absolute-center slds-text-heading_large">
                     <div class="slds-media slds-media_small slds-media_center">
@@ -467,7 +467,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <header class="slds-post__header slds-media">
           <div class="slds-media__figure">
             <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_large">
-              <img alt="Jason Rodgers" src="/assets/images/avatar1.jpg" title="Jason Rodgers avatar" />
+              <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -526,7 +526,7 @@ SLDS 1 blueprint examples for **Feeds**.
             <article class="slds-comment slds-media slds-hint-parent">
               <div class="slds-media__figure">
                 <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_medium">
-                  <img alt="Jenna Davis" src="/assets/images/avatar2.jpg" title="Jenna Davis avatar" />
+                  <img alt="Jenna Davis" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Jenna Davis avatar" />
                 </a>
               </div>
               <div class="slds-media__body">
@@ -559,7 +559,7 @@ SLDS 1 blueprint examples for **Feeds**.
             <article class="slds-comment slds-media slds-hint-parent">
               <div class="slds-media__figure">
                 <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_medium">
-                  <img alt="Jenna Davis" src="/assets/images/avatar2.jpg" title="Jenna Davis avatar" />
+                  <img alt="Jenna Davis" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Jenna Davis avatar" />
                 </a>
               </div>
               <div class="slds-media__body">
@@ -592,7 +592,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <div class="slds-media slds-comment slds-hint-parent">
           <div class="slds-media__figure">
             <a class="slds-avatar slds-avatar_circle slds-avatar_medium" href="#">
-              <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+              <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -637,7 +637,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <header class="slds-post__header slds-media">
           <div class="slds-media__figure">
             <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_large">
-              <img alt="Jason Rodgers" src="/assets/images/avatar1.jpg" title="Jason Rodgers avatar" />
+              <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -700,7 +700,7 @@ SLDS 1 blueprint examples for **Feeds**.
             <article class="slds-comment slds-media slds-hint-parent">
               <div class="slds-media__figure">
                 <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_medium">
-                  <img alt="Jenna Davis" src="/assets/images/avatar2.jpg" title="Jenna Davis avatar" />
+                  <img alt="Jenna Davis" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Jenna Davis avatar" />
                 </a>
               </div>
               <div class="slds-media__body">
@@ -733,7 +733,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <div class="slds-media slds-comment slds-hint-parent">
           <div class="slds-media__figure">
             <a class="slds-avatar slds-avatar_circle slds-avatar_medium" href="#">
-              <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+              <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -778,7 +778,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <header class="slds-post__header slds-media">
           <div class="slds-media__figure">
             <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_large">
-              <img alt="Jason Rodgers" src="/assets/images/avatar1.jpg" title="Jason Rodgers avatar" />
+              <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -841,7 +841,7 @@ SLDS 1 blueprint examples for **Feeds**.
             <article class="slds-comment slds-media slds-hint-parent">
               <div class="slds-media__figure">
                 <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_medium">
-                  <img alt="Jenna Davis" src="/assets/images/avatar2.jpg" title="Jenna Davis avatar" />
+                  <img alt="Jenna Davis" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Jenna Davis avatar" />
                 </a>
               </div>
               <div class="slds-media__body">
@@ -874,7 +874,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <div class="slds-media slds-comment slds-hint-parent">
           <div class="slds-media__figure">
             <a class="slds-avatar slds-avatar_circle slds-avatar_medium" href="#">
-              <img alt="Person name" src="/assets/images/avatar2.jpg" title="User avatar" />
+              <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -919,7 +919,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <header class="slds-post__header slds-media">
           <div class="slds-media__figure">
             <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_large">
-              <img alt="Jason Rodgers" src="/assets/images/avatar1.jpg" title="Jason Rodgers avatar" />
+              <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
           <div class="slds-media__body">
@@ -985,7 +985,7 @@ SLDS 1 blueprint examples for **Feeds**.
         <header class="slds-post__header slds-media">
           <div class="slds-media__figure">
             <a href="#" class="slds-avatar slds-avatar_circle slds-avatar_large">
-              <img alt="Jason Rodgers" src="/assets/images/avatar1.jpg" title="Jason Rodgers avatar" />
+              <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
           <div class="slds-media__body">
