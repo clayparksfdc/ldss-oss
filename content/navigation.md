@@ -7,6 +7,12 @@
   - [Designers](/get-started/designers)
   - [Developers](/get-started/developers)
   - [Resources](/get-started/resources)
+  - [Learn More](/get-started/learn-more)
+  - [Glossary](/get-started/glossary)
+  - [FAQs](/get-started/faqs) {sidebar}
+    - [General](/get-started/faqs--general)
+    - [Designer](/get-started/faqs--designer)
+    - [Developer](/get-started/faqs--developer)
 - AI and SLDS 2
   - [AI and SLDS 2](/ai-and-slds-2/ai-and-slds-2)
   - [Agentic Patterns](/ai-and-slds-2/agentic-patterns)
@@ -42,6 +48,7 @@
     - [VS Code + Vibes](/ai-and-slds-2/vibe-coding-and-slds--vs-code-vibes)
     - [Salesforce Sandbox Vibes](/ai-and-slds-2/vibe-coding-and-slds--salesforce-sandbox-vibes)
 - Foundations
+  - [Foundations](/foundation/foundations)
   - [Icons](/foundation/icons) {sidebar}
     - [Overview](/foundation/icons--overview)
     - [Usage](/foundation/icons--usage)
@@ -88,34 +95,82 @@
     - [Types](/foundation/illustrations--types)
     - [UI Text](/foundation/illustrations--ui-text)
 - Develop
+  - [Develop](/develop/develop)
   - [Global Styling Hooks](/develop/styling-hook-index) {sidebar}
     - [Reference](/develop/styling-hook-index)
     - [Visualizer](/develop/styling-hook-visualizer)
-  - [Utility Classes](/develop/utility-classes) {sidebar}
-    - [Alignment](/develop/alignment)
-    - [Border](/develop/border)
-    - [Box](/develop/box)
-    - [Description List](/develop/description-list)
-    - [Float](/develop/float)
-    - [Grid](/develop/grid)
-    - [Horizontal List](/develop/horizontal-list)
-    - [Hyphenation](/develop/hyphenation)
-    - [Interactions](/develop/interactions)
-    - [Layout](/develop/layout)
-    - [Line Clamp](/develop/line-clamp)
-    - [Margin](/develop/margin)
-    - [Media Object](/develop/media-object)
-    - [Name Value List](/develop/name-value-list)
-    - [Padding](/develop/padding)
-    - [Position](/develop/position)
-    - [Print](/develop/print)
-    - [Scrollable](/develop/scrollable)
-    - [Sizing](/develop/sizing)
-    - [Text](/develop/text)
-    - [Truncation](/develop/truncation)
-    - [Vertical List](/develop/vertical-list)
-    - [Visibility](/develop/visibility)
+  - [Utility Classes](/develop/utility-classes)
+  - [Alignment](/develop/alignment) {sidebar}
+    - [Examples](/develop/alignment--examples)
+    - [CSS Classes](/develop/alignment--css-classes)
+  - [Border](/develop/border) {sidebar}
+    - [Examples](/develop/border--examples)
+    - [CSS Classes](/develop/border--css-classes)
+  - [Box](/develop/box) {sidebar}
+    - [Examples](/develop/box--examples)
+    - [CSS Classes](/develop/box--css-classes)
+  - [Description List](/develop/description-list) {sidebar}
+    - [Examples](/develop/description-list--examples)
+    - [CSS Classes](/develop/description-list--css-classes)
+  - [Float](/develop/float) {sidebar}
+    - [Examples](/develop/float--examples)
+    - [CSS Classes](/develop/float--css-classes)
+  - [Grid](/develop/grid) {sidebar}
+    - [Examples](/develop/grid--examples)
+    - [CSS Classes](/develop/grid--css-classes)
+  - [Horizontal List](/develop/horizontal-list) {sidebar}
+    - [Examples](/develop/horizontal-list--examples)
+    - [CSS Classes](/develop/horizontal-list--css-classes)
+  - [Hyphenation](/develop/hyphenation) {sidebar}
+    - [Examples](/develop/hyphenation--examples)
+    - [CSS Classes](/develop/hyphenation--css-classes)
+  - [Interactions](/develop/interactions) {sidebar}
+    - [Examples](/develop/interactions--examples)
+    - [CSS Classes](/develop/interactions--css-classes)
+  - [Layout](/develop/layout) {sidebar}
+    - [Examples](/develop/layout--examples)
+    - [CSS Classes](/develop/layout--css-classes)
+  - [Line Clamp](/develop/line-clamp) {sidebar}
+    - [Examples](/develop/line-clamp--examples)
+    - [CSS Classes](/develop/line-clamp--css-classes)
+  - [Margin](/develop/margin) {sidebar}
+    - [Examples](/develop/margin--examples)
+    - [CSS Classes](/develop/margin--css-classes)
+  - [Media Object](/develop/media-object) {sidebar}
+    - [Examples](/develop/media-object--examples)
+    - [CSS Classes](/develop/media-object--css-classes)
+  - [Name Value List](/develop/name-value-list) {sidebar}
+    - [Examples](/develop/name-value-list--examples)
+    - [CSS Classes](/develop/name-value-list--css-classes)
+  - [Padding](/develop/padding) {sidebar}
+    - [Examples](/develop/padding--examples)
+    - [CSS Classes](/develop/padding--css-classes)
+  - [Position](/develop/position) {sidebar}
+    - [Examples](/develop/position--examples)
+    - [CSS Classes](/develop/position--css-classes)
+  - [Print](/develop/print) {sidebar}
+    - [Examples](/develop/print--examples)
+    - [CSS Classes](/develop/print--css-classes)
+  - [Scrollable](/develop/scrollable) {sidebar}
+    - [Examples](/develop/scrollable--examples)
+    - [CSS Classes](/develop/scrollable--css-classes)
+  - [Sizing](/develop/sizing) {sidebar}
+    - [Examples](/develop/sizing--examples)
+    - [CSS Classes](/develop/sizing--css-classes)
+  - [Text](/develop/text) {sidebar}
+    - [Examples](/develop/text--examples)
+    - [CSS Classes](/develop/text--css-classes)
+  - [Truncation](/develop/truncation) {sidebar}
+    - [Examples](/develop/truncation--examples)
+    - [CSS Classes](/develop/truncation--css-classes)
+  - [Vertical List](/develop/vertical-list) {sidebar}
+    - [Examples](/develop/vertical-list--examples)
+    - [CSS Classes](/develop/vertical-list--css-classes)
+  - [Visibility](/develop/visibility) {sidebar}
+    - [Examples](/develop/visibility--examples)
+    - [CSS Classes](/develop/visibility--css-classes)
 - Components
+  - [Components](/component/components)
   - [Accordion](/component/accordion)
     - [Usage](/component/accordion--usage)
     - [Develop](/develop/accordion--develop)
@@ -459,6 +514,7 @@
   - [Visual Picker](/legacy-slds1/legacy-components--visual-picker)
   - [Welcome Mat](/legacy-slds1/legacy-components--welcome-mat)
 - Tools
+  - [Tools](/tools/tools)
   - [Developer Tools](/tools/developer-tools)
   - [Designer Tools](/tools/designer-tools)
   - [SLDS Validator](/tools/slds-validator)
