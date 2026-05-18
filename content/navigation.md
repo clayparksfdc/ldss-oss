@@ -9,7 +9,7 @@
   - [Resources](/get-started/resources)
 - AI and SLDS 2
   - [AI and SLDS 2](/ai-and-slds-2/ai-and-slds-2)
-  - [Agentic Patterns](/pattern/agentic-patterns)
+  - [Agentic Patterns](/ai-and-slds-2/agentic-patterns)
   - [AI Tools](/ai-and-slds-2/ai-tools)
 - Foundations
   - [Icons](/foundation/icons) {sidebar}
@@ -253,7 +253,7 @@
     - [Develop](/develop/tree-grid--develop)
     - [Accessibility](/component/tree-grid--accessibility)
 - Patterns
-  - [Agentic Patterns](/pattern/agentic-patterns)
+  - [Agentic Patterns](/ai-and-slds-2/agentic-patterns)
   - [In App Feedback](/pattern/in-app-feedback)
     - [In App Feedback Patterns](/pattern/in-app-feedback--in-app-feedback-patterns)
   - [User Engagement](/pattern/user-engagement)
@@ -263,8 +263,8 @@
     - [Troubleshooting](/pattern/user-engagement--troubleshooting)
     - [Onboarding](/pattern/user-engagement--onboarding)
 - Accessibility
-  - [Global Accessibility Standards](/foundation/global-accessibility-standards)
-  - [Text and Color Contrast](/foundation/text-and-color-contrast)
+  - [Global Accessibility Standards](/accessibility/global-accessibility-standards)
+  - [Text and Color Contrast](/accessibility/text-and-color-contrast)
 - Legacy (SLDS1)
   - [SLDS v1 ↗](https://v1.lightningdesignsystem.com/)
   - [Components](/legacy-slds1/legacy-components)
@@ -352,7 +352,7 @@
   - [Visual Picker](/legacy-slds1/legacy-components--visual-picker)
   - [Welcome Mat](/legacy-slds1/legacy-components--welcome-mat)
 - Tools
-  - [Developer Tools](/develop/developer-tools)
-  - [Designer Tools](/design/designer-tools)
+  - [Developer Tools](/tools/developer-tools)
+  - [Designer Tools](/tools/designer-tools)
   - [SLDS Validator](/tools/slds-validator)
-  - [SLDS Linter](/general/slds-linter)
+  - [SLDS Linter](/tools/slds-linter)

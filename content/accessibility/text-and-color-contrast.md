@@ -1,7 +1,7 @@
 ---
 title: "Text and Color Contrast"
 slug: "text-and-color-contrast"
-category: "foundation"
+category: "accessibility"
 url: "/accessibility/text-and-color-contrast"
 extractedAt: "2026-02-21T22:00:08.494Z"
 ---

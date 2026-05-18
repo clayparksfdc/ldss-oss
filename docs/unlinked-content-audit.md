@@ -1,13 +1,13 @@
 # Unlinked content audit
 
-Generated: 2026-05-18T21:55:58.917Z
+Generated: 2026-05-18T22:29:48.416Z
 
 ## Summary
 
-- Total .md files: **1012**
+- Total .md files: **868**
 - Linked from `navigation.md` directly: **343**
 - Sub-tabs of a linked parent (legit, kept): **88**
-- **Duplicates (delete candidate)**: **144**
+- **Duplicates (delete candidate)**: **0**
 - Orphans (no nav entry anywhere): **437**
 
 ## ❗ Duplicates (safe to delete)
@@ -16,150 +16,6 @@ These files have a slug that IS linked from navigation, but the file is in the w
 
 | Delete | Keep | Slug |
 |---|---|---|
-| `content/accessibility/global-accessibility-standards.md` | `content/foundation/global-accessibility-standards.md` | global-accessibility-standards |
-| `content/accessibility/text-and-color-contrast.md` | `content/foundation/text-and-color-contrast.md` | text-and-color-contrast |
-| `content/ai-and-slds-2/agentic-patterns.md` | `content/pattern/agentic-patterns.md` | agentic-patterns |
-| `content/ai-and-slds-2/ai-and-slds-2.md` | `content/general/ai-and-slds-2.md` | ai-and-slds-2 |
-| `content/ai-and-slds-2/ai-tools.md` | `content/general/ai-tools.md` | ai-tools |
-| `content/design/borders-and-radius--styling-hooks.md` | `content/foundation/borders-and-radius--styling-hooks.md` | borders-and-radius--styling-hooks |
-| `content/design/designers.md` | `content/get-started/designers.md` | designers |
-| `content/design/display-density--styling-hooks.md` | `content/foundation/display-density--styling-hooks.md` | display-density--styling-hooks |
-| `content/design/shadows--styling-hooks.md` | `content/foundation/shadows--styling-hooks.md` | shadows--styling-hooks |
-| `content/develop/developers.md` | `content/get-started/developers.md` | developers |
-| `content/foundation/color-picker.md` | `content/component/color-picker.md` | color-picker |
-| `content/foundation/dynamic-icons--accessibility.md` | `content/component/dynamic-icons--accessibility.md` | dynamic-icons--accessibility |
-| `content/foundation/dynamic-icons--develop.md` | `content/develop/dynamic-icons--develop.md` | dynamic-icons--develop |
-| `content/foundation/dynamic-icons--specifications.md` | `content/component/dynamic-icons--specifications.md` | dynamic-icons--specifications |
-| `content/foundation/dynamic-icons--usage.md` | `content/component/dynamic-icons--usage.md` | dynamic-icons--usage |
-| `content/foundation/dynamic-icons.md` | `content/component/dynamic-icons.md` | dynamic-icons |
-| `content/foundation/tree-grid--accessibility.md` | `content/component/tree-grid--accessibility.md` | tree-grid--accessibility |
-| `content/foundation/tree-grid--develop.md` | `content/develop/tree-grid--develop.md` | tree-grid--develop |
-| `content/foundation/tree-grid--usage.md` | `content/component/tree-grid--usage.md` | tree-grid--usage |
-| `content/foundation/tree-grid.md` | `content/component/tree-grid.md` | tree-grid |
-| `content/general/admins.md` | `content/get-started/admins.md` | admins |
-| `content/general/avatar--specifications.md` | `content/component/avatar--specifications.md` | avatar--specifications |
-| `content/general/avatar--usage.md` | `content/component/avatar--usage.md` | avatar--usage |
-| `content/general/avatar.md` | `content/component/avatar.md` | avatar |
-| `content/general/badge--usage.md` | `content/component/badge--usage.md` | badge--usage |
-| `content/general/badge.md` | `content/component/badge.md` | badge |
-| `content/general/borders-and-radius--overview.md` | `content/foundation/borders-and-radius--overview.md` | borders-and-radius--overview |
-| `content/general/borders-and-radius--radius.md` | `content/foundation/borders-and-radius--radius.md` | borders-and-radius--radius |
-| `content/general/borders-and-radius--width.md` | `content/foundation/borders-and-radius--width.md` | borders-and-radius--width |
-| `content/general/borders-and-radius.md` | `content/foundation/borders-and-radius.md` | borders-and-radius |
-| `content/general/breadcrumbs--specifications.md` | `content/component/breadcrumbs--specifications.md` | breadcrumbs--specifications |
-| `content/general/breadcrumbs--usage.md` | `content/component/breadcrumbs--usage.md` | breadcrumbs--usage |
-| `content/general/breadcrumbs.md` | `content/component/breadcrumbs.md` | breadcrumbs |
-| `content/general/carousel--specifications.md` | `content/component/carousel--specifications.md` | carousel--specifications |
-| `content/general/carousel.md` | `content/component/carousel.md` | carousel |
-| `content/general/checkbox--specifications.md` | `content/component/checkbox--specifications.md` | checkbox--specifications |
-| `content/general/checkbox--usage.md` | `content/component/checkbox--usage.md` | checkbox--usage |
-| `content/general/checkbox-toggle--specifications.md` | `content/component/checkbox-toggle--specifications.md` | checkbox-toggle--specifications |
-| `content/general/checkbox-toggle--usage.md` | `content/component/checkbox-toggle--usage.md` | checkbox-toggle--usage |
-| `content/general/checkbox-toggle.md` | `content/component/checkbox-toggle.md` | checkbox-toggle |
-| `content/general/checkbox.md` | `content/component/checkbox.md` | checkbox |
-| `content/general/combobox--specifications.md` | `content/component/combobox--specifications.md` | combobox--specifications |
-| `content/general/combobox--usage.md` | `content/component/combobox--usage.md` | combobox--usage |
-| `content/general/combobox.md` | `content/component/combobox.md` | combobox |
-| `content/general/datepicker--specifications.md` | `content/component/datepicker--specifications.md` | datepicker--specifications |
-| `content/general/datepicker.md` | `content/component/datepicker.md` | datepicker |
-| `content/general/datetime-picker.md` | `content/component/datetime-picker.md` | datetime-picker |
-| `content/general/display-density--custom-configurations.md` | `content/foundation/display-density--custom-configurations.md` | display-density--custom-configurations |
-| `content/general/display-density--overview.md` | `content/foundation/display-density--overview.md` | display-density--overview |
-| `content/general/display-density.md` | `content/foundation/display-density.md` | display-density |
-| `content/general/dual-listbox--specifications.md` | `content/component/dual-listbox--specifications.md` | dual-listbox--specifications |
-| `content/general/dual-listbox--usage.md` | `content/component/dual-listbox--usage.md` | dual-listbox--usage |
-| `content/general/dual-listbox.md` | `content/component/dual-listbox.md` | dual-listbox |
-| `content/general/empty-state.md` | `content/component/empty-state.md` | empty-state |
-| `content/general/file-selector--specifications.md` | `content/component/file-selector--specifications.md` | file-selector--specifications |
-| `content/general/file-selector--usage.md` | `content/component/file-selector--usage.md` | file-selector--usage |
-| `content/general/file-selector.md` | `content/component/file-selector.md` | file-selector |
-| `content/general/form-element--specifications.md` | `content/component/form-element--specifications.md` | form-element--specifications |
-| `content/general/form-element--usage.md` | `content/component/form-element--usage.md` | form-element--usage |
-| `content/general/form-element.md` | `content/component/form-element.md` | form-element |
-| `content/general/get-started.md` | `content/get-started/get-started.md` | get-started |
-| `content/general/illustrations--overview.md` | `content/foundation/illustrations--overview.md` | illustrations--overview |
-| `content/general/illustrations--types.md` | `content/foundation/illustrations--types.md` | illustrations--types |
-| `content/general/illustrations--ui-text.md` | `content/foundation/illustrations--ui-text.md` | illustrations--ui-text |
-| `content/general/illustrations.md` | `content/foundation/illustrations.md` | illustrations |
-| `content/general/in-app-feedback.md` | `content/pattern/in-app-feedback.md` | in-app-feedback |
-| `content/general/map.md` | `content/component/map.md` | map |
-| `content/general/pills--specifications.md` | `content/component/pills--specifications.md` | pills--specifications |
-| `content/general/pills--usage.md` | `content/component/pills--usage.md` | pills--usage |
-| `content/general/pills.md` | `content/component/pills.md` | pills |
-| `content/general/progress-bar--specifications.md` | `content/component/progress-bar--specifications.md` | progress-bar--specifications |
-| `content/general/progress-bar--usage.md` | `content/component/progress-bar--usage.md` | progress-bar--usage |
-| `content/general/progress-bar.md` | `content/component/progress-bar.md` | progress-bar |
-| `content/general/progress-indicator--specifications.md` | `content/component/progress-indicator--specifications.md` | progress-indicator--specifications |
-| `content/general/progress-indicator--usage.md` | `content/component/progress-indicator--usage.md` | progress-indicator--usage |
-| `content/general/progress-indicator.md` | `content/component/progress-indicator.md` | progress-indicator |
-| `content/general/progress-ring--specifications.md` | `content/component/progress-ring--specifications.md` | progress-ring--specifications |
-| `content/general/progress-ring--usage.md` | `content/component/progress-ring--usage.md` | progress-ring--usage |
-| `content/general/progress-ring.md` | `content/component/progress-ring.md` | progress-ring |
-| `content/general/prompt.md` | `content/component/prompt.md` | prompt |
-| `content/general/radio-group--specifications.md` | `content/component/radio-group--specifications.md` | radio-group--specifications |
-| `content/general/radio-group--usage.md` | `content/component/radio-group--usage.md` | radio-group--usage |
-| `content/general/radio-group.md` | `content/component/radio-group.md` | radio-group |
-| `content/general/resources.md` | `content/get-started/resources.md` | resources |
-| `content/general/rich-text-editor.md` | `content/component/rich-text-editor.md` | rich-text-editor |
-| `content/general/select--specifications.md` | `content/component/select--specifications.md` | select--specifications |
-| `content/general/select--usage.md` | `content/component/select--usage.md` | select--usage |
-| `content/general/select.md` | `content/component/select.md` | select |
-| `content/general/shadows--overview.md` | `content/foundation/shadows--overview.md` | shadows--overview |
-| `content/general/shadows--usage.md` | `content/foundation/shadows--usage.md` | shadows--usage |
-| `content/general/shadows.md` | `content/foundation/shadows.md` | shadows |
-| `content/general/slds-validator.md` | `content/tools/slds-validator.md` | slds-validator |
-| `content/general/slider.md` | `content/component/slider.md` | slider |
-| `content/general/spinners--specifications.md` | `content/component/spinners--specifications.md` | spinners--specifications |
-| `content/general/spinners--usage.md` | `content/component/spinners--usage.md` | spinners--usage |
-| `content/general/spinners.md` | `content/component/spinners.md` | spinners |
-| `content/general/textarea--specifications.md` | `content/component/textarea--specifications.md` | textarea--specifications |
-| `content/general/textarea--usage.md` | `content/component/textarea--usage.md` | textarea--usage |
-| `content/general/textarea.md` | `content/component/textarea.md` | textarea |
-| `content/general/tiles.md` | `content/component/tiles.md` | tiles |
-| `content/general/timepicker.md` | `content/component/timepicker.md` | timepicker |
-| `content/general/toast--specifications.md` | `content/component/toast--specifications.md` | toast--specifications |
-| `content/general/toast--usage.md` | `content/component/toast--usage.md` | toast--usage |
-| `content/general/toast.md` | `content/component/toast.md` | toast |
-| `content/general/transition-to-slds-2.md` | `content/get-started/transition-to-slds-2.md` | transition-to-slds-2 |
-| `content/general/tree--specifications.md` | `content/component/tree--specifications.md` | tree--specifications |
-| `content/general/tree--usage.md` | `content/component/tree--usage.md` | tree--usage |
-| `content/general/tree.md` | `content/component/tree.md` | tree |
-| `content/general/user-engagement--deeper-learning.md` | `content/pattern/user-engagement--deeper-learning.md` | user-engagement--deeper-learning |
-| `content/general/user-engagement--feature-discovery.md` | `content/pattern/user-engagement--feature-discovery.md` | user-engagement--feature-discovery |
-| `content/general/user-engagement--onboarding.md` | `content/pattern/user-engagement--onboarding.md` | user-engagement--onboarding |
-| `content/general/user-engagement--overview.md` | `content/pattern/user-engagement--overview.md` | user-engagement--overview |
-| `content/general/user-engagement--troubleshooting.md` | `content/pattern/user-engagement--troubleshooting.md` | user-engagement--troubleshooting |
-| `content/general/user-engagement.md` | `content/pattern/user-engagement.md` | user-engagement |
-| `content/general/utility-classes.md` | `content/develop/utility-classes.md` | utility-classes |
-| `content/guideline/avatar--accessibility.md` | `content/component/avatar--accessibility.md` | avatar--accessibility |
-| `content/guideline/badge--accessibility.md` | `content/component/badge--accessibility.md` | badge--accessibility |
-| `content/guideline/breadcrumbs--accessibility.md` | `content/component/breadcrumbs--accessibility.md` | breadcrumbs--accessibility |
-| `content/guideline/carousel--accessibility.md` | `content/component/carousel--accessibility.md` | carousel--accessibility |
-| `content/guideline/checkbox--accessibility.md` | `content/component/checkbox--accessibility.md` | checkbox--accessibility |
-| `content/guideline/checkbox-toggle--accessibility.md` | `content/component/checkbox-toggle--accessibility.md` | checkbox-toggle--accessibility |
-| `content/guideline/datepicker--accessibility.md` | `content/component/datepicker--accessibility.md` | datepicker--accessibility |
-| `content/guideline/datetime-picker--accessibility.md` | `content/foundation/datetime-picker--accessibility.md` | datetime-picker--accessibility |
-| `content/guideline/dual-listbox--accessibility.md` | `content/component/dual-listbox--accessibility.md` | dual-listbox--accessibility |
-| `content/guideline/empty-state--accessibility.md` | `content/foundation/empty-state--accessibility.md` | empty-state--accessibility |
-| `content/guideline/file-selector--accessibility.md` | `content/component/file-selector--accessibility.md` | file-selector--accessibility |
-| `content/guideline/form-element--accessibility.md` | `content/component/form-element--accessibility.md` | form-element--accessibility |
-| `content/guideline/global-accessibility-standards.md` | `content/foundation/global-accessibility-standards.md` | global-accessibility-standards |
-| `content/guideline/map--accessibility.md` | `content/foundation/map--accessibility.md` | map--accessibility |
-| `content/guideline/pills--accessibility.md` | `content/component/pills--accessibility.md` | pills--accessibility |
-| `content/guideline/progress-bar--accessibility.md` | `content/component/progress-bar--accessibility.md` | progress-bar--accessibility |
-| `content/guideline/radio-group--accessibility.md` | `content/component/radio-group--accessibility.md` | radio-group--accessibility |
-| `content/guideline/rich-text-editor--accessibility.md` | `content/foundation/rich-text-editor--accessibility.md` | rich-text-editor--accessibility |
-| `content/guideline/slider--accessibility.md` | `content/foundation/slider--accessibility.md` | slider--accessibility |
-| `content/guideline/spinners--accessibility.md` | `content/component/spinners--accessibility.md` | spinners--accessibility |
-| `content/guideline/textarea--accessibility.md` | `content/component/textarea--accessibility.md` | textarea--accessibility |
-| `content/guideline/tiles--accessibility.md` | `content/foundation/tiles--accessibility.md` | tiles--accessibility |
-| `content/guideline/timepicker--accessibility.md` | `content/foundation/timepicker--accessibility.md` | timepicker--accessibility |
-| `content/guideline/toast--accessibility.md` | `content/component/toast--accessibility.md` | toast--accessibility |
-| `content/guideline/tree--accessibility.md` | `content/component/tree--accessibility.md` | tree--accessibility |
-| `content/pattern/popover.md` | `content/component/popover.md` | popover |
-| `content/tools/designer-tools.md` | `content/design/designer-tools.md` | designer-tools |
-| `content/tools/developer-tools.md` | `content/develop/developer-tools.md` | developer-tools |
-| `content/tools/slds-linter.md` | `content/general/slds-linter.md` | slds-linter |
 
 ## ⚠️ Orphans (no nav entry)
 

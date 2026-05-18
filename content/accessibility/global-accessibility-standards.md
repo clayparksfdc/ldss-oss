@@ -1,7 +1,7 @@
 ---
 title: "Global Accessibility Standards"
 description: "Salesforce builds products for a global audience, and accessibility is a core part of that commitment. Countries around the world enforce different accessibility laws and policies, but nearly all alig"
-category: "foundation"
+category: "accessibility"
 slug: "global-accessibility-standards"
 status: "published"
 lastModified: "2026-03-11"

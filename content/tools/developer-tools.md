@@ -1,7 +1,7 @@
 ---
 title: "Developer Tools"
 slug: "developer-tools"
-category: "develop"
+category: "tools"
 url: "/develop/developer-tools"
 extractedAt: "2026-02-21T22:00:28.529Z"
 ---

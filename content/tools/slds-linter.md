@@ -1,7 +1,7 @@
 ---
 title: "SLDS Linter"
 slug: "slds-linter"
-category: "general"
+category: "tools"
 url: "/general/slds-linter"
 extractedAt: "2026-02-21T22:00:31.211Z"
 ---

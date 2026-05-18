@@ -1,7 +1,7 @@
 ---
 title: "Designer Tools"
 slug: "designer-tools"
-category: "design"
+category: "tools"
 url: "/design/designer-tools"
 extractedAt: "2026-02-21T22:00:25.793Z"
 ---
