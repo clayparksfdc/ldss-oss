@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 interface TokenEntry {
   name: string;
@@ -8,8 +8,10 @@ interface TokenEntry {
 
 interface TokenData {
   exists: boolean;
+  installedVersion?: string | null;
   generatedAt?: string;
   source?: string;
+  sourceVersion?: string;
   totalTokens?: number;
   categories?: Record<string, TokenEntry[]>;
 }
@@ -29,10 +31,8 @@ const CATEGORY_LABELS: Record<string, string> = {
 
 export function TokenManager() {
   const [data, setData] = useState<TokenData | null>(null);
-  const [uploading, setUploading] = useState(false);
-  const [dragActive, setDragActive] = useState(false);
+  const [regenerating, setRegenerating] = useState(false);
   const [message, setMessage] = useState('');
-  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const loadCurrent = useCallback(async () => {
     try {
@@ -46,104 +46,106 @@ export function TokenManager() {
 
   useEffect(() => { loadCurrent(); }, [loadCurrent]);
 
-  const uploadCss = useCallback(async (css: string) => {
-    setUploading(true);
+  const regenerate = useCallback(async () => {
+    setRegenerating(true);
     setMessage('');
     try {
-      const res = await fetch('/api/tokens/upload', {
-        method: 'POST',
-        headers: { 'Content-Type': 'text/plain' },
-        body: css,
-      });
+      const res = await fetch('/api/tokens/regenerate', { method: 'POST' });
       const json = await res.json();
       if (json.success) {
-        setMessage(`Parsed ${json.totalTokens} tokens successfully.`);
+        setMessage(`Regenerated ${json.totalTokens} tokens from ${json.source}.`);
         loadCurrent();
       } else {
-        setMessage(`Error: ${json.error}`);
+        setMessage(`Error: ${json.error}${json.stderr ? `\n${json.stderr}` : ''}`);
       }
     } catch (err: any) {
-      setMessage(`Upload failed: ${err.message}`);
+      setMessage(`Regenerate failed: ${err.message}`);
     } finally {
-      setUploading(false);
+      setRegenerating(false);
     }
   }, [loadCurrent]);
 
-  const handleFiles = useCallback((files: FileList | null) => {
-    if (!files || files.length === 0) return;
-    const file = files[0];
-    if (!file.name.endsWith('.css')) {
-      setMessage('Please upload a .css file');
-      return;
-    }
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      if (e.target?.result) uploadCss(e.target.result as string);
-    };
-    reader.readAsText(file);
-  }, [uploadCss]);
-
-  const handleDragOver = (e: React.DragEvent) => { e.preventDefault(); setDragActive(true); };
-  const handleDragLeave = () => setDragActive(false);
-  const handleDrop = (e: React.DragEvent) => {
-    e.preventDefault();
-    setDragActive(false);
-    handleFiles(e.dataTransfer.files);
-  };
+  const isStale = data?.exists && data?.sourceVersion && data?.installedVersion && data.sourceVersion !== data.installedVersion;
 
   return (
     <div className="token-manager" style={{ padding: '2rem', maxWidth: 960 }}>
       <h1 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '0.5rem' }}>Design Token Manager</h1>
       <p style={{ color: '#706E6B', marginBottom: '1.5rem' }}>
-        Upload an SLDS CSS file to extract <code>--slds-g-*</code> design tokens and generate
-        the <code>design-tokens.json</code> data file used by the frontend.
+        Tokens are generated from <code>@salesforce-ux/design-system-2</code> at build time.
+        Bump the package version with <code>npm install @salesforce-ux/design-system-2@&lt;version&gt; --save-dev</code>,
+        then regenerate to refresh <code>content/data/design-tokens.json</code>.
       </p>
 
-      {/* Upload area */}
-      <div
-        onDragOver={handleDragOver}
-        onDragLeave={handleDragLeave}
-        onDrop={handleDrop}
-        onClick={() => fileInputRef.current?.click()}
-        style={{
-          border: `2px dashed ${dragActive ? '#0176D3' : '#D8D8D8'}`,
-          borderRadius: 12,
-          padding: '3rem 2rem',
-          textAlign: 'center',
-          cursor: 'pointer',
-          background: dragActive ? '#EEF4FF' : '#FAFAF9',
-          transition: 'all .15s',
-          marginBottom: '1.5rem',
-        }}
-      >
-        <input
-          ref={fileInputRef}
-          type="file"
-          accept=".css"
-          style={{ display: 'none' }}
-          onChange={(e) => handleFiles(e.target.files)}
-        />
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#706E6B" strokeWidth="1.5" style={{ margin: '0 auto 1rem' }}>
-          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-          <polyline points="17 8 12 3 7 8" />
-          <line x1="12" y1="3" x2="12" y2="15" />
-        </svg>
-        <p style={{ fontWeight: 600, marginBottom: 4 }}>
-          {uploading ? 'Uploading…' : 'Drop CSS file here or click to browse'}
-        </p>
-        <p style={{ fontSize: '0.8125rem', color: '#706E6B' }}>
-          Accepts <code>.css</code> files (e.g. sldsPlusTemplate.css)
-        </p>
+      {/* SSOT info card */}
+      <div style={{
+        border: '1px solid #E5E5E5',
+        borderRadius: 12,
+        padding: '1.25rem 1.5rem',
+        background: '#FAFAF9',
+        marginBottom: '1.5rem',
+      }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', flexWrap: 'wrap' }}>
+          <div>
+            <div style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: 0.5, color: '#706E6B', marginBottom: 4 }}>
+              Installed npm package
+            </div>
+            <div style={{ fontFamily: 'monospace', fontSize: '0.9375rem', color: '#032D60' }}>
+              @salesforce-ux/design-system-2@{data?.installedVersion ?? '—'}
+            </div>
+          </div>
+          <div>
+            <div style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: 0.5, color: '#706E6B', marginBottom: 4 }}>
+              Last generated from
+            </div>
+            <div style={{ fontFamily: 'monospace', fontSize: '0.9375rem', color: '#032D60' }}>
+              v{data?.sourceVersion ?? '—'}
+              {data?.generatedAt && (
+                <span style={{ color: '#706E6B', fontSize: '0.8125rem', marginLeft: 8 }}>
+                  · {new Date(data.generatedAt).toLocaleString()}
+                </span>
+              )}
+            </div>
+          </div>
+          <button
+            onClick={regenerate}
+            disabled={regenerating || !data?.installedVersion}
+            style={{
+              padding: '0.5rem 1rem',
+              borderRadius: 8,
+              border: 'none',
+              background: regenerating ? '#A8B7C7' : '#0176D3',
+              color: 'white',
+              fontWeight: 600,
+              cursor: regenerating ? 'wait' : 'pointer',
+              fontSize: '0.875rem',
+            }}
+          >
+            {regenerating ? 'Regenerating…' : 'Regenerate from npm'}
+          </button>
+        </div>
+        {isStale && (
+          <div style={{
+            marginTop: '0.75rem',
+            padding: '0.5rem 0.75rem',
+            borderRadius: 6,
+            background: '#FEF7E0',
+            color: '#5C4500',
+            fontSize: '0.8125rem',
+          }}>
+            ⚠ Installed package version differs from the last generated output. Click <strong>Regenerate</strong> to update.
+          </div>
+        )}
       </div>
 
       {message && (
         <div style={{
           padding: '0.75rem 1rem',
           borderRadius: 8,
-          background: message.startsWith('Error') || message.startsWith('Upload failed') ? '#FEF0F3' : '#DEF9F3',
-          color: message.startsWith('Error') || message.startsWith('Upload failed') ? '#B60554' : '#056764',
+          background: message.startsWith('Error') || message.startsWith('Regenerate failed') ? '#FEF0F3' : '#DEF9F3',
+          color: message.startsWith('Error') || message.startsWith('Regenerate failed') ? '#B60554' : '#056764',
           marginBottom: '1.5rem',
           fontSize: '0.875rem',
+          whiteSpace: 'pre-wrap',
         }}>
           {message}
         </div>
@@ -155,9 +157,6 @@ export function TokenManager() {
           <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>
             Current Tokens ({data.totalTokens})
           </h2>
-          <p style={{ fontSize: '0.8125rem', color: '#706E6B', marginBottom: '1rem' }}>
-            Source: <code>{data.source}</code> — Generated: {data.generatedAt ? new Date(data.generatedAt).toLocaleString() : 'unknown'}
-          </p>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '0.75rem' }}>
             {Object.entries(data.categories).map(([cat, tokens]) => (
@@ -210,7 +209,7 @@ export function TokenManager() {
 
       {data && !data.exists && (
         <div style={{ textAlign: 'center', color: '#706E6B', padding: '2rem' }}>
-          No design tokens have been parsed yet. Upload a CSS file above to get started.
+          No tokens generated yet. Click <strong>Regenerate from npm</strong> above.
         </div>
       )}
     </div>

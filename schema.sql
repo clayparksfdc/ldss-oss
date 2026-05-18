@@ -9,9 +9,15 @@ CREATE TABLE IF NOT EXISTS users (
     name VARCHAR(255) NOT NULL,
     avatar_url TEXT DEFAULT '',
     role VARCHAR(50) NOT NULL DEFAULT 'editor',
+    repo_permission VARCHAR(20),
+    permission_checked_at TIMESTAMP,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Backfill columns for existing deployments
+ALTER TABLE users ADD COLUMN IF NOT EXISTS repo_permission VARCHAR(20);
+ALTER TABLE users ADD COLUMN IF NOT EXISTS permission_checked_at TIMESTAMP;
 
 -- Sessions table for express-session with connect-pg-simple
 CREATE TABLE IF NOT EXISTS session (

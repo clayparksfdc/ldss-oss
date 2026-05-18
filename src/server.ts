@@ -21,6 +21,7 @@ import { createLocksRouter } from './routes/locks';
 import { createDashboardRouter } from './routes/dashboard';
 import { createLocalContentRouter } from './routes/local-content';
 import { createTokensRouter } from './routes/tokens';
+import { createCloudinaryRouter } from './routes/cloudinary';
 import path from 'path';
 
 // Import middleware
@@ -75,7 +76,7 @@ app.use(helmet({
   },
 }));
 const allowedOrigins = [
-  process.env.FRONTEND_URL || 'http://localhost:3000',
+  ...(process.env.FRONTEND_URL || 'http://localhost:3000').split(',').map(s => s.trim()),
   'http://localhost:5173',
 ].filter(Boolean);
 
@@ -101,8 +102,11 @@ app.get('/legacy/slds-v1', (_req, res) => {
   res.redirect(302, 'https://v1.lightningdesignsystem.com/');
 });
 
+// Gate static frontend serving so the backend can run API-only after the Heroku split.
+// See docs/heroku-split-runbook.md.
+const SERVE_FRONTEND = process.env.SERVE_FRONTEND !== 'false';
 const frontendOutPath = path.resolve(__dirname, '../frontend/out');
-const frontendExists = fs.existsSync(frontendOutPath);
+const frontendExists = SERVE_FRONTEND && fs.existsSync(frontendOutPath);
 
 if (frontendExists) {
   app.use('/_next', express.static(path.join(frontendOutPath, '_next'), { maxAge: '1y' }));
@@ -195,6 +199,7 @@ app.use('/api/navigation', createNavigationRouter(pool));
 app.use('/api/locks', createLocksRouter(pool));
 app.use('/api/local', createLocalContentRouter());
 app.use('/api/tokens', createTokensRouter());
+app.use('/api/cloudinary', createCloudinaryRouter());
 app.use('/api/dashboard', createDashboardRouter(pool));
 
 app.get('/api/audit', requireAuth, async (req: any, res): Promise<void> => {

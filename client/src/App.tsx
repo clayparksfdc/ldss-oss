@@ -1,10 +1,17 @@
 import { useState, useCallback, useEffect } from 'react';
 import { Header } from './components/Header';
 
-function getAuthErrorFromUrl(): boolean {
-  if (typeof window === 'undefined') return false;
+type AuthErrorKind = 'generic' | 'no_write_access' | null;
+
+function getAuthErrorFromUrl(): { kind: AuthErrorKind; permission?: string } {
+  if (typeof window === 'undefined') return { kind: null };
   const params = new URLSearchParams(window.location.search);
-  return params.get('auth_error') === '1';
+  const code = params.get('auth_error');
+  if (!code) return { kind: null };
+  if (code === 'no_write_access') {
+    return { kind: 'no_write_access', permission: params.get('permission') || 'none' };
+  }
+  return { kind: 'generic' };
 }
 import { FileBrowser } from './components/FileBrowser';
 import { EditorPanel } from './components/EditorPanel';
@@ -25,14 +32,15 @@ export default function App() {
   const [appView, setAppView] = useState<AppView>('files');
   const [user, setUser] = useState<AuthUser | null>(null);
   const [authLoading, setAuthLoading] = useState(true);
-  const [authErrorFromUrl, setAuthErrorFromUrl] = useState(false);
+  const [authError, setAuthError] = useState<{ kind: AuthErrorKind; permission?: string }>({ kind: null });
 
   useEffect(() => {
-    const hadError = getAuthErrorFromUrl();
-    setAuthErrorFromUrl(hadError);
-    if (hadError && typeof window !== 'undefined') {
+    const err = getAuthErrorFromUrl();
+    setAuthError(err);
+    if (err.kind && typeof window !== 'undefined') {
       const url = new URL(window.location.href);
       url.searchParams.delete('auth_error');
+      url.searchParams.delete('permission');
       window.history.replaceState({}, '', url.pathname + url.search);
     }
     fetchCurrentUser()
@@ -118,13 +126,18 @@ export default function App() {
                 <h1 style={{ fontSize: 22, fontWeight: 700, color: '#032D60', margin: '0 0 8px' }}>
                   Lightning Design System CMS
                 </h1>
-                {authErrorFromUrl && (
+                {authError.kind === 'no_write_access' && (
+                  <p style={{ fontSize: 13, color: '#5C4500', margin: '0 0 16px', lineHeight: 1.5, background: '#FEF7E0', padding: '10px 14px', borderRadius: 8, textAlign: 'left' }}>
+                    <strong>Access denied.</strong> Your GitHub account ({authError.permission === 'none' ? 'not a collaborator' : `permission: ${authError.permission}`}) does not have write access to this repository. Ask a repo admin to grant you write or maintain access, then sign in again.
+                  </p>
+                )}
+                {authError.kind === 'generic' && (
                   <p style={{ fontSize: 13, color: '#C23934', margin: '0 0 16px', lineHeight: 1.5, background: '#FED3D1', padding: '10px 14px', borderRadius: 8 }}>
                     Session timed out or something went wrong. Please try signing in again.
                   </p>
                 )}
                 <p style={{ fontSize: 14, color: '#706E6B', margin: '0 0 32px', lineHeight: 1.5 }}>
-                  Sign in with your GitHub Enterprise account to manage content.
+                  Sign in with your GitHub account. You'll need write access to the content repository.
                 </p>
                 <button
                   className="ldss-login-btn"

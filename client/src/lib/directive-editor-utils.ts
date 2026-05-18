@@ -88,6 +88,18 @@ export const DIRECTIVE_SCHEMAS: Record<string, DirectiveSchema> = {
       { name: 'body', label: 'Body', type: 'textarea' },
     ],
   },
+  'figma': {
+    label: 'Figma Snapshot',
+    icon: '🎨',
+    color: '#A259FF',
+    isContainer: false,
+    attrs: [
+      { name: 'src', label: 'Cloudinary URL (auto-filled)', type: 'url', required: true },
+      { name: 'url', label: 'Figma URL', type: 'url', required: true },
+      { name: 'caption', label: 'Caption', type: 'text' },
+      { name: 'alt', label: 'Alt text', type: 'text' },
+    ],
+  },
 };
 
 function parseAttrsString(raw: string): Record<string, string> {
@@ -154,6 +166,17 @@ export function preprocessDirectivesForEditor(md: string): string {
         continue;
       }
 
+      if (name === 'figma') {
+        // figma is a container directive but has no body — skip past the closing :::
+        const attrs = parseAttrsString(attrsStr);
+        i++;
+        while (i < lines.length && !lines[i].match(/^:::\s*$/)) i++;
+        i++;
+        const el = `<div data-directive-type="figma" data-directive-attrs='${JSON.stringify(attrs).replace(/'/g, '&#39;')}' data-directive-children='[]'></div>`;
+        out.push('', el, '');
+        continue;
+      }
+
       out.push(line);
       i++;
       continue;
@@ -207,6 +230,10 @@ function directiveToMarkdown(
     const calloutAttrs = { ...attrs };
     delete calloutAttrs.body;
     return `:::callout{${attrsToString(calloutAttrs)}}\n${body}\n:::`;
+  }
+
+  if (type === 'figma') {
+    return `:::figma{${attrsToString(attrs)}}\n:::`;
   }
 
   if (schema.isContainer) {

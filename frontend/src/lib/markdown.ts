@@ -77,6 +77,75 @@ function buildVideoEmbedHast(node: any) {
   ];
 }
 
+function buildFigmaHast(node: any) {
+  const { src, url, caption, alt } = node.attributes || {};
+  const data = node.data || (node.data = {});
+  data.hName = 'figure';
+  data.hProperties = { className: 'figma-embed' };
+
+  const imgChildren: any[] = [];
+  if (src) {
+    imgChildren.push({
+      type: 'element',
+      tagName: 'img',
+      properties: {
+        src,
+        alt: alt || caption || 'Figma snapshot',
+        loading: 'lazy',
+        className: 'figma-embed-image',
+      },
+      children: [],
+    });
+  } else {
+    imgChildren.push({
+      type: 'element',
+      tagName: 'div',
+      properties: { className: 'figma-embed-placeholder' },
+      children: [{ type: 'text', value: 'Figma snapshot not yet generated' }],
+    });
+  }
+
+  const footerChildren: any[] = [];
+  if (caption) {
+    footerChildren.push({
+      type: 'element',
+      tagName: 'figcaption',
+      properties: { className: 'figma-embed-caption' },
+      children: [{ type: 'text', value: caption }],
+    });
+  }
+  if (url) {
+    footerChildren.push({
+      type: 'element',
+      tagName: 'a',
+      properties: {
+        className: 'figma-embed-link',
+        href: url,
+        target: '_blank',
+        rel: 'noopener noreferrer',
+      },
+      children: [{ type: 'text', value: 'Open in Figma →' }],
+    });
+  }
+
+  data.hChildren = [
+    {
+      type: 'element',
+      tagName: 'div',
+      properties: { className: 'figma-embed-frame' },
+      children: imgChildren,
+    },
+    ...(footerChildren.length
+      ? [{
+          type: 'element',
+          tagName: 'div',
+          properties: { className: 'figma-embed-footer' },
+          children: footerChildren,
+        }]
+      : []),
+  ];
+}
+
 function buildHeroBannerHast(node: any) {
   const { title, image, version, updated, tagline } = node.attributes || {};
   const data = node.data || (node.data = {});
@@ -127,6 +196,7 @@ const remarkCustomDirectives: Plugin<[], Root> = () => {
         if (node.name === 'link-card') buildLinkCardHast(node);
         if (node.name === 'video-embed') buildVideoEmbedHast(node);
         if (node.name === 'hero-banner') buildHeroBannerHast(node);
+        if (node.name === 'figma') buildFigmaHast(node);
       }
 
       // Leaf directives (::) — used for self-closing items inside containers
@@ -135,6 +205,7 @@ const remarkCustomDirectives: Plugin<[], Root> = () => {
         if (node.name === 'link-card') buildLinkCardHast(node);
         if (node.name === 'video-embed') buildVideoEmbedHast(node);
         if (node.name === 'hero-banner') buildHeroBannerHast(node);
+        if (node.name === 'figma') buildFigmaHast(node);
       }
     });
   };

@@ -1,14 +1,13 @@
 import express from 'express';
 import fs from 'fs';
 import path from 'path';
+import { spawn } from 'child_process';
 
 interface Token {
   name: string;
   value: string;
   preview?: string;
 }
-
-const CATEGORY_ORDER = ['color', 'spacing', 'sizing', 'shadow', 'radius', 'ratio', 'font', 'duration', 'link', 'other'];
 
 function resolveContentDir(): string {
   if (process.env.CONTENT_DIR) return process.env.CONTENT_DIR;
@@ -22,44 +21,27 @@ function resolveContentDir(): string {
   return candidates[0];
 }
 
-function categorize(name: string): string {
-  const seg = name.replace('--slds-g-', '').split('-')[0];
-  return CATEGORY_ORDER.includes(seg) ? seg : 'other';
+function resolveRepoRoot(): string {
+  // dist/routes when compiled, src/routes in dev
+  const candidates = [
+    path.resolve(__dirname, '../..'),
+    process.cwd(),
+  ];
+  for (const c of candidates) {
+    if (fs.existsSync(path.join(c, 'package.json'))) return c;
+  }
+  return candidates[0];
 }
 
-function resolvePreviewColor(val: string): string | null {
-  const v = val.trim();
-  const hex = v.match(/^#[0-9a-f]{3,8}$/i);
-  if (hex) return hex[0];
-  const ld = v.match(/^light-dark\(\s*(#[0-9a-f]{3,8})/i);
-  if (ld) return ld[1];
-  return null;
-}
-
-function parseSldsCss(css: string) {
-  const re = /(--slds-g-[\w-]+)\s*:\s*([^;]+)/g;
-  const tokenMap = new Map<string, string>();
-  let m;
-  while ((m = re.exec(css)) !== null) {
-    if (!tokenMap.has(m[1])) tokenMap.set(m[1], m[2].trim());
+function resolveSldsVersion(): string | null {
+  try {
+    const repoRoot = resolveRepoRoot();
+    const pkgPath = path.join(repoRoot, 'node_modules', '@salesforce-ux', 'design-system-2', 'package.json');
+    if (!fs.existsSync(pkgPath)) return null;
+    return JSON.parse(fs.readFileSync(pkgPath, 'utf-8')).version || null;
+  } catch {
+    return null;
   }
-
-  const grouped: Record<string, Token[]> = {};
-  for (const cat of CATEGORY_ORDER) grouped[cat] = [];
-
-  for (const [name, value] of tokenMap) {
-    const cat = categorize(name);
-    const entry: Token = { name, value };
-    const preview = resolvePreviewColor(value);
-    if (preview) entry.preview = preview;
-    if (!grouped[cat]) grouped[cat] = [];
-    grouped[cat].push(entry);
-  }
-  for (const cat of Object.keys(grouped)) {
-    if (grouped[cat].length === 0) delete grouped[cat];
-  }
-
-  return { totalTokens: tokenMap.size, categories: grouped };
 }
 
 export const createTokensRouter = () => {
@@ -68,43 +50,55 @@ export const createTokensRouter = () => {
   router.get('/current', (_req, res) => {
     try {
       const jsonPath = path.join(resolveContentDir(), 'data', 'design-tokens.json');
+      const installedVersion = resolveSldsVersion();
       if (!fs.existsSync(jsonPath)) {
-        res.json({ exists: false });
+        res.json({ exists: false, installedVersion });
         return;
       }
       const data = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
-      res.json({ exists: true, ...data });
+      res.json({ exists: true, installedVersion, ...data });
     } catch (err: any) {
       res.status(500).json({ error: err.message });
     }
   });
 
-  router.post('/upload', express.text({ type: '*/*', limit: '20mb' }), (req, res) => {
-    try {
-      const css = req.body as string;
-      if (!css || typeof css !== 'string') {
-        res.status(400).json({ error: 'CSS content required' });
+  router.post('/regenerate', (_req, res) => {
+    const repoRoot = resolveRepoRoot();
+    const scriptPath = path.join(repoRoot, 'scripts', 'build-tokens.ts');
+    if (!fs.existsSync(scriptPath)) {
+      res.status(500).json({ error: `build-tokens.ts not found at ${scriptPath}` });
+      return;
+    }
+
+    const child = spawn(
+      'npx',
+      ['--no-install', 'ts-node', '--transpile-only', scriptPath],
+      { cwd: repoRoot, env: process.env },
+    );
+
+    let stdout = '';
+    let stderr = '';
+    child.stdout.on('data', (d) => { stdout += d.toString(); });
+    child.stderr.on('data', (d) => { stderr += d.toString(); });
+    child.on('error', (err) => {
+      res.status(500).json({ error: err.message, stdout, stderr });
+    });
+    child.on('close', (code) => {
+      if (code !== 0) {
+        res.status(500).json({ error: `build-tokens exited with code ${code}`, stdout, stderr });
         return;
       }
-
-      const { totalTokens, categories } = parseSldsCss(css);
-      const output = {
-        generatedAt: new Date().toISOString(),
-        source: 'cms-upload',
-        totalTokens,
-        categories,
-      };
-
-      const outDir = path.join(resolveContentDir(), 'data');
-      fs.mkdirSync(outDir, { recursive: true });
-      fs.writeFileSync(path.join(outDir, 'design-tokens.json'), JSON.stringify(output, null, 2));
-
-      res.json({ success: true, totalTokens, categoryCounts: Object.fromEntries(
-        Object.entries(categories).map(([k, v]) => [k, (v as Token[]).length]),
-      )});
-    } catch (err: any) {
-      res.status(500).json({ error: err.message });
-    }
+      try {
+        const jsonPath = path.join(resolveContentDir(), 'data', 'design-tokens.json');
+        const data = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+        const counts = Object.fromEntries(
+          Object.entries(data.categories || {}).map(([k, v]) => [k, (v as Token[]).length]),
+        );
+        res.json({ success: true, totalTokens: data.totalTokens, source: data.source, categoryCounts: counts, log: stdout });
+      } catch (err: any) {
+        res.status(500).json({ error: err.message, stdout, stderr });
+      }
+    });
   });
 
   return router;

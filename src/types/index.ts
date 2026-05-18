@@ -1,5 +1,7 @@
 import { Request } from 'express';
 
+export type RepoPermission = 'admin' | 'maintain' | 'write' | 'triage' | 'read' | 'none';
+
 export interface User {
   id: number;
   github_id: number;
@@ -8,6 +10,8 @@ export interface User {
   name: string;
   avatar_url: string;
   role: 'admin' | 'editor' | 'viewer';
+  repo_permission?: RepoPermission | null;
+  permission_checked_at?: Date | null;
   created_at: Date;
   updated_at: Date;
 }

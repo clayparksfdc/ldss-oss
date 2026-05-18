@@ -36,6 +36,7 @@ export interface AuthUser {
   role: string;
   github_login: string;
   avatar_url: string;
+  repo_permission?: 'admin' | 'maintain' | 'write' | 'triage' | 'read' | 'none' | null;
 }
 
 export interface PublishResult {

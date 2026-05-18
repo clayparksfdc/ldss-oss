@@ -5,11 +5,21 @@ import { Pool } from 'pg';
 import { AuthenticatedRequest, User, AppError } from '../types';
 import { asyncHandler } from '../middleware/error';
 import { logAudit } from '../lib/audit';
+import { fetchRepoPermission, hasWriteAccess } from '../lib/repo-permission';
 
 const router = express.Router();
 
 const GH_BASE = process.env.GHE_BASE_URL || 'https://github.com';
 const GH_API = GH_BASE === 'https://github.com' ? 'https://api.github.com' : `${GH_BASE}/api/v3`;
+
+class NoWriteAccessError extends Error {
+  permission: string;
+  constructor(login: string, permission: string) {
+    super(`User ${login} has '${permission}' access on the target repo; write access required`);
+    this.name = 'NoWriteAccessError';
+    this.permission = permission;
+  }
+}
 
 export const initializePassport = (pool: Pool) => {
   const strategy = new OAuth2Strategy(
@@ -42,6 +52,40 @@ export const initializePassport = (pool: Pool) => {
             if (primary) email = primary.email;
           }
 
+          // Gate login on repo write access.
+          const owner = process.env.GITHUB_OWNER || '';
+          const repo = process.env.GITHUB_REPO || '';
+          if (!owner || !repo) {
+            return done(new Error('GITHUB_OWNER and GITHUB_REPO must be set to enforce write-access gating'));
+          }
+
+          let permission;
+          try {
+            permission = await fetchRepoPermission({
+              accessToken,
+              apiBase: GH_API,
+              owner,
+              repo,
+              username: ghUser.login,
+            });
+          } catch (err: any) {
+            return done(err);
+          }
+
+          if (!hasWriteAccess(permission)) {
+            const effective = permission || 'none';
+            // Audit the denied attempt without creating a session.
+            logAudit(pool, null, 'login_denied', {
+              metadata: {
+                github_login: ghUser.login,
+                github_id: ghUser.id,
+                repo_permission: effective,
+                reason: 'no_repo_write_access',
+              },
+            });
+            return done(new NoWriteAccessError(ghUser.login, effective));
+          }
+
           const existing = await pool.query(
             'SELECT * FROM users WHERE github_id = $1',
             [ghUser.id]
@@ -52,21 +96,25 @@ export const initializePassport = (pool: Pool) => {
           if (existing.rows.length > 0) {
             const updated = await pool.query(
               `UPDATE users SET email = $1, name = $2, github_login = $3, avatar_url = $4,
-               updated_at = CURRENT_TIMESTAMP WHERE github_id = $5 RETURNING *`,
-              [email, ghUser.name || ghUser.login, ghUser.login, ghUser.avatar_url || '', ghUser.id]
+               repo_permission = $5, permission_checked_at = CURRENT_TIMESTAMP,
+               updated_at = CURRENT_TIMESTAMP WHERE github_id = $6 RETURNING *`,
+              [email, ghUser.name || ghUser.login, ghUser.login, ghUser.avatar_url || '', permission, ghUser.id]
             );
             user = updated.rows[0];
           } else {
+            // Map admin permission to admin role; everyone else starts as editor.
+            const role = permission === 'admin' ? 'admin' : 'editor';
             const created = await pool.query(
-              `INSERT INTO users (github_id, github_login, email, name, avatar_url, role)
-               VALUES ($1, $2, $3, $4, $5, $6) RETURNING *`,
-              [ghUser.id, ghUser.login, email, ghUser.name || ghUser.login, ghUser.avatar_url || '', 'editor']
+              `INSERT INTO users (github_id, github_login, email, name, avatar_url, role,
+                repo_permission, permission_checked_at)
+               VALUES ($1, $2, $3, $4, $5, $6, $7, CURRENT_TIMESTAMP) RETURNING *`,
+              [ghUser.id, ghUser.login, email, ghUser.name || ghUser.login, ghUser.avatar_url || '', role, permission]
             );
             user = created.rows[0];
           }
 
           logAudit(pool, user.id, 'login', {
-            metadata: { email: user.email, github_login: ghUser.login },
+            metadata: { email: user.email, github_login: ghUser.login, repo_permission: permission },
           });
 
           (user as any)._accessToken = accessToken;
@@ -131,6 +179,9 @@ router.get(
     passport.authenticate('github-enterprise', (err: any, user: any, info: any) => {
       if (err) {
         console.error('OAuth callback error:', err.message || err);
+        if (err instanceof NoWriteAccessError) {
+          return res.redirect(`/editor?auth_error=no_write_access&permission=${encodeURIComponent(err.permission)}`);
+        }
         return res.redirect('/editor?auth_error=1');
       }
       if (!user) {
@@ -164,6 +215,7 @@ router.get(
         role: req.user.role,
         github_login: req.user.github_login,
         avatar_url: req.user.avatar_url,
+        repo_permission: req.user.repo_permission,
       },
     });
   })

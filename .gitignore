@@ -3,6 +3,11 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+tmp
+
+# package-lock.json explicitly removed from the public repo (internal registry URLs)
+# Keep it local but never commit; see commit a8401036.
+package-lock.json
 
 # Build output
 .next/
@@ -17,6 +22,14 @@ build/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# MCP server config — contains API tokens (Figma, etc), never commit
+.mcp.json
+
+# Zeroheight crawl cache — signed S3 URLs that expire in ~24h, regenerable
+scripts/zh-cache/
+scripts/zh-image-inventory.json
+scripts/zh-cloudinary-map.json
 
 # OS
 .DS_Store

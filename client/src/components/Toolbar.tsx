@@ -1,5 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import type { EditorMode } from './EditorPanel';
+import { CloudinaryPicker } from './CloudinaryPicker';
+import { FigmaSnapshotDialog } from './FigmaSnapshotDialog';
 
 type SaveStatus = 'idle' | 'saving' | 'saved' | 'error';
 
@@ -98,6 +100,8 @@ export function Toolbar({
   onSync,
 }: ToolbarProps) {
   const [showPalette, setShowPalette] = useState(false);
+  const [showCloudinary, setShowCloudinary] = useState(false);
+  const [showFigma, setShowFigma] = useState(false);
   const paletteRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -192,6 +196,37 @@ export function Toolbar({
                 ))}
               </div>
             )}
+          </div>
+
+          <div className="toolbar-divider" />
+
+          <div className="toolbar-group">
+            <button
+              className="toolbar-btn"
+              onClick={() => setShowCloudinary(true)}
+              title="Insert image from Cloudinary"
+            >
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+              Image
+            </button>
+            <button
+              className="toolbar-btn"
+              onClick={() => setShowFigma(true)}
+              title="Insert Figma snapshot"
+            >
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z" />
+                <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z" />
+                <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z" />
+                <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z" />
+                <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z" />
+              </svg>
+              Figma
+            </button>
           </div>
 
           <div className="toolbar-divider" />
@@ -302,6 +337,25 @@ export function Toolbar({
             <span className="save-status error">Publish failed</span>
           )}
         </>
+      )}
+
+      {showCloudinary && (
+        <CloudinaryPicker
+          onClose={() => setShowCloudinary(false)}
+          onPick={({ secureUrl, alt }) => {
+            onInsertSnippet(`\n![${alt || ''}](${secureUrl})\n`);
+            setShowCloudinary(false);
+          }}
+        />
+      )}
+      {showFigma && (
+        <FigmaSnapshotDialog
+          onClose={() => setShowFigma(false)}
+          onInsert={(snippet) => {
+            onInsertSnippet(snippet);
+            setShowFigma(false);
+          }}
+        />
       )}
     </div>
   );

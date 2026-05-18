@@ -175,9 +175,33 @@ function DirectivePreview({
       return <LinkGridPreview attrs={attrs} children={children} />;
     case 'callout':
       return <CalloutPreview attrs={attrs} />;
+    case 'figma':
+      return <FigmaPreview attrs={attrs} />;
     default:
       return <div style={{ padding: 12, color: '#999', fontSize: 13 }}>Unknown directive: {type}</div>;
   }
+}
+
+function FigmaPreview({ attrs }: { attrs: Record<string, string> }) {
+  return (
+    <div style={{ padding: 12 }}>
+      <div style={{ border: '1px solid #E5E5E5', borderRadius: 8, overflow: 'hidden', background: '#F3F3F3' }}>
+        {attrs.src ? (
+          <img src={attrs.src} alt={attrs.alt || ''} style={{ display: 'block', width: '100%', maxHeight: 320, objectFit: 'contain', background: '#F3F3F3' }} />
+        ) : (
+          <div style={{ padding: '2rem', textAlign: 'center', color: '#706E6B', fontSize: 13 }}>
+            Figma snapshot not yet generated. Edit to set <code>src</code>.
+          </div>
+        )}
+        <div style={{ padding: '8px 12px', background: 'white', borderTop: '1px solid #E5E5E5', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 12 }}>
+          <span style={{ color: '#181818' }}>{attrs.caption || 'Figma snapshot'}</span>
+          {attrs.url && (
+            <a href={attrs.url} target="_blank" rel="noopener noreferrer" style={{ color: '#0176D3', textDecoration: 'none', fontWeight: 500 }}>Open in Figma →</a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function HeroBannerPreview({ attrs }: { attrs: Record<string, string> }) {

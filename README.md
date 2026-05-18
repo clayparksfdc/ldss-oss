@@ -6,6 +6,24 @@ A markdown-driven documentation site for the Salesforce Lightning Design System 
 **CMS Editor:** [https://ldss-cms-9e2bad355514.herokuapp.com/editor](https://ldss-cms-9e2bad355514.herokuapp.com/editor)
 **Repo:** [https://github.com/clayparksfdc/ldss-oss](https://github.com/clayparksfdc/ldss-oss)
 
+> **Designers / non-developers:** start with [CONTRIBUTING.md](./CONTRIBUTING.md) — it walks through editing pages from the CMS without touching the command line.
+
+## Key Flows
+
+| Flow | Where | Docs |
+|---|---|---|
+| **Edit a page** | CMS editor (`/editor`) → Tiptap rich-text or Monaco code | [CONTRIBUTING.md](./CONTRIBUTING.md) |
+| **Add an image** | Editor toolbar → **Image** button → Cloudinary picker | [.claude/skills/insert-figma.md](./.claude/skills/insert-figma.md) |
+| **Embed a Figma frame** | Editor toolbar → **Figma** button → paste URL → snapshot saved to Cloudinary | [.claude/skills/insert-figma.md](./.claude/skills/insert-figma.md) |
+| **Refresh design tokens** | `npm run tokens:generate` (auto-runs on `frontend` build) | [.claude/skills/regenerate-tokens.md](./.claude/skills/regenerate-tokens.md) |
+| **Add a new directive** | Three coordinated edits (renderer + CSS + editor schema) | [.claude/skills/add-directive.md](./.claude/skills/add-directive.md) |
+| **Login** | GitHub OAuth — **requires write access to the content repo** | See [Authentication](#authentication) |
+
+## Architectural decisions
+
+- [docs/adr/0001-markdown-not-mdx.md](./docs/adr/0001-markdown-not-mdx.md) — content stays in plain markdown + custom directives; no MDX
+- [docs/heroku-split-runbook.md](./docs/heroku-split-runbook.md) — planned split of the single Heroku app into separate frontend + backend dynos
+
 ## Project Structure
 
 ```
@@ -104,6 +122,12 @@ Key variables:
 | `GITHUB_CONTENT_PATH` | Path prefix for content in the repo (e.g. `content`) |
 | `SESSION_SECRET` | Session encryption secret |
 | `GHE_BASE_URL` | *(Optional)* Set only for GitHub Enterprise. Omit for public GitHub. |
+| `CLOUDINARY_URL` | Cloudinary credentials (`cloudinary://<key>:<secret>@<cloud>`). Set automatically when you run `heroku addons:create cloudinary:starter`. |
+| `CLOUDINARY_UPLOAD_FOLDER` | Folder prefix in Cloudinary (e.g. `ldss-cms-dev` vs `ldss-cms-prod`). |
+| `FIGMA_ACCESS_TOKEN` | Personal access token from [figma.com/settings](https://www.figma.com/settings) — required for the `:::figma` directive. |
+| `SERVE_FRONTEND` | *(Optional)* Set to `false` on a backend-only Heroku app to skip serving `frontend/out/`. See [docs/heroku-split-runbook.md](./docs/heroku-split-runbook.md). |
+| `FRONTEND_URL` | CORS allowlist for the editor. Comma-separated list of origins (e.g. `https://docs.example.com,https://www.docs.example.com`). |
+| `ZEROHEIGHT_API_TOKEN`, `ZEROHEIGHT_CLIENT_ID`, `ZEROHEIGHT_STYLEGUIDE_ID` | Used only by `scripts/zeroheight-*.ts` for the page audit and Figma migration. |
 
 ### 3. Install and run the CMS server
 
@@ -249,6 +273,32 @@ The markdown processor supports custom directives for rich content:
 - `:::component-demo` — Storybook iframe embeds with theme toggles
 - `:::code-example` — Syntax-highlighted code blocks
 - `:::video-embed` — Video players
+- `:::figma` — Cloudinary-hosted snapshot of a Figma frame (paste a Figma URL in the CMS Figma button)
+- `:::design-tokens` — Auto-generated design token table from `content/data/design-tokens.json`
+
+Adding a new directive requires three coordinated edits — see [.claude/skills/add-directive.md](./.claude/skills/add-directive.md).
+
+## Authentication
+
+The CMS uses **GitHub OAuth + a write-access gate**. Login flow:
+
+1. User signs in with GitHub.
+2. Backend fetches `repos/<owner>/<repo>/collaborators/<user>/permission`.
+3. If permission is `admin`, `maintain`, or `write` → session created.
+4. Otherwise → redirected to `/editor?auth_error=no_write_access&permission=<level>` with a friendly message asking them to request access from a repo admin.
+
+The user's effective permission is cached on the `users.repo_permission` column and refreshed on each login.
+
+## Token regeneration
+
+Design tokens (`content/data/design-tokens.json`) are generated from the `@salesforce-ux/design-system-2` npm package. Don't hand-edit the JSON.
+
+```bash
+npm run tokens:generate           # one-shot
+cd frontend && npm run build      # auto-runs `tokens:generate` first via prebuild hook
+```
+
+Bump the SLDS version with `npm install @salesforce-ux/design-system-2@<version> --save-dev` and commit both `package.json` and the regenerated JSON.
 
 ## Tech Stack
 
