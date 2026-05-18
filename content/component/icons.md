@@ -7,7 +7,7 @@ status: "published"
 lastModified: "2026-03-11"
 ---
 
-![ ](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/d07519083e68854c043236?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6K7NON45%2F20260221%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260221T180436Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b04e95f252344ec82f56fd00100513260595172036e37c5ded83bd1234b2b02a)
+![ ](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779126519/ldss-cms-dev/zeroheight/83309d-icons/d07519083e68854c043236-e8ff1ce7.png)
 
 ## About
 

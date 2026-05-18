@@ -6,7 +6,7 @@ url: "https://www.lightningdesignsystem.com/2e1ef8501/p/805bbe-display-density"
 extractedAt: "2026-02-21T18:20:37.569Z"
 ---
 
-![ ](https://zeroheight-uploads.s3.eu-west-1.amazonaws.com/b3a8742439b40d9a4b8db7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3AVNYHQK6K7NON45%2F20260221%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260221T180436Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7ebc98d66cbcf7dc2925dd2459fb0f581204c46b4df4eaa66f9ccc1e8c0b2e6e)
+![ ](https://res.cloudinary.com/hqglkpaqj/image/upload/v1779126675/ldss-cms-dev/zeroheight/805bbe-display-density/b3a8742439b40d9a4b8db7-179c68e9.png)
 **
 
 ## About

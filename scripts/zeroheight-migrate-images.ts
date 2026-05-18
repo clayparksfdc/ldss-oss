@@ -147,25 +147,43 @@ async function main() {
     return;
   }
 
-  let i = 0;
+  // Concurrency: Cloudinary's free tier handles ~10 concurrent uploads comfortably.
+  // Override with --concurrency=N if needed.
+  const concurrency = (() => {
+    const arg = process.argv.find(a => a.startsWith('--concurrency='));
+    return arg ? Math.max(1, parseInt(arg.split('=')[1], 10)) : 8;
+  })();
+
+  let completed = 0;
   let failures = 0;
-  for (const job of toProcess) {
-    i++;
-    try {
-      const entry = await uploadOne(job.img, job.page);
-      map[job.img.cleanUrl] = entry;
-      if (i % 10 === 0 || i === toProcess.length) {
-        saveMap(map);
-        console.log(`  [${i}/${toProcess.length}] ${job.page.pageName} → ${entry.publicId}`);
+  const total = toProcess.length;
+
+  // Worker pool — each worker pulls from a shared queue index.
+  let cursor = 0;
+  async function worker(workerId: number) {
+    while (true) {
+      const idx = cursor++;
+      if (idx >= total) return;
+      const job = toProcess[idx];
+      try {
+        const entry = await uploadOne(job.img, job.page);
+        map[job.img.cleanUrl] = entry;
+        completed++;
+        if (completed % 25 === 0 || completed === total) {
+          saveMap(map);
+          console.log(`  [${completed}/${total}] (worker ${workerId}) ${job.page.pageName} → ${entry.publicId}`);
+        }
+      } catch (err: any) {
+        failures++;
+        console.error(`  [${completed + failures}/${total}] (worker ${workerId}) ${job.page.pageName} FAILED: ${err.message}`);
+        if (failures % 5 === 0) saveMap(map);
       }
-    } catch (err: any) {
-      failures++;
-      console.error(`  [${i}/${toProcess.length}] ${job.page.pageName} FAILED: ${err.message}`);
-      // Save progress on failures too
-      if (failures % 5 === 0) saveMap(map);
     }
   }
+
+  await Promise.all(Array.from({ length: concurrency }, (_, i) => worker(i + 1)));
   saveMap(map);
+  const i = completed + failures;
 
   // Generate report
   const lines: string[] = [];
