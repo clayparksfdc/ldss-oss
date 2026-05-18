@@ -80,7 +80,9 @@ async function main() {
 
   fs.writeFileSync(path.join(CACHE_DIR, '_pages-list.json'), JSON.stringify(pages, null, 2));
 
-  const real = pages.filter(p => !p.is_category && !p.hidden);
+  // Include hidden pages — content/ markdown sometimes references images that
+  // live on pages later hidden by the design team. Excluding categories only.
+  const real = pages.filter(p => !p.is_category);
   const index: Array<{ id: number; uid: string; slug: string; url: string; name: string; hasTabs: boolean }> = [];
 
   let i = 0;
