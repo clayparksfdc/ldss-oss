@@ -11,22 +11,22 @@ export function StylingHookVisualizer() {
   const [search, setSearch] = useState('');
   const [typeFilter, setTypeFilter] = useState<'all' | 'global' | 'semantic' | 'reference'>('all');
   const [categoryFilter, setCategoryFilter] = useState<string>('all');
-  const [onlyDifferent, setOnlyDifferent] = useState(false);
-  const [compactView, setCompactView] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
     (async () => {
       try {
-        const [sldsCSS, plusCSS] = await Promise.all([
-          fetch('/assets/sldsTemplate.css').then(r => r.text()),
-          fetch('/assets/sldsPlusTemplate.css').then(r => r.text()),
+        const [sldsCSS, tokensCSS, plusCSS] = await Promise.all([
+          fetch('/assets/styles/salesforce-lightning-design-system.css').then(r => r.text()),
+          fetch('/assets/styles/designTokens.css').then(r => r.text()),
+          fetch('/assets/styles/sldsPlusTemplate.css').then(r => r.text()),
         ]);
         if (cancelled) return;
+        const combinedSldsCSS = sldsCSS + '\n' + tokensCSS;
         const parser = new CSSVariableParser();
-        parser.parseCSS(sldsCSS, parser.sldsVars);
+        parser.parseCSS(combinedSldsCSS, parser.sldsVars);
         parser.parseCSS(plusCSS, parser.plusVars);
-        parser.parseAllVars(sldsCSS, parser.sldsAllVars);
+        parser.parseAllVars(combinedSldsCSS, parser.sldsAllVars);
         parser.parseAllVars(plusCSS, parser.plusAllVars);
         for (const [k, v] of parser.sldsAllVars) parser.allVars.set(k, v);
         for (const [k, v] of parser.plusAllVars) parser.allVars.set(k, v);
@@ -49,11 +49,8 @@ export function StylingHookVisualizer() {
     }
     if (typeFilter !== 'all' && v.type !== typeFilter) return false;
     if (categoryFilter !== 'all' && v.category !== categoryFilter) return false;
-    if (onlyDifferent && (!v.sldsRaw || !v.plusRaw || v.sldsRaw === v.plusRaw)) return false;
     return true;
   });
-
-  const diffCount = data.filter(v => v.sldsRaw && v.plusRaw && v.sldsRaw !== v.plusRaw).length;
 
   const truncate = (s: string | null, len = 80) =>
     !s ? '' : s.length > len ? s.slice(0, len - 3) + '...' : s;
@@ -116,10 +113,6 @@ export function StylingHookVisualizer() {
 
   return (
     <div className={styles.root}>
-      <div className={styles.header}>
-        <h1 className={styles.title}>Styling Hook Comparison — Lightning Blue vs Cosmos</h1>
-        <span className={styles.badge}>{data.length} variables</span>
-      </div>
       <div className={styles.container}>
         <aside className={styles.sidebar}>
           <div className={styles.sidebarSection}>
@@ -152,32 +145,11 @@ export function StylingHookVisualizer() {
               ))}
             </div>
           </div>
-          <div className={styles.sidebarSection}>
-            <h3>Differences</h3>
-            <div className={styles.toggleContainer}>
-              <label className={styles.toggleWrap}>
-                <input type="checkbox" checked={onlyDifferent} onChange={e => setOnlyDifferent(e.target.checked)} />
-                <span className={styles.toggleSlider} />
-              </label>
-              <span className={styles.toggleLabel}>Show only different values</span>
-            </div>
-            <div className={styles.diffCount}>{diffCount} variables have different values</div>
-          </div>
         </aside>
         <main className={styles.main}>
-          <div className={styles.statsGrid}>
-            <div className={styles.statCard}><span className={styles.statLabel}>Total Variables</span><span className={styles.statValue}>{data.length}</span></div>
-            <div className={styles.statCard}><span className={styles.statLabel}>Lightning Blue</span><span className={styles.statValue}>{new Set(data.filter(v => v.sldsRef).map(v => v.name)).size}</span></div>
-            <div className={styles.statCard}><span className={styles.statLabel}>Cosmos</span><span className={styles.statValue}>{new Set(data.filter(v => v.plusRef).map(v => v.name)).size}</span></div>
-            <div className={styles.statCard}><span className={styles.statLabel}>Different Values</span><span className={styles.statValue}>{diffCount}</span></div>
-          </div>
           <div className={styles.tableContainer}>
             <div className={styles.tableHeader}>
               <h2>Variable Comparison</h2>
-              <div className={styles.viewToggle}>
-                <button className={compactView ? '' : styles.viewActive} onClick={() => setCompactView(false)}>All Columns</button>
-                <button className={compactView ? styles.viewActive : ''} onClick={() => setCompactView(true)}>Compact</button>
-              </div>
             </div>
             <div className={styles.tableScroll}>
               {filteredData.length === 0 ? (
@@ -195,16 +167,14 @@ export function StylingHookVisualizer() {
                   </thead>
                   <tbody>
                     {filteredData.map(v => {
-                      const isDiff = v.sldsRaw && v.plusRaw && v.sldsRaw !== v.plusRaw;
                       const sldsLD = v.sldsLight && v.sldsDark;
                       const plusLD = v.plusLight && v.plusDark;
                       return (
-                        <tr key={v.name} className={isDiff ? styles.rowDifferent : ''}>
+                        <tr key={v.name}>
                           <td><code className={styles.varName}>{v.name}</code></td>
                           <td>
                             <span className={`${styles.typeBadge} ${styles[v.type]}`}>{v.type}</span>
                             <span className={`${styles.categoryBadge} ${styles[v.category]}`}>{v.category}</span>
-                            {isDiff && <span className={styles.diffBadge}>Different</span>}
                           </td>
                           <td className={styles.valueCell}>
                             <div className={styles.valueWrapper}>

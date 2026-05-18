@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Header } from "@/components/layout/Header";
 import { DynamicSidebar } from "@/components/layout/Sidebar";
 import { Footer } from "@/components/layout/Footer";
+import LegacyComponentScope from "@/components/LegacyComponentScope";
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
 import StorybookThemeToggle from "@/components/markdown/StorybookThemeToggle";
 import { getNavigation } from "@/lib/navigation";
@@ -41,6 +42,7 @@ export default function FrontendLayout({
       </head>
       <body className={`${inter.variable} antialiased`} id="frontend-app" style={{ backgroundColor: "var(--background)" }}>
         <ThemeProvider>
+          <LegacyComponentScope />
           <StorybookThemeToggle />
           <Header />
           <div className="flex min-h-[calc(100vh-36px)]" style={{ backgroundColor: "var(--background)" }}>
@@ -53,6 +55,30 @@ export default function FrontendLayout({
             </div>
           </div>
         </ThemeProvider>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){
+              var dark = document.documentElement.classList.contains('dark');
+              var theme = dark ? 'dark' : 'light';
+              document.querySelectorAll('.storybook-embed').forEach(function(embed){
+                var btn = embed.querySelector('.storybook-theme-toggle');
+                var iframe = embed.querySelector('iframe');
+                if(!btn || !iframe) return;
+                btn.setAttribute('data-theme', theme);
+                embed.setAttribute('data-sb-dark', theme === 'dark' ? 'true' : 'false');
+                var lightIcon = btn.querySelector('.storybook-theme-icon-light');
+                var darkIcon = btn.querySelector('.storybook-theme-icon-dark');
+                if(lightIcon) lightIcon.style.display = theme === 'light' ? '' : 'none';
+                if(darkIcon) darkIcon.style.display = theme === 'dark' ? '' : 'none';
+                var baseUrl = embed.getAttribute('data-storybook-url') || '';
+                if(baseUrl){
+                  var sep = baseUrl.indexOf('?')>=0 ? '&' : '?';
+                  iframe.src = theme === 'dark' ? baseUrl + sep + 'globals=theme:dark;backgrounds.value:!hex(333333)' : baseUrl;
+                }
+              });
+            })();`,
+          }}
+        />
       </body>
     </html>
   );

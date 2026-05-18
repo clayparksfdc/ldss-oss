@@ -7,14 +7,14 @@
  * Usage:
  *   node scripts/parse-design-tokens.js [path-to-css]
  *
- * Defaults to ../sldsPlusTemplate.css when no path is given.
+ * Defaults to public/assets/styles/sldsPlusTemplate.css when no path is given.
  */
 
 const fs = require('fs');
 const path = require('path');
 
 const cssPath = process.argv[2]
-  || path.join(__dirname, '..', '..', 'sldsPlusTemplate.css');
+  || path.join(__dirname, '..', 'public', 'assets', 'styles', 'sldsPlusTemplate.css');
 
 const outPath = path.join(__dirname, '..', 'content', 'data', 'design-tokens.json');
 

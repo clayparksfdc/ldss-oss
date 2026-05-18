@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "cd .. && npm run tokens:generate",
-    "build": "next build",
+    "build": "node scripts/build-search-index.mjs && next build",
     "start": "next start",
     "lint": "next lint"
   },
