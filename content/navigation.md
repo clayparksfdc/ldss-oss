@@ -8,9 +8,9 @@
   - [Developers](/get-started/developers)
   - [Resources](/get-started/resources)
 - AI and SLDS 2
-  - [AI and SLDS 2](/general/ai-and-slds-2)
-  - [Agentic Patterns](/general/agentic-patterns)
-  - [AI Tools](/general/ai-tools)
+  - [AI and SLDS 2](/ai-and-slds-2/ai-and-slds-2)
+  - [Agentic Patterns](/pattern/agentic-patterns)
+  - [AI Tools](/ai-and-slds-2/ai-tools)
 - Foundations
   - [Icons](/foundation/icons) {sidebar}
     - [Overview](/foundation/icons--overview)

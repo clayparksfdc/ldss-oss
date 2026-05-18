@@ -1,7 +1,7 @@
 ---
 title: "AI and SLDS 2"
 slug: "ai-and-slds-2"
-category: "general"
+category: "ai-and-slds-2"
 url: "/ai-and-slds-2/ai-and-slds-2"
 extractedAt: "2026-02-21T18:07:13.502Z"
 ---

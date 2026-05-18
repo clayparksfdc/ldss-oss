@@ -1,7 +1,7 @@
 ---
 title: "AI Tools"
 slug: "ai-tools"
-category: "general"
+category: "ai-and-slds-2"
 url: "/ai-and-slds-2/ai-tools"
 extractedAt: "2026-02-21T18:07:20.501Z"
 ---
