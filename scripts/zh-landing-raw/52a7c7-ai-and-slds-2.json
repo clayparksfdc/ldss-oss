@@ -1,0 +1,19 @@
+{
+  "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/52a7c7-ai-and-slds-2",
+  "slug": "52a7c7-ai-and-slds-2",
+  "name": "AI and SLDS 2",
+  "hero": "https://www.lightningdesignsystem.com/uploads/XuGZIJSDFSYKQs1zm0wA2g.jpg",
+  "cards": [
+    {"title": "Agentic Patterns", "description": "", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/03c548", "cover": "https://www.lightningdesignsystem.com/uploads/g3YbBIcNfR8GFePssB8DSA.jpg"},
+    {"title": "Vibe Coding and SLDS", "description": "", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/75a154", "cover": "https://www.lightningdesignsystem.com/uploads/7M748sdX4LB0sdorZWHlWQ.jpg"},
+    {"title": "Salesforce DX MCP", "description": "", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/116694", "cover": "https://www.lightningdesignsystem.com/uploads/RPCmGe1mqFLDc7osoZt0yQ.jpg"},
+    {"title": "Agentic Experience Figma Library", "description": "", "href": "https://www.figma.com/community/file/1478970084463860424", "cover": "https://www.lightningdesignsystem.com/uploads/-YTRjH3GDjipi1h2mmgUXA.png"},
+    {"title": "Future of Salesforce Design", "description": "Salesforce Chief Design Officer, Kat Holmes, shares insights about where design is headed.", "href": "https://www.salesforce.com/plus/experience/Dreamforce_2024/series/the_future_of_ai_at_dreamforce_2024/episode/episode-s1e19", "cover": "https://www.lightningdesignsystem.com/uploads/e6dnppa9wWNrbYSJ9OOzvA.png"},
+    {"title": "Why We Designed Agentforce With Primitive Components", "description": "When we take a modular design approach, our AI assistant can respond with varying formats.", "href": "https://www.salesforce.com/blog/modular-design-benefits-agentforce/", "cover": "https://www.lightningdesignsystem.com/uploads/8SVB1zfXu4tjSKkHLRhnnQ.webp"},
+    {"title": "Should You Design Custom Actions for Agentforce? If So, Here Are 5 Tips", "description": "Consider existing options and whether the task needs a conversational user experience before designing a new Agentforce action.", "href": "https://www.salesforce.com/blog/design-agentforce-actions/", "cover": "https://www.lightningdesignsystem.com/uploads/5qhXt-2ZYxHDvVeoSmVXng.webp"},
+    {"title": "We Design AI Interfaces with Accessibility in Mind – Here's How", "description": "Discover 3 best practices that help keyboard users interact with Agentforce and Prompt Builder.", "href": "https://www.salesforce.com/blog/design-ai-interfaces-accessibility/", "cover": "https://www.lightningdesignsystem.com/uploads/by06iLyz5-7IeAF7YQ_FFw.webp"},
+    {"title": "How Does AI Change the Future of UI Design?", "description": "Here are five tips for how to build user interfaces for AI, starting with embracing probability not predictability.", "href": "https://www.salesforce.com/blog/how-does-ai-change-the-future-of-ui-design/", "cover": "https://www.lightningdesignsystem.com/uploads/hcKO5IezdCfd8itsBcLiRQ.webp"},
+    {"title": "Does AI Speak Your Language? 7 Ways Conversation Design Improves Inclusivity", "description": "When designing for AI outputs, recognize the diversity and nuances of how your users speak and write.", "href": "https://www.salesforce.com/blog/inclusive-conversation-design/", "cover": "https://www.lightningdesignsystem.com/uploads/S6tnIVUWIl1ui61wHAqJ1w.webp"},
+    {"title": "Building Trust in AI Needs a Human Touch", "description": "Designing generative AI systems to have a 'human in the loop' is important to your users.", "href": "https://www.salesforce.com/blog/ai-and-human-touch/", "cover": "https://www.lightningdesignsystem.com/uploads/B2Z6ta1582ff56muwZHQwg.webp"}
+  ]
+}

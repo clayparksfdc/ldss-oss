@@ -1,0 +1,20 @@
+{
+  "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/112ac5-accessibility",
+  "slug": "112ac5-accessibility",
+  "name": "Accessibility",
+  "hero": "https://www.lightningdesignsystem.com/uploads/rpagvXK48viCgclBsO8_UA.jpg",
+  "cards": [
+    {"title": "Text and Color Contrast", "description": "", "href": "https://salesforce.zeroheight.com/styleguide/s/110611/p/99d436-text-and-color-contrast", "cover": "https://www.lightningdesignsystem.com/uploads/NbEHVPPJ09mYu2VYQam6oA.jpg"},
+    {"title": "Global Focus", "description": "", "href": "https://salesforce.zeroheight.com/styleguide/s/110611/p/92a50f-global-focus", "cover": "https://www.lightningdesignsystem.com/uploads/Zg3_QTVyjCw6CdPiOeiXAg.jpg"},
+    {"title": "Keyboard Interaction", "description": "", "href": "https://salesforce.zeroheight.com/styleguide/s/110611/p/3491fd-keyboard-interaction", "cover": "https://www.lightningdesignsystem.com/uploads/GagZHvaQyOO14hCFAFvz6g.jpg"},
+    {"title": "Mobile Design", "description": "", "href": "https://salesforce.zeroheight.com/styleguide/s/110611/p/391e54-mobile-design", "cover": "https://www.lightningdesignsystem.com/uploads/wkWJzznM5cBz3C14m75abA.jpg"},
+    {"title": "Global Accessibility Standards", "description": "", "href": "https://salesforce.zeroheight.com/styleguide/s/110611/p/23a1dd-global-accessibility-standards", "cover": "https://www.lightningdesignsystem.com/uploads/lL_BvsEzOJlfGOTBD4K88w.jpg"},
+    {"title": "Salesforce a11y Blog Posts", "description": "Learn from our own accessibility designers and developers.", "href": "https://medium.com/salesforce-ux/tagged/accessibility", "cover": "https://www.lightningdesignsystem.com/uploads/TkJy2gxujgaXi2IG6LIJFg.jpg"},
+    {"title": "W3C Web Accessibility Initiative", "description": "Strategies, standards, and supporting resources to help you make the Web more accessible to people with disabilities.", "href": "https://www.w3.org/WAI/", "cover": "https://www.lightningdesignsystem.com/uploads/d04MgJTwPcbx-urcf_mUhA.jpg"},
+    {"title": "W3C WAI-ARIA Authoring Practices", "description": "Learn to use the accessibility semantics defined by the Accessible Rich Internet Application (ARIA) specification to create accessible web experiences.", "href": "https://www.w3.org/WAI/ARIA/apg/", "cover": "https://www.lightningdesignsystem.com/uploads/wNk32n2gAJ9wOsP3MrNKrw.jpg"},
+    {"title": "WebAIM", "description": "Accessibility training and resources.", "href": "https://webaim.org/", "cover": "https://www.lightningdesignsystem.com/uploads/o8iJmhVOP81-9-Fn6_swkw.jpg"},
+    {"title": "The A11Y Project", "description": "Learn the fundamentals and principles behind accessible design.", "href": "https://www.a11yproject.com/", "cover": "https://www.lightningdesignsystem.com/uploads/D4LcUCJe1nYdwq00Ol4Xvw.jpg"},
+    {"title": "Are My Colors Accessible?", "description": "Test the color contrast ratio of your content.", "href": "https://www.aremycolorsaccessible.com/", "cover": "https://www.lightningdesignsystem.com/uploads/LStwoAlIWr18NZVrCTjzuQ.jpg"},
+    {"title": "Trailhead", "description": "Learn what accessibility is and how to make websites and apps accessible to people with disabilities.", "href": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-web-accessibility", "cover": "https://www.lightningdesignsystem.com/uploads/9rhj-fy33pKRch0dmUxs8w.jpg"}
+  ]
+}

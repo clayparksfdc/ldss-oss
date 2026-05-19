@@ -1,0 +1,13 @@
+{
+  "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/771012-admins",
+  "slug": "771012-admins",
+  "name": "Admins",
+  "hero": "https://www.lightningdesignsystem.com/uploads/bFSkj_hjnS7n-zVxav8WPg.jpg",
+  "cards": [
+    {"title": "Availability", "description": "Does your edition have SLDS 2?", "href": "https://help.salesforce.com/s/articleView?id=xcloud.customize_ui_enhancedlex.htm&type=5", "cover": "https://www.lightningdesignsystem.com/uploads/4_ngbXARVub690aKoem62g.jpg"},
+    {"title": "Transition your org", "description": "Step-by-step guidance for admins.", "href": "https://zeroheight.com/2e1ef8501/p/8184ad", "cover": "https://www.lightningdesignsystem.com/uploads/ElZgOG9ACzm-yESibBzSTw.jpg"},
+    {"title": "Turn on Salesforce Cosmos", "description": "Uplift to the new UI design.", "href": "https://help.salesforce.com/s/articleView?id=xcloud.brand_your_org_in_lightning_experience.htm&type=5", "cover": "https://www.lightningdesignsystem.com/uploads/DqXKEWH5_9znu0EMvuCAIg.jpg"},
+    {"title": "RoadmapExchange", "description": "Share your feedback and ideas.", "href": "https://ideas.salesforce.com/s/roadmap/a0V8W00000VMovLUAT/design-systems", "cover": "https://www.lightningdesignsystem.com/uploads/VfjgMTvCPq_ZBekHt1DeZQ.jpg"},
+    {"title": "Hit the trail", "description": "Take the SLDS 2 for Admins module.", "href": "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-admins", "cover": "https://www.lightningdesignsystem.com/uploads/YNVI6VWVHzX_EUqrUCuicg.jpg"}
+  ]
+}

@@ -5,6 +5,9 @@ category: "get-started"
 order: 0
 ---
 
+<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Transition to SLDS 2&quot;,&quot;tagline&quot;:&quot;&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211255/ldss-cms-dev/zh-landing/8184ad-transition-to-slds-2/hero-CCgYngBnmS-d7GsClYMHxw.jpg&quot;}" data-directive-children="[]">
+</div>
+
 A step-by-step guide to get your Salesforce org up and running with the latest Lightning Design System, SLDS 2.
 
 ## Overview

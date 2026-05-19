@@ -1,0 +1,12 @@
+{
+  "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/874349-designers",
+  "slug": "874349-designers",
+  "name": "Designers",
+  "hero": "https://www.lightningdesignsystem.com/uploads/IXQjkmIiHTdKgSJ_1qRrvA.jpg",
+  "cards": [
+    {"title": "Principles", "description": "Understand our design principles that guide our design decisions and process.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/67a7b2-foundations/t/eafef4fe24", "cover": "https://www.lightningdesignsystem.com/uploads/QnSV-ntw_gURgNkgzaZW5w.jpg"},
+    {"title": "Foundations", "description": "Understand how we apply visual design to our components and products across Salesforce.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/67a7b2", "cover": "https://www.lightningdesignsystem.com/uploads/VnfptP-Dm6v9x1T5LY6CQA.jpg"},
+    {"title": "Components", "description": "Familiarize yourself with the reusable components that you can incorporate into your designs.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/755aff", "cover": "https://www.lightningdesignsystem.com/uploads/YNBin9CuJQ413UTDUB7Fcg.jpg"},
+    {"title": "Designer Tools", "description": "Find UI libraries, an essential resource for creating consistent, high-quality designs.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/2963ba", "cover": "https://www.lightningdesignsystem.com/uploads/-gi7Lb-T78kqYugYGG68RA.jpg"}
+  ]
+}

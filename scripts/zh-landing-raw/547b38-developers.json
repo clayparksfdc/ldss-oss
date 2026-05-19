@@ -1,0 +1,12 @@
+{
+  "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/547b38-developers",
+  "slug": "547b38-developers",
+  "name": "Developers",
+  "hero": "https://www.lightningdesignsystem.com/uploads/YGi1OZjrGBnr5vo80gordw.jpg",
+  "cards": [
+    {"title": "Components", "description": "Build UIs with Lightning components.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/755aff", "cover": "https://www.lightningdesignsystem.com/uploads/02hygY8oYgX1VtYsxPiNsA.jpg"},
+    {"title": "Styling hooks", "description": "Use our web-standard CSS variables to style your apps.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/319e5f", "cover": "https://www.lightningdesignsystem.com/uploads/LR5_MRVWpSg_x_Auv4AbPw.jpg"},
+    {"title": "Developer Tools", "description": "Explore our custom tools to help enhance your Lightning development process.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/3427aa", "cover": "https://www.lightningdesignsystem.com/uploads/Df2cWMw4G9J4KcoWj7QpEQ.jpg"},
+    {"title": "Hit the Trail", "description": "Take the SLDS 2 for Developers module.", "href": "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-developers", "cover": "https://www.lightningdesignsystem.com/uploads/n6PHVlbJIZIOpEnOMK-Wlg.jpg"}
+  ]
+}

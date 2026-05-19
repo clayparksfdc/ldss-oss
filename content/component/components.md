@@ -48,3 +48,8 @@ Lightning Web Components (LWC) is a framework for creating modern user interface
 Aura components are still supported, but it's best to use Lightning web components for new projects. LWC are more modern, efficient, and follow current web standards.
 
 Many Lightning base components are available as LWC components and Aura components. New base components are usually only available for LWC.
+
+:::card-grid{columns="2"}
+::card{title="Lightning Web Components" href="https://developer.salesforce.com/docs/platform/lwc/overview" image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211241/ldss-cms-dev/zh-landing/755aff-components/card-lightning-web-components-mL-UKM3bDaqL-fpAdKIf5w.jpg"}
+::card{title="Aura Components" href="https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_framework.htm" image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211241/ldss-cms-dev/zh-landing/755aff-components/card-aura-components-A5AJ25M74eYSRN-RT_FJUQ.jpg"}
+:::

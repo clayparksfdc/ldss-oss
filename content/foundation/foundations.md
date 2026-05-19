@@ -7,7 +7,7 @@ status: "published"
 lastModified: "2026-03-11"
 ---
 
-<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Foundations&quot;,&quot;tagline&quot;:&quot;The visual building blocks of Lightning Design System 2.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;gradient&quot;:&quot;linear-gradient(135deg, #1E40AF 0%, #2563EB 50%, #7C3AED 100%)&quot;}" data-directive-children="[]">
+<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Foundations&quot;,&quot;tagline&quot;:&quot;The visual building blocks of Lightning Design System 2.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211232/ldss-cms-dev/zh-landing/67a7b2-foundations/hero-ZzaFHvZ1x3gdgZQcT9R7fw.jpg&quot;}" data-directive-children="[]">
 </div>
 
 ## The Principles That Power SLDS 2
@@ -59,11 +59,11 @@ SLDS 2 isn’t just functional, it’s expressive. We design experiences that sp
 A design system’s foundation aligns design and development, ensuring consistency, usability, and scalability. It combines reusable code, a unified visual language, accessibility standards for inclusivity, and guiding principles to maintain clarity and purpose. Together, these elements help teams create cohesive, user-focused experiences efficiently.
 
 :::card-grid{columns="3"}
-::card{title="Iconography" href="/component/icons"}
-::card{title="Color" href="/foundation/color"}
-::card{title="Typography" href="/foundation/typography"}
-::card{title="Spacing and Sizing" href="/foundation/spacing-and-sizing"}
-::card{title="Borders and Radius" href="/foundation/borders-and-radius"}
-::card{title="Shadows" href="/foundation/shadows"}
-::card{title="Illustrations" href="/foundation/illustrations"}
+::card{title="Iconography" href="/foundation/icons" image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211233/ldss-cms-dev/zh-landing/67a7b2-foundations/card-iconography-dLCuRdFllbXaSd7KYYyzLQ.jpg"}
+::card{title="Color" href="/foundation/color" image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211235/ldss-cms-dev/zh-landing/67a7b2-foundations/card-color-714KJJJRaNRgxtw7Wk67Cg.jpg"}
+::card{title="Typography" href="/foundation/typography" image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211236/ldss-cms-dev/zh-landing/67a7b2-foundations/card-typography-3rz9en9fief1BTcBe4NbQw.jpg"}
+::card{title="Spacing and Sizing" href="/foundation/spacing-and-sizing" image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211236/ldss-cms-dev/zh-landing/67a7b2-foundations/card-spacing-and-sizing-DdDpEZTUciXH_dQSav2_sQ.jpg"}
+::card{title="Borders and Radius" href="/foundation/borders-and-radius" image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211238/ldss-cms-dev/zh-landing/67a7b2-foundations/card-borders-and-radius-RXvn5sv0_kiQQdPeW6nAwg.jpg"}
+::card{title="Shadows" href="/foundation/shadows" image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211238/ldss-cms-dev/zh-landing/67a7b2-foundations/card-shadows-N3vgXSzN_iDFwIb0Lx7T5A.jpg"}
+::card{title="Illustrations" href="/foundation/illustrations" image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211240/ldss-cms-dev/zh-landing/67a7b2-foundations/card-illustrations-FOQBWmhhILYGRr5UArMwYQ.jpg"}
 :::

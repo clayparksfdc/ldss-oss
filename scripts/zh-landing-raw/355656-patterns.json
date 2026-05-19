@@ -1,0 +1,26 @@
+{
+  "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/355656-patterns",
+  "slug": "355656-patterns",
+  "name": "Patterns",
+  "hero": "https://www.lightningdesignsystem.com/uploads/QyrItrfHDgbJ3hWMg7JXhg.jpg",
+  "cards": [
+    {"title": "Agentic Experiences", "description": "Agentic experiences are systems and interfaces that empower users to leverage AI to accomplish their goals.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/324d26", "cover": null},
+    {"title": "Builder", "description": "Declaratively build and visualize applications and business processes.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/450761", "cover": null},
+    {"title": "Conversation Design", "description": "The Salesforce Conversation Design Guidelines reflect the standardized approach in designing inclusive conversational experiences across the Salesforce ecosystem.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/65694b", "cover": null},
+    {"title": "Data Entry", "description": "Salesforce users need to add, change, and delete information frequently. A wide variety of text entry and selection options clearly and efficiently facilitates this experience.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/33f0d7", "cover": null},
+    {"title": "Data Visualization", "description": "Charts illustrate—and give us insight into—complex data relationships.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/7139a1", "cover": null},
+    {"title": "Displaying Data", "description": "Lists and feeds help users navigate data either by theme or chronology. These various ways of displaying data are optimized to help users locate, browse, and work together on records.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/7540d0", "cover": null},
+    {"title": "In App Feedback", "description": "The In App Feedback Framework consists of research, design, and implementation guidelines for hearing directly from users within the product.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/81be64", "cover": null},
+    {"title": "Layout", "description": "A layout is a structural template that supports consistency across applications by defining visual grids, spacing, and sections.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/53eb31", "cover": null},
+    {"title": "Loading", "description": "Loading indicators help to reassure the user that the system is actively retrieving data.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/7473e0", "cover": null},
+    {"title": "Localization", "description": "Salesforce is committed to providing a high-quality experience to international customers.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/962e74", "cover": null},
+    {"title": "Markup and Style", "description": "Naming conventions for consistent component development.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/88f917", "cover": null},
+    {"title": "Messaging UI", "description": "Principles for real-time and asynchronous text-based customer conversations.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/468e9d", "cover": null},
+    {"title": "Navigation", "description": "Navigational patterns help users move between pages and situate themselves in the application.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/47ae1f", "cover": null},
+    {"title": "Notifications", "description": "Notifications are messages that deliver information and insights to users, helping drive engagement and productivity.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/56c792", "cover": null},
+    {"title": "Prompt Design Guide", "description": "Use this Prompt Design Guide to write templates and instructions that are clear, reusable, and built for impact.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/0364a5", "cover": null},
+    {"title": "Rules, Filters, and Logic", "description": "Build interactions that let users find the information they need, when they need it, and confidently take action (no matter how complex).", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/58ff5f", "cover": null},
+    {"title": "Search", "description": "Search is the most used feature in Salesforce, and users expect it to be fast, intelligent, and simple. With global search, users can get right to records and apps by entering simple keywords or using powerful advanced search features.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/727af5", "cover": null},
+    {"title": "User Engagement", "description": "The Lightning User Engagement Framework consists of design guidelines for onboarding, adoption, assistance, and learning patterns across the Salesforce ecosystem.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/42090b", "cover": null}
+  ]
+}

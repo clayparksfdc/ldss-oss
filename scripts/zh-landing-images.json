@@ -1,0 +1,738 @@
+[
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/03c548-agentic-patterns",
+    "slug": "03c548-agentic-patterns",
+    "name": "Agentic Patterns",
+    "hero": null,
+    "cards": [],
+    "heroCloudinary": null
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/05b46d-tools",
+    "slug": "05b46d-tools",
+    "name": "Tools",
+    "hero": "https://www.lightningdesignsystem.com/uploads/_v6e1ZUy70TmCZf5uDFKzw.jpg",
+    "cards": [
+      {
+        "title": "Designer Tools",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/2963ba",
+        "cover": "https://www.lightningdesignsystem.com/uploads/Aj9i7Rxc55SpSgjZrdkY2w.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211194/ldss-cms-dev/zh-landing/05b46d-tools/card-designer-tools-Aj9i7Rxc55SpSgjZrdkY2w.jpg"
+      },
+      {
+        "title": "Developer Tools",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/3427aa",
+        "cover": "https://www.lightningdesignsystem.com/uploads/QSs1ZBvt5FNPYpQuB-4eXg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211195/ldss-cms-dev/zh-landing/05b46d-tools/card-developer-tools-QSs1ZBvt5FNPYpQuB-4eXg.jpg"
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211193/ldss-cms-dev/zh-landing/05b46d-tools/hero-_v6e1ZUy70TmCZf5uDFKzw.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/112ac5-accessibility",
+    "slug": "112ac5-accessibility",
+    "name": "Accessibility",
+    "hero": "https://www.lightningdesignsystem.com/uploads/rpagvXK48viCgclBsO8_UA.jpg",
+    "cards": [
+      {
+        "title": "Text and Color Contrast",
+        "description": "",
+        "href": "https://salesforce.zeroheight.com/styleguide/s/110611/p/99d436-text-and-color-contrast",
+        "cover": "https://www.lightningdesignsystem.com/uploads/NbEHVPPJ09mYu2VYQam6oA.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211197/ldss-cms-dev/zh-landing/112ac5-accessibility/card-text-and-color-contrast-NbEHVPPJ09mYu2VYQam6oA.jpg"
+      },
+      {
+        "title": "Global Focus",
+        "description": "",
+        "href": "https://salesforce.zeroheight.com/styleguide/s/110611/p/92a50f-global-focus",
+        "cover": "https://www.lightningdesignsystem.com/uploads/Zg3_QTVyjCw6CdPiOeiXAg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211198/ldss-cms-dev/zh-landing/112ac5-accessibility/card-global-focus-Zg3_QTVyjCw6CdPiOeiXAg.jpg"
+      },
+      {
+        "title": "Keyboard Interaction",
+        "description": "",
+        "href": "https://salesforce.zeroheight.com/styleguide/s/110611/p/3491fd-keyboard-interaction",
+        "cover": "https://www.lightningdesignsystem.com/uploads/GagZHvaQyOO14hCFAFvz6g.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211199/ldss-cms-dev/zh-landing/112ac5-accessibility/card-keyboard-interaction-GagZHvaQyOO14hCFAFvz6g.jpg"
+      },
+      {
+        "title": "Mobile Design",
+        "description": "",
+        "href": "https://salesforce.zeroheight.com/styleguide/s/110611/p/391e54-mobile-design",
+        "cover": "https://www.lightningdesignsystem.com/uploads/wkWJzznM5cBz3C14m75abA.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211200/ldss-cms-dev/zh-landing/112ac5-accessibility/card-mobile-design-wkWJzznM5cBz3C14m75abA.jpg"
+      },
+      {
+        "title": "Global Accessibility Standards",
+        "description": "",
+        "href": "https://salesforce.zeroheight.com/styleguide/s/110611/p/23a1dd-global-accessibility-standards",
+        "cover": "https://www.lightningdesignsystem.com/uploads/lL_BvsEzOJlfGOTBD4K88w.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211201/ldss-cms-dev/zh-landing/112ac5-accessibility/card-global-accessibility-standards-lL_BvsEzOJlfGOTBD4K88w.jpg"
+      },
+      {
+        "title": "Salesforce a11y Blog Posts",
+        "description": "Learn from our own accessibility designers and developers.",
+        "href": "https://medium.com/salesforce-ux/tagged/accessibility",
+        "cover": "https://www.lightningdesignsystem.com/uploads/TkJy2gxujgaXi2IG6LIJFg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211202/ldss-cms-dev/zh-landing/112ac5-accessibility/card-salesforce-a11y-blog-posts-TkJy2gxujgaXi2IG6LIJFg.jpg"
+      },
+      {
+        "title": "W3C Web Accessibility Initiative",
+        "description": "Strategies, standards, and supporting resources to help you make the Web more accessible to people with disabilities.",
+        "href": "https://www.w3.org/WAI/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/d04MgJTwPcbx-urcf_mUhA.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211203/ldss-cms-dev/zh-landing/112ac5-accessibility/card-w3c-web-accessibility-initiati-d04MgJTwPcbx-urcf_mUhA.jpg"
+      },
+      {
+        "title": "W3C WAI-ARIA Authoring Practices",
+        "description": "Learn to use the accessibility semantics defined by the Accessible Rich Internet Application (ARIA) specification to create accessible web experiences.",
+        "href": "https://www.w3.org/WAI/ARIA/apg/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/wNk32n2gAJ9wOsP3MrNKrw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211204/ldss-cms-dev/zh-landing/112ac5-accessibility/card-w3c-wai-aria-authoring-practic-wNk32n2gAJ9wOsP3MrNKrw.jpg"
+      },
+      {
+        "title": "WebAIM",
+        "description": "Accessibility training and resources.",
+        "href": "https://webaim.org/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/o8iJmhVOP81-9-Fn6_swkw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211205/ldss-cms-dev/zh-landing/112ac5-accessibility/card-webaim-o8iJmhVOP81-9-Fn6_swkw.jpg"
+      },
+      {
+        "title": "The A11Y Project",
+        "description": "Learn the fundamentals and principles behind accessible design.",
+        "href": "https://www.a11yproject.com/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/D4LcUCJe1nYdwq00Ol4Xvw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211206/ldss-cms-dev/zh-landing/112ac5-accessibility/card-the-a11y-project-D4LcUCJe1nYdwq00Ol4Xvw.jpg"
+      },
+      {
+        "title": "Are My Colors Accessible?",
+        "description": "Test the color contrast ratio of your content.",
+        "href": "https://www.aremycolorsaccessible.com/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/LStwoAlIWr18NZVrCTjzuQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211207/ldss-cms-dev/zh-landing/112ac5-accessibility/card-are-my-colors-accessible-LStwoAlIWr18NZVrCTjzuQ.jpg"
+      },
+      {
+        "title": "Trailhead",
+        "description": "Learn what accessibility is and how to make websites and apps accessible to people with disabilities.",
+        "href": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-web-accessibility",
+        "cover": "https://www.lightningdesignsystem.com/uploads/9rhj-fy33pKRch0dmUxs8w.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211208/ldss-cms-dev/zh-landing/112ac5-accessibility/card-trailhead-9rhj-fy33pKRch0dmUxs8w.jpg"
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211196/ldss-cms-dev/zh-landing/112ac5-accessibility/hero-rpagvXK48viCgclBsO8_UA.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/2337c1-ai-tools",
+    "slug": "2337c1-ai-tools",
+    "name": "AI Tools",
+    "hero": null,
+    "cards": [
+      {
+        "title": "Agentforce Vibes",
+        "description": "Quickly generate experiences people trust and love with design system thinking.",
+        "href": "https://www.salesforce.com/agentforce/developers/vibe-coding/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/rtPoJwDvWYEuUE0R02Ka-w.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211209/ldss-cms-dev/zh-landing/2337c1-ai-tools/card-agentforce-vibes-rtPoJwDvWYEuUE0R02Ka-w.jpg"
+      },
+      {
+        "title": "Salesforce DX MCP",
+        "description": "Deeper context and built-in SLDS 2 design system knowledge.",
+        "href": "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_mcp.htm",
+        "cover": "https://www.lightningdesignsystem.com/uploads/QzapRKXth6-E2yKWhMG7hw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211210/ldss-cms-dev/zh-landing/2337c1-ai-tools/card-salesforce-dx-mcp-QzapRKXth6-E2yKWhMG7hw.jpg"
+      }
+    ],
+    "heroCloudinary": null
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/355656-patterns",
+    "slug": "355656-patterns",
+    "name": "Patterns",
+    "hero": "https://www.lightningdesignsystem.com/uploads/QyrItrfHDgbJ3hWMg7JXhg.jpg",
+    "cards": [
+      {
+        "title": "Agentic Experiences",
+        "description": "Agentic experiences are systems and interfaces that empower users to leverage AI to accomplish their goals.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/324d26",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Builder",
+        "description": "Declaratively build and visualize applications and business processes.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/450761",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Conversation Design",
+        "description": "The Salesforce Conversation Design Guidelines reflect the standardized approach in designing inclusive conversational experiences across the Salesforce ecosystem.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/65694b",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Data Entry",
+        "description": "Salesforce users need to add, change, and delete information frequently. A wide variety of text entry and selection options clearly and efficiently facilitates this experience.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/33f0d7",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Data Visualization",
+        "description": "Charts illustrate—and give us insight into—complex data relationships.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/7139a1",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Displaying Data",
+        "description": "Lists and feeds help users navigate data either by theme or chronology. These various ways of displaying data are optimized to help users locate, browse, and work together on records.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/7540d0",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "In App Feedback",
+        "description": "The In App Feedback Framework consists of research, design, and implementation guidelines for hearing directly from users within the product.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/81be64",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Layout",
+        "description": "A layout is a structural template that supports consistency across applications by defining visual grids, spacing, and sections.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/53eb31",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Loading",
+        "description": "Loading indicators help to reassure the user that the system is actively retrieving data.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/7473e0",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Localization",
+        "description": "Salesforce is committed to providing a high-quality experience to international customers.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/962e74",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Markup and Style",
+        "description": "Naming conventions for consistent component development.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/88f917",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Messaging UI",
+        "description": "Principles for real-time and asynchronous text-based customer conversations.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/468e9d",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Navigation",
+        "description": "Navigational patterns help users move between pages and situate themselves in the application.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/47ae1f",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Notifications",
+        "description": "Notifications are messages that deliver information and insights to users, helping drive engagement and productivity.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/56c792",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Prompt Design Guide",
+        "description": "Use this Prompt Design Guide to write templates and instructions that are clear, reusable, and built for impact.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/0364a5",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Rules, Filters, and Logic",
+        "description": "Build interactions that let users find the information they need, when they need it, and confidently take action (no matter how complex).",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/58ff5f",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "Search",
+        "description": "Search is the most used feature in Salesforce, and users expect it to be fast, intelligent, and simple. With global search, users can get right to records and apps by entering simple keywords or using powerful advanced search features.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/727af5",
+        "cover": null,
+        "coverCloudinary": null
+      },
+      {
+        "title": "User Engagement",
+        "description": "The Lightning User Engagement Framework consists of design guidelines for onboarding, adoption, assistance, and learning patterns across the Salesforce ecosystem.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/42090b",
+        "cover": null,
+        "coverCloudinary": null
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211210/ldss-cms-dev/zh-landing/355656-patterns/hero-QyrItrfHDgbJ3hWMg7JXhg.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/52a7c7-ai-and-slds-2",
+    "slug": "52a7c7-ai-and-slds-2",
+    "name": "AI and SLDS 2",
+    "hero": "https://www.lightningdesignsystem.com/uploads/XuGZIJSDFSYKQs1zm0wA2g.jpg",
+    "cards": [
+      {
+        "title": "Agentic Patterns",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/03c548",
+        "cover": "https://www.lightningdesignsystem.com/uploads/g3YbBIcNfR8GFePssB8DSA.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211212/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-agentic-patterns-g3YbBIcNfR8GFePssB8DSA.jpg"
+      },
+      {
+        "title": "Vibe Coding and SLDS",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/75a154",
+        "cover": "https://www.lightningdesignsystem.com/uploads/7M748sdX4LB0sdorZWHlWQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211213/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-vibe-coding-and-slds-7M748sdX4LB0sdorZWHlWQ.jpg"
+      },
+      {
+        "title": "Salesforce DX MCP",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/116694",
+        "cover": "https://www.lightningdesignsystem.com/uploads/RPCmGe1mqFLDc7osoZt0yQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211214/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-salesforce-dx-mcp-RPCmGe1mqFLDc7osoZt0yQ.jpg"
+      },
+      {
+        "title": "Agentic Experience Figma Library",
+        "description": "",
+        "href": "https://www.figma.com/community/file/1478970084463860424",
+        "cover": "https://www.lightningdesignsystem.com/uploads/-YTRjH3GDjipi1h2mmgUXA.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211215/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-agentic-experience-figma-libra--YTRjH3GDjipi1h2mmgUXA.png"
+      },
+      {
+        "title": "Future of Salesforce Design",
+        "description": "Salesforce Chief Design Officer, Kat Holmes, shares insights about where design is headed.",
+        "href": "https://www.salesforce.com/plus/experience/Dreamforce_2024/series/the_future_of_ai_at_dreamforce_2024/episode/episode-s1e19",
+        "cover": "https://www.lightningdesignsystem.com/uploads/e6dnppa9wWNrbYSJ9OOzvA.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211216/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-future-of-salesforce-design-e6dnppa9wWNrbYSJ9OOzvA.png"
+      },
+      {
+        "title": "Why We Designed Agentforce With Primitive Components",
+        "description": "When we take a modular design approach, our AI assistant can respond with varying formats.",
+        "href": "https://www.salesforce.com/blog/modular-design-benefits-agentforce/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/8SVB1zfXu4tjSKkHLRhnnQ.webp",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211217/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-why-we-designed-agentforce-wit-8SVB1zfXu4tjSKkHLRhnnQ.webp"
+      },
+      {
+        "title": "Should You Design Custom Actions for Agentforce? If So, Here Are 5 Tips",
+        "description": "Consider existing options and whether the task needs a conversational user experience before designing a new Agentforce action.",
+        "href": "https://www.salesforce.com/blog/design-agentforce-actions/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/5qhXt-2ZYxHDvVeoSmVXng.webp",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211218/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-should-you-design-custom-actio-5qhXt-2ZYxHDvVeoSmVXng.webp"
+      },
+      {
+        "title": "We Design AI Interfaces with Accessibility in Mind – Here's How",
+        "description": "Discover 3 best practices that help keyboard users interact with Agentforce and Prompt Builder.",
+        "href": "https://www.salesforce.com/blog/design-ai-interfaces-accessibility/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/by06iLyz5-7IeAF7YQ_FFw.webp",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211219/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-we-design-ai-interfaces-with-a-by06iLyz5-7IeAF7YQ_FFw.webp"
+      },
+      {
+        "title": "How Does AI Change the Future of UI Design?",
+        "description": "Here are five tips for how to build user interfaces for AI, starting with embracing probability not predictability.",
+        "href": "https://www.salesforce.com/blog/how-does-ai-change-the-future-of-ui-design/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/hcKO5IezdCfd8itsBcLiRQ.webp",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211220/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-how-does-ai-change-the-future--hcKO5IezdCfd8itsBcLiRQ.webp"
+      },
+      {
+        "title": "Does AI Speak Your Language? 7 Ways Conversation Design Improves Inclusivity",
+        "description": "When designing for AI outputs, recognize the diversity and nuances of how your users speak and write.",
+        "href": "https://www.salesforce.com/blog/inclusive-conversation-design/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/S6tnIVUWIl1ui61wHAqJ1w.webp",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211221/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-does-ai-speak-your-language-7--S6tnIVUWIl1ui61wHAqJ1w.webp"
+      },
+      {
+        "title": "Building Trust in AI Needs a Human Touch",
+        "description": "Designing generative AI systems to have a 'human in the loop' is important to your users.",
+        "href": "https://www.salesforce.com/blog/ai-and-human-touch/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/B2Z6ta1582ff56muwZHQwg.webp",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211222/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/card-building-trust-in-ai-needs-a-h-B2Z6ta1582ff56muwZHQwg.webp"
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211211/ldss-cms-dev/zh-landing/52a7c7-ai-and-slds-2/hero-XuGZIJSDFSYKQs1zm0wA2g.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/547b38-developers",
+    "slug": "547b38-developers",
+    "name": "Developers",
+    "hero": "https://www.lightningdesignsystem.com/uploads/YGi1OZjrGBnr5vo80gordw.jpg",
+    "cards": [
+      {
+        "title": "Components",
+        "description": "Build UIs with Lightning components.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/755aff",
+        "cover": "https://www.lightningdesignsystem.com/uploads/02hygY8oYgX1VtYsxPiNsA.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211224/ldss-cms-dev/zh-landing/547b38-developers/card-components-02hygY8oYgX1VtYsxPiNsA.jpg"
+      },
+      {
+        "title": "Styling hooks",
+        "description": "Use our web-standard CSS variables to style your apps.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/319e5f",
+        "cover": "https://www.lightningdesignsystem.com/uploads/LR5_MRVWpSg_x_Auv4AbPw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211226/ldss-cms-dev/zh-landing/547b38-developers/card-styling-hooks-LR5_MRVWpSg_x_Auv4AbPw.jpg"
+      },
+      {
+        "title": "Developer Tools",
+        "description": "Explore our custom tools to help enhance your Lightning development process.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/3427aa",
+        "cover": "https://www.lightningdesignsystem.com/uploads/Df2cWMw4G9J4KcoWj7QpEQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211227/ldss-cms-dev/zh-landing/547b38-developers/card-developer-tools-Df2cWMw4G9J4KcoWj7QpEQ.jpg"
+      },
+      {
+        "title": "Hit the Trail",
+        "description": "Take the SLDS 2 for Developers module.",
+        "href": "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-developers",
+        "cover": "https://www.lightningdesignsystem.com/uploads/n6PHVlbJIZIOpEnOMK-Wlg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211228/ldss-cms-dev/zh-landing/547b38-developers/card-hit-the-trail-n6PHVlbJIZIOpEnOMK-Wlg.jpg"
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211223/ldss-cms-dev/zh-landing/547b38-developers/hero-YGi1OZjrGBnr5vo80gordw.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/63cfc2-resources",
+    "slug": "63cfc2-resources",
+    "name": "Resources",
+    "hero": "https://www.lightningdesignsystem.com/uploads/2QJDiI147MG1rgIthFgsww.jpg",
+    "cards": [
+      {
+        "title": "Learn more",
+        "description": "Check out Trailhead and our blogs for more opportunities to learn.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/74034e",
+        "cover": "https://www.lightningdesignsystem.com/uploads/iCEFc2Qjoo5nTKxArhWMCQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211230/ldss-cms-dev/zh-landing/63cfc2-resources/card-learn-more-iCEFc2Qjoo5nTKxArhWMCQ.jpg"
+      },
+      {
+        "title": "Glossary",
+        "description": "Get familiar with key terms that will help you navigate our design system.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/81aa72",
+        "cover": "https://www.lightningdesignsystem.com/uploads/r39d3M_fonjRWrkjvLRggw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211231/ldss-cms-dev/zh-landing/63cfc2-resources/card-glossary-r39d3M_fonjRWrkjvLRggw.jpg"
+      },
+      {
+        "title": "FAQs",
+        "description": "Find answers to the most common questions about our design system.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/313db3",
+        "cover": "https://www.lightningdesignsystem.com/uploads/xSa9Vgy4iD2AnTPYkda_Qw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211231/ldss-cms-dev/zh-landing/63cfc2-resources/card-faqs-xSa9Vgy4iD2AnTPYkda_Qw.jpg"
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211229/ldss-cms-dev/zh-landing/63cfc2-resources/hero-2QJDiI147MG1rgIthFgsww.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/67a7b2-foundations",
+    "slug": "67a7b2-foundations",
+    "name": "Foundations",
+    "hero": "https://www.lightningdesignsystem.com/uploads/ZzaFHvZ1x3gdgZQcT9R7fw.jpg",
+    "cards": [
+      {
+        "title": "Iconography",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/83309d",
+        "cover": "https://www.lightningdesignsystem.com/uploads/dLCuRdFllbXaSd7KYYyzLQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211233/ldss-cms-dev/zh-landing/67a7b2-foundations/card-iconography-dLCuRdFllbXaSd7KYYyzLQ.jpg"
+      },
+      {
+        "title": "Color",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/655b28-color",
+        "cover": "https://www.lightningdesignsystem.com/uploads/714KJJJRaNRgxtw7Wk67Cg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211235/ldss-cms-dev/zh-landing/67a7b2-foundations/card-color-714KJJJRaNRgxtw7Wk67Cg.jpg"
+      },
+      {
+        "title": "Typography",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/v/0/p/93288f-typography",
+        "cover": "https://www.lightningdesignsystem.com/uploads/3rz9en9fief1BTcBe4NbQw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211236/ldss-cms-dev/zh-landing/67a7b2-foundations/card-typography-3rz9en9fief1BTcBe4NbQw.jpg"
+      },
+      {
+        "title": "Spacing and Sizing",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/03d6b0",
+        "cover": "https://www.lightningdesignsystem.com/uploads/DdDpEZTUciXH_dQSav2_sQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211236/ldss-cms-dev/zh-landing/67a7b2-foundations/card-spacing-and-sizing-DdDpEZTUciXH_dQSav2_sQ.jpg"
+      },
+      {
+        "title": "Borders and Radius",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/7770b4",
+        "cover": "https://www.lightningdesignsystem.com/uploads/RXvn5sv0_kiQQdPeW6nAwg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211238/ldss-cms-dev/zh-landing/67a7b2-foundations/card-borders-and-radius-RXvn5sv0_kiQQdPeW6nAwg.jpg"
+      },
+      {
+        "title": "Shadows",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/64b580",
+        "cover": "https://www.lightningdesignsystem.com/uploads/N3vgXSzN_iDFwIb0Lx7T5A.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211238/ldss-cms-dev/zh-landing/67a7b2-foundations/card-shadows-N3vgXSzN_iDFwIb0Lx7T5A.jpg"
+      },
+      {
+        "title": "Illustrations",
+        "description": "",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/759a28",
+        "cover": "https://www.lightningdesignsystem.com/uploads/FOQBWmhhILYGRr5UArMwYQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211240/ldss-cms-dev/zh-landing/67a7b2-foundations/card-illustrations-FOQBWmhhILYGRr5UArMwYQ.jpg"
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211232/ldss-cms-dev/zh-landing/67a7b2-foundations/hero-ZzaFHvZ1x3gdgZQcT9R7fw.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/755aff-components",
+    "slug": "755aff-components",
+    "name": "Components",
+    "hero": null,
+    "cards": [
+      {
+        "title": "Lightning Web Components",
+        "description": "",
+        "href": "https://developer.salesforce.com/docs/platform/lwc/overview",
+        "cover": "https://www.lightningdesignsystem.com/uploads/mL-UKM3bDaqL-fpAdKIf5w.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211241/ldss-cms-dev/zh-landing/755aff-components/card-lightning-web-components-mL-UKM3bDaqL-fpAdKIf5w.jpg"
+      },
+      {
+        "title": "Aura Components",
+        "description": "",
+        "href": "https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_framework.htm",
+        "cover": "https://www.lightningdesignsystem.com/uploads/A5AJ25M74eYSRN-RT_FJUQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211241/ldss-cms-dev/zh-landing/755aff-components/card-aura-components-A5AJ25M74eYSRN-RT_FJUQ.jpg"
+      }
+    ],
+    "heroCloudinary": null
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/76969d-get-started",
+    "slug": "76969d-get-started",
+    "name": "Get Started",
+    "hero": "https://www.lightningdesignsystem.com/uploads/VlhnHOxG9LGVp87Skj1stQ.jpg",
+    "cards": [
+      {
+        "title": "Admins",
+        "description": "Adopt Salesforce Cosmos to get the new design and SLDS 2 features.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/771012",
+        "cover": "https://www.lightningdesignsystem.com/uploads/D_5N0uSgT30QoVztNgkwvw.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211243/ldss-cms-dev/zh-landing/76969d-get-started/card-admins-D_5N0uSgT30QoVztNgkwvw.png"
+      },
+      {
+        "title": "Designers",
+        "description": "Connect to essential components and tools to create great experiences.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/874349",
+        "cover": "https://www.lightningdesignsystem.com/uploads/mNCjdq2G2PHy25b9RNEWqw.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211244/ldss-cms-dev/zh-landing/76969d-get-started/card-designers-mNCjdq2G2PHy25b9RNEWqw.png"
+      },
+      {
+        "title": "Developers",
+        "description": "Access the framework for building consistent and scalable interfaces.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/547b38",
+        "cover": "https://www.lightningdesignsystem.com/uploads/s4hyfVSbjsa_kqhdLXcckQ.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211245/ldss-cms-dev/zh-landing/76969d-get-started/card-developers-s4hyfVSbjsa_kqhdLXcckQ.png"
+      },
+      {
+        "title": "Agentic Experiences",
+        "description": "Understand how SLDS 2 is a foundation for the future of AI interfaces.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/95c37a",
+        "cover": "https://www.lightningdesignsystem.com/uploads/9WSpmF_QSjf0Ek9VUzW_Pw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211246/ldss-cms-dev/zh-landing/76969d-get-started/card-agentic-experiences-9WSpmF_QSjf0Ek9VUzW_Pw.jpg"
+      },
+      {
+        "title": "Transition to SLDS 2",
+        "description": "Get step-by-step instructions for making the move to SLDS 2.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/8184ad",
+        "cover": "https://www.lightningdesignsystem.com/uploads/SEK7b4pck3KI1tExKNee6Q.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211247/ldss-cms-dev/zh-landing/76969d-get-started/card-transition-to-slds-2-SEK7b4pck3KI1tExKNee6Q.jpg"
+      },
+      {
+        "title": "Resources",
+        "description": "Learn more about SLDS 2 and Salesforce Cosmos.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/63cfc2",
+        "cover": "https://www.lightningdesignsystem.com/uploads/lPhW6dapPzSTAPIEfje-fQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211248/ldss-cms-dev/zh-landing/76969d-get-started/card-resources-lPhW6dapPzSTAPIEfje-fQ.jpg"
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211242/ldss-cms-dev/zh-landing/76969d-get-started/hero-VlhnHOxG9LGVp87Skj1stQ.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/771012-admins",
+    "slug": "771012-admins",
+    "name": "Admins",
+    "hero": "https://www.lightningdesignsystem.com/uploads/bFSkj_hjnS7n-zVxav8WPg.jpg",
+    "cards": [
+      {
+        "title": "Availability",
+        "description": "Does your edition have SLDS 2?",
+        "href": "https://help.salesforce.com/s/articleView?id=xcloud.customize_ui_enhancedlex.htm&type=5",
+        "cover": "https://www.lightningdesignsystem.com/uploads/4_ngbXARVub690aKoem62g.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211250/ldss-cms-dev/zh-landing/771012-admins/card-availability-4_ngbXARVub690aKoem62g.jpg"
+      },
+      {
+        "title": "Transition your org",
+        "description": "Step-by-step guidance for admins.",
+        "href": "https://zeroheight.com/2e1ef8501/p/8184ad",
+        "cover": "https://www.lightningdesignsystem.com/uploads/ElZgOG9ACzm-yESibBzSTw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211251/ldss-cms-dev/zh-landing/771012-admins/card-transition-your-org-ElZgOG9ACzm-yESibBzSTw.jpg"
+      },
+      {
+        "title": "Turn on Salesforce Cosmos",
+        "description": "Uplift to the new UI design.",
+        "href": "https://help.salesforce.com/s/articleView?id=xcloud.brand_your_org_in_lightning_experience.htm&type=5",
+        "cover": "https://www.lightningdesignsystem.com/uploads/DqXKEWH5_9znu0EMvuCAIg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211252/ldss-cms-dev/zh-landing/771012-admins/card-turn-on-salesforce-cosmos-DqXKEWH5_9znu0EMvuCAIg.jpg"
+      },
+      {
+        "title": "RoadmapExchange",
+        "description": "Share your feedback and ideas.",
+        "href": "https://ideas.salesforce.com/s/roadmap/a0V8W00000VMovLUAT/design-systems",
+        "cover": "https://www.lightningdesignsystem.com/uploads/VfjgMTvCPq_ZBekHt1DeZQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211253/ldss-cms-dev/zh-landing/771012-admins/card-roadmapexchange-VfjgMTvCPq_ZBekHt1DeZQ.jpg"
+      },
+      {
+        "title": "Hit the trail",
+        "description": "Take the SLDS 2 for Admins module.",
+        "href": "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-admins",
+        "cover": "https://www.lightningdesignsystem.com/uploads/YNVI6VWVHzX_EUqrUCuicg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211254/ldss-cms-dev/zh-landing/771012-admins/card-hit-the-trail-YNVI6VWVHzX_EUqrUCuicg.jpg"
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211249/ldss-cms-dev/zh-landing/771012-admins/hero-bFSkj_hjnS7n-zVxav8WPg.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/8184ad-transition-to-slds-2",
+    "slug": "8184ad-transition-to-slds-2",
+    "name": "Transition to SLDS 2",
+    "hero": "https://www.lightningdesignsystem.com/uploads/CCgYngBnmS-d7GsClYMHxw.jpg",
+    "cards": [],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211255/ldss-cms-dev/zh-landing/8184ad-transition-to-slds-2/hero-CCgYngBnmS-d7GsClYMHxw.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/874349-designers",
+    "slug": "874349-designers",
+    "name": "Designers",
+    "hero": "https://www.lightningdesignsystem.com/uploads/IXQjkmIiHTdKgSJ_1qRrvA.jpg",
+    "cards": [
+      {
+        "title": "Principles",
+        "description": "Understand our design principles that guide our design decisions and process.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/67a7b2-foundations/t/eafef4fe24",
+        "cover": "https://www.lightningdesignsystem.com/uploads/QnSV-ntw_gURgNkgzaZW5w.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211257/ldss-cms-dev/zh-landing/874349-designers/card-principles-QnSV-ntw_gURgNkgzaZW5w.jpg"
+      },
+      {
+        "title": "Foundations",
+        "description": "Understand how we apply visual design to our components and products across Salesforce.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/67a7b2",
+        "cover": "https://www.lightningdesignsystem.com/uploads/VnfptP-Dm6v9x1T5LY6CQA.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211258/ldss-cms-dev/zh-landing/874349-designers/card-foundations-VnfptP-Dm6v9x1T5LY6CQA.jpg"
+      },
+      {
+        "title": "Components",
+        "description": "Familiarize yourself with the reusable components that you can incorporate into your designs.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/755aff",
+        "cover": "https://www.lightningdesignsystem.com/uploads/YNBin9CuJQ413UTDUB7Fcg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211259/ldss-cms-dev/zh-landing/874349-designers/card-components-YNBin9CuJQ413UTDUB7Fcg.jpg"
+      },
+      {
+        "title": "Designer Tools",
+        "description": "Find UI libraries, an essential resource for creating consistent, high-quality designs.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/2963ba",
+        "cover": "https://www.lightningdesignsystem.com/uploads/-gi7Lb-T78kqYugYGG68RA.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211259/ldss-cms-dev/zh-landing/874349-designers/card-designer-tools--gi7Lb-T78kqYugYGG68RA.jpg"
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211256/ldss-cms-dev/zh-landing/874349-designers/hero-IXQjkmIiHTdKgSJ_1qRrvA.jpg"
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/897980-interaction-models",
+    "slug": "897980-interaction-models",
+    "name": "Interaction Models",
+    "hero": null,
+    "cards": [],
+    "heroCloudinary": null
+  },
+  {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/958017-develop",
+    "slug": "958017-develop",
+    "name": "Develop",
+    "hero": "https://www.lightningdesignsystem.com/uploads/yvosZSg8HENL3zM-5P18Cg.jpg",
+    "cards": [
+      {
+        "title": "Best Practices",
+        "description": "Follow best practices to ensure your components are accessible, performant, and consistent with the design system.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/528a43",
+        "cover": "https://www.lightningdesignsystem.com/uploads/mnC3nXNTNziMn8JlspL1OQ.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211261/ldss-cms-dev/zh-landing/958017-develop/card-best-practices-mnC3nXNTNziMn8JlspL1OQ.png"
+      },
+      {
+        "title": "Styling hooks",
+        "description": "Use our web-standard CSS variables to style your apps.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/319e5f",
+        "cover": "https://www.lightningdesignsystem.com/uploads/VVKss19cmI7PB9dMr28nfg.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211262/ldss-cms-dev/zh-landing/958017-develop/card-styling-hooks-VVKss19cmI7PB9dMr28nfg.png"
+      },
+      {
+        "title": "Utility Classes",
+        "description": "Predefined CSS classes used to quickly apply common styles",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/05098e",
+        "cover": "https://www.lightningdesignsystem.com/uploads/JlWtJURtAKHKJowOXbW_rg.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211264/ldss-cms-dev/zh-landing/958017-develop/card-utility-classes-JlWtJURtAKHKJowOXbW_rg.png"
+      },
+      {
+        "title": "Developer Tool",
+        "description": "Explore our custom tools to help enhance your Lightning development process.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/3427aa",
+        "cover": "https://www.lightningdesignsystem.com/uploads/5zIbfVu8b3vJ4tbb7OE3Dg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211265/ldss-cms-dev/zh-landing/958017-develop/card-developer-tool-5zIbfVu8b3vJ4tbb7OE3Dg.jpg"
+      },
+      {
+        "title": "Components",
+        "description": "Build UIs with Lightning components.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/755aff",
+        "cover": "https://www.lightningdesignsystem.com/uploads/B_-y1MSPGgwp7Wj-TEhwbw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211266/ldss-cms-dev/zh-landing/958017-develop/card-components-B_-y1MSPGgwp7Wj-TEhwbw.jpg"
+      },
+      {
+        "title": "Hit the Trail",
+        "description": "Take the SLDS 2 for Developers module.",
+        "href": "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-developers",
+        "cover": "https://www.lightningdesignsystem.com/uploads/-LjzuoGnDD1vqlXwy8FMKQ.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211267/ldss-cms-dev/zh-landing/958017-develop/card-hit-the-trail--LjzuoGnDD1vqlXwy8FMKQ.jpg"
+      },
+      {
+        "title": "LWC Developer Guide",
+        "description": "",
+        "href": "https://developer.salesforce.com/docs/component-library/documentation/en/lwc",
+        "cover": "https://www.lightningdesignsystem.com/uploads/HAgyy1NcZlYbY4mXVUbbZg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211268/ldss-cms-dev/zh-landing/958017-develop/card-lwc-developer-guide-HAgyy1NcZlYbY4mXVUbbZg.jpg"
+      },
+      {
+        "title": "Component Reference",
+        "description": "",
+        "href": "https://developer.salesforce.com/docs/component-library/overview/components",
+        "cover": "https://www.lightningdesignsystem.com/uploads/u5KWqKP-SLblJ0DoSfKRkA.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211269/ldss-cms-dev/zh-landing/958017-develop/card-component-reference-u5KWqKP-SLblJ0DoSfKRkA.jpg"
+      },
+      {
+        "title": "SLDS Component Blueprints",
+        "description": "",
+        "href": "https://v1.lightningdesignsystem.com/components/overview/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/IfRwETeHc_JkN7d69mH6Wg.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211270/ldss-cms-dev/zh-landing/958017-develop/card-slds-component-blueprints-IfRwETeHc_JkN7d69mH6Wg.jpg"
+      }
+    ],
+    "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211260/ldss-cms-dev/zh-landing/958017-develop/hero-yvosZSg8HENL3zM-5P18Cg.jpg"
+  }
+]

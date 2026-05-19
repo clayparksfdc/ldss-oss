@@ -5,7 +5,7 @@ category: "get-started"
 order: 0
 ---
 
-<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Admins&quot;,&quot;tagline&quot;:&quot;Adopt Salesforce Cosmos to get the new design and SLDS 2 features.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130508/ldss-cms-dev/local/media/admins-65a94162.jpg&quot;}" data-directive-children="[]">
+<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Admins&quot;,&quot;tagline&quot;:&quot;Adopt Salesforce Cosmos to get the new design and SLDS 2 features.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211249/ldss-cms-dev/zh-landing/771012-admins/hero-bFSkj_hjnS7n-zVxav8WPg.jpg&quot;}" data-directive-children="[]">
 </div>
 
 SLDS 2 powers how you as a Salesforce admin configure your company’s image on the platform with themes and branding. As an admin, your role is to oversee and collaborate with your designers and developers in your transition to or use of SLDS 2. If you’re transitioning your org from SLDS 1, read [Transition to SLDS 2](/get-started/transition-to-slds-2).
@@ -42,10 +42,10 @@ To get hands-on with dark mode:
 
 Quick Links
 
-:::card-grid{columns=3}
-::card{title="Availability" description="Does your edition have SLDS 2?" href="https://help.salesforce.com/s/articleView?id=xcloud.customize_ui_enhancedlex.htm&type=5"}
-::card{title="Transition your org" description="Step-by-step guidance for admins." href="#"}
-::card{title="Turn on Salesforce Cosmos" description="Uplift to the new UI design." href="https://help.salesforce.com/s/articleView?id=xcloud.brand_your_org_in_lightning_experience.htm&type=5"}
-::card{title="RoadmapExchange" description="Share your feedback and ideas." href="https://ideas.salesforce.com/s/roadmap/a0V8W00000VMovLUAT/design-systems"}
-::card{title="Hit the trail" description="Take the SLDS 2 for Admins module." href="https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-admins"}
+:::card-grid{columns="3"}
+::card{title="Availability" href="https://help.salesforce.com/s/articleView?id=xcloud.customize_ui_enhancedlex.htm&type=5" description="Does your edition have SLDS 2?" image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211250/ldss-cms-dev/zh-landing/771012-admins/card-availability-4_ngbXARVub690aKoem62g.jpg"}
+::card{title="Transition your org" href="https://zeroheight.com/2e1ef8501/p/8184ad" description="Step-by-step guidance for admins." image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211251/ldss-cms-dev/zh-landing/771012-admins/card-transition-your-org-ElZgOG9ACzm-yESibBzSTw.jpg"}
+::card{title="Turn on Salesforce Cosmos" href="https://help.salesforce.com/s/articleView?id=xcloud.brand_your_org_in_lightning_experience.htm&type=5" description="Uplift to the new UI design." image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211252/ldss-cms-dev/zh-landing/771012-admins/card-turn-on-salesforce-cosmos-DqXKEWH5_9znu0EMvuCAIg.jpg"}
+::card{title="RoadmapExchange" href="https://ideas.salesforce.com/s/roadmap/a0V8W00000VMovLUAT/design-systems" description="Share your feedback and ideas." image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211253/ldss-cms-dev/zh-landing/771012-admins/card-roadmapexchange-VfjgMTvCPq_ZBekHt1DeZQ.jpg"}
+::card{title="Hit the trail" href="https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-admins" description="Take the SLDS 2 for Admins module." image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211254/ldss-cms-dev/zh-landing/771012-admins/card-hit-the-trail-YNVI6VWVHzX_EUqrUCuicg.jpg"}
 :::

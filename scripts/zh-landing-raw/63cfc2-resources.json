@@ -1,0 +1,11 @@
+{
+  "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/63cfc2-resources",
+  "slug": "63cfc2-resources",
+  "name": "Resources",
+  "hero": "https://www.lightningdesignsystem.com/uploads/2QJDiI147MG1rgIthFgsww.jpg",
+  "cards": [
+    {"title": "Learn more", "description": "Check out Trailhead and our blogs for more opportunities to learn.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/74034e", "cover": "https://www.lightningdesignsystem.com/uploads/iCEFc2Qjoo5nTKxArhWMCQ.jpg"},
+    {"title": "Glossary", "description": "Get familiar with key terms that will help you navigate our design system.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/81aa72", "cover": "https://www.lightningdesignsystem.com/uploads/r39d3M_fonjRWrkjvLRggw.jpg"},
+    {"title": "FAQs", "description": "Find answers to the most common questions about our design system.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/313db3", "cover": "https://www.lightningdesignsystem.com/uploads/xSa9Vgy4iD2AnTPYkda_Qw.jpg"}
+  ]
+}

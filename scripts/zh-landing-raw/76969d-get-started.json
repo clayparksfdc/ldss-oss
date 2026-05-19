@@ -1,0 +1,14 @@
+{
+  "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/76969d-get-started",
+  "slug": "76969d-get-started",
+  "name": "Get Started",
+  "hero": "https://www.lightningdesignsystem.com/uploads/VlhnHOxG9LGVp87Skj1stQ.jpg",
+  "cards": [
+    {"title": "Admins", "description": "Adopt Salesforce Cosmos to get the new design and SLDS 2 features.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/771012", "cover": "https://www.lightningdesignsystem.com/uploads/D_5N0uSgT30QoVztNgkwvw.png"},
+    {"title": "Designers", "description": "Connect to essential components and tools to create great experiences.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/874349", "cover": "https://www.lightningdesignsystem.com/uploads/mNCjdq2G2PHy25b9RNEWqw.png"},
+    {"title": "Developers", "description": "Access the framework for building consistent and scalable interfaces.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/547b38", "cover": "https://www.lightningdesignsystem.com/uploads/s4hyfVSbjsa_kqhdLXcckQ.png"},
+    {"title": "Agentic Experiences", "description": "Understand how SLDS 2 is a foundation for the future of AI interfaces.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/95c37a", "cover": "https://www.lightningdesignsystem.com/uploads/9WSpmF_QSjf0Ek9VUzW_Pw.jpg"},
+    {"title": "Transition to SLDS 2", "description": "Get step-by-step instructions for making the move to SLDS 2.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/8184ad", "cover": "https://www.lightningdesignsystem.com/uploads/SEK7b4pck3KI1tExKNee6Q.jpg"},
+    {"title": "Resources", "description": "Learn more about SLDS 2 and Salesforce Cosmos.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/63cfc2", "cover": "https://www.lightningdesignsystem.com/uploads/lPhW6dapPzSTAPIEfje-fQ.jpg"}
+  ]
+}

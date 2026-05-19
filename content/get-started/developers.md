@@ -5,7 +5,7 @@ category: "get-started"
 order: 0
 ---
 
-<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Developers&quot;,&quot;tagline&quot;:&quot;Access the framework for building consistent and scalable interfaces.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130509/ldss-cms-dev/local/media/developers-cfd27449.jpg&quot;}" data-directive-children="[]">
+<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Developers&quot;,&quot;tagline&quot;:&quot;Access the framework for building consistent and scalable interfaces.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211223/ldss-cms-dev/zh-landing/547b38-developers/hero-YGi1OZjrGBnr5vo80gordw.jpg&quot;}" data-directive-children="[]">
 </div>
 
 SLDS 2 is your comprehensive framework for building consistent, scalable interfaces across Salesforce products. This system includes reusable components, styling hooks, and standardized guidelines to ensure seamless collaboration between designers and developers. The design system is built to help you focus on functionality and efficiency while maintaining design integrity across all platforms. By using this system, you’ll speed up development, reduce redundant work, and ensure your code aligns with the latest design standards.
@@ -24,9 +24,9 @@ If you can’t meet your use-case by customizing the blueprint with SLDS classes
 
 **ℹ️ NOTE:** The newest global styling hooks are only available in Lightning Experience, and are not supported for Experience Cloud sites.
 
-:::card-grid{columns=3}
-::card{title="Components" description="Build UIs with Lightning components." href="/component/components"}
-::card{title="Styling hooks" description="Use our web-standard CSS variables to style your apps." href="/develop/global-styling-hooks"}
-::card{title="Developer Tools" description="Explore our custom tools to help enhance your Lightning development process." href="/tools/developer-tools"}
-::card{title="Hit the Trail" description="Take the SLDS 2 for Developers module." href="https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-developers"}
+:::card-grid{columns="3"}
+::card{title="Components" href="/component/components" description="Build UIs with Lightning components." image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211224/ldss-cms-dev/zh-landing/547b38-developers/card-components-02hygY8oYgX1VtYsxPiNsA.jpg"}
+::card{title="Styling hooks" href="/develop/styling-hook-index" description="Use our web-standard CSS variables to style your apps." image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211226/ldss-cms-dev/zh-landing/547b38-developers/card-styling-hooks-LR5_MRVWpSg_x_Auv4AbPw.jpg"}
+::card{title="Developer Tools" href="/tools/developer-tools" description="Explore our custom tools to help enhance your Lightning development process." image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211227/ldss-cms-dev/zh-landing/547b38-developers/card-developer-tools-Df2cWMw4G9J4KcoWj7QpEQ.jpg"}
+::card{title="Hit the Trail" href="https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-developers" description="Take the SLDS 2 for Developers module." image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211228/ldss-cms-dev/zh-landing/547b38-developers/card-hit-the-trail-n6PHVlbJIZIOpEnOMK-Wlg.jpg"}
 :::

@@ -1,0 +1,17 @@
+{
+  "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/958017-develop",
+  "slug": "958017-develop",
+  "name": "Develop",
+  "hero": "https://www.lightningdesignsystem.com/uploads/yvosZSg8HENL3zM-5P18Cg.jpg",
+  "cards": [
+    {"title": "Best Practices", "description": "Follow best practices to ensure your components are accessible, performant, and consistent with the design system.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/528a43", "cover": "https://www.lightningdesignsystem.com/uploads/mnC3nXNTNziMn8JlspL1OQ.png"},
+    {"title": "Styling hooks", "description": "Use our web-standard CSS variables to style your apps.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/319e5f", "cover": "https://www.lightningdesignsystem.com/uploads/VVKss19cmI7PB9dMr28nfg.png"},
+    {"title": "Utility Classes", "description": "Predefined CSS classes used to quickly apply common styles", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/05098e", "cover": "https://www.lightningdesignsystem.com/uploads/JlWtJURtAKHKJowOXbW_rg.png"},
+    {"title": "Developer Tool", "description": "Explore our custom tools to help enhance your Lightning development process.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/3427aa", "cover": "https://www.lightningdesignsystem.com/uploads/5zIbfVu8b3vJ4tbb7OE3Dg.jpg"},
+    {"title": "Components", "description": "Build UIs with Lightning components.", "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/755aff", "cover": "https://www.lightningdesignsystem.com/uploads/B_-y1MSPGgwp7Wj-TEhwbw.jpg"},
+    {"title": "Hit the Trail", "description": "Take the SLDS 2 for Developers module.", "href": "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-developers", "cover": "https://www.lightningdesignsystem.com/uploads/-LjzuoGnDD1vqlXwy8FMKQ.jpg"},
+    {"title": "LWC Developer Guide", "description": "", "href": "https://developer.salesforce.com/docs/component-library/documentation/en/lwc", "cover": "https://www.lightningdesignsystem.com/uploads/HAgyy1NcZlYbY4mXVUbbZg.jpg"},
+    {"title": "Component Reference", "description": "", "href": "https://developer.salesforce.com/docs/component-library/overview/components", "cover": "https://www.lightningdesignsystem.com/uploads/u5KWqKP-SLblJ0DoSfKRkA.jpg"},
+    {"title": "SLDS Component Blueprints", "description": "", "href": "https://v1.lightningdesignsystem.com/components/overview/", "cover": "https://www.lightningdesignsystem.com/uploads/IfRwETeHc_JkN7d69mH6Wg.jpg"}
+  ]
+}

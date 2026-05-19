@@ -1,0 +1,10 @@
+{
+  "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/2337c1-ai-tools",
+  "slug": "2337c1-ai-tools",
+  "name": "AI Tools",
+  "hero": null,
+  "cards": [
+    {"title": "Agentforce Vibes", "description": "Quickly generate experiences people trust and love with design system thinking.", "href": "https://www.salesforce.com/agentforce/developers/vibe-coding/", "cover": "https://www.lightningdesignsystem.com/uploads/rtPoJwDvWYEuUE0R02Ka-w.jpg"},
+    {"title": "Salesforce DX MCP", "description": "Deeper context and built-in SLDS 2 design system knowledge.", "href": "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_mcp.htm", "cover": "https://www.lightningdesignsystem.com/uploads/QzapRKXth6-E2yKWhMG7hw.jpg"}
+  ]
+}
