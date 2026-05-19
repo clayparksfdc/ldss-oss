@@ -184,8 +184,13 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
     .filter(c => !c.hidden)
     .map(c => c.name)
 
-  const getPageUrl = (page: NavPage) =>
-    page.url?.startsWith('http') ? page.url : `/${page.category?.toLowerCase().replace(/\s+/g, '-')}/${page.slug}`
+  const getPageUrl = (page: NavPage) => {
+    if (page.url?.startsWith('http')) return page.url
+    // Use the page's `category` field directly as the route segment — it's
+    // already the singular URL form ('component', 'foundation') rather than
+    // the pluralized display name.
+    return `/${page.category ?? ''}/${page.slug}`
+  }
 
   const isPageActive = (page: NavPage) => {
     if (page.url?.startsWith('http')) return false
@@ -325,24 +330,31 @@ export function DynamicSidebar({ navigation }: DynamicSidebarProps) {
     const visibleChildren = category.children?.filter(p => !p.hidden) || []
     const hasActivePage = visibleChildren.some(p => isPageActive(p))
 
-    // Find the landing page for this category (same name as category)
-    const categorySlug = category.name.toLowerCase().replace(/\s+/g, '-')
-    // Check ALL children (including hidden) for a page with the same slug as the category
-    // The landing page may be hidden from sidebar list but still serves as the category link target
+    // Find the landing page for this category. The landing page's `category` field
+    // is the URL-route segment (e.g. 'component', singular) — distinct from the
+    // display name (e.g. 'Components', plural). Use it so URLs match the actual
+    // route structure rather than the pluralized display name.
+    const displaySlug = category.name.toLowerCase().replace(/\s+/g, '-')
     const allChildren = category.children || []
-    const landingPage = allChildren.find(p => p.slug === categorySlug)
+    // First try to find a child whose slug matches the display name (legacy),
+    // then any child whose category field gives us the route segment.
+    const landingPage = allChildren.find(p => p.slug === displaySlug)
+      ?? allChildren.find(p => p.slug === p.category)
+    // The route segment to use: prefer the landing page's own category field
+    // (handles 'Components' → 'component', 'Foundations' → 'foundation', etc.)
+    const routeCategory = landingPage?.category ?? displaySlug
     const landingUrl = landingPage
-      ? `/${categorySlug}/${landingPage.slug}`
+      ? `/${routeCategory}/${landingPage.slug}`
       : null
 
     // Check if the category landing page itself is active
     const isCategoryActive = landingPage
-      ? (isPageActive(landingPage) || pathname === `/${categorySlug}/${categorySlug}`)
+      ? (isPageActive(landingPage) || pathname === `/${routeCategory}/${landingPage.slug}`)
       : false
 
-    // Filter out the same-named landing page from child list (category header links to it)
+    // Filter out the landing page from child list (category header links to it)
     const filteredChildren = landingPage
-      ? visibleChildren.filter(p => p.slug !== categorySlug)
+      ? visibleChildren.filter(p => p.slug !== landingPage.slug)
       : visibleChildren
 
     return (
