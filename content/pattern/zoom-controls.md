@@ -8,7 +8,7 @@ order: 0
 ## Introduction
 
 
-| Use a [Button Group](/components/button-groups) to create a zoom tool that allows users to magnify or minimize the screen view, zooming in or out on items viewed.  The preferred mode is **incremental zoom**, a button group using the minus, plus, and expand/contract icons. Users can click to incrementally zoom out (-) or zoom in (+), and can toggle between zoom-to-fit (contract) and zoom-to-100% (expand) views of the canvas.  **Note:** Use [utility icons](https://v1.lightningdesignsystem.com/icons/#utility): dash, expand_alt, contract_alt, add**.** | Start using our Design Kits                          [           *         ](https://www.figma.com/@salesforce)                       *           [Open in Figma](https://www.figma.com/community/file/1415890669347272207) |
+| Use a [Button Group](/component/button-groups) to create a zoom tool that allows users to magnify or minimize the screen view, zooming in or out on items viewed.  The preferred mode is **incremental zoom**, a button group using the minus, plus, and expand/contract icons. Users can click to incrementally zoom out (-) or zoom in (+), and can toggle between zoom-to-fit (contract) and zoom-to-100% (expand) views of the canvas.  **Note:** Use [utility icons](https://v1.lightningdesignsystem.com/icons/#utility): dash, expand_alt, contract_alt, add**.** | Start using our Design Kits                          [           *         ](https://www.figma.com/@salesforce)                       *           [Open in Figma](https://www.figma.com/community/file/1415890669347272207) |
 | --- | --- |
 
 ## Usage

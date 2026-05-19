@@ -97,7 +97,7 @@ A toggle is always accompanied by two external labels:
 #### Dual Listbox
 
 
-| The [dual listbox](/components/dual-listbox) lets you move items between two lists, making it easy to select and organize options. Use this control when the user needs to select more than one option and define the order of the selected items. | *                       *  An example of dueling picklists  *           *  |
+| The [dual listbox](/component/dual-listbox) lets you move items between two lists, making it easy to select and organize options. Use this control when the user needs to select more than one option and define the order of the selected items. | *                       *  An example of dueling picklists  *           *  |
 | --- | --- |
 |  |  |
 

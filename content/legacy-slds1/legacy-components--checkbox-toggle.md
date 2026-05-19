@@ -16,6 +16,7 @@ SLDS 1 blueprint examples for **Checkbox Toggle**.
     </span>
   </label>
 </div>
+
 :::
 
 ::: legacy-component-example title="Checked"
@@ -30,6 +31,7 @@ SLDS 1 blueprint examples for **Checkbox Toggle**.
     </span>
   </label>
 </div>
+
 :::
 
 ::: legacy-component-example title="Disabled"
@@ -44,6 +46,7 @@ SLDS 1 blueprint examples for **Checkbox Toggle**.
     </span>
   </label>
 </div>
+
 :::
 
 ::: legacy-component-example title="Right to Left"
@@ -59,5 +62,6 @@ SLDS 1 blueprint examples for **Checkbox Toggle**.
       </span>
     </label>
   </div>
+
 </div>
 :::

@@ -21,35 +21,45 @@ SLDS 1 blueprint examples for **Carousel**.
           <div class="slds-carousel__image">
             <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/carousel/carousel-01-8d076316.jpg" alt="Visit App Exchange" />
           </div>
+
           <div class="slds-carousel__content">
             <h2 class="slds-carousel__content-title">Visit App Exchange</h2>
             <p>Extend Salesforce with the #1 business marketplace.</p>
           </div>
+
         </a>
       </div>
+
       <div id="content-id-68" class="slds-carousel__panel" role="tabpanel" hidden="" aria-labelledby="indicator-id-71">
         <a href="#" class="slds-carousel__panel-action slds-text-link_reset" tabindex="-1">
           <div class="slds-carousel__image">
             <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/carousel/carousel-02-b9941980.jpg" alt="Click to Customize" />
           </div>
+
           <div class="slds-carousel__content">
             <h2 class="slds-carousel__content-title">Click to Customize</h2>
             <p>Use the Object Manager to add fields, build layouts, and more.</p>
           </div>
+
         </a>
       </div>
+
       <div id="content-id-69" class="slds-carousel__panel" role="tabpanel" hidden="" aria-labelledby="indicator-id-72">
         <a href="#" class="slds-carousel__panel-action slds-text-link_reset" tabindex="-1">
           <div class="slds-carousel__image">
             <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131877/ldss-cms-dev/local/assets/images/carousel/carousel-03-bf203c35.jpg" alt="Download SalesforceA" />
           </div>
+
           <div class="slds-carousel__content">
             <h2 class="slds-carousel__content-title">Download SalesforceA</h2>
             <p>Get the mobile app that&#x27;s just for Salesforce admins.</p>
           </div>
+
         </a>
       </div>
+
     </div>
+
     <ul class="slds-carousel__indicators" role="tablist">
       <li class="slds-carousel__indicator" role="presentation">
         <a id="indicator-id-70" class="slds-carousel__indicator-action slds-is-active" href="#" role="tab" tabindex="0" aria-selected="true" aria-controls="content-id-67" title="Visit App Exchange tab">
@@ -68,6 +78,7 @@ SLDS 1 blueprint examples for **Carousel**.
       </li>
     </ul>
   </div>
+
 </div>
 :::
 
@@ -88,35 +99,45 @@ SLDS 1 blueprint examples for **Carousel**.
           <div class="slds-carousel__image">
             <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/carousel/carousel-01-8d076316.jpg" alt="Visit App Exchange" />
           </div>
+
           <div class="slds-carousel__content">
             <h2 class="slds-carousel__content-title">Visit App Exchange</h2>
             <p>Extend Salesforce with the #1 business marketplace.</p>
           </div>
+
         </a>
       </div>
+
       <div id="content-id-80" class="slds-carousel__panel" role="tabpanel" hidden="" aria-labelledby="indicator-id-83">
         <a href="#" class="slds-carousel__panel-action slds-text-link_reset" tabindex="-1">
           <div class="slds-carousel__image">
             <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/carousel/carousel-02-b9941980.jpg" alt="Click to Customize" />
           </div>
+
           <div class="slds-carousel__content">
             <h2 class="slds-carousel__content-title">Click to Customize</h2>
             <p>Use the Object Manager to add fields, build layouts, and more.</p>
           </div>
+
         </a>
       </div>
+
       <div id="content-id-81" class="slds-carousel__panel" role="tabpanel" hidden="" aria-labelledby="indicator-id-84">
         <a href="#" class="slds-carousel__panel-action slds-text-link_reset" tabindex="-1">
           <div class="slds-carousel__image">
             <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131877/ldss-cms-dev/local/assets/images/carousel/carousel-03-bf203c35.jpg" alt="Download SalesforceA" />
           </div>
+
           <div class="slds-carousel__content">
             <h2 class="slds-carousel__content-title">Download SalesforceA</h2>
             <p>Get the mobile app that&#x27;s just for Salesforce admins.</p>
           </div>
+
         </a>
       </div>
+
     </div>
+
     <ul class="slds-carousel__indicators" role="tablist">
       <li class="slds-carousel__indicator" role="presentation">
         <a id="indicator-id-82" class="slds-carousel__indicator-action slds-is-active" href="#" role="tab" tabindex="0" aria-selected="true" aria-controls="content-id-79" title="Visit App Exchange tab">
@@ -135,6 +156,7 @@ SLDS 1 blueprint examples for **Carousel**.
       </li>
     </ul>
   </div>
+
 </div>
 :::
 
@@ -155,35 +177,45 @@ SLDS 1 blueprint examples for **Carousel**.
           <div class="slds-carousel__image">
             <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/carousel/carousel-01-8d076316.jpg" alt="Visit App Exchange" />
           </div>
+
           <div class="slds-carousel__content">
             <h2 class="slds-carousel__content-title">Visit App Exchange</h2>
             <p>Extend Salesforce with the #1 business marketplace.</p>
           </div>
+
         </a>
       </div>
+
       <div id="content-id-92" class="slds-carousel__panel" role="tabpanel" aria-labelledby="indicator-id-95">
         <a href="#" class="slds-carousel__panel-action slds-text-link_reset" tabindex="0">
           <div class="slds-carousel__image">
             <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/carousel/carousel-02-b9941980.jpg" alt="Click to Customize" />
           </div>
+
           <div class="slds-carousel__content">
             <h2 class="slds-carousel__content-title">Click to Customize</h2>
             <p>Use the Object Manager to add fields, build layouts, and more.</p>
           </div>
+
         </a>
       </div>
+
       <div id="content-id-93" class="slds-carousel__panel" role="tabpanel" hidden="" aria-labelledby="indicator-id-96">
         <a href="#" class="slds-carousel__panel-action slds-text-link_reset" tabindex="-1">
           <div class="slds-carousel__image">
             <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131877/ldss-cms-dev/local/assets/images/carousel/carousel-03-bf203c35.jpg" alt="Download SalesforceA" />
           </div>
+
           <div class="slds-carousel__content">
             <h2 class="slds-carousel__content-title">Download SalesforceA</h2>
             <p>Get the mobile app that&#x27;s just for Salesforce admins.</p>
           </div>
+
         </a>
       </div>
+
     </div>
+
     <ul class="slds-carousel__indicators" role="tablist">
       <li class="slds-carousel__indicator" role="presentation">
         <a id="indicator-id-94" class="slds-carousel__indicator-action" href="#" role="tab" tabindex="-1" aria-selected="false" aria-controls="content-id-91" title="Visit App Exchange tab">
@@ -202,5 +234,6 @@ SLDS 1 blueprint examples for **Carousel**.
       </li>
     </ul>
   </div>
+
 </div>
 :::

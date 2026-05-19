@@ -22,6 +22,7 @@ SLDS 1 blueprint examples for **Counter**.
       <span class="slds-assistive-text">Increment counter</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -44,6 +45,7 @@ SLDS 1 blueprint examples for **Counter**.
       <span class="slds-assistive-text">Increment counter</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -66,7 +68,9 @@ SLDS 1 blueprint examples for **Counter**.
       <span class="slds-assistive-text">Increment counter</span>
     </button>
   </div>
+
   <div class="slds-form-element__help" id="state-error-1">This field is required</div>
+
 </div>
 :::
 
@@ -88,6 +92,7 @@ SLDS 1 blueprint examples for **Counter**.
       <span class="slds-assistive-text">Increment counter</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -97,6 +102,7 @@ SLDS 1 blueprint examples for **Counter**.
   <div class="slds-form-element__control">
     <input type="text" id="state-read-only" placeholder="1" readonly="" class="slds-input" />
   </div>
+
 </div>
 :::
 
@@ -118,5 +124,6 @@ SLDS 1 blueprint examples for **Counter**.
       <span class="slds-assistive-text">Increment counter</span>
     </button>
   </div>
+
 </div>
 :::

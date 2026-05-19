@@ -21,8 +21,11 @@ SLDS 1 blueprint examples for **Color Picker**.
       <div class="slds-color-picker__summary-input">
         <input type="text" id="color-picker-summary-input" class="slds-input" value="#5679C0" />
       </div>
+
     </div>
+
   </div>
+
   <section aria-describedby="dialog-body-id-33" aria-label="Choose a color" class="slds-popover slds-color-picker__selector slds-hide" role="dialog">
     <div class="slds-popover__body" id="dialog-body-id-33">
       <div class="slds-media">
@@ -236,6 +239,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                 </li>
               </ul>
             </div>
+
             <div id="color-picker-custom" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="color-picker-custom__item">
               <div class="slds-color-picker__custom">
                 <p id="color-picker-instructions" class="slds-assistive-text">Use arrow keys to select a saturation and brightness, on an x and y axis.</p>
@@ -244,6 +248,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <span class="slds-assistive-text">hex #5679C0</span>
                   </button>
                 </div>
+
                 <div class="slds-color-picker__hue-and-preview">
                   <label class="slds-assistive-text" for="color-picker-input-range-27">Select Hue</label>
                   <input type="range" class="slds-color-picker__hue-slider" min="0" max="360" id="color-picker-input-range-27" value="208" />
@@ -251,13 +256,16 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <span class="slds-assistive-text" aria-hidden="true">#5679C0</span>
                   </span>
                 </div>
+
                 <div class="slds-color-picker__custom-inputs">
                   <div class="slds-form-element slds-color-picker__input-custom-hex">
                     <label class="slds-form-element__label" for="color-picker-input-hex-27">Hex</label>
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-hex-27" class="slds-input" value="#5679C0" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-r-27">
                       <abbr title="Red">R</abbr>
@@ -265,7 +273,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-r-27" class="slds-input" value="86" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-g-27">
                       <abbr title="Green">G</abbr>
@@ -273,7 +283,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-g-27" class="slds-input" value="121" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-b-27">
                       <abbr title="blue">B</abbr>
@@ -281,22 +293,33 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-b-27" class="slds-input" value="192" />
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <div class="slds-color-picker__selector-footer">
         <button class="slds-button slds-button_neutral">Cancel</button>
         <button class="slds-button slds-button_brand">Done</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Summary Error"
@@ -316,9 +339,12 @@ SLDS 1 blueprint examples for **Color Picker**.
       <div class="slds-color-picker__summary-input">
         <input type="text" id="color-picker-summary-input" aria-describedby="color-picker-summary-error" class="slds-input" aria-invalid="true" value="#5679C0" />
       </div>
+
       <p class="slds-form-error" id="color-picker-summary-error">Please ensure value is correct</p>
     </div>
+
   </div>
+
   <section aria-describedby="dialog-body-id-35" aria-label="Choose a color" class="slds-popover slds-color-picker__selector slds-hide" role="dialog">
     <div class="slds-popover__body" id="dialog-body-id-35">
       <div class="slds-media">
@@ -532,6 +558,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                 </li>
               </ul>
             </div>
+
             <div id="color-picker-custom" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="color-picker-custom__item">
               <div class="slds-color-picker__custom">
                 <p id="color-picker-instructions" class="slds-assistive-text">Use arrow keys to select a saturation and brightness, on an x and y axis.</p>
@@ -540,6 +567,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <span class="slds-assistive-text">hex #5679C0</span>
                   </button>
                 </div>
+
                 <div class="slds-color-picker__hue-and-preview">
                   <label class="slds-assistive-text" for="color-picker-input-range-29">Select Hue</label>
                   <input type="range" class="slds-color-picker__hue-slider" min="0" max="360" id="color-picker-input-range-29" value="208" />
@@ -547,13 +575,16 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <span class="slds-assistive-text" aria-hidden="true">#5679C0</span>
                   </span>
                 </div>
+
                 <div class="slds-color-picker__custom-inputs">
                   <div class="slds-form-element slds-color-picker__input-custom-hex">
                     <label class="slds-form-element__label" for="color-picker-input-hex-29">Hex</label>
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-hex-29" class="slds-input" value="#5679C0" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-r-29">
                       <abbr title="Red">R</abbr>
@@ -561,7 +592,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-r-29" class="slds-input" value="86" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-g-29">
                       <abbr title="Green">G</abbr>
@@ -569,7 +602,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-g-29" class="slds-input" value="121" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-b-29">
                       <abbr title="blue">B</abbr>
@@ -577,22 +612,33 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-b-29" class="slds-input" value="192" />
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <div class="slds-color-picker__selector-footer">
         <button class="slds-button slds-button_neutral">Cancel</button>
         <button class="slds-button slds-button_brand">Done</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Open, default tab selected"
@@ -612,8 +658,11 @@ SLDS 1 blueprint examples for **Color Picker**.
       <div class="slds-color-picker__summary-input">
         <input type="text" id="color-picker-summary-input" class="slds-input" value="#5679C0" />
       </div>
+
     </div>
+
   </div>
+
   <section aria-describedby="dialog-body-id-37" aria-label="Choose a color" class="slds-popover slds-color-picker__selector slds-show" role="dialog">
     <div class="slds-popover__body" id="dialog-body-id-37">
       <div class="slds-media">
@@ -827,6 +876,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                 </li>
               </ul>
             </div>
+
             <div id="color-picker-custom" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="color-picker-custom__item">
               <div class="slds-color-picker__custom">
                 <p id="color-picker-instructions" class="slds-assistive-text">Use arrow keys to select a saturation and brightness, on an x and y axis.</p>
@@ -835,6 +885,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <span class="slds-assistive-text">hex #5679C0</span>
                   </button>
                 </div>
+
                 <div class="slds-color-picker__hue-and-preview">
                   <label class="slds-assistive-text" for="color-picker-input-range-31">Select Hue</label>
                   <input type="range" class="slds-color-picker__hue-slider" min="0" max="360" id="color-picker-input-range-31" value="208" />
@@ -842,13 +893,16 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <span class="slds-assistive-text" aria-hidden="true">#5679C0</span>
                   </span>
                 </div>
+
                 <div class="slds-color-picker__custom-inputs">
                   <div class="slds-form-element slds-color-picker__input-custom-hex">
                     <label class="slds-form-element__label" for="color-picker-input-hex-31">Hex</label>
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-hex-31" class="slds-input" value="#5679C0" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-r-31">
                       <abbr title="Red">R</abbr>
@@ -856,7 +910,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-r-31" class="slds-input" value="86" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-g-31">
                       <abbr title="Green">G</abbr>
@@ -864,7 +920,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-g-31" class="slds-input" value="121" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-b-31">
                       <abbr title="blue">B</abbr>
@@ -872,22 +930,33 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-b-31" class="slds-input" value="192" />
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <div class="slds-color-picker__selector-footer">
         <button class="slds-button slds-button_neutral">Cancel</button>
         <button class="slds-button slds-button_brand">Done</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Open, custom tab selected"
@@ -907,8 +976,11 @@ SLDS 1 blueprint examples for **Color Picker**.
       <div class="slds-color-picker__summary-input">
         <input type="text" id="color-picker-summary-input" class="slds-input" value="#5679C0" />
       </div>
+
     </div>
+
   </div>
+
   <section aria-describedby="dialog-body-id-39" aria-label="Choose a color" class="slds-popover slds-color-picker__selector slds-show" role="dialog">
     <div class="slds-popover__body" id="dialog-body-id-39">
       <div class="slds-media">
@@ -1122,6 +1194,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                 </li>
               </ul>
             </div>
+
             <div id="color-picker-custom" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="color-picker-custom__item">
               <div class="slds-color-picker__custom">
                 <p id="color-picker-instructions" class="slds-assistive-text">Use arrow keys to select a saturation and brightness, on an x and y axis.</p>
@@ -1130,6 +1203,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <span class="slds-assistive-text">hex #5679C0</span>
                   </button>
                 </div>
+
                 <div class="slds-color-picker__hue-and-preview">
                   <label class="slds-assistive-text" for="color-picker-input-range-33">Select Hue</label>
                   <input type="range" class="slds-color-picker__hue-slider" min="0" max="360" id="color-picker-input-range-33" value="208" />
@@ -1137,13 +1211,16 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <span class="slds-assistive-text" aria-hidden="true">#5679C0</span>
                   </span>
                 </div>
+
                 <div class="slds-color-picker__custom-inputs">
                   <div class="slds-form-element slds-color-picker__input-custom-hex">
                     <label class="slds-form-element__label" for="color-picker-input-hex-33">Hex</label>
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-hex-33" class="slds-input" value="#5679C0" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-r-33">
                       <abbr title="Red">R</abbr>
@@ -1151,7 +1228,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-r-33" class="slds-input" value="86" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-g-33">
                       <abbr title="Green">G</abbr>
@@ -1159,7 +1238,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-g-33" class="slds-input" value="121" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-b-33">
                       <abbr title="blue">B</abbr>
@@ -1167,22 +1248,33 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-b-33" class="slds-input" value="192" />
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <div class="slds-color-picker__selector-footer">
         <button class="slds-button slds-button_neutral">Cancel</button>
         <button class="slds-button slds-button_brand">Done</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Open, custom tab selected, error state"
@@ -1202,8 +1294,11 @@ SLDS 1 blueprint examples for **Color Picker**.
       <div class="slds-color-picker__summary-input">
         <input type="text" id="color-picker-summary-input" class="slds-input" value="#5679C0" />
       </div>
+
     </div>
+
   </div>
+
   <section aria-describedby="dialog-body-id-41" aria-label="Choose a color" class="slds-popover slds-color-picker__selector slds-show" role="dialog">
     <div class="slds-popover__body" id="dialog-body-id-41">
       <div class="slds-media">
@@ -1417,6 +1512,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                 </li>
               </ul>
             </div>
+
             <div id="color-picker-custom" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="color-picker-custom__item">
               <div class="slds-color-picker__custom">
                 <p id="color-picker-instructions" class="slds-assistive-text">Use arrow keys to select a saturation and brightness, on an x and y axis.</p>
@@ -1425,6 +1521,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <span class="slds-assistive-text">hex #5679C0</span>
                   </button>
                 </div>
+
                 <div class="slds-color-picker__hue-and-preview">
                   <label class="slds-assistive-text" for="color-picker-input-range-35">Select Hue</label>
                   <input type="range" class="slds-color-picker__hue-slider" min="0" max="360" id="color-picker-input-range-35" value="208" />
@@ -1432,13 +1529,16 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <span class="slds-assistive-text" aria-hidden="true">#5679C0</span>
                   </span>
                 </div>
+
                 <div class="slds-color-picker__custom-inputs">
                   <div class="slds-form-element slds-has-error slds-color-picker__input-custom-hex">
                     <label class="slds-form-element__label" for="color-picker-input-hex-35">Hex</label>
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-hex-35" aria-describedby="color-picker-custom-error" class="slds-input" aria-invalid="true" value="#5679C0" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-r-35">
                       <abbr title="Red">R</abbr>
@@ -1446,7 +1546,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-r-35" class="slds-input" value="86" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-g-35">
                       <abbr title="Green">G</abbr>
@@ -1454,7 +1556,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-g-35" class="slds-input" value="121" />
                     </div>
+
                   </div>
+
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="color-picker-input-b-35">
                       <abbr title="blue">B</abbr>
@@ -1462,23 +1566,34 @@ SLDS 1 blueprint examples for **Color Picker**.
                     <div class="slds-form-element__control">
                       <input type="text" id="color-picker-input-b-35" class="slds-input" value="192" />
                     </div>
+
                   </div>
+
                 </div>
+
                 <p class="slds-form-error" id="color-picker-custom-error">Please ensure value is correct</p>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <div class="slds-color-picker__selector-footer">
         <button class="slds-button slds-button_neutral">Cancel</button>
         <button class="slds-button slds-button_brand">Done</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Custom Only"
@@ -1498,8 +1613,11 @@ SLDS 1 blueprint examples for **Color Picker**.
       <div class="slds-color-picker__summary-input">
         <input type="text" id="color-picker-summary-input" class="slds-input" value="#5679C0" />
       </div>
+
     </div>
+
   </div>
+
   <section aria-describedby="dialog-body-id-43" aria-label="Choose a color" class="slds-popover slds-color-picker__selector slds-hide" role="dialog">
     <div class="slds-popover__body" id="dialog-body-id-43">
       <div class="slds-media">
@@ -1511,6 +1629,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <span class="slds-assistive-text">hex #5679C0</span>
               </button>
             </div>
+
             <div class="slds-color-picker__hue-and-preview">
               <label class="slds-assistive-text" for="color-picker-input-range-37">Select Hue</label>
               <input type="range" class="slds-color-picker__hue-slider" min="0" max="360" id="color-picker-input-range-37" value="208" />
@@ -1518,13 +1637,16 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <span class="slds-assistive-text" aria-hidden="true">#5679C0</span>
               </span>
             </div>
+
             <div class="slds-color-picker__custom-inputs">
               <div class="slds-form-element slds-color-picker__input-custom-hex">
                 <label class="slds-form-element__label" for="color-picker-input-hex-37">Hex</label>
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-hex-37" class="slds-input" value="#5679C0" />
                 </div>
+
               </div>
+
               <div class="slds-form-element">
                 <label class="slds-form-element__label" for="color-picker-input-r-37">
                   <abbr title="Red">R</abbr>
@@ -1532,7 +1654,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-r-37" class="slds-input" value="86" />
                 </div>
+
               </div>
+
               <div class="slds-form-element">
                 <label class="slds-form-element__label" for="color-picker-input-g-37">
                   <abbr title="Green">G</abbr>
@@ -1540,7 +1664,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-g-37" class="slds-input" value="121" />
                 </div>
+
               </div>
+
               <div class="slds-form-element">
                 <label class="slds-form-element__label" for="color-picker-input-b-37">
                   <abbr title="blue">B</abbr>
@@ -1548,20 +1674,29 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-b-37" class="slds-input" value="192" />
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <div class="slds-color-picker__selector-footer">
         <button class="slds-button slds-button_neutral">Cancel</button>
         <button class="slds-button slds-button_brand">Done</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Open"
@@ -1581,8 +1716,11 @@ SLDS 1 blueprint examples for **Color Picker**.
       <div class="slds-color-picker__summary-input">
         <input type="text" id="color-picker-summary-input" class="slds-input" value="#5679C0" />
       </div>
+
     </div>
+
   </div>
+
   <section aria-describedby="dialog-body-id-45" aria-label="Choose a color" class="slds-popover slds-color-picker__selector slds-show" role="dialog">
     <div class="slds-popover__body" id="dialog-body-id-45">
       <div class="slds-media">
@@ -1594,6 +1732,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <span class="slds-assistive-text">hex #5679C0</span>
               </button>
             </div>
+
             <div class="slds-color-picker__hue-and-preview">
               <label class="slds-assistive-text" for="color-picker-input-range-39">Select Hue</label>
               <input type="range" class="slds-color-picker__hue-slider" min="0" max="360" id="color-picker-input-range-39" value="208" />
@@ -1601,13 +1740,16 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <span class="slds-assistive-text" aria-hidden="true">#5679C0</span>
               </span>
             </div>
+
             <div class="slds-color-picker__custom-inputs">
               <div class="slds-form-element slds-color-picker__input-custom-hex">
                 <label class="slds-form-element__label" for="color-picker-input-hex-39">Hex</label>
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-hex-39" class="slds-input" value="#5679C0" />
                 </div>
+
               </div>
+
               <div class="slds-form-element">
                 <label class="slds-form-element__label" for="color-picker-input-r-39">
                   <abbr title="Red">R</abbr>
@@ -1615,7 +1757,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-r-39" class="slds-input" value="86" />
                 </div>
+
               </div>
+
               <div class="slds-form-element">
                 <label class="slds-form-element__label" for="color-picker-input-g-39">
                   <abbr title="Green">G</abbr>
@@ -1623,7 +1767,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-g-39" class="slds-input" value="121" />
                 </div>
+
               </div>
+
               <div class="slds-form-element">
                 <label class="slds-form-element__label" for="color-picker-input-b-39">
                   <abbr title="blue">B</abbr>
@@ -1631,20 +1777,29 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-b-39" class="slds-input" value="192" />
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <div class="slds-color-picker__selector-footer">
         <button class="slds-button slds-button_neutral">Cancel</button>
         <button class="slds-button slds-button_brand">Done</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Open with Error"
@@ -1664,8 +1819,11 @@ SLDS 1 blueprint examples for **Color Picker**.
       <div class="slds-color-picker__summary-input">
         <input type="text" id="color-picker-summary-input" class="slds-input" value="#5679C0" />
       </div>
+
     </div>
+
   </div>
+
   <section aria-describedby="dialog-body-id-47" aria-label="Choose a color" class="slds-popover slds-color-picker__selector slds-show" role="dialog">
     <div class="slds-popover__body" id="dialog-body-id-47">
       <div class="slds-media">
@@ -1677,6 +1835,7 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <span class="slds-assistive-text">hex #5679C0</span>
               </button>
             </div>
+
             <div class="slds-color-picker__hue-and-preview">
               <label class="slds-assistive-text" for="color-picker-input-range-41">Select Hue</label>
               <input type="range" class="slds-color-picker__hue-slider" min="0" max="360" id="color-picker-input-range-41" value="208" />
@@ -1684,13 +1843,16 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <span class="slds-assistive-text" aria-hidden="true">#5679C0</span>
               </span>
             </div>
+
             <div class="slds-color-picker__custom-inputs">
               <div class="slds-form-element slds-has-error slds-color-picker__input-custom-hex">
                 <label class="slds-form-element__label" for="color-picker-input-hex-41">Hex</label>
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-hex-41" aria-describedby="color-picker-custom-error" class="slds-input" aria-invalid="true" value="#5679C0" />
                 </div>
+
               </div>
+
               <div class="slds-form-element">
                 <label class="slds-form-element__label" for="color-picker-input-r-41">
                   <abbr title="Red">R</abbr>
@@ -1698,7 +1860,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-r-41" class="slds-input" value="86" />
                 </div>
+
               </div>
+
               <div class="slds-form-element">
                 <label class="slds-form-element__label" for="color-picker-input-g-41">
                   <abbr title="Green">G</abbr>
@@ -1706,7 +1870,9 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-g-41" class="slds-input" value="121" />
                 </div>
+
               </div>
+
               <div class="slds-form-element">
                 <label class="slds-form-element__label" for="color-picker-input-b-41">
                   <abbr title="blue">B</abbr>
@@ -1714,21 +1880,30 @@ SLDS 1 blueprint examples for **Color Picker**.
                 <div class="slds-form-element__control">
                   <input type="text" id="color-picker-input-b-41" class="slds-input" value="192" />
                 </div>
+
               </div>
+
             </div>
+
             <p class="slds-form-error" id="color-picker-custom-error">Please ensure value is correct</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <div class="slds-color-picker__selector-footer">
         <button class="slds-button slds-button_neutral">Cancel</button>
         <button class="slds-button slds-button_brand">Done</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Predefined Only"
@@ -1748,8 +1923,11 @@ SLDS 1 blueprint examples for **Color Picker**.
       <div class="slds-color-picker__summary-input">
         <input type="text" id="color-picker-summary-input" class="slds-input" value="#5679C0" />
       </div>
+
     </div>
+
   </div>
+
   <section aria-describedby="dialog-body-id-49" aria-label="Choose a color" class="slds-popover slds-color-picker__selector slds-hide" role="dialog">
     <div class="slds-popover__body" id="dialog-body-id-49">
       <div class="slds-media">
@@ -1953,16 +2131,21 @@ SLDS 1 blueprint examples for **Color Picker**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <div class="slds-color-picker__selector-footer">
         <button class="slds-button slds-button_neutral">Cancel</button>
         <button class="slds-button slds-button_brand">Done</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Open"
@@ -1982,8 +2165,11 @@ SLDS 1 blueprint examples for **Color Picker**.
       <div class="slds-color-picker__summary-input">
         <input type="text" id="color-picker-summary-input" class="slds-input" value="#5679C0" />
       </div>
+
     </div>
+
   </div>
+
   <section aria-describedby="dialog-body-id-51" aria-label="Choose a color" class="slds-popover slds-color-picker__selector slds-show" role="dialog">
     <div class="slds-popover__body" id="dialog-body-id-51">
       <div class="slds-media">
@@ -2187,16 +2373,21 @@ SLDS 1 blueprint examples for **Color Picker**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <div class="slds-color-picker__selector-footer">
         <button class="slds-button slds-button_neutral">Cancel</button>
         <button class="slds-button slds-button_brand">Done</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Accessibility Note"
@@ -2409,8 +2600,11 @@ SLDS 1 blueprint examples for **Color Picker**.
           </li>
         </ul>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -2625,8 +2819,12 @@ SLDS 1 blueprint examples for **Color Picker**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::

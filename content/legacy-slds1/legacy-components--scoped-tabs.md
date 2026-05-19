@@ -18,8 +18,11 @@ SLDS 1 blueprint examples for **Scoped Tabs**.
     </li>
   </ul>
   <div id="tab-scoped-1" class="slds-tabs_scoped__content slds-show" role="tabpanel" aria-labelledby="tab-scoped-1__item">Item One Content</div>
+
   <div id="tab-scoped-2" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-2__item">Item Two Content</div>
+
   <div id="tab-scoped-3" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-3__item">Item Three Content</div>
+
 </div>
 :::
 
@@ -37,8 +40,11 @@ SLDS 1 blueprint examples for **Scoped Tabs**.
     </li>
   </ul>
   <div id="tab-scoped-1" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-1__item">Item One Content</div>
+
   <div id="tab-scoped-2" class="slds-tabs_scoped__content slds-show" role="tabpanel" aria-labelledby="tab-scoped-2__item">Item Two Content</div>
+
   <div id="tab-scoped-3" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-3__item">Item Three Content</div>
+
 </div>
 :::
 
@@ -81,13 +87,19 @@ SLDS 1 blueprint examples for **Scoped Tabs**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </li>
     </ul>
     <div id="tab-scoped-1" class="slds-tabs_scoped__content slds-show" role="tabpanel" aria-labelledby="tab-scoped-1__item">Item One Content</div>
+
     <div id="tab-scoped-2" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-2__item">Item Two Content</div>
+
     <div id="tab-scoped-3" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-3__item">Item Three Content</div>
+
   </div>
+
 </div>
 :::
 
@@ -105,8 +117,11 @@ SLDS 1 blueprint examples for **Scoped Tabs**.
     </li>
   </ul>
   <div id="tab-scoped-1" class="slds-tabs_scoped__content slds-show" role="tabpanel" aria-labelledby="tab-scoped-1__item">Item One Content</div>
+
   <div id="tab-scoped-2" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-2__item">Item Two Content</div>
+
   <div id="tab-scoped-3" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-3__item">Item Three Content</div>
+
 </div>
 :::
 
@@ -124,7 +139,10 @@ SLDS 1 blueprint examples for **Scoped Tabs**.
     </li>
   </ul>
   <div id="tab-scoped-1" class="slds-tabs_scoped__content slds-show" role="tabpanel" aria-labelledby="tab-scoped-1__item">Item One Content</div>
+
   <div id="tab-scoped-2" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-2__item">Item Two Content</div>
+
   <div id="tab-scoped-3" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-3__item">Item Three Content</div>
+
 </div>
 :::

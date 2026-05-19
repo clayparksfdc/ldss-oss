@@ -111,7 +111,7 @@ When the user clicks a primary action button, the [status text](/pattern/header)
 Saving commits all changes to the server. Status text updates to reflect saving in progress, then updates again when saving is complete.
 
 - Use “Save As” to create a new copy of a current record.
-- Don’t use [toasts](/components/toast) or [alerts](/component/alert) for save messages. When users save often, toasts can be disruptive. Banners are reserved for systemwide messages.
+- Don’t use [toasts](/component/toast) or [alerts](/component/alert) for save messages. When users save often, toasts can be disruptive. Banners are reserved for systemwide messages.
 
 ℹ️ **Accessibility Note:** Background status text changes should not trigger screen reader alerts.
 
@@ -187,7 +187,7 @@ When the canvas or a canvas element generates a warning or error, an alert icon 
 
 Warning and error icons
 
-*See *[*Validation*](/patterns/validation)* for more information*
+*See *[*Validation*](/pattern/validation)* for more information*
 
 ### Utility Actions
 

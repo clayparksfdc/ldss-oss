@@ -16,7 +16,9 @@ SLDS 1 blueprint examples for **Datepickers**.
       <span class="slds-assistive-text">Select a date</span>
     </button>
   </div>
+
   <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
   <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
     <div class="slds-datepicker__filter slds-grid">
       <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -28,6 +30,7 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Previous Month</span>
           </button>
         </div>
+
         <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="defaultPicker-month">June</h2>
         <div class="slds-align-middle">
           <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -37,7 +40,9 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Next Month</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-shrink-none">
         <label class="slds-assistive-text" for="defaultPicker_select">Pick a Year</label>
         <div class="slds-select_container">
@@ -47,8 +52,11 @@ SLDS 1 blueprint examples for **Datepickers**.
             <option>2023</option>
           </select>
         </div>
+
       </div>
+
     </div>
+
     <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
       <thead>
         <tr id="defaultPicker-weekdays">
@@ -195,6 +203,7 @@ SLDS 1 blueprint examples for **Datepickers**.
     </table>
     <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
   </div>
+
 </div>
 :::
 
@@ -210,7 +219,9 @@ SLDS 1 blueprint examples for **Datepickers**.
       <span class="slds-assistive-text">Select a date</span>
     </button>
   </div>
+
   <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
   <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
     <div class="slds-datepicker__filter slds-grid">
       <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -222,6 +233,7 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Previous Month</span>
           </button>
         </div>
+
         <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="pickerDaySelected-month">June</h2>
         <div class="slds-align-middle">
           <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -231,7 +243,9 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Next Month</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-shrink-none">
         <label class="slds-assistive-text" for="pickerDaySelected_select">Pick a Year</label>
         <div class="slds-select_container">
@@ -241,8 +255,11 @@ SLDS 1 blueprint examples for **Datepickers**.
             <option>2023</option>
           </select>
         </div>
+
       </div>
+
     </div>
+
     <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
       <thead>
         <tr id="pickerDaySelected-weekdays">
@@ -389,6 +406,7 @@ SLDS 1 blueprint examples for **Datepickers**.
     </table>
     <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
   </div>
+
 </div>
 :::
 
@@ -404,6 +422,7 @@ SLDS 1 blueprint examples for **Datepickers**.
       <span class="slds-assistive-text">Select a date</span>
     </button>
   </div>
+
   <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
     <div class="slds-datepicker__filter slds-grid">
       <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -415,6 +434,7 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Previous Month</span>
           </button>
         </div>
+
         <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="pickerWithError-month">June</h2>
         <div class="slds-align-middle">
           <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -424,7 +444,9 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Next Month</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-shrink-none">
         <label class="slds-assistive-text" for="pickerWithError_select">Pick a Year</label>
         <div class="slds-select_container">
@@ -434,8 +456,11 @@ SLDS 1 blueprint examples for **Datepickers**.
             <option>2023</option>
           </select>
         </div>
+
       </div>
+
     </div>
+
     <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
       <thead>
         <tr id="pickerWithError-weekdays">
@@ -582,6 +607,7 @@ SLDS 1 blueprint examples for **Datepickers**.
     </table>
     <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
   </div>
+
 </div>
 :::
 
@@ -598,7 +624,9 @@ SLDS 1 blueprint examples for **Datepickers**.
       <span class="slds-assistive-text">Select a date</span>
     </button>
   </div>
+
   <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
   <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
     <div class="slds-datepicker__filter slds-grid">
       <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -610,6 +638,7 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Previous Month</span>
           </button>
         </div>
+
         <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="pickerRequired-month">June</h2>
         <div class="slds-align-middle">
           <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -619,7 +648,9 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Next Month</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-shrink-none">
         <label class="slds-assistive-text" for="pickerRequired_select">Pick a Year</label>
         <div class="slds-select_container">
@@ -629,8 +660,11 @@ SLDS 1 blueprint examples for **Datepickers**.
             <option>2023</option>
           </select>
         </div>
+
       </div>
+
     </div>
+
     <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
       <thead>
         <tr id="pickerRequired-weekdays">
@@ -777,6 +811,7 @@ SLDS 1 blueprint examples for **Datepickers**.
     </table>
     <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
   </div>
+
 </div>
 :::
 
@@ -793,6 +828,7 @@ SLDS 1 blueprint examples for **Datepickers**.
       <span class="slds-assistive-text">Select a date</span>
     </button>
   </div>
+
   <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
     <div class="slds-datepicker__filter slds-grid">
       <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -804,6 +840,7 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Previous Month</span>
           </button>
         </div>
+
         <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="pickerRequired-month">June</h2>
         <div class="slds-align-middle">
           <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -813,7 +850,9 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Next Month</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-shrink-none">
         <label class="slds-assistive-text" for="pickerRequired_select">Pick a Year</label>
         <div class="slds-select_container">
@@ -823,8 +862,11 @@ SLDS 1 blueprint examples for **Datepickers**.
             <option>2023</option>
           </select>
         </div>
+
       </div>
+
     </div>
+
     <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
       <thead>
         <tr id="pickerRequired-weekdays">
@@ -971,6 +1013,7 @@ SLDS 1 blueprint examples for **Datepickers**.
     </table>
     <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
   </div>
+
 </div>
 :::
 
@@ -986,7 +1029,9 @@ SLDS 1 blueprint examples for **Datepickers**.
       <span class="slds-assistive-text">Select a date</span>
     </button>
   </div>
+
   <div class="slds-form-element__help">Format: 12/31/2024</div>
+
   <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
     <div class="slds-datepicker__filter slds-grid">
       <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -998,6 +1043,7 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Previous Month</span>
           </button>
         </div>
+
         <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="pickerDateFormatVisible-month">June</h2>
         <div class="slds-align-middle">
           <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -1007,7 +1053,9 @@ SLDS 1 blueprint examples for **Datepickers**.
             <span class="slds-assistive-text">Next Month</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-shrink-none">
         <label class="slds-assistive-text" for="pickerDateFormatVisible_select">Pick a Year</label>
         <div class="slds-select_container">
@@ -1017,8 +1065,11 @@ SLDS 1 blueprint examples for **Datepickers**.
             <option>2023</option>
           </select>
         </div>
+
       </div>
+
     </div>
+
     <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
       <thead>
         <tr id="pickerDateFormatVisible-weekdays">
@@ -1165,6 +1216,7 @@ SLDS 1 blueprint examples for **Datepickers**.
     </table>
     <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
   </div>
+
 </div>
 :::
 
@@ -1186,7 +1238,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -1198,6 +1252,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeDefault_start-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -1207,7 +1262,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeDefault_start_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -1217,8 +1274,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeDefault_start-weekdays">
@@ -1365,7 +1425,9 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
           <div class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click">
             <label class="slds-form-element__label" for="date-input-id-02-default">End Date</label>
             <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
@@ -1377,7 +1439,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -1389,6 +1453,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeDefault_end-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -1398,7 +1463,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeDefault_end_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -1408,8 +1475,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeDefault_end-weekdays">
@@ -1556,12 +1626,18 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </fieldset>
 </div>
+
 :::
 
 ::: legacy-component-example title="Start Date Selected"
@@ -1582,7 +1658,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -1594,6 +1672,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeSelected_start-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -1603,7 +1682,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeSelected_start_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -1613,8 +1694,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeSelected_start-weekdays">
@@ -1761,7 +1845,9 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
           <div class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click">
             <label class="slds-form-element__label" for="date-input-id-02-start_selected">End Date</label>
             <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
@@ -1773,7 +1859,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -1785,6 +1873,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeSelected_end-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -1794,7 +1883,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeSelected_end_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -1804,8 +1895,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeSelected_end-weekdays">
@@ -1952,12 +2046,18 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </fieldset>
 </div>
+
 :::
 
 ::: legacy-component-example title="End date selected (Same week)"
@@ -1978,7 +2078,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -1990,6 +2092,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeWeekSame_start-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -1999,7 +2102,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeWeekSame_start_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -2009,8 +2114,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeWeekSame_start-weekdays">
@@ -2157,7 +2265,9 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
           <div class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
             <label class="slds-form-element__label" for="date-input-id-02-end_selected">End Date</label>
             <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
@@ -2169,7 +2279,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -2181,6 +2293,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeWeekSame_end-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -2190,7 +2303,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeWeekSame_end_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -2200,8 +2315,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeWeekSame_end-weekdays">
@@ -2348,12 +2466,18 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </fieldset>
 </div>
+
 :::
 
 ::: legacy-component-example title="End date selected (Different week)"
@@ -2374,7 +2498,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -2386,6 +2512,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeDefault_start-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -2395,7 +2522,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeDefault_start_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -2405,8 +2534,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeDefault_start-weekdays">
@@ -2553,7 +2685,9 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
           <div class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click">
             <label class="slds-form-element__label" for="date-input-id-02-default">End Date</label>
             <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
@@ -2565,7 +2699,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -2577,6 +2713,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeDefault_end-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -2586,7 +2723,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeDefault_end_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -2596,8 +2735,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeDefault_end-weekdays">
@@ -2744,12 +2886,18 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </fieldset>
 </div>
+
 :::
 
 ::: legacy-component-example title="Today - In selected range"
@@ -2770,7 +2918,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -2782,6 +2932,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeDefault_start-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -2791,7 +2942,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeDefault_start_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -2801,8 +2954,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeDefault_start-weekdays">
@@ -2949,7 +3105,9 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
           <div class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click">
             <label class="slds-form-element__label" for="date-input-id-02-default">End Date</label>
             <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
@@ -2961,7 +3119,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -2973,6 +3133,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeDefault_end-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -2982,7 +3143,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeDefault_end_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -2992,8 +3155,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeDefault_end-weekdays">
@@ -3140,12 +3306,18 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </fieldset>
 </div>
+
 :::
 
 ::: legacy-component-example title="Current And Adjacent Month In Selected Range"
@@ -3166,7 +3338,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -3178,6 +3352,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeDefault_start-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -3187,7 +3362,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeDefault_start_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -3197,8 +3374,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeDefault_start-weekdays">
@@ -3345,7 +3525,9 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
           <div class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click">
             <label class="slds-form-element__label" for="date-input-id-02-default">End Date</label>
             <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
@@ -3357,7 +3539,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                 <span class="slds-assistive-text">Select a date</span>
               </button>
             </div>
+
             <div class="slds-form-element__help slds-assistive-text">Format: 12/31/2024</div>
+
             <div aria-hidden="false" aria-label="Date picker: June" class="slds-datepicker slds-dropdown slds-dropdown_left" role="dialog">
               <div class="slds-datepicker__filter slds-grid">
                 <div class="slds-datepicker__filter_month slds-grid slds-grid_align-spread slds-grow">
@@ -3369,6 +3553,7 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Previous Month</span>
                     </button>
                   </div>
+
                   <h2 aria-atomic="false" aria-live="polite" class="slds-align-middle" id="rangeDefault_end-month">June</h2>
                   <div class="slds-align-middle">
                     <button class="slds-button slds-button_icon slds-button_icon-container" title="Next Month">
@@ -3378,7 +3563,9 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <span class="slds-assistive-text">Next Month</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-shrink-none">
                   <label class="slds-assistive-text" for="rangeDefault_end_select">Pick a Year</label>
                   <div class="slds-select_container">
@@ -3388,8 +3575,11 @@ SLDS 1 blueprint examples for **Datepickers**.
                       <option>2023</option>
                     </select>
                   </div>
+
                 </div>
+
               </div>
+
               <table aria-multiselectable="true" class="slds-datepicker__month" role="grid">
                 <thead>
                   <tr id="rangeDefault_end-weekdays">
@@ -3536,10 +3726,16 @@ SLDS 1 blueprint examples for **Datepickers**.
               </table>
               <button class="slds-button slds-align_absolute-center slds-text-link">Today</button>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </fieldset>
 </div>
+
 :::

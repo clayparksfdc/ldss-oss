@@ -18,7 +18,9 @@ SLDS 1 blueprint examples for **Accordion**.
           </button>
         </h2>
       </div>
+
       <div class="slds-accordion__content" id="referenceId-45">Accordion details - A</div>
+
     </section>
   </li>
   <li class="slds-accordion__list-item">
@@ -33,7 +35,9 @@ SLDS 1 blueprint examples for **Accordion**.
           </button>
         </h2>
       </div>
+
       <div hidden="" class="slds-accordion__content" id="referenceId-46">Accordion details - B</div>
+
     </section>
   </li>
   <li class="slds-accordion__list-item">
@@ -48,7 +52,9 @@ SLDS 1 blueprint examples for **Accordion**.
           </button>
         </h2>
       </div>
+
       <div hidden="" class="slds-accordion__content" id="referenceId-47">Accordion details - C</div>
+
     </section>
   </li>
 </ul>
@@ -93,9 +99,13 @@ SLDS 1 blueprint examples for **Accordion**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-accordion__content" id="referenceId-24">Accordion details - A</div>
+
     </section>
   </li>
   <li class="slds-accordion__list-item">
@@ -135,9 +145,13 @@ SLDS 1 blueprint examples for **Accordion**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
       <div hidden="" class="slds-accordion__content" id="referenceId-25">Accordion details - B</div>
+
     </section>
   </li>
   <li class="slds-accordion__list-item">
@@ -177,9 +191,13 @@ SLDS 1 blueprint examples for **Accordion**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
       <div hidden="" class="slds-accordion__content" id="referenceId-26">Accordion details - C</div>
+
     </section>
   </li>
 </ul>
@@ -200,7 +218,9 @@ SLDS 1 blueprint examples for **Accordion**.
             </button>
           </h2>
         </div>
+
         <div class="slds-accordion__content" id="referenceId-21">Accordion details - A</div>
+
       </section>
     </li>
     <li class="slds-accordion__list-item">
@@ -215,7 +235,9 @@ SLDS 1 blueprint examples for **Accordion**.
             </button>
           </h2>
         </div>
+
         <div hidden="" class="slds-accordion__content" id="referenceId-22">Accordion details - B</div>
+
       </section>
     </li>
     <li class="slds-accordion__list-item">
@@ -230,11 +252,14 @@ SLDS 1 blueprint examples for **Accordion**.
             </button>
           </h2>
         </div>
+
         <div hidden="" class="slds-accordion__content" id="referenceId-23">Accordion details - C</div>
+
       </section>
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Nested"
@@ -251,6 +276,7 @@ SLDS 1 blueprint examples for **Accordion**.
           </button>
         </h2>
       </div>
+
       <div class="slds-accordion__content" id="referenceId-16">
         <ul class="slds-accordion">
           <li class="slds-accordion__list-item">
@@ -265,7 +291,9 @@ SLDS 1 blueprint examples for **Accordion**.
                   </button>
                 </h2>
               </div>
+
               <div class="slds-accordion__content" id="referenceId-17">Accordion details - A</div>
+
             </section>
           </li>
           <li class="slds-accordion__list-item">
@@ -280,11 +308,14 @@ SLDS 1 blueprint examples for **Accordion**.
                   </button>
                 </h2>
               </div>
+
               <div hidden="" class="slds-accordion__content" id="referenceId-18">Accordion details - B</div>
+
             </section>
           </li>
         </ul>
       </div>
+
     </section>
   </li>
   <li class="slds-accordion__list-item">
@@ -299,7 +330,9 @@ SLDS 1 blueprint examples for **Accordion**.
           </button>
         </h2>
       </div>
+
       <div hidden="" class="slds-accordion__content" id="referenceId-19">Accordion details - B</div>
+
     </section>
   </li>
   <li class="slds-accordion__list-item">
@@ -314,7 +347,9 @@ SLDS 1 blueprint examples for **Accordion**.
           </button>
         </h2>
       </div>
+
       <div hidden="" class="slds-accordion__content" id="referenceId-20">Accordion details - C</div>
+
     </section>
   </li>
 </ul>
@@ -335,7 +370,9 @@ SLDS 1 blueprint examples for **Accordion**.
             </button>
           </h2>
         </div>
+
         <div class="slds-accordion__content" id="referenceId-13">Accordion details - A</div>
+
       </section>
     </li>
     <li class="slds-accordion__list-item">
@@ -350,7 +387,9 @@ SLDS 1 blueprint examples for **Accordion**.
             </button>
           </h2>
         </div>
+
         <div hidden="" class="slds-accordion__content" id="referenceId-14">Accordion details - B</div>
+
       </section>
     </li>
     <li class="slds-accordion__list-item">
@@ -365,7 +404,9 @@ SLDS 1 blueprint examples for **Accordion**.
             </button>
           </h2>
         </div>
+
         <div hidden="" class="slds-accordion__content" id="referenceId-15">Accordion details - C</div>
+
       </section>
     </li>
   </ul>

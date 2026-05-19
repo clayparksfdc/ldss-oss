@@ -16,8 +16,11 @@ SLDS 1 blueprint examples for **Panels**.
         <span class="slds-assistive-text">Collapse Panel Header</span>
       </button>
     </div>
+
   </div>
+
   <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
 </div>
 :::
 
@@ -33,8 +36,11 @@ SLDS 1 blueprint examples for **Panels**.
         <span class="slds-assistive-text">Collapse Panel Header</span>
       </button>
     </div>
+
   </div>
+
   <div class="slds-panel__body"></div>
+
 </div>
 :::
 
@@ -50,8 +56,11 @@ SLDS 1 blueprint examples for **Panels**.
         <span class="slds-assistive-text">Collapse Panel Header</span>
       </button>
     </div>
+
   </div>
+
   <div class="slds-panel__body"></div>
+
 </div>
 :::
 
@@ -86,7 +95,9 @@ SLDS 1 blueprint examples for **Panels**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__close" title="Collapse Panel Header">
         <svg class="slds-button__icon" aria-hidden="true">
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
@@ -94,8 +105,11 @@ SLDS 1 blueprint examples for **Panels**.
         <span class="slds-assistive-text">Collapse Panel Header</span>
       </button>
     </div>
+
   </div>
+
   <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
 </div>
 :::
 
@@ -111,8 +125,11 @@ SLDS 1 blueprint examples for **Panels**.
         <span class="slds-assistive-text">Collapse Panel Header</span>
       </button>
     </div>
+
   </div>
+
   <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
 </div>
 :::
 
@@ -128,8 +145,11 @@ SLDS 1 blueprint examples for **Panels**.
         <span class="slds-assistive-text">Collapse Panel Header</span>
       </button>
     </div>
+
   </div>
+
   <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
 </div>
 :::
 
@@ -151,8 +171,11 @@ SLDS 1 blueprint examples for **Panels**.
         <span class="slds-assistive-text">Collapse Panel Header</span>
       </button>
     </div>
+
   </div>
+
   <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
 </div>
 :::
 
@@ -174,8 +197,11 @@ SLDS 1 blueprint examples for **Panels**.
         <span class="slds-assistive-text">Collapse Panel Header</span>
       </button>
     </div>
+
   </div>
+
   <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
 </div>
 :::
 
@@ -200,10 +226,15 @@ SLDS 1 blueprint examples for **Panels**.
           <span class="slds-assistive-text">Collapse Panel Header</span>
         </button>
       </div>
+
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="demo-only-content slds-col slds-p-around_medium">This section is demo-only content representing a custom layout in conjunction with the panel. It is not a part of the blueprint.</div>
+
 </div>
 :::
 
@@ -228,7 +259,9 @@ SLDS 1 blueprint examples for **Panels**.
           <span class="slds-assistive-text">Collapse Filter</span>
         </button>
       </div>
+
     </div>
+
     <div class="slds-panel__body">
       <div class="slds-filters">
         <ol class="slds-list_vertical slds-list_vertical-space">
@@ -240,6 +273,7 @@ SLDS 1 blueprint examples for **Panels**.
                 <span class="slds-show">All Products</span>
               </button>
             </div>
+
           </li>
         </ol>
         <h3 class="slds-text-body_small slds-m-vertical_x-small">Matching all these filters</h3>
@@ -258,6 +292,7 @@ SLDS 1 blueprint examples for **Panels**.
                 <span class="slds-assistive-text">Remove filter: Created Date equals THIS WEEK</span>
               </button>
             </div>
+
           </li>
           <li class="slds-item slds-hint-parent">
             <div class="slds-filters__item slds-grid slds-grid_vertical-align-center">
@@ -273,15 +308,21 @@ SLDS 1 blueprint examples for **Panels**.
                 <span class="slds-assistive-text">Remove filter: List Price greater than &quot;500&quot;</span>
               </button>
             </div>
+
           </li>
         </ol>
         <div class="slds-filters__footer slds-grid slds-shrink-none">
           <button class="slds-button_reset slds-text-link">Add Filter</button>
           <button class="slds-button_reset slds-text-link slds-col_bump-left">Remove All</button>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <div class="demo-only-content slds-col slds-p-around_medium">This section is demo-only content representing a custom layout in conjunction with the panel. It is not a part of the blueprint.</div>
+
 </div>
 :::

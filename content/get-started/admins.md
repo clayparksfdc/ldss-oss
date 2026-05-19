@@ -7,6 +7,7 @@ order: 0
 
 <div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Admins&quot;,&quot;tagline&quot;:&quot;Adopt Salesforce Cosmos to get the new design and SLDS 2 features.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779130508/ldss-cms-dev/local/media/admins-65a94162.jpg&quot;}" data-directive-children="[]">
 </div>
+
 SLDS 2 powers how you as a Salesforce admin configure your company’s image on the platform with themes and branding. As an admin, your role is to oversee and collaborate with your designers and developers in your transition to or use of SLDS 2. If you’re transitioning your org from SLDS 1, read [Transition to SLDS 2](/get-started/transition-to-slds-2).
 
 ### Themes and Branding

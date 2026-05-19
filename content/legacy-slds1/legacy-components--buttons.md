@@ -44,6 +44,7 @@ SLDS 1 blueprint examples for **Buttons**.
 <div style="background-color:#16325c;padding:0.5rem">
   <button class="slds-button slds-button_inverse">Inverse Button</button>
 </div>
+
 :::
 
 ::: legacy-component-example title="Destructive"

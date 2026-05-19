@@ -22,7 +22,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#task"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -33,6 +35,7 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-form-element__label slds-assistive-text">Mark Review proposals for EBC deck with larger team and have marketing review this complete</span>
                 </label>
               </div>
+
               <h3 class="slds-truncate" title="Review proposals for EBC deck with larger team and have marketing review this">
                 <a href="#">
                   <strong>Review proposals for EBC deck with larger team and have marketing review this</strong>
@@ -46,7 +49,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Recurring Task</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">9:00am | 3/20/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -56,7 +61,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> created a task with
             <a href="#">Charlie Gomez</a>
@@ -80,10 +87,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Need to finalize proposals and brand details before the meeting</p>
             </div>
+
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_call">
@@ -101,7 +112,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#log_a_call"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -111,6 +124,7 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 </a>
               </h3>
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:00am | 3/23/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -120,7 +134,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> logged a call with
             <a href="#">Adam Chan</a>
@@ -144,10 +160,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Adam seemed interested in closing this deal quickly! Let’s move.</p>
             </div>
+
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_email">
@@ -165,7 +185,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#email"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -188,7 +210,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Has attachments</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:00am | 3/24/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -198,7 +222,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> emailed
             <a href="#">Lea Chan</a>
@@ -222,10 +248,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Text Body</span>
               <p class="slds-p-top_x-small">Hi everyone, Thanks for meeting with the team today and going through the proposals we saw. This goes on and wraps if needed.</p>
             </div>
+
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_event">
@@ -243,7 +273,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#event"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -260,7 +292,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Public sharing</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:30am | 3/24/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -270,7 +304,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> created an event with
             <a href="#">Aida Lee</a> and 5 others</p>
@@ -299,10 +335,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Let&#x27;s discuss the 2017 product roadmap and address any questions</p>
             </div>
+
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
 </ul>
 :::
@@ -325,7 +365,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#task"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -336,6 +378,7 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-form-element__label slds-assistive-text">Mark Review proposals for EBC deck with larger team and have marketing review this complete</span>
                 </label>
               </div>
+
               <h3 class="slds-truncate" title="Review proposals for EBC deck with larger team and have marketing review this">
                 <a href="#">
                   <strong>Review proposals for EBC deck with larger team and have marketing review this</strong>
@@ -349,7 +392,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Recurring Task</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">9:00am | 3/20/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -359,7 +404,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> created a task with
             <a href="#">Charlie Gomez</a>
@@ -383,10 +430,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Need to finalize proposals and brand details before the meeting</p>
             </div>
+
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_call">
@@ -404,7 +455,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#log_a_call"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -414,6 +467,7 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 </a>
               </h3>
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:00am | 3/23/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -423,7 +477,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> logged a call with
             <a href="#">Adam Chan</a>
@@ -447,10 +503,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Adam seemed interested in closing this deal quickly! Let’s move.</p>
             </div>
+
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_email">
@@ -468,7 +528,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#email"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -491,7 +553,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Has attachments</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:00am | 3/24/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -501,7 +565,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> emailed
             <a href="#">Lea Chan</a>
@@ -525,14 +591,18 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Text Body</span>
               <p class="slds-p-top_x-small">Hi everyone, Thanks for meeting with the team today and going through the proposals we saw. This goes on and wraps if needed.</p>
             </div>
+
             <button class="slds-button slds-button_neutral slds-m-top_small">
               <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#world"></use>
               </svg>Public Sharing</button>
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_event">
@@ -550,7 +620,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#event"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -567,7 +639,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Public sharing</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:30am | 3/24/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -577,7 +651,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> created an event with
             <a href="#">Aida Lee</a> and 5 others</p>
@@ -606,14 +682,18 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Let&#x27;s discuss the 2017 product roadmap and address any questions</p>
             </div>
+
             <button class="slds-button slds-button_neutral slds-m-top_small">
               <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#world"></use>
               </svg>Public Sharing</button>
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
 </ul>
 :::
@@ -636,7 +716,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#task"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -647,6 +729,7 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-form-element__label slds-assistive-text">Mark Review proposals for EBC deck with larger team and have marketing review this complete</span>
                 </label>
               </div>
+
               <h3 class="slds-truncate" title="Review proposals for EBC deck with larger team and have marketing review this">
                 <a href="#">
                   <strong>Review proposals for EBC deck with larger team and have marketing review this</strong>
@@ -660,7 +743,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Recurring Task</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">9:00am | 3/20/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -670,7 +755,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> created a task with
             <a href="#">Charlie Gomez</a>
@@ -694,10 +781,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Need to finalize proposals and brand details before the meeting</p>
             </div>
+
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_call slds-is-open">
@@ -715,7 +806,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#log_a_call"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -725,6 +818,7 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 </a>
               </h3>
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:00am | 3/23/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -734,7 +828,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> logged a call with
             <a href="#">Adam Chan</a>
@@ -758,10 +854,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Adam seemed interested in closing this deal quickly! Let’s move.</p>
             </div>
+
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_email slds-is-open">
@@ -779,7 +879,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#email"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -802,7 +904,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Has attachments</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:00am | 3/24/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -812,7 +916,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> emailed
             <a href="#">Lea Chan</a>
@@ -836,14 +942,18 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Text Body</span>
               <p class="slds-p-top_x-small">Hi everyone, Thanks for meeting with the team today and going through the proposals we saw. This goes on and wraps if needed.</p>
             </div>
+
             <button class="slds-button slds-button_neutral slds-m-top_small">
               <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#world"></use>
               </svg>Public Sharing</button>
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_event slds-is-open">
@@ -861,7 +971,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#event"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -878,7 +990,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Public sharing</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:30am | 3/24/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -888,7 +1002,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> created an event with
             <a href="#">Aida Lee</a> and 5 others</p>
@@ -917,14 +1033,18 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Let&#x27;s discuss the 2017 product roadmap and address any questions</p>
             </div>
+
             <button class="slds-button slds-button_neutral slds-m-top_small">
               <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#world"></use>
               </svg>Public Sharing</button>
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
 </ul>
 :::
@@ -947,7 +1067,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#task"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -958,6 +1080,7 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-form-element__label slds-assistive-text">Mark Review proposals for EBC deck with larger team and have marketing review this complete</span>
                 </label>
               </div>
+
               <h3 class="slds-truncate" title="Review proposals for EBC deck with larger team and have marketing review this">
                 <a href="#">
                   <strong>Review proposals for EBC deck with larger team and have marketing review this</strong>
@@ -971,7 +1094,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Recurring Task</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">9:00am | 3/20/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -981,7 +1106,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> created a task with
             <a href="#">Charlie Gomez</a>
@@ -995,9 +1122,13 @@ SLDS 1 blueprint examples for **Activity Timeline**.
             </span>
             <p>There was an error loading the details</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_call">
@@ -1015,7 +1146,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#log_a_call"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -1025,6 +1158,7 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 </a>
               </h3>
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:00am | 3/23/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -1034,7 +1168,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> logged a call with
             <a href="#">Adam Chan</a>
@@ -1058,10 +1194,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Adam seemed interested in closing this deal quickly! Let’s move.</p>
             </div>
+
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_email">
@@ -1079,7 +1219,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#email"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -1102,7 +1244,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Has attachments</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:00am | 3/24/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -1112,7 +1256,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> emailed
             <a href="#">Lea Chan</a>
@@ -1136,14 +1282,18 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Text Body</span>
               <p class="slds-p-top_x-small">Hi everyone, Thanks for meeting with the team today and going through the proposals we saw. This goes on and wraps if needed.</p>
             </div>
+
             <button class="slds-button slds-button_neutral slds-m-top_small">
               <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#world"></use>
               </svg>Public Sharing</button>
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
   <li>
     <div class="slds-timeline__item_expandable slds-timeline__item_event">
@@ -1161,7 +1311,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#event"></use>
             </svg>
           </div>
+
         </div>
+
         <div class="slds-media__body">
           <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
             <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -1178,7 +1330,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">Public sharing</span>
                 </span>
               </div>
+
             </div>
+
             <div class="slds-timeline__actions slds-timeline__actions_inline">
               <p class="slds-timeline__date">10:30am | 3/24/17</p>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -1188,7 +1342,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-assistive-text">More Options for this item</span>
               </button>
             </div>
+
           </div>
+
           <p class="slds-m-horizontal_xx-small">
             <a href="#">You</a> created an event with
             <a href="#">Aida Lee</a> and 5 others</p>
@@ -1217,14 +1373,18 @@ SLDS 1 blueprint examples for **Activity Timeline**.
               <span class="slds-text-title">Description</span>
               <p class="slds-p-top_x-small">Let&#x27;s discuss the 2017 product roadmap and address any questions</p>
             </div>
+
             <button class="slds-button slds-button_neutral slds-m-top_small">
               <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#world"></use>
               </svg>Public Sharing</button>
           </article>
         </div>
+
       </div>
+
     </div>
+
   </li>
 </ul>
 :::
@@ -1248,7 +1408,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#task"></use>
               </svg>
             </div>
+
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
               <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -1259,6 +1421,7 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                     <span class="slds-form-element__label slds-assistive-text">Mark Review proposals for EBC deck with larger team and have marketing review this complete</span>
                   </label>
                 </div>
+
                 <h3 class="slds-truncate" title="Review proposals for EBC deck with larger team and have marketing review this">
                   <a href="#">
                     <strong>Review proposals for EBC deck with larger team and have marketing review this</strong>
@@ -1272,7 +1435,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                     <span class="slds-assistive-text">Recurring Task</span>
                   </span>
                 </div>
+
               </div>
+
               <div class="slds-timeline__actions slds-timeline__actions_inline">
                 <p class="slds-timeline__date">9:00am | 3/20/17</p>
                 <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -1282,7 +1447,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">More Options for this item</span>
                 </button>
               </div>
+
             </div>
+
             <p class="slds-m-horizontal_xx-small">
               <a href="#">You</a> created a task with
               <a href="#">Charlie Gomez</a>
@@ -1306,10 +1473,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-text-title">Description</span>
                 <p class="slds-p-top_x-small">Need to finalize proposals and brand details before the meeting</p>
               </div>
+
             </article>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li>
       <div class="slds-timeline__item_expandable slds-timeline__item_call slds-is-open">
@@ -1327,7 +1498,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#log_a_call"></use>
               </svg>
             </div>
+
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
               <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -1337,6 +1510,7 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   </a>
                 </h3>
               </div>
+
               <div class="slds-timeline__actions slds-timeline__actions_inline">
                 <p class="slds-timeline__date">10:00am | 3/23/17</p>
                 <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -1346,7 +1520,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">More Options for this item</span>
                 </button>
               </div>
+
             </div>
+
             <p class="slds-m-horizontal_xx-small">
               <a href="#">You</a> logged a call with
               <a href="#">Adam Chan</a>
@@ -1370,10 +1546,14 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-text-title">Description</span>
                 <p class="slds-p-top_x-small">Adam seemed interested in closing this deal quickly! Let’s move.</p>
               </div>
+
             </article>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li>
       <div class="slds-timeline__item_expandable slds-timeline__item_email slds-is-open">
@@ -1391,7 +1571,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#email"></use>
               </svg>
             </div>
+
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
               <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -1414,7 +1596,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                     <span class="slds-assistive-text">Has attachments</span>
                   </span>
                 </div>
+
               </div>
+
               <div class="slds-timeline__actions slds-timeline__actions_inline">
                 <p class="slds-timeline__date">10:00am | 3/24/17</p>
                 <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -1424,7 +1608,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">More Options for this item</span>
                 </button>
               </div>
+
             </div>
+
             <p class="slds-m-horizontal_xx-small">
               <a href="#">You</a> emailed
               <a href="#">Lea Chan</a>
@@ -1448,14 +1634,18 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-text-title">Text Body</span>
                 <p class="slds-p-top_x-small">Hi everyone, Thanks for meeting with the team today and going through the proposals we saw. This goes on and wraps if needed.</p>
               </div>
+
               <button class="slds-button slds-button_neutral slds-m-top_small">
                 <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#world"></use>
                 </svg>Public Sharing</button>
             </article>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li>
       <div class="slds-timeline__item_expandable slds-timeline__item_event slds-is-open">
@@ -1473,7 +1663,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#event"></use>
               </svg>
             </div>
+
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-timeline__trigger">
               <div class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space">
@@ -1490,7 +1682,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                     <span class="slds-assistive-text">Public sharing</span>
                   </span>
                 </div>
+
               </div>
+
               <div class="slds-timeline__actions slds-timeline__actions_inline">
                 <p class="slds-timeline__date">10:30am | 3/24/17</p>
                 <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="More Options for this item">
@@ -1500,7 +1694,9 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                   <span class="slds-assistive-text">More Options for this item</span>
                 </button>
               </div>
+
             </div>
+
             <p class="slds-m-horizontal_xx-small">
               <a href="#">You</a> created an event with
               <a href="#">Aida Lee</a> and 5 others</p>
@@ -1529,15 +1725,20 @@ SLDS 1 blueprint examples for **Activity Timeline**.
                 <span class="slds-text-title">Description</span>
                 <p class="slds-p-top_x-small">Let&#x27;s discuss the 2017 product roadmap and address any questions</p>
               </div>
+
               <button class="slds-button slds-button_neutral slds-m-top_small">
                 <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#world"></use>
                 </svg>Public Sharing</button>
             </article>
           </div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </div>
+
 :::

@@ -49,13 +49,13 @@ On the canvas, use connectors to represent relationships between nodes or a sequ
 
 Nodes are the building blocks of a workflow. Each node represents an action.
 
-*See *[*Nodes*](/patterns/nodes)* for more information*
+*See *[*Nodes*](/pattern/nodes)* for more information*
 
 #### Connectors
 
 Connectors are lines that connect nodes, representing relationships and movements between them.
 
-*See *[*Connectors*](/patterns/connectors)* for more information*
+*See *[*Connectors*](/pattern/connectors)* for more information*
 
 ### Creating Elements on the Canvas
 
@@ -63,13 +63,13 @@ Connectors are lines that connect nodes, representing relationships and movement
 
 Users drag and drop nodes or other elements from a toolbox/component panel to the canvas. This method may also be used to move or connect elements on the canvas.
 
-*See *[*Drag and Drop*](/patterns/drag-and-drop)* for more information*
+*See *[*Drag and Drop*](/pattern/drag-and-drop)* for more information*
 
 #### Click to Create
 
 Here, users click to create nodes or other elements. Clicking directly on the canvas or on dedicated creation points opens a popover with contextual options; the selected option is added to the canvas.
 
-*See *[*Click to Create*](/patterns/click-to-create)* for more information*
+*See *[*Click to Create*](/pattern/click-to-create)* for more information*
 
 ### Working on the Canvas
 
@@ -77,7 +77,7 @@ Here, users click to create nodes or other elements. Clicking directly on the ca
 
 The zoom tool is recommended for logic builders so the canvas view can be adjusted and scaled to see all or part of a flow.
 
-*See *[*Zoom Controls*](/patterns/zoom-controls)* for more information*
+*See *[*Zoom Controls*](/pattern/zoom-controls)* for more information*
 
 ## Canvas for Content Builders
 
@@ -103,7 +103,7 @@ Layouts can be fixed or customizable. A content builder may include settings and
 
 Layout components establish the sections, rows, or columns that will contain other components. They control factors such as number and size of columns, margins, padding, background colors, and border styles.
 
-*See *[*Layout*](/pattern/layout)* for more information*
+*See *[*Layout*](/develop/layout)* for more information*
 
 ### Creating Content on the Canvas
 
@@ -153,4 +153,4 @@ Clicking or selecting Delete in a component’s drop zone container prompts a co
 
 Clicking or selecting Layout in a component’s drop zone container opens the property panel for its row’s underlying layout component, along with its column’s scoped tab.
 
-*See *[*Layout*](/pattern/layout)* for more information*
+*See *[*Layout*](/develop/layout)* for more information*

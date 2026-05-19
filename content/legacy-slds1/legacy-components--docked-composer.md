@@ -16,10 +16,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Header">Header</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -40,18 +43,23 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body" id="dialog-content-id-1">
       <div class="slds-align_absolute-center">Docked Composer Panel Body
         <br/> This area consumes the feature</div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <div class="slds-col_bump-left slds-text-align_right">
         <button class="slds-button slds-button_brand">Action</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Open/Focused"
@@ -66,10 +74,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Header">Header</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -90,18 +101,23 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body" id="dialog-content-id-1">
       <div class="slds-align_absolute-center">Docked Composer Panel Body
         <br/> This area consumes the feature</div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <div class="slds-col_bump-left slds-text-align_right">
         <button class="slds-button slds-button_brand">Action</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Closed"
@@ -116,11 +132,14 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <span class="slds-assistive-text">Minimized</span>
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Header">Header</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -141,18 +160,23 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body" id="dialog-content-id-1">
       <div class="slds-align_absolute-center">Docked Composer Panel Body
         <br/> This area consumes the feature</div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <div class="slds-col_bump-left slds-text-align_right">
         <button class="slds-button slds-button_brand">Action</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Closed/Focused"
@@ -167,11 +191,14 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <span class="slds-assistive-text">Minimized</span>
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Header">Header</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -192,18 +219,23 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body" id="dialog-content-id-1">
       <div class="slds-align_absolute-center">Docked Composer Panel Body
         <br/> This area consumes the feature</div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <div class="slds-col_bump-left slds-text-align_right">
         <button class="slds-button slds-button_brand">Action</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Popped out"
@@ -220,10 +252,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
                 </svg>
               </span>
             </div>
+
             <div class="slds-media__body">
               <h2 class="slds-truncate" id="dialog-heading-id-1" title="Header">Header</h2>
             </div>
+
           </div>
+
           <div class="slds-col_bump-left slds-shrink-none">
             <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -244,21 +279,28 @@ SLDS 1 blueprint examples for **Docked Composer**.
               <span class="slds-assistive-text">Close Composer Panel</span>
             </button>
           </div>
+
         </header>
         <div class="slds-docked-composer__body" id="dialog-content-id-1">
           <div class="slds-align_absolute-center">Docked Composer Panel Body
             <br/> This area consumes the feature</div>
+
         </div>
+
         <footer class="slds-docked-composer__footer slds-shrink-none">
           <div class="slds-col_bump-left slds-text-align_right">
             <button class="slds-button slds-button_brand">Action</button>
           </div>
+
         </footer>
       </section>
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="With overflow menu"
@@ -309,7 +351,9 @@ SLDS 1 blueprint examples for **Docked Composer**.
         </li>
       </ul>
     </div>
+
   </div>
+
   <section class="slds-docked-composer slds-grid slds-grid_vertical slds-is-open" role="dialog" aria-labelledby="dialog-heading-id-1" aria-describedby="dialog-content-id-1">
     <header class="slds-docked-composer__header slds-grid slds-shrink-none" aria-live="assertive">
       <div class="slds-media slds-media_center slds-no-space">
@@ -320,10 +364,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Header">Header</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -344,18 +391,23 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body" id="dialog-content-id-1">
       <div class="slds-align_absolute-center">Docked Composer Panel Body
         <br/> This area consumes the feature</div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <div class="slds-col_bump-left slds-text-align_right">
         <button class="slds-button slds-button_brand">Action</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Log a task"
@@ -370,10 +422,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="New Task">New Task</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -394,6 +449,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body slds-docked-composer__body_form" id="dialog-content-id-1">
       <fieldset class="slds-form-element slds-form_compound">
@@ -406,22 +462,30 @@ SLDS 1 blueprint examples for **Docked Composer**.
                 <div class="slds-form-element__control">
                   <input type="text" class="slds-input" id="text-input-01" />
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-form-element__row">
               <div class="slds-form-element slds-size_1-of-2">
                 <label class="slds-form-element__label" for="text-input-02">Assigned To</label>
                 <div class="slds-form-element__control">
                   <input type="text" class="slds-input" id="text-input-02" />
                 </div>
+
               </div>
+
               <div class="slds-form-element slds-size_1-of-2">
                 <label class="slds-form-element__label" for="text-input-03">Due Dates</label>
                 <div class="slds-form-element__control">
                   <input type="text" class="slds-input" id="text-input-03" />
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-form-element__row">
               <div class="slds-form-element slds-size_1-of-2">
                 <label class="slds-form-element__label" for="combobox-unique-id-24">Name</label>
@@ -440,6 +504,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                         </svg>
                       </button>
                     </div>
+
                     <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click">
                       <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
                         <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id-24" aria-autocomplete="list" aria-controls="listbox-unique-id-03" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox"
@@ -450,6 +515,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                           </svg>
                         </span>
                       </div>
+
                       <div id="listbox-id-01" role="listbox" class="slds-dropdown slds-dropdown_fluid" aria-label="{{Placeholder for Dropdown Options}}">
                         <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                           <li role="presentation" class="slds-listbox__item">
@@ -466,13 +532,19 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                 <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
               <div class="slds-form-element slds-size_1-of-2">
                 <label class="slds-form-element__label" for="combobox-unique-id-25">Name</label>
                 <div class="slds-form-element__control">
@@ -490,6 +562,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                         </svg>
                       </button>
                     </div>
+
                     <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click">
                       <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
                         <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id-25" aria-autocomplete="list" aria-controls="listbox-unique-id-03" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox"
@@ -500,6 +573,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                           </svg>
                         </span>
                       </div>
+
                       <div id="listbox-id-02" role="listbox" class="slds-dropdown slds-dropdown_fluid" aria-label="{{Placeholder for Dropdown Options}}">
                         <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                           <li role="presentation" class="slds-listbox__item">
@@ -516,23 +590,34 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                 <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <button class="slds-button slds-button_brand slds-col_bump-left">Save</button>
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Email Composer"
@@ -547,10 +632,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="New Email">New Email</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -571,6 +659,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body" id="dialog-content-id-1">
       <div class="slds-email-composer">
@@ -601,6 +690,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                   <input type="text" class="slds-input slds-combobox__input" id="recipients-to" aria-autocomplete="list" aria-controls="listbox-unique-id-03" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox" placeholder=" "
                   />
                 </div>
+
                 <div id="listbox-id-01" role="listbox" class="slds-dropdown slds-dropdown_fluid" aria-label="{{Placeholder for Dropdown Options}}">
                   <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                     <li role="presentation" class="slds-listbox__item">
@@ -617,13 +707,19 @@ SLDS 1 blueprint examples for **Docked Composer**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
         <div class="slds-form-element slds-email-composer__combobox">
           <label class="slds-form-element__label" for="recipients-bcc">Bcc</label>
           <div class="slds-form-element__control">
@@ -633,6 +729,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                   <input type="text" class="slds-input slds-combobox__input" id="recipients-bcc" aria-autocomplete="list" aria-controls="listbox-unique-id-03" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox" placeholder=" "
                   />
                 </div>
+
                 <div id="listbox-id-02" role="listbox" class="slds-dropdown slds-dropdown_fluid" aria-label="{{Placeholder for Dropdown Options}}">
                   <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                     <li role="presentation" class="slds-listbox__item">
@@ -649,13 +746,19 @@ SLDS 1 blueprint examples for **Docked Composer**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
         <div class="slds-form-element slds-email-composer__combobox">
           <label class="slds-form-element__label" for="recipients-cc">Cc</label>
           <div class="slds-form-element__control">
@@ -665,6 +768,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                   <input type="text" class="slds-input slds-combobox__input" id="recipients-cc" aria-autocomplete="list" aria-controls="listbox-unique-id-03" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox" placeholder=" "
                   />
                 </div>
+
                 <div id="listbox-id-03" role="listbox" class="slds-dropdown slds-dropdown_fluid" aria-label="{{Placeholder for Dropdown Options}}">
                   <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                     <li role="presentation" class="slds-listbox__item">
@@ -681,19 +785,27 @@ SLDS 1 blueprint examples for **Docked Composer**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
         <div class="slds-form-element">
           <label class="slds-form-element__label slds-assistive-text" for="input-subject-01">Enter subject</label>
           <div class="slds-form-element__control">
             <input type="text" id="input-subject-01" class="slds-input slds-input_bare" placeholder="Enter Subject" />
           </div>
+
         </div>
+
         <div class="slds-form-element">
           <div class="slds-form-element__control">
             <div class="slds-rich-text-editor slds-grid slds-grid_vertical slds-nowrap">
@@ -710,12 +822,14 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                 aria-haspopup="listbox">
                                 <span class="slds-truncate" id="combobox-value-id-9">Font</span>
                               </div>
+
                               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                                 </svg>
                               </span>
                             </div>
+
                             <div id="example-unique-id-18" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                                 <li role="presentation" class="slds-listbox__item">
@@ -724,6 +838,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                       <span class="" title="Arial">Arial</span>
                                     </span>
                                   </div>
+
                                 </li>
                                 <li role="presentation" class="slds-listbox__item">
                                   <div id="option38" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -731,6 +846,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                       <span class="" title="Georgia">Georgia</span>
                                     </span>
                                   </div>
+
                                 </li>
                                 <li role="presentation" class="slds-listbox__item">
                                   <div id="option39" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -738,14 +854,21 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                       <span class="" title="Times New Roman">Times New Roman</span>
                                     </span>
                                   </div>
+
                                 </li>
                               </ul>
                             </div>
+
                           </div>
+
                         </div>
+
                       </div>
+
                     </div>
+
                   </div>
+
                   <div class="slds-rich-text-editor__select">
                     <div class="slds-form-element">
                       <label class="slds-form-element__label slds-assistive-text" for="example-unique-id-19" id="combobox-label-id-10">Choose a Font Size</label>
@@ -757,12 +880,14 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                 aria-expanded="false" aria-haspopup="listbox">
                                 <span class="slds-truncate" id="combobox-value-id-10">Size</span>
                               </div>
+
                               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                                 </svg>
                               </span>
                             </div>
+
                             <div id="example-unique-id-20" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                                 <li role="presentation" class="slds-listbox__item">
@@ -771,6 +896,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                       <span class="" title="8px">8px</span>
                                     </span>
                                   </div>
+
                                 </li>
                                 <li role="presentation" class="slds-listbox__item">
                                   <div id="option41" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -778,6 +904,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                       <span class="" title="10px">10px</span>
                                     </span>
                                   </div>
+
                                 </li>
                                 <li role="presentation" class="slds-listbox__item">
                                   <div id="option42" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -785,6 +912,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                       <span class="" title="12px">12px</span>
                                     </span>
                                   </div>
+
                                 </li>
                                 <li role="presentation" class="slds-listbox__item">
                                   <div id="option43" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -792,6 +920,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                       <span class="" title="14px">14px</span>
                                     </span>
                                   </div>
+
                                 </li>
                                 <li role="presentation" class="slds-listbox__item">
                                   <div id="option44" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -799,6 +928,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                       <span class="" title="16px">16px</span>
                                     </span>
                                   </div>
+
                                 </li>
                                 <li role="presentation" class="slds-listbox__item">
                                   <div id="option45" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -806,15 +936,23 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                       <span class="" title="24px">24px</span>
                                     </span>
                                   </div>
+
                                 </li>
                               </ul>
                             </div>
+
                           </div>
+
                         </div>
+
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
                 <ul aria-label="Format text" class="slds-button-group-list">
                   <li>
                     <button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1">
@@ -970,14 +1108,22 @@ SLDS 1 blueprint examples for **Docked Composer**.
                   </li>
                 </ul>
               </div>
+
               <div class="slds-rich-text-editor__textarea slds-grid">
                 <div aria-label="Compose text" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose Email...</div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <div class="slds-col_bump-left slds-grid slds-grid_vertical-align-center">
         <div class="slds-grid slds-m-right_small" role="toolbar">
@@ -1014,11 +1160,14 @@ SLDS 1 blueprint examples for **Docked Composer**.
             <span class="slds-assistive-text">Preview</span>
           </button>
         </div>
+
         <button class="slds-button slds-button_brand">Send</button>
       </div>
+
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Voice"
@@ -1033,10 +1182,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Lei Chan - Connecting...">Lei Chan - Connecting...</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1057,6 +1209,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
@@ -1070,12 +1223,15 @@ SLDS 1 blueprint examples for **Docked Composer**.
         </ul>
         <p class="slds-text-heading_medium slds-m-top_medium">Connecting...</p>
       </div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <button class="slds-button slds-button_destructive slds-size_1-of-1">End Call</button>
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Voice"
@@ -1090,10 +1246,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Lei Chan - Dialing...">Lei Chan - Dialing...</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1114,6 +1273,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
@@ -1127,12 +1287,15 @@ SLDS 1 blueprint examples for **Docked Composer**.
         </ul>
         <p class="slds-text-heading_medium slds-m-top_medium">Dialing...</p>
       </div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <button class="slds-button slds-button_destructive slds-size_1-of-1">End Call</button>
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Voice"
@@ -1147,10 +1310,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Lei Chan - Call in Progress">Lei Chan - Call in Progress</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1171,6 +1337,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body" id="dialog-content-id-1">
       <div class="slds-docked-composer__lead">
@@ -1180,6 +1347,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
               <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
             </span>
           </div>
+
           <div class="slds-media__body">
             <p class="slds-text-heading_medium">Lei Chan</p>
             <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
@@ -1187,9 +1355,12 @@ SLDS 1 blueprint examples for **Docked Composer**.
               <li class="slds-item ">Acme Corporation</li>
             </ul>
           </div>
+
         </div>
+
         <p class="slds-col_bump-left slds-text-heading_large">5:37</p>
       </div>
+
       <div class="slds-docked-composer__toolbar">
         <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-small" title="Mute Yourself" aria-pressed="false">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1198,14 +1369,17 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Mute Yourself</span>
         </button>
       </div>
+
       <label class="slds-assistive-text" for="composer-text-input-1">Take notes</label>
       <textarea id="composer-text-input-1" class="slds-docked-composer__input slds-input_bare slds-text-longform slds-grow" placeholder="Jot down notes here..."></textarea>
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <button class="slds-button slds-button_destructive slds-col_bump-left">End Call</button>
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Voice"
@@ -1220,10 +1394,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Lei Chan - Cancelling...">Lei Chan - Cancelling...</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1244,6 +1421,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
@@ -1257,9 +1435,12 @@ SLDS 1 blueprint examples for **Docked Composer**.
         </ul>
         <p class="slds-text-heading_medium slds-m-top_medium">Cancelling...</p>
       </div>
+
     </div>
+
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Voice"
@@ -1274,10 +1455,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Lei Chan - Busy">Lei Chan - Busy</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1298,6 +1482,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
@@ -1311,13 +1496,16 @@ SLDS 1 blueprint examples for **Docked Composer**.
         </ul>
         <p class="slds-text-heading_medium slds-m-top_medium">Busy</p>
       </div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <button class="slds-button slds-button_neutral slds-size_1-of-2">Follow-Up Later</button>
       <button class="slds-button slds-button_brand slds-size_1-of-2">Call Again</button>
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Voice"
@@ -1332,10 +1520,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Lei Chan - Call Failed">Lei Chan - Call Failed</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1356,6 +1547,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
@@ -1369,13 +1561,16 @@ SLDS 1 blueprint examples for **Docked Composer**.
         </ul>
         <p class="slds-text-heading_medium slds-m-top_medium">Call Failed</p>
       </div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <button class="slds-button slds-button_neutral slds-size_1-of-2">Edit Phone Number</button>
       <button class="slds-button slds-button_brand slds-size_1-of-2">Call Again</button>
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Voice"
@@ -1390,10 +1585,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Lei Chan - No Answer">Lei Chan - No Answer</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1414,6 +1612,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body slds-align_absolute-center" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
@@ -1427,13 +1626,16 @@ SLDS 1 blueprint examples for **Docked Composer**.
         </ul>
         <p class="slds-text-heading_medium slds-m-top_medium">No Answer</p>
       </div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <button class="slds-button slds-button_neutral slds-size_1-of-2">Follow-Up Later</button>
       <button class="slds-button slds-button_brand slds-size_1-of-2">Call Again</button>
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Voice"
@@ -1448,10 +1650,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Lei Chan - Call Finished">Lei Chan - Call Finished</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1472,6 +1677,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body" id="dialog-content-id-1">
       <div class="slds-docked-composer__lead">
@@ -1481,6 +1687,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
               <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lei Chan avatar" />
             </span>
           </div>
+
           <div class="slds-media__body">
             <p class="slds-text-heading_medium">Lei Chan</p>
             <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
@@ -1488,8 +1695,11 @@ SLDS 1 blueprint examples for **Docked Composer**.
               <li class="slds-item ">Acme Corporation</li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-docked-composer__toolbar">
         <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-small" title="Mute Yourself" aria-pressed="false">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1498,14 +1708,17 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Mute Yourself</span>
         </button>
       </div>
+
       <label class="slds-assistive-text" for="composer-text-input-1">Take notes</label>
       <textarea id="composer-text-input-1" class="slds-docked-composer__input slds-input_bare slds-text-longform slds-grow" placeholder="Jot down notes here..."></textarea>
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <button class="slds-button slds-button_brand slds-col_bump-left">Finish Notes</button>
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Voice"
@@ -1520,10 +1733,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Lei Chan - Incoming Call...">Lei Chan - Incoming Call...</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1544,6 +1760,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body slds-align_absolute-center slds-size_1-of-1" id="dialog-content-id-1">
       <div class="slds-text-align_center slds-align-middle">
@@ -1557,6 +1774,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
         </ul>
         <p class="slds-text-heading_medium slds-m-top_medium">(416) 555-1234</p>
       </div>
+
       <div class="slds-p-horizontal_x-small slds-text-align_left slds-size_1-of-1">
         <h3 class="slds-m-bottom_x-small">Recent Activity</h3>
         <ul class="slds-has-dividers_around-space">
@@ -1589,12 +1807,15 @@ SLDS 1 blueprint examples for **Docked Composer**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <button class="slds-button slds-button_brand slds-col_bump-left">Finish Notes</button>
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="Voice"
@@ -1609,10 +1830,13 @@ SLDS 1 blueprint examples for **Docked Composer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" id="dialog-heading-id-1" title="Lei Chan">Lei Chan</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Minimize window">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1633,6 +1857,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
           <span class="slds-assistive-text">Close Composer Panel</span>
         </button>
       </div>
+
     </header>
     <div class="slds-docked-composer__body slds-docked-composer__body_form" id="dialog-content-id-1">
       <fieldset class="slds-form-element slds-form_compound">
@@ -1645,16 +1870,22 @@ SLDS 1 blueprint examples for **Docked Composer**.
                 <div class="slds-form-element__control">
                   <input type="text" class="slds-input" id="text-input-01" />
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-form-element__row">
               <div class="slds-form-element slds-size_1-of-1">
                 <label class="slds-form-element__label" for="textarea-input-01">Comments</label>
                 <div class="slds-form-element__control">
                   <textarea class="slds-textarea" id="textarea-input-01"></textarea>
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-form-element__row">
               <div class="slds-form-element slds-size_1-of-2">
                 <label class="slds-form-element__label" for="combobox-unique-id-34">Name</label>
@@ -1673,6 +1904,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                         </svg>
                       </button>
                     </div>
+
                     <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click">
                       <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
                         <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id-34" aria-autocomplete="list" aria-controls="listbox-unique-id-03" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox"
@@ -1683,6 +1915,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                           </svg>
                         </span>
                       </div>
+
                       <div id="listbox-id-01" role="listbox" class="slds-dropdown slds-dropdown_fluid" aria-label="{{Placeholder for Dropdown Options}}">
                         <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                           <li role="presentation" class="slds-listbox__item">
@@ -1699,13 +1932,19 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                 <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
               <div class="slds-form-element slds-size_1-of-2">
                 <label class="slds-form-element__label" for="combobox-unique-id-35">Name</label>
                 <div class="slds-form-element__control">
@@ -1723,6 +1962,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                         </svg>
                       </button>
                     </div>
+
                     <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click">
                       <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
                         <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id-35" aria-autocomplete="list" aria-controls="listbox-unique-id-03" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox"
@@ -1733,6 +1973,7 @@ SLDS 1 blueprint examples for **Docked Composer**.
                           </svg>
                         </span>
                       </div>
+
                       <div id="listbox-id-02" role="listbox" class="slds-dropdown slds-dropdown_fluid" aria-label="{{Placeholder for Dropdown Options}}">
                         <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                           <li role="presentation" class="slds-listbox__item">
@@ -1749,21 +1990,32 @@ SLDS 1 blueprint examples for **Docked Composer**.
                                 <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </div>
+
     <footer class="slds-docked-composer__footer slds-shrink-none">
       <button class="slds-button slds-button_brand slds-col_bump-left">Save</button>
     </footer>
   </section>
 </div>
+
 :::

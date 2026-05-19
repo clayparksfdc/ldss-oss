@@ -14,6 +14,7 @@ SLDS 1 blueprint examples for **Chat**.
   <p>Chat started by
     <b>Taylor Watson-Rice</b> • 4:59 PM</p>
 </div>
+
 :::
 
 ::: legacy-component-example title="Chat stopped bookend"
@@ -26,6 +27,7 @@ SLDS 1 blueprint examples for **Chat**.
   <p>Chat ended by
     <b>Taylor Watson-Rice</b> • 4:59 PM</p>
 </div>
+
 :::
 
 ::: legacy-component-example title="Use of aria-label"
@@ -37,9 +39,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_inbound">
             <span>Hi, my CloudWidget only speaks French</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Taylor Watson-Rice at 4:59 PM">Taylor Watson-Rice • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -54,8 +60,11 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_inbound">
             <span>Hi, my CloudWidget only speaks French</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_inbound">
       <div class="slds-chat-message">
@@ -63,9 +72,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_inbound">
             <span>I&#x27;m having trouble changing that.</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Taylor Watson-Rice at 4:59 PM">Taylor Watson-Rice • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -83,8 +96,11 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_inbound">
             <span>Hi, my CloudWidget only speaks French</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_inbound">
       <div class="slds-chat-message slds-chat-message_faux-avatar">
@@ -92,9 +108,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_inbound">
             <span>I&#x27;m having trouble changing that.</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Taylor Watson-Rice at 4:59 PM">Taylor Watson-Rice • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -120,9 +140,13 @@ SLDS 1 blueprint examples for **Chat**.
               <a href="#">filename_of_attachment.jpg</a>
             </span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Taylor Watson-Rice at 4:59 PM">Taylor Watson-Rice • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -161,13 +185,21 @@ SLDS 1 blueprint examples for **Chat**.
                       <span class="slds-assistive-text">More Actions</span>
                     </button>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Taylor Watson-Rice at 4:59 PM">Taylor Watson-Rice • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -199,10 +231,13 @@ SLDS 1 blueprint examples for **Chat**.
                         <span class="slds-assistive-text">pdf</span>
                       </span>
                     </div>
+
                     <div class="slds-media__body">
                       <span class="slds-file__text slds-truncate" title="File.pdf">File.pdf</span>
                     </div>
+
                   </div>
+
                 </figcaption>
               </figure>
               <div class="slds-file__actions-menu">
@@ -220,12 +255,19 @@ SLDS 1 blueprint examples for **Chat**.
                     <span class="slds-assistive-text">More Actions</span>
                   </button>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Taylor Watson-Rice at 4:59 PM">Taylor Watson-Rice • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -264,12 +306,19 @@ SLDS 1 blueprint examples for **Chat**.
                       <span class="slds-assistive-text">More Actions</span>
                     </button>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_inbound">
       <div class="slds-chat-message slds-chat-message_faux-avatar">
@@ -291,10 +340,13 @@ SLDS 1 blueprint examples for **Chat**.
                         <span class="slds-assistive-text">image</span>
                       </span>
                     </div>
+
                     <div class="slds-media__body">
                       <span class="slds-file__text slds-truncate" title="Image.jpg">Image.jpg</span>
                     </div>
+
                   </div>
+
                 </figcaption>
               </figure>
               <div class="slds-file__actions-menu">
@@ -312,12 +364,19 @@ SLDS 1 blueprint examples for **Chat**.
                     <span class="slds-assistive-text">More Actions</span>
                   </button>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Taylor Watson-Rice at 4:59 PM">Taylor Watson-Rice • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -346,10 +405,13 @@ SLDS 1 blueprint examples for **Chat**.
                         <span class="slds-assistive-text">image</span>
                       </span>
                     </div>
+
                     <div class="slds-media__body">
                       <span class="slds-file__text slds-truncate" title="Image.jpg">Image.jpg</span>
                     </div>
+
                   </div>
+
                 </figcaption>
               </figure>
               <div class="slds-file__actions-menu">
@@ -367,12 +429,19 @@ SLDS 1 blueprint examples for **Chat**.
                     <span class="slds-assistive-text">More Actions</span>
                   </button>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Taylor Watson-Rice at 4:59 PM">Taylor Watson-Rice • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -395,8 +464,11 @@ SLDS 1 blueprint examples for **Chat**.
               <span class="slds-assistive-text">Customer is typing</span>
             </span>
           </div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -420,8 +492,11 @@ SLDS 1 blueprint examples for **Chat**.
             </span>
             <span aria-hidden="true">Hi, my CloudWidget only spe</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -438,9 +513,13 @@ SLDS 1 blueprint examples for **Chat**.
               <a href="#">http://www/cloud.widget</a>
             </span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Amber Cann at 4:59 PM">Amber Cann • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -455,9 +534,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_outbound-agent">
             <span>So sorry to hear that. Let me transfer you to a more technical support member. Thank you for your patience. Have you tried visiting our help site?</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Jason Dewar at 4:59 PM">Jason Dewar • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -472,8 +555,11 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_outbound">
             <span>Hi Andy, thank you for contacting Widget Support. Can you please tell me what language you are trying to program on your CloudWidget?</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_outbound">
       <div class="slds-chat-message">
@@ -481,9 +567,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_outbound">
             <span>It might be the cause of the problem</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Taylor Watson-Rice at 4:59 PM">Taylor Watson-Rice • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -507,9 +597,13 @@ SLDS 1 blueprint examples for **Chat**.
             </span>
             <span>Message type is not supported</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Taylor Watson-Rice at 4:59 PM">Taylor Watson-Rice • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -531,9 +625,12 @@ SLDS 1 blueprint examples for **Chat**.
               </span>
               <span>Message was not delivered because Andy stopped receiving messages.</span>
             </div>
+
           </div>
+
           <div class="slds-grid slds-grid_align-spread slds-grid_vertical-align-start">
             <div class="slds-chat-message__meta" aria-label="said Amber Cann at 4:59 PM">Amber Cann • 4:59 PM</div>
+
             <button class="slds-button slds-chat-message__action slds-m-top_xxx-small">
               <span class="slds-icon_container slds-icon-utility-redo slds-chat-icon">
                 <svg class="slds-icon slds-icon_xx-small" aria-hidden="true">
@@ -543,8 +640,11 @@ SLDS 1 blueprint examples for **Chat**.
               <span>Resend</span>
             </button>
           </div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -564,7 +664,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Jason Dewar</b> raised a flag • 5:09 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -577,7 +679,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Jason Dewar</b> lowered the flag • 5:09 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -590,7 +694,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>Whisper from super
             <b>SuperAlly</b> • 5:09 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -604,7 +710,9 @@ SLDS 1 blueprint examples for **Chat**.
             <b>Jason Dewar</b> sent a file request to
             <b>Andy Martinez</b> • 5:09 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -617,7 +725,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Andy Martinez</b> sent a file • 5:09 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -630,7 +740,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Jason Dewar</b> cancelled the file request • 5:09 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -644,7 +756,9 @@ SLDS 1 blueprint examples for **Chat**.
             <b>Jason Dewar</b> sent a transfer request to
             <b>Technical Support Team</b> • 5:09 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -657,7 +771,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Technical Support Team</b> accepted the transfer request • 5:09 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -670,7 +786,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Jason Dewar</b> cancelled the transfer request • 5:09 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -683,7 +801,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Technical Support Team</b> declined the transfer request • 5:09 PM</p>
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -704,8 +824,11 @@ SLDS 1 blueprint examples for **Chat**.
             <b>Jason Dewar</b> sent a transfer request to
             <b>Amber Cann</b> • 5:19 PM</p>
         </div>
+
         <div class="slds-chat-event__agent-message">Andy needs help changing the language on his CloudWidget</div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -726,7 +849,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>The file sent by
             <b>Andy Martinez</b> is too large • 5:06 PM</p>
         </div>
+
       </div>
+
     </li>
   </ul>
 </section>
@@ -745,6 +870,7 @@ SLDS 1 blueprint examples for **Chat**.
         <p>Chat started by
           <b>Andy Martinez</b> • 4:58 PM</p>
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_inbound">
       <div class="slds-chat-message">
@@ -755,9 +881,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_inbound">
             <span>Hi, my CloudWidget only speaks French</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Andy Martinez at 4:59 PM">Andy Martinez • 4:59 PM</div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_outbound">
       <div class="slds-chat-message">
@@ -765,8 +895,11 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_outbound-agent">
             <span>Hi Andy, thank you for contacting Widget Support. Can you please tell me what language you are trying to program on your CloudWidget?</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_outbound">
       <div class="slds-chat-message">
@@ -774,9 +907,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_outbound-agent">
             <span>Have you tried turning it off and on again?</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Jason Dewar at 5:02 PM">Jason Dewar • 5:02 PM</div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_inbound">
       <div class="slds-chat-message">
@@ -787,9 +924,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_inbound">
             <span>yes, of course</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Andy Martinez at 5:09 PM">Andy Martinez • 5:09 PM</div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_outbound">
       <div class="slds-chat-message">
@@ -797,9 +938,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_outbound-agent">
             <span>Sorry to hear that. Let me transfer you to a more technical support member. Thank you for your patience!</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Jason Dewar at 5:15 PM">Jason Dewar • 5:15 PM</div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -813,8 +958,11 @@ SLDS 1 blueprint examples for **Chat**.
             <b>Jason Dewar</b> sent a transfer request to
             <b>Technical Support Team</b> • 5:19 PM</p>
         </div>
+
         <div class="slds-chat-event__agent-message">Andy needs help changing the language on his CloudWidget</div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -827,7 +975,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Technical Support Team</b> accepted the transfer request • 5:20 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -840,7 +990,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Amber Cann</b> accepted this chat • 5:22 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_outbound">
       <div class="slds-chat-message">
@@ -848,9 +1000,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_outbound">
             <span>Hi Andy, my name is Amber and I can help you solve your issue.</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Amber Cann at 5:23 PM">Amber Cann • 5:23 PM</div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_inbound">
       <div class="slds-chat-message">
@@ -861,9 +1017,13 @@ SLDS 1 blueprint examples for **Chat**.
           <div class="slds-chat-message__text slds-chat-message__text_inbound">
             <span>Nevermind, I speak french.</span>
           </div>
+
           <div class="slds-chat-message__meta" aria-label="said Andy Martinez at 5:29 PM">Andy Martinez • 5:29 PM</div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_bookend">
       <div class="slds-chat-bookend slds-chat-bookend_stop">
@@ -875,6 +1035,7 @@ SLDS 1 blueprint examples for **Chat**.
         <p>Chat ended by
           <b>Andy Martinez</b> • 5:30 PM</p>
       </div>
+
     </li>
   </ul>
 </section>
@@ -893,61 +1054,82 @@ SLDS 1 blueprint examples for **Chat**.
         <p>Chat started by
           <b>Andy Martinez</b> • 4:58 PM</p>
       </div>
+
     </li>
     <li class="slds-chat-listitem">
       <div class="slds-chat-message">
         <div class="slds-chat-message__body">
           <div class="slds-chat-message__meta" aria-label="said Andy Martinez at 4:59 PM">
             <b>Andy Martinez</b> • 4:59 PM</div>
+
           <div class="slds-chat-message__text">
             <span>Hi, my CloudWidget only speaks French</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem">
       <div class="slds-chat-message">
         <div class="slds-chat-message__body">
           <div class="slds-chat-message__meta" aria-label="said Jason Dewar at 5:02 PM">
             <b>Jason Dewar</b> • 5:02 PM</div>
+
           <div class="slds-chat-message__text">
             <span>Hi Andy, thank you for contacting Widget Support. Can you please tell me what language you are trying to program on your CloudWidget?</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem">
       <div class="slds-chat-message">
         <div class="slds-chat-message__body">
           <div class="slds-chat-message__meta" aria-label="said Jason Dewar at 5:03 PM">
             <b>Jason Dewar</b> • 5:03 PM</div>
+
           <div class="slds-chat-message__text">
             <span>Have you tried turning it off and on again?</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem">
       <div class="slds-chat-message">
         <div class="slds-chat-message__body">
           <div class="slds-chat-message__meta" aria-label="said Andy Martinez at 5:09 PM">
             <b>Andy Martinez</b> • 5:09 PM</div>
+
           <div class="slds-chat-message__text">
             <span>yes, of course</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem">
       <div class="slds-chat-message">
         <div class="slds-chat-message__body">
           <div class="slds-chat-message__meta" aria-label="said Jason Dewar at 5:15 PM">
             <b>Jason Dewar</b> • 5:15 PM</div>
+
           <div class="slds-chat-message__text">
             <span>Sorry to hear that. Let me transfer you to a more technical support member. Thank you for your patience!</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -961,8 +1143,11 @@ SLDS 1 blueprint examples for **Chat**.
             <b>Jason Dewar</b> sent a transfer request to
             <b>Technical Support Team</b> • 5:19 PM</p>
         </div>
+
         <div class="slds-chat-event__agent-message">Andy needs help changing the language on his CloudWidget</div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -975,7 +1160,9 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Technical Support Team</b> accepted the transfer request • 5:20 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_event">
       <div class="slds-chat-event">
@@ -988,29 +1175,39 @@ SLDS 1 blueprint examples for **Chat**.
           <p>
             <b>Amber Cann</b> accepted this chat • 5:22 PM</p>
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem">
       <div class="slds-chat-message">
         <div class="slds-chat-message__body">
           <div class="slds-chat-message__meta" aria-label="said Amber Cann at 5:23 PM">
             <b>Amber Cann</b> • 5:23 PM</div>
+
           <div class="slds-chat-message__text">
             <span>Hi Andy, my name is Amber and I can help you solve your issue.</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem">
       <div class="slds-chat-message">
         <div class="slds-chat-message__body">
           <div class="slds-chat-message__meta" aria-label="said Andy Martinez at 5:29 PM">
             <b>Andy Martinez</b> • 5:29 PM</div>
+
           <div class="slds-chat-message__text">
             <span>Nevermind, I speak french.</span>
           </div>
+
         </div>
+
       </div>
+
     </li>
     <li class="slds-chat-listitem slds-chat-listitem_bookend">
       <div class="slds-chat-bookend slds-chat-bookend_stop">
@@ -1022,6 +1219,7 @@ SLDS 1 blueprint examples for **Chat**.
         <p>Chat ended by
           <b>Andy Martinez</b> • 5:30 PM</p>
       </div>
+
     </li>
   </ul>
 </section>

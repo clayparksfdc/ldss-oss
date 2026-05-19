@@ -20,6 +20,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
         </span>
       </div>
+
     </li>
     <li aria-expanded="false" aria-label="Tree Branch" aria-level="1" role="treeitem">
       <div class="slds-tree__item">
@@ -33,6 +34,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -46,6 +48,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -61,6 +64,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -74,6 +78,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -89,9 +94,11 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item with a Really Really Long Name That Should Truncate">Tree Item with a Really Really Long Name That Should Truncate</span>
         </span>
       </div>
+
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Expanded Item"
@@ -110,6 +117,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
         </span>
       </div>
+
     </li>
     <li aria-expanded="true" aria-label="Tree Branch" aria-level="1" role="treeitem">
       <div class="slds-tree__item">
@@ -123,6 +131,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -136,6 +145,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -151,6 +161,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -164,6 +175,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -179,9 +191,11 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item with a Really Really Long Name That Should Truncate">Tree Item with a Really Really Long Name That Should Truncate</span>
         </span>
       </div>
+
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Item Selected"
@@ -200,6 +214,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
         </span>
       </div>
+
     </li>
     <li aria-expanded="true" aria-label="Tree Branch" aria-level="1" role="treeitem">
       <div class="slds-tree__item">
@@ -213,6 +228,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" aria-selected="true" role="treeitem" tabindex="0">
           <div class="slds-tree__item">
@@ -226,6 +242,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -241,6 +258,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -254,6 +272,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -269,9 +288,11 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item with a Really Really Long Name That Should Truncate">Tree Item with a Really Really Long Name That Should Truncate</span>
         </span>
       </div>
+
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Deeply Nested Branches"
@@ -290,6 +311,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
         </span>
       </div>
+
     </li>
     <li aria-expanded="true" aria-label="Tree Branch" aria-level="1" role="treeitem">
       <div class="slds-tree__item">
@@ -303,6 +325,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -316,6 +339,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
         <li aria-expanded="true" aria-label="Tree Branch" aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -329,6 +353,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
             </span>
           </div>
+
           <ul role="group">
             <li aria-level="3" role="treeitem">
               <div class="slds-tree__item">
@@ -342,6 +367,7 @@ SLDS 1 blueprint examples for **Trees**.
                   <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
                 </span>
               </div>
+
             </li>
             <li aria-level="3" role="treeitem">
               <div class="slds-tree__item">
@@ -355,6 +381,7 @@ SLDS 1 blueprint examples for **Trees**.
                   <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
                 </span>
               </div>
+
             </li>
             <li aria-expanded="false" aria-label="Tree Branch" aria-level="3" role="treeitem">
               <div class="slds-tree__item">
@@ -368,6 +395,7 @@ SLDS 1 blueprint examples for **Trees**.
                   <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
                 </span>
               </div>
+
               <ul role="group">
                 <li aria-level="4" role="treeitem">
                   <div class="slds-tree__item">
@@ -381,6 +409,7 @@ SLDS 1 blueprint examples for **Trees**.
                       <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </li>
@@ -396,6 +425,7 @@ SLDS 1 blueprint examples for **Trees**.
                   <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
                 </span>
               </div>
+
               <ul role="group">
                 <li aria-level="4" role="treeitem">
                   <div class="slds-tree__item">
@@ -409,6 +439,7 @@ SLDS 1 blueprint examples for **Trees**.
                       <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
                     </span>
                   </div>
+
                 </li>
                 <li aria-level="4" role="treeitem">
                   <div class="slds-tree__item">
@@ -422,6 +453,7 @@ SLDS 1 blueprint examples for **Trees**.
                       <span class="slds-tree__item-label slds-truncate" title="Another Tree Item with Really Really Long Text That Should Truncate">Another Tree Item with Really Really Long Text That Should Truncate</span>
                     </span>
                   </div>
+
                 </li>
                 <li aria-level="4" role="treeitem">
                   <div class="slds-tree__item">
@@ -435,6 +467,7 @@ SLDS 1 blueprint examples for **Trees**.
                       <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
                     </span>
                   </div>
+
                 </li>
                 <li aria-expanded="true" aria-label="Tree Branch" aria-level="4" role="treeitem">
                   <div class="slds-tree__item">
@@ -448,6 +481,7 @@ SLDS 1 blueprint examples for **Trees**.
                       <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
                     </span>
                   </div>
+
                   <ul role="group">
                     <li aria-level="5" role="treeitem">
                       <div class="slds-tree__item">
@@ -461,6 +495,7 @@ SLDS 1 blueprint examples for **Trees**.
                           <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
                         </span>
                       </div>
+
                     </li>
                     <li aria-level="5" role="treeitem">
                       <div class="slds-tree__item">
@@ -474,6 +509,7 @@ SLDS 1 blueprint examples for **Trees**.
                           <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
                         </span>
                       </div>
+
                     </li>
                     <li aria-level="5" role="treeitem">
                       <div class="slds-tree__item">
@@ -487,6 +523,7 @@ SLDS 1 blueprint examples for **Trees**.
                           <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </li>
@@ -502,6 +539,7 @@ SLDS 1 blueprint examples for **Trees**.
                       <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </li>
@@ -517,6 +555,7 @@ SLDS 1 blueprint examples for **Trees**.
                   <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </li>
@@ -534,6 +573,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -547,6 +587,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -562,9 +603,11 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item with a Really Really Long Name That Should Truncate">Tree Item with a Really Really Long Name That Should Truncate</span>
         </span>
       </div>
+
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Item with Metatext"
@@ -583,6 +626,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
         </span>
       </div>
+
     </li>
     <li aria-expanded="true" aria-label="Tree Branch" aria-level="1" role="treeitem">
       <div class="slds-tree__item">
@@ -596,6 +640,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -611,6 +656,7 @@ SLDS 1 blueprint examples for **Trees**.
                 <span class="slds-assistive-text">:</span>Tree Item Metatext with a Really Really Long Name That Should Truncate</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -628,6 +674,7 @@ SLDS 1 blueprint examples for **Trees**.
             <span class="slds-assistive-text">:</span>Tree Branch Metatext</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -641,6 +688,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -656,9 +704,11 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item with a Really Really Long Name That Should Truncate">Tree Item with a Really Really Long Name That Should Truncate</span>
         </span>
       </div>
+
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Item Hovered"
@@ -677,6 +727,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
         </span>
       </div>
+
     </li>
     <li aria-expanded="false" aria-label="Tree Branch" aria-level="1" role="treeitem">
       <div class="slds-tree__item">
@@ -690,6 +741,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -703,6 +755,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -718,6 +771,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Branch">Tree Branch</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -731,6 +785,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -746,9 +801,11 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item with a Really Really Long Name That Should Truncate">Tree Item with a Really Really Long Name That Should Truncate</span>
         </span>
       </div>
+
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Items Disabled"
@@ -767,6 +824,7 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
         </span>
       </div>
+
     </li>
     <li aria-expanded="false" aria-label="Tree Branch" aria-level="1" aria-disabled="true" role="treeitem">
       <div class="slds-tree__item">
@@ -782,6 +840,7 @@ SLDS 1 blueprint examples for **Trees**.
             <span class="slds-assistive-text">:</span>Tree Branch Metatext</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -795,6 +854,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -812,6 +872,7 @@ SLDS 1 blueprint examples for **Trees**.
             <span class="slds-assistive-text">:</span>Tree Branch Metatext</span>
         </span>
       </div>
+
       <ul role="group">
         <li aria-level="2" role="treeitem">
           <div class="slds-tree__item">
@@ -825,6 +886,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
             </span>
           </div>
+
         </li>
       </ul>
     </li>
@@ -840,9 +902,11 @@ SLDS 1 blueprint examples for **Trees**.
           <span class="slds-tree__item-label slds-truncate" title="Tree Item with a Really Really Long Name That Should Truncate">Tree Item with a Really Really Long Name That Should Truncate</span>
         </span>
       </div>
+
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Filterable Tree"
@@ -859,8 +923,11 @@ SLDS 1 blueprint examples for **Trees**.
         </span>
         <input type="search" aria-controls="tree-id" id="filter-id" placeholder="Quick Find" class="slds-input" />
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-tree_container">
     <h4 class="slds-tree__group-header" id="treeheading">Components</h4>
     <ul aria-labelledby="treeheading" class="slds-tree" id="tree-id" role="tree">
@@ -876,6 +943,7 @@ SLDS 1 blueprint examples for **Trees**.
             <span class="slds-tree__item-label slds-truncate" title="lightning">lightning</span>
           </span>
         </div>
+
         <ul role="group">
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -889,6 +957,7 @@ SLDS 1 blueprint examples for **Trees**.
                 <span class="slds-tree__item-label slds-truncate" title="lightning-button">lightning-button</span>
               </span>
             </div>
+
           </li>
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -902,6 +971,7 @@ SLDS 1 blueprint examples for **Trees**.
                 <span class="slds-tree__item-label slds-truncate" title="lightning-checkbox-button">lightning-checkbox-button</span>
               </span>
             </div>
+
           </li>
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -915,6 +985,7 @@ SLDS 1 blueprint examples for **Trees**.
                 <span class="slds-tree__item-label slds-truncate" title="lightning-radio-button">lightning-radio-button</span>
               </span>
             </div>
+
           </li>
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -930,6 +1001,7 @@ SLDS 1 blueprint examples for **Trees**.
                   <span class="slds-assistive-text">:</span>variant a checkbox button</span>
               </span>
             </div>
+
           </li>
         </ul>
       </li>
@@ -945,6 +1017,7 @@ SLDS 1 blueprint examples for **Trees**.
             <span class="slds-tree__item-label slds-truncate" title="ui">ui</span>
           </span>
         </div>
+
         <ul role="group">
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -958,6 +1031,7 @@ SLDS 1 blueprint examples for **Trees**.
                 <span class="slds-tree__item-label slds-truncate" title="ui:button">ui:button</span>
               </span>
             </div>
+
           </li>
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -971,6 +1045,7 @@ SLDS 1 blueprint examples for **Trees**.
                 <span class="slds-tree__item-label slds-truncate" title="ui:checkboxButton">ui:checkboxButton</span>
               </span>
             </div>
+
           </li>
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -984,6 +1059,7 @@ SLDS 1 blueprint examples for **Trees**.
                 <span class="slds-tree__item-label slds-truncate" title="ui:radioButton">ui:radioButton</span>
               </span>
             </div>
+
           </li>
         </ul>
       </li>
@@ -1001,6 +1077,7 @@ SLDS 1 blueprint examples for **Trees**.
               <span class="slds-assistive-text">:</span>Community components</span>
           </span>
         </div>
+
         <ul role="group">
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -1014,11 +1091,13 @@ SLDS 1 blueprint examples for **Trees**.
                 <span class="slds-tree__item-label slds-truncate" title="Tree Item">Tree Item</span>
               </span>
             </div>
+
           </li>
         </ul>
       </li>
     </ul>
   </div>
+
 </div>
 :::
 
@@ -1036,8 +1115,11 @@ SLDS 1 blueprint examples for **Trees**.
         </span>
         <input type="search" aria-controls="tree-id" id="filter-id" placeholder="Quick Find" class="slds-input" value="butto" />
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-tree_container">
     <h4 class="slds-tree__group-header" id="treeheading">Components</h4>
     <ul aria-labelledby="treeheading" class="slds-tree" id="tree-id" role="tree">
@@ -1053,6 +1135,7 @@ SLDS 1 blueprint examples for **Trees**.
             <span class="slds-tree__item-label slds-truncate" title="lightning">lightning</span>
           </span>
         </div>
+
         <ul role="group">
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -1069,6 +1152,7 @@ SLDS 1 blueprint examples for **Trees**.
                 </span>
               </span>
             </div>
+
           </li>
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -1085,6 +1169,7 @@ SLDS 1 blueprint examples for **Trees**.
                 </span>
               </span>
             </div>
+
           </li>
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -1101,6 +1186,7 @@ SLDS 1 blueprint examples for **Trees**.
                 </span>
               </span>
             </div>
+
           </li>
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -1121,6 +1207,7 @@ SLDS 1 blueprint examples for **Trees**.
                 </span>
               </span>
             </div>
+
           </li>
         </ul>
       </li>
@@ -1136,6 +1223,7 @@ SLDS 1 blueprint examples for **Trees**.
             <span class="slds-tree__item-label slds-truncate" title="ui">ui</span>
           </span>
         </div>
+
         <ul role="group">
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -1152,6 +1240,7 @@ SLDS 1 blueprint examples for **Trees**.
                 </span>
               </span>
             </div>
+
           </li>
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -1168,6 +1257,7 @@ SLDS 1 blueprint examples for **Trees**.
                 </span>
               </span>
             </div>
+
           </li>
           <li aria-level="2" role="treeitem">
             <div class="slds-tree__item">
@@ -1184,10 +1274,12 @@ SLDS 1 blueprint examples for **Trees**.
                 </span>
               </span>
             </div>
+
           </li>
         </ul>
       </li>
     </ul>
   </div>
+
 </div>
 :::

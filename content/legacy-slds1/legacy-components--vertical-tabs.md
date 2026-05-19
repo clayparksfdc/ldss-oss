@@ -36,7 +36,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
   <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-1" role="tabpanel" aria-labelledby="slds-vertical-tabs-1__nav">
     <div class="slds-text-longform">
       <h3 class="slds-text-heading_medium">Tab Title</h3>
@@ -44,7 +46,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
   <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-2" role="tabpanel" aria-labelledby="slds-vertical-tabs-2__nav">
     <div class="slds-text-longform">
       <h3 class="slds-text-heading_medium">Tab Title</h3>
@@ -52,7 +56,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -113,7 +119,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
   <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-1" role="tabpanel" aria-labelledby="slds-vertical-tabs-1__nav">
     <div class="slds-text-longform">
       <h3 class="slds-text-heading_medium">Tab Title</h3>
@@ -121,7 +129,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
   <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-2" role="tabpanel" aria-labelledby="slds-vertical-tabs-2__nav">
     <div class="slds-text-longform">
       <h3 class="slds-text-heading_medium">Tab Title</h3>
@@ -129,7 +139,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -187,7 +199,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
   <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-1" role="tabpanel" aria-labelledby="slds-vertical-tabs-1__nav">
     <div class="slds-text-longform">
       <h3 class="slds-text-heading_medium">Tab Title</h3>
@@ -195,7 +209,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
   <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-2" role="tabpanel" aria-labelledby="slds-vertical-tabs-2__nav">
     <div class="slds-text-longform">
       <h3 class="slds-text-heading_medium">Tab Title</h3>
@@ -203,7 +219,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -239,7 +257,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
   <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-1" role="tabpanel" aria-labelledby="slds-vertical-tabs-1__nav">
     <div class="slds-text-longform">
       <h3 class="slds-text-heading_medium">Tab Title</h3>
@@ -247,7 +267,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
   <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-2" role="tabpanel" aria-labelledby="slds-vertical-tabs-2__nav">
     <div class="slds-text-longform">
       <h3 class="slds-text-heading_medium">Tab Title</h3>
@@ -255,7 +277,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -291,7 +315,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
   <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-1" role="tabpanel" aria-labelledby="slds-vertical-tabs-1__nav">
     <div class="slds-text-longform">
       <h3 class="slds-text-heading_medium">Tab Title</h3>
@@ -299,7 +325,9 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
   <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-2" role="tabpanel" aria-labelledby="slds-vertical-tabs-2__nav">
     <div class="slds-text-longform">
       <h3 class="slds-text-heading_medium">Tab Title</h3>
@@ -307,6 +335,8 @@ SLDS 1 blueprint examples for **Vertical Tabs**.
       <p>Lorem ipsum dolor...</p>
       <p>Lorem ipsum dolor...</p>
     </div>
+
   </div>
+
 </div>
 :::

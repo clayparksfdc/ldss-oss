@@ -18,6 +18,7 @@ SLDS 1 blueprint examples for **Toast**.
         <a href="#">Select Leads to Merge</a>
       </h2>
     </div>
+
     <div class="slds-notify__close">
       <button class="slds-button slds-button_icon slds-button_icon-inverse" title="Close">
         <svg class="slds-button__icon" aria-hidden="true">
@@ -26,7 +27,9 @@ SLDS 1 blueprint examples for **Toast**.
         <span class="slds-assistive-text">Close</span>
       </button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -43,6 +46,7 @@ SLDS 1 blueprint examples for **Toast**.
       <h2 class="slds-text-heading_small ">Account
         <a href="#">ACME - 100</a> widgets was created.</h2>
     </div>
+
     <div class="slds-notify__close">
       <button class="slds-button slds-button_icon slds-button_icon-inverse" title="Close">
         <svg class="slds-button__icon" aria-hidden="true">
@@ -51,7 +55,9 @@ SLDS 1 blueprint examples for **Toast**.
         <span class="slds-assistive-text">Close</span>
       </button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -68,6 +74,7 @@ SLDS 1 blueprint examples for **Toast**.
       <h2 class="slds-text-heading_small ">Can’t share file “report-q3.pdf” with the
         <a href="#">selected users</a>.</h2>
     </div>
+
     <div class="slds-notify__close">
       <button class="slds-button slds-button_icon slds-button_icon-inverse" title="Close">
         <svg class="slds-button__icon" aria-hidden="true">
@@ -76,7 +83,9 @@ SLDS 1 blueprint examples for **Toast**.
         <span class="slds-assistive-text">Close</span>
       </button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -93,6 +102,7 @@ SLDS 1 blueprint examples for **Toast**.
       <h2 class="slds-text-heading_small ">Can’t save lead “Sally Wong” because
         <a href="#">another lead</a> has the same name.</h2>
     </div>
+
     <div class="slds-notify__close">
       <button class="slds-button slds-button_icon slds-button_icon-inverse" title="Close">
         <svg class="slds-button__icon" aria-hidden="true">
@@ -101,7 +111,9 @@ SLDS 1 blueprint examples for **Toast**.
         <span class="slds-assistive-text">Close</span>
       </button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -119,6 +131,7 @@ SLDS 1 blueprint examples for **Toast**.
       <p>Here&#x27;s some detail of
         <a href="#">what happened</a>, being very descriptive and transparent.</p>
     </div>
+
     <div class="slds-notify__close">
       <button class="slds-button slds-button_icon slds-button_icon-inverse" title="Close">
         <svg class="slds-button__icon" aria-hidden="true">
@@ -127,7 +140,9 @@ SLDS 1 blueprint examples for **Toast**.
         <span class="slds-assistive-text">Close</span>
       </button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -140,6 +155,7 @@ SLDS 1 blueprint examples for **Toast**.
         <h2 class="slds-text-heading_small">26 potential
           <a href="#">duplicate leads</a> were found.</h2>
       </div>
+
       <div class="slds-notify__close">
         <button class="slds-button slds-button_icon slds-button_icon-inverse" title="Close">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -148,7 +164,10 @@ SLDS 1 blueprint examples for **Toast**.
           <span class="slds-assistive-text">Close</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::

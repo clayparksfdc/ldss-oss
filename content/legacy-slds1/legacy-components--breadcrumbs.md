@@ -47,7 +47,9 @@ SLDS 1 blueprint examples for **Breadcrumbs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
     <li class="slds-breadcrumb__item">
       <a href="#">Parent Entity</a>

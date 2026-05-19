@@ -154,6 +154,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -308,6 +309,7 @@ SLDS 1 blueprint examples for **Illustration**.
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
     <p class="slds-text-body_regular">Lorem ipsum dolor sit amet, consectetur</p>
   </div>
+
 </div>
 :::
 
@@ -461,6 +463,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <h3 class="slds-illustration__header slds-text-heading_medium">Lorem ipsum dolor</h3>
   <p class="slds-text-body_regular">Lorem ipsum dolor sit amet, consectetur</p>
 </div>
+
 :::
 
 ::: legacy-component-example title="Going Camping"
@@ -605,6 +608,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -706,6 +710,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -785,6 +790,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -858,6 +864,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -980,6 +987,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -1097,6 +1105,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -1183,6 +1192,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -1306,6 +1316,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -1406,6 +1417,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -1559,6 +1571,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -1669,6 +1682,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -1775,6 +1789,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -1874,6 +1889,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -2001,6 +2017,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -2089,6 +2106,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -2197,6 +2215,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -2314,6 +2333,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -2426,6 +2446,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -2591,6 +2612,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -2722,6 +2744,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -2736,6 +2759,7 @@ SLDS 1 blueprint examples for **Illustration**.
       </h2>
     </header>
   </div>
+
   <div class="slds-illustration slds-illustration_small">
     <svg class="slds-illustration__svg" viewBox="0 0 454 182" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2832,7 +2856,9 @@ SLDS 1 blueprint examples for **Illustration**.
       <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
       <p class="slds-text-body_regular">Lorem ipsum dolor sit amet, consectetur</p>
     </div>
+
   </div>
+
   <footer class="slds-card__footer">
     <a href="#">View All</a>
   </footer>
@@ -2850,6 +2876,7 @@ SLDS 1 blueprint examples for **Illustration**.
       </h2>
     </header>
   </div>
+
   <div class="slds-illustration slds-illustration_small">
     <svg class="slds-illustration__svg" viewBox="0 0 454 182" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2946,7 +2973,9 @@ SLDS 1 blueprint examples for **Illustration**.
       <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
       <p class="slds-text-body_regular">Lorem ipsum dolor sit amet, consectetur</p>
     </div>
+
   </div>
+
   <footer class="slds-card__footer">
     <button class="slds-button">Create Task</button>
   </footer>
@@ -2964,6 +2993,7 @@ SLDS 1 blueprint examples for **Illustration**.
       </h2>
     </header>
   </div>
+
   <div class="slds-illustration slds-illustration_small">
     <svg class="slds-illustration__svg" viewBox="0 0 454 182" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -3060,7 +3090,9 @@ SLDS 1 blueprint examples for **Illustration**.
       <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
       <p class="slds-text-body_regular">Lorem ipsum dolor sit amet, consectetur</p>
     </div>
+
   </div>
+
   <footer class="slds-card__footer">
     <button class="slds-button slds-button_brand">Create Task</button>
   </footer>
@@ -3078,6 +3110,7 @@ SLDS 1 blueprint examples for **Illustration**.
       </h2>
     </header>
   </div>
+
   <div class="slds-illustration slds-illustration_small">
     <svg class="slds-illustration__svg" viewBox="0 0 454 182" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -3176,7 +3209,9 @@ SLDS 1 blueprint examples for **Illustration**.
         <a href="#" class="slds-truncate" title="Learn More">Learn More</a>
       </p>
     </div>
+
   </div>
+
   <footer class="slds-card__footer">
     <a href="#">View All</a>
   </footer>
@@ -3189,6 +3224,7 @@ SLDS 1 blueprint examples for **Illustration**.
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
     <p class="slds-text-body_regular">Lorem ipsum dolor sit amet, consectetur</p>
   </div>
+
 </div>
 :::
 
@@ -3197,6 +3233,7 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <h3 class="slds-text-heading_medium">Lorem ipsum dolor</h3>
   </div>
+
 </div>
 :::
 
@@ -3205,5 +3242,6 @@ SLDS 1 blueprint examples for **Illustration**.
   <div class="slds-text-longform">
     <p class="slds-text-body_regular">Lorem ipsum dolor sit amet, consectetur</p>
   </div>
+
 </div>
 :::

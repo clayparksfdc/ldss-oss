@@ -18,8 +18,10 @@ SLDS 1 blueprint examples for **Tiles**.
         <dd class="slds-item_detail slds-truncate" title="Description for second label">Description for second label</dd>
       </dl>
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="Default with actions"
@@ -37,7 +39,9 @@ SLDS 1 blueprint examples for **Tiles**.
           <span class="slds-assistive-text">More options</span>
         </button>
       </div>
+
     </div>
+
     <div class="slds-tile__detail">
       <dl class="slds-list_horizontal slds-wrap">
         <dt class="slds-item_label slds-text-color_weak slds-truncate" title="First Label">First Label:</dt>
@@ -46,8 +50,10 @@ SLDS 1 blueprint examples for **Tiles**.
         <dd class="slds-item_detail slds-truncate" title="Description for second label">Description for second label</dd>
       </dl>
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="With icon"
@@ -60,6 +66,7 @@ SLDS 1 blueprint examples for **Tiles**.
         </svg>
       </span>
     </div>
+
     <div class="slds-media__body">
       <h3 class="slds-tile__title slds-truncate" title="Salesforce UX">
         <a href="#">Salesforce UX</a>
@@ -72,9 +79,12 @@ SLDS 1 blueprint examples for **Tiles**.
           <dd class="slds-item_detail slds-truncate" title="Description for second label">Description for second label</dd>
         </dl>
       </div>
+
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="With avatar"
@@ -85,6 +95,7 @@ SLDS 1 blueprint examples for **Tiles**.
         <img alt="" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Lexee L. Jackson avatar" />
       </span>
     </div>
+
     <div class="slds-media__body">
       <h3 class="slds-tile__title slds-truncate" title="Lexee L. Jackson">
         <a href="#">Lexee L. Jackson</a>
@@ -97,9 +108,12 @@ SLDS 1 blueprint examples for **Tiles**.
           <dd class="slds-item_detail slds-truncate" title="Description for second label">Description for second label</dd>
         </dl>
       </div>
+
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="Task"
@@ -113,7 +127,9 @@ SLDS 1 blueprint examples for **Tiles**.
           <span class="slds-form-element__label slds-assistive-text">Did you complete the task: Contact Trammel Crow Company?</span>
         </label>
       </div>
+
     </div>
+
     <div class="slds-media__body">
       <h3 class="slds-tile__title slds-truncate" title="Contact Trammel Crow Company">
         <a href="#">Contact Trammel Crow Company</a>
@@ -121,9 +137,12 @@ SLDS 1 blueprint examples for **Tiles**.
       <div class="slds-tile__detail">
         <p class="slds-truncate" title="Assignee">Assignee</p>
       </div>
+
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="Article"
@@ -139,8 +158,10 @@ SLDS 1 blueprint examples for **Tiles**.
         <li class="slds-item">1 day ago</li>
       </ul>
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="Article with like bar"
@@ -178,8 +199,10 @@ SLDS 1 blueprint examples for **Tiles**.
         </li>
       </ul>
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="Board"
@@ -197,6 +220,7 @@ SLDS 1 blueprint examples for **Tiles**.
           </p>
           <p class="slds-truncate" title="Closing 9/30/2015">Closing 9/30/2015</p>
         </div>
+
       </article>
     </li>
     <li class="slds-item">
@@ -217,6 +241,7 @@ SLDS 1 blueprint examples for **Tiles**.
             <span class="slds-assistive-text">Warning Icon</span>
           </span>
         </div>
+
       </article>
     </li>
     <li class="slds-item">
@@ -231,8 +256,10 @@ SLDS 1 blueprint examples for **Tiles**.
           </p>
           <p class="slds-truncate" title="Closing 10/12/2015">Closing 10/12/2015</p>
         </div>
+
       </article>
     </li>
   </ul>
 </div>
+
 :::

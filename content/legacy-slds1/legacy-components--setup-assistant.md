@@ -14,12 +14,16 @@ SLDS 1 blueprint examples for **Setup Assistant**.
             <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">Add Users to Your Org</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
+
           <div class="slds-media__figure slds-media__figure_reverse">
             <button class="slds-button slds-button_outline-brand">Add Users</button>
             <p class="slds-text-align_right slds-text-color_weak slds-p-top_medium">4 mins</p>
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -30,11 +34,15 @@ SLDS 1 blueprint examples for **Setup Assistant**.
             <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">Create Profiles for Your Users</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
+
           <div class="slds-media__figure slds-media__figure_reverse">
             <button class="slds-button slds-button_outline-brand">Add Profiles</button>
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -45,12 +53,16 @@ SLDS 1 blueprint examples for **Setup Assistant**.
             <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">Learn How to Use Profiles to Control Visibility</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
+
           <div class="slds-media__figure slds-media__figure_reverse">
             <a href="#">View on Trailhead</a>
             <p class="slds-text-align_right slds-text-color_weak slds-p-top_medium">15 mins</p>
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -61,6 +73,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
             <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">Turn On Tracking for Profiles</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
+
           <div class="slds-media__figure slds-media__figure_reverse">
             <div class="slds-form-element">
               <label class="slds-checkbox_toggle slds-grid">
@@ -73,9 +86,13 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                 </span>
               </label>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -86,11 +103,15 @@ SLDS 1 blueprint examples for **Setup Assistant**.
             <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">Setup Einstein Visibility for Admins</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
+
           <div class="slds-media__figure slds-media__figure_reverse">
             <a href="#">Watch Video</a>
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
 </ol>
@@ -109,6 +130,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                   <circle class="slds-progress-ring__path" id="slds-progress-ring-path-62" cx="0" cy="0" r="1"></circle>
                 </svg>
               </div>
+
               <div class="slds-progress-ring__content">
                 <span class="slds-icon_container slds-icon-utility-check" title="Complete">
                   <svg class="slds-icon" aria-hidden="true">
@@ -117,22 +139,31 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                   <span class="slds-assistive-text">Complete</span>
                 </span>
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-media__body slds-m-top_x-small">
             <div class="slds-media">
               <div class="slds-setup-assistant__step-summary-content slds-media__body">
                 <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">Add Users to Your Org</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
+
               <div class="slds-media__figure slds-media__figure_reverse">
                 <button class="slds-button slds-button_outline-brand">Add Users</button>
                 <p class="slds-text-align_right slds-text-color_weak slds-p-top_medium">4 mins</p>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -146,22 +177,32 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                   <path class="slds-progress-ring__path" id="slds-progress-ring-path-63" d="M 1 0 A 1 1 0 0 0 1.00 -0.00 L 0 0"></path>
                 </svg>
               </div>
+
               <div class="slds-progress-ring__content">2</div>
+
             </div>
+
           </div>
+
           <div class="slds-media__body slds-m-top_x-small">
             <div class="slds-media">
               <div class="slds-setup-assistant__step-summary-content slds-media__body">
                 <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">Create Profiles for Your Users</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
+
               <div class="slds-media__figure slds-media__figure_reverse">
                 <button class="slds-button slds-button_outline-brand">Add Profiles</button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -175,6 +216,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                   <circle class="slds-progress-ring__path" id="slds-progress-ring-path-64" cx="0" cy="0" r="1"></circle>
                 </svg>
               </div>
+
               <div class="slds-progress-ring__content">
                 <span class="slds-icon_container slds-icon-utility-check" title="Complete">
                   <svg class="slds-icon" aria-hidden="true">
@@ -183,22 +225,31 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                   <span class="slds-assistive-text">Complete</span>
                 </span>
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-media__body slds-m-top_x-small">
             <div class="slds-media">
               <div class="slds-setup-assistant__step-summary-content slds-media__body">
                 <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">Learn How to Use Profiles to Control Visibility</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
+
               <div class="slds-media__figure slds-media__figure_reverse">
                 <a href="#">View on Trailhead</a>
                 <p class="slds-text-align_right slds-text-color_weak slds-p-top_medium">15 mins</p>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -212,15 +263,20 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                   <path class="slds-progress-ring__path" id="slds-progress-ring-path-65" d="M 1 0 A 1 1 0 0 0 1.00 -0.00 L 0 0"></path>
                 </svg>
               </div>
+
               <div class="slds-progress-ring__content">4</div>
+
             </div>
+
           </div>
+
           <div class="slds-media__body slds-m-top_x-small">
             <div class="slds-media">
               <div class="slds-setup-assistant__step-summary-content slds-media__body">
                 <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">Turn On Tracking for Profiles</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
+
               <div class="slds-media__figure slds-media__figure_reverse">
                 <div class="slds-form-element">
                   <label class="slds-checkbox_toggle slds-grid">
@@ -233,11 +289,17 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     </span>
                   </label>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -251,22 +313,32 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                   <path class="slds-progress-ring__path" id="slds-progress-ring-path-66" d="M 1 0 A 1 1 0 0 0 1.00 -0.00 L 0 0"></path>
                 </svg>
               </div>
+
               <div class="slds-progress-ring__content">5</div>
+
             </div>
+
           </div>
+
           <div class="slds-media__body slds-m-top_x-small">
             <div class="slds-media">
               <div class="slds-setup-assistant__step-summary-content slds-media__body">
                 <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">Setup Einstein Visibility for Admins</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
+
               <div class="slds-media__figure slds-media__figure_reverse">
                 <a href="#">Watch Video</a>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
 </ol>
@@ -294,6 +366,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         <circle class="slds-progress-ring__path" id="slds-progress-ring-path-73" cx="0" cy="0" r="1"></circle>
                       </svg>
                     </div>
+
                     <div class="slds-progress-ring__content">
                       <span class="slds-icon_container slds-icon-utility-check" title="Complete">
                         <svg class="slds-icon" aria-hidden="true">
@@ -302,8 +375,11 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         <span class="slds-assistive-text">Complete</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body slds-m-top_x-small">
                   <div class="slds-media">
                     <div class="slds-setup-assistant__step-summary-content slds-media__body">
@@ -312,14 +388,21 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       </h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
+
                     <div class="slds-media__figure slds-media__figure_reverse">
                       <p class="slds-text-align_right slds-text-color_weak">4 mins</p>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div hidden="" class="slds-summary-detail__content" id="step-0-summary-action">
             <div class="slds-setup-assistant__step-detail">
               <div class="slds-progress slds-progress_vertical slds-progress_success">
@@ -333,6 +416,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     </span>
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Turn on Lightning for all users.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <div class="slds-form-element">
                           <label class="slds-checkbox_toggle slds-grid">
@@ -345,34 +429,47 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                             </span>
                           </label>
                         </div>
+
                       </div>
+
                     </div>
+
                   </li>
                   <li class="slds-progress__item slds-is-active">
                     <div class="slds-progress__marker">
                       <span class="slds-assistive-text">Active</span>
                     </div>
+
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <a href="#">View in Trailhead</a>
                       </div>
+
                     </div>
+
                   </li>
                   <li class="slds-progress__item">
                     <div class="slds-progress__marker"></div>
+
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, lorem ipsum dolor.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <button class="slds-button slds-button_outline-brand">Add Users</button>
                       </div>
+
                     </div>
+
                   </li>
                 </ol>
                 <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" role="progressbar">
                   <span class="slds-assistive-text">Progress: 50%</span>
                 </div>
+
               </div>
+
               <div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">
                 <div class="slds-media__figure">
                   <span class="slds-icon_container slds-icon-utility-info" title="information">
@@ -382,16 +479,23 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     <span class="slds-assistive-text">information</span>
                   </span>
                 </div>
+
                 <div class="slds-media__body">
                   <p>It looks as if duplicates exist for this lead.
                     <a href="#">View Duplicates</a>
                   </p>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -414,14 +518,19 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         <path class="slds-progress-ring__path" id="slds-progress-ring-path-74" d="M 1 0 A 1 1 0 0 0 -0.48 -0.88 L 0 0"></path>
                       </svg>
                     </div>
+
                     <div class="slds-progress-ring__content">2</div>
+
                     <div class="slds-progress-ring__progress-head">
                       <svg viewBox="-1 -1 2 2">
                         <circle class="slds-progress-ring__path" id="slds-progress-ring-path-75" cx="-0.33599999999999997" cy="-0.616" r="0.2"></circle>
                       </svg>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body slds-m-top_x-small">
                   <div class="slds-media">
                     <div class="slds-setup-assistant__step-summary-content slds-media__body">
@@ -430,14 +539,21 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       </h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
+
                     <div class="slds-media__figure slds-media__figure_reverse">
                       <p class="slds-text-align_right slds-text-color_weak">10 mins</p>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-summary-detail__content" id="step-1-summary-action">
             <div class="slds-setup-assistant__step-detail">
               <div class="slds-progress slds-progress_vertical slds-progress_success">
@@ -451,6 +567,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     </span>
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Turn on Lightning for all users.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <div class="slds-form-element">
                           <label class="slds-checkbox_toggle slds-grid">
@@ -463,34 +580,47 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                             </span>
                           </label>
                         </div>
+
                       </div>
+
                     </div>
+
                   </li>
                   <li class="slds-progress__item slds-is-active">
                     <div class="slds-progress__marker">
                       <span class="slds-assistive-text">Active</span>
                     </div>
+
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <a href="#">View in Trailhead</a>
                       </div>
+
                     </div>
+
                   </li>
                   <li class="slds-progress__item">
                     <div class="slds-progress__marker"></div>
+
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, lorem ipsum dolor.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <button class="slds-button slds-button_outline-brand">Add Users</button>
                       </div>
+
                     </div>
+
                   </li>
                 </ol>
                 <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" role="progressbar">
                   <span class="slds-assistive-text">Progress: 50%</span>
                 </div>
+
               </div>
+
               <div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">
                 <div class="slds-media__figure">
                   <span class="slds-icon_container slds-icon-utility-info" title="information">
@@ -500,16 +630,23 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     <span class="slds-assistive-text">information</span>
                   </span>
                 </div>
+
                 <div class="slds-media__body">
                   <p>It looks as if duplicates exist for this lead.
                     <a href="#">View Duplicates</a>
                   </p>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -532,6 +669,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         <circle class="slds-progress-ring__path" id="slds-progress-ring-path-76" cx="0" cy="0" r="1"></circle>
                       </svg>
                     </div>
+
                     <div class="slds-progress-ring__content">
                       <span class="slds-icon_container slds-icon-utility-check" title="Complete">
                         <svg class="slds-icon" aria-hidden="true">
@@ -540,8 +678,11 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         <span class="slds-assistive-text">Complete</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body slds-m-top_x-small">
                   <div class="slds-media">
                     <div class="slds-setup-assistant__step-summary-content slds-media__body">
@@ -550,14 +691,21 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       </h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
+
                     <div class="slds-media__figure slds-media__figure_reverse">
                       <p class="slds-text-align_right slds-text-color_weak">15 mins</p>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div hidden="" class="slds-summary-detail__content" id="step-2-summary-action">
             <div class="slds-setup-assistant__step-detail">
               <div class="slds-progress slds-progress_vertical slds-progress_success">
@@ -571,6 +719,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     </span>
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Turn on Lightning for all users.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <div class="slds-form-element">
                           <label class="slds-checkbox_toggle slds-grid">
@@ -583,34 +732,47 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                             </span>
                           </label>
                         </div>
+
                       </div>
+
                     </div>
+
                   </li>
                   <li class="slds-progress__item slds-is-active">
                     <div class="slds-progress__marker">
                       <span class="slds-assistive-text">Active</span>
                     </div>
+
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <a href="#">View in Trailhead</a>
                       </div>
+
                     </div>
+
                   </li>
                   <li class="slds-progress__item">
                     <div class="slds-progress__marker"></div>
+
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, lorem ipsum dolor.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <button class="slds-button slds-button_outline-brand">Add Users</button>
                       </div>
+
                     </div>
+
                   </li>
                 </ol>
                 <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" role="progressbar">
                   <span class="slds-assistive-text">Progress: 50%</span>
                 </div>
+
               </div>
+
               <div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">
                 <div class="slds-media__figure">
                   <span class="slds-icon_container slds-icon-utility-info" title="information">
@@ -620,16 +782,23 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     <span class="slds-assistive-text">information</span>
                   </span>
                 </div>
+
                 <div class="slds-media__body">
                   <p>It looks as if duplicates exist for this lead.
                     <a href="#">View Duplicates</a>
                   </p>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -652,9 +821,13 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         <path class="slds-progress-ring__path" id="slds-progress-ring-path-77" d="M 1 0 A 1 1 0 0 0 1.00 -0.00 L 0 0"></path>
                       </svg>
                     </div>
+
                     <div class="slds-progress-ring__content">4</div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body slds-m-top_x-small">
                   <div class="slds-media">
                     <div class="slds-setup-assistant__step-summary-content slds-media__body">
@@ -663,14 +836,21 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       </h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
+
                     <div class="slds-media__figure slds-media__figure_reverse">
                       <p class="slds-text-align_right slds-text-color_weak">10 mins</p>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div hidden="" class="slds-summary-detail__content" id="step-3-summary-action">
             <div class="slds-setup-assistant__step-detail">
               <div class="slds-progress slds-progress_vertical slds-progress_success">
@@ -684,6 +864,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     </span>
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Turn on Lightning for all users.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <div class="slds-form-element">
                           <label class="slds-checkbox_toggle slds-grid">
@@ -696,34 +877,47 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                             </span>
                           </label>
                         </div>
+
                       </div>
+
                     </div>
+
                   </li>
                   <li class="slds-progress__item slds-is-active">
                     <div class="slds-progress__marker">
                       <span class="slds-assistive-text">Active</span>
                     </div>
+
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <a href="#">View in Trailhead</a>
                       </div>
+
                     </div>
+
                   </li>
                   <li class="slds-progress__item">
                     <div class="slds-progress__marker"></div>
+
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, lorem ipsum dolor.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <button class="slds-button slds-button_outline-brand">Add Users</button>
                       </div>
+
                     </div>
+
                   </li>
                 </ol>
                 <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" role="progressbar">
                   <span class="slds-assistive-text">Progress: 50%</span>
                 </div>
+
               </div>
+
               <div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">
                 <div class="slds-media__figure">
                   <span class="slds-icon_container slds-icon-utility-info" title="information">
@@ -733,16 +927,23 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     <span class="slds-assistive-text">information</span>
                   </span>
                 </div>
+
                 <div class="slds-media__body">
                   <p>It looks as if duplicates exist for this lead.
                     <a href="#">View Duplicates</a>
                   </p>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
   <li class="slds-setup-assistant__item">
@@ -765,9 +966,13 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         <path class="slds-progress-ring__path" id="slds-progress-ring-path-78" d="M 1 0 A 1 1 0 0 0 1.00 -0.00 L 0 0"></path>
                       </svg>
                     </div>
+
                     <div class="slds-progress-ring__content">5</div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body slds-m-top_x-small">
                   <div class="slds-media">
                     <div class="slds-setup-assistant__step-summary-content slds-media__body">
@@ -776,14 +981,21 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       </h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
+
                     <div class="slds-media__figure slds-media__figure_reverse">
                       <p class="slds-text-align_right slds-text-color_weak">10 mins</p>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div hidden="" class="slds-summary-detail__content" id="step-4-summary-action">
             <div class="slds-setup-assistant__step-detail">
               <div class="slds-progress slds-progress_vertical slds-progress_success">
@@ -797,6 +1009,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     </span>
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Turn on Lightning for all users.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <div class="slds-form-element">
                           <label class="slds-checkbox_toggle slds-grid">
@@ -809,34 +1022,47 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                             </span>
                           </label>
                         </div>
+
                       </div>
+
                     </div>
+
                   </li>
                   <li class="slds-progress__item slds-is-active">
                     <div class="slds-progress__marker">
                       <span class="slds-assistive-text">Active</span>
                     </div>
+
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <a href="#">View in Trailhead</a>
                       </div>
+
                     </div>
+
                   </li>
                   <li class="slds-progress__item">
                     <div class="slds-progress__marker"></div>
+
                     <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                       <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, lorem ipsum dolor.</div>
+
                       <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                         <button class="slds-button slds-button_outline-brand">Add Users</button>
                       </div>
+
                     </div>
+
                   </li>
                 </ol>
                 <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" role="progressbar">
                   <span class="slds-assistive-text">Progress: 50%</span>
                 </div>
+
               </div>
+
               <div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">
                 <div class="slds-media__figure">
                   <span class="slds-icon_container slds-icon-utility-info" title="information">
@@ -846,16 +1072,23 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                     <span class="slds-assistive-text">information</span>
                   </span>
                 </div>
+
                 <div class="slds-media__body">
                   <p>It looks as if duplicates exist for this lead.
                     <a href="#">View Duplicates</a>
                   </p>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </article>
   </li>
 </ol>
@@ -871,12 +1104,15 @@ SLDS 1 blueprint examples for **Setup Assistant**.
           <strong>50% Complete</strong>
         </span>
       </div>
+
       <div class="slds-progress-bar slds-progress-bar_circular" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-labelledby="progress-bar-label-id-5" aria-label="{{Placeholder for description of progress bar}}" role="progressbar">
         <span class="slds-progress-bar__value" style="width:50%">
           <span class="slds-assistive-text" id="progress-bar-label-id-5">Progress: 50%</span>
         </span>
       </div>
+
     </div>
+
   </header>
   <ol class="slds-setup-assistant">
     <li class="slds-setup-assistant__item">
@@ -899,6 +1135,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                           <circle class="slds-progress-ring__path" id="slds-progress-ring-path-85" cx="0" cy="0" r="1"></circle>
                         </svg>
                       </div>
+
                       <div class="slds-progress-ring__content">
                         <span class="slds-icon_container slds-icon-utility-check" title="Complete">
                           <svg class="slds-icon" aria-hidden="true">
@@ -907,8 +1144,11 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                           <span class="slds-assistive-text">Complete</span>
                         </span>
                       </div>
+
                     </div>
+
                   </div>
+
                   <div class="slds-media__body slds-m-top_x-small">
                     <div class="slds-media">
                       <div class="slds-setup-assistant__step-summary-content slds-media__body">
@@ -917,14 +1157,21 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                       </div>
+
                       <div class="slds-media__figure slds-media__figure_reverse">
                         <p class="slds-text-align_right slds-text-color_weak">4 mins</p>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div hidden="" class="slds-summary-detail__content" id="step-0-summary-action">
               <div class="slds-setup-assistant__step-detail">
                 <div class="slds-progress slds-progress_vertical slds-progress_success">
@@ -938,6 +1185,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       </span>
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Turn on Lightning for all users.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <div class="slds-form-element">
                             <label class="slds-checkbox_toggle slds-grid">
@@ -950,34 +1198,47 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                               </span>
                             </label>
                           </div>
+
                         </div>
+
                       </div>
+
                     </li>
                     <li class="slds-progress__item slds-is-active">
                       <div class="slds-progress__marker">
                         <span class="slds-assistive-text">Active</span>
                       </div>
+
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <a href="#">View in Trailhead</a>
                         </div>
+
                       </div>
+
                     </li>
                     <li class="slds-progress__item">
                       <div class="slds-progress__marker"></div>
+
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, lorem ipsum dolor.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <button class="slds-button slds-button_outline-brand">Add Users</button>
                         </div>
+
                       </div>
+
                     </li>
                   </ol>
                   <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" role="progressbar">
                     <span class="slds-assistive-text">Progress: 50%</span>
                   </div>
+
                 </div>
+
                 <div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">
                   <div class="slds-media__figure">
                     <span class="slds-icon_container slds-icon-utility-info" title="information">
@@ -987,16 +1248,23 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       <span class="slds-assistive-text">information</span>
                     </span>
                   </div>
+
                   <div class="slds-media__body">
                     <p>It looks as if duplicates exist for this lead.
                       <a href="#">View Duplicates</a>
                     </p>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </article>
     </li>
     <li class="slds-setup-assistant__item">
@@ -1019,14 +1287,19 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                           <path class="slds-progress-ring__path" id="slds-progress-ring-path-86" d="M 1 0 A 1 1 0 0 0 -0.48 -0.88 L 0 0"></path>
                         </svg>
                       </div>
+
                       <div class="slds-progress-ring__content">2</div>
+
                       <div class="slds-progress-ring__progress-head">
                         <svg viewBox="-1 -1 2 2">
                           <circle class="slds-progress-ring__path" id="slds-progress-ring-path-87" cx="-0.33599999999999997" cy="-0.616" r="0.2"></circle>
                         </svg>
                       </div>
+
                     </div>
+
                   </div>
+
                   <div class="slds-media__body slds-m-top_x-small">
                     <div class="slds-media">
                       <div class="slds-setup-assistant__step-summary-content slds-media__body">
@@ -1035,14 +1308,21 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                       </div>
+
                       <div class="slds-media__figure slds-media__figure_reverse">
                         <p class="slds-text-align_right slds-text-color_weak">10 mins</p>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-summary-detail__content" id="step-1-summary-action">
               <div class="slds-setup-assistant__step-detail">
                 <div class="slds-progress slds-progress_vertical slds-progress_success">
@@ -1056,6 +1336,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       </span>
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Turn on Lightning for all users.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <div class="slds-form-element">
                             <label class="slds-checkbox_toggle slds-grid">
@@ -1068,34 +1349,47 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                               </span>
                             </label>
                           </div>
+
                         </div>
+
                       </div>
+
                     </li>
                     <li class="slds-progress__item slds-is-active">
                       <div class="slds-progress__marker">
                         <span class="slds-assistive-text">Active</span>
                       </div>
+
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <a href="#">View in Trailhead</a>
                         </div>
+
                       </div>
+
                     </li>
                     <li class="slds-progress__item">
                       <div class="slds-progress__marker"></div>
+
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, lorem ipsum dolor.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <button class="slds-button slds-button_outline-brand">Add Users</button>
                         </div>
+
                       </div>
+
                     </li>
                   </ol>
                   <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" role="progressbar">
                     <span class="slds-assistive-text">Progress: 50%</span>
                   </div>
+
                 </div>
+
                 <div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">
                   <div class="slds-media__figure">
                     <span class="slds-icon_container slds-icon-utility-info" title="information">
@@ -1105,16 +1399,23 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       <span class="slds-assistive-text">information</span>
                     </span>
                   </div>
+
                   <div class="slds-media__body">
                     <p>It looks as if duplicates exist for this lead.
                       <a href="#">View Duplicates</a>
                     </p>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </article>
     </li>
     <li class="slds-setup-assistant__item">
@@ -1137,6 +1438,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                           <circle class="slds-progress-ring__path" id="slds-progress-ring-path-88" cx="0" cy="0" r="1"></circle>
                         </svg>
                       </div>
+
                       <div class="slds-progress-ring__content">
                         <span class="slds-icon_container slds-icon-utility-check" title="Complete">
                           <svg class="slds-icon" aria-hidden="true">
@@ -1145,8 +1447,11 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                           <span class="slds-assistive-text">Complete</span>
                         </span>
                       </div>
+
                     </div>
+
                   </div>
+
                   <div class="slds-media__body slds-m-top_x-small">
                     <div class="slds-media">
                       <div class="slds-setup-assistant__step-summary-content slds-media__body">
@@ -1155,14 +1460,21 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                       </div>
+
                       <div class="slds-media__figure slds-media__figure_reverse">
                         <p class="slds-text-align_right slds-text-color_weak">15 mins</p>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div hidden="" class="slds-summary-detail__content" id="step-2-summary-action">
               <div class="slds-setup-assistant__step-detail">
                 <div class="slds-progress slds-progress_vertical slds-progress_success">
@@ -1176,6 +1488,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       </span>
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Turn on Lightning for all users.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <div class="slds-form-element">
                             <label class="slds-checkbox_toggle slds-grid">
@@ -1188,34 +1501,47 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                               </span>
                             </label>
                           </div>
+
                         </div>
+
                       </div>
+
                     </li>
                     <li class="slds-progress__item slds-is-active">
                       <div class="slds-progress__marker">
                         <span class="slds-assistive-text">Active</span>
                       </div>
+
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <a href="#">View in Trailhead</a>
                         </div>
+
                       </div>
+
                     </li>
                     <li class="slds-progress__item">
                       <div class="slds-progress__marker"></div>
+
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, lorem ipsum dolor.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <button class="slds-button slds-button_outline-brand">Add Users</button>
                         </div>
+
                       </div>
+
                     </li>
                   </ol>
                   <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" role="progressbar">
                     <span class="slds-assistive-text">Progress: 50%</span>
                   </div>
+
                 </div>
+
                 <div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">
                   <div class="slds-media__figure">
                     <span class="slds-icon_container slds-icon-utility-info" title="information">
@@ -1225,16 +1551,23 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       <span class="slds-assistive-text">information</span>
                     </span>
                   </div>
+
                   <div class="slds-media__body">
                     <p>It looks as if duplicates exist for this lead.
                       <a href="#">View Duplicates</a>
                     </p>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </article>
     </li>
     <li class="slds-setup-assistant__item">
@@ -1257,9 +1590,13 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                           <path class="slds-progress-ring__path" id="slds-progress-ring-path-89" d="M 1 0 A 1 1 0 0 0 1.00 -0.00 L 0 0"></path>
                         </svg>
                       </div>
+
                       <div class="slds-progress-ring__content">4</div>
+
                     </div>
+
                   </div>
+
                   <div class="slds-media__body slds-m-top_x-small">
                     <div class="slds-media">
                       <div class="slds-setup-assistant__step-summary-content slds-media__body">
@@ -1268,14 +1605,21 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                       </div>
+
                       <div class="slds-media__figure slds-media__figure_reverse">
                         <p class="slds-text-align_right slds-text-color_weak">10 mins</p>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div hidden="" class="slds-summary-detail__content" id="step-3-summary-action">
               <div class="slds-setup-assistant__step-detail">
                 <div class="slds-progress slds-progress_vertical slds-progress_success">
@@ -1289,6 +1633,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       </span>
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Turn on Lightning for all users.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <div class="slds-form-element">
                             <label class="slds-checkbox_toggle slds-grid">
@@ -1301,34 +1646,47 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                               </span>
                             </label>
                           </div>
+
                         </div>
+
                       </div>
+
                     </li>
                     <li class="slds-progress__item slds-is-active">
                       <div class="slds-progress__marker">
                         <span class="slds-assistive-text">Active</span>
                       </div>
+
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <a href="#">View in Trailhead</a>
                         </div>
+
                       </div>
+
                     </li>
                     <li class="slds-progress__item">
                       <div class="slds-progress__marker"></div>
+
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, lorem ipsum dolor.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <button class="slds-button slds-button_outline-brand">Add Users</button>
                         </div>
+
                       </div>
+
                     </li>
                   </ol>
                   <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" role="progressbar">
                     <span class="slds-assistive-text">Progress: 50%</span>
                   </div>
+
                 </div>
+
                 <div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">
                   <div class="slds-media__figure">
                     <span class="slds-icon_container slds-icon-utility-info" title="information">
@@ -1338,16 +1696,23 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       <span class="slds-assistive-text">information</span>
                     </span>
                   </div>
+
                   <div class="slds-media__body">
                     <p>It looks as if duplicates exist for this lead.
                       <a href="#">View Duplicates</a>
                     </p>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </article>
     </li>
     <li class="slds-setup-assistant__item">
@@ -1370,9 +1735,13 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                           <path class="slds-progress-ring__path" id="slds-progress-ring-path-90" d="M 1 0 A 1 1 0 0 0 1.00 -0.00 L 0 0"></path>
                         </svg>
                       </div>
+
                       <div class="slds-progress-ring__content">5</div>
+
                     </div>
+
                   </div>
+
                   <div class="slds-media__body slds-m-top_x-small">
                     <div class="slds-media">
                       <div class="slds-setup-assistant__step-summary-content slds-media__body">
@@ -1381,14 +1750,21 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                       </div>
+
                       <div class="slds-media__figure slds-media__figure_reverse">
                         <p class="slds-text-align_right slds-text-color_weak">10 mins</p>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div hidden="" class="slds-summary-detail__content" id="step-4-summary-action">
               <div class="slds-setup-assistant__step-detail">
                 <div class="slds-progress slds-progress_vertical slds-progress_success">
@@ -1402,6 +1778,7 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       </span>
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Turn on Lightning for all users.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <div class="slds-form-element">
                             <label class="slds-checkbox_toggle slds-grid">
@@ -1414,34 +1791,47 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                               </span>
                             </label>
                           </div>
+
                         </div>
+
                       </div>
+
                     </li>
                     <li class="slds-progress__item slds-is-active">
                       <div class="slds-progress__marker">
                         <span class="slds-assistive-text">Active</span>
                       </div>
+
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <a href="#">View in Trailhead</a>
                         </div>
+
                       </div>
+
                     </li>
                     <li class="slds-progress__item">
                       <div class="slds-progress__marker"></div>
+
                       <div class="slds-progress__item_content slds-grid slds-grid_align-spread">
                         <div class="slds-size_3-of-4">Lorem ipsum dolor sit amet, lorem ipsum dolor.</div>
+
                         <div class="slds-grid slds-grid_align-end slds-size_1-of-4">
                           <button class="slds-button slds-button_outline-brand">Add Users</button>
                         </div>
+
                       </div>
+
                     </li>
                   </ol>
                   <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" role="progressbar">
                     <span class="slds-assistive-text">Progress: 50%</span>
                   </div>
+
                 </div>
+
                 <div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">
                   <div class="slds-media__figure">
                     <span class="slds-icon_container slds-icon-utility-info" title="information">
@@ -1451,16 +1841,23 @@ SLDS 1 blueprint examples for **Setup Assistant**.
                       <span class="slds-assistive-text">information</span>
                     </span>
                   </div>
+
                   <div class="slds-media__body">
                     <p>It looks as if duplicates exist for this lead.
                       <a href="#">View Duplicates</a>
                     </p>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </article>
     </li>
   </ol>

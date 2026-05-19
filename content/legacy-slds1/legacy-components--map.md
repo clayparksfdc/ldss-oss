@@ -10,11 +10,14 @@ SLDS 1 blueprint examples for **Map**.
     <div class="slds-map">
       <iframe id="GoogleMapID" title="Google Maps iframe" src="https://sfdc-map.surge.sh/"></iframe>
     </div>
+
   </div>
+
   <div class="slds-coordinates">
     <div class="slds-coordinates__header">
       <h2 class="slds-coordinates__title">Salesforce locations in United States (9)</h2>
     </div>
+
     <ul class="slds-coordinates__list">
       <li class="slds-coordinates__item">
         <span class="slds-assistive-text" aria-live="polite"></span>
@@ -171,6 +174,7 @@ SLDS 1 blueprint examples for **Map**.
       </li>
     </ul>
   </div>
+
 </div>
 :::
 
@@ -180,11 +184,14 @@ SLDS 1 blueprint examples for **Map**.
     <div class="slds-map">
       <iframe id="GoogleMapID" title="Google Maps iframe" src="https://sfdc-map.surge.sh/"></iframe>
     </div>
+
   </div>
+
   <div class="slds-coordinates">
     <div class="slds-coordinates__header">
       <h2 class="slds-coordinates__title">Salesforce locations in United States (9)</h2>
     </div>
+
     <ul class="slds-coordinates__list">
       <li class="slds-coordinates__item">
         <span class="slds-assistive-text" aria-live="polite">Worldwide Corporate Headquarters is currently selected</span>
@@ -341,6 +348,7 @@ SLDS 1 blueprint examples for **Map**.
       </li>
     </ul>
   </div>
+
 </div>
 :::
 
@@ -350,11 +358,14 @@ SLDS 1 blueprint examples for **Map**.
     <div class="slds-map">
       <iframe id="GoogleMapID" title="Google Maps iframe" src="https://sfdc-map.surge.sh/"></iframe>
     </div>
+
   </div>
+
   <div class="slds-coordinates">
     <div class="slds-coordinates__header">
       <h2 class="slds-coordinates__title">Salesforce locations in United States (9)</h2>
     </div>
+
     <ul class="slds-coordinates__list">
       <li class="slds-coordinates__item">
         <span class="slds-assistive-text" aria-live="polite"></span>
@@ -511,6 +522,7 @@ SLDS 1 blueprint examples for **Map**.
       </li>
     </ul>
   </div>
+
 </div>
 :::
 
@@ -526,21 +538,29 @@ SLDS 1 blueprint examples for **Map**.
     <div class="slds-modal__header">
       <h1 id="modal-heading-id-01" class="slds-text-heading_medium slds-hyphenate">Geo Code: 37°48&#x27;08.3&quot;N 122°15&#x27;55.2W</h1>
     </div>
+
     <div class="slds-modal__content" id="modal-content-id-01">
       <div class="slds-grid">
         <div class="slds-map_container">
           <div class="slds-map">
             <iframe id="GoogleMapID" title="Google Maps iframe" src="https://sfdc-map.surge.sh/"></iframe>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-modal__footer">
       <button class="slds-button slds-button_brand">Open in Google Maps</button>
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="In Modal - Multiple Coordinates With Footer"
@@ -555,17 +575,21 @@ SLDS 1 blueprint examples for **Map**.
     <div class="slds-modal__header">
       <h1 id="modal-heading-id-01" class="slds-text-heading_medium slds-hyphenate">Salesforce locations in United States (9)</h1>
     </div>
+
     <div class="slds-modal__content" id="modal-content-id-01">
       <div class="slds-grid slds-has-coordinates">
         <div class="slds-map_container">
           <div class="slds-map">
             <iframe id="GoogleMapID" title="Google Maps iframe" src="https://sfdc-map.surge.sh/"></iframe>
           </div>
+
         </div>
+
         <div class="slds-coordinates">
           <div class="slds-coordinates__header">
             <h2 class="slds-coordinates__title">Salesforce locations in United States (9)</h2>
           </div>
+
           <ul class="slds-coordinates__list">
             <li class="slds-coordinates__item">
               <span class="slds-assistive-text" aria-live="polite"></span>
@@ -722,12 +746,18 @@ SLDS 1 blueprint examples for **Map**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-modal__footer">
       <button class="slds-button slds-button_brand">Open in Google Maps</button>
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::

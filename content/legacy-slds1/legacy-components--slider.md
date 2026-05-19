@@ -17,7 +17,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-2" class="slds-slider__range" value="50" />
       <span class="slds-slider__value" aria-hidden="true">50</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -34,7 +36,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-3" class="slds-slider__range" disabled="" value="50" />
       <span class="slds-slider__value" aria-hidden="true">50</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -51,7 +55,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-3" class="slds-slider__range" value="0" />
       <span class="slds-slider__value" aria-hidden="true">0</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -68,7 +74,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-3" class="slds-slider__range" value="25" />
       <span class="slds-slider__value" aria-hidden="true">25</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -85,7 +93,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-3" class="slds-slider__range" value="50" />
       <span class="slds-slider__value" aria-hidden="true">50</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -102,7 +112,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-3" class="slds-slider__range" value="75" />
       <span class="slds-slider__value" aria-hidden="true">75</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -119,7 +131,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-3" class="slds-slider__range" value="100" />
       <span class="slds-slider__value" aria-hidden="true">100</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -136,7 +150,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-4" class="slds-slider__range" min="0" max="400" value="200" />
       <span class="slds-slider__value" aria-hidden="true">200</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -153,7 +169,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-4" class="slds-slider__range" min="0" max="400" step="100" value="200" />
       <span class="slds-slider__value" aria-hidden="true">200</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -170,7 +188,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-4" class="slds-slider__range" value="50" />
       <span class="slds-slider__value" aria-hidden="true">50</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -187,7 +207,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-4" class="slds-slider__range" value="50" />
       <span class="slds-slider__value" aria-hidden="true">50</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -204,7 +226,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-4" class="slds-slider__range" value="50" />
       <span class="slds-slider__value" aria-hidden="true">50</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -221,7 +245,9 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-4" class="slds-slider__range" value="50" />
       <span class="slds-slider__value" aria-hidden="true">50</span>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -238,8 +264,11 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" aria-describedby="error-message-id-1" id="slider-id-4" class="slds-slider__range" value="50" />
       <span class="slds-slider__value" aria-hidden="true">50</span>
     </div>
+
     <div id="error-message-id-1" class="slds-form-element__help">There is a problem with this field</div>
+
   </div>
+
 </div>
 :::
 
@@ -256,6 +285,8 @@ SLDS 1 blueprint examples for **Slider**.
       <input type="range" id="slider-id-4" class="slds-slider__range" value="50" />
       <span class="slds-slider__value" aria-hidden="true">50</span>
     </div>
+
   </div>
+
 </div>
 :::

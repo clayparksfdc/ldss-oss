@@ -40,7 +40,9 @@ SLDS 1 blueprint examples for **Radio Button Group**.
         </label>
       </span>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -80,7 +82,9 @@ SLDS 1 blueprint examples for **Radio Button Group**.
         </label>
       </span>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -121,7 +125,9 @@ SLDS 1 blueprint examples for **Radio Button Group**.
         </label>
       </span>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -162,7 +168,10 @@ SLDS 1 blueprint examples for **Radio Button Group**.
         </label>
       </span>
     </div>
+
     <div id="error-unique-id-142" class="slds-form-element__help">This field is required</div>
+
   </div>
+
 </fieldset>
 :::

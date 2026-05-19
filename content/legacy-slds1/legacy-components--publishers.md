@@ -30,6 +30,7 @@ SLDS 1 blueprint examples for **Publishers**.
     </ul>
     <button class="slds-button slds-button_brand">Share</button>
   </div>
+
 </div>
 :::
 
@@ -59,6 +60,7 @@ SLDS 1 blueprint examples for **Publishers**.
     </ul>
     <button class="slds-button slds-button_brand">Share</button>
   </div>
+
 </div>
 :::
 
@@ -69,6 +71,7 @@ SLDS 1 blueprint examples for **Publishers**.
       <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
     </a>
   </div>
+
   <div class="slds-media__body">
     <div class="slds-publisher slds-publisher_comment">
       <label for="comment-text-input-01" class="slds-assistive-text">Write a comment</label>
@@ -94,8 +97,11 @@ SLDS 1 blueprint examples for **Publishers**.
         </ul>
         <button class="slds-button slds-button_brand">Comment</button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -106,6 +112,7 @@ SLDS 1 blueprint examples for **Publishers**.
       <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
     </a>
   </div>
+
   <div class="slds-media__body">
     <div class="slds-publisher slds-publisher_comment slds-is-active">
       <label for="comment-text-input-01" class="slds-assistive-text">Write a comment</label>
@@ -131,8 +138,11 @@ SLDS 1 blueprint examples for **Publishers**.
         </ul>
         <button class="slds-button slds-button_brand">Comment</button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -143,6 +153,7 @@ SLDS 1 blueprint examples for **Publishers**.
       <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
     </a>
   </div>
+
   <div class="slds-media__body">
     <div class="slds-publisher slds-publisher_comment slds-has-focus">
       <label for="comment-text-input-01" class="slds-assistive-text">Write a comment</label>
@@ -168,7 +179,10 @@ SLDS 1 blueprint examples for **Publishers**.
         </ul>
         <button class="slds-button slds-button_brand">Comment</button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::

@@ -119,7 +119,7 @@ On macOS, the **Ctrl + Up** and **Ctrl + Down** shortcuts are used for **Mission
 
 ### Scrolling
 
-When using a multi-select variant, most browsers show a scrolling list box instead of a single-line dropdown. Alternatively, use the [dual listbox](/components/dual-listbox) to move options between two lists and reorder the list options.
+When using a multi-select variant, most browsers show a scrolling list box instead of a single-line dropdown. Alternatively, use the [dual listbox](/component/dual-listbox) to move options between two lists and reorder the list options.
 
 Select components can set a maximum height; scrolling helps users see all options without the menu getting too long. If there are more options than can fit in the visible space, a scrollbar appears so users can scroll with a mouse, trackpad, keyboard, or touch. If someone navigates with the keyboard, the menu automatically scrolls to keep the highlighted option in view.
 

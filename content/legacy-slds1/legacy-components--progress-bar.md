@@ -10,6 +10,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 25%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="0% complete"
@@ -18,6 +19,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 0%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="25% complete"
@@ -26,6 +28,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 25%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="50% complete"
@@ -34,6 +37,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 50%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="75% complete"
@@ -42,6 +46,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 75%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="100% complete"
@@ -50,6 +55,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 100%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="Success Color"
@@ -58,6 +64,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 100%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="Descriptive Progress Bar"
@@ -68,11 +75,13 @@ SLDS 1 blueprint examples for **Progress Bar**.
       <strong>25% Complete</strong>
     </span>
   </div>
+
   <div class="slds-progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" aria-labelledby="progress-bar-label-id-6" aria-label="{{Placeholder for description of progress bar}}" role="progressbar">
     <span class="slds-progress-bar__value" style="width:25%">
       <span class="slds-assistive-text" id="progress-bar-label-id-6">Progress: 25%</span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -82,6 +91,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 25%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="0% complete"
@@ -90,6 +100,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 0%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="25% complete"
@@ -98,6 +109,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 25%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="50% complete"
@@ -106,6 +118,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 50%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="75% complete"
@@ -114,6 +127,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 75%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="100% complete"
@@ -122,6 +136,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 100%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="Radius"
@@ -130,6 +145,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 75%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="Example 16"
@@ -138,6 +154,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 75%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="Example 17"
@@ -146,6 +163,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 75%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="Example 18"
@@ -154,6 +172,7 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 75%</span>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="Example 19"
@@ -162,4 +181,5 @@ SLDS 1 blueprint examples for **Progress Bar**.
     <span class="slds-assistive-text">Progress: 75%</span>
   </span>
 </div>
+
 :::

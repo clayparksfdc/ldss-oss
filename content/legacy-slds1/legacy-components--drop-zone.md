@@ -7,6 +7,7 @@ SLDS 1 blueprint examples for **Drop Zone**.
 ::: legacy-component-example title="Base Drop Zone"
 <div class="slds-drop-zone">
   <div class="demo-only demo-component" style="width:100%;height:10rem"></div>
+
 </div>
 :::
 
@@ -22,25 +23,35 @@ SLDS 1 blueprint examples for **Drop Zone**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2>Content</h2>
         </div>
+
       </div>
+
     </div>
+
     <div class="demo-only demo-component" style="width:100%;height:10rem"></div>
+
     <div class="slds-drop-zone_drag__slot"></div>
+
     <div class="demo-only demo-component" style="width:100%;height:10rem"></div>
+
   </div>
+
 </div>
 :::
 
 ::: legacy-component-example title="Insertion Point"
 <div class="slds-drop-zone_drag__slot"></div>
+
 :::
 
 ::: legacy-component-example title="Drop Zone Container"
 <div class="slds-drop-zone">
   <div class="demo-only demo-component" style="width:100%;height:10rem"></div>
+
   <div class="slds-drop-zone__container slds-is-hovered" tabindex="-1">
     <div class="slds-drop-zone__label slds-drop-zone__label_container">
       <div class="slds-media slds-media_center">
@@ -51,6 +62,7 @@ SLDS 1 blueprint examples for **Drop Zone**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2>
             <button class="slds-drop-zone__label_button slds-button_reset">
@@ -59,9 +71,13 @@ SLDS 1 blueprint examples for **Drop Zone**.
             </button>
           </h2>
         </div>
+
       </div>
+
     </div>
+
     <div class="demo-only demo-component" style="width:100%;height:10rem"></div>
+
     <div class="slds-drop-zone__actions">
       <div class="slds-button-group" role="group">
         <button class="slds-button slds-button_icon slds-button_icon-brand slds-button_icon-x-small" title="Move">
@@ -77,8 +93,11 @@ SLDS 1 blueprint examples for **Drop Zone**.
           <span class="slds-assistive-text">Close</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -95,6 +114,7 @@ SLDS 1 blueprint examples for **Drop Zone**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2>
               <button class="slds-drop-zone__label_button slds-button_reset">
@@ -103,8 +123,11 @@ SLDS 1 blueprint examples for **Drop Zone**.
               </button>
             </h2>
           </div>
+
         </div>
+
       </div>
+
       <article class="slds-card slds-m-bottom_small">
         <div class="slds-card__header slds-grid">
           <header class="slds-media slds-media_center slds-has-flexi-truncate">
@@ -116,6 +139,7 @@ SLDS 1 blueprint examples for **Drop Zone**.
                 <span class="slds-assistive-text">account</span>
               </span>
             </div>
+
             <div class="slds-media__body">
               <h2 class="slds-card__header-title">
                 <span class="slds-truncate" title="Accounts">
@@ -123,9 +147,12 @@ SLDS 1 blueprint examples for **Drop Zone**.
                 </span>
               </h2>
             </div>
+
           </header>
         </div>
+
         <div class="slds-card__body slds-card__body_inner">Card Body</div>
+
         <footer class="slds-card__footer">
           <a class="slds-card__footer-action" href="#" tabindex="-1">View All
             <span class="slds-assistive-text">Accounts</span>
@@ -147,8 +174,11 @@ SLDS 1 blueprint examples for **Drop Zone**.
             <span class="slds-assistive-text">Close</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-drop-zone__container" tabindex="-1">
       <div class="slds-drop-zone__label slds-drop-zone__label_container">
         <div class="slds-media slds-media_center">
@@ -159,6 +189,7 @@ SLDS 1 blueprint examples for **Drop Zone**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2>
               <button class="slds-drop-zone__label_button slds-button_reset">
@@ -167,8 +198,11 @@ SLDS 1 blueprint examples for **Drop Zone**.
               </button>
             </h2>
           </div>
+
         </div>
+
       </div>
+
       <article class="slds-card slds-m-top_small">
         <div class="slds-card__header slds-grid">
           <header class="slds-media slds-media_center slds-has-flexi-truncate">
@@ -180,6 +214,7 @@ SLDS 1 blueprint examples for **Drop Zone**.
                 <span class="slds-assistive-text">account</span>
               </span>
             </div>
+
             <div class="slds-media__body">
               <h2 class="slds-card__header-title">
                 <span class="slds-truncate" title="Accounts">
@@ -187,9 +222,12 @@ SLDS 1 blueprint examples for **Drop Zone**.
                 </span>
               </h2>
             </div>
+
           </header>
         </div>
+
         <div class="slds-card__body slds-card__body_inner">Card Body</div>
+
         <footer class="slds-card__footer">
           <a class="slds-card__footer-action" href="#" tabindex="-1">View All
             <span class="slds-assistive-text">Accounts</span>
@@ -211,9 +249,13 @@ SLDS 1 blueprint examples for **Drop Zone**.
             <span class="slds-assistive-text">Close</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -229,11 +271,15 @@ SLDS 1 blueprint examples for **Drop Zone**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2>Content</h2>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-drop-zone__container" tabindex="-1">
       <div class="slds-drop-zone__label slds-drop-zone__label_container">
         <div class="slds-media slds-media_center">
@@ -244,6 +290,7 @@ SLDS 1 blueprint examples for **Drop Zone**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2>
               <button class="slds-drop-zone__label_button slds-button_reset">
@@ -252,8 +299,11 @@ SLDS 1 blueprint examples for **Drop Zone**.
               </button>
             </h2>
           </div>
+
         </div>
+
       </div>
+
       <article class="slds-card slds-m-bottom_small">
         <div class="slds-card__header slds-grid">
           <header class="slds-media slds-media_center slds-has-flexi-truncate">
@@ -265,6 +315,7 @@ SLDS 1 blueprint examples for **Drop Zone**.
                 <span class="slds-assistive-text">account</span>
               </span>
             </div>
+
             <div class="slds-media__body">
               <h2 class="slds-card__header-title">
                 <span class="slds-truncate" title="Accounts">
@@ -272,9 +323,12 @@ SLDS 1 blueprint examples for **Drop Zone**.
                 </span>
               </h2>
             </div>
+
           </header>
         </div>
+
         <div class="slds-card__body slds-card__body_inner">Card Body</div>
+
         <footer class="slds-card__footer">
           <a class="slds-card__footer-action" href="#" tabindex="-1">View All
             <span class="slds-assistive-text">Accounts</span>
@@ -296,9 +350,13 @@ SLDS 1 blueprint examples for **Drop Zone**.
             <span class="slds-assistive-text">Close</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-drop-zone_drag__slot"></div>
+
     <div class="slds-drop-zone__container" tabindex="-1">
       <div class="slds-drop-zone__label slds-drop-zone__label_container">
         <div class="slds-media slds-media_center">
@@ -309,6 +367,7 @@ SLDS 1 blueprint examples for **Drop Zone**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2>
               <button class="slds-drop-zone__label_button slds-button_reset">
@@ -317,8 +376,11 @@ SLDS 1 blueprint examples for **Drop Zone**.
               </button>
             </h2>
           </div>
+
         </div>
+
       </div>
+
       <article class="slds-card slds-m-top_small">
         <div class="slds-card__header slds-grid">
           <header class="slds-media slds-media_center slds-has-flexi-truncate">
@@ -330,6 +392,7 @@ SLDS 1 blueprint examples for **Drop Zone**.
                 <span class="slds-assistive-text">account</span>
               </span>
             </div>
+
             <div class="slds-media__body">
               <h2 class="slds-card__header-title">
                 <span class="slds-truncate" title="Accounts">
@@ -337,9 +400,12 @@ SLDS 1 blueprint examples for **Drop Zone**.
                 </span>
               </h2>
             </div>
+
           </header>
         </div>
+
         <div class="slds-card__body slds-card__body_inner">Card Body</div>
+
         <footer class="slds-card__footer">
           <a class="slds-card__footer-action" href="#" tabindex="-1">View All
             <span class="slds-assistive-text">Accounts</span>
@@ -361,8 +427,12 @@ SLDS 1 blueprint examples for **Drop Zone**.
             <span class="slds-assistive-text">Close</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::

@@ -20,9 +20,13 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
             <h3 class="slds-dynamic-menu__header slds-m-bottom_x-small" role="presentation">My Favorites</h3>
             <p>You can favorite any page!</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <ul>
         <li>
@@ -41,6 +45,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="With 1 item"
@@ -61,6 +66,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                 <div id="option51" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_center" role="presentation">
                   <h3 class="slds-listbox__option-header" role="presentation">My Favorites</h3>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div id="option52" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option" tabindex="0">
@@ -76,12 +82,17 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                     <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Burlington, NC</span>
                   </span>
                 </div>
+
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <ul>
         <li>
@@ -100,6 +111,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="With fewer than 10 items"
@@ -120,6 +132,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                 <div id="option59" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_center" role="presentation">
                   <h3 class="slds-listbox__option-header" role="presentation">My Favorites</h3>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div id="option60" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option" tabindex="0">
@@ -135,6 +148,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                     <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Burlington, NC</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div id="option61" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -150,6 +164,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                     <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Lawrence, KS</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div id="option62" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -165,6 +180,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                     <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Austin, TX</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div id="option63" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -180,6 +196,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                     <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Portland, OR</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div id="option64" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -195,12 +212,17 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                     <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Mountain View, CA</span>
                   </span>
                 </div>
+
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <ul>
         <li>
@@ -219,6 +241,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
     </footer>
   </section>
 </div>
+
 :::
 
 ::: legacy-component-example title="With greater than 10 items"
@@ -247,12 +270,14 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                       </svg>
                     </span>
                   </div>
+
                   <div id="example-unique-id-24" class="slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                     <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="My Favorites">
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option73" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_center" role="presentation">
                           <h3 class="slds-listbox__option-header" role="presentation">My Favorites</h3>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option74" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option" tabindex="0">
@@ -268,6 +293,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                             <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Burlington, NC</span>
                           </span>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option75" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -283,6 +309,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                             <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Lawrence, KS</span>
                           </span>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option76" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -298,6 +325,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                             <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Austin, TX</span>
                           </span>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option77" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -313,6 +341,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                             <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Portland, OR</span>
                           </span>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option78" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -328,6 +357,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                             <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Mountain View, CA</span>
                           </span>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option79" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -343,6 +373,7 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                             <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Chicago, IL</span>
                           </span>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option80" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -358,16 +389,25 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
                             <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Paris</span>
                           </span>
                         </div>
+
                       </li>
                     </ul>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <footer class="slds-popover__footer">
       <ul>
         <li>
@@ -386,4 +426,5 @@ SLDS 1 blueprint examples for **Dynamic Menu**.
     </footer>
   </section>
 </div>
+
 :::

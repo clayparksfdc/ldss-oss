@@ -222,7 +222,7 @@ Content in columns, including column headers, can either wrap to show all text o
 
 ### Infinite Scrolling
 
-Rows load dynamically in batches as users scroll, reducing initial page load time. A [spinner](/components/spinners) is shown when data is being fetched.
+Rows load dynamically in batches as users scroll, reducing initial page load time. A [spinner](/component/spinners) is shown when data is being fetched.
 
 ### Single Column Sorting
 

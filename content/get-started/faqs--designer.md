@@ -28,7 +28,7 @@ SLDS 2 provides various design assets and tools, including:
 * **Icons:** A comprehensive set of icons specifically designed for Salesforce applications.
 * **Styling Hooks:** CSS Variables representing common design attributes (colors, typography, spacing), making it easy to maintain and apply themes across designs.
 
-Find all assets and tools at [Designer Tools](/design/designer-tools).
+Find all assets and tools at [Designer Tools](/tools/designer-tools).
 
 ### How do styling hooks appear in Figma?
 

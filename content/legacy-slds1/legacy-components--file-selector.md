@@ -19,8 +19,11 @@ SLDS 1 blueprint examples for **File Selector**.
           <span class="slds-file-selector__text slds-medium-show">or Drop Files</span>
         </label>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -39,9 +42,13 @@ SLDS 1 blueprint examples for **File Selector**.
           <span class="slds-file-selector__text slds-medium-show">or Drop Files</span>
         </label>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-form-element__help" id="error-116">File type not supported</div>
+
 </div>
 :::
 
@@ -60,8 +67,11 @@ SLDS 1 blueprint examples for **File Selector**.
           <span class="slds-file-selector__text slds-medium-show">or Drop Files</span>
         </label>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -80,9 +90,13 @@ SLDS 1 blueprint examples for **File Selector**.
           <span class="slds-file-selector__text slds-medium-show">or Drop Files</span>
         </label>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-form-element__help" id="error-132">File type not supported</div>
+
 </div>
 :::
 
@@ -101,8 +115,11 @@ SLDS 1 blueprint examples for **File Selector**.
           <span class="slds-file-selector__text slds-medium-show">or Drop Image</span>
         </label>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -121,9 +138,13 @@ SLDS 1 blueprint examples for **File Selector**.
           <span class="slds-file-selector__text slds-medium-show">or Drop Image</span>
         </label>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-form-element__help" id="error-148">File type not supported</div>
+
 </div>
 :::
 
@@ -142,8 +163,11 @@ SLDS 1 blueprint examples for **File Selector**.
           <span class="slds-file-selector__text slds-medium-show">or Drop Image</span>
         </label>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -162,9 +186,13 @@ SLDS 1 blueprint examples for **File Selector**.
           <span class="slds-file-selector__text slds-medium-show">or Drop Image</span>
         </label>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-form-element__help" id="error-164">File type not supported</div>
+
 </div>
 :::
 
@@ -180,6 +208,7 @@ SLDS 1 blueprint examples for **File Selector**.
     </label>
   </div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
   dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
 :::
 
 ::: legacy-component-example title="Drag"
@@ -194,6 +223,7 @@ SLDS 1 blueprint examples for **File Selector**.
     </label>
   </div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
   dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
 :::
 
 ::: legacy-component-example title="Dragover"
@@ -208,6 +238,7 @@ SLDS 1 blueprint examples for **File Selector**.
     </label>
   </div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
   dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
 :::
 
 ::: legacy-component-example title="Dragover with error"
@@ -222,4 +253,5 @@ SLDS 1 blueprint examples for **File Selector**.
     </label>
   </div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
   dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
 :::

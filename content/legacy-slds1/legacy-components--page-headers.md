@@ -17,6 +17,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             <span class="slds-assistive-text">opportunity</span>
           </span>
         </div>
+
         <div class="slds-media__body">
           <div class="slds-page-header__name">
             <div class="slds-page-header__name-title">
@@ -24,12 +25,18 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-page-header__title slds-truncate" title="Rohde Corp - 80,000 Widgets">Rohde Corp - 80,000 Widgets</span>
               </h1>
             </div>
+
           </div>
+
           <p class="slds-page-header__name-meta">Mark Jaeckal • Unlimited Customer • 11/13/15</p>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -45,6 +52,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <div class="slds-page-header__name">
             <div class="slds-page-header__name-title">
@@ -53,6 +61,7 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-page-header__title slds-truncate" title="Recently Viewed">Recently Viewed</span>
               </h1>
             </div>
+
             <div class="slds-page-header__name-switcher slds-is-relative">
               <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
                 <button class="slds-button slds-button_icon slds-button_icon-small" aria-haspopup="true" title="Switch list view">
@@ -62,14 +71,22 @@ SLDS 1 blueprint examples for **Page Headers**.
                   <span class="slds-assistive-text">Switch list view</span>
                 </button>
               </div>
+
               <div class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left slds-fall-into-ground" role="tooltip" id="dropdown-label" style="position:absolute;left:-12px;top:-48px;width:190px">
                 <div class="slds-popover__body">Some helpful information.</div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-page-header__col-actions">
       <div class="slds-page-header__controls">
         <div class="slds-page-header__control">
@@ -86,16 +103,22 @@ SLDS 1 blueprint examples for **Page Headers**.
                   <span class="slds-assistive-text">More Actions</span>
                 </button>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-page-header__row">
     <div class="slds-page-header__col-meta">
       <p class="slds-page-header__meta-text">10 items • Updated 13 minutes ago</p>
     </div>
+
     <div class="slds-page-header__col-controls">
       <div class="slds-page-header__controls">
         <div class="slds-page-header__control">
@@ -110,7 +133,9 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">List View Controls</span>
             </button>
           </div>
+
         </div>
+
         <div class="slds-page-header__control">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
             <button class="slds-button slds-button_icon slds-button_icon-more" aria-haspopup="true" aria-expanded="false" title="Change view">
@@ -123,7 +148,9 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">Change view</span>
             </button>
           </div>
+
         </div>
+
         <div class="slds-page-header__control">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Edit List">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -132,6 +159,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             <span class="slds-assistive-text">Edit List</span>
           </button>
         </div>
+
         <div class="slds-page-header__control">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Refresh List">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -140,6 +168,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             <span class="slds-assistive-text">Refresh List</span>
           </button>
         </div>
+
         <div class="slds-page-header__control">
           <ul class="slds-button-group-list">
             <li>
@@ -160,9 +189,13 @@ SLDS 1 blueprint examples for **Page Headers**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -178,6 +211,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <div class="slds-page-header__name">
             <div class="slds-page-header__name-title">
@@ -186,6 +220,7 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-page-header__title slds-truncate" title="Recently Viewed listssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss">Recently Viewed listssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</span>
               </h1>
             </div>
+
             <div class="slds-page-header__name-switcher slds-is-relative">
               <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
                 <button class="slds-button slds-button_icon slds-button_icon-small" aria-haspopup="true" title="Switch list view">
@@ -195,14 +230,22 @@ SLDS 1 blueprint examples for **Page Headers**.
                   <span class="slds-assistive-text">Switch list view</span>
                 </button>
               </div>
+
               <div class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left slds-fall-into-ground" role="tooltip" id="dropdown-label" style="position:absolute;left:-12px;top:-48px;width:190px">
                 <div class="slds-popover__body">Some helpful information.</div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-page-header__col-actions">
       <div class="slds-page-header__controls">
         <div class="slds-page-header__control">
@@ -220,13 +263,18 @@ SLDS 1 blueprint examples for **Page Headers**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-page-header__row">
     <div class="slds-page-header__col-meta">
       <p class="slds-page-header__meta-text">10 items • Updated 13 minutes ago</p>
     </div>
+
     <div class="slds-page-header__col-controls">
       <div class="slds-page-header__controls">
         <div class="slds-page-header__control">
@@ -241,7 +289,9 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">List View Controls</span>
             </button>
           </div>
+
         </div>
+
         <div class="slds-page-header__control">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
             <button class="slds-button slds-button_icon slds-button_icon-more" aria-haspopup="true" aria-expanded="false" title="Change view">
@@ -254,7 +304,9 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">Change view</span>
             </button>
           </div>
+
         </div>
+
         <div class="slds-page-header__control">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Edit List">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -263,6 +315,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             <span class="slds-assistive-text">Edit List</span>
           </button>
         </div>
+
         <div class="slds-page-header__control">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Refresh List">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -271,6 +324,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             <span class="slds-assistive-text">Refresh List</span>
           </button>
         </div>
+
         <div class="slds-page-header__control">
           <ul class="slds-button-group-list">
             <li>
@@ -291,9 +345,13 @@ SLDS 1 blueprint examples for **Page Headers**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -309,6 +367,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <div class="slds-page-header__name">
             <div class="slds-page-header__name-title">
@@ -317,6 +376,7 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-page-header__title slds-truncate" title="Recently Viewed">Recently Viewed</span>
               </h1>
             </div>
+
             <div class="slds-page-header__name-switcher slds-is-relative">
               <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
                 <button class="slds-button slds-button_icon slds-button_icon-small" aria-haspopup="true" title="Switch list view">
@@ -326,14 +386,22 @@ SLDS 1 blueprint examples for **Page Headers**.
                   <span class="slds-assistive-text">Switch list view</span>
                 </button>
               </div>
+
               <div class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left" role="tooltip" id="dropdown-label" style="position:absolute;left:-12px;top:-48px;width:190px">
                 <div class="slds-popover__body">Change View for the account</div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-page-header__col-actions">
       <div class="slds-page-header__controls">
         <div class="slds-page-header__control">
@@ -350,16 +418,22 @@ SLDS 1 blueprint examples for **Page Headers**.
                   <span class="slds-assistive-text">More Actions</span>
                 </button>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-page-header__row">
     <div class="slds-page-header__col-meta">
       <p class="slds-page-header__meta-text">10 items • Updated 13 minutes ago</p>
     </div>
+
     <div class="slds-page-header__col-controls">
       <div class="slds-page-header__controls">
         <div class="slds-page-header__control">
@@ -374,7 +448,9 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">List View Controls</span>
             </button>
           </div>
+
         </div>
+
         <div class="slds-page-header__control">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
             <button class="slds-button slds-button_icon slds-button_icon-more" aria-haspopup="true" aria-expanded="false" title="Change view">
@@ -387,7 +463,9 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">Change view</span>
             </button>
           </div>
+
         </div>
+
         <div class="slds-page-header__control">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Edit List">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -396,6 +474,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             <span class="slds-assistive-text">Edit List</span>
           </button>
         </div>
+
         <div class="slds-page-header__control">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Refresh List">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -404,6 +483,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             <span class="slds-assistive-text">Refresh List</span>
           </button>
         </div>
+
         <div class="slds-page-header__control">
           <ul class="slds-button-group-list">
             <li>
@@ -424,9 +504,13 @@ SLDS 1 blueprint examples for **Page Headers**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -443,6 +527,7 @@ SLDS 1 blueprint examples for **Page Headers**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-page-header__name">
               <div class="slds-page-header__name-title">
@@ -451,6 +536,7 @@ SLDS 1 blueprint examples for **Page Headers**.
                   <span class="slds-page-header__title slds-truncate" title="Recently Viewed">Recently Viewed</span>
                 </h1>
               </div>
+
               <div class="slds-page-header__name-switcher slds-is-relative">
                 <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
                   <button class="slds-button slds-button_icon slds-button_icon-small" aria-haspopup="true" title="Switch list view">
@@ -460,14 +546,22 @@ SLDS 1 blueprint examples for **Page Headers**.
                     <span class="slds-assistive-text">Switch list view</span>
                   </button>
                 </div>
+
                 <div class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left slds-fall-into-ground" role="tooltip" id="dropdown-label" style="position:absolute;left:-12px;top:-48px;width:190px">
                   <div class="slds-popover__body">Some helpful information.</div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-page-header__col-actions">
         <div class="slds-page-header__controls">
           <div class="slds-page-header__control">
@@ -484,16 +578,22 @@ SLDS 1 blueprint examples for **Page Headers**.
                     <span class="slds-assistive-text">More Actions</span>
                   </button>
                 </div>
+
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-page-header__row">
       <div class="slds-page-header__col-meta">
         <p class="slds-page-header__meta-text">10 items • Updated 13 minutes ago</p>
       </div>
+
       <div class="slds-page-header__col-controls">
         <div class="slds-page-header__controls">
           <div class="slds-page-header__control">
@@ -508,7 +608,9 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-assistive-text">List View Controls</span>
               </button>
             </div>
+
           </div>
+
           <div class="slds-page-header__control">
             <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
               <button class="slds-button slds-button_icon slds-button_icon-more" aria-haspopup="true" aria-expanded="false" title="Change view">
@@ -521,7 +623,9 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-assistive-text">Change view</span>
               </button>
             </div>
+
           </div>
+
           <div class="slds-page-header__control">
             <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Edit List">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -530,6 +634,7 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">Edit List</span>
             </button>
           </div>
+
           <div class="slds-page-header__control">
             <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Refresh List">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -538,6 +643,7 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">Refresh List</span>
             </button>
           </div>
+
           <div class="slds-page-header__control">
             <ul class="slds-button-group-list">
               <li>
@@ -558,10 +664,15 @@ SLDS 1 blueprint examples for **Page Headers**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </article>
 :::
 
@@ -578,6 +689,7 @@ SLDS 1 blueprint examples for **Page Headers**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-page-header__name">
               <div class="slds-page-header__name-title">
@@ -586,6 +698,7 @@ SLDS 1 blueprint examples for **Page Headers**.
                   <span class="slds-page-header__title slds-truncate" title="Recently Viewed">Recently Viewed</span>
                 </h1>
               </div>
+
               <div class="slds-page-header__name-switcher slds-is-relative">
                 <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
                   <button class="slds-button slds-button_icon slds-button_icon-small" aria-haspopup="true" title="Switch list view">
@@ -595,14 +708,22 @@ SLDS 1 blueprint examples for **Page Headers**.
                     <span class="slds-assistive-text">Switch list view</span>
                   </button>
                 </div>
+
                 <div class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left slds-fall-into-ground" role="tooltip" id="dropdown-label" style="position:absolute;left:-12px;top:-48px;width:190px">
                   <div class="slds-popover__body">Some helpful information.</div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-page-header__col-actions">
         <div class="slds-page-header__controls">
           <div class="slds-page-header__control">
@@ -619,16 +740,22 @@ SLDS 1 blueprint examples for **Page Headers**.
                     <span class="slds-assistive-text">More Actions</span>
                   </button>
                 </div>
+
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-page-header__row">
       <div class="slds-page-header__col-meta">
         <p class="slds-page-header__meta-text">10 items • Updated 13 minutes ago</p>
       </div>
+
       <div class="slds-page-header__col-controls">
         <div class="slds-page-header__controls">
           <div class="slds-page-header__control">
@@ -643,7 +770,9 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-assistive-text">List View Controls</span>
               </button>
             </div>
+
           </div>
+
           <div class="slds-page-header__control">
             <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
               <button class="slds-button slds-button_icon slds-button_icon-more" aria-haspopup="true" aria-expanded="false" title="Change view">
@@ -656,7 +785,9 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-assistive-text">Change view</span>
               </button>
             </div>
+
           </div>
+
           <div class="slds-page-header__control">
             <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Edit List">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -665,6 +796,7 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">Edit List</span>
             </button>
           </div>
+
           <div class="slds-page-header__control">
             <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Refresh List">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -673,6 +805,7 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">Refresh List</span>
             </button>
           </div>
+
           <div class="slds-page-header__control">
             <ul class="slds-button-group-list">
               <li>
@@ -693,10 +826,15 @@ SLDS 1 blueprint examples for **Page Headers**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -712,6 +850,7 @@ SLDS 1 blueprint examples for **Page Headers**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <div class="slds-page-header__name">
             <div class="slds-page-header__name-title">
@@ -720,10 +859,15 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-page-header__title slds-truncate" title="Acme - 1,200 Widgets">Acme - 1,200 Widgets</span>
               </h1>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-page-header__col-actions">
       <div class="slds-page-header__controls">
         <div class="slds-page-header__control">
@@ -742,6 +886,7 @@ SLDS 1 blueprint examples for **Page Headers**.
               </svg>Unfollow</span>
           </button>
         </div>
+
         <div class="slds-page-header__control">
           <ul class="slds-button-group-list">
             <li>
@@ -762,18 +907,25 @@ SLDS 1 blueprint examples for **Page Headers**.
                   <span class="slds-assistive-text">More Actions</span>
                 </button>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-page-header__row slds-page-header__row_gutters">
     <div class="slds-page-header__col-details">
       <ul class="slds-page-header__detail-row">
         <li class="slds-page-header__detail-block">
           <div class="slds-text-title slds-truncate" title="Field 1">Field 1</div>
+
           <div class="slds-truncate" title="Description that demonstrates truncation with a long text field.">Description that demonstrates truncation with a long text field.</div>
+
         </li>
         <li class="slds-page-header__detail-block">
           <div class="slds-text-title slds-truncate" title="Field 2 (3)">Field 2 (3)
@@ -785,22 +937,31 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-assistive-text">More Actions</span>
               </button>
             </div>
+
           </div>
+
           <div class="slds-truncate" title="Multiple Values">Multiple Values</div>
+
         </li>
         <li class="slds-page-header__detail-block">
           <div class="slds-text-title slds-truncate" title="Field 3">Field 3</div>
+
           <div class="slds-truncate" title="Hyperlink">
             <a href="#">Hyperlink</a>
           </div>
+
         </li>
         <li class="slds-page-header__detail-block">
           <div class="slds-text-title slds-truncate" title="Field 4">Field 4</div>
+
           <div class="slds-truncate" title="Description (2-line truncation—must use JS to truncate).">Description (2-line truncati...</div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -816,6 +977,7 @@ SLDS 1 blueprint examples for **Page Headers**.
           <span class="slds-assistive-text">opportunity</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <div class="slds-page-header__name">
           <div class="slds-page-header__name-title">
@@ -823,9 +985,13 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-page-header__title slds-hyphenate" title="Burlington Textile Weaving Plant Generator">Burlington Textile Weaving Plant Generator</span>
             </h1>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-page-header__controls">
       <button class="slds-button slds-button_neutral slds-button_stateful slds-not-selected" aria-live="assertive" aria-pressed="false">
         <span class="slds-text-not-selected">
@@ -858,12 +1024,15 @@ SLDS 1 blueprint examples for **Page Headers**.
         </li>
       </ul>
     </div>
+
     <ul class="slds-page-header__detail-list">
       <li class="slds-page-header__detail-item">
         <div class="slds-text-title slds-truncate" title="Field 1">Account Name</div>
+
         <div title="Burlington Textile Weaving Plant Generator">
           <a href="#">Burlington Textile Weaving Plant Generator</a>
         </div>
+
       </li>
       <li class="slds-page-header__detail-item">
         <div class="slds-text-title slds-truncate" title="Address (2)">Address (2)
@@ -875,18 +1044,26 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">More Actions</span>
             </button>
           </div>
+
         </div>
+
         <div title="Multiple Values">
           <div>1 Market St</div>
+
           <div>San Francisco, CA 94105</div>
+
         </div>
+
       </li>
       <li class="slds-page-header__detail-item">
         <div class="slds-text-title slds-truncate" title="Close Date">Close Date</div>
+
         <div title="11/1/2018">11/1/2018</div>
+
       </li>
       <li class="slds-page-header__detail-item">
         <div class="slds-text-title slds-truncate" title="Opportunity Owner">Opportunity Owner</div>
+
         <div title="Hyperlink">
           <div class="slds-media slds-media_small">
             <div class="slds-media__figure">
@@ -894,18 +1071,25 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
               </span>
             </div>
+
             <div class="slds-media__body">
               <a href="#">Jeanette Gomez</a>
             </div>
+
           </div>
+
         </div>
+
       </li>
       <li class="slds-page-header__detail-item">
         <div class="slds-text-title slds-truncate" title="Amount">Amount</div>
+
         <div title="$375,000.00">$375,000.00</div>
+
       </li>
     </ul>
   </div>
+
 </div>
 :::
 
@@ -931,10 +1115,15 @@ SLDS 1 blueprint examples for **Page Headers**.
                 <span class="slds-page-header__title slds-truncate" title="Contacts (will truncate)">Contacts (will truncate)</span>
               </h1>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-page-header__col-actions">
       <div class="slds-page-header__controls">
         <div class="slds-page-header__control">
@@ -951,16 +1140,22 @@ SLDS 1 blueprint examples for **Page Headers**.
                   <span class="slds-assistive-text">More Actions</span>
                 </button>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-page-header__row">
     <div class="slds-page-header__col-meta">
       <p class="slds-page-header__meta-text">10 items • sorted by name</p>
     </div>
+
     <div class="slds-page-header__col-controls">
       <div class="slds-page-header__controls">
         <div class="slds-page-header__control">
@@ -975,7 +1170,9 @@ SLDS 1 blueprint examples for **Page Headers**.
               <span class="slds-assistive-text">Change view</span>
             </button>
           </div>
+
         </div>
+
         <div class="slds-page-header__control">
           <ul class="slds-button-group-list">
             <li>
@@ -1006,11 +1203,16 @@ SLDS 1 blueprint examples for **Page Headers**.
                   <span class="slds-assistive-text">Sort List</span>
                 </button>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::

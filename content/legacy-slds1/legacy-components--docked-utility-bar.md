@@ -54,10 +54,13 @@ SLDS 1 blueprint examples for **Docked Utility Bar**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 id="panel-heading-01">Call</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Close Panel">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -66,11 +69,16 @@ SLDS 1 blueprint examples for **Docked Utility Bar**.
           <span class="slds-assistive-text">Close Panel</span>
         </button>
       </div>
+
     </div>
+
     <div class="slds-utility-panel__body">
       <div class="slds-align_absolute-center">Utility Panel Body</div>
+
     </div>
+
   </div>
+
 </footer>
 :::
 
@@ -124,10 +132,13 @@ SLDS 1 blueprint examples for **Docked Utility Bar**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 id="panel-heading-01">Call</h2>
         </div>
+
       </div>
+
       <div class="slds-col_bump-left slds-shrink-none">
         <button class="slds-button slds-button_icon slds-button_icon" title="Close Panel">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -136,11 +147,16 @@ SLDS 1 blueprint examples for **Docked Utility Bar**.
           <span class="slds-assistive-text">Close Panel</span>
         </button>
       </div>
+
     </div>
+
     <div class="slds-utility-panel__body">
       <div class="slds-align_absolute-center">Utility Panel Body</div>
+
     </div>
+
   </div>
+
 </footer>
 :::
 

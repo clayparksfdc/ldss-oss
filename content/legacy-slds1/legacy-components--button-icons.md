@@ -238,6 +238,7 @@ SLDS 1 blueprint examples for **Button Icons**.
     <span class="slds-assistive-text">Settings</span>
   </button>
 </div>
+
 :::
 
 ::: legacy-component-example title="Example 23"
@@ -249,6 +250,7 @@ SLDS 1 blueprint examples for **Button Icons**.
     <span class="slds-assistive-text">More options</span>
   </button>
 </div>
+
 :::
 
 ::: legacy-component-example title="Example 24"
@@ -260,6 +262,7 @@ SLDS 1 blueprint examples for **Button Icons**.
     <span class="slds-assistive-text">More options</span>
   </button>
 </div>
+
 :::
 
 ::: legacy-component-example title="Example 25"
@@ -271,6 +274,7 @@ SLDS 1 blueprint examples for **Button Icons**.
     <span class="slds-assistive-text">More options</span>
   </button>
 </div>
+
 :::
 
 ::: legacy-component-example title="Example 26"
@@ -282,6 +286,7 @@ SLDS 1 blueprint examples for **Button Icons**.
     <span class="slds-assistive-text">More options</span>
   </button>
 </div>
+
 :::
 
 ::: legacy-component-example title="Example 27"
@@ -293,6 +298,7 @@ SLDS 1 blueprint examples for **Button Icons**.
     <span class="slds-assistive-text">More options</span>
   </button>
 </div>
+
 :::
 
 ::: legacy-component-example title="Example 28"

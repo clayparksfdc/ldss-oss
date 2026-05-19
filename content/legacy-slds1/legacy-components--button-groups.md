@@ -10,6 +10,7 @@ SLDS 1 blueprint examples for **Button Groups**.
   <button class="slds-button slds-button_neutral">Edit</button>
   <button class="slds-button slds-button_neutral">Save</button>
 </div>
+
 :::
 
 ::: legacy-component-example title="Disabled"
@@ -18,6 +19,7 @@ SLDS 1 blueprint examples for **Button Groups**.
   <button class="slds-button slds-button_neutral" disabled="">Edit</button>
   <button class="slds-button slds-button_neutral">Save</button>
 </div>
+
 :::
 
 ::: legacy-component-example title="With Overflow Menu"
@@ -33,6 +35,7 @@ SLDS 1 blueprint examples for **Button Groups**.
       <span class="slds-assistive-text">Show More</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -68,8 +71,11 @@ SLDS 1 blueprint examples for **Button Groups**.
           </li>
         </ul>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -86,6 +92,7 @@ SLDS 1 blueprint examples for **Button Groups**.
       <span class="slds-assistive-text">More Actions</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -96,6 +103,7 @@ SLDS 1 blueprint examples for **Button Groups**.
     <button class="slds-button slds-button_inverse">Edit</button>
     <button class="slds-button slds-button_inverse">Save</button>
   </div>
+
 </div>
 :::
 
@@ -106,6 +114,7 @@ SLDS 1 blueprint examples for **Button Groups**.
     <button class="slds-button slds-button_inverse" disabled="">Edit</button>
     <button class="slds-button slds-button_inverse">Save</button>
   </div>
+
 </div>
 :::
 
@@ -123,7 +132,9 @@ SLDS 1 blueprint examples for **Button Groups**.
         <span class="slds-assistive-text">More Actions</span>
       </button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -141,7 +152,9 @@ SLDS 1 blueprint examples for **Button Groups**.
         <span class="slds-assistive-text">More Actions</span>
       </button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -169,6 +182,7 @@ SLDS 1 blueprint examples for **Button Groups**.
     <span class="slds-assistive-text">More Actions</span>
   </button>
 </div>
+
 :::
 
 ::: legacy-component-example title="Disabled"
@@ -195,6 +209,7 @@ SLDS 1 blueprint examples for **Button Groups**.
     <span class="slds-assistive-text">More Actions</span>
   </button>
 </div>
+
 :::
 
 ::: legacy-component-example title="Selected"
@@ -221,6 +236,7 @@ SLDS 1 blueprint examples for **Button Groups**.
     <span class="slds-assistive-text">More Actions</span>
   </button>
 </div>
+
 :::
 
 ::: legacy-component-example title="With Overflow Menu"
@@ -234,6 +250,7 @@ SLDS 1 blueprint examples for **Button Groups**.
       <span class="slds-assistive-text">More Actions</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -242,15 +259,19 @@ SLDS 1 blueprint examples for **Button Groups**.
   <div>
     <button class="slds-button slds-button_neutral slds-button_first">First</button>
   </div>
+
   <div>
     <button class="slds-button slds-button_neutral slds-button_middle">Middle</button>
   </div>
+
   <div>
     <button class="slds-button slds-button_neutral slds-button_middle">Middle</button>
   </div>
+
   <div>
     <button class="slds-button slds-button_neutral slds-button_last">Last</button>
   </div>
+
 </div>
 :::
 
@@ -259,9 +280,11 @@ SLDS 1 blueprint examples for **Button Groups**.
   <div>
     <button class="slds-button slds-button_neutral slds-button_first">First</button>
   </div>
+
   <div>
     <button class="slds-button slds-button_neutral slds-button_last">Last</button>
   </div>
+
 </div>
 :::
 
@@ -275,6 +298,7 @@ SLDS 1 blueprint examples for **Button Groups**.
       <span class="slds-assistive-text">Charts</span>
     </button>
   </div>
+
   <div>
     <button class="slds-button slds-button_icon slds-button_middle slds-button_icon-border-filled" title="Filter List" aria-pressed="false">
       <svg class="slds-button__icon" aria-hidden="true">
@@ -283,6 +307,7 @@ SLDS 1 blueprint examples for **Button Groups**.
       <span class="slds-assistive-text">Filter List</span>
     </button>
   </div>
+
   <div>
     <button class="slds-button slds-button_icon slds-button_middle slds-button_icon-border-filled" title="Collaborate" aria-pressed="false">
       <svg class="slds-button__icon" aria-hidden="true">
@@ -291,6 +316,7 @@ SLDS 1 blueprint examples for **Button Groups**.
       <span class="slds-assistive-text">Collaborate</span>
     </button>
   </div>
+
   <div>
     <button class="slds-button slds-button_icon slds-button_last slds-button_icon-more" aria-haspopup="true" aria-expanded="false" title="More Actions">
       <svg class="slds-button__icon" aria-hidden="true">
@@ -302,6 +328,7 @@ SLDS 1 blueprint examples for **Button Groups**.
       <span class="slds-assistive-text">More Actions</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -315,6 +342,7 @@ SLDS 1 blueprint examples for **Button Groups**.
       <span class="slds-assistive-text">Charts</span>
     </button>
   </div>
+
   <div>
     <button class="slds-button slds-button_icon slds-button_last slds-button_icon-more" aria-haspopup="true" aria-expanded="false" title="More Actions">
       <svg class="slds-button__icon" aria-hidden="true">
@@ -326,6 +354,7 @@ SLDS 1 blueprint examples for **Button Groups**.
       <span class="slds-assistive-text">More Actions</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -371,6 +400,7 @@ SLDS 1 blueprint examples for **Button Groups**.
         <span class="slds-assistive-text">More options</span>
       </button>
     </div>
+
   </li>
   <li class="slds-button-group-item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_clicked">
@@ -384,6 +414,7 @@ SLDS 1 blueprint examples for **Button Groups**.
         <span class="slds-assistive-text">More options</span>
       </button>
     </div>
+
   </li>
   <li class="slds-button-group-item">
     <button class="slds-button slds-button_icon slds-button_icon-border-filled">
@@ -416,6 +447,7 @@ SLDS 1 blueprint examples for **Button Groups**.
         <span class="slds-assistive-text">Provide description of action</span>
       </button>
     </div>
+
   </li>
 </ul>
 :::

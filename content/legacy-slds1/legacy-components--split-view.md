@@ -24,7 +24,9 @@ SLDS 1 blueprint examples for **Split View**.
                 </svg>
                 <span class="slds-assistive-text">Leads</span>
               </div>
+
             </div>
+
             <div class="slds-media__body">
               <h1 class="slds-text-heading_small slds-text-color_default slds-p-right_x-small">
                 <button class="slds-button slds-button_reset slds-type-focus slds-truncate" aria-haspopup="true" title="">
@@ -37,8 +39,11 @@ SLDS 1 blueprint examples for **Split View**.
                 </button>
               </h1>
             </div>
+
           </div>
+
         </div>
+
         <div class="slds-no-flex slds-grid">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" aria-haspopup="true" title="More Actions">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -47,7 +52,9 @@ SLDS 1 blueprint examples for **Split View**.
             <span class="slds-assistive-text">More Actions</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-grid slds-grid_vertical-align-center">
         <p class="slds-text-body_small slds-text-color_weak">42 items • Updated just now</p>
         <div class="slds-no-flex slds-grid slds-col_bump-left">
@@ -62,6 +69,7 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-assistive-text">Display As Split View</span>
             </button>
           </div>
+
           <div class="slds-button-group">
             <button class="slds-button slds-button_icon slds-button_icon slds-button_icon-container" title="Refresh List">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -70,8 +78,11 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-assistive-text">Refresh List</span>
             </button>
           </div>
+
         </div>
+
       </div>
+
     </header>
     <div class="slds-grid slds-grid_vertical">
       <div class="slds-split-view__list-header slds-grid">
@@ -83,6 +94,7 @@ SLDS 1 blueprint examples for **Split View**.
         </span>
         <span class="slds-assistive-text">- Descending</span>
       </div>
+
       <ul aria-multiselectable="true" class="slds-scrollable_y" role="listbox" aria-label="Select an item to open it in a new workspace tab.">
         <li class="slds-split-view__list-item" role="presentation">
           <a href="#" role="option" class="slds-split-view__list-item-action slds-grow slds-has-flexi-truncate" tabindex="0">
@@ -90,10 +102,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Riley Shultz">Riley Shultz</span>
               <span class="slds-truncate slds-col_bump-left" title="99">99</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Biotech, Inc.">Biotech, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Nurturing">Nurturing</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -102,10 +116,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Jason A. - VP of Sales">Jason A. - VP of Sales</span>
               <span class="slds-truncate slds-col_bump-left" title="92">92</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Case Management Solutions">Case Management Solutions</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -114,10 +130,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Josh Smith">Josh Smith</span>
               <span class="slds-truncate slds-col_bump-left" title="90">90</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Acme, Inc.">Acme, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -126,10 +144,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Bobby Tree">Bobby Tree</span>
               <span class="slds-truncate slds-col_bump-left" title="89">89</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Salesforce, Inc.">Salesforce, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Closing">Closing</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -138,16 +158,20 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Riley Shultz">Riley Shultz</span>
               <span class="slds-truncate slds-col_bump-left" title="74">74</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Tesla">Tesla</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
       </ul>
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="Selected Item"
@@ -170,7 +194,9 @@ SLDS 1 blueprint examples for **Split View**.
                 </svg>
                 <span class="slds-assistive-text">Leads</span>
               </div>
+
             </div>
+
             <div class="slds-media__body">
               <h1 class="slds-text-heading_small slds-text-color_default slds-p-right_x-small">
                 <button class="slds-button slds-button_reset slds-type-focus slds-truncate" aria-haspopup="true" title="">
@@ -183,8 +209,11 @@ SLDS 1 blueprint examples for **Split View**.
                 </button>
               </h1>
             </div>
+
           </div>
+
         </div>
+
         <div class="slds-no-flex slds-grid">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" aria-haspopup="true" title="More Actions">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -193,7 +222,9 @@ SLDS 1 blueprint examples for **Split View**.
             <span class="slds-assistive-text">More Actions</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-grid slds-grid_vertical-align-center">
         <p class="slds-text-body_small slds-text-color_weak">42 items • Updated just now</p>
         <div class="slds-no-flex slds-grid slds-col_bump-left">
@@ -208,6 +239,7 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-assistive-text">Display As Split View</span>
             </button>
           </div>
+
           <div class="slds-button-group">
             <button class="slds-button slds-button_icon slds-button_icon slds-button_icon-container" title="Refresh List">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -216,8 +248,11 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-assistive-text">Refresh List</span>
             </button>
           </div>
+
         </div>
+
       </div>
+
     </header>
     <div class="slds-grid slds-grid_vertical">
       <div class="slds-split-view__list-header slds-grid">
@@ -229,6 +264,7 @@ SLDS 1 blueprint examples for **Split View**.
         </span>
         <span class="slds-assistive-text">- Descending</span>
       </div>
+
       <ul aria-multiselectable="true" class="slds-scrollable_y" role="listbox" aria-label="Select an item to open it in a new workspace tab.">
         <li class="slds-split-view__list-item" role="presentation">
           <a href="#" role="option" class="slds-split-view__list-item-action slds-grow slds-has-flexi-truncate" tabindex="0">
@@ -236,10 +272,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Riley Shultz">Riley Shultz</span>
               <span class="slds-truncate slds-col_bump-left" title="99">99</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Biotech, Inc.">Biotech, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Nurturing">Nurturing</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -248,10 +286,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Jason A. - VP of Sales">Jason A. - VP of Sales</span>
               <span class="slds-truncate slds-col_bump-left" title="92">92</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Case Management Solutions">Case Management Solutions</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -260,10 +300,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Josh Smith">Josh Smith</span>
               <span class="slds-truncate slds-col_bump-left" title="90">90</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Acme, Inc.">Acme, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -272,10 +314,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Bobby Tree">Bobby Tree</span>
               <span class="slds-truncate slds-col_bump-left" title="89">89</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Salesforce, Inc.">Salesforce, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Closing">Closing</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -284,16 +328,20 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Riley Shultz">Riley Shultz</span>
               <span class="slds-truncate slds-col_bump-left" title="74">74</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Tesla">Tesla</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
       </ul>
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="Overflow"
@@ -316,7 +364,9 @@ SLDS 1 blueprint examples for **Split View**.
                 </svg>
                 <span class="slds-assistive-text">Leads</span>
               </div>
+
             </div>
+
             <div class="slds-media__body">
               <h1 class="slds-text-heading_small slds-text-color_default slds-p-right_x-small">
                 <button class="slds-button slds-button_reset slds-type-focus slds-truncate" aria-haspopup="true" title="">
@@ -329,8 +379,11 @@ SLDS 1 blueprint examples for **Split View**.
                 </button>
               </h1>
             </div>
+
           </div>
+
         </div>
+
         <div class="slds-no-flex slds-grid">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" aria-haspopup="true" title="More Actions">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -339,7 +392,9 @@ SLDS 1 blueprint examples for **Split View**.
             <span class="slds-assistive-text">More Actions</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-grid slds-grid_vertical-align-center">
         <p class="slds-text-body_small slds-text-color_weak">42 items • Updated just now</p>
         <div class="slds-no-flex slds-grid slds-col_bump-left">
@@ -354,6 +409,7 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-assistive-text">Display As Split View</span>
             </button>
           </div>
+
           <div class="slds-button-group">
             <button class="slds-button slds-button_icon slds-button_icon slds-button_icon-container" title="Refresh List">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -362,8 +418,11 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-assistive-text">Refresh List</span>
             </button>
           </div>
+
         </div>
+
       </div>
+
     </header>
     <div class="slds-grid slds-grid_vertical">
       <div class="slds-split-view__list-header slds-grid">
@@ -375,6 +434,7 @@ SLDS 1 blueprint examples for **Split View**.
         </span>
         <span class="slds-assistive-text">- Descending</span>
       </div>
+
       <ul aria-multiselectable="true" class="slds-scrollable_y" role="listbox" aria-label="Select an item to open it in a new workspace tab.">
         <li class="slds-split-view__list-item" role="presentation">
           <a href="#" role="option" class="slds-split-view__list-item-action slds-grow slds-has-flexi-truncate" tabindex="0">
@@ -382,10 +442,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Riley Shultz">Riley Shultz</span>
               <span class="slds-truncate slds-col_bump-left" title="99">99</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Biotech, Inc.">Biotech, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Nurturing">Nurturing</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -394,10 +456,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Jason A. - VP of Sales">Jason A. - VP of Sales</span>
               <span class="slds-truncate slds-col_bump-left" title="92">92</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Case Management Solutions">Case Management Solutions</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -406,10 +470,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Josh Smith">Josh Smith</span>
               <span class="slds-truncate slds-col_bump-left" title="90">90</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Acme, Inc.">Acme, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -418,10 +484,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Bobby Tree">Bobby Tree</span>
               <span class="slds-truncate slds-col_bump-left" title="89">89</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Salesforce, Inc.">Salesforce, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Closing">Closing</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -430,10 +498,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Riley Shultz">Riley Shultz</span>
               <span class="slds-truncate slds-col_bump-left" title="74">74</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Tesla">Tesla</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -442,10 +512,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Andy Smith">Andy Smith</span>
               <span class="slds-truncate slds-col_bump-left" title="72">72</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Universal Technologies">Universal Technologies</span>
               <span class="slds-truncate slds-col_bump-left" title="New">New</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -454,10 +526,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Jim Steele">Jim Steele</span>
               <span class="slds-truncate slds-col_bump-left" title="71">71</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="BigList, Inc.">BigList, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="New">New</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -466,10 +540,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="John Gardner">John Gardner</span>
               <span class="slds-truncate slds-col_bump-left" title="70">70</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="3C Systems">3C Systems</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -478,16 +554,20 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Sarah Loehr">Sarah Loehr</span>
               <span class="slds-truncate slds-col_bump-left" title="68">68</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="MedLife, Inc.">MedLife, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="New">New</span>
             </div>
+
           </a>
         </li>
       </ul>
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="Unread Items"
@@ -510,7 +590,9 @@ SLDS 1 blueprint examples for **Split View**.
                 </svg>
                 <span class="slds-assistive-text">Leads</span>
               </div>
+
             </div>
+
             <div class="slds-media__body">
               <h1 class="slds-text-heading_small slds-text-color_default slds-p-right_x-small">
                 <button class="slds-button slds-button_reset slds-type-focus slds-truncate" aria-haspopup="true" title="">
@@ -523,8 +605,11 @@ SLDS 1 blueprint examples for **Split View**.
                 </button>
               </h1>
             </div>
+
           </div>
+
         </div>
+
         <div class="slds-no-flex slds-grid">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" aria-haspopup="true" title="More Actions">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -533,7 +618,9 @@ SLDS 1 blueprint examples for **Split View**.
             <span class="slds-assistive-text">More Actions</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-grid slds-grid_vertical-align-center">
         <p class="slds-text-body_small slds-text-color_weak">42 items • Updated just now</p>
         <div class="slds-no-flex slds-grid slds-col_bump-left">
@@ -548,6 +635,7 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-assistive-text">Display As Split View</span>
             </button>
           </div>
+
           <div class="slds-button-group">
             <button class="slds-button slds-button_icon slds-button_icon slds-button_icon-container" title="Refresh List">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -556,8 +644,11 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-assistive-text">Refresh List</span>
             </button>
           </div>
+
         </div>
+
       </div>
+
     </header>
     <div class="slds-grid slds-grid_vertical">
       <div class="slds-split-view__list-header slds-grid">
@@ -569,6 +660,7 @@ SLDS 1 blueprint examples for **Split View**.
         </span>
         <span class="slds-assistive-text">- Descending</span>
       </div>
+
       <ul aria-multiselectable="true" class="slds-scrollable_y" role="listbox" aria-label="Select an item to open it in a new workspace tab.">
         <li class="slds-split-view__list-item slds-is-unread" role="presentation">
           <a href="#" role="option" class="slds-split-view__list-item-action slds-grow slds-has-flexi-truncate" tabindex="0">
@@ -579,10 +671,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Riley Shultz">Riley Shultz</span>
               <span class="slds-truncate slds-col_bump-left" title="99">99</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Biotech, Inc.">Biotech, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Nurturing">Nurturing</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item slds-is-unread" role="presentation">
@@ -594,10 +688,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Jason A. - VP of Sales">Jason A. - VP of Sales</span>
               <span class="slds-truncate slds-col_bump-left" title="92">92</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Case Management Solutions">Case Management Solutions</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item slds-is-unread" role="presentation">
@@ -609,10 +705,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Josh Smith">Josh Smith</span>
               <span class="slds-truncate slds-col_bump-left" title="90">90</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Acme, Inc.">Acme, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item slds-is-unread" role="presentation">
@@ -624,10 +722,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Bobby Tree">Bobby Tree</span>
               <span class="slds-truncate slds-col_bump-left" title="89">89</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Salesforce, Inc.">Salesforce, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Closing">Closing</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -636,10 +736,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Riley Shultz">Riley Shultz</span>
               <span class="slds-truncate slds-col_bump-left" title="74">74</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Tesla">Tesla</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item slds-is-unread" role="presentation">
@@ -651,10 +753,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Andy Smith">Andy Smith</span>
               <span class="slds-truncate slds-col_bump-left" title="72">72</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Universal Technologies">Universal Technologies</span>
               <span class="slds-truncate slds-col_bump-left" title="New">New</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -663,10 +767,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Jim Steele">Jim Steele</span>
               <span class="slds-truncate slds-col_bump-left" title="71">71</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="BigList, Inc.">BigList, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="New">New</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -675,10 +781,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="John Gardner">John Gardner</span>
               <span class="slds-truncate slds-col_bump-left" title="70">70</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="3C Systems">3C Systems</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -687,16 +795,20 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Sarah Loehr">Sarah Loehr</span>
               <span class="slds-truncate slds-col_bump-left" title="68">68</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="MedLife, Inc.">MedLife, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="New">New</span>
             </div>
+
           </a>
         </li>
       </ul>
     </div>
+
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="Collapsed Panel"
@@ -719,7 +831,9 @@ SLDS 1 blueprint examples for **Split View**.
                 </svg>
                 <span class="slds-assistive-text">Leads</span>
               </div>
+
             </div>
+
             <div class="slds-media__body">
               <h1 class="slds-text-heading_small slds-text-color_default slds-p-right_x-small">
                 <button class="slds-button slds-button_reset slds-type-focus slds-truncate" aria-haspopup="true" title="">
@@ -732,8 +846,11 @@ SLDS 1 blueprint examples for **Split View**.
                 </button>
               </h1>
             </div>
+
           </div>
+
         </div>
+
         <div class="slds-no-flex slds-grid">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled" aria-haspopup="true" title="More Actions">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -742,7 +859,9 @@ SLDS 1 blueprint examples for **Split View**.
             <span class="slds-assistive-text">More Actions</span>
           </button>
         </div>
+
       </div>
+
       <div class="slds-grid slds-grid_vertical-align-center">
         <p class="slds-text-body_small slds-text-color_weak">42 items • Updated just now</p>
         <div class="slds-no-flex slds-grid slds-col_bump-left">
@@ -757,6 +876,7 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-assistive-text">Display As Split View</span>
             </button>
           </div>
+
           <div class="slds-button-group">
             <button class="slds-button slds-button_icon slds-button_icon slds-button_icon-container" title="Refresh List">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -765,8 +885,11 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-assistive-text">Refresh List</span>
             </button>
           </div>
+
         </div>
+
       </div>
+
     </header>
     <div class="slds-grid slds-grid_vertical">
       <div class="slds-split-view__list-header slds-grid">
@@ -778,6 +901,7 @@ SLDS 1 blueprint examples for **Split View**.
         </span>
         <span class="slds-assistive-text">- Descending</span>
       </div>
+
       <ul aria-multiselectable="true" class="slds-scrollable_y" role="listbox" aria-label="Select an item to open it in a new workspace tab.">
         <li class="slds-split-view__list-item slds-is-unread" role="presentation">
           <a href="#" role="option" class="slds-split-view__list-item-action slds-grow slds-has-flexi-truncate" tabindex="0">
@@ -788,10 +912,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Riley Shultz">Riley Shultz</span>
               <span class="slds-truncate slds-col_bump-left" title="99">99</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Biotech, Inc.">Biotech, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Nurturing">Nurturing</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item slds-is-unread" role="presentation">
@@ -803,10 +929,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Jason A. - VP of Sales">Jason A. - VP of Sales</span>
               <span class="slds-truncate slds-col_bump-left" title="92">92</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Case Management Solutions">Case Management Solutions</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item slds-is-unread" role="presentation">
@@ -818,10 +946,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Josh Smith">Josh Smith</span>
               <span class="slds-truncate slds-col_bump-left" title="90">90</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Acme, Inc.">Acme, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item slds-is-unread" role="presentation">
@@ -833,10 +963,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Bobby Tree">Bobby Tree</span>
               <span class="slds-truncate slds-col_bump-left" title="89">89</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Salesforce, Inc.">Salesforce, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="Closing">Closing</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -845,10 +977,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Riley Shultz">Riley Shultz</span>
               <span class="slds-truncate slds-col_bump-left" title="74">74</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Tesla">Tesla</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item slds-is-unread" role="presentation">
@@ -860,10 +994,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Andy Smith">Andy Smith</span>
               <span class="slds-truncate slds-col_bump-left" title="72">72</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="Universal Technologies">Universal Technologies</span>
               <span class="slds-truncate slds-col_bump-left" title="New">New</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -872,10 +1008,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Jim Steele">Jim Steele</span>
               <span class="slds-truncate slds-col_bump-left" title="71">71</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="BigList, Inc.">BigList, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="New">New</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -884,10 +1022,12 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="John Gardner">John Gardner</span>
               <span class="slds-truncate slds-col_bump-left" title="70">70</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="3C Systems">3C Systems</span>
               <span class="slds-truncate slds-col_bump-left" title="Contacted">Contacted</span>
             </div>
+
           </a>
         </li>
         <li class="slds-split-view__list-item" role="presentation">
@@ -896,14 +1036,18 @@ SLDS 1 blueprint examples for **Split View**.
               <span class="slds-truncate slds-text-body_regular slds-text-color_default" title="Sarah Loehr">Sarah Loehr</span>
               <span class="slds-truncate slds-col_bump-left" title="68">68</span>
             </div>
+
             <div class="slds-grid slds-wrap">
               <span class="slds-truncate" title="MedLife, Inc.">MedLife, Inc.</span>
               <span class="slds-truncate slds-col_bump-left" title="New">New</span>
             </div>
+
           </a>
         </li>
       </ul>
     </div>
+
   </article>
 </div>
+
 :::

@@ -16,6 +16,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">account</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
@@ -23,12 +24,16 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
       <div class="slds-no-flex">
         <button class="slds-button slds-button_neutral">New</button>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">Anything can go into the card body</div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Accounts</span>
@@ -49,6 +54,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">account</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
@@ -56,14 +62,17 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
     </header>
   </div>
+
 </article>
 :::
 
 ::: legacy-component-example title="With no header"
 <article class="slds-card">
   <div class="slds-card__body slds-card__body_inner">Anything can go into the card body</div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Accounts</span>
@@ -83,9 +92,12 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">Anything can go into the card body</div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Accounts</span>
@@ -106,6 +118,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">account</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
@@ -113,11 +126,14 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
       <div class="slds-no-flex">
         <button class="slds-button slds-button_neutral">New</button>
       </div>
+
     </header>
   </div>
+
 </article>
 :::
 
@@ -133,6 +149,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">account</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
@@ -140,6 +157,7 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
       <div class="slds-no-flex">
         <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
           <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="Show More">
@@ -167,10 +185,14 @@ SLDS 1 blueprint examples for **Cards**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
     </header>
   </div>
+
 </article>
 :::
 
@@ -186,6 +208,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">account</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
@@ -193,9 +216,12 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body">Card Body</div>
+
 </article>
 :::
 
@@ -211,6 +237,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">account</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
@@ -218,9 +245,12 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">Card Body with Padding</div>
+
 </article>
 :::
 
@@ -236,6 +266,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">account</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
@@ -243,9 +274,12 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">Card Body</div>
+
   <footer class="slds-card__footer"></footer>
 </article>
 :::
@@ -262,6 +296,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">account</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
@@ -269,9 +304,12 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">Card Body</div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Accounts</span>
@@ -292,6 +330,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">contact</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Card Header">
@@ -299,12 +338,16 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
       <div class="slds-no-flex">
         <button class="slds-button slds-button_neutral">New</button>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body"></div>
+
   <footer class="slds-card__footer"></footer>
 </article>
 :::
@@ -321,6 +364,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">task</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Tasks">
@@ -328,8 +372,10 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">
     <div class="slds-illustration slds-illustration_small">
       <svg class="slds-illustration__svg" viewBox="0 0 454 182" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -427,8 +473,11 @@ SLDS 1 blueprint examples for **Cards**.
         <h3 class="slds-text-heading_medium">No new tasks</h3>
         <p class="slds-text-body_regular">Nothing needs your attention right now. Check back later.</p>
       </div>
+
     </div>
+
   </div>
+
 </article>
 :::
 
@@ -444,6 +493,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">task</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Tasks">
@@ -451,15 +501,21 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">
     <div role="status" class="slds-spinner slds-spinner_small">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </article>
 :::
 
@@ -475,6 +531,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">contact</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Contacts (1)">
@@ -482,26 +539,33 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
       <div class="slds-no-flex">
         <button class="slds-button slds-button_neutral">New</button>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body">
     <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout" role="grid" aria-label="Example table in a Card">
       <thead>
         <tr class="slds-line-height_reset">
           <th class="" scope="col">
             <div class="slds-truncate" title="Name">Name</div>
+
           </th>
           <th class="" scope="col">
             <div class="slds-truncate" title="Company">Company</div>
+
           </th>
           <th class="" scope="col">
             <div class="slds-truncate" title="Title">Title</div>
+
           </th>
           <th class="" scope="col">
             <div class="slds-truncate" title="Email">Email</div>
+
           </th>
         </tr>
       </thead>
@@ -511,20 +575,25 @@ SLDS 1 blueprint examples for **Cards**.
             <div class="slds-truncate" title="Amy Choi">
               <a href="#" tabindex="-1">Amy Choi</a>
             </div>
+
           </th>
           <td role="gridcell">
             <div class="slds-truncate" title="Company One">Company One</div>
+
           </td>
           <td role="gridcell">
             <div class="slds-truncate" title="Director of Operations">Director of Operations</div>
+
           </td>
           <td role="gridcell">
             <div class="slds-truncate" title="adam@company.com">adam@company.com</div>
+
           </td>
         </tr>
       </tbody>
     </table>
   </div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Contacts</span>
@@ -545,6 +614,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">contact</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Contacts (3)">
@@ -552,11 +622,14 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
       <div class="slds-no-flex">
         <button class="slds-button slds-button_neutral">New</button>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">
     <ul class="slds-grid slds-wrap slds-grid_pull-padded">
       <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
@@ -569,6 +642,7 @@ SLDS 1 blueprint examples for **Cards**.
               <span class="slds-assistive-text">Contact</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <h3 class="slds-tile__title slds-truncate" title="Related Record Title 1">
@@ -582,7 +656,9 @@ SLDS 1 blueprint examples for **Cards**.
                   <span class="slds-assistive-text">More options</span>
                 </button>
               </div>
+
             </div>
+
             <div class="slds-tile__detail">
               <dl class="slds-list_horizontal slds-wrap">
                 <dt class="slds-item_label slds-text-color_weak slds-truncate" title="First Label">First Label:</dt>
@@ -591,7 +667,9 @@ SLDS 1 blueprint examples for **Cards**.
                 <dd class="slds-item_detail slds-truncate" title="Description for second label">Description for second label</dd>
               </dl>
             </div>
+
           </div>
+
         </article>
       </li>
       <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
@@ -604,6 +682,7 @@ SLDS 1 blueprint examples for **Cards**.
               <span class="slds-assistive-text">Contact</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <h3 class="slds-tile__title slds-truncate" title="Related Record Title 1">
@@ -617,7 +696,9 @@ SLDS 1 blueprint examples for **Cards**.
                   <span class="slds-assistive-text">More options</span>
                 </button>
               </div>
+
             </div>
+
             <div class="slds-tile__detail">
               <dl class="slds-list_horizontal slds-wrap">
                 <dt class="slds-item_label slds-text-color_weak slds-truncate" title="First Label">First Label:</dt>
@@ -626,7 +707,9 @@ SLDS 1 blueprint examples for **Cards**.
                 <dd class="slds-item_detail slds-truncate" title="Description for second label">Description for second label</dd>
               </dl>
             </div>
+
           </div>
+
         </article>
       </li>
       <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
@@ -639,6 +722,7 @@ SLDS 1 blueprint examples for **Cards**.
               <span class="slds-assistive-text">Contact</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <h3 class="slds-tile__title slds-truncate" title="Related Record Title 1">
@@ -652,7 +736,9 @@ SLDS 1 blueprint examples for **Cards**.
                   <span class="slds-assistive-text">More options</span>
                 </button>
               </div>
+
             </div>
+
             <div class="slds-tile__detail">
               <dl class="slds-list_horizontal slds-wrap">
                 <dt class="slds-item_label slds-text-color_weak slds-truncate" title="First Label">First Label:</dt>
@@ -661,11 +747,14 @@ SLDS 1 blueprint examples for **Cards**.
                 <dd class="slds-item_detail slds-truncate" title="Description for second label">Description for second label</dd>
               </dl>
             </div>
+
           </div>
+
         </article>
       </li>
     </ul>
   </div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Contacts</span>
@@ -686,6 +775,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">account</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Outer Card Header">
@@ -693,8 +783,10 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">
     <article class="slds-card">
       <div class="slds-card__header slds-grid">
@@ -707,6 +799,7 @@ SLDS 1 blueprint examples for **Cards**.
               <span class="slds-assistive-text">account</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 class="slds-card__header-title">
               <a href="#" class="slds-card__header-link slds-truncate" title="Card Header">
@@ -714,9 +807,12 @@ SLDS 1 blueprint examples for **Cards**.
               </a>
             </h2>
           </div>
+
         </header>
       </div>
+
       <div class="slds-card__body slds-card__body_inner">This is a nested card with no styling (default)</div>
+
       <footer class="slds-card__footer">
         <a class="slds-card__footer-action" href="#">View All
           <span class="slds-assistive-text">Accounts</span>
@@ -724,6 +820,7 @@ SLDS 1 blueprint examples for **Cards**.
       </footer>
     </article>
   </div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Accounts</span>
@@ -744,6 +841,7 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">account</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-card__header-title">
           <a href="#" class="slds-card__header-link slds-truncate" title="Outer Card Header">
@@ -751,8 +849,10 @@ SLDS 1 blueprint examples for **Cards**.
           </a>
         </h2>
       </div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">
     <article class="slds-card slds-card_boundary">
       <div class="slds-card__header slds-grid">
@@ -765,6 +865,7 @@ SLDS 1 blueprint examples for **Cards**.
               <span class="slds-assistive-text">account</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 class="slds-card__header-title">
               <a href="#" class="slds-card__header-link slds-truncate" title="Card Header">
@@ -772,9 +873,12 @@ SLDS 1 blueprint examples for **Cards**.
               </a>
             </h2>
           </div>
+
         </header>
       </div>
+
       <div class="slds-card__body slds-card__body_inner">This is a card inside an `slds-card` to illustrate how `slds-card_boundary` adds a rounded border when desired.</div>
+
       <footer class="slds-card__footer">
         <a class="slds-card__footer-action" href="#">View All
           <span class="slds-assistive-text">Accounts</span>
@@ -782,6 +886,7 @@ SLDS 1 blueprint examples for **Cards**.
       </footer>
     </article>
   </div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Accounts</span>
@@ -803,6 +908,7 @@ SLDS 1 blueprint examples for **Cards**.
             <span class="slds-assistive-text">contact</span>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-card__header-title">
             <a href="#" class="slds-card__header-link slds-truncate" title="Contacts">
@@ -810,12 +916,16 @@ SLDS 1 blueprint examples for **Cards**.
             </a>
           </h2>
         </div>
+
         <div class="slds-no-flex">
           <button class="slds-button slds-button_neutral">New</button>
         </div>
+
       </header>
     </div>
+
     <div class="slds-card__body">This is a card inside an `slds-card-wrapper` to show how styling is removed when cards are nested inside.</div>
+
     <footer class="slds-card__footer">
       <a class="slds-card__footer-action" href="#">View All
         <span class="slds-assistive-text">Contacts</span>
@@ -833,6 +943,7 @@ SLDS 1 blueprint examples for **Cards**.
             <span class="slds-assistive-text">contact</span>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-card__header-title">
             <a href="#" class="slds-card__header-link slds-truncate" title="Contacts">
@@ -840,12 +951,16 @@ SLDS 1 blueprint examples for **Cards**.
             </a>
           </h2>
         </div>
+
         <div class="slds-no-flex">
           <button class="slds-button slds-button_neutral">New</button>
         </div>
+
       </header>
     </div>
+
     <div class="slds-card__body slds-card__body_inner">This is a card inside an `slds-card-wrapper` to illustrate how `slds-card_boundary` adds a rounded border when desired.</div>
+
     <footer class="slds-card__footer">
       <a class="slds-card__footer-action" href="#">View All
         <span class="slds-assistive-text">Contacts</span>
@@ -853,6 +968,7 @@ SLDS 1 blueprint examples for **Cards**.
     </footer>
   </article>
 </div>
+
 :::
 
 ::: legacy-component-example title="Einstein Theming"
@@ -867,11 +983,16 @@ SLDS 1 blueprint examples for **Cards**.
             </a>
           </h2>
         </div>
+
       </div>
+
       <div class="slds-einstein-header__figure slds-size_1-of-4 slds-medium-size_1-of-3"></div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">Card Body</div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Einstein Recommendations</span>
@@ -892,6 +1013,7 @@ SLDS 1 blueprint examples for **Cards**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" title="Einstein (10+)">
             <a href="#" class="slds-card__header-link" title="Einstein (10+)">
@@ -899,11 +1021,16 @@ SLDS 1 blueprint examples for **Cards**.
             </a>
           </h2>
         </div>
+
       </div>
+
       <div class="slds-einstein-header__figure slds-size_1-of-4 slds-medium-size_1-of-3"></div>
+
     </header>
   </div>
+
   <div class="slds-card__body slds-card__body_inner">Card Body</div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Einstein Recommendations</span>
@@ -924,6 +1051,7 @@ SLDS 1 blueprint examples for **Cards**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate" title="Einstein (10+)">
             <a href="#" class="slds-card__header-link" title="Einstein (10+)">
@@ -931,8 +1059,11 @@ SLDS 1 blueprint examples for **Cards**.
             </a>
           </h2>
         </div>
+
       </div>
+
       <div class="slds-einstein-header__figure slds-size_1-of-4 slds-medium-size_1-of-3"></div>
+
     </header>
     <div class="slds-einstein-header__actions">
       <div class="slds-button-group" role="group">
@@ -949,9 +1080,13 @@ SLDS 1 blueprint examples for **Cards**.
           <span class="slds-assistive-text">Edit</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-card__body slds-card__body_inner">Card Body</div>
+
   <footer class="slds-card__footer">
     <a class="slds-card__footer-action" href="#">View All
       <span class="slds-assistive-text">Einstein Recommendations</span>

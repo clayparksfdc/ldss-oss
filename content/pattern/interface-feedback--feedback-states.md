@@ -42,7 +42,7 @@ For a single error, set focus on the invalid field. For multiple errors, display
 ### Incomplete Action Errors
 
 
-| In the rare instance that a user submits an action but a system issue prevents it from completing, display an **error**[**toast**](/components/toast)**.** | *                     A red error toast           *  |
+| In the rare instance that a user submits an action but a system issue prevents it from completing, display an **error**[**toast**](/component/toast)**.** | *                     A red error toast           *  |
 | --- | --- |
 
 ### Card Content Errors
@@ -75,7 +75,7 @@ An informational state appears when an item has an atypical status, an action ha
 ### Additional Information
 
 
-| After a successful action that has additional details, display an **informational**[**toast**](/components/toast)**.** | *                     An informational toast           *  |
+| After a successful action that has additional details, display an **informational**[**toast**](/component/toast)**.** | *                     An informational toast           *  |
 | --- | --- |
 
 ### Admin-Related Status
@@ -95,7 +95,7 @@ A success state confirms that an action was completed as expected. The component
 ### Manual Action
 
 
-| When an action is completed after direct user input, (like submitting a form, display a success [**toast**](/components/toast). However, don't use a toast if the action navigates the user directly to the newly created item. | *                     An example of interface feedback: A green success toast.           *  |
+| When an action is completed after direct user input, (like submitting a form, display a success [**toast**](/component/toast). However, don't use a toast if the action navigates the user directly to the newly created item. | *                     An example of interface feedback: A green success toast.           *  |
 | --- | --- |
 
 ### Automatic Action
@@ -121,7 +121,7 @@ A warning state communicates potential issues, nudges a user, or confirms a dest
 ### Incomplete Action
 
 
-| When a user cannot complete an action due to external factors (like permissions), display a **warning**[**toast**](/components/toast)**.** | *                     A warning toast           *  |
+| When a user cannot complete an action due to external factors (like permissions), display a **warning**[**toast**](/component/toast)**.** | *                     A warning toast           *  |
 | --- | --- |
 
 ### System Related
@@ -151,7 +151,7 @@ An empty state is triggered when a component or page has no content to display.
 ### Empty Page
 
 
-| When an entire page has no data or is inaccessible, display an [**illustration with inline text**](/foundations/illustrations)**. **  See [Empty State](/component/empty-state) for more details. | *                     An empty page displaying an illustration with inline text           *  |
+| When an entire page has no data or is inaccessible, display an [**illustration with inline text**](/foundation/illustrations)**. **  See [Empty State](/component/empty-state) for more details. | *                     An empty page displaying an illustration with inline text           *  |
 | --- | --- |
 
 

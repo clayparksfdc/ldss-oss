@@ -17,12 +17,14 @@ SLDS 1 blueprint examples for **Expression**.
               <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-151" id="combobox-id-157-selected-value" aria-controls="listbox-id-145" aria-expanded="false" aria-haspopup="listbox">
                 <span class="slds-truncate" id="combobox-value-id-145">All Conditions Are Met</span>
               </div>
+
               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                 </svg>
               </span>
             </div>
+
             <div id="listbox-id-145" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                 <li role="presentation" class="slds-listbox__item">
@@ -38,6 +40,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option658" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -46,6 +49,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option659" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -54,6 +58,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option660" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -62,6 +67,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option661" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -70,14 +76,21 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <ul>
     <li class="slds-expression__row">
       <fieldset>
@@ -96,12 +109,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-146">Resource 1</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-146" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -117,6 +132,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option663" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -125,6 +141,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option664" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -133,6 +150,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option665" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -141,14 +159,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-159" id="combobox-label-id-153">Operator</label>
@@ -159,12 +184,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-153" id="combobox-id-159-selected-value" aria-controls="listbox-id-147" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-147">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-147" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -174,6 +201,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option667" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -182,6 +210,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option668" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -190,6 +219,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option669" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -198,22 +228,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-54">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-54" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -225,9 +265,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 1</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
   </ul>
@@ -241,6 +285,7 @@ SLDS 1 blueprint examples for **Expression**.
         <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
       </svg>Add Group</button>
   </div>
+
 </div>
 :::
 
@@ -257,12 +302,14 @@ SLDS 1 blueprint examples for **Expression**.
               <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-157" id="combobox-id-163-selected-value" aria-controls="listbox-id-151" aria-expanded="false" aria-haspopup="listbox">
                 <span class="slds-truncate" id="combobox-value-id-151">All Conditions Are Met</span>
               </div>
+
               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                 </svg>
               </span>
             </div>
+
             <div id="listbox-id-151" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                 <li role="presentation" class="slds-listbox__item">
@@ -278,6 +325,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option684" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -286,6 +334,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option685" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -294,6 +343,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option686" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -302,6 +352,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option687" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -310,14 +361,21 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <ul>
     <li class="slds-expression__row">
       <fieldset>
@@ -335,12 +393,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-158" id="combobox-id-164-selected-value" aria-controls="listbox-id-152" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-152">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-152" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -350,6 +410,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option689" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -358,6 +419,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option690" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -366,6 +428,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option691" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -374,14 +437,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-165" id="combobox-label-id-159">Operator</label>
@@ -393,12 +463,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-153">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-153" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -408,6 +480,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option693" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -416,6 +489,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option694" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -424,6 +498,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option695" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -432,22 +507,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-56">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" disabled="" id="text-input-id-56" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -459,9 +544,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 1</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
   </ul>
@@ -475,6 +564,7 @@ SLDS 1 blueprint examples for **Expression**.
         <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
       </svg>Add Group</button>
   </div>
+
 </div>
 :::
 
@@ -491,12 +581,14 @@ SLDS 1 blueprint examples for **Expression**.
               <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-163" id="combobox-id-169-selected-value" aria-controls="listbox-id-157" aria-expanded="false" aria-haspopup="listbox">
                 <span class="slds-truncate" id="combobox-value-id-157">All Conditions Are Met</span>
               </div>
+
               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                 </svg>
               </span>
             </div>
+
             <div id="listbox-id-157" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                 <li role="presentation" class="slds-listbox__item">
@@ -512,6 +604,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option710" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -520,6 +613,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option711" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -528,6 +622,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option712" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -536,6 +631,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option713" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -544,14 +640,21 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <ul>
     <li class="slds-expression__row">
       <fieldset>
@@ -570,12 +673,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-158">Resource 1</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-158" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -591,6 +696,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option715" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -599,6 +705,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option716" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -607,6 +714,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option717" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -615,14 +723,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-171" id="combobox-label-id-165">Operator</label>
@@ -633,12 +748,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-165" id="combobox-id-171-selected-value" aria-controls="listbox-id-159" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-159">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-159" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -648,6 +765,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option719" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -656,6 +774,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option720" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -664,6 +783,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option721" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -672,22 +792,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-58">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-58" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -699,9 +829,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 1</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
   </ul>
@@ -715,6 +849,7 @@ SLDS 1 blueprint examples for **Expression**.
         <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
       </svg>Add Group</button>
   </div>
+
 </div>
 :::
 
@@ -731,12 +866,14 @@ SLDS 1 blueprint examples for **Expression**.
               <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-171" id="combobox-id-177-selected-value" aria-controls="listbox-id-165" aria-expanded="false" aria-haspopup="listbox">
                 <span class="slds-truncate" id="combobox-value-id-165">All Conditions Are Met</span>
               </div>
+
               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                 </svg>
               </span>
             </div>
+
             <div id="listbox-id-165" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                 <li role="presentation" class="slds-listbox__item">
@@ -752,6 +889,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option744" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -760,6 +898,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option745" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -768,6 +907,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option746" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -776,6 +916,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option747" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -784,14 +925,21 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <ul>
     <li class="slds-expression__row">
       <fieldset>
@@ -810,12 +958,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-166">Resource 1</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-166" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -831,6 +981,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option749" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -839,6 +990,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option750" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -847,6 +999,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option751" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -855,14 +1008,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-179" id="combobox-label-id-173">Operator</label>
@@ -873,12 +1033,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-173" id="combobox-id-179-selected-value" aria-controls="listbox-id-167" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-167">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-167" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -888,6 +1050,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option753" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -896,6 +1059,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option754" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -904,6 +1068,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option755" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -912,22 +1077,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-61">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-61" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -939,9 +1114,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 1</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
     <li class="slds-expression__row">
@@ -961,12 +1140,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-174" id="combobox-id-180-selected-value" aria-controls="listbox-id-168" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-168">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-168" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -976,6 +1157,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option757" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -984,6 +1166,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option758" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -992,6 +1175,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option759" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1000,14 +1184,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-181" id="combobox-label-id-175">Operator</label>
@@ -1019,12 +1210,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-169">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-169" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1034,6 +1227,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option761" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1042,6 +1236,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option762" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1050,6 +1245,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option763" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1058,22 +1254,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-62">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" disabled="" id="text-input-id-62" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -1085,9 +1291,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 2</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
   </ul>
@@ -1101,6 +1311,7 @@ SLDS 1 blueprint examples for **Expression**.
         <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
       </svg>Add Group</button>
   </div>
+
 </div>
 :::
 
@@ -1117,12 +1328,14 @@ SLDS 1 blueprint examples for **Expression**.
               <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-181" id="combobox-id-187-selected-value" aria-controls="listbox-id-175" aria-expanded="false" aria-haspopup="listbox">
                 <span class="slds-truncate" id="combobox-value-id-175">All Conditions Are Met</span>
               </div>
+
               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                 </svg>
               </span>
             </div>
+
             <div id="listbox-id-175" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                 <li role="presentation" class="slds-listbox__item">
@@ -1138,6 +1351,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option786" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1146,6 +1360,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option787" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1154,6 +1369,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option788" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1162,6 +1378,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option789" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1170,14 +1387,21 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <ul>
     <li class="slds-expression__row">
       <fieldset>
@@ -1196,12 +1420,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-176">Resource 1</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-176" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1217,6 +1443,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option791" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1225,6 +1452,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option792" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1233,6 +1461,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option793" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1241,14 +1470,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-189" id="combobox-label-id-183">Operator</label>
@@ -1259,12 +1495,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-183" id="combobox-id-189-selected-value" aria-controls="listbox-id-177" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-177">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-177" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1274,6 +1512,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option795" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1282,6 +1521,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option796" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1290,6 +1530,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option797" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1298,22 +1539,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-65">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-65" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -1325,9 +1576,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 1</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
     <li class="slds-expression__row">
@@ -1347,12 +1602,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-184" id="combobox-id-190-selected-value" aria-controls="listbox-id-178" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-178">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-178" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1362,6 +1619,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option799" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1370,6 +1628,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option800" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1378,6 +1637,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option801" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1386,14 +1646,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-191" id="combobox-label-id-185">Operator</label>
@@ -1404,12 +1671,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-185" id="combobox-id-191-selected-value" aria-controls="listbox-id-179" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-179">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-179" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1419,6 +1688,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option803" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1427,6 +1697,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option804" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1435,6 +1706,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option805" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1443,23 +1715,34 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element slds-has-error">
               <label class="slds-form-element__label" for="text-input-id-66">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-66" aria-describedby="error-message-unique-id" class="slds-input" aria-invalid="true" />
               </div>
+
               <div class="slds-form-element__help" id="error-message-unique-id">Enter a value</div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -1471,9 +1754,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 2</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
   </ul>
@@ -1487,6 +1774,7 @@ SLDS 1 blueprint examples for **Expression**.
         <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
       </svg>Add Group</button>
   </div>
+
 </div>
 :::
 
@@ -1503,12 +1791,14 @@ SLDS 1 blueprint examples for **Expression**.
               <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-191" id="combobox-id-197-selected-value" aria-controls="listbox-id-185" aria-expanded="false" aria-haspopup="listbox">
                 <span class="slds-truncate" id="combobox-value-id-185">All Conditions Are Met</span>
               </div>
+
               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                 </svg>
               </span>
             </div>
+
             <div id="listbox-id-185" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                 <li role="presentation" class="slds-listbox__item">
@@ -1524,6 +1814,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option828" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1532,6 +1823,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option829" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1540,6 +1832,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option830" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1548,6 +1841,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option831" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1556,14 +1850,21 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <ul>
     <li class="slds-expression__row">
       <fieldset>
@@ -1582,12 +1883,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-186">Resource 1</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-186" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1603,6 +1906,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option833" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1611,6 +1915,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option834" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1619,6 +1924,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option835" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1627,14 +1933,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-199" id="combobox-label-id-193">Operator</label>
@@ -1645,12 +1958,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-193" id="combobox-id-199-selected-value" aria-controls="listbox-id-187" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-187">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-187" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1660,6 +1975,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option837" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1668,6 +1984,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option838" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1676,6 +1993,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option839" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1684,22 +2002,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-69">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-69" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -1711,9 +2039,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 1</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
     <li class="slds-expression__row">
@@ -1734,12 +2066,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-188">Resource 1</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-188" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1755,6 +2089,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option841" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1763,6 +2098,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option842" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1771,6 +2107,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option843" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1779,14 +2116,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-201" id="combobox-label-id-195">Operator</label>
@@ -1797,12 +2141,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-195" id="combobox-id-201-selected-value" aria-controls="listbox-id-189" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-189">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-189" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1812,6 +2158,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option845" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1820,6 +2167,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option846" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1828,6 +2176,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option847" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1836,22 +2185,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-70">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-70" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -1863,9 +2222,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 2</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
   </ul>
@@ -1879,6 +2242,7 @@ SLDS 1 blueprint examples for **Expression**.
         <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
       </svg>Add Group</button>
   </div>
+
 </div>
 :::
 
@@ -1895,12 +2259,14 @@ SLDS 1 blueprint examples for **Expression**.
               <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-201" id="combobox-id-207-selected-value" aria-controls="listbox-id-195" aria-expanded="false" aria-haspopup="listbox">
                 <span class="slds-truncate" id="combobox-value-id-195">Any Condition Is Met</span>
               </div>
+
               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                 </svg>
               </span>
             </div>
+
             <div id="listbox-id-195" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                 <li role="presentation" class="slds-listbox__item">
@@ -1910,6 +2276,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div aria-selected="true" aria-checked="true" id="option870" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected slds-has-focus" role="option">
@@ -1924,6 +2291,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option871" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1932,6 +2300,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option872" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1940,6 +2309,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option873" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1948,14 +2318,21 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <ul>
     <li class="slds-expression__row">
       <fieldset>
@@ -1974,12 +2351,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-196">Resource 1</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-196" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1995,6 +2374,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option875" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2003,6 +2383,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option876" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2011,6 +2392,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option877" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2019,14 +2401,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-209" id="combobox-label-id-203">Operator</label>
@@ -2037,12 +2426,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-203" id="combobox-id-209-selected-value" aria-controls="listbox-id-197" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-197">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-197" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -2052,6 +2443,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option879" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2060,6 +2452,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option880" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2068,6 +2461,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option881" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2076,22 +2470,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-73">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-73" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -2103,9 +2507,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 1</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
     <li class="slds-expression__row">
@@ -2126,12 +2534,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-198">Resource 1</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-198" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -2147,6 +2557,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option883" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2155,6 +2566,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option884" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2163,6 +2575,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option885" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2171,14 +2584,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-211" id="combobox-label-id-205">Operator</label>
@@ -2189,12 +2609,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-205" id="combobox-id-211-selected-value" aria-controls="listbox-id-199" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-199">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-199" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -2204,6 +2626,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option887" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2212,6 +2635,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option888" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2220,6 +2644,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option889" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2228,22 +2653,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-74">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-74" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -2255,9 +2690,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 2</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
   </ul>
@@ -2271,6 +2710,7 @@ SLDS 1 blueprint examples for **Expression**.
         <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
       </svg>Add Group</button>
   </div>
+
 </div>
 :::
 
@@ -2287,12 +2727,14 @@ SLDS 1 blueprint examples for **Expression**.
               <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-214" id="combobox-id-220-selected-value" aria-controls="listbox-id-208" aria-expanded="false" aria-haspopup="listbox">
                 <span class="slds-truncate" id="combobox-value-id-208">All Conditions Are Met</span>
               </div>
+
               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                 </svg>
               </span>
             </div>
+
             <div id="listbox-id-208" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                 <li role="presentation" class="slds-listbox__item">
@@ -2308,6 +2750,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option925" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2316,6 +2759,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option926" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2324,6 +2768,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option927" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2332,6 +2777,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option928" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2340,14 +2786,21 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <ul>
     <li class="slds-expression__row">
       <fieldset>
@@ -2366,12 +2819,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-209">Resource 1</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-209" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -2387,6 +2842,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option930" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2395,6 +2851,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option931" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2403,6 +2860,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option932" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2411,14 +2869,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-222" id="combobox-label-id-216">Operator</label>
@@ -2429,12 +2894,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-216" id="combobox-id-222-selected-value" aria-controls="listbox-id-210" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-210">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-210" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -2444,6 +2911,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option934" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2452,6 +2920,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option935" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2460,6 +2929,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option936" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2468,22 +2938,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-78">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-78" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -2495,9 +2975,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 1</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
     <li class="slds-expression__group">
@@ -2517,12 +3001,14 @@ SLDS 1 blueprint examples for **Expression**.
                       aria-haspopup="listbox">
                       <span class="slds-truncate" id="combobox-value-id-211">Any Condition Is Met in This Group</span>
                     </div>
+
                     <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                       <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                         <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                       </svg>
                     </span>
                   </div>
+
                   <div id="listbox-id-211" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                     <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                       <li role="presentation" class="slds-listbox__item">
@@ -2532,6 +3018,7 @@ SLDS 1 blueprint examples for **Expression**.
                             <span class="" title="All Conditions Are Met for This Group">All Conditions Are Met for This Group</span>
                           </span>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div aria-selected="true" aria-checked="true" id="option938" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected slds-has-focus" role="option">
@@ -2546,6 +3033,7 @@ SLDS 1 blueprint examples for **Expression**.
                             <span class="" title="Any Condition Is Met for This Group">Any Condition Is Met for This Group</span>
                           </span>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option939" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2554,6 +3042,7 @@ SLDS 1 blueprint examples for **Expression**.
                             <span class="" title="Custom Logic Is Met for This Group">Custom Logic Is Met for This Group</span>
                           </span>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option940" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2562,6 +3051,7 @@ SLDS 1 blueprint examples for **Expression**.
                             <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                           </span>
                         </div>
+
                       </li>
                       <li role="presentation" class="slds-listbox__item">
                         <div id="option941" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2570,14 +3060,21 @@ SLDS 1 blueprint examples for **Expression**.
                             <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                           </span>
                         </div>
+
                       </li>
                     </ul>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
         <ul>
           <li class="slds-expression__row slds-expression__row_group">
             <fieldset>
@@ -2596,12 +3093,14 @@ SLDS 1 blueprint examples for **Expression**.
                               aria-haspopup="listbox">
                               <span class="slds-truncate" id="combobox-value-id-212">Resource 1</span>
                             </div>
+
                             <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                               <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                               </svg>
                             </span>
                           </div>
+
                           <div id="listbox-id-212" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                             <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                               <li role="presentation" class="slds-listbox__item">
@@ -2617,6 +3116,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Resource 1">Resource 1</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option943" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2625,6 +3125,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Resource 2">Resource 2</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option944" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2633,6 +3134,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Resource 3">Resource 3</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option945" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2641,14 +3143,21 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Resource 4">Resource 4</span>
                                   </span>
                                 </div>
+
                               </li>
                             </ul>
                           </div>
+
                         </div>
+
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-col slds-grow-none">
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="combobox-id-225" id="combobox-label-id-219">Operator</label>
@@ -2659,12 +3168,14 @@ SLDS 1 blueprint examples for **Expression**.
                             <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-219" id="combobox-id-225-selected-value" aria-controls="listbox-id-213" aria-expanded="false" aria-haspopup="listbox">
                               <span class="slds-truncate" id="combobox-value-id-213">Select…</span>
                             </div>
+
                             <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                               <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                               </svg>
                             </span>
                           </div>
+
                           <div id="listbox-id-213" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                             <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                               <li role="presentation" class="slds-listbox__item">
@@ -2674,6 +3185,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Equals">Equals</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option947" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2682,6 +3194,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Does Not Equal">Does Not Equal</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option948" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2690,6 +3203,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Greater Than">Greater Than</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option949" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2698,22 +3212,32 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Less Than">Less Than</span>
                                   </span>
                                 </div>
+
                               </li>
                             </ul>
                           </div>
+
                         </div>
+
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-col">
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="text-input-id-79">Value</label>
                     <div class="slds-form-element__control">
                       <input type="text" id="text-input-id-79" class="slds-input" />
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-col slds-grow-none">
                   <div class="slds-form-element">
                     <span class="slds-form-element__label"> </span>
@@ -2725,9 +3249,13 @@ SLDS 1 blueprint examples for **Expression**.
                         <span class="slds-assistive-text">Delete Condition 1 of Condition Group 1</span>
                       </button>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </fieldset>
           </li>
           <li class="slds-expression__row slds-expression__row_group">
@@ -2747,12 +3275,14 @@ SLDS 1 blueprint examples for **Expression**.
                             <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-220" id="combobox-id-226-selected-value" aria-controls="listbox-id-214" aria-expanded="false" aria-haspopup="listbox">
                               <span class="slds-truncate" id="combobox-value-id-214">Select…</span>
                             </div>
+
                             <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                               <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                               </svg>
                             </span>
                           </div>
+
                           <div id="listbox-id-214" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                             <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                               <li role="presentation" class="slds-listbox__item">
@@ -2762,6 +3292,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Resource 1">Resource 1</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option951" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2770,6 +3301,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Resource 2">Resource 2</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option952" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2778,6 +3310,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Resource 3">Resource 3</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option953" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2786,14 +3319,21 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Resource 4">Resource 4</span>
                                   </span>
                                 </div>
+
                               </li>
                             </ul>
                           </div>
+
                         </div>
+
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-col slds-grow-none">
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="combobox-id-227" id="combobox-label-id-221">Operator</label>
@@ -2805,12 +3345,14 @@ SLDS 1 blueprint examples for **Expression**.
                               aria-haspopup="listbox">
                               <span class="slds-truncate" id="combobox-value-id-215">Select…</span>
                             </div>
+
                             <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                               <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                               </svg>
                             </span>
                           </div>
+
                           <div id="listbox-id-215" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                             <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                               <li role="presentation" class="slds-listbox__item">
@@ -2820,6 +3362,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Equals">Equals</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option955" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2828,6 +3371,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Does Not Equal">Does Not Equal</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option956" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2836,6 +3380,7 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Greater Than">Greater Than</span>
                                   </span>
                                 </div>
+
                               </li>
                               <li role="presentation" class="slds-listbox__item">
                                 <div id="option957" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2844,22 +3389,32 @@ SLDS 1 blueprint examples for **Expression**.
                                     <span class="" title="Less Than">Less Than</span>
                                   </span>
                                 </div>
+
                               </li>
                             </ul>
                           </div>
+
                         </div>
+
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-col">
                   <div class="slds-form-element">
                     <label class="slds-form-element__label" for="text-input-id-80">Value</label>
                     <div class="slds-form-element__control">
                       <input type="text" disabled="" id="text-input-id-80" class="slds-input" />
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-col slds-grow-none">
                   <div class="slds-form-element">
                     <span class="slds-form-element__label"> </span>
@@ -2871,9 +3426,13 @@ SLDS 1 blueprint examples for **Expression**.
                         <span class="slds-assistive-text">Delete Condition 2 of Condition Group 1</span>
                       </button>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </fieldset>
           </li>
         </ul>
@@ -2883,6 +3442,7 @@ SLDS 1 blueprint examples for **Expression**.
               <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
             </svg>Add Condition</button>
         </div>
+
       </fieldset>
     </li>
   </ul>
@@ -2896,6 +3456,7 @@ SLDS 1 blueprint examples for **Expression**.
         <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
       </svg>Add Group</button>
   </div>
+
 </div>
 :::
 
@@ -2912,12 +3473,14 @@ SLDS 1 blueprint examples for **Expression**.
               <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-227" id="combobox-id-233-selected-value" aria-controls="listbox-id-221" aria-expanded="false" aria-haspopup="listbox">
                 <span class="slds-truncate" id="combobox-value-id-221">Custom Logic Is Met</span>
               </div>
+
               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                 </svg>
               </span>
             </div>
+
             <div id="listbox-id-221" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                 <li role="presentation" class="slds-listbox__item">
@@ -2927,6 +3490,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option980" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2935,6 +3499,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div aria-selected="true" aria-checked="true" id="option981" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected slds-has-focus" role="option">
@@ -2949,6 +3514,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option982" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2957,6 +3523,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option983" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -2965,22 +3532,32 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-expression__custom-logic">
     <div class="slds-form-element">
       <label class="slds-form-element__label" for="text-input-id-84">Custom Logic</label>
       <div class="slds-form-element__control">
         <input type="text" id="text-input-id-84" class="slds-input" value="1 AND 2" />
       </div>
+
     </div>
+
   </div>
+
   <ul>
     <li class="slds-expression__row">
       <fieldset>
@@ -3000,12 +3577,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-222">Resource 1</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-222" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -3021,6 +3600,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option985" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3029,6 +3609,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option986" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3037,6 +3618,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option987" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3045,14 +3627,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-235" id="combobox-label-id-229">Operator</label>
@@ -3063,12 +3652,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-229" id="combobox-id-235-selected-value" aria-controls="listbox-id-223" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-223">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-223" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -3078,6 +3669,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option989" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3086,6 +3678,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option990" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3094,6 +3687,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option991" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3102,22 +3696,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-85">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" id="text-input-id-85" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -3129,9 +3733,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 1</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
     <li class="slds-expression__row">
@@ -3151,12 +3759,14 @@ SLDS 1 blueprint examples for **Expression**.
                       <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-230" id="combobox-id-236-selected-value" aria-controls="listbox-id-224" aria-expanded="false" aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-224">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-224" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -3166,6 +3776,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 1">Resource 1</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option993" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3174,6 +3785,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 2">Resource 2</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option994" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3182,6 +3794,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 3">Resource 3</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option995" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3190,14 +3803,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Resource 4">Resource 4</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-237" id="combobox-label-id-231">Operator</label>
@@ -3209,12 +3829,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-225">Select…</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-225" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -3224,6 +3846,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Equals">Equals</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option997" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3232,6 +3855,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Does Not Equal">Does Not Equal</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option998" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3240,6 +3864,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Greater Than">Greater Than</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option999" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3248,22 +3873,32 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Less Than">Less Than</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="text-input-id-86">Value</label>
               <div class="slds-form-element__control">
                 <input type="text" disabled="" id="text-input-id-86" class="slds-input" />
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-col slds-grow-none">
             <div class="slds-form-element">
               <span class="slds-form-element__label"> </span>
@@ -3275,9 +3910,13 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Delete Condition 2</span>
                 </button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </fieldset>
     </li>
   </ul>
@@ -3291,6 +3930,7 @@ SLDS 1 blueprint examples for **Expression**.
         <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
       </svg>Add Group</button>
   </div>
+
 </div>
 :::
 
@@ -3306,12 +3946,14 @@ SLDS 1 blueprint examples for **Expression**.
               <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-235" id="combobox-id-243-selected-value" aria-controls="listbox-id-227" aria-expanded="false" aria-haspopup="listbox">
                 <span class="slds-truncate" id="combobox-value-id-227">Formula Evaluates to True</span>
               </div>
+
               <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                 <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                   <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                 </svg>
               </span>
             </div>
+
             <div id="listbox-id-227" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
               <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                 <li role="presentation" class="slds-listbox__item">
@@ -3321,6 +3963,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option1018" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3329,6 +3972,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option1019" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3337,6 +3981,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div id="option1020" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3345,6 +3990,7 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                     </span>
                   </div>
+
                 </li>
                 <li role="presentation" class="slds-listbox__item">
                   <div aria-selected="true" aria-checked="true" id="option1021" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected slds-has-focus" role="option">
@@ -3359,14 +4005,21 @@ SLDS 1 blueprint examples for **Expression**.
                       <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                     </span>
                   </div>
+
                 </li>
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-expression_formula__rte">
     <div class="slds-form-element">
       <span class="slds-form-element__label">Formula</span>
@@ -3399,6 +4052,7 @@ SLDS 1 blueprint examples for **Expression**.
                                   </svg>
                                 </span>
                               </div>
+
                               <div id="objectswitcher-listbox-id-9" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_x-small slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                                 <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="{{Placeholder for Dropdown Options}}">
                                   <li role="presentation" class="slds-listbox__item">
@@ -3414,6 +4068,7 @@ SLDS 1 blueprint examples for **Expression**.
                                         <span class="" title="Apex">Apex</span>
                                       </span>
                                     </div>
+
                                   </li>
                                   <li role="presentation" class="slds-listbox__item">
                                     <div id="option1023" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3428,6 +4083,7 @@ SLDS 1 blueprint examples for **Expression**.
                                         <span class="" title="Decisions">Decisions</span>
                                       </span>
                                     </div>
+
                                   </li>
                                   <li role="presentation" class="slds-listbox__item">
                                     <div id="option1024" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3442,6 +4098,7 @@ SLDS 1 blueprint examples for **Expression**.
                                         <span class="" title="Rules">Rules</span>
                                       </span>
                                     </div>
+
                                   </li>
                                   <li role="presentation" class="slds-listbox__item">
                                     <div id="option1025" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3456,14 +4113,21 @@ SLDS 1 blueprint examples for **Expression**.
                                         <span class="" title="Snippets">Snippets</span>
                                       </span>
                                     </div>
+
                                   </li>
                                 </ul>
                               </div>
+
                             </div>
+
                           </div>
+
                         </div>
+
                       </div>
+
                     </div>
+
                     <div class="slds-combobox_container slds-combobox-addon_end">
                       <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" id="example-unique-id-23">
                         <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
@@ -3475,6 +4139,7 @@ SLDS 1 blueprint examples for **Expression**.
                             </svg>
                           </span>
                         </div>
+
                         <div id="example-unique-id-21" class="slds-dropdown slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                           <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                             <li role="presentation" class="slds-listbox__item">
@@ -3491,6 +4156,7 @@ SLDS 1 blueprint examples for **Expression**.
                                   <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Burlington, NC</span>
                                 </span>
                               </div>
+
                             </li>
                             <li role="presentation" class="slds-listbox__item">
                               <div id="option1027" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -3506,15 +4172,23 @@ SLDS 1 blueprint examples for **Expression**.
                                   <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Lawrence, KS</span>
                                 </span>
                               </div>
+
                             </li>
                           </ul>
                         </div>
+
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-rich-text-editor__col slds-rich-text-editor__col_grow">
               <div class="slds-form-element">
                 <label class="slds-form-element__label slds-assistive-text" for="combobox-id-246">Insert a function</label>
@@ -3541,6 +4215,7 @@ SLDS 1 blueprint examples for **Expression**.
                                   </svg>
                                 </span>
                               </div>
+
                               <div id="objectswitcher-listbox-id-10" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_x-small slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                                 <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="{{Placeholder for Dropdown Options}}">
                                   <li role="presentation" class="slds-listbox__item">
@@ -3556,6 +4231,7 @@ SLDS 1 blueprint examples for **Expression**.
                                         <span class="" title="Apex">Apex</span>
                                       </span>
                                     </div>
+
                                   </li>
                                   <li role="presentation" class="slds-listbox__item">
                                     <div id="option1029" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3570,6 +4246,7 @@ SLDS 1 blueprint examples for **Expression**.
                                         <span class="" title="Decisions">Decisions</span>
                                       </span>
                                     </div>
+
                                   </li>
                                   <li role="presentation" class="slds-listbox__item">
                                     <div id="option1030" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3584,6 +4261,7 @@ SLDS 1 blueprint examples for **Expression**.
                                         <span class="" title="Rules">Rules</span>
                                       </span>
                                     </div>
+
                                   </li>
                                   <li role="presentation" class="slds-listbox__item">
                                     <div id="option1031" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3598,14 +4276,21 @@ SLDS 1 blueprint examples for **Expression**.
                                         <span class="" title="Snippets">Snippets</span>
                                       </span>
                                     </div>
+
                                   </li>
                                 </ul>
                               </div>
+
                             </div>
+
                           </div>
+
                         </div>
+
                       </div>
+
                     </div>
+
                     <div class="slds-combobox_container slds-combobox-addon_end">
                       <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" id="example-unique-id-24">
                         <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
@@ -3617,6 +4302,7 @@ SLDS 1 blueprint examples for **Expression**.
                             </svg>
                           </span>
                         </div>
+
                         <div id="example-unique-id-22" class="slds-dropdown slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                           <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                             <li role="presentation" class="slds-listbox__item">
@@ -3633,6 +4319,7 @@ SLDS 1 blueprint examples for **Expression**.
                                   <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Burlington, NC</span>
                                 </span>
                               </div>
+
                             </li>
                             <li role="presentation" class="slds-listbox__item">
                               <div id="option1033" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -3648,23 +4335,34 @@ SLDS 1 blueprint examples for **Expression**.
                                   <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Lawrence, KS</span>
                                 </span>
                               </div>
+
                             </li>
                           </ul>
                         </div>
+
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-rich-text-editor__col slds-rich-text-editor__col_grow">
               <div class="slds-form-element">
                 <label class="slds-form-element__label slds-assistive-text" for="example-unique-id-25">Insert operator</label>
                 <div class="slds-form-element__control">
                   <input type="text" id="example-unique-id-25" placeholder="Insert operator" class="slds-input" />
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-rich-text-editor__col">
               <button class="slds-button slds-button_icon slds-button_icon-container" title="Help">
                 <svg class="slds-button__icon" aria-hidden="true">
@@ -3673,17 +4371,26 @@ SLDS 1 blueprint examples for **Expression**.
                 <span class="slds-assistive-text">Help</span>
               </button>
             </div>
+
           </div>
+
           <div class="slds-rich-text-editor__textarea slds-grid">
             <div aria-label="Compose formula" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose formula...</div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-m-top_small">
     <button class="slds-button slds-button_neutral">Check Syntax</button>
   </div>
+
 </div>
 :::
 
@@ -3703,12 +4410,14 @@ SLDS 1 blueprint examples for **Expression**.
                     aria-haspopup="listbox">
                     <span class="slds-truncate" id="combobox-value-id-229">All Conditions Are Met</span>
                   </div>
+
                   <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                     <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                       <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                     </svg>
                   </span>
                 </div>
+
                 <div id="listbox-id-229" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                   <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                     <li role="presentation" class="slds-listbox__item">
@@ -3724,6 +4433,7 @@ SLDS 1 blueprint examples for **Expression**.
                           <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option1040" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3732,6 +4442,7 @@ SLDS 1 blueprint examples for **Expression**.
                           <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option1041" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3740,6 +4451,7 @@ SLDS 1 blueprint examples for **Expression**.
                           <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option1042" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3748,6 +4460,7 @@ SLDS 1 blueprint examples for **Expression**.
                           <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option1043" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3756,15 +4469,23 @@ SLDS 1 blueprint examples for **Expression**.
                           <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <ol class="slds-list_vertical slds-list_vertical-space">
       <li class="slds-item slds-hint-parent">
         <div class="slds-filters__item slds-grid slds-grid_vertical-align-center">
@@ -3780,6 +4501,7 @@ SLDS 1 blueprint examples for **Expression**.
             <span class="slds-assistive-text">Remove filter: Amount greater than &quot;1000&quot;</span>
           </button>
         </div>
+
       </li>
     </ol>
     <div class="slds-m-top_small">
@@ -3792,7 +4514,9 @@ SLDS 1 blueprint examples for **Expression**.
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
         </svg>Add Group</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -3812,12 +4536,14 @@ SLDS 1 blueprint examples for **Expression**.
                     aria-haspopup="listbox">
                     <span class="slds-truncate" id="combobox-value-id-232">All Conditions Are Met</span>
                   </div>
+
                   <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                     <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                       <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                     </svg>
                   </span>
                 </div>
+
                 <div id="listbox-id-232" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                   <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                     <li role="presentation" class="slds-listbox__item">
@@ -3833,6 +4559,7 @@ SLDS 1 blueprint examples for **Expression**.
                           <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option1055" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3841,6 +4568,7 @@ SLDS 1 blueprint examples for **Expression**.
                           <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option1056" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3849,6 +4577,7 @@ SLDS 1 blueprint examples for **Expression**.
                           <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option1057" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3857,6 +4586,7 @@ SLDS 1 blueprint examples for **Expression**.
                           <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option1058" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3865,15 +4595,23 @@ SLDS 1 blueprint examples for **Expression**.
                           <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <ol class="slds-list_vertical slds-list_vertical-space">
       <li class="slds-item slds-hint-parent">
         <div class="slds-filters__item slds-grid slds-grid_vertical-align-center">
@@ -3889,6 +4627,7 @@ SLDS 1 blueprint examples for **Expression**.
             <span class="slds-assistive-text">Remove filter: Amount greater than &quot;1000&quot;</span>
           </button>
         </div>
+
       </li>
       <li class="slds-item slds-hint-parent">
         <div class="slds-filters__item slds-grid slds-grid_vertical-align-center">
@@ -3909,6 +4648,7 @@ SLDS 1 blueprint examples for **Expression**.
             <span class="slds-assistive-text">Remove filter: Status equals Red</span>
           </button>
         </div>
+
       </li>
       <li class="slds-item slds-hint-parent">
         <div class="slds-filters__group">
@@ -3924,6 +4664,7 @@ SLDS 1 blueprint examples for **Expression**.
               <span class="slds-assistive-text">Remove Group</span>
             </button>
           </div>
+
           <div class="slds-m-vertical_small">
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="combobox-id-253" id="combobox-label-id-243">Take Action When</label>
@@ -3935,12 +4676,14 @@ SLDS 1 blueprint examples for **Expression**.
                         aria-haspopup="listbox">
                         <span class="slds-truncate" id="combobox-value-id-233">Any Condition Is Met</span>
                       </div>
+
                       <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                         <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                         </svg>
                       </span>
                     </div>
+
                     <div id="listbox-id-233" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -3950,6 +4693,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="All Conditions Are Met">All Conditions Are Met</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div aria-selected="true" aria-checked="true" id="option1060" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected slds-has-focus" role="option">
@@ -3964,6 +4708,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Any Condition Is Met">Any Condition Is Met</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option1061" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3972,6 +4717,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Custom Logic Is Met">Custom Logic Is Met</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option1062" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3980,6 +4726,7 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Always (No Criteria)">Always (No Criteria)</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option1063" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -3988,14 +4735,21 @@ SLDS 1 blueprint examples for **Expression**.
                               <span class="" title="Formula Evaluates to True">Formula Evaluates to True</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <ol>
             <li class="slds-item slds-hint-parent">
               <div class="slds-filters__item slds-grid slds-grid_vertical-align-center">
@@ -4011,6 +4765,7 @@ SLDS 1 blueprint examples for **Expression**.
                   <span class="slds-assistive-text">Remove filter: Amount greater than &quot;1000&quot;</span>
                 </button>
               </div>
+
             </li>
           </ol>
           <div class="slds-m-top_small">
@@ -4019,7 +4774,9 @@ SLDS 1 blueprint examples for **Expression**.
                 <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
               </svg>Add Condition</button>
           </div>
+
         </div>
+
       </li>
     </ol>
     <div class="slds-m-top_small">
@@ -4032,7 +4789,9 @@ SLDS 1 blueprint examples for **Expression**.
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
         </svg>Add Group</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -4047,6 +4806,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-show">All Products</span>
         </button>
       </div>
+
     </li>
   </ol>
   <h3 class="slds-text-body_small slds-m-vertical_x-small">Matching all these filters</h3>
@@ -4065,6 +4825,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-assistive-text">Remove filter: Created Date equals THIS WEEK</span>
         </button>
       </div>
+
     </li>
     <li class="slds-item slds-hint-parent">
       <div class="slds-filters__item slds-grid slds-grid_vertical-align-center">
@@ -4080,12 +4841,14 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-assistive-text">Remove filter: List Price greater than &quot;500&quot;</span>
         </button>
       </div>
+
     </li>
   </ol>
   <div class="slds-filters__footer slds-grid slds-shrink-none">
     <button class="slds-button_reset slds-text-link">Add Filter</button>
     <button class="slds-button_reset slds-text-link slds-col_bump-left">Remove All</button>
   </div>
+
 </div>
 :::
 
@@ -4100,6 +4863,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-show">All Products</span>
         </button>
       </div>
+
     </li>
   </ol>
   <h3 class="slds-text-body_small slds-m-vertical_x-small">Matching all these filters</h3>
@@ -4118,6 +4882,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-assistive-text">Remove filter: Created Date equals THIS WEEK</span>
         </button>
       </div>
+
     </li>
     <li class="slds-item slds-hint-parent">
       <div class="slds-filters__item slds-grid slds-grid_vertical-align-center">
@@ -4133,6 +4898,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-assistive-text">Remove filter: List Price greater than &quot;500&quot;</span>
         </button>
       </div>
+
     </li>
     <li class="slds-item slds-hint-parent">
       <div class="slds-filters__item slds-grid slds-grid_vertical-align-center slds-is-new">
@@ -4147,18 +4913,21 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-assistive-text">Remove filter: New Filter</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div class="slds-filters__footer slds-grid slds-shrink-none">
     <button class="slds-button_reset slds-text-link">Add Filter</button>
     <button class="slds-button_reset slds-text-link slds-col_bump-left">Remove All</button>
   </div>
+
 </div>
 :::
 
 ::: legacy-component-example title="Accessibility Requirement"
 <div class="slds-filters">
   <div class="slds-text-color_error slds-m-bottom_x-small" role="alert">Filters could not be applied. Please fix the validation errors below.</div>
+
   <ol class="slds-list_vertical slds-list_vertical-space">
     <li class="slds-item slds-hint-parent">
       <div class="slds-filters__item slds-grid slds-grid_vertical-align-center">
@@ -4168,6 +4937,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-show">All Products</span>
         </button>
       </div>
+
     </li>
   </ol>
   <h3 class="slds-text-body_small slds-m-vertical_x-small">Matching all these filters</h3>
@@ -4186,6 +4956,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-assistive-text">Remove filter: Created Date equals THIS WEEK</span>
         </button>
       </div>
+
     </li>
     <li class="slds-item slds-hint-parent">
       <div class="slds-filters__item slds-grid slds-grid_vertical-align-center">
@@ -4201,6 +4972,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-assistive-text">Remove filter: List Price greater than &quot;500&quot;</span>
         </button>
       </div>
+
     </li>
     <li class="slds-item slds-hint-parent">
       <div class="slds-filters__item slds-grid slds-grid_vertical-align-center slds-has-error">
@@ -4216,6 +4988,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-assistive-text">Remove filter: Stage equals &quot;Red&quot;</span>
         </button>
       </div>
+
       <p id="error-filter-01" class="slds-text-color_error slds-m-top_xx-small">Error Message</p>
     </li>
   </ol>
@@ -4223,6 +4996,7 @@ SLDS 1 blueprint examples for **Expression**.
     <button class="slds-button_reset slds-text-link">Add Filter</button>
     <button class="slds-button_reset slds-text-link slds-col_bump-left">Remove All</button>
   </div>
+
 </div>
 :::
 
@@ -4237,6 +5011,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-show">All Products</span>
         </button>
       </div>
+
     </li>
   </ol>
   <h3 class="slds-text-body_small slds-m-vertical_x-small">Matching all these filters</h3>
@@ -4255,6 +5030,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-assistive-text">Remove filter: Created Date equals THIS WEEK</span>
         </button>
       </div>
+
     </li>
     <li class="slds-item slds-hint-parent">
       <div class="slds-filters__item slds-grid slds-grid_vertical-align-center">
@@ -4270,6 +5046,7 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-assistive-text">Remove filter: List Price greater than &quot;500&quot;</span>
         </button>
       </div>
+
     </li>
   </ol>
   <h3 class="slds-text-body_small slds-m-vertical_x-small slds-grid">Locked Filters
@@ -4286,11 +5063,13 @@ SLDS 1 blueprint examples for **Expression**.
           <span class="slds-show">equals &quot;ACME&quot;</span>
         </button>
       </div>
+
     </li>
   </ol>
   <div class="slds-filters__footer slds-grid slds-shrink-none">
     <button class="slds-button_reset slds-text-link">Add Filter</button>
     <button class="slds-button_reset slds-text-link slds-col_bump-left">Remove All</button>
   </div>
+
 </div>
 :::

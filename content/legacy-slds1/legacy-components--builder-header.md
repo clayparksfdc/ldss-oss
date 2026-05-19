@@ -17,6 +17,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         </span>
       </a>
     </div>
+
     <div class="slds-builder-header__item">
       <div class="slds-builder-header__item-label slds-media slds-media_center">
         <div class="slds-media__figure">
@@ -26,9 +27,13 @@ SLDS 1 blueprint examples for **Builder Header**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">App Name</div>
+
       </div>
+
     </div>
+
     <nav class="slds-builder-header__item slds-builder-header__nav">
       <ul class="slds-builder-header__nav-list">
         <li class="slds-builder-header__nav-item slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -57,6 +62,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-truncate" title="Page Type">Page Type</span>
       </h1>
     </div>
+
     <div class="slds-builder-header__item slds-builder-header__utilities">
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
@@ -72,6 +78,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           </span>
         </a>
       </div>
+
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
           <div class="slds-media__figure">
@@ -81,12 +88,17 @@ SLDS 1 blueprint examples for **Builder Header**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">Help</div>
+
         </a>
       </div>
+
     </div>
+
   </header>
 </div>
+
 :::
 
 ::: legacy-component-example title="With open dropdown menu"
@@ -102,6 +114,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         </span>
       </a>
     </div>
+
     <div class="slds-builder-header__item">
       <div class="slds-builder-header__item-label slds-media slds-media_center">
         <div class="slds-media__figure">
@@ -111,9 +124,13 @@ SLDS 1 blueprint examples for **Builder Header**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">App Name</div>
+
       </div>
+
     </div>
+
     <nav class="slds-builder-header__item slds-builder-header__nav">
       <ul class="slds-builder-header__nav-list">
         <li class="slds-builder-header__nav-item slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -154,6 +171,7 @@ SLDS 1 blueprint examples for **Builder Header**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </nav>
@@ -162,6 +180,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-truncate" title="Page Type">Page Type</span>
       </h1>
     </div>
+
     <div class="slds-builder-header__item slds-builder-header__utilities">
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
@@ -177,6 +196,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           </span>
         </a>
       </div>
+
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
           <div class="slds-media__figure">
@@ -186,12 +206,17 @@ SLDS 1 blueprint examples for **Builder Header**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">Help</div>
+
         </a>
       </div>
+
     </div>
+
   </header>
 </div>
+
 :::
 
 ::: legacy-component-example title="Accessibility Note"
@@ -208,8 +233,11 @@ SLDS 1 blueprint examples for **Builder Header**.
       </a>
       <div class="slds-popover slds-popover_tooltip slds-nubbin_top-left" role="tooltip" id="example-unique-id-62" style="position:absolute;top:100%;margin-top:15px">
         <div class="slds-popover__body">Back</div>
+
       </div>
+
     </div>
+
     <div class="slds-builder-header__item">
       <div class="slds-builder-header__item-label slds-media slds-media_center">
         <div class="slds-media__figure">
@@ -219,9 +247,13 @@ SLDS 1 blueprint examples for **Builder Header**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">App Name</div>
+
       </div>
+
     </div>
+
     <nav class="slds-builder-header__item slds-builder-header__nav">
       <ul class="slds-builder-header__nav-list">
         <li class="slds-builder-header__nav-item slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -250,6 +282,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-truncate" title="Page Type">Page Type</span>
       </h1>
     </div>
+
     <div class="slds-builder-header__item slds-builder-header__utilities">
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
@@ -265,6 +298,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           </span>
         </a>
       </div>
+
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
           <div class="slds-media__figure">
@@ -274,12 +308,17 @@ SLDS 1 blueprint examples for **Builder Header**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">Help</div>
+
         </a>
       </div>
+
     </div>
+
   </header>
 </div>
+
 :::
 
 ::: legacy-component-example title="With a Truncated Name"
@@ -295,6 +334,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         </span>
       </a>
     </div>
+
     <div class="slds-builder-header__item">
       <div class="slds-builder-header__item-label slds-media slds-media_center">
         <div class="slds-media__figure">
@@ -304,9 +344,13 @@ SLDS 1 blueprint examples for **Builder Header**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">App Name</div>
+
       </div>
+
     </div>
+
     <nav class="slds-builder-header__item slds-builder-header__nav">
       <ul class="slds-builder-header__nav-list">
         <li class="slds-builder-header__nav-item slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -335,6 +379,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-truncate" title="Page Type with a very very long name that will truncate when the container is not wide enough to contain this content completely">Page Type with a very very long name that will truncate when the container is not wide enough to contain this content completely</span>
       </h1>
     </div>
+
     <div class="slds-builder-header__item slds-builder-header__utilities">
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
@@ -350,6 +395,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           </span>
         </a>
       </div>
+
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
           <div class="slds-media__figure">
@@ -359,12 +405,17 @@ SLDS 1 blueprint examples for **Builder Header**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">Help</div>
+
         </a>
       </div>
+
     </div>
+
   </header>
 </div>
+
 :::
 
 ::: legacy-component-example title="With a Toolbar"
@@ -380,6 +431,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         </span>
       </a>
     </div>
+
     <div class="slds-builder-header__item">
       <div class="slds-builder-header__item-label slds-media slds-media_center">
         <div class="slds-media__figure">
@@ -389,9 +441,13 @@ SLDS 1 blueprint examples for **Builder Header**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">App Name</div>
+
       </div>
+
     </div>
+
     <nav class="slds-builder-header__item slds-builder-header__nav">
       <ul class="slds-builder-header__nav-list">
         <li class="slds-builder-header__nav-item slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -420,6 +476,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-truncate" title="Page Type">Page Type</span>
       </h1>
     </div>
+
     <div class="slds-builder-header__item slds-builder-header__utilities">
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
@@ -435,6 +492,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           </span>
         </a>
       </div>
+
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
           <div class="slds-media__figure">
@@ -444,10 +502,14 @@ SLDS 1 blueprint examples for **Builder Header**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">Help</div>
+
         </a>
       </div>
+
     </div>
+
   </header>
   <div class="slds-builder-toolbar" role="toolbar">
     <div class="slds-builder-toolbar__item-group" aria-label="Canvas Actions">
@@ -471,7 +533,9 @@ SLDS 1 blueprint examples for **Builder Header**.
           <span class="slds-assistive-text">Redo</span>
         </button>
       </div>
+
     </div>
+
     <div class="slds-builder-toolbar__item-group" aria-label="Edit actions">
       <div class="slds-button-group">
         <button class="slds-button slds-button_icon slds-button_icon-border" title="Cut" tabindex="-1">
@@ -493,6 +557,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           <span class="slds-assistive-text">Paste</span>
         </button>
       </div>
+
       <button class="slds-button slds-button_icon slds-button_icon-border" title="Toggle Panel">
         <svg class="slds-button__icon" aria-hidden="true">
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#toggle_panel_left"></use>
@@ -500,6 +565,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-assistive-text">Toggle Panel</span>
       </button>
     </div>
+
     <div class="slds-builder-toolbar__actions" aria-label="Document actions">
       <button class="slds-button slds-button_neutral">
         <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
@@ -508,7 +574,9 @@ SLDS 1 blueprint examples for **Builder Header**.
       <button class="slds-button slds-button_neutral">Save As</button>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -525,6 +593,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         </span>
       </a>
     </div>
+
     <div class="slds-builder-header__item">
       <div class="slds-builder-header__item-label slds-media slds-media_center">
         <div class="slds-media__figure">
@@ -534,9 +603,13 @@ SLDS 1 blueprint examples for **Builder Header**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">App Name</div>
+
       </div>
+
     </div>
+
     <nav class="slds-builder-header__item slds-builder-header__nav">
       <ul class="slds-builder-header__nav-list">
         <li class="slds-builder-header__nav-item slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -565,6 +638,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-truncate" title="Page Type">Page Type</span>
       </h1>
     </div>
+
     <div class="slds-builder-header__item slds-builder-header__utilities">
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
@@ -580,6 +654,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           </span>
         </a>
       </div>
+
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
           <div class="slds-media__figure">
@@ -589,10 +664,14 @@ SLDS 1 blueprint examples for **Builder Header**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">Help</div>
+
         </a>
       </div>
+
     </div>
+
   </header>
   <div class="slds-builder-toolbar" role="toolbar">
     <div class="slds-builder-toolbar__item-group" aria-label="Canvas Actions">
@@ -616,7 +695,9 @@ SLDS 1 blueprint examples for **Builder Header**.
           <span class="slds-assistive-text">Redo</span>
         </button>
       </div>
+
     </div>
+
     <div class="slds-builder-toolbar__item-group" aria-label="Edit actions">
       <div class="slds-button-group">
         <button class="slds-button slds-button_icon slds-button_icon-border" title="Cut" tabindex="-1">
@@ -638,6 +719,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           <span class="slds-assistive-text">Paste</span>
         </button>
       </div>
+
       <button class="slds-button slds-button_icon slds-button_icon-border" title="Toggle Panel">
         <svg class="slds-button__icon" aria-hidden="true">
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#toggle_panel_left"></use>
@@ -645,6 +727,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-assistive-text">Toggle Panel</span>
       </button>
     </div>
+
     <div class="slds-builder-toolbar__actions" aria-label="Document actions">
       <button class="slds-button slds-p-horizontal_small" aria-live="polite">Inactive - Modified 1 day ago</button>
       <button class="slds-button slds-button_neutral">
@@ -654,7 +737,9 @@ SLDS 1 blueprint examples for **Builder Header**.
       <button class="slds-button slds-button_neutral">Save As</button>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -671,6 +756,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         </span>
       </a>
     </div>
+
     <div class="slds-builder-header__item">
       <div class="slds-builder-header__item-label slds-media slds-media_center">
         <div class="slds-media__figure">
@@ -680,9 +766,13 @@ SLDS 1 blueprint examples for **Builder Header**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">App Name</div>
+
       </div>
+
     </div>
+
     <nav class="slds-builder-header__item slds-builder-header__nav">
       <ul class="slds-builder-header__nav-list">
         <li class="slds-builder-header__nav-item slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -711,6 +801,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-truncate" title="Page Type">Page Type</span>
       </h1>
     </div>
+
     <div class="slds-builder-header__item slds-builder-header__utilities">
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
@@ -726,6 +817,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           </span>
         </a>
       </div>
+
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
           <div class="slds-media__figure">
@@ -735,10 +827,14 @@ SLDS 1 blueprint examples for **Builder Header**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">Help</div>
+
         </a>
       </div>
+
     </div>
+
   </header>
   <div class="slds-builder-toolbar" role="toolbar">
     <div class="slds-builder-toolbar__item-group" aria-label="Canvas Actions">
@@ -762,7 +858,9 @@ SLDS 1 blueprint examples for **Builder Header**.
           <span class="slds-assistive-text">Redo</span>
         </button>
       </div>
+
     </div>
+
     <div class="slds-builder-toolbar__item-group" aria-label="Edit actions">
       <div class="slds-button-group">
         <button class="slds-button slds-button_icon slds-button_icon-border" title="Cut" tabindex="-1">
@@ -784,6 +882,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           <span class="slds-assistive-text">Paste</span>
         </button>
       </div>
+
       <button class="slds-button slds-button_icon slds-button_icon-border" title="Toggle Panel">
         <svg class="slds-button__icon" aria-hidden="true">
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#toggle_panel_left"></use>
@@ -791,6 +890,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-assistive-text">Toggle Panel</span>
       </button>
     </div>
+
     <div class="slds-builder-toolbar__actions" aria-label="Document actions">
       <button class="slds-button slds-p-horizontal_small" aria-live="polite">Inactive - Modified 1 day ago</button>
       <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-warning" title="warning">
@@ -806,7 +906,9 @@ SLDS 1 blueprint examples for **Builder Header**.
       <button class="slds-button slds-button_neutral">Save As</button>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -823,6 +925,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         </span>
       </a>
     </div>
+
     <div class="slds-builder-header__item">
       <div class="slds-builder-header__item-label slds-media slds-media_center">
         <div class="slds-media__figure">
@@ -832,9 +935,13 @@ SLDS 1 blueprint examples for **Builder Header**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">App Name</div>
+
       </div>
+
     </div>
+
     <nav class="slds-builder-header__item slds-builder-header__nav">
       <ul class="slds-builder-header__nav-list">
         <li class="slds-builder-header__nav-item slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -863,6 +970,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-truncate" title="Page Type">Page Type</span>
       </h1>
     </div>
+
     <div class="slds-builder-header__item slds-builder-header__utilities">
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
@@ -878,6 +986,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           </span>
         </a>
       </div>
+
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
           <div class="slds-media__figure">
@@ -887,10 +996,14 @@ SLDS 1 blueprint examples for **Builder Header**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">Help</div>
+
         </a>
       </div>
+
     </div>
+
   </header>
   <div class="slds-builder-toolbar" role="toolbar">
     <div class="slds-builder-toolbar__item-group" aria-label="Canvas Actions">
@@ -914,7 +1027,9 @@ SLDS 1 blueprint examples for **Builder Header**.
           <span class="slds-assistive-text">Redo</span>
         </button>
       </div>
+
     </div>
+
     <div class="slds-builder-toolbar__item-group" aria-label="Edit actions">
       <div class="slds-button-group">
         <button class="slds-button slds-button_icon slds-button_icon-border" title="Cut" tabindex="-1">
@@ -936,6 +1051,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           <span class="slds-assistive-text">Paste</span>
         </button>
       </div>
+
       <button class="slds-button slds-button_icon slds-button_icon-border" title="Toggle Panel">
         <svg class="slds-button__icon" aria-hidden="true">
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#toggle_panel_left"></use>
@@ -943,6 +1059,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-assistive-text">Toggle Panel</span>
       </button>
     </div>
+
     <div class="slds-builder-toolbar__actions" aria-label="Document actions">
       <button class="slds-button slds-p-horizontal_small" aria-live="polite">Inactive - Modified 1 day ago</button>
       <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-error" title="error">
@@ -958,7 +1075,9 @@ SLDS 1 blueprint examples for **Builder Header**.
       <button class="slds-button slds-button_neutral">Save As</button>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -975,6 +1094,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         </span>
       </a>
     </div>
+
     <div class="slds-builder-header__item">
       <div class="slds-builder-header__item-label slds-media slds-media_center">
         <div class="slds-media__figure">
@@ -984,9 +1104,13 @@ SLDS 1 blueprint examples for **Builder Header**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">App Name</div>
+
       </div>
+
     </div>
+
     <nav class="slds-builder-header__item slds-builder-header__nav">
       <ul class="slds-builder-header__nav-list">
         <li class="slds-builder-header__nav-item slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -1015,6 +1139,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-truncate" title="Page Type">Page Type</span>
       </h1>
     </div>
+
     <div class="slds-builder-header__item slds-builder-header__utilities">
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
@@ -1030,6 +1155,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           </span>
         </a>
       </div>
+
       <div class="slds-builder-header__utilities-item">
         <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
           <div class="slds-media__figure">
@@ -1039,10 +1165,14 @@ SLDS 1 blueprint examples for **Builder Header**.
               </svg>
             </span>
           </div>
+
           <div class="slds-media__body">Help</div>
+
         </a>
       </div>
+
     </div>
+
   </header>
   <div class="slds-builder-toolbar" role="toolbar">
     <div class="slds-builder-toolbar__item-group" aria-label="Canvas Actions">
@@ -1066,7 +1196,9 @@ SLDS 1 blueprint examples for **Builder Header**.
           <span class="slds-assistive-text">Redo</span>
         </button>
       </div>
+
     </div>
+
     <div class="slds-builder-toolbar__item-group" aria-label="Edit actions">
       <div class="slds-button-group">
         <button class="slds-button slds-button_icon slds-button_icon-border" title="Cut" tabindex="-1">
@@ -1088,6 +1220,7 @@ SLDS 1 blueprint examples for **Builder Header**.
           <span class="slds-assistive-text">Paste</span>
         </button>
       </div>
+
       <button class="slds-button slds-button_icon slds-button_icon-border" title="Toggle Panel">
         <svg class="slds-button__icon" aria-hidden="true">
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#toggle_panel_left"></use>
@@ -1095,6 +1228,7 @@ SLDS 1 blueprint examples for **Builder Header**.
         <span class="slds-assistive-text">Toggle Panel</span>
       </button>
     </div>
+
     <div class="slds-builder-toolbar__actions" aria-label="Document actions">
       <button class="slds-button slds-p-horizontal_small" aria-live="polite">Inactive - Modified 1 day ago</button>
       <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-warning" title="warning">
@@ -1116,6 +1250,8 @@ SLDS 1 blueprint examples for **Builder Header**.
       <button class="slds-button slds-button_neutral">Save As</button>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </div>
+
 </div>
 :::

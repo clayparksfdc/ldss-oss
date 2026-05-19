@@ -10,7 +10,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-103">First Category</span>
         <div class="slds-dueling-list__options">
@@ -21,6 +23,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 1">Option 1</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -28,6 +31,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 2">Option 2</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -35,6 +39,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 3">Option 3</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -42,10 +47,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 6">Option 6</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -60,6 +68,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to First Category</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-104">Second Category</span>
         <div class="slds-dueling-list__options">
@@ -70,6 +79,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 4">Option 4</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -77,10 +87,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 5">Option 5</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection Up">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -95,8 +108,11 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection Down</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -106,7 +122,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column slds-dueling-list__column_responsive">
         <span class="slds-form-element__label" id="label-107">Available Languages</span>
         <div class="slds-dueling-list__options">
@@ -117,6 +135,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Arabic">Arabic</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -124,6 +143,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Dutch">Dutch</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -131,6 +151,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="German">German</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -138,6 +159,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Hindi">Hindi</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -145,10 +167,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Tobagonian Creole English">Tobagonian Creole English</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Selected Languages">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -163,6 +188,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to Available Languages</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column slds-dueling-list__column_responsive">
         <span class="slds-form-element__label" id="label-108">Selected Languages</span>
         <div class="slds-dueling-list__options">
@@ -173,6 +199,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Chinese">Chinese</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -180,12 +207,17 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="English">English</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -195,7 +227,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-111">Available Languages</span>
         <div class="slds-dueling-list__options">
@@ -206,6 +240,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Arabic">Arabic</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -213,6 +248,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Dutch">Dutch</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -220,6 +256,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="German">German</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -227,6 +264,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Hindi">Hindi</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -234,10 +272,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Tobagonian Creole English">Tobagonian Creole English</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Selected Languages">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -252,6 +293,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to Available Languages</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-112">Selected Languages</span>
         <div class="slds-dueling-list__options">
@@ -262,6 +304,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Chinese">Chinese</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -269,12 +312,17 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="English">English</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -284,7 +332,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-115">Available Languages</span>
         <div class="slds-dueling-list__options">
@@ -295,6 +345,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Arabic">Arabic</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -302,6 +353,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Dutch">Dutch</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline slds-is-selected" aria-selected="true" draggable="true" role="option" tabindex="0">
@@ -309,6 +361,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="German">German</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -316,6 +369,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Hindi">Hindi</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -323,10 +377,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Tobagonian Creole English">Tobagonian Creole English</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Selected Languages">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -341,6 +398,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to Available Languages</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-116">Selected Languages</span>
         <div class="slds-dueling-list__options">
@@ -351,6 +409,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Chinese">Chinese</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -358,12 +417,17 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="English">English</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -373,7 +437,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-119">Available Languages</span>
         <div class="slds-dueling-list__options">
@@ -384,6 +450,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Arabic">Arabic</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -391,6 +458,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Dutch">Dutch</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline slds-is-selected" aria-selected="true" draggable="true" role="option" tabindex="0">
@@ -398,6 +466,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="German">German</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -405,6 +474,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Hindi">Hindi</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -412,10 +482,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Tobagonian Creole English">Tobagonian Creole English</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Selected Languages">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -430,6 +503,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to Available Languages</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-120">Selected Languages</span>
         <div class="slds-dueling-list__options">
@@ -440,6 +514,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Chinese">Chinese</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -447,12 +522,17 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="English">English</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -462,7 +542,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive">Arabic and German: Moved to Selected Languages.</div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-123">Available Languages</span>
         <div class="slds-dueling-list__options">
@@ -473,6 +555,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Dutch">Dutch</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -480,6 +563,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Hindi">Hindi</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -487,10 +571,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Tobagonian Creole English">Tobagonian Creole English</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Selected Languages">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -505,6 +592,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to Available Languages</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-124">Selected Languages</span>
         <div class="slds-dueling-list__options">
@@ -515,6 +603,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Arabic">Arabic</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -522,6 +611,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Chinese">Chinese</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -529,6 +619,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="English">English</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline slds-is-selected" aria-selected="true" draggable="true" role="option" tabindex="0">
@@ -536,12 +627,17 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="German">German</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -551,7 +647,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-127">First Category</span>
         <div class="slds-dueling-list__options">
@@ -562,6 +660,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 1">Option 1</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -569,6 +668,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 2">Option 2</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -576,6 +676,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 3">Option 3</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -583,10 +684,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 6">Option 6</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -601,6 +705,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to First Category</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-128">Second Category</span>
         <div class="slds-dueling-list__options">
@@ -619,6 +724,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   </span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -626,12 +732,17 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 5">Option 5</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -641,7 +752,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-131">First Category</span>
         <div class="slds-dueling-list__options">
@@ -652,6 +765,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 1">Option 1</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -659,6 +773,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 2">Option 2</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -666,6 +781,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 3">Option 3</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -673,10 +789,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 6">Option 6</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -691,6 +810,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to First Category</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-132">Second Category</span>
         <div class="slds-dueling-list__options">
@@ -701,6 +821,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 4">Option 4</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -708,10 +829,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 5">Option 5</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection Up">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -726,8 +850,11 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection Down</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -737,7 +864,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-135">First Category</span>
         <div class="slds-dueling-list__options">
@@ -748,6 +877,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 1">Option 1</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -755,6 +885,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 2">Option 2</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -762,6 +893,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 3">Option 3</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -769,10 +901,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 6">Option 6</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -787,6 +922,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to First Category</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-136">Second Category</span>
         <div class="slds-dueling-list__options">
@@ -797,6 +933,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 4">Option 4</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline slds-is-selected" aria-selected="true" draggable="true" role="option" tabindex="0">
@@ -804,10 +941,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 5">Option 5</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection Up">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -822,8 +962,11 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection Down</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -833,7 +976,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive">Option 5: current position 2 of 2. Press up or down arrows to move within list.</div>
+
       <div class="slds-assistive-text" id="option-drag-label"></div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-139">First Category</span>
         <div class="slds-dueling-list__options">
@@ -844,6 +989,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 1">Option 1</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -851,6 +997,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 2">Option 2</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -858,6 +1005,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 3">Option 3</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -865,10 +1013,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 6">Option 6</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -883,6 +1034,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to First Category</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-140">Second Category</span>
         <div class="slds-dueling-list__options">
@@ -893,6 +1045,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 4">Option 4</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline slds-is-grabbed slds-is-selected" aria-selected="true" draggable="true" role="option" tabindex="0">
@@ -900,10 +1053,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 5">Option 5</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection Up">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -918,8 +1074,11 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection Down</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -929,7 +1088,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive">Option 5: current position 1 of 2.</div>
+
       <div class="slds-assistive-text" id="option-drag-label"></div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-143">First Category</span>
         <div class="slds-dueling-list__options">
@@ -940,6 +1101,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 1">Option 1</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -947,6 +1109,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 3">Option 3</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -954,6 +1117,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 2">Option 2</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -961,10 +1125,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 6">Option 6</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -979,6 +1146,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to First Category</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-144">Second Category</span>
         <div class="slds-dueling-list__options">
@@ -989,6 +1157,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 5">Option 5</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -996,10 +1165,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 4">Option 4</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection Up">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1014,8 +1186,11 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection Down</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1025,7 +1200,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive">Option 5: final position 1 of 2.</div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-147">First Category</span>
         <div class="slds-dueling-list__options">
@@ -1036,6 +1213,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 1">Option 1</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1043,6 +1221,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 3">Option 3</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1050,6 +1229,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 2">Option 2</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1057,10 +1237,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 6">Option 6</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1075,6 +1258,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to First Category</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-148">Second Category</span>
         <div class="slds-dueling-list__options">
@@ -1085,6 +1269,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 5">Option 5</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1092,10 +1277,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 4">Option 4</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection Up">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1110,8 +1298,11 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection Down</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1121,7 +1312,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-151">First Category</span>
         <div class="slds-dueling-list__options slds-is-disabled">
@@ -1132,6 +1325,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 1">Option 1</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1139,6 +1333,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 2">Option 2</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1146,6 +1341,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 3">Option 3</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1153,10 +1349,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 6">Option 6</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category" disabled="">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1171,6 +1370,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to First Category</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-152">Second Category</span>
         <div class="slds-dueling-list__options slds-is-disabled">
@@ -1181,6 +1381,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 4">Option 4</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1188,10 +1389,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 5">Option 5</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection Up" disabled="">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1206,8 +1410,11 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection Down</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1218,7 +1425,9 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-155">First Category</span>
         <div class="slds-dueling-list__options">
@@ -1229,6 +1438,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 1">Option 1</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1236,6 +1446,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 2">Option 2</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1243,6 +1454,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 3">Option 3</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1250,10 +1462,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 6">Option 6</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1268,6 +1483,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection to First Category</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-156">Second Category</span>
         <div class="slds-dueling-list__options">
@@ -1278,6 +1494,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 4">Option 4</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1285,10 +1502,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                   <span class="slds-truncate" title="Option 5">Option 5</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection Up">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -1303,8 +1523,11 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
           <span class="slds-assistive-text">Move Selection Down</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1321,12 +1544,17 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
       </button>
       <div class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left" role="tooltip" id="help" style="position:absolute;top:-45px;left:-15px;width:170px">
         <div class="slds-popover__body">Some helpful information.</div>
+
       </div>
+
     </div>
+
     <div class="slds-form-element__control">
       <div class="slds-dueling-list">
         <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
         <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
         <div class="slds-dueling-list__column">
           <span class="slds-form-element__label" id="label-159">First Category</span>
           <div class="slds-dueling-list__options">
@@ -1337,6 +1565,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 1">Option 1</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1344,6 +1573,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 2">Option 2</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1351,6 +1581,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 3">Option 3</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1358,10 +1589,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 6">Option 6</span>
                   </span>
                 </div>
+
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-dueling-list__column">
           <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1376,6 +1610,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
             <span class="slds-assistive-text">Move Selection to First Category</span>
           </button>
         </div>
+
         <div class="slds-dueling-list__column">
           <span class="slds-form-element__label" id="label-160">Second Category</span>
           <div class="slds-dueling-list__options">
@@ -1386,6 +1621,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 4">Option 4</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1393,10 +1629,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 5">Option 5</span>
                   </span>
                 </div>
+
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-dueling-list__column">
           <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection Up">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1411,9 +1650,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
             <span class="slds-assistive-text">Move Selection Down</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1431,12 +1674,17 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
       </button>
       <div class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left" role="tooltip" id="help" style="position:absolute;top:-45px;left:-15px;width:170px">
         <div class="slds-popover__body">Some helpful information.</div>
+
       </div>
+
     </div>
+
     <div class="slds-form-element__control">
       <div class="slds-dueling-list">
         <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
         <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
         <div class="slds-dueling-list__column">
           <span class="slds-form-element__label" id="label-163">First Category</span>
           <div class="slds-dueling-list__options">
@@ -1447,6 +1695,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 1">Option 1</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1454,6 +1703,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 2">Option 2</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1461,6 +1711,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 3">Option 3</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1468,10 +1719,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 6">Option 6</span>
                   </span>
                 </div>
+
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-dueling-list__column">
           <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1486,6 +1740,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
             <span class="slds-assistive-text">Move Selection to First Category</span>
           </button>
         </div>
+
         <div class="slds-dueling-list__column">
           <span class="slds-form-element__label" id="label-164">Second Category</span>
           <div class="slds-dueling-list__options">
@@ -1496,6 +1751,7 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 4">Option 4</span>
                   </span>
                 </div>
+
               </li>
               <li role="presentation" class="slds-listbox__item">
                 <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -1503,10 +1759,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
                     <span class="slds-truncate" title="Option 5">Option 5</span>
                   </span>
                 </div>
+
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-dueling-list__column">
           <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection Up">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1521,9 +1780,13 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
             <span class="slds-assistive-text">Move Selection Down</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1534,6 +1797,8 @@ SLDS 1 blueprint examples for **Dueling Picklist**.
     <div class="slds-form-element__control">
       <span class="slds-form-element__static">Arabic, Chinese, English, German</span>
     </div>
+
   </div>
+
 </div>
 :::

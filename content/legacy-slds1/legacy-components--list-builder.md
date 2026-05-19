@@ -18,6 +18,7 @@ SLDS 1 blueprint examples for **List Builder**.
         <h1 id="id-of-modalheader-h1" class="slds-text-heading_medium">Add products</h1>
         <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
       </div>
+
       <div class="slds-modal__content slds-grid slds-grow" id="modal-content-id-1">
         <div class="slds-grid slds-grid_vertical">
           <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
@@ -35,6 +36,7 @@ SLDS 1 blueprint examples for **List Builder**.
                         </svg>
                       </span>
                     </div>
+
                     <div id="example-unique-id-181" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -43,6 +45,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option A">Option A</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option82" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -50,6 +53,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option B">Option B</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option83" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -57,6 +61,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option C">Option C</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option84" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -64,15 +69,23 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option D">Option D</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-text-title slds-m-top_x-small" aria-live="polite">0 Item(s) Selected</div>
+
           </div>
+
           <div class="slds-scrollable slds-grow">
             <div class="slds-scrollable_none">
               <table aria-multiselectable="true" class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid" aria-label="Example product list">
@@ -90,6 +103,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-69" max="1000" min="20" tabindex="-1" />
@@ -97,6 +111,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -109,6 +124,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Product Code column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-70" max="1000" min="20" tabindex="-1" />
@@ -116,6 +132,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -128,6 +145,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="List Price column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-71" max="1000" min="20" tabindex="-1" />
@@ -135,6 +153,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -147,6 +166,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Product Family column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-72" max="1000" min="20" tabindex="-1" />
@@ -154,6 +174,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                   </tr>
                 </thead>
@@ -172,15 +193,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -197,15 +222,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -222,15 +251,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -247,15 +280,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -272,15 +309,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -297,15 +338,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -322,15 +367,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -347,30 +396,41 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-modal__footer">
         <button class="slds-button slds-button_neutral" aria-label="Cancel and close">Cancel</button>
         <button class="slds-button slds-button_brand">Next</button>
       </div>
+
     </div>
+
   </section>
   <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 </div>
 :::
 
@@ -388,6 +448,7 @@ SLDS 1 blueprint examples for **List Builder**.
         <h1 id="id-of-modalheader-h1" class="slds-text-heading_medium">Add products</h1>
         <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
       </div>
+
       <div class="slds-modal__content slds-grid slds-nowrap" id="modal-content-id-1">
         <div class="slds-col slds-grid slds-grid_vertical slds-nowrap">
           <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
@@ -405,6 +466,7 @@ SLDS 1 blueprint examples for **List Builder**.
                         </svg>
                       </span>
                     </div>
+
                     <div id="example-unique-id-201" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -413,6 +475,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option A">Option A</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option90" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -420,6 +483,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option B">Option B</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option91" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -427,6 +491,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option C">Option C</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option92" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -434,13 +499,19 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option D">Option D</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-pill_container slds-pill_container_bare">
               <ul class="slds-listbox slds-listbox_horizontal" aria-label="Selected Options:">
                 <li class="slds-listbox-item">
@@ -458,8 +529,11 @@ SLDS 1 blueprint examples for **List Builder**.
                 </li>
               </ul>
             </div>
+
             <div class="slds-text-title slds-m-top_x-small" aria-live="polite">1 Item(s) Selected</div>
+
           </div>
+
           <div class="slds-scrollable slds-grow">
             <div class="slds-scrollable_none">
               <table aria-multiselectable="true" class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid" aria-label="Example product list">
@@ -477,6 +551,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-77" max="1000" min="20" tabindex="-1" />
@@ -484,6 +559,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -496,6 +572,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Product Code column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-78" max="1000" min="20" tabindex="-1" />
@@ -503,6 +580,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -515,6 +593,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="List Price column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-79" max="1000" min="20" tabindex="-1" />
@@ -522,6 +601,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -534,6 +614,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Product Family column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-80" max="1000" min="20" tabindex="-1" />
@@ -541,6 +622,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                   </tr>
                 </thead>
@@ -559,15 +641,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -584,15 +670,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -609,15 +699,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -634,15 +728,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -659,15 +757,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -684,15 +786,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -709,15 +815,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -734,30 +844,41 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-modal__footer">
         <button class="slds-button slds-button_neutral" aria-label="Cancel and close">Cancel</button>
         <button class="slds-button slds-button_brand">Next</button>
       </div>
+
     </div>
+
   </section>
   <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 </div>
 :::
 
@@ -775,6 +896,7 @@ SLDS 1 blueprint examples for **List Builder**.
         <h1 id="id-of-modalheader-h1" class="slds-text-heading_medium">Add products</h1>
         <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
       </div>
+
       <div class="slds-modal__content slds-grid slds-nowrap" id="modal-content-id-1">
         <div class="slds-col slds-grid slds-grid_vertical slds-nowrap">
           <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
@@ -792,6 +914,7 @@ SLDS 1 blueprint examples for **List Builder**.
                         </svg>
                       </span>
                     </div>
+
                     <div id="example-unique-id-221" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -800,6 +923,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option A">Option A</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option98" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -807,6 +931,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option B">Option B</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option99" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -814,6 +939,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option C">Option C</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option100" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -821,15 +947,23 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option D">Option D</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-text-title slds-m-top_x-small" aria-live="polite">0 Item(s) Selected</div>
+
           </div>
+
           <div class="slds-scrollable slds-grow">
             <div class="slds-scrollable_none">
               <table aria-multiselectable="true" class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid" aria-label="Example product list">
@@ -847,6 +981,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-85" max="1000" min="20" tabindex="-1" />
@@ -854,6 +989,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -866,6 +1002,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Product Code column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-86" max="1000" min="20" tabindex="-1" />
@@ -873,6 +1010,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -885,6 +1023,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="List Price column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-87" max="1000" min="20" tabindex="-1" />
@@ -892,6 +1031,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -904,6 +1044,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Product Family column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-88" max="1000" min="20" tabindex="-1" />
@@ -911,6 +1052,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                   </tr>
                 </thead>
@@ -929,15 +1071,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -954,15 +1100,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -979,15 +1129,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1004,15 +1158,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1029,15 +1187,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1054,15 +1216,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1079,15 +1245,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1104,30 +1274,41 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-modal__footer">
         <button class="slds-button slds-button_neutral" aria-label="Cancel and close">Cancel</button>
         <button class="slds-button slds-button_brand">Next</button>
       </div>
+
     </div>
+
   </section>
   <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 </div>
 :::
 
@@ -1145,6 +1326,7 @@ SLDS 1 blueprint examples for **List Builder**.
         <h1 id="id-of-modalheader-h1" class="slds-text-heading_medium">Add products</h1>
         <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
       </div>
+
       <div class="slds-modal__content slds-grid slds-nowrap" id="modal-content-id-1">
         <div class="slds-col slds-grid slds-grid_vertical slds-nowrap">
           <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
@@ -1162,6 +1344,7 @@ SLDS 1 blueprint examples for **List Builder**.
                         </svg>
                       </span>
                     </div>
+
                     <div id="example-unique-id-241" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1170,6 +1353,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option A">Option A</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option106" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1177,6 +1361,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option B">Option B</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option107" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1184,6 +1369,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option C">Option C</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option108" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1191,15 +1377,23 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option D">Option D</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-text-title slds-m-top_x-small" aria-live="polite">0 Item(s) Selected</div>
+
           </div>
+
           <div class="slds-scrollable slds-grow">
             <div class="slds-scrollable_none">
               <table aria-multiselectable="true" class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid" aria-label="Example product list">
@@ -1217,6 +1411,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-93" max="1000" min="20" tabindex="-1" />
@@ -1224,6 +1419,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -1236,6 +1432,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Product Code column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-94" max="1000" min="20" tabindex="-1" />
@@ -1243,6 +1440,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -1255,6 +1453,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="List Price column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-95" max="1000" min="20" tabindex="-1" />
@@ -1262,6 +1461,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -1274,6 +1474,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Product Family column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-96" max="1000" min="20" tabindex="-1" />
@@ -1281,6 +1482,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                   </tr>
                 </thead>
@@ -1299,15 +1501,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="true" class="slds-hint-parent slds-is-selected">
@@ -1324,15 +1530,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1349,15 +1559,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="true" class="slds-hint-parent slds-is-selected">
@@ -1374,15 +1588,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1399,15 +1617,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="true" class="slds-hint-parent slds-is-selected">
@@ -1424,15 +1646,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1449,15 +1675,19 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="true" class="slds-hint-parent slds-is-selected">
@@ -1474,30 +1704,41 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-modal__footer">
         <button class="slds-button slds-button_neutral" aria-label="Cancel and close">Cancel</button>
         <button class="slds-button slds-button_brand">Next</button>
       </div>
+
     </div>
+
   </section>
   <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 </div>
 :::
 
@@ -1515,6 +1756,7 @@ SLDS 1 blueprint examples for **List Builder**.
         <h1 id="id-of-modalheader-h1" class="slds-text-heading_medium">Add products</h1>
         <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
       </div>
+
       <div class="slds-modal__content slds-grid slds-grow" id="modal-content-id-1">
         <div class="slds-grid slds-grid_vertical">
           <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
@@ -1532,6 +1774,7 @@ SLDS 1 blueprint examples for **List Builder**.
                         </svg>
                       </span>
                     </div>
+
                     <div id="example-unique-id-254" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1540,6 +1783,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option A">Option A</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option114" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1547,6 +1791,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option B">Option B</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option115" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1554,6 +1799,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option C">Option C</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option116" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1561,13 +1807,19 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option D">Option D</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-pill_container slds-pill_container_bare">
               <ul class="slds-listbox slds-listbox_horizontal" aria-label="Selected Options:">
                 <li class="slds-listbox-item">
@@ -1598,8 +1850,11 @@ SLDS 1 blueprint examples for **List Builder**.
                 </li>
               </ul>
             </div>
+
             <div class="slds-text-title slds-m-top_x-small" aria-live="polite">2 Item(s) Selected</div>
+
           </div>
+
           <div class="slds-scrollable slds-grow">
             <div class="slds-scrollable_none">
               <table aria-multiselectable="true" class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid" aria-label="Example product list">
@@ -1617,6 +1872,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-101" max="1000" min="20" tabindex="-1" />
@@ -1624,6 +1880,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -1636,6 +1893,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Product Code column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-102" max="1000" min="20" tabindex="-1" />
@@ -1643,6 +1901,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -1655,6 +1914,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="List Price column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-103" max="1000" min="20" tabindex="-1" />
@@ -1662,6 +1922,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                     <th aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
                       <a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="-1">
@@ -1674,6 +1935,7 @@ SLDS 1 blueprint examples for **List Builder**.
                             </svg>
                           </span>
                         </div>
+
                       </a>
                       <div class="slds-resizable">
                         <input type="range" aria-label="Product Family column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-104" max="1000" min="20" tabindex="-1" />
@@ -1681,6 +1943,7 @@ SLDS 1 blueprint examples for **List Builder**.
                           <span class="slds-resizable__divider"></span>
                         </span>
                       </div>
+
                     </th>
                   </tr>
                 </thead>
@@ -1699,30 +1962,41 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <th scope="row">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </th>
                     <td role="gridcell">
                       <div class="slds-truncate" title="ANTLY">ANTLY</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="5000.00">5000.00</div>
+
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics Product">Analytics Product</div>
+
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-modal__footer">
         <button class="slds-button slds-button_neutral" aria-label="Cancel and close">Cancel</button>
         <button class="slds-button slds-button_brand">Next</button>
       </div>
+
     </div>
+
   </section>
   <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 </div>
 :::
 
@@ -1740,6 +2014,7 @@ SLDS 1 blueprint examples for **List Builder**.
         <h1 id="id-of-modalheader-h1" class="slds-text-heading_medium">Add products</h1>
         <p class="slds-m-top_x-small">Pricebook: Salesforce Products</p>
       </div>
+
       <div class="slds-modal__content slds-grid slds-nowrap" id="modal-content-id-1">
         <div class="slds-col slds-grid slds-grid_vertical slds-nowrap">
           <div class="slds-p-vertical_x-small slds-p-horizontal_large slds-shrink-none slds-theme_shade">
@@ -1757,6 +2032,7 @@ SLDS 1 blueprint examples for **List Builder**.
                         </svg>
                       </span>
                     </div>
+
                     <div id="example-unique-id-267" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                       <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                         <li role="presentation" class="slds-listbox__item">
@@ -1765,6 +2041,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option A">Option A</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option122" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1772,6 +2049,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option B">Option B</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option123" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1779,6 +2057,7 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option C">Option C</span>
                             </span>
                           </div>
+
                         </li>
                         <li role="presentation" class="slds-listbox__item">
                           <div id="option124" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1786,15 +2065,23 @@ SLDS 1 blueprint examples for **List Builder**.
                               <span class="" title="Option D">Option D</span>
                             </span>
                           </div>
+
                         </li>
                       </ul>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-text-title slds-m-top_x-small" aria-live="polite">0 Item(s) Selected</div>
+
           </div>
+
           <div class="slds-scrollable slds-grow">
             <div class="slds-scrollable_none">
               <table aria-multiselectable="true" class="slds-table slds-table_header-hidden slds-no-row-hover slds-table_bordered" role="grid" aria-label="Example single column product list">
@@ -1803,6 +2090,7 @@ SLDS 1 blueprint examples for **List Builder**.
                     <th class="" scope="col" style="width:3.75rem"></th>
                     <th class="" scope="col">
                       <div class="slds-truncate" title="Product Name">Product Name</div>
+
                     </th>
                   </tr>
                 </thead>
@@ -1821,6 +2109,7 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1837,6 +2126,7 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1853,6 +2143,7 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1869,6 +2160,7 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1885,6 +2177,7 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1901,6 +2194,7 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1917,6 +2211,7 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </td>
                   </tr>
                   <tr aria-selected="false" class="slds-hint-parent">
@@ -1933,20 +2228,28 @@ SLDS 1 blueprint examples for **List Builder**.
                     </td>
                     <td role="gridcell">
                       <div class="slds-truncate" title="Analytics">Analytics</div>
+
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-modal__footer">
         <button class="slds-button slds-button_neutral" aria-label="Cancel and close">Cancel</button>
         <button class="slds-button slds-button_brand">Next</button>
       </div>
+
     </div>
+
   </section>
   <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 </div>
 :::

@@ -7,6 +7,7 @@ order: 0
 
 <div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Patterns&quot;,&quot;tagline&quot;:&quot;Proven solutions for common design problems.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;gradient&quot;:&quot;linear-gradient(135deg, #831843 0%, #BE185D 50%, #F97316 100%)&quot;}" data-directive-children="[]">
 </div>
+
 The Lightning Design System reflects the patterns and components that underpin the Salesforce product. These patterns and components provide a unified language and consistent look and feel when designing apps and products within the Salesforce ecosystem.
 
 ## Guiding Principles

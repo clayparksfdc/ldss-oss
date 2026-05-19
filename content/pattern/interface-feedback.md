@@ -72,8 +72,8 @@ A salesperson updates an opportunity record after a sale, changing some of the i
 
 [Scoped Notification](https://v1.lightningdesignsystem.com/components/scoped-notifications/)**:** Best for empty states, inaccessible states, or field-level errors, not for success messages.
 3. [Popover](https://v1.lightningdesignsystem.com/components/popovers/#site-main-content)**:** Suggests a user action or communicates an error after data submission.
-4. [Toast](/components/toast)**:** Confirms a create, edit, or delete action.
-5. [Modal](/components/modals)**:** Warns a user or confirms an action is intentional.
+4. [Toast](/component/toast)**:** Confirms a create, edit, or delete action.
+5. [Modal](/component/modals)**:** Warns a user or confirms an action is intentional.
 6. Since this is a simple confirmation of a successful edit, a toast is the most appropriate component.
 
 *Feedback Component: Toast*
@@ -85,8 +85,8 @@ A salesperson updates an opportunity record after a sale, changing some of the i
 
 - [Scoped Notification](https://v1.lightningdesignsystem.com/components/scoped-notifications/)**:** Best for empty states, inaccessible states, or field-level errors, not for success messages.
 - [Popover](https://v1.lightningdesignsystem.com/components/popovers/#site-main-content)**:** Suggests a user action or communicates an error after data submission.
-- [Toast](/components/toast)**:** Confirms a create, edit, or delete action.
-- [Modal](/components/modals)**:** Warns a user or confirms an action is intentional.
+- [Toast](/component/toast)**:** Confirms a create, edit, or delete action.
+- [Modal](/component/modals)**:** Warns a user or confirms an action is intentional.
 
 - *Feedback Component: Toast*
 

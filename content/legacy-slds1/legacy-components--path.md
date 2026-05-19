@@ -64,8 +64,11 @@ SLDS 1 blueprint examples for **Path**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-grid slds-path__action">
       <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Unqualified</span>
       <button class="slds-button slds-button_brand slds-path__mark-complete">
@@ -73,7 +76,9 @@ SLDS 1 blueprint examples for **Path**.
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
         </svg>Mark Status as Complete</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -140,8 +145,11 @@ SLDS 1 blueprint examples for **Path**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-grid slds-path__action">
       <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Unqualified</span>
       <button class="slds-button slds-button_brand slds-path__mark-complete">
@@ -149,7 +157,9 @@ SLDS 1 blueprint examples for **Path**.
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
         </svg>Mark Status as Complete</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -213,13 +223,18 @@ SLDS 1 blueprint examples for **Path**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-grid slds-path__action">
       <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Unqualified</span>
       <button class="slds-button slds-button_brand slds-path__mark-complete">Mark as Current Stage</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -285,16 +300,23 @@ SLDS 1 blueprint examples for **Path**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-grid slds-path__action">
       <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Unqualified</span>
       <button class="slds-button slds-button_brand slds-path__mark-complete">Mark as Current Stage</button>
     </div>
+
   </div>
+
   <div class="slds-popover slds-popover_tooltip slds-nubbin_top" role="tooltip" style="left:0px;transform:translateX(-50%);top:0px;position:absolute">
     <div class="slds-popover__body">3 Days in Unqualified</div>
+
   </div>
+
 </div>
 :::
 
@@ -366,8 +388,11 @@ SLDS 1 blueprint examples for **Path**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-grid slds-path__action">
       <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Unqualified</span>
       <button class="slds-button slds-button_brand slds-path__mark-complete">
@@ -376,7 +401,9 @@ SLDS 1 blueprint examples for **Path**.
         </svg>Mark Status as Complete</button>
       <button class="slds-button slds-button_neutral slds-path__trigger-coaching-content" aria-expanded="false" aria-controls="path-coaching-1">Show More</button>
     </div>
+
   </div>
+
   <div class="slds-path__content slds-is-collapsed" id="path-coaching-1">
     <div class="slds-path__coach slds-grid">
       <div class="slds-path__keys">
@@ -384,6 +411,7 @@ SLDS 1 blueprint examples for **Path**.
           <h2>Key Fields This Stage</h2>
           <button class="slds-button slds-path__coach-edit slds-text-body_small">Edit</button>
         </div>
+
         <div class="slds-form" role="list">
           <div class="slds-form__row">
             <div class="slds-form__item" role="listitem">
@@ -391,32 +419,49 @@ SLDS 1 blueprint examples for **Path**.
                 <span class="slds-form-element__label">Expected Budget</span>
                 <div class="slds-form-element__control">
                   <div class="slds-form-element__static">$10,000</div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-form__row">
             <div class="slds-form__item" role="listitem">
               <div class="slds-form-element slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
                 <span class="slds-form-element__label">Lead Source</span>
                 <div class="slds-form-element__control">
                   <div class="slds-form-element__static">Marketing and Web Referral</div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-form__row">
             <div class="slds-form__item" role="listitem">
               <div class="slds-form-element slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
                 <span class="slds-form-element__label">Support Engineer</span>
                 <div class="slds-form-element__control">
                   <div class="slds-form-element__static">Jane Authur</div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-path__guidance">
         <h2 class="slds-path__coach-title">Guidance for Success</h2>
         <div class="slds-text-longform slds-path__guidance-content">
@@ -427,9 +472,13 @@ SLDS 1 blueprint examples for **Path**.
           <p>Look up
             <a href="#">needs analysis principles</a> and review selling plan with Sales Engineer.</p>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -501,8 +550,11 @@ SLDS 1 blueprint examples for **Path**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-grid slds-path__action">
       <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Unqualified</span>
       <button class="slds-button slds-button_brand slds-path__mark-complete">
@@ -511,7 +563,9 @@ SLDS 1 blueprint examples for **Path**.
         </svg>Mark Status as Complete</button>
       <button class="slds-button slds-button_neutral slds-path__trigger-coaching-content" aria-expanded="true" aria-controls="path-coaching-2">Show Less</button>
     </div>
+
   </div>
+
   <div class="slds-path__content" id="path-coaching-2">
     <div class="slds-path__coach slds-grid">
       <div class="slds-path__keys">
@@ -519,6 +573,7 @@ SLDS 1 blueprint examples for **Path**.
           <h2>Key Fields This Stage</h2>
           <button class="slds-button slds-path__coach-edit slds-text-body_small">Edit</button>
         </div>
+
         <div class="slds-form" role="list">
           <div class="slds-form__row">
             <div class="slds-form__item" role="listitem">
@@ -526,32 +581,49 @@ SLDS 1 blueprint examples for **Path**.
                 <span class="slds-form-element__label">Expected Budget</span>
                 <div class="slds-form-element__control">
                   <div class="slds-form-element__static">$10,000</div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-form__row">
             <div class="slds-form__item" role="listitem">
               <div class="slds-form-element slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
                 <span class="slds-form-element__label">Lead Source</span>
                 <div class="slds-form-element__control">
                   <div class="slds-form-element__static">Marketing and Web Referral</div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="slds-form__row">
             <div class="slds-form__item" role="listitem">
               <div class="slds-form-element slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
                 <span class="slds-form-element__label">Support Engineer</span>
                 <div class="slds-form-element__control">
                   <div class="slds-form-element__static">Jane Authur</div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-path__guidance">
         <h2 class="slds-path__coach-title">Guidance for Success</h2>
         <div class="slds-text-longform slds-path__guidance-content">
@@ -562,9 +634,13 @@ SLDS 1 blueprint examples for **Path**.
           <p>Look up
             <a href="#">needs analysis principles</a> and review selling plan with Sales Engineer.</p>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -628,13 +704,18 @@ SLDS 1 blueprint examples for **Path**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-grid slds-path__action">
       <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Unqualified</span>
       <button class="slds-button slds-button_brand slds-path__mark-complete">Change Closed State</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -702,13 +783,18 @@ SLDS 1 blueprint examples for **Path**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-grid slds-path__action">
       <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Unqualified</span>
       <button class="slds-button slds-button_brand slds-path__mark-complete">Change Closed State</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -827,9 +913,13 @@ SLDS 1 blueprint examples for **Path**.
               <span class="slds-assistive-text">Scroll right</span>
             </button>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-grid slds-path__action">
       <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Unqualified</span>
       <button class="slds-button slds-button_brand slds-path__mark-complete">
@@ -837,7 +927,9 @@ SLDS 1 blueprint examples for **Path**.
           <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
         </svg>Mark Status as Complete</button>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -904,8 +996,11 @@ SLDS 1 blueprint examples for **Path**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-grid slds-path__action">
         <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Unqualified</span>
         <button class="slds-button slds-button_brand slds-path__mark-complete">
@@ -913,8 +1008,11 @@ SLDS 1 blueprint examples for **Path**.
             <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
           </svg>Mark Status as Complete</button>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1040,9 +1138,13 @@ SLDS 1 blueprint examples for **Path**.
                 <span class="slds-assistive-text">Scroll right</span>
               </button>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-grid slds-path__action">
         <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Needs Analysis</span>
         <button class="slds-button slds-button_brand slds-path__mark-complete">
@@ -1051,7 +1153,9 @@ SLDS 1 blueprint examples for **Path**.
           </svg>Mark Status as Complete</button>
         <button class="slds-button slds-button_neutral slds-path__trigger-coaching-content" aria-expanded="true" aria-controls="path-coaching-2">Show Less</button>
       </div>
+
     </div>
+
     <div class="slds-path__content" id="path-coaching-2">
       <div class="slds-path__coach slds-grid">
         <div class="slds-path__keys">
@@ -1059,6 +1163,7 @@ SLDS 1 blueprint examples for **Path**.
             <h2>Key Fields This Stage</h2>
             <button class="slds-button slds-path__coach-edit slds-text-body_small">Edit</button>
           </div>
+
           <div class="slds-form" role="list">
             <div class="slds-form__row">
               <div class="slds-form__item" role="listitem">
@@ -1066,32 +1171,49 @@ SLDS 1 blueprint examples for **Path**.
                   <span class="slds-form-element__label">Expected Budget</span>
                   <div class="slds-form-element__control">
                     <div class="slds-form-element__static">$10,000</div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-form__row">
               <div class="slds-form__item" role="listitem">
                 <div class="slds-form-element slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
                   <span class="slds-form-element__label">Lead Source</span>
                   <div class="slds-form-element__control">
                     <div class="slds-form-element__static">Marketing and Web Referral</div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-form__row">
               <div class="slds-form__item" role="listitem">
                 <div class="slds-form-element slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
                   <span class="slds-form-element__label">Support Engineer</span>
                   <div class="slds-form-element__control">
                     <div class="slds-form-element__static">Jane Authur</div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
         <div class="slds-path__guidance">
           <h2 class="slds-path__coach-title">Guidance for Success</h2>
           <div class="slds-text-longform slds-path__guidance-content">
@@ -1102,10 +1224,15 @@ SLDS 1 blueprint examples for **Path**.
             <p>Look up
               <a href="#">needs analysis principles</a> and review selling plan with Sales Engineer.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1231,9 +1358,13 @@ SLDS 1 blueprint examples for **Path**.
                 <span class="slds-assistive-text">Scroll right</span>
               </button>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="slds-grid slds-path__action">
         <span id="slds-path__stage-name" class="slds-path__stage-name">Stage: Needs Analysis</span>
         <button class="slds-button slds-button_brand slds-path__mark-complete">
@@ -1242,7 +1373,9 @@ SLDS 1 blueprint examples for **Path**.
           </svg>Mark Status as Complete</button>
         <button class="slds-button slds-button_neutral slds-path__trigger-coaching-content" aria-expanded="true" aria-controls="path-coaching-3">Show Less</button>
       </div>
+
     </div>
+
     <div class="slds-path__content" id="path-coaching-3">
       <div class="slds-path__coach slds-grid">
         <div class="slds-path__keys">
@@ -1250,6 +1383,7 @@ SLDS 1 blueprint examples for **Path**.
             <h2>Key Fields This Stage</h2>
             <button class="slds-button slds-path__coach-edit slds-text-body_small">Edit</button>
           </div>
+
           <div class="slds-form" role="list">
             <div class="slds-form__row">
               <div class="slds-form__item" role="listitem">
@@ -1257,32 +1391,49 @@ SLDS 1 blueprint examples for **Path**.
                   <span class="slds-form-element__label">Expected Budget</span>
                   <div class="slds-form-element__control">
                     <div class="slds-form-element__static">$10,000</div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-form__row">
               <div class="slds-form__item" role="listitem">
                 <div class="slds-form-element slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
                   <span class="slds-form-element__label">Lead Source</span>
                   <div class="slds-form-element__control">
                     <div class="slds-form-element__static">Marketing and Web Referral</div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-form__row">
               <div class="slds-form__item" role="listitem">
                 <div class="slds-form-element slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
                   <span class="slds-form-element__label">Support Engineer</span>
                   <div class="slds-form-element__control">
                     <div class="slds-form-element__static">Jane Authur</div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
         <div class="slds-path__guidance">
           <h2 class="slds-path__coach-title">Guidance for Success</h2>
           <div class="slds-text-longform slds-path__guidance-content">
@@ -1293,9 +1444,14 @@ SLDS 1 blueprint examples for **Path**.
             <p>Look up
               <a href="#">needs analysis principles</a> and review selling plan with Sales Engineer.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::

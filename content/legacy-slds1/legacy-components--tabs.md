@@ -18,8 +18,11 @@ SLDS 1 blueprint examples for **Tabs**.
     </li>
   </ul>
   <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">Item One Content</div>
+
   <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">Item Two Content</div>
+
   <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">Item Three Content</div>
+
 </div>
 :::
 
@@ -37,8 +40,11 @@ SLDS 1 blueprint examples for **Tabs**.
     </li>
   </ul>
   <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">Item One Content</div>
+
   <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">Item Two Content</div>
+
   <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">Item Three Content</div>
+
 </div>
 :::
 
@@ -56,8 +62,11 @@ SLDS 1 blueprint examples for **Tabs**.
     </li>
   </ul>
   <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">Item One Content</div>
+
   <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">Item Two Content</div>
+
   <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">Item Three Content</div>
+
 </div>
 :::
 
@@ -65,6 +74,7 @@ SLDS 1 blueprint examples for **Tabs**.
 <div class="demo-only" style="height:12rem">
   <div class="slds-tabs_default">
     <div role="heading" aria-level="2" class="slds-tabs_default__header">This is a sample header for tabs</div>
+
     <ul class="slds-tabs_default__nav" role="tablist">
       <li class="slds-tabs_default__item slds-is-active" title="Item One" role="presentation">
         <a class="slds-tabs_default__link" href="#" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" id="tab-default-1__item">Item One</a>
@@ -79,19 +89,24 @@ SLDS 1 blueprint examples for **Tabs**.
     <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">
       <h2>Item One Content</h2>
     </div>
+
     <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">
       <h2>Item Two Content</h2>
     </div>
+
     <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">
       <h2>Item Three Content</h2>
     </div>
+
   </div>
+
 </div>
 :::
 
 ::: legacy-component-example title="Medium"
 <div class="slds-tabs_default slds-tabs_medium">
   <div role="heading" aria-level="2" class="slds-tabs_default__header">This is a sample header for tabs</div>
+
   <ul class="slds-tabs_default__nav" role="tablist">
     <li class="slds-tabs_default__item slds-is-active" title="Item One" role="presentation">
       <a class="slds-tabs_default__link" href="#" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" id="tab-default-1__item">Item One</a>
@@ -104,14 +119,18 @@ SLDS 1 blueprint examples for **Tabs**.
     </li>
   </ul>
   <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">Item One Content</div>
+
   <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">Item Two Content</div>
+
   <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">Item Three Content</div>
+
 </div>
 :::
 
 ::: legacy-component-example title="Large"
 <div class="slds-tabs_default slds-tabs_large">
   <div role="heading" aria-level="2" class="slds-tabs_default__header">This is a sample header for tabs</div>
+
   <ul class="slds-tabs_default__nav" role="tablist">
     <li class="slds-tabs_default__item slds-is-active" title="Item One" role="presentation">
       <a class="slds-tabs_default__link" href="#" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" id="tab-default-1__item">Item One</a>
@@ -124,8 +143,11 @@ SLDS 1 blueprint examples for **Tabs**.
     </li>
   </ul>
   <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">Item One Content</div>
+
   <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">Item Two Content</div>
+
   <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">Item Three Content</div>
+
 </div>
 :::
 
@@ -174,25 +196,33 @@ SLDS 1 blueprint examples for **Tabs**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </li>
     </ul>
     <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">
       <h2>Item One Content</h2>
     </div>
+
     <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">
       <h2>Item Two Content</h2>
     </div>
+
     <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">
       <h2>Item Three Content</h2>
     </div>
+
     <div id="tab-default-4" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-4__item">
       <h2>Item Four Content</h2>
     </div>
+
     <div id="tab-default-5" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-5__item">
       <h2>Item Five Content</h2>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -309,25 +339,33 @@ SLDS 1 blueprint examples for **Tabs**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </li>
     </ul>
     <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">
       <h2>Item One Content</h2>
     </div>
+
     <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">
       <h2>Item Two Content</h2>
     </div>
+
     <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">
       <h2>Item Three Content</h2>
     </div>
+
     <div id="tab-default-4" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-4__item">
       <h2>Item Four Content</h2>
     </div>
+
     <div id="tab-default-5" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-5__item">
       <h2>Item Five Content</h2>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -360,16 +398,21 @@ SLDS 1 blueprint examples for **Tabs**.
     <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">
       <h2>Item One Content</h2>
     </div>
+
     <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">
       <h2>Item Two Content - Has Error</h2>
     </div>
+
     <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">
       <h2>Item Three Content</h2>
     </div>
+
     <div id="tab-default-4" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-4__item">
       <h2>Item Four Content</h2>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -400,12 +443,19 @@ SLDS 1 blueprint examples for **Tabs**.
         </li>
       </ul>
       <div id="tab-scoped-1" class="slds-tabs_scoped__content slds-show" role="tabpanel" aria-labelledby="tab-scoped-1__item">Item One Content</div>
+
       <div id="tab-scoped-2" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-2__item">Item Two Content</div>
+
       <div id="tab-scoped-3" class="slds-tabs_scoped__content slds-hide" role="tabpanel" aria-labelledby="tab-scoped-3__item">Item Three Content</div>
+
     </div>
+
   </div>
+
   <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">Item Two Content</div>
+
   <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">Item Three Content</div>
+
 </div>
 :::
 
@@ -431,6 +481,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -451,10 +502,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close Chat - Customer</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -480,6 +534,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -500,10 +555,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close Chat - Customer</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -529,6 +587,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-border_right" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -549,10 +608,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close Chat - Customer</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -578,6 +640,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Actions for 00071938</span>
         </button>
       </div>
+
       <div class="slds-col_bump-left slds-p-left_none slds-p-right_none">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close 00071938">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -586,6 +649,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -606,6 +670,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Actions for Chat - Customer</span>
         </button>
       </div>
+
       <div class="slds-col_bump-left slds-p-left_none slds-p-right_none">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Chat - Customer">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -614,10 +679,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close Chat - Customer</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -646,6 +714,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -666,10 +735,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close Chat - Customer</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -696,6 +768,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-notification" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -718,10 +791,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close Chat - Customer</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -748,6 +824,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-notification slds-is-unsaved" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -771,10 +848,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close Chat - Customer</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -801,6 +881,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-warning" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="SLA 0.30">
@@ -823,10 +904,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close SLA 0.30</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -853,6 +937,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-warning slds-is-unsaved" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="SLA 0.30">
@@ -877,10 +962,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close SLA 0.30</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -907,6 +995,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-notification slds-has-warning" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="SLA 0.30">
@@ -931,10 +1020,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close SLA 0.30</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -961,6 +1053,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-error" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="SLA Violation">
@@ -983,10 +1076,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close SLA Violation</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1013,6 +1109,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-error slds-is-unsaved" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="SLA Violation">
@@ -1037,10 +1134,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close SLA Violation</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1067,6 +1167,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-error slds-has-notification" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="SLA Violation">
@@ -1091,10 +1192,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close SLA Violation</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1121,6 +1225,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-success" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -1143,10 +1248,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close Chat - Customer</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1173,6 +1281,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-success slds-is-unsaved" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -1197,10 +1306,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close Chat - Customer</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1227,6 +1339,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center slds-has-notification slds-has-success" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -1251,10 +1364,13 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close Chat - Customer</span>
         </button>
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1280,6 +1396,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -1300,6 +1417,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1344,11 +1462,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1374,6 +1496,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -1394,6 +1517,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -1438,11 +1562,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1468,6 +1596,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -1488,6 +1617,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button slds-has-notification" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -1536,11 +1666,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1566,6 +1700,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -1586,6 +1721,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button slds-is-unsaved" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -1634,11 +1770,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1664,6 +1804,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -1684,6 +1825,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button slds-has-notification slds-is-unsaved" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -1734,11 +1876,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1765,6 +1911,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -1785,6 +1932,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button slds-has-success" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -1831,11 +1979,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1862,6 +2014,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -1882,6 +2035,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button slds-has-notification slds-has-success slds-is-unsaved" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -1934,11 +2088,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -1965,6 +2123,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -1985,6 +2144,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button slds-has-warning" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -2031,11 +2191,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -2062,6 +2226,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -2082,6 +2247,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button slds-has-notification slds-has-warning slds-is-unsaved" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -2134,11 +2300,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -2165,6 +2335,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -2185,6 +2356,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button slds-has-error" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -2231,11 +2403,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -2262,6 +2438,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071938</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
       <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="00071939">
@@ -2282,6 +2459,7 @@ SLDS 1 blueprint examples for **Tabs**.
           <span class="slds-assistive-text">Close 00071939</span>
         </button>
       </div>
+
     </li>
     <li class="slds-tabs_default__item slds-sub-tabs__item slds-tabs_default__overflow-button slds-has-error slds-has-notification slds-is-unsaved" role="presentation">
       <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -2334,11 +2512,15 @@ SLDS 1 blueprint examples for **Tabs**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </li>
   </ul>
   <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
   <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
 </div>
 :::
 
@@ -2367,6 +2549,7 @@ SLDS 1 blueprint examples for **Tabs**.
               <span class="slds-assistive-text">contact</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 class="slds-card__header-title">
               <a href="#" class="slds-card__header-link slds-truncate" title="Card Header">
@@ -2374,13 +2557,17 @@ SLDS 1 blueprint examples for **Tabs**.
               </a>
             </h2>
           </div>
+
           <div class="slds-no-flex">
             <button class="slds-button slds-button_neutral">New</button>
           </div>
+
         </header>
       </div>
+
       <div class="slds-card__body slds-card__body_inner">This is a card inside an
         <code class="doc">.slds-tabs_card</code> to show how styling is removed when cards are nested inside.</div>
+
       <footer class="slds-card__footer">
         <a class="slds-card__footer-action" href="#">View All
           <span class="slds-assistive-text">Contacts</span>
@@ -2398,6 +2585,7 @@ SLDS 1 blueprint examples for **Tabs**.
               <span class="slds-assistive-text">contact</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 class="slds-card__header-title">
               <a href="#" class="slds-card__header-link slds-truncate" title="Card Header">
@@ -2405,13 +2593,17 @@ SLDS 1 blueprint examples for **Tabs**.
               </a>
             </h2>
           </div>
+
           <div class="slds-no-flex">
             <button class="slds-button slds-button_neutral">New</button>
           </div>
+
         </header>
       </div>
+
       <div class="slds-card__body slds-card__body_inner">This is a card inside an
         <code class="doc">.slds-tabs_card</code> to show how styling is removed when cards are nested inside.</div>
+
       <footer class="slds-card__footer">
         <a class="slds-card__footer-action" href="#">View All
           <span class="slds-assistive-text">Contacts</span>
@@ -2429,6 +2621,7 @@ SLDS 1 blueprint examples for **Tabs**.
               <span class="slds-assistive-text">contact</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 class="slds-card__header-title">
               <a href="#" class="slds-card__header-link slds-truncate" title="Card Header">
@@ -2436,14 +2629,18 @@ SLDS 1 blueprint examples for **Tabs**.
               </a>
             </h2>
           </div>
+
           <div class="slds-no-flex">
             <button class="slds-button slds-button_neutral">New</button>
           </div>
+
         </header>
       </div>
+
       <div class="slds-card__body slds-card__body_inner">This is a card inside an
         <code class="doc">.slds-tabs_card</code> to illustrate how
         <code class="doc">.slds-card_boundary</code> adds a rounded border when desired.</div>
+
       <footer class="slds-card__footer">
         <a class="slds-card__footer-action" href="#">View All
           <span class="slds-assistive-text">Contacts</span>
@@ -2451,8 +2648,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </footer>
     </article>
   </div>
+
   <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">Item Two Content</div>
+
   <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">Item Three Content</div>
+
 </div>
 :::
 
@@ -2494,8 +2694,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 1 Panel">Item 1 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Item 2 Panel">
@@ -2506,8 +2709,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 2 Panel">Item 2 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Item 3 Panel">
@@ -2518,8 +2724,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 3 Panel">Item 3 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
 </div>
 :::
 
@@ -2561,8 +2770,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 1 Panel">Item 1 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Item 2 Panel">
@@ -2573,8 +2785,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 2 Panel">Item 2 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Item 3 Panel">
@@ -2585,8 +2800,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 3 Panel">Item 3 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
 </div>
 :::
 
@@ -2629,8 +2847,11 @@ SLDS 1 blueprint examples for **Tabs**.
         </button>
         <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 1 Panel">Item 1 Panel</h2>
       </div>
+
       <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
     </div>
+
     <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
       <div class="slds-panel__header slds-panel__header_align-center">
         <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Item 2 Panel">
@@ -2641,8 +2862,11 @@ SLDS 1 blueprint examples for **Tabs**.
         </button>
         <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 2 Panel">Item 2 Panel</h2>
       </div>
+
       <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
     </div>
+
     <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
       <div class="slds-panel__header slds-panel__header_align-center">
         <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Item 3 Panel">
@@ -2653,9 +2877,13 @@ SLDS 1 blueprint examples for **Tabs**.
         </button>
         <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 3 Panel">Item 3 Panel</h2>
       </div>
+
       <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
     </div>
+
   </div>
+
   <div class="slds-tabs-mobile__container">
     <ul class="slds-tabs-mobile">
       <li class="slds-tabs-mobile__item">
@@ -2693,8 +2921,11 @@ SLDS 1 blueprint examples for **Tabs**.
         </button>
         <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 1 Panel">Item 1 Panel</h2>
       </div>
+
       <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
     </div>
+
     <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
       <div class="slds-panel__header slds-panel__header_align-center">
         <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Item 2 Panel">
@@ -2705,8 +2936,11 @@ SLDS 1 blueprint examples for **Tabs**.
         </button>
         <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 2 Panel">Item 2 Panel</h2>
       </div>
+
       <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
     </div>
+
     <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
       <div class="slds-panel__header slds-panel__header_align-center">
         <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Item 3 Panel">
@@ -2717,9 +2951,13 @@ SLDS 1 blueprint examples for **Tabs**.
         </button>
         <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 3 Panel">Item 3 Panel</h2>
       </div>
+
       <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -2761,6 +2999,7 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 1 Panel">Item 1 Panel</h2>
     </div>
+
     <div class="slds-panel__body">
       <ul class="slds-tabs-mobile">
         <li class="slds-tabs-mobile__item">
@@ -2789,6 +3028,7 @@ SLDS 1 blueprint examples for **Tabs**.
         </li>
       </ul>
       <div> Any content can be here </div>
+
       <ul class="slds-tabs-mobile">
         <li class="slds-tabs-mobile__item">
           <button class="slds-button slds-button_full-width">
@@ -2808,7 +3048,9 @@ SLDS 1 blueprint examples for **Tabs**.
         </li>
       </ul>
     </div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Item 2 Panel">
@@ -2819,8 +3061,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 2 Panel">Item 2 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Item 3 Panel">
@@ -2831,8 +3076,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Item 3 Panel">Item 3 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Nested Item 1 Panel">
@@ -2843,8 +3091,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Nested Item 1 Panel">Nested Item 1 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Nested Item 2 Panel">
@@ -2855,8 +3106,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Nested Item 2 Panel">Nested Item 2 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Nested Item 3 Panel">
@@ -2867,8 +3121,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Nested Item 3 Panel">Nested Item 3 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Nested Item 4 Panel">
@@ -2879,8 +3136,11 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Nested Item 4 Panel">Nested Item 4 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
   <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-panel_animated slds-hidden" hidden="">
     <div class="slds-panel__header slds-panel__header_align-center">
       <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__back" title="Collapse Nested Item 5 Panel">
@@ -2891,7 +3151,10 @@ SLDS 1 blueprint examples for **Tabs**.
       </button>
       <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Nested Item 5 Panel">Nested Item 5 Panel</h2>
     </div>
+
     <div class="slds-panel__body">A panel body accepts any layout or component</div>
+
   </div>
+
 </div>
 :::

@@ -24,10 +24,14 @@ SLDS 1 blueprint examples for **App Launcher**.
             </svg>
             <input type="search" class="slds-input" id="app-launcher-search" placeholder="Find an app" />
           </div>
+
         </div>
+
       </div>
+
       <button class="slds-button slds-button_neutral">App Exchange</button>
     </div>
+
     <div class="slds-modal__content slds-app-launcher__content slds-p-around_medium" id="modal-content-id-1">
       <div class="slds-section slds-is-open">
         <h3 class="slds-section__title">
@@ -40,6 +44,7 @@ SLDS 1 blueprint examples for **App Launcher**.
         </h3>
         <div class="slds-section__content" id="appsContent">
           <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
           <ul class="slds-grid slds-grid_pull-padded slds-wrap">
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -55,7 +60,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Sales Cloud</a>
                   <p>The primary internal Salesforce org. Used to run our online sales business...
@@ -63,9 +70,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-0" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -81,7 +92,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Marketing Cloud</a>
                   <p>Salesforce Marketing Cloud lets businesses of any size...
@@ -89,9 +102,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-1" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -107,15 +124,21 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">HR Concierge</a>
                   <p>Community for managing employee benefits and time off. </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-2" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -131,7 +154,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">My Money</a>
                   <p>Manage your finances across multiple financial platforms...
@@ -139,9 +164,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-3" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -157,7 +186,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Call Center</a>
                   <p>The key to call center and contact center management is more...
@@ -165,9 +196,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-4" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -183,7 +218,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Customer Support Community</a>
                   <p>Areas of Focus are used to track customer support for your...
@@ -191,13 +228,19 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-5" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <hr/>
       <div class="slds-section slds-is-open">
         <h3 class="slds-section__title">
@@ -233,11 +276,16 @@ SLDS 1 blueprint examples for **App Launcher**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="Truncate via JavaScript"
@@ -254,7 +302,9 @@ SLDS 1 blueprint examples for **App Launcher**.
         <span class="slds-assistive-text">Reorder</span>
       </button>
     </div>
+
   </div>
+
   <div class="slds-app-launcher__tile-body">
     <a href="#">Sales Cloud</a>
     <p>The primary internal Salesforce org. Used to run our online sales business...
@@ -262,8 +312,11 @@ SLDS 1 blueprint examples for **App Launcher**.
     </p>
     <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right" role="tooltip" id="help-x" style="position:absolute;top:80px;right:30px">
       <div class="slds-popover__body">The primary internal Salesforce org. Used to run our online sales business and manage accounts.</div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -287,10 +340,14 @@ SLDS 1 blueprint examples for **App Launcher**.
             </svg>
             <input type="search" class="slds-input" id="app-launcher-search" placeholder="Find an app" />
           </div>
+
         </div>
+
       </div>
+
       <button class="slds-button slds-button_neutral">App Exchange</button>
     </div>
+
     <div class="slds-modal__content slds-app-launcher__content slds-p-around_medium" id="modal-content-id-1">
       <div class="slds-section slds-is-open">
         <h3 class="slds-section__title">
@@ -303,6 +360,7 @@ SLDS 1 blueprint examples for **App Launcher**.
         </h3>
         <div class="slds-section__content" id="appsContent">
           <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive">Sales Cloud: current position 1 of 6. Use the up and down arrows to move this app</div>
+
           <ul class="slds-grid slds-grid_pull-padded slds-wrap">
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable slds-is-grabbed">
@@ -318,7 +376,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Sales Cloud</a>
                   <p>The primary internal Salesforce org. Used to run our online sales business...
@@ -326,9 +386,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-0" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -344,7 +408,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Marketing Cloud</a>
                   <p>Salesforce Marketing Cloud lets businesses of any size...
@@ -352,9 +418,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-1" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -370,15 +440,21 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">HR Concierge</a>
                   <p>Community for managing employee benefits and time off. </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-2" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -394,7 +470,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">My Money</a>
                   <p>Manage your finances across multiple financial platforms...
@@ -402,9 +480,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-3" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -420,7 +502,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Call Center</a>
                   <p>The key to call center and contact center management is more...
@@ -428,9 +512,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-4" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -446,7 +534,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Customer Support Community</a>
                   <p>Areas of Focus are used to track customer support for your...
@@ -454,13 +544,19 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-5" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <hr/>
       <div class="slds-section slds-is-open">
         <h3 class="slds-section__title">
@@ -496,11 +592,16 @@ SLDS 1 blueprint examples for **App Launcher**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="Tile moved in list"
@@ -523,10 +624,14 @@ SLDS 1 blueprint examples for **App Launcher**.
             </svg>
             <input type="search" class="slds-input" id="app-launcher-search" placeholder="Find an app" />
           </div>
+
         </div>
+
       </div>
+
       <button class="slds-button slds-button_neutral">App Exchange</button>
     </div>
+
     <div class="slds-modal__content slds-app-launcher__content slds-p-around_medium" id="modal-content-id-1">
       <div class="slds-section slds-is-open">
         <h3 class="slds-section__title">
@@ -539,6 +644,7 @@ SLDS 1 blueprint examples for **App Launcher**.
         </h3>
         <div class="slds-section__content" id="appsContent">
           <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive">Sales Cloud: new position 3 of 6.</div>
+
           <ul class="slds-grid slds-grid_pull-padded slds-wrap">
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -554,7 +660,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Marketing Cloud</a>
                   <p>Salesforce Marketing Cloud lets businesses of any size...
@@ -562,9 +670,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-0" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -580,15 +692,21 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">HR Concierge</a>
                   <p>Community for managing employee benefits and time off. </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-1" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable slds-is-grabbed">
@@ -604,7 +722,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Sales Cloud</a>
                   <p>The primary internal Salesforce org. Used to run our online sales business...
@@ -612,9 +732,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-2" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -630,7 +754,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">My Money</a>
                   <p>Manage your finances across multiple financial platforms...
@@ -638,9 +764,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-3" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -656,7 +786,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Call Center</a>
                   <p>The key to call center and contact center management is more...
@@ -664,9 +796,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-4" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -682,7 +818,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Customer Support Community</a>
                   <p>Areas of Focus are used to track customer support for your...
@@ -690,13 +828,19 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-5" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <hr/>
       <div class="slds-section slds-is-open">
         <h3 class="slds-section__title">
@@ -732,11 +876,16 @@ SLDS 1 blueprint examples for **App Launcher**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="Tile dropped"
@@ -759,10 +908,14 @@ SLDS 1 blueprint examples for **App Launcher**.
             </svg>
             <input type="search" class="slds-input" id="app-launcher-search" placeholder="Find an app" />
           </div>
+
         </div>
+
       </div>
+
       <button class="slds-button slds-button_neutral">App Exchange</button>
     </div>
+
     <div class="slds-modal__content slds-app-launcher__content slds-p-around_medium" id="modal-content-id-1">
       <div class="slds-section slds-is-open">
         <h3 class="slds-section__title">
@@ -775,6 +928,7 @@ SLDS 1 blueprint examples for **App Launcher**.
         </h3>
         <div class="slds-section__content" id="appsContent">
           <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive">Sales Cloud: final position 4 of 6.</div>
+
           <ul class="slds-grid slds-grid_pull-padded slds-wrap">
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -790,7 +944,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Marketing Cloud</a>
                   <p>Salesforce Marketing Cloud lets businesses of any size...
@@ -798,9 +954,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-0" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -816,15 +976,21 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">HR Concierge</a>
                   <p>Community for managing employee benefits and time off. </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-1" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -840,7 +1006,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">My Money</a>
                   <p>Manage your finances across multiple financial platforms...
@@ -848,9 +1016,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-2" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -866,7 +1038,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Sales Cloud</a>
                   <p>The primary internal Salesforce org. Used to run our online sales business...
@@ -874,9 +1048,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-3" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -892,7 +1070,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Call Center</a>
                   <p>The key to call center and contact center management is more...
@@ -900,9 +1080,13 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-4" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -918,7 +1102,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">Customer Support Community</a>
                   <p>Areas of Focus are used to track customer support for your...
@@ -926,13 +1112,19 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-5" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <hr/>
       <div class="slds-section slds-is-open">
         <h3 class="slds-section__title">
@@ -968,11 +1160,16 @@ SLDS 1 blueprint examples for **App Launcher**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="Searching"
@@ -995,10 +1192,14 @@ SLDS 1 blueprint examples for **App Launcher**.
             </svg>
             <input type="search" class="slds-input" id="app-launcher-search" placeholder="Find an app" value="sales" />
           </div>
+
         </div>
+
       </div>
+
       <button class="slds-button slds-button_neutral">App Exchange</button>
     </div>
+
     <div class="slds-modal__content slds-app-launcher__content slds-p-around_medium" id="modal-content-id-1">
       <div class="slds-section slds-is-open">
         <h3 class="slds-section__title">
@@ -1011,6 +1212,7 @@ SLDS 1 blueprint examples for **App Launcher**.
         </h3>
         <div class="slds-section__content" id="appsContent">
           <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
           <ul class="slds-grid slds-grid_pull-padded slds-wrap">
             <li class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-3">
               <div draggable="true" class="slds-app-launcher__tile slds-text-link_reset slds-is-draggable">
@@ -1026,7 +1228,9 @@ SLDS 1 blueprint examples for **App Launcher**.
                       <span class="slds-assistive-text">Reorder</span>
                     </button>
                   </div>
+
                 </div>
+
                 <div class="slds-app-launcher__tile-body">
                   <a href="#">
                     <span>
@@ -1037,13 +1241,19 @@ SLDS 1 blueprint examples for **App Launcher**.
                   </p>
                   <div class="slds-popover slds-popover_tooltip slds-nubbin_top-right slds-hide" role="tooltip" id="help-0" style="position:absolute;top:80px;right:30px">
                     <div class="slds-popover__body"></div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <hr/>
       <div class="slds-section slds-is-open">
         <h3 class="slds-section__title">
@@ -1070,9 +1280,14 @@ SLDS 1 blueprint examples for **App Launcher**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::

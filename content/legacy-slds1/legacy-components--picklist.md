@@ -14,12 +14,14 @@ SLDS 1 blueprint examples for **Picklist**.
           <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input" aria-labelledby="combobox-label-id-27" id="combobox-id-1-selected-value" aria-controls="listbox-id-1" aria-expanded="false" aria-haspopup="listbox">
             <span class="slds-truncate" id="combobox-value-id-27">Select an Option…</span>
           </div>
+
           <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
             <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
               <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
             </svg>
           </span>
         </div>
+
         <div id="listbox-id-1" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
           <ul class="slds-listbox slds-listbox_vertical" role="presentation">
             <li role="presentation" class="slds-listbox__item">
@@ -29,6 +31,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option A">Option A</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option71" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -37,6 +40,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option B">Option B</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option72" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -45,12 +49,17 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option ABCDE FGHIJ KLMNO PQRST UVWXYZ">Option ABCDE FGHIJ KLMNO PQRST UVWXYZ</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -64,12 +73,14 @@ SLDS 1 blueprint examples for **Picklist**.
           <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-has-focus" aria-labelledby="combobox-label-id-29" id="combobox-id-2-selected-value" aria-controls="listbox-id-2" aria-expanded="true" aria-haspopup="listbox">
             <span class="slds-truncate" id="combobox-value-id-29">Select an Option…</span>
           </div>
+
           <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
             <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
               <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
             </svg>
           </span>
         </div>
+
         <div id="listbox-id-2" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
           <ul class="slds-listbox slds-listbox_vertical" role="presentation">
             <li role="presentation" class="slds-listbox__item">
@@ -79,6 +90,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option A">Option A</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option77" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -87,6 +99,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option B">Option B</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option78" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -95,12 +108,17 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option ABCDE FGHIJ KLMNO PQRST UVWXYZ">Option ABCDE FGHIJ KLMNO PQRST UVWXYZ</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -114,12 +132,14 @@ SLDS 1 blueprint examples for **Picklist**.
           <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-has-focus" aria-labelledby="combobox-label-id-31" id="combobox-id-3-selected-value" aria-controls="listbox-id-3" aria-expanded="true" aria-haspopup="listbox" aria-activedescendant="option1">
             <span class="slds-truncate" id="combobox-value-id-31">Select an Option…</span>
           </div>
+
           <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
             <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
               <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
             </svg>
           </span>
         </div>
+
         <div id="listbox-id-3" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
           <ul class="slds-listbox slds-listbox_vertical" role="presentation">
             <li role="presentation" class="slds-listbox__item">
@@ -129,6 +149,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option A">Option A</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option83" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -137,6 +158,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option B">Option B</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option84" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -145,12 +167,17 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option ABCDE FGHIJ KLMNO PQRST UVWXYZ">Option ABCDE FGHIJ KLMNO PQRST UVWXYZ</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -165,12 +192,14 @@ SLDS 1 blueprint examples for **Picklist**.
             aria-haspopup="listbox" aria-activedescendant="option1">
             <span class="slds-truncate" id="combobox-value-id-33">Option A</span>
           </div>
+
           <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
             <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
               <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
             </svg>
           </span>
         </div>
+
         <div id="listbox-id-4" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
           <ul class="slds-listbox slds-listbox_vertical" role="presentation">
             <li role="presentation" class="slds-listbox__item">
@@ -186,6 +215,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option A">Option A</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option89" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -194,6 +224,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option B">Option B</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option90" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -202,12 +233,17 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option ABCDE FGHIJ KLMNO PQRST UVWXYZ">Option ABCDE FGHIJ KLMNO PQRST UVWXYZ</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -222,12 +258,14 @@ SLDS 1 blueprint examples for **Picklist**.
             aria-haspopup="listbox">
             <span class="slds-truncate" id="combobox-value-id-35">2 Options Selected</span>
           </div>
+
           <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
             <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
               <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
             </svg>
           </span>
         </div>
+
         <div id="listbox-id-5" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
           <ul class="slds-listbox slds-listbox_vertical" role="presentation">
             <li role="presentation" class="slds-listbox__item">
@@ -243,6 +281,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option A">Option A</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div aria-checked="true" id="option95" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected" role="option">
@@ -257,6 +296,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option B">Option B</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option96" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -265,12 +305,17 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option ABCDE FGHIJ KLMNO PQRST UVWXYZ">Option ABCDE FGHIJ KLMNO PQRST UVWXYZ</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -285,12 +330,14 @@ SLDS 1 blueprint examples for **Picklist**.
             aria-activedescendant="option1">
             <span class="slds-truncate" id="combobox-value-id-37">Option A</span>
           </div>
+
           <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
             <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
               <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
             </svg>
           </span>
         </div>
+
         <div id="listbox-id-6" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
           <ul class="slds-listbox slds-listbox_vertical" role="presentation">
             <li role="presentation" class="slds-listbox__item">
@@ -306,6 +353,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option A">Option A</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option101" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -314,6 +362,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option B">Option B</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option102" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -322,12 +371,17 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option ABCDE FGHIJ KLMNO PQRST UVWXYZ">Option ABCDE FGHIJ KLMNO PQRST UVWXYZ</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -341,12 +395,14 @@ SLDS 1 blueprint examples for **Picklist**.
           <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-combobox__input-value" aria-labelledby="combobox-label-id-39" id="combobox-id-7-selected-value" aria-controls="listbox-id-7" aria-expanded="false" aria-haspopup="listbox">
             <span class="slds-truncate" id="combobox-value-id-39">2 Options Selected</span>
           </div>
+
           <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
             <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
               <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
             </svg>
           </span>
         </div>
+
         <div id="listbox-id-7" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
           <ul class="slds-listbox slds-listbox_vertical" role="presentation">
             <li role="presentation" class="slds-listbox__item">
@@ -362,6 +418,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option A">Option A</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div aria-checked="true" id="option107" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected" role="option">
@@ -376,6 +433,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option B">Option B</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option108" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -384,11 +442,15 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option ABCDE FGHIJ KLMNO PQRST UVWXYZ">Option ABCDE FGHIJ KLMNO PQRST UVWXYZ</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-listbox_selection-group">
       <ul class="slds-listbox slds-listbox_horizontal" aria-label="Selected Options:">
         <li class="slds-listbox-item">
@@ -419,7 +481,9 @@ SLDS 1 blueprint examples for **Picklist**.
         </li>
       </ul>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -433,18 +497,21 @@ SLDS 1 blueprint examples for **Picklist**.
           <div role="combobox" tabindex="0" class="slds-input_faux slds-combobox__input slds-has-focus" aria-labelledby="combobox-label-id-41" id="combobox-id-8-selected-value" aria-controls="listbox-id-8" aria-expanded="true" aria-haspopup="listbox">
             <span class="slds-truncate" id="combobox-value-id-41">Select an Option…</span>
           </div>
+
           <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
             <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
               <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
             </svg>
           </span>
         </div>
+
         <div id="listbox-id-8" class="slds-dropdown slds-dropdown_fluid" role="listbox" tabindex="0">
           <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="Group One">
             <li role="presentation" class="slds-listbox__item">
               <div id="option0" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="presentation">
                 <h3 class="slds-listbox__option-header" role="presentation">Recently Viewed</h3>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option1" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -453,6 +520,7 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option A">Option A</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div id="option2" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -461,11 +529,16 @@ SLDS 1 blueprint examples for **Picklist**.
                   <span class="" title="Option B">Option B</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::

@@ -10,6 +10,7 @@ SLDS 1 blueprint examples for **Textarea**.
   <div class="slds-form-element__control">
     <textarea id="textarea-id-01" placeholder="Placeholder text…" class="slds-textarea"></textarea>
   </div>
+
 </div>
 :::
 
@@ -19,6 +20,7 @@ SLDS 1 blueprint examples for **Textarea**.
   <div class="slds-form-element__control">
     <textarea id="textarea-id-01" disabled="" placeholder="Placeholder text…" class="slds-textarea"></textarea>
   </div>
+
 </div>
 :::
 
@@ -29,6 +31,7 @@ SLDS 1 blueprint examples for **Textarea**.
   <div class="slds-form-element__control">
     <textarea id="textarea-id-01" required="" placeholder="Placeholder text…" class="slds-textarea"></textarea>
   </div>
+
 </div>
 :::
 
@@ -39,7 +42,9 @@ SLDS 1 blueprint examples for **Textarea**.
   <div class="slds-form-element__control">
     <textarea id="textarea-id-01" required="" aria-describedby="error-01" placeholder="Placeholder text…" class="slds-textarea"></textarea>
   </div>
+
   <div class="slds-form-element__help" id="error-01">Enter a value.</div>
+
 </div>
 :::
 
@@ -51,6 +56,8 @@ SLDS 1 blueprint examples for **Textarea**.
       <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam
         quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum.</p>
     </div>
+
   </div>
+
 </div>
 :::

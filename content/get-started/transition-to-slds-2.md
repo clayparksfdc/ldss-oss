@@ -297,7 +297,7 @@ Congratulations! Cue the confetti! You've successfully completed your transition
 
 - Figma Kit: Style Guide - SLDS Web Components v2
 - Figma Kit: Components for Web | Lightning Design System v2
-- [SLDS 2 Website: Components](/components/accordion)
+- [SLDS 2 Website: Components](/component/accordion)
 
 ### Community & Support
 

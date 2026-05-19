@@ -14,11 +14,13 @@ SLDS 1 blueprint examples for **Scoped Notifications**.
       <span class="slds-assistive-text">information</span>
     </span>
   </div>
+
   <div class="slds-media__body">
     <p>It looks as if duplicates exist for this lead.
       <a href="#">View Duplicates</a>
     </p>
   </div>
+
 </div>
 :::
 
@@ -32,11 +34,13 @@ SLDS 1 blueprint examples for **Scoped Notifications**.
       <span class="slds-assistive-text">info</span>
     </span>
   </div>
+
   <div class="slds-media__body">
     <p>It looks as if duplicates exist for this lead.
       <a href="#">View Duplicates</a>
     </p>
   </div>
+
 </div>
 :::
 
@@ -50,11 +54,13 @@ SLDS 1 blueprint examples for **Scoped Notifications**.
       <span class="slds-assistive-text">success</span>
     </span>
   </div>
+
   <div class="slds-media__body">
     <p>Success! Your entry has been duplicated.
       <a href="#">View Duplicates</a>
     </p>
   </div>
+
 </div>
 :::
 
@@ -68,11 +74,13 @@ SLDS 1 blueprint examples for **Scoped Notifications**.
       <span class="slds-assistive-text">warning</span>
     </span>
   </div>
+
   <div class="slds-media__body">
     <p>It looks as if duplicates exist for this lead.
       <a href="#">View Duplicates</a>
     </p>
   </div>
+
 </div>
 :::
 
@@ -86,11 +94,13 @@ SLDS 1 blueprint examples for **Scoped Notifications**.
       <span class="slds-assistive-text">error</span>
     </span>
   </div>
+
   <div class="slds-media__body">
     <p>It looks as if duplicates exist for this lead.
       <a href="#">View Duplicates</a>
     </p>
   </div>
+
 </div>
 :::
 
@@ -104,11 +114,13 @@ SLDS 1 blueprint examples for **Scoped Notifications**.
       <span class="slds-assistive-text">information</span>
     </span>
   </div>
+
   <div class="slds-media__body">
     <p>It looks as if duplicates exist for this lead.
       <a href="#">View Duplicates</a>
     </p>
   </div>
+
 </div>
 :::
 
@@ -122,10 +134,12 @@ SLDS 1 blueprint examples for **Scoped Notifications**.
       <span class="slds-assistive-text">information</span>
     </span>
   </div>
+
   <div class="slds-media__body">
     <p>It looks as if duplicates exist for this lead.
       <a href="#">View Duplicates</a>
     </p>
   </div>
+
 </div>
 :::

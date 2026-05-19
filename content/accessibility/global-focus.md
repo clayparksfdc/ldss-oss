@@ -207,6 +207,7 @@ Users open dialogs by activating a trigger, typically a button, by clicking or p
 
     </section>
     <div class="slds-backdrop slds-backdrop_open"></div>
+
   </template>
 </template>
 ```
@@ -276,6 +277,7 @@ Look for the first interactive control in the modal body (not the footer), and f
     id="first-field">
   </lightning-input>
 </div>
+
 ```
 
 ```

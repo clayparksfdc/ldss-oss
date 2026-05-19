@@ -16,7 +16,9 @@ SLDS 1 blueprint examples for **Select**.
         <option>Option Three</option>
       </select>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -33,8 +35,11 @@ SLDS 1 blueprint examples for **Select**.
         <option>Option Three</option>
       </select>
     </div>
+
   </div>
+
   <div class="slds-form-element__help" id="error-01">Select an option.</div>
+
 </div>
 :::
 
@@ -50,7 +55,9 @@ SLDS 1 blueprint examples for **Select**.
         <option>Option Three</option>
       </select>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -67,7 +74,9 @@ SLDS 1 blueprint examples for **Select**.
         <option>Option Three</option>
       </select>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -77,7 +86,9 @@ SLDS 1 blueprint examples for **Select**.
   <div class="slds-form-element__control">
     <div class="slds-dueling-list">
       <div class="slds-assistive-text" id="drag-live-region" aria-live="assertive"></div>
+
       <div class="slds-assistive-text" id="option-drag-label">Press space bar when on an item, to move it within the list. Cmd/Ctrl plus left and right arrow keys, to move items between lists.</div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-9">First Category</span>
         <div class="slds-dueling-list__options">
@@ -88,6 +99,7 @@ SLDS 1 blueprint examples for **Select**.
                   <span class="slds-truncate" title="Option 1">Option 1</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -95,6 +107,7 @@ SLDS 1 blueprint examples for **Select**.
                   <span class="slds-truncate" title="Option 2">Option 2</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -102,6 +115,7 @@ SLDS 1 blueprint examples for **Select**.
                   <span class="slds-truncate" title="Option 3">Option 3</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -109,10 +123,13 @@ SLDS 1 blueprint examples for **Select**.
                   <span class="slds-truncate" title="Option 6">Option 6</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-dueling-list__column">
         <button class="slds-button slds-button_icon slds-button_icon-container" title="Move Selection to Second Category">
           <svg class="slds-button__icon" aria-hidden="true">
@@ -127,6 +144,7 @@ SLDS 1 blueprint examples for **Select**.
           <span class="slds-assistive-text">Move Selection to First Category</span>
         </button>
       </div>
+
       <div class="slds-dueling-list__column">
         <span class="slds-form-element__label" id="label-10">Second Category</span>
         <div class="slds-dueling-list__options">
@@ -137,6 +155,7 @@ SLDS 1 blueprint examples for **Select**.
                   <span class="slds-truncate" title="Option 4">Option 4</span>
                 </span>
               </div>
+
             </li>
             <li role="presentation" class="slds-listbox__item">
               <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_inline" aria-selected="false" draggable="true" role="option" tabindex="-1">
@@ -144,12 +163,17 @@ SLDS 1 blueprint examples for **Select**.
                   <span class="slds-truncate" title="Option 5">Option 5</span>
                 </span>
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -163,5 +187,6 @@ SLDS 1 blueprint examples for **Select**.
       <option>Option Three</option>
     </select>
   </div>
+
 </div>
 :::

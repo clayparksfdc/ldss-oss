@@ -40,7 +40,9 @@ SLDS 1 blueprint examples for **Checkbox Button Group**.
         </label>
       </span>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -80,8 +82,11 @@ SLDS 1 blueprint examples for **Checkbox Button Group**.
         </label>
       </span>
     </div>
+
     <div id="error_01" class="slds-form-element__help">This field is required</div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -121,6 +126,8 @@ SLDS 1 blueprint examples for **Checkbox Button Group**.
         </label>
       </span>
     </div>
+
   </div>
+
 </fieldset>
 :::

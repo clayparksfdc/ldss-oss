@@ -17,8 +17,11 @@ SLDS 1 blueprint examples for **Popovers**.
       <div class="slds-media__body">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -38,8 +41,11 @@ SLDS 1 blueprint examples for **Popovers**.
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -56,12 +62,16 @@ SLDS 1 blueprint examples for **Popovers**.
       <div class="slds-media__body">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <button class="slds-button slds-button_neutral slds-col_bump-left">Learn More</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -78,6 +88,7 @@ SLDS 1 blueprint examples for **Popovers**.
     <div class="slds-popover__meta">
       <span class="slds-badge">Admin Notice</span>
     </div>
+
     <div class="slds-media">
       <div class="slds-media__body">
         <header class="slds-popover__header">
@@ -85,8 +96,11 @@ SLDS 1 blueprint examples for **Popovers**.
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -111,9 +125,13 @@ SLDS 1 blueprint examples for **Popovers**.
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <p>Footer Item</p>
   </footer>
@@ -136,8 +154,11 @@ SLDS 1 blueprint examples for **Popovers**.
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -157,8 +178,11 @@ SLDS 1 blueprint examples for **Popovers**.
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -178,8 +202,11 @@ SLDS 1 blueprint examples for **Popovers**.
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -199,8 +226,11 @@ SLDS 1 blueprint examples for **Popovers**.
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -215,6 +245,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -229,6 +260,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -243,6 +275,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -257,6 +290,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -271,6 +305,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -285,6 +320,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -299,6 +335,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -313,6 +350,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -327,6 +365,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -341,6 +380,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -355,6 +395,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -369,6 +410,7 @@ SLDS 1 blueprint examples for **Popovers**.
   <div id="popover-body-id" class="slds-popover__body">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quaerat? Accusamus excepturi eos, molestias expedita distinctio eligendi ut esse quasi!</p>
   </div>
+
 </section>
 :::
 
@@ -389,16 +431,20 @@ SLDS 1 blueprint examples for **Popovers**.
           </svg>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-truncate slds-text-heading_medium" id="dialog-heading-id-1" title="We hit a snag.">We hit a snag.</h2>
       </div>
+
     </div>
+
   </header>
   <div class="slds-popover__body" id="dialog-body-id-128">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
       <a href="#" title="Learn More">Learn More</a>
     </p>
   </div>
+
 </section>
 :::
 
@@ -419,20 +465,25 @@ SLDS 1 blueprint examples for **Popovers**.
           </svg>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-truncate slds-text-heading_medium" id="dialog-heading-id-1" title="We hit a snag.">We hit a snag.</h2>
       </div>
+
     </div>
+
   </header>
   <div class="slds-popover__body" id="dialog-body-id-130">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
       <a href="#" title="Learn More">Learn More</a>
     </p>
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center slds-grid_align-end">
       <button class="slds-button slds-button_neutral">Learn More</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -454,10 +505,13 @@ SLDS 1 blueprint examples for **Popovers**.
           </svg>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-truncate slds-text-heading_medium" id="dialog-heading-id-1" title="We hit a snag.">We hit a snag.</h2>
       </div>
+
     </div>
+
   </header>
   <div class="slds-popover__body" id="dialog-body-id-132">
     <ul class="slds-list_dotted">
@@ -466,10 +520,12 @@ SLDS 1 blueprint examples for **Popovers**.
       <li>Details about error #3</li>
     </ul>
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center slds-grid_align-end">
       <button class="slds-button slds-button_neutral">Learn More</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -491,16 +547,20 @@ SLDS 1 blueprint examples for **Popovers**.
           </svg>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-truncate slds-text-heading_medium" id="dialog-heading-id-2" title="Just a heads up…">Just a heads up…</h2>
       </div>
+
     </div>
+
   </header>
   <div class="slds-popover__body slds-popover_warning__body" id="dialog-body-id-134">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
       <a href="#" title="Learn More">Learn More</a>
     </p>
   </div>
+
 </section>
 :::
 
@@ -521,20 +581,25 @@ SLDS 1 blueprint examples for **Popovers**.
           </svg>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 class="slds-truncate slds-text-heading_medium" id="dialog-heading-id-2" title="Just a heads up…">Just a heads up…</h2>
       </div>
+
     </div>
+
   </header>
   <div class="slds-popover__body slds-popover_warning__body" id="dialog-body-id-136">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
       <a href="#" title="Learn More">Learn More</a>
     </p>
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center slds-grid_align-end">
       <button class="slds-button slds-button_neutral">Learn More</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -553,11 +618,13 @@ SLDS 1 blueprint examples for **Popovers**.
   <div class="slds-popover__body" id="dialog-body-id-138">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <span class="slds-text-title">Step 2 of 4</span>
       <button class="slds-button slds-button_brand slds-col_bump-left">Next</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -576,12 +643,14 @@ SLDS 1 blueprint examples for **Popovers**.
   <div class="slds-popover__body" id="dialog-body-id-140">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <span class="slds-text-title">Step 2 of 4</span>
       <button class="slds-button slds-button_success slds-col_bump-left">Setup Email</button>
       <button class="slds-button slds-button_brand slds-col_bump-left">Next</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -600,12 +669,14 @@ SLDS 1 blueprint examples for **Popovers**.
   <div class="slds-popover__body" id="dialog-body-id-142">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <span class="slds-text-title">Step 2 of 4</span>
       <button class="slds-button slds-button_inverse slds-col_bump-left">Skip</button>
       <button class="slds-button slds-button_success slds-col_bump-left">Setup Email</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -624,11 +695,13 @@ SLDS 1 blueprint examples for **Popovers**.
   <div class="slds-popover__body" id="dialog-body-id-144">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <span class="slds-text-title">Step 2 of 4</span>
       <button class="slds-button slds-button_inverse slds-col_bump-left">Skip</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -651,14 +724,18 @@ SLDS 1 blueprint examples for **Popovers**.
       <div class="slds-form-element__control">
         <input type="text" id="email-text-input-01" class="slds-input" placeholder="Email Address" />
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <span class="slds-text-title">Step 2 of 4</span>
       <button class="slds-button slds-button_inverse slds-col_bump-left">Skip</button>
       <button class="slds-button slds-button_brand slds-col_bump-left">Next</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -681,12 +758,16 @@ SLDS 1 blueprint examples for **Popovers**.
           <span class="slds-assistive-text">Description of icon</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <p class="slds-text-heading_small">Text that describes the action</p>
         <p class="slds-m-top_medium slds-text-title">Step 3 of 4</p>
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -708,13 +789,17 @@ SLDS 1 blueprint examples for **Popovers**.
           <span class="slds-assistive-text">Description of icon</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 id="dialog-heading-id-3" class="slds-text-heading_small">Action title</h2>
         <p>Text that describes the action</p>
         <p class="slds-m-top_medium slds-text-title">Step 3 of 4</p>
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -736,14 +821,18 @@ SLDS 1 blueprint examples for **Popovers**.
           <span class="slds-assistive-text">Description of icon</span>
         </span>
       </div>
+
       <div class="slds-media__body">
         <h2 id="dialog-heading-id-3" class="slds-text-heading_small">Action title</h2>
         <p>Text that describes the action</p>
         <a href="#">Take Action</a>
         <p class="slds-m-top_medium slds-text-title">Step 3 of 4</p>
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -762,10 +851,15 @@ SLDS 1 blueprint examples for **Popovers**.
           <div class="slds-media__body">
             <p class="slds-text-heading_small">Shelly, it seems you frequent this record. Try favoriting it for easy access.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -789,13 +883,19 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text">Description of icon</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <p class="slds-text-heading_small">Shelly, it seems you frequent this record. Try favoriting it for easy access.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -819,14 +919,20 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text">Description of icon</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-4" class="slds-text-heading_small">Feature title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -850,16 +956,22 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text">Description of icon</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-4" class="slds-text-heading_small">Feature title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               <a href="#">Learn More</a>
             </p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -883,18 +995,25 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text">Description of icon</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-4" class="slds-text-heading_small">Feature title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <button class="slds-button slds-button_neutral slds-col_bump-left">Learn More</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -919,6 +1038,7 @@ SLDS 1 blueprint examples for **Popovers**.
           <a href="#">Tesla Motors</a>
         </h2>
       </div>
+
     </header>
     <footer class="slds-grid slds-wrap slds-grid_pull-padded">
       <div class="slds-p-horizontal_small slds-size_1-of-2 slds-p-bottom_x-small">
@@ -932,6 +1052,7 @@ SLDS 1 blueprint examples for **Popovers**.
           </dd>
         </dl>
       </div>
+
       <div class="slds-p-horizontal_small slds-size_1-of-2 slds-p-bottom_x-small">
         <dl>
           <dt>
@@ -942,6 +1063,7 @@ SLDS 1 blueprint examples for **Popovers**.
           </dd>
         </dl>
       </div>
+
       <div class="slds-p-horizontal_small slds-size_1-of-2 slds-p-bottom_x-small">
         <dl>
           <dt>
@@ -952,6 +1074,7 @@ SLDS 1 blueprint examples for **Popovers**.
           </dd>
         </dl>
       </div>
+
       <div class="slds-p-horizontal_small slds-size_1-of-2 slds-p-bottom_x-small">
         <dl>
           <dt>
@@ -962,8 +1085,10 @@ SLDS 1 blueprint examples for **Popovers**.
           </dd>
         </dl>
       </div>
+
     </footer>
   </div>
+
   <div class="slds-popover__body">
     <dl class="slds-popover__body-list">
       <dt class="slds-m-bottom_small">
@@ -976,10 +1101,13 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text">Opportunities</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <p class="slds-text-heading_small slds-hyphenate">Opportunities (2+)</p>
           </div>
+
         </div>
+
       </dt>
       <dd class="slds-m-top_x-small">
         <p class="slds-truncate" title="Tesla - Mule ESB">
@@ -1018,10 +1146,13 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text">Cases</span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <p class="slds-text-heading_small slds-hyphenate">Cases (1)</p>
           </div>
+
         </div>
+
       </dt>
       <dd class="slds-m-top_x-small">
         <p class="slds-truncate" title="Tesla - Anypoint Studios">
@@ -1039,6 +1170,7 @@ SLDS 1 blueprint examples for **Popovers**.
       </dd>
     </dl>
   </div>
+
 </section>
 :::
 
@@ -1062,14 +1194,20 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text"></span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-5" class="slds-popover_prompt__heading">Prompt title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::
 
@@ -1093,14 +1231,20 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text"></span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-5" class="slds-popover_prompt__heading">Prompt title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <button class="slds-button slds-button_neutral slds-col_bump-right">Dismiss</button>
@@ -1109,6 +1253,7 @@ SLDS 1 blueprint examples for **Popovers**.
       </span>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -1133,14 +1278,20 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text"></span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-5" class="slds-popover_prompt__heading">Prompt title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <button class="slds-button slds-button_neutral slds-col_bump-right">Dismiss</button>
@@ -1149,6 +1300,7 @@ SLDS 1 blueprint examples for **Popovers**.
       </span>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -1173,14 +1325,20 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text"></span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-5" class="slds-popover_prompt__heading">Prompt title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <button class="slds-button slds-button_neutral slds-col_bump-right">Dismiss</button>
@@ -1189,6 +1347,7 @@ SLDS 1 blueprint examples for **Popovers**.
       </span>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -1213,14 +1372,20 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text"></span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-5" class="slds-popover_prompt__heading">Prompt title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <button class="slds-button slds-button_neutral slds-col_bump-right">Dismiss</button>
@@ -1229,6 +1394,7 @@ SLDS 1 blueprint examples for **Popovers**.
       </span>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -1253,14 +1419,20 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text"></span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-5" class="slds-popover_prompt__heading">Prompt title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <button class="slds-button slds-button_neutral slds-col_bump-right">Dismiss</button>
@@ -1269,6 +1441,7 @@ SLDS 1 blueprint examples for **Popovers**.
       </span>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -1293,14 +1466,20 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text"></span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-5" class="slds-popover_prompt__heading">Prompt title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <button class="slds-button slds-button_neutral slds-col_bump-right">Dismiss</button>
@@ -1309,6 +1488,7 @@ SLDS 1 blueprint examples for **Popovers**.
       </span>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -1333,14 +1513,20 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text"></span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-5" class="slds-popover_prompt__heading">Prompt title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
   <footer class="slds-popover__footer">
     <div class="slds-grid slds-grid_vertical-align-center">
       <button class="slds-button slds-button_neutral slds-col_bump-right">Dismiss</button>
@@ -1349,6 +1535,7 @@ SLDS 1 blueprint examples for **Popovers**.
       </span>
       <button class="slds-button slds-button_brand">Save</button>
     </div>
+
   </footer>
 </section>
 :::
@@ -1373,13 +1560,19 @@ SLDS 1 blueprint examples for **Popovers**.
               <span class="slds-assistive-text"></span>
             </span>
           </div>
+
           <div class="slds-media__body">
             <h2 id="dialog-heading-id-5" class="slds-popover_prompt__heading">Prompt title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 :::

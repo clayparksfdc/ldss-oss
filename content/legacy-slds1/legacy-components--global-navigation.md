@@ -24,11 +24,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
   </div>
+
   <nav class="slds-context-bar__secondary" role="navigation">
     <ul class="slds-grid">
       <li class="slds-context-bar__item slds-is-active">
@@ -49,6 +52,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open menu item submenu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -83,6 +87,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </li>
       <li class="slds-context-bar__item">
         <a href="#" class="slds-context-bar__label-action" title="Menu Item">
@@ -102,6 +107,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
     </ul>
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="Active item"
@@ -124,11 +130,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
   </div>
+
   <nav class="slds-context-bar__secondary" role="navigation">
     <ul class="slds-grid">
       <li class="slds-context-bar__item">
@@ -148,6 +157,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open menu item submenu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -182,6 +192,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </li>
       <li class="slds-context-bar__item">
         <a href="#" class="slds-context-bar__label-action" title="Menu Item">
@@ -202,6 +213,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
     </ul>
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="Menu Open"
@@ -224,11 +236,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
   </div>
+
   <nav class="slds-context-bar__secondary" role="navigation">
     <ul class="slds-grid">
       <li class="slds-context-bar__item slds-is-active">
@@ -249,6 +264,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open menu item submenu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -283,6 +299,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </li>
       <li class="slds-context-bar__item">
         <a href="#" class="slds-context-bar__label-action" title="Menu Item">
@@ -302,6 +319,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
     </ul>
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="About Navigation Tab Bar"
@@ -324,10 +342,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -340,6 +360,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -368,7 +389,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -378,10 +401,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -433,7 +460,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -442,6 +471,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -493,7 +523,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -502,6 +534,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -553,7 +586,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -562,13 +597,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Active"
@@ -591,10 +631,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -607,6 +649,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -635,7 +678,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -645,10 +690,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -700,7 +749,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -709,6 +760,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -760,7 +812,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -769,6 +823,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -820,7 +875,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -829,13 +886,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Active"
@@ -858,10 +920,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -874,6 +938,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -902,7 +967,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -912,10 +979,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -967,7 +1038,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -976,6 +1049,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active slds-has-focus" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -1027,7 +1101,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1036,6 +1112,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -1087,7 +1164,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1096,13 +1175,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Unsaved"
@@ -1125,10 +1209,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -1141,6 +1227,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -1169,7 +1256,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -1179,10 +1268,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -1234,7 +1327,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1243,6 +1338,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -1294,7 +1390,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1303,6 +1401,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-unsaved" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -1356,7 +1455,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1365,13 +1466,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Unread"
@@ -1395,10 +1501,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -1411,6 +1519,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -1439,7 +1548,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -1449,10 +1560,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -1504,7 +1619,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1513,6 +1630,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -1564,7 +1682,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1573,6 +1693,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-has-notification" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Chat - Customer" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -1626,7 +1747,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Chat - Customer">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -1635,13 +1758,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Chat - Customer</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Overflow"
@@ -1665,10 +1793,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -1681,6 +1811,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -1709,7 +1840,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -1719,10 +1852,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -1774,7 +1911,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -1783,6 +1922,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -1834,7 +1974,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -1843,6 +1985,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -1894,7 +2037,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -1903,13 +2048,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -1934,10 +2085,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -1950,6 +2103,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -1978,7 +2132,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -1988,10 +2144,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -2043,7 +2203,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2052,6 +2214,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -2103,7 +2266,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2112,6 +2277,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-unsaved slds-has-notification" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Chat - Customer" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -2166,7 +2332,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Chat - Customer">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2175,13 +2343,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Chat - Customer</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Success"
@@ -2205,10 +2378,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -2221,6 +2396,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -2249,7 +2425,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -2259,10 +2437,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -2314,7 +2496,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2323,6 +2507,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -2374,7 +2559,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2383,6 +2570,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-has-success" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Chat - Customer" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -2436,7 +2624,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Chat - Customer">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2445,13 +2635,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Chat - Customer</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Success"
@@ -2475,10 +2670,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -2491,6 +2688,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -2519,7 +2717,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -2529,10 +2729,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -2584,7 +2788,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2593,6 +2799,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -2644,7 +2851,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2653,6 +2862,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active slds-has-success" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Chat - Customer" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -2706,7 +2916,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Chat - Customer">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2715,13 +2927,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Chat - Customer</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Success"
@@ -2745,10 +2962,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -2761,6 +2980,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -2789,7 +3009,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -2799,10 +3021,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -2854,7 +3080,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2863,6 +3091,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -2914,7 +3143,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2923,6 +3154,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active slds-has-focus slds-has-success" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Chat - Customer" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -2976,7 +3208,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Chat - Customer">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -2985,13 +3219,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Chat - Customer</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Success"
@@ -3015,10 +3254,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -3031,6 +3272,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -3059,7 +3301,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -3069,10 +3313,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -3124,7 +3372,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -3133,6 +3383,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -3184,7 +3435,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -3193,6 +3446,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-unsaved slds-has-success" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Chat - Customer" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -3248,7 +3502,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Chat - Customer">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -3257,13 +3513,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Chat - Customer</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Success"
@@ -3287,10 +3548,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -3303,6 +3566,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -3331,7 +3595,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -3341,10 +3607,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -3396,7 +3666,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -3405,6 +3677,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -3456,7 +3729,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -3465,6 +3740,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-has-notification slds-has-success" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Chat - Customer" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -3520,7 +3796,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Chat - Customer">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -3529,13 +3807,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Chat - Customer</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Success"
@@ -3559,10 +3842,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -3575,6 +3860,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -3603,7 +3889,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -3613,10 +3901,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -3668,7 +3960,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -3677,6 +3971,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -3728,7 +4023,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -3737,6 +4034,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-unsaved slds-has-notification slds-has-success" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Chat - Customer" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -3793,7 +4091,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Chat - Customer">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -3802,13 +4102,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Chat - Customer</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Warning"
@@ -3832,10 +4137,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -3848,6 +4155,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -3876,7 +4184,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -3886,10 +4196,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -3941,7 +4255,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -3950,6 +4266,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -4001,7 +4318,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4010,6 +4329,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-has-warning" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA in 0.30" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -4063,7 +4383,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close SLA in 0.30">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4072,13 +4394,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA in 0.30</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Warning"
@@ -4102,10 +4429,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -4118,6 +4447,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -4146,7 +4476,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -4156,10 +4488,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -4211,7 +4547,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4220,6 +4558,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -4271,7 +4610,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4280,6 +4621,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active slds-has-warning" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA in 0.30" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -4333,7 +4675,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close SLA in 0.30">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4342,13 +4686,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA in 0.30</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Warning"
@@ -4372,10 +4721,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -4388,6 +4739,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -4416,7 +4768,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -4426,10 +4780,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -4481,7 +4839,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4490,6 +4850,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -4541,7 +4902,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4550,6 +4913,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active slds-has-focus slds-has-warning" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA in 0.30" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -4603,7 +4967,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close SLA in 0.30">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4612,13 +4978,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA in 0.30</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Warning"
@@ -4642,10 +5013,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -4658,6 +5031,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -4686,7 +5060,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -4696,10 +5072,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -4751,7 +5131,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4760,6 +5142,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -4811,7 +5194,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4820,6 +5205,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-unsaved slds-has-warning" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA in 0.30" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -4875,7 +5261,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close SLA in 0.30">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -4884,13 +5272,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA in 0.30</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Warning"
@@ -4914,10 +5307,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -4930,6 +5325,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -4958,7 +5354,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -4968,10 +5366,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -5023,7 +5425,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5032,6 +5436,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -5083,7 +5488,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5092,6 +5499,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-has-notification slds-has-warning" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA in 0.30" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -5147,7 +5555,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close SLA in 0.30">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5156,13 +5566,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA in 0.30</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Warning"
@@ -5186,10 +5601,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -5202,6 +5619,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -5230,7 +5648,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -5240,10 +5660,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -5295,7 +5719,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5304,6 +5730,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -5355,7 +5782,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5364,6 +5793,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-unsaved slds-has-notification slds-has-warning" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA in 0.30" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -5420,7 +5850,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close SLA in 0.30">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5429,13 +5861,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA in 0.30</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Error"
@@ -5459,10 +5896,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -5475,6 +5914,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -5503,7 +5943,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -5513,10 +5955,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -5568,7 +6014,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5577,6 +6025,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -5628,7 +6077,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5637,6 +6088,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-has-error" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA Violation" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -5690,7 +6142,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close SLA Violation">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5699,13 +6153,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA Violation</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Error"
@@ -5729,10 +6188,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -5745,6 +6206,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -5773,7 +6235,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -5783,10 +6247,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -5838,7 +6306,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5847,6 +6317,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -5898,7 +6369,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5907,6 +6380,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active slds-has-error" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA Violation" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -5960,7 +6434,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close SLA Violation">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -5969,13 +6445,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA Violation</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Error"
@@ -5999,10 +6480,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -6015,6 +6498,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -6043,7 +6527,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -6053,10 +6539,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -6108,7 +6598,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6117,6 +6609,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -6168,7 +6661,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6177,6 +6672,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active slds-has-focus slds-has-error" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA Violation" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -6230,7 +6726,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close SLA Violation">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6239,13 +6737,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA Violation</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Error"
@@ -6269,10 +6772,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -6285,6 +6790,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -6313,7 +6819,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -6323,10 +6831,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -6378,7 +6890,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6387,6 +6901,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -6438,7 +6953,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6447,6 +6964,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-unsaved slds-has-error" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA Violation" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -6502,7 +7020,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close SLA Violation">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6511,13 +7031,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA Violation</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Error"
@@ -6541,10 +7066,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -6557,6 +7084,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -6585,7 +7113,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -6595,10 +7125,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -6650,7 +7184,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6659,6 +7195,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -6710,7 +7247,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6719,6 +7258,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-has-notification slds-has-error" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA Violation" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -6774,7 +7314,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close SLA Violation">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6783,13 +7325,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA Violation</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Error"
@@ -6813,10 +7360,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -6829,6 +7378,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -6857,7 +7407,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -6867,10 +7419,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -6922,7 +7478,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6931,6 +7489,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -6982,7 +7541,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -6991,6 +7552,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-unsaved slds-has-notification slds-has-error" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="SLA Violation" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -7047,7 +7609,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-inverse slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close SLA Violation">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -7056,13 +7620,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close SLA Violation</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Chat - Customer Content</div>
+
 :::
 
 ::: legacy-component-example title="Pinned"
@@ -7085,10 +7654,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -7101,6 +7672,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -7129,7 +7701,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -7139,10 +7713,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-pinned" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -7194,7 +7772,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -7246,7 +7826,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -7255,6 +7837,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -7306,7 +7889,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -7315,13 +7900,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Pinned States"
@@ -7344,10 +7934,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -7360,6 +7952,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -7388,7 +7981,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -7398,10 +7993,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active slds-is-pinned" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -7453,7 +8052,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -7505,7 +8106,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -7514,6 +8117,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -7565,7 +8169,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -7574,13 +8180,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Pinned States"
@@ -7603,10 +8214,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -7619,6 +8232,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -7647,7 +8261,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -7657,10 +8273,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active slds-is-pinned slds-has-focus" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -7712,7 +8332,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -7764,7 +8386,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -7773,6 +8397,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -7824,7 +8449,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -7833,13 +8460,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Pinned States"
@@ -7862,10 +8494,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -7878,6 +8512,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -7906,7 +8541,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -7916,10 +8553,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-unsaved slds-is-pinned" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -7973,7 +8614,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -8025,7 +8668,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -8034,6 +8679,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -8085,7 +8731,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -8094,13 +8742,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Pinned States"
@@ -8124,10 +8777,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -8140,6 +8795,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -8168,7 +8824,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -8178,10 +8836,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-pinned slds-has-notification" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Chat - Customer" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -8235,7 +8897,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -8287,7 +8951,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -8296,6 +8962,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -8347,7 +9014,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -8356,13 +9025,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Overflowed Tabs"
@@ -8385,10 +9059,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -8401,6 +9077,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -8429,7 +9106,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -8439,10 +9118,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -8494,7 +9177,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -8503,6 +9188,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -8554,7 +9240,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -8563,6 +9251,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -8614,7 +9303,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -8623,6 +9314,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click" role="presentation">
         <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -8666,13 +9358,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Opened"
@@ -8696,10 +9393,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -8712,6 +9411,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -8740,7 +9440,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -8750,10 +9452,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -8805,7 +9511,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -8814,6 +9522,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -8865,7 +9574,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -8874,6 +9585,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -8925,7 +9637,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -8934,6 +9648,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -8977,13 +9692,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -9007,10 +9728,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -9023,6 +9746,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -9051,7 +9775,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -9061,10 +9787,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -9116,7 +9846,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -9125,6 +9857,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -9176,7 +9909,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -9185,6 +9920,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -9236,7 +9972,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -9245,6 +9983,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-unsaved" role="presentation">
         <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -9292,13 +10031,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Unsaved"
@@ -9322,10 +10066,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -9338,6 +10084,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -9366,7 +10113,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -9376,10 +10125,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -9431,7 +10184,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -9440,6 +10195,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -9491,7 +10247,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -9500,6 +10258,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -9551,7 +10310,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -9560,6 +10321,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-is-unsaved" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -9607,13 +10369,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -9638,10 +10406,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -9654,6 +10424,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -9682,7 +10453,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -9692,10 +10465,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -9747,7 +10524,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -9756,6 +10535,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -9807,7 +10587,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -9816,6 +10598,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -9867,7 +10650,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -9876,6 +10661,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-has-notification" role="presentation">
         <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -9923,13 +10709,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Unread"
@@ -9954,10 +10745,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -9970,6 +10763,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -9998,7 +10792,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -10008,10 +10804,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -10063,7 +10863,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -10072,6 +10874,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -10123,7 +10926,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -10132,6 +10937,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -10183,7 +10989,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -10192,6 +11000,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-has-notification" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -10239,13 +11048,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -10271,10 +11086,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -10287,6 +11104,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -10315,7 +11133,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -10325,10 +11145,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -10380,7 +11204,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -10389,6 +11215,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -10440,7 +11267,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -10449,6 +11278,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -10500,7 +11330,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -10509,6 +11341,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-has-notification slds-is-unsaved" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -10558,13 +11391,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -10590,10 +11429,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -10606,6 +11447,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -10634,7 +11476,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -10644,10 +11488,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -10699,7 +11547,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -10708,6 +11558,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -10759,7 +11610,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -10768,6 +11621,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-unsaved slds-has-notification" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -10816,7 +11670,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -10825,6 +11681,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-has-notification slds-is-unsaved" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -10862,13 +11719,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -10894,10 +11757,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -10910,6 +11775,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -10938,7 +11804,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -10948,10 +11816,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -11003,7 +11875,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -11012,6 +11886,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -11063,7 +11938,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -11072,6 +11949,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -11123,7 +12001,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -11132,6 +12012,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-has-success" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -11177,13 +12058,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -11209,10 +12096,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -11225,6 +12114,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -11253,7 +12143,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -11263,10 +12155,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -11318,7 +12214,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -11327,6 +12225,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -11378,7 +12277,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -11387,6 +12288,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -11438,7 +12340,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -11447,6 +12351,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-has-notification slds-is-unsaved slds-has-success" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -11498,13 +12403,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -11530,10 +12441,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -11546,6 +12459,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -11574,7 +12488,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -11584,10 +12500,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -11639,7 +12559,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -11648,6 +12570,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -11699,7 +12622,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -11708,6 +12633,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -11759,7 +12685,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -11768,6 +12696,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-has-warning" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -11813,13 +12742,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -11845,10 +12780,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -11861,6 +12798,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -11889,7 +12827,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -11899,10 +12839,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -11954,7 +12898,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -11963,6 +12909,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -12014,7 +12961,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -12023,6 +12972,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -12074,7 +13024,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -12083,6 +13035,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-has-notification slds-is-unsaved slds-has-warning" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -12134,13 +13087,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -12166,10 +13125,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -12182,6 +13143,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -12210,7 +13172,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -12220,10 +13184,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -12275,7 +13243,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -12284,6 +13254,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -12335,7 +13306,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -12344,6 +13317,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -12395,7 +13369,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -12404,6 +13380,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-has-error" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -12449,13 +13426,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -12481,10 +13464,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -12497,6 +13482,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -12525,7 +13511,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -12535,10 +13523,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -12590,7 +13582,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -12599,6 +13593,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -12650,7 +13645,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -12659,6 +13656,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -12710,7 +13708,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -12719,6 +13719,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-has-notification slds-is-unsaved slds-has-error" role="presentation">
           <button class="slds-button slds-context-bar__label-action" title="More Tab Items" aria-haspopup="true" role="tab">
@@ -12770,13 +13771,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -12800,10 +13807,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open App Launcher</span>
         </button>
       </div>
+
       <span class="slds-context-bar__label-action slds-context-bar__app-name">
         <span class="slds-truncate" title="App Name">App Name</span>
       </span>
     </div>
+
     <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-active">
       <a href="#" class="slds-context-bar__label-action">
         <span class="slds-truncate" title="Object">Object</span>
@@ -12816,6 +13825,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open object switcher menu</span>
         </button>
       </div>
+
       <div class="slds-dropdown slds-dropdown_right">
         <ul class="slds-dropdown__list" role="menu">
           <li class="slds-dropdown__item" role="presentation">
@@ -12844,7 +13854,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
     <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
       <div class="slds-context-bar__icon-action">
         <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -12854,10 +13866,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
           <span class="slds-assistive-text">Open a New Tab</span>
         </button>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-context-bar__secondary">
     <div class="slds-context-bar__vertical-divider"></div>
+
     <ul class="slds-grid" role="tablist">
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -12909,7 +13925,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -12918,6 +13936,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Home</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -12969,7 +13988,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -12978,6 +13999,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 1</span>
           </button>
         </div>
+
       </li>
       <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
         <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -13029,7 +14051,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
               </li>
             </ul>
           </div>
+
         </div>
+
         <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
           <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
             <svg class="slds-button__icon" aria-hidden="true">
@@ -13038,13 +14062,18 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Close Tab Item 2</span>
           </button>
         </div>
+
       </li>
     </ul>
   </div>
+
 </div>
 <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
 <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
 <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 :::
 
 ::: legacy-component-example title="Menu open"
@@ -13068,10 +14097,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -13084,6 +14115,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -13112,7 +14144,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -13122,10 +14156,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -13177,7 +14215,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -13186,6 +14226,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -13237,7 +14278,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -13246,6 +14289,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -13297,7 +14341,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -13306,13 +14352,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -13337,10 +14389,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -13353,6 +14407,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -13381,7 +14436,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -13391,6 +14448,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
         <section class="slds-popover slds-nubbin_top" role="dialog" aria-label="Add tab by URL or ID" style="position:absolute;left:1.125rem;top:2.75rem;margin-left:-10rem">
           <div class="slds-popover__body">
             <div class="slds-form-element">
@@ -13399,13 +14457,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 <input type="text" id="text-input-01" class="slds-input" placeholder="Placeholder Text" />
                 <button class="slds-button slds-button_brand slds-shrink-none slds-m-left_small" type="submit">Add Tab</button>
               </div>
+
             </div>
+
           </div>
+
         </section>
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -13457,7 +14521,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -13466,6 +14532,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -13517,7 +14584,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -13526,6 +14595,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -13577,7 +14647,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -13586,13 +14658,19 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-1">Tab Home Content</div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::
 
@@ -13617,10 +14695,12 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open App Launcher</span>
           </button>
         </div>
+
         <span class="slds-context-bar__label-action slds-context-bar__app-name">
           <span class="slds-truncate" title="App Name">App Name</span>
         </span>
       </div>
+
       <div class="slds-context-bar__item slds-context-bar__object-switcher slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
         <a href="#" class="slds-context-bar__label-action">
           <span class="slds-truncate" title="Object">Object</span>
@@ -13633,6 +14713,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open object switcher menu</span>
           </button>
         </div>
+
         <div class="slds-dropdown slds-dropdown_right">
           <ul class="slds-dropdown__list" role="menu">
             <li class="slds-dropdown__item" role="presentation">
@@ -13661,7 +14742,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
             </li>
           </ul>
         </div>
+
       </div>
+
       <div class="slds-context-bar__item slds-dropdown-trigger slds-dropdown-trigger_click">
         <div class="slds-context-bar__icon-action">
           <button class="slds-button slds-button_icon slds-button_icon-container slds-button_icon-small" title="Open a New Tab">
@@ -13671,10 +14754,14 @@ SLDS 1 blueprint examples for **Global Navigation**.
             <span class="slds-assistive-text">Open a New Tab</span>
           </button>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-context-bar__secondary">
       <div class="slds-context-bar__vertical-divider"></div>
+
       <ul class="slds-grid" role="tablist">
         <li class="slds-context-bar__item slds-context-bar__item_tab slds-is-active slds-has-sub-tabs" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Home" aria-selected="true" tabindex="0" aria-controls="context-tab-panel-1" id="context-tab-id-1">
@@ -13726,7 +14813,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="0" title="Close Home">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -13735,6 +14824,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Home</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 1" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-2" id="context-tab-id-2">
@@ -13786,7 +14876,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 1">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -13795,6 +14887,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 1</span>
             </button>
           </div>
+
         </li>
         <li class="slds-context-bar__item slds-context-bar__item_tab" role="presentation">
           <a href="#" class="slds-context-bar__label-action" role="tab" title="Tab Item 2" aria-selected="false" tabindex="-1" aria-controls="context-tab-panel-3" id="context-tab-id-3">
@@ -13846,7 +14939,9 @@ SLDS 1 blueprint examples for **Global Navigation**.
                 </li>
               </ul>
             </div>
+
           </div>
+
           <div class="slds-context-bar__icon-action slds-col_bump-left slds-p-left_none">
             <button class="slds-button slds-button_icon slds-button_icon-current-color slds-button_icon-container slds-button_icon-x-small" tabindex="-1" title="Close Tab Item 2">
               <svg class="slds-button__icon" aria-hidden="true">
@@ -13855,10 +14950,13 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Tab Item 2</span>
             </button>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
   <div id="context-tab-panel-1" class="slds-show" role="tabpanel" aria-labelledby="context-tab-id-1">
     <div class="slds-tabs_default slds-sub-tabs">
       <ul class="slds-tabs_default__nav" role="tablist">
@@ -13881,6 +14979,7 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close 00071938</span>
             </button>
           </div>
+
         </li>
         <li class="slds-tabs_default__item slds-sub-tabs__item slds-grid slds-grid_vertical-align-center" role="presentation">
           <a aria-controls="subtab-tabpanel-02" aria-selected="false" class="slds-tabs_default__link slds-p-horizontal_xx-small" href="#" id="subtab-tabitem-02" role="tab" tabindex="-1" title="Chat - Customer">
@@ -13901,13 +15000,20 @@ SLDS 1 blueprint examples for **Global Navigation**.
               <span class="slds-assistive-text">Close Chat - Customer</span>
             </button>
           </div>
+
         </li>
       </ul>
       <div aria-labelledby="subtab-tabitem-01" class="slds-tabs_default__content slds-show" id="subtab-tabpanel-01" role="tabpanel">Item One Content</div>
+
       <div aria-labelledby="subtab-tabitem-02" class="slds-tabs_default__content slds-hide" id="subtab-tabpanel-02" role="tabpanel">Item Two Content</div>
+
     </div>
+
   </div>
+
   <div id="context-tab-panel-2" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-2">Tab One Content</div>
+
   <div id="context-tab-panel-3" class="slds-hide" role="tabpanel" aria-labelledby="context-tab-id-3">Tab Two Content</div>
+
 </div>
 :::

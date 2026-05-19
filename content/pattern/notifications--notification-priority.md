@@ -46,7 +46,7 @@ To ensure the docked composer is usable by everyone, please implement the follow
 ### Modals and Prompts
 
 
-| Modals and prompts present information that requires halting the current workflow. They show content in a layer preceding the app and are centered vertically in the viewport.  PriorityUrgent  **Usage**To dismiss a prompt, a user must confirm its call to action. A modal can be dismissed via the close icon, cancel button, or by clicking outside the dialog window.  Component[Modal](/component/modals) [Prompt](/components/prompt) | *                     A modal           *  |
+| Modals and prompts present information that requires halting the current workflow. They show content in a layer preceding the app and are centered vertically in the viewport.  PriorityUrgent  **Usage**To dismiss a prompt, a user must confirm its call to action. A modal can be dismissed via the close icon, cancel button, or by clicking outside the dialog window.  Component[Modal](/component/modals) [Prompt](/component/prompt) | *                     A modal           *  |
 | --- | --- |
 
 

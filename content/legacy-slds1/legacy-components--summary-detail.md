@@ -16,11 +16,14 @@ SLDS 1 blueprint examples for **Summary Detail**.
     <div class="slds-summary-detail__title">
       <h3 class="slds-text-heading_small slds-truncate" title="summary title">Summary Title</h3>
     </div>
+
     <div class="slds-summary-detail__content" id="expando-unique-id">
       <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.</p>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -36,11 +39,14 @@ SLDS 1 blueprint examples for **Summary Detail**.
     <div class="slds-summary-detail__title">
       <h3 class="slds-text-heading_small slds-truncate" title="summary title">Summary Title</h3>
     </div>
+
     <div hidden="" class="slds-summary-detail__content" id="expando-unique-id">
       <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.</p>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -58,13 +64,17 @@ SLDS 1 blueprint examples for **Summary Detail**.
         <h3 class="slds-text-heading_small slds-truncate slds-p-right_small" title="summary title">Summary Title</h3>
         <span class="slds-badge"> In Progress </span>
       </div>
+
       <p>Additional information about this step</p>
     </div>
+
     <div hidden="" class="slds-summary-detail__content" id="expando-unique-id">
       <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.</p>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -82,12 +92,16 @@ SLDS 1 blueprint examples for **Summary Detail**.
         <h3 class="slds-text-heading_small slds-truncate slds-p-right_small" title="summary title">Summary Title</h3>
         <span class="slds-badge"> In Progress </span>
       </div>
+
       <p>Additional information about this step</p>
     </div>
+
     <div class="slds-summary-detail__content" id="expando-unique-id">
       <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.</p>
     </div>
+
   </div>
+
 </div>
 :::

@@ -120,7 +120,7 @@ Vertical tab bar with open panel
 
 Content builders use the property panel to configure and style selected content on the canvas. This panel is open by default, and persists unless it is closed; a close button is optional. It uses drawer behavior and does not overlay other elements.
 
-ℹ️ ***Note:****Because canvas updates happen continuously as changes are made, the base panel does not use a footer action bar. See *[*Canvas*](/patterns/canvas) update recommendations.
+ℹ️ ***Note:****Because canvas updates happen continuously as changes are made, the base panel does not use a footer action bar. See *[*Canvas*](/pattern/canvas) update recommendations.
 
 The base version of this panel has a header and a body area. Body content may be organized with tabs, accordions, and static sections.
 
@@ -161,13 +161,13 @@ Content builders require specific inputs for common use cases such as adding ima
 
 #### HTML/Code Input
 
-When editing a code property, such as the contents of a code block, use a [Textarea](/components/textarea) with **$font-family-monospace**. Use a toolbar for actions such as Merge Fields.
+When editing a code property, such as the contents of a code block, use a [Textarea](/component/textarea) with **$font-family-monospace**. Use a toolbar for actions such as Merge Fields.
 
 #### Text Input with Actions
 
 For basic text properties, include neutral action buttons below the text field or textarea, spaced at **$spacing-xx-small**.
 
-For properties that require rich text formatting (e.g., font weight, bullets, and alignment), use the [Rich Text Editor](/components/rich-text-editor) and include actions in the toolbar.
+For properties that require rich text formatting (e.g., font weight, bullets, and alignment), use the [Rich Text Editor](/component/rich-text-editor) and include actions in the toolbar.
 
 
 | *                     Basic input with action buttons below           *  | *                       *  Basic input with action buttons below  *           *  |
@@ -240,7 +240,7 @@ Field validation should follow SLDS guidelines for required fields and incomplet
 
 Tabs and accordions may contain warning or error icons. The associated alerts should also be surfaced to the header and canvas.
 
-*See *[*Validation*](/patterns/validation)* for more information*
+*See *[*Validation*](/pattern/validation)* for more information*
 
 ## Canvas Update
 

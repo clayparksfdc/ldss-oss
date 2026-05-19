@@ -384,8 +384,8 @@
     - [Overview](/pattern/interface-feedback--overview)
     - [Feedback Priority](/pattern/interface-feedback--feedback-priority)
     - [Feedback States](/pattern/interface-feedback--feedback-states)
-  - [Layout](/pattern/layout) {sidebar}
-    - [Examples](/pattern/layout--examples)
+  - [Layout](/develop/layout) {sidebar}
+    - [Examples](/develop/layout--examples)
     - [CSS Classes](/pattern/layout--css-classes)
   - [Loading](/pattern/loading)
   - [Localization](/pattern/localization)

@@ -7,6 +7,7 @@ order: 0
 
 <div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Components&quot;,&quot;tagline&quot;:&quot;Reusable UI primitives that match Salesforce design language.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;gradient&quot;:&quot;linear-gradient(135deg, #064E3B 0%, #0E7490 50%, #0EA5E9 100%)&quot;}" data-directive-children="[]">
 </div>
+
 SLDS 2 includes a curated collection of reusable components that guide and inform users’ interactions within our products and apps. These components are designed to make it easy to create a consistent and efficient user interface across an ecosystem of applications.
 
 ## Component Types
@@ -23,7 +24,7 @@ Pre-built, customizable components provided by Salesforce within the Lightning P
 - **Consistent Design and Behavior**: A unified user experience across various products like Sales Cloud, Service Cloud, and Experience Cloud.
 - **Responsive and Mobile-Friendly**: Designed to work across devices and provide a responsive experience on desktop, tablet, and mobile.
 
-[Components | Lightning Base Components](/develop/developers)
+[Components | Lightning Base Components](/get-started/developers)
 
 ### Component Blueprints
 
@@ -36,7 +37,7 @@ Component blueprints are framework-agnostic—they don't rely on the Lightning C
 
 ⚠️ Blueprint components are style-only HTML and CSS scaffolding and come with significant limitations. Use them only when no suitable base component is available. They don’t include behavior, logic, or interactivity and require manual implementation to become functional.
 
-[Components | Component Blueprints](/develop/developers)
+[Components | Component Blueprints](/get-started/developers)
 
 ## Programming Models
 

@@ -15,6 +15,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <p>
@@ -28,15 +29,18 @@ SLDS 1 blueprint examples for **Feeds**.
                 <span class="slds-assistive-text">More Options</span>
               </button>
             </div>
+
             <p class="slds-text-body_small">
               <a href="#" title="Click for single-item view of this post" class="slds-text-link_reset">5 days Ago</a>
             </p>
           </div>
+
         </header>
         <div class="slds-post__content slds-text-longform">
           <p>Hey there! Here&#x27;s the latest demo presentation
             <a href="#" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
         </div>
+
         <footer class="slds-post__footer">
           <ul class="slds-post__footer-actions-list slds-list_horizontal">
             <li class="slds-col slds-item slds-m-right_medium">
@@ -69,6 +73,7 @@ SLDS 1 blueprint examples for **Feeds**.
           <button class="slds-button_reset slds-text-link">More comments</button>
           <span class="slds-text-body_small slds-col_bump-left">1 of 8</span>
         </div>
+
         <ul>
           <li>
             <article class="slds-comment slds-media slds-hint-parent">
@@ -77,6 +82,7 @@ SLDS 1 blueprint examples for **Feeds**.
                   <img alt="Jenna Davis" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Jenna Davis avatar" />
                 </a>
               </div>
+
               <div class="slds-media__body">
                 <header class="slds-media slds-media_center">
                   <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
@@ -90,8 +96,10 @@ SLDS 1 blueprint examples for **Feeds**.
                       <span class="slds-assistive-text">More Options</span>
                     </button>
                   </div>
+
                 </header>
                 <div class="slds-comment__content slds-text-longform">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                 <footer>
                   <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
                     <li class="slds-item">
@@ -101,10 +109,12 @@ SLDS 1 blueprint examples for **Feeds**.
                   </ul>
                 </footer>
               </div>
+
             </article>
           </li>
         </ul>
       </div>
+
     </li>
     <li class="slds-feed__item">
       <article class="slds-post">
@@ -114,6 +124,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <p>
@@ -127,15 +138,18 @@ SLDS 1 blueprint examples for **Feeds**.
                 <span class="slds-assistive-text">More Options</span>
               </button>
             </div>
+
             <p class="slds-text-body_small">
               <a href="#" title="Click for single-item view of this post" class="slds-text-link_reset">5 days Ago</a>
             </p>
           </div>
+
         </header>
         <div class="slds-post__content slds-text-longform">
           <p>Hey there! Here&#x27;s the latest demo presentation
             <a href="#" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
         </div>
+
         <footer class="slds-post__footer">
           <ul class="slds-post__footer-actions-list slds-list_horizontal">
             <li class="slds-col slds-item slds-m-right_medium">
@@ -166,6 +180,7 @@ SLDS 1 blueprint examples for **Feeds**.
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Post"
@@ -179,6 +194,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <p>
@@ -192,15 +208,18 @@ SLDS 1 blueprint examples for **Feeds**.
                 <span class="slds-assistive-text">More Options</span>
               </button>
             </div>
+
             <p class="slds-text-body_small">
               <a href="#" title="Click for single-item view of this post" class="slds-text-link_reset">5 days Ago</a>
             </p>
           </div>
+
         </header>
         <div class="slds-post__content slds-text-longform">
           <p>Hey there! Here&#x27;s the latest demo presentation
             <a href="#" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
         </div>
+
         <footer class="slds-post__footer">
           <ul class="slds-post__footer-actions-list slds-list_horizontal">
             <li class="slds-col slds-item slds-m-right_medium">
@@ -231,6 +250,7 @@ SLDS 1 blueprint examples for **Feeds**.
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Link attachment"
@@ -244,6 +264,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <p>
@@ -257,15 +278,18 @@ SLDS 1 blueprint examples for **Feeds**.
                 <span class="slds-assistive-text">More Options</span>
               </button>
             </div>
+
             <p class="slds-text-body_small">
               <a href="#" title="Click for single-item view of this post" class="slds-text-link_reset">5 days Ago</a>
             </p>
           </div>
+
         </header>
         <div class="slds-post__content slds-text-longform">
           <p>Hey there! Here&#x27;s the latest demo presentation
             <a href="#" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
         </div>
+
         <div class="slds-post__payload">
           <a href="#" class="slds-media slds-box slds-grow slds-text-link_reset">
             <div class="slds-media__figure slds-medium-show">
@@ -274,14 +298,18 @@ SLDS 1 blueprint examples for **Feeds**.
                   <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/placeholder-img_16x9-a63eb9e2.jpg" alt="Description of the image" />
                 </figure>
               </div>
+
             </div>
+
             <div class="slds-media__body">
               <h3 class="slds-text-heading_small">Maui By Air The Best Way Around The Island</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
               <span class="slds-text-body_small">Maui By Air The Best Way Around The Island</span>
             </div>
+
           </a>
         </div>
+
         <footer class="slds-post__footer">
           <ul class="slds-post__footer-actions-list slds-list_horizontal">
             <li class="slds-col slds-item slds-m-right_medium">
@@ -312,6 +340,7 @@ SLDS 1 blueprint examples for **Feeds**.
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Files(s) attachment"
@@ -325,6 +354,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <p>
@@ -338,15 +368,18 @@ SLDS 1 blueprint examples for **Feeds**.
                 <span class="slds-assistive-text">More Options</span>
               </button>
             </div>
+
             <p class="slds-text-body_small">
               <a href="#" title="Click for single-item view of this post" class="slds-text-link_reset">5 days Ago</a>
             </p>
           </div>
+
         </header>
         <div class="slds-post__content slds-text-longform">
           <p>Hey there! Here&#x27;s the latest demo presentation
             <a href="#" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
         </div>
+
         <div class="slds-post__payload">
           <ul class="slds-grid slds-grid_pull-padded">
             <li class="slds-p-horizontal_xx-small slds-size_1-of-2 slds-medium-size_1-of-3">
@@ -366,13 +399,17 @@ SLDS 1 blueprint examples for **Feeds**.
                           <span class="slds-assistive-text">image</span>
                         </span>
                       </div>
+
                       <div class="slds-media__body">
                         <span class="slds-file__text slds-truncate" title="Image Title">Image Title</span>
                       </div>
+
                     </div>
+
                   </figcaption>
                 </figure>
               </div>
+
             </li>
             <li class="slds-p-horizontal_xx-small slds-size_1-of-2 slds-medium-size_1-of-3 slds-medium-show">
               <div class="slds-file slds-file_card slds-has-title">
@@ -396,37 +433,47 @@ SLDS 1 blueprint examples for **Feeds**.
                           <span class="slds-assistive-text">pdf</span>
                         </span>
                       </div>
+
                       <div class="slds-media__body">
                         <span class="slds-file__text slds-truncate" title="Image Title">Image Title</span>
                       </div>
+
                     </div>
+
                   </figcaption>
                 </figure>
               </div>
+
             </li>
             <li class="slds-p-horizontal_xx-small slds-size_1-of-2 slds-medium-size_1-of-3">
               <div class="slds-file slds-file_card">
                 <figure>
                   <a href="#" class="slds-file__crop slds-file__crop_16-by-9">
                     <div class="slds-file_overlay"></div>
+
                     <span class="slds-assistive-text">Preview:</span>
                     <img src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131959/ldss-cms-dev/local/assets/images/placeholder-img_16x9-a63eb9e2.jpg" alt="Description of the image" />
                   </a>
                   <figcaption class="slds-file__title slds-file__title_overlay slds-align_absolute-center slds-text-heading_large">
                     <div class="slds-media slds-media_small slds-media_center">
                       <div class="slds-media__figure slds-line-height_reset"></div>
+
                       <div class="slds-media__body">
                         <span class="slds-file__text slds-truncate" title="22+">22+
                           <span class="slds-assistive-text">more files</span>
                         </span>
                       </div>
+
                     </div>
+
                   </figcaption>
                 </figure>
               </div>
+
             </li>
           </ul>
         </div>
+
         <footer class="slds-post__footer">
           <ul class="slds-post__footer-actions-list slds-list_horizontal">
             <li class="slds-col slds-item slds-m-right_medium">
@@ -457,6 +504,7 @@ SLDS 1 blueprint examples for **Feeds**.
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="With replies"
@@ -470,6 +518,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <p>
@@ -483,15 +532,18 @@ SLDS 1 blueprint examples for **Feeds**.
                 <span class="slds-assistive-text">More Options</span>
               </button>
             </div>
+
             <p class="slds-text-body_small">
               <a href="#" title="Click for single-item view of this post" class="slds-text-link_reset">5 days Ago</a>
             </p>
           </div>
+
         </header>
         <div class="slds-post__content slds-text-longform">
           <p>Hey there! Here&#x27;s the latest demo presentation
             <a href="#" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
         </div>
+
         <footer class="slds-post__footer">
           <ul class="slds-post__footer-actions-list slds-list_horizontal">
             <li class="slds-col slds-item slds-m-right_medium">
@@ -529,6 +581,7 @@ SLDS 1 blueprint examples for **Feeds**.
                   <img alt="Jenna Davis" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Jenna Davis avatar" />
                 </a>
               </div>
+
               <div class="slds-media__body">
                 <header class="slds-media slds-media_center">
                   <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
@@ -542,8 +595,10 @@ SLDS 1 blueprint examples for **Feeds**.
                       <span class="slds-assistive-text">More Options</span>
                     </button>
                   </div>
+
                 </header>
                 <div class="slds-comment__content slds-text-longform">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                 <footer>
                   <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
                     <li class="slds-item">
@@ -553,6 +608,7 @@ SLDS 1 blueprint examples for **Feeds**.
                   </ul>
                 </footer>
               </div>
+
             </article>
           </li>
           <li>
@@ -562,6 +618,7 @@ SLDS 1 blueprint examples for **Feeds**.
                   <img alt="Jenna Davis" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Jenna Davis avatar" />
                 </a>
               </div>
+
               <div class="slds-media__body">
                 <header class="slds-media slds-media_center">
                   <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
@@ -575,8 +632,10 @@ SLDS 1 blueprint examples for **Feeds**.
                       <span class="slds-assistive-text">More Options</span>
                     </button>
                   </div>
+
                 </header>
                 <div class="slds-comment__content slds-text-longform">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                 <footer>
                   <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
                     <li class="slds-item">
@@ -586,6 +645,7 @@ SLDS 1 blueprint examples for **Feeds**.
                   </ul>
                 </footer>
               </div>
+
             </article>
           </li>
         </ul>
@@ -595,6 +655,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-publisher slds-publisher_comment">
               <label for="comment-text-input-01" class="slds-assistive-text">Write a comment</label>
@@ -620,13 +681,19 @@ SLDS 1 blueprint examples for **Feeds**.
                 </ul>
                 <button class="slds-button slds-button_brand">Comment</button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Replies - Overflow Bar"
@@ -640,6 +707,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <p>
@@ -653,15 +721,18 @@ SLDS 1 blueprint examples for **Feeds**.
                 <span class="slds-assistive-text">More Options</span>
               </button>
             </div>
+
             <p class="slds-text-body_small">
               <a href="#" title="Click for single-item view of this post" class="slds-text-link_reset">5 days Ago</a>
             </p>
           </div>
+
         </header>
         <div class="slds-post__content slds-text-longform">
           <p>Here&#x27;s the latest demo presentation
             <a href="#" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
         </div>
+
         <footer class="slds-post__footer">
           <ul class="slds-post__footer-actions-list slds-list_horizontal">
             <li class="slds-col slds-item slds-m-right_medium">
@@ -695,6 +766,7 @@ SLDS 1 blueprint examples for **Feeds**.
           <button class="slds-button_reset slds-text-link">More comments</button>
           <span class="slds-text-body_small slds-col_bump-left">1 of 8</span>
         </div>
+
         <ul>
           <li>
             <article class="slds-comment slds-media slds-hint-parent">
@@ -703,6 +775,7 @@ SLDS 1 blueprint examples for **Feeds**.
                   <img alt="Jenna Davis" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Jenna Davis avatar" />
                 </a>
               </div>
+
               <div class="slds-media__body">
                 <header class="slds-media slds-media_center">
                   <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
@@ -716,8 +789,10 @@ SLDS 1 blueprint examples for **Feeds**.
                       <span class="slds-assistive-text">More Options</span>
                     </button>
                   </div>
+
                 </header>
                 <div class="slds-comment__content slds-text-longform">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                 <footer>
                   <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
                     <li class="slds-item">
@@ -727,6 +802,7 @@ SLDS 1 blueprint examples for **Feeds**.
                   </ul>
                 </footer>
               </div>
+
             </article>
           </li>
         </ul>
@@ -736,6 +812,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-publisher slds-publisher_comment">
               <label for="comment-text-input-01" class="slds-assistive-text">Write a comment</label>
@@ -761,13 +838,19 @@ SLDS 1 blueprint examples for **Feeds**.
                 </ul>
                 <button class="slds-button slds-button_brand">Comment</button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Replies - Publisher active"
@@ -781,6 +864,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <p>
@@ -794,15 +878,18 @@ SLDS 1 blueprint examples for **Feeds**.
                 <span class="slds-assistive-text">More Options</span>
               </button>
             </div>
+
             <p class="slds-text-body_small">
               <a href="#" title="Click for single-item view of this post" class="slds-text-link_reset">5 days Ago</a>
             </p>
           </div>
+
         </header>
         <div class="slds-post__content slds-text-longform">
           <p>Here&#x27;s the latest demo presentation
             <a href="#" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
         </div>
+
         <footer class="slds-post__footer">
           <ul class="slds-post__footer-actions-list slds-list_horizontal">
             <li class="slds-col slds-item slds-m-right_medium">
@@ -836,6 +923,7 @@ SLDS 1 blueprint examples for **Feeds**.
           <button class="slds-button_reset slds-text-link">More comments</button>
           <span class="slds-text-body_small slds-col_bump-left">1 of 8</span>
         </div>
+
         <ul>
           <li>
             <article class="slds-comment slds-media slds-hint-parent">
@@ -844,6 +932,7 @@ SLDS 1 blueprint examples for **Feeds**.
                   <img alt="Jenna Davis" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="Jenna Davis avatar" />
                 </a>
               </div>
+
               <div class="slds-media__body">
                 <header class="slds-media slds-media_center">
                   <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
@@ -857,8 +946,10 @@ SLDS 1 blueprint examples for **Feeds**.
                       <span class="slds-assistive-text">More Options</span>
                     </button>
                   </div>
+
                 </header>
                 <div class="slds-comment__content slds-text-longform">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
                 <footer>
                   <ul class="slds-list_horizontal slds-has-dividers_right slds-text-body_small">
                     <li class="slds-item">
@@ -868,6 +959,7 @@ SLDS 1 blueprint examples for **Feeds**.
                   </ul>
                 </footer>
               </div>
+
             </article>
           </li>
         </ul>
@@ -877,6 +969,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Person name" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar2-314e535f.jpg" title="User avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-publisher slds-publisher_comment slds-is-active slds-has-focus">
               <label for="comment-text-input-01" class="slds-assistive-text">Write a comment</label>
@@ -902,13 +995,19 @@ SLDS 1 blueprint examples for **Feeds**.
                 </ul>
                 <button class="slds-button slds-button_brand">Comment</button>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Question"
@@ -922,6 +1021,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <p>
@@ -935,16 +1035,19 @@ SLDS 1 blueprint examples for **Feeds**.
                 <span class="slds-assistive-text">More Options</span>
               </button>
             </div>
+
             <p class="slds-text-body_small">
               <a href="#" title="Click for single-item view of this post" class="slds-text-link_reset">5 days Ago</a>
             </p>
           </div>
+
         </header>
         <div class="slds-post__content slds-text-longform">
           <h3 class="slds-text-heading_small">Barbecue Party Tips For A Truly Amazing Event?</h3>
           <p>Hey there! Here&#x27;s the latest demo presentation
             <a href="#" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
         </div>
+
         <footer class="slds-post__footer">
           <ul class="slds-post__footer-actions-list slds-list_horizontal">
             <li class="slds-col slds-item slds-m-right_medium">
@@ -975,6 +1078,7 @@ SLDS 1 blueprint examples for **Feeds**.
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Like"
@@ -988,6 +1092,7 @@ SLDS 1 blueprint examples for **Feeds**.
               <img alt="Jason Rodgers" src="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779131876/ldss-cms-dev/local/assets/images/avatar1-63ea35f0.jpg" title="Jason Rodgers avatar" />
             </a>
           </div>
+
           <div class="slds-media__body">
             <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
               <p>
@@ -1001,15 +1106,18 @@ SLDS 1 blueprint examples for **Feeds**.
                 <span class="slds-assistive-text">More Options</span>
               </button>
             </div>
+
             <p class="slds-text-body_small">
               <a href="#" title="Click for single-item view of this post" class="slds-text-link_reset">5 days Ago</a>
             </p>
           </div>
+
         </header>
         <div class="slds-post__content slds-text-longform">
           <p>Hey there! Here&#x27;s the latest demo presentation
             <a href="#" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
         </div>
+
         <footer class="slds-post__footer">
           <ul class="slds-post__footer-actions-list slds-list_horizontal">
             <li class="slds-col slds-item slds-m-right_medium">
@@ -1040,8 +1148,11 @@ SLDS 1 blueprint examples for **Feeds**.
       <div class="slds-feed__item-comments">
         <div class="slds-p-horizontal_medium slds-p-vertical_x-small">
           <a href="#">You</a> liked this post</div>
+
       </div>
+
     </li>
   </ul>
 </div>
+
 :::

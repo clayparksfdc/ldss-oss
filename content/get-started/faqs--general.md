@@ -38,7 +38,7 @@ SLDS 2 is designed for developers, designers, and anyone building applications o
 
 ### Why transition to SLDS 2?
 
-SLDS 2 paves the way for future innovation, including dark mode, advanced styling, and agentic capabilities. Moving to SLDS 2 ensures companies can future-proof their orgs and unlock new UX capabilities when they become available. Discover details on the transition process to SLDS 2 in our [transition guide](/general/transition-to-slds-2).
+SLDS 2 paves the way for future innovation, including dark mode, advanced styling, and agentic capabilities. Moving to SLDS 2 ensures companies can future-proof their orgs and unlock new UX capabilities when they become available. Discover details on the transition process to SLDS 2 in our [transition guide](/get-started/transition-to-slds-2).
 
 ### What is Salesforce Cosmos and how is it different from SLDS 2?
 

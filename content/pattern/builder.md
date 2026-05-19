@@ -33,7 +33,7 @@ When should you think about using a builder? Start, as always, with the user. If
 - Creating and defining a series of logical actions that result in different outputs
 - Defining the relationship of one element to another—for example, in a workflow or visual layout
 - Saving and tracking multiple drafts or versions
-If a builder isn’t a good fit, consider using another framework, such as a [directional modal](/component/modals/t/8195981cc0), [Channel Studios on Marketing Cloud](https://www.salesforce.com/products/marketing-cloud/overview/), or use an [expression](https://v1.lightningdesignsystem.com/components/expression/), [form element](/component/form-element), or [filter](/general/rules-filters-and-logic).
+If a builder isn’t a good fit, consider using another framework, such as a [directional modal](/component/modals/t/8195981cc0), [Channel Studios on Marketing Cloud](https://www.salesforce.com/products/marketing-cloud/overview/), or use an [expression](https://v1.lightningdesignsystem.com/components/expression/), [form element](/component/form-element), or [filter](/pattern/rules-filters-and-logic).
 
 ## Workflow
 
@@ -92,7 +92,7 @@ The builder header should include the builder name, file name, and save status.
 
 Builder header layout
 
-*For more information about the Builder header, see *[*Header Guidelines*](/general/header)* and *[*Builder Header*](https://v1.lightningdesignsystem.com/components/builder-header/)*.*
+*For more information about the Builder header, see *[*Header Guidelines*](/pattern/header)* and *[*Builder Header*](https://v1.lightningdesignsystem.com/components/builder-header/)*.*
 
 ### Settings and Help
 
@@ -109,7 +109,7 @@ Saving is a server-side snapshot of an object and its state. Note that saving do
 #### When and how can I save my builder objects?
 
 - Use a Save button to initiate a server-side save of the entire object.
-- When a builder allows manual saving, users should be allowed to save even when their work contains errors. (See [Validation](/general/validation) for more information on messaging.)
+- When a builder allows manual saving, users should be allowed to save even when their work contains errors. (See [Validation](/pattern/validation) for more information on messaging.)
 - When a save also triggers activation/publication, allow the file to be saved without push. Alert the user to any errors blocking activation/publication.
 
 #### What about versioning?

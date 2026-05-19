@@ -26,7 +26,7 @@ SLDS 2 provides a wide range of components and tools, including:
 * [Lightning Base Components](/component/components/b/1930c8):  Reusable, out-of-the-box elements such as buttons, icons, forms, and tabs. Compose new components using the base components to create your own custom UI and apps that look like Salesforce and follow SLDS 2 guidelines. The base components get the latest SLDS component blueprint updates automatically.
 * [Component Blueprints:](/component/components/b/459d9d) Create your own custom components that follow our design guidelines.
 * [Utility classes](/develop/utility-classes): Ready-to-use CSS classes such as layout helpers, color classes, spacing, and and styling for responsive designs.
-* [Developer Tools:](/develop/developer-tools) Increase productivity by using tools that help developers seamlessly transition to SLDS 2, improve code quality, and ensure code adheres to best practices.
+* [Developer Tools:](/tools/developer-tools) Increase productivity by using tools that help developers seamlessly transition to SLDS 2, improve code quality, and ensure code adheres to best practices.
 
 ### How can developers customize SLDS 2 components?
 

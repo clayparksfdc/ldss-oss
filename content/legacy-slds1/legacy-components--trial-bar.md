@@ -59,13 +59,17 @@ SLDS 1 blueprint examples for **Trial Bar**.
           </li>
         </ul>
       </div>
+
     </div>
+
   </div>
+
   <div class="slds-grid slds-grid_vertical-align-center slds-col_bump-left">
     <span class="slds-box slds-box_xx-small slds-theme_default">30</span>
     <span class="slds-m-horizontal_x-small">Days left in trial</span>
     <a href="#" class="slds-button slds-button_success">Subscribe Now</a>
   </div>
+
 </div>
 :::
 
@@ -125,13 +129,18 @@ SLDS 1 blueprint examples for **Trial Bar**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-grid slds-grid_vertical-align-center slds-col_bump-left">
       <span class="slds-box slds-box_xx-small slds-theme_default">30</span>
       <span class="slds-m-horizontal_x-small">Days left in trial</span>
       <a href="#" class="slds-button slds-button_success">Subscribe Now</a>
     </div>
+
   </div>
+
 </div>
 :::

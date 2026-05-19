@@ -27,6 +27,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
     <div class="slds-nav-vertical__section">
       <h2 id="folder-header" class="slds-nav-vertical__title">Folders</h2>
       <ul aria-describedby="folder-header">
@@ -41,8 +42,10 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="Collapsed"
@@ -68,6 +71,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
     <div class="slds-nav-vertical__section">
       <h2 id="folder-header" class="slds-nav-vertical__title">Folders</h2>
       <ul aria-describedby="folder-header">
@@ -79,6 +83,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
     <div class="slds-nav-vertical__overflow">
       <button class="slds-button slds-button_reset slds-nav-vertical__action slds-nav-vertical__action_overflow" aria-controls="search-results" aria-expanded="false">
         <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
@@ -101,9 +106,12 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="Expanded"
@@ -129,6 +137,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
     <div class="slds-nav-vertical__section">
       <h2 id="folder-header" class="slds-nav-vertical__title">Folders</h2>
       <ul aria-describedby="folder-header">
@@ -140,6 +149,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
     <div class="slds-nav-vertical__overflow">
       <button class="slds-button slds-button_reset slds-nav-vertical__action slds-nav-vertical__action_overflow" aria-controls="search-results" aria-expanded="true">
         <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
@@ -162,9 +172,12 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
           </li>
         </ul>
       </div>
+
     </div>
+
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="Compact"
@@ -190,6 +203,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
     <div class="slds-nav-vertical__section">
       <h2 id="folder-header" class="slds-nav-vertical__title">Folders</h2>
       <ul aria-describedby="folder-header">
@@ -204,8 +218,10 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="Items with Icons"
@@ -231,6 +247,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
     <div class="slds-nav-vertical__section">
       <h2 id="folder-header" class="slds-nav-vertical__title">Folders</h2>
       <ul aria-describedby="folder-header">
@@ -257,8 +274,10 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="Items with Notifications"
@@ -289,6 +308,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
     <div class="slds-nav-vertical__section">
       <h2 id="folder-header" class="slds-nav-vertical__title">Folders</h2>
       <ul aria-describedby="folder-header">
@@ -303,8 +323,10 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="Shaded Background"
@@ -330,6 +352,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
     <div class="slds-nav-vertical__section">
       <h2 id="folder-header" class="slds-nav-vertical__title">Folders</h2>
       <ul aria-describedby="folder-header">
@@ -344,8 +367,10 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="Quickfind"
@@ -361,7 +386,9 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </span>
         <input type="search" id="input-id-01" placeholder="Quick Find" class="slds-input" />
       </div>
+
     </div>
+
     <div class="slds-nav-vertical__section">
       <h2 id="entity-header" class="slds-nav-vertical__title">Reports</h2>
       <ul aria-describedby="entity-header">
@@ -382,6 +409,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
     <div class="slds-nav-vertical__section">
       <h2 id="folder-header" class="slds-nav-vertical__title">Folders</h2>
       <ul aria-describedby="folder-header">
@@ -393,8 +421,10 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </li>
       </ul>
     </div>
+
   </nav>
 </div>
+
 :::
 
 ::: legacy-component-example title="Radio Group"
@@ -434,6 +464,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
       </span>
     </fieldset>
   </div>
+
 </div>
 :::
 
@@ -474,6 +505,7 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
       </span>
     </fieldset>
   </div>
+
 </div>
 :::
 
@@ -515,6 +547,8 @@ SLDS 1 blueprint examples for **Vertical Navigation**.
         </span>
       </fieldset>
     </div>
+
   </div>
+
 </div>
 :::

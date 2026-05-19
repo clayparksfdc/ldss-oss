@@ -28,7 +28,7 @@ Another important consideration is whether bots will be participants in the conv
 
 ### Avatar
 
-Helps break up conversation and quickly identify which participant said or sent something. If using [avatars](/components/avatar), it is important to define a default/fallback. The users' initials are ideal, as they help identify the user and differentiate from others. Another common fallback is providing a default avatar photo if users are not uploading images for their avatar. Some conversation applications that use avatars will display them for all users. Others will intentionally only show the user the avatar(s) of other participants besides themself.
+Helps break up conversation and quickly identify which participant said or sent something. If using [avatars](/component/avatar), it is important to define a default/fallback. The users' initials are ideal, as they help identify the user and differentiate from others. Another common fallback is providing a default avatar photo if users are not uploading images for their avatar. Some conversation applications that use avatars will display them for all users. Others will intentionally only show the user the avatar(s) of other participants besides themself.
 
 For bot participants, the avatars need to indicate that the end-user is conversing with a bot.
 

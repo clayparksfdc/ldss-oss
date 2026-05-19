@@ -95,6 +95,7 @@ SLDS 1 blueprint examples for **Pills**.
     </button>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="Error"
@@ -133,13 +134,16 @@ SLDS 1 blueprint examples for **Pills**.
     </button>
   </span>
 </div>
+
 :::
 
 ::: legacy-component-example title="Truncated"
 <span class="slds-pill" aria-selected="true">
   <div class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left" role="tooltip" id="help" style="position:absolute;top:-45px;left:-2px">
     <div class="slds-popover__body">Pill label that is longer than the area that contains it</div>
+
   </div>
+
   <span class="slds-pill__label" title="Pill label that is longer than the area that contains it">Pill label that is longer than the area that contains it</span>
   <span class="slds-icon_container slds-pill__remove" title="Remove">
     <button class="slds-button slds-button_icon slds-button_icon slds-pill__remove" title="Remove">
@@ -183,6 +187,7 @@ SLDS 1 blueprint examples for **Pills**.
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="With Icon"
@@ -228,6 +233,7 @@ SLDS 1 blueprint examples for **Pills**.
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="With Avatar"
@@ -267,6 +273,7 @@ SLDS 1 blueprint examples for **Pills**.
     </li>
   </ul>
 </div>
+
 :::
 
 ::: legacy-component-example title="Bare"
@@ -300,4 +307,5 @@ SLDS 1 blueprint examples for **Pills**.
     </li>
   </ul>
 </div>
+
 :::

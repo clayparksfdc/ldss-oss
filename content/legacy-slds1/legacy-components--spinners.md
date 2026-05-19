@@ -9,8 +9,11 @@ SLDS 1 blueprint examples for **Spinners**.
   <div role="status" class="slds-spinner slds-spinner_medium">
     <span class="slds-assistive-text">Loading</span>
     <div class="slds-spinner__dot-a"></div>
+
     <div class="slds-spinner__dot-b"></div>
+
   </div>
+
 </div>
 :::
 
@@ -19,8 +22,11 @@ SLDS 1 blueprint examples for **Spinners**.
   <div role="status" class="slds-spinner slds-spinner_medium">
     <span class="slds-assistive-text">Loading</span>
     <div class="slds-spinner__dot-a"></div>
+
     <div class="slds-spinner__dot-b"></div>
+
   </div>
+
 </div>
 :::
 
@@ -30,9 +36,13 @@ SLDS 1 blueprint examples for **Spinners**.
     <div role="status" class="slds-spinner slds-spinner_medium">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -42,9 +52,13 @@ SLDS 1 blueprint examples for **Spinners**.
     <div role="status" class="slds-spinner slds-spinner_medium">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -53,8 +67,11 @@ SLDS 1 blueprint examples for **Spinners**.
   <div role="status" class="slds-spinner slds-spinner_medium">
     <span class="slds-assistive-text">Loading</span>
     <div class="slds-spinner__dot-a"></div>
+
     <div class="slds-spinner__dot-b"></div>
+
   </div>
+
 </div>
 :::
 
@@ -63,8 +80,11 @@ SLDS 1 blueprint examples for **Spinners**.
   <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_inline">
     <span class="slds-assistive-text">Loading</span>
     <div class="slds-spinner__dot-a"></div>
+
     <div class="slds-spinner__dot-b"></div>
+
   </div>
+
 </div>
 :::
 
@@ -74,9 +94,13 @@ SLDS 1 blueprint examples for **Spinners**.
     <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_inverse">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -86,9 +110,13 @@ SLDS 1 blueprint examples for **Spinners**.
     <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_brand">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -98,9 +126,13 @@ SLDS 1 blueprint examples for **Spinners**.
     <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_delayed">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -110,9 +142,13 @@ SLDS 1 blueprint examples for **Spinners**.
     <div role="status" class="slds-spinner slds-spinner_xx-small">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -122,9 +158,13 @@ SLDS 1 blueprint examples for **Spinners**.
     <div role="status" class="slds-spinner slds-spinner_x-small">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -134,9 +174,13 @@ SLDS 1 blueprint examples for **Spinners**.
     <div role="status" class="slds-spinner slds-spinner_small">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -146,9 +190,13 @@ SLDS 1 blueprint examples for **Spinners**.
     <div role="status" class="slds-spinner slds-spinner_medium">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -158,8 +206,12 @@ SLDS 1 blueprint examples for **Spinners**.
     <div role="status" class="slds-spinner slds-spinner_large">
       <span class="slds-assistive-text">Loading</span>
       <div class="slds-spinner__dot-a"></div>
+
       <div class="slds-spinner__dot-b"></div>
+
     </div>
+
   </div>
+
 </div>
 :::

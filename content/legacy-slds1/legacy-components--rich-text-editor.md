@@ -89,12 +89,18 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-label="Compose text" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose text...</div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -183,12 +189,18 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-label="Compose text" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose text...</div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -277,6 +289,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__output slds-grid">
           <div aria-label="Compose text" contenteditable="true" class="slds-rich-text-area__content slds-grow">
             <div>
@@ -358,17 +371,21 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
               <ul>
                 <li>
                   <div>List Item with div</div>
+
                 </li>
                 <li>
                   <div>List Item with div</div>
+
                 </li>
               </ul>
               <ol>
                 <li>
                   <div>List Item with div</div>
+
                 </li>
                 <li>
                   <div>List Item with div</div>
+
                 </li>
               </ol>
               <h4>Heading - h4</h4>
@@ -411,11 +428,17 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                 <ins>Content to be inserted.</ins> exercitation ullamco
                 <del>Content to be deleted.</del> laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -504,13 +527,20 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-describedby="rte-error-01" aria-label="Compose text" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose text...</div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-form-element__help" id="rte-error-01">This field is required</div>
+
   </div>
+
 </div>
 :::
 
@@ -599,12 +629,18 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-label="Compose text" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose text...</div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -693,17 +729,25 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-label="Compose text" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose text...</div>
+
         </div>
+
         <div class="slds-popover slds-popover_tooltip slds-nubbin_top-left" role="tooltip" id="bold" style="position:absolute;top:48px;left:2px">
           <div class="slds-popover__body">Bold
             <kbd>cmd+b</kbd>
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -714,7 +758,9 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
       <div class="slds-rich-text-editor slds-grid slds-grid_vertical slds-nowrap">
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-label="Compose text" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose text...</div>
+
         </div>
+
         <div role="toolbar" class="slds-rich-text-editor__toolbar slds-shrink-none slds-rich-text-editor__toolbar_bottom">
           <ul aria-label="Format text" class="slds-button-group-list">
             <li>
@@ -795,9 +841,13 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -887,12 +937,18 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-labelledby="rich-text-editor-unique-id-01" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose text...</div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -914,12 +970,14 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                           aria-haspopup="listbox">
                           <span class="slds-truncate" id="combobox-value-id-15">Font</span>
                         </div>
+
                         <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                           <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                             <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                           </svg>
                         </span>
                       </div>
+
                       <div id="example-unique-id-30" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                         <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                           <li role="presentation" class="slds-listbox__item">
@@ -928,6 +986,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="Arial">Arial</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option65" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -935,6 +994,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="Georgia">Georgia</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option66" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -942,14 +1002,21 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="Times New Roman">Times New Roman</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-rich-text-editor__select">
               <div class="slds-form-element">
                 <label class="slds-form-element__label slds-assistive-text" for="example-unique-id-31" id="combobox-label-id-16">Choose a Font Size</label>
@@ -961,12 +1028,14 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                           aria-haspopup="listbox">
                           <span class="slds-truncate" id="combobox-value-id-16">Size</span>
                         </div>
+
                         <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                           <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                             <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                           </svg>
                         </span>
                       </div>
+
                       <div id="example-unique-id-32" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                         <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                           <li role="presentation" class="slds-listbox__item">
@@ -975,6 +1044,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="8px">8px</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option68" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -982,6 +1052,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="10px">10px</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option69" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -989,6 +1060,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="12px">12px</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option70" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -996,6 +1068,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="14px">14px</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option71" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1003,6 +1076,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="16px">16px</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option72" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1010,15 +1084,23 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="24px">24px</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <ul aria-label="Format text" class="slds-button-group-list">
             <li>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1">
@@ -1174,12 +1256,18 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-label="Compose email" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose Email...</div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1201,12 +1289,14 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                           aria-haspopup="listbox">
                           <span class="slds-truncate" id="combobox-value-id-19">Font</span>
                         </div>
+
                         <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                           <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                             <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                           </svg>
                         </span>
                       </div>
+
                       <div id="example-unique-id-38" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                         <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                           <li role="presentation" class="slds-listbox__item">
@@ -1215,6 +1305,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="Arial">Arial</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option83" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1222,6 +1313,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="Georgia">Georgia</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option84" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1229,14 +1321,21 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="Times New Roman">Times New Roman</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-rich-text-editor__select">
               <div class="slds-form-element">
                 <label class="slds-form-element__label slds-assistive-text" for="example-unique-id-39" id="combobox-label-id-20">Choose a Font Size</label>
@@ -1248,12 +1347,14 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                           aria-haspopup="listbox">
                           <span class="slds-truncate" id="combobox-value-id-20">Size</span>
                         </div>
+
                         <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                           <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
                             <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                           </svg>
                         </span>
                       </div>
+
                       <div id="example-unique-id-40" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                         <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                           <li role="presentation" class="slds-listbox__item">
@@ -1262,6 +1363,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="8px">8px</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option86" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1269,6 +1371,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="10px">10px</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option87" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1276,6 +1379,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="12px">12px</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option88" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1283,6 +1387,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="14px">14px</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option89" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1290,6 +1395,7 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="16px">16px</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option90" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -1297,15 +1403,23 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
                                 <span class="" title="24px">24px</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <ul aria-label="Format text" class="slds-button-group-list">
             <li>
               <button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1">
@@ -1461,12 +1575,18 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-label="Compose email" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose Email...</div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1617,12 +1737,18 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-label="Post to feed" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Post to feed...</div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -1737,11 +1863,17 @@ SLDS 1 blueprint examples for **Rich Text Editor**.
             </li>
           </ul>
         </div>
+
         <div class="slds-rich-text-editor__textarea slds-grid">
           <div aria-label="Compose note" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose Note...</div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::

@@ -9,6 +9,7 @@ SLDS 1 blueprint examples for **Docked Form Footer**.
   <button type="button" class="slds-button slds-button_neutral">Cancel</button>
   <button type="button" class="slds-button slds-button_brand">Save</button>
 </div>
+
 :::
 
 ::: legacy-component-example title="With Error(s)"
@@ -22,6 +23,7 @@ SLDS 1 blueprint examples for **Docked Form Footer**.
   <button type="button" class="slds-button slds-button_neutral">Cancel</button>
   <button type="button" class="slds-button slds-button_brand">Save</button>
 </div>
+
 :::
 
 ::: legacy-component-example title="With Error Popover"
@@ -50,16 +52,21 @@ SLDS 1 blueprint examples for **Docked Form Footer**.
             </svg>
           </span>
         </div>
+
         <div class="slds-media__body">
           <h2 class="slds-truncate slds-text-heading_medium" id="dialog-heading-id-2" title="Resolve error">Resolve error</h2>
         </div>
+
       </div>
+
     </header>
     <div class="slds-popover__body" id="dialog-body-id-5">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
         <a href="#" title="Learn More">Learn More</a>
       </p>
     </div>
+
   </section>
 </div>
+
 :::

@@ -15,7 +15,7 @@ If you’re transitioning existing SLDS 1 code to SLDS 2, use these recommendati
 
 - [Prepare Customizations for SLDS Architecture Updates](https://help.salesforce.com/s/articleView?id=001622575&type=1)
 - [SLDS Architecture Updates FAQs](https://help.salesforce.com/s/articleView?id=001622574&type=1)
-- [SLDS 2 Transition Guide](/general/transition-to-slds-2)
+- [SLDS 2 Transition Guide](/get-started/transition-to-slds-2)
 
 
 ⚠️ If you’re looking for guidance on component-level styling hooks in SLDS 1, visit the [SLDS 1 website](https://v1.lightningdesignsystem.com/).

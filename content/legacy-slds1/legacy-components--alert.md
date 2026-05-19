@@ -23,6 +23,7 @@ SLDS 1 blueprint examples for **Alert**.
       <span class="slds-assistive-text">Close</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -45,6 +46,7 @@ SLDS 1 blueprint examples for **Alert**.
       <span class="slds-assistive-text">Close</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -67,6 +69,7 @@ SLDS 1 blueprint examples for **Alert**.
       <span class="slds-assistive-text">Close</span>
     </button>
   </div>
+
 </div>
 :::
 
@@ -89,5 +92,6 @@ SLDS 1 blueprint examples for **Alert**.
       <span class="slds-assistive-text">Close</span>
     </button>
   </div>
+
 </div>
 :::

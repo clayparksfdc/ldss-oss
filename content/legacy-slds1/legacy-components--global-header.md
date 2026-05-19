@@ -13,7 +13,9 @@ SLDS 1 blueprint examples for **Global Header**.
       <div class="slds-global-header__logo">
         <span class="slds-assistive-text">Salesforce</span>
       </div>
+
     </div>
+
     <div class="slds-global-header__item slds-global-header__item_search">
       <div class="slds-form-element">
         <label class="slds-form-element__label slds-assistive-text" for="combobox-id-2">Search Salesforce</label>
@@ -30,18 +32,21 @@ SLDS 1 blueprint examples for **Global Header**.
                           aria-expanded="false" aria-haspopup="listbox">
                           <span class="slds-truncate" id="combobox-value-id-15">Accounts</span>
                         </div>
+
                         <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                           <svg class="slds-icon slds-icon slds-icon_xx-small slds-icon-text-default" aria-hidden="true">
                             <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                           </svg>
                         </span>
                       </div>
+
                       <div id="objectswitcher-listbox-id-2" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_x-small slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                         <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="{{Placeholder for Dropdown Options}}">
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option194" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="presentation">
                               <h3 class="slds-listbox__option-header" role="presentation">Suggested for you</h3>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div aria-checked="true" id="option195" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected" role="option">
@@ -56,6 +61,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Accounts">Accounts</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option196" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -64,6 +70,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Reports">Reports</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option197" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -72,6 +79,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Contacts">Contacts</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option198" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -80,6 +88,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Files">Files</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option199" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -88,6 +97,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Groups">Groups</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option200" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -96,6 +106,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Leads">Leads</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option201" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -104,14 +115,21 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Notes">Notes</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-combobox_container slds-combobox-addon_end">
               <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" id="primary-search-combobox-id-1">
                 <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_left slds-global-search__form-element" role="none">
@@ -123,12 +141,14 @@ SLDS 1 blueprint examples for **Global Header**.
                   <input type="text" class="slds-input slds-combobox__input" id="combobox-id-2" aria-autocomplete="list" aria-controls="search-listbox-id-1" aria-expanded="false" aria-haspopup="listbox" autoComplete="off" role="combobox" placeholder="Search Salesforce"
                   />
                 </div>
+
                 <div id="search-listbox-id-1" class="slds-dropdown slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                   <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="Recent Items">
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option202" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_center" role="presentation">
                         <h3 class="slds-listbox__option-header" role="presentation">Recent Items</h3>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option203" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -144,6 +164,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Opportunity • Propecting</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option204" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -159,6 +180,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Contact • avandelay@vandelay.com</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option205" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -174,6 +196,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option206" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -189,6 +212,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Event • $20,000</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option207" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -204,15 +228,23 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Lead • Nursing</span>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-global-header__item">
       <ul class="slds-global-actions">
         <li class="slds-global-actions__item">
@@ -231,7 +263,9 @@ SLDS 1 blueprint examples for **Global Header**.
                 <span class="slds-assistive-text">View Favorites</span>
               </button>
             </div>
+
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -242,6 +276,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Global Actions</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -252,6 +287,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Help and Training</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -262,6 +298,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Setup</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -273,6 +310,7 @@ SLDS 1 blueprint examples for **Global Header**.
             </button>
             <span aria-hidden="true" class="slds-notification-badge">0</span>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -282,10 +320,13 @@ SLDS 1 blueprint examples for **Global Header**.
               </span>
             </button>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
 </header>
 :::
 
@@ -294,6 +335,7 @@ SLDS 1 blueprint examples for **Global Header**.
   <div class="slds-global-header__logo">
     <span class="slds-assistive-text">Salesforce</span>
   </div>
+
 </div>
 :::
 
@@ -306,7 +348,9 @@ SLDS 1 blueprint examples for **Global Header**.
       <div class="slds-global-header__logo">
         <span class="slds-assistive-text">Salesforce</span>
       </div>
+
     </div>
+
     <div class="slds-global-header__item slds-global-header__item_search">
       <div class="slds-form-element">
         <label class="slds-form-element__label slds-assistive-text" for="combobox-id-3">Search Salesforce</label>
@@ -323,18 +367,21 @@ SLDS 1 blueprint examples for **Global Header**.
                           aria-expanded="false" aria-haspopup="listbox">
                           <span class="slds-truncate" id="combobox-value-id-17">Accounts</span>
                         </div>
+
                         <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                           <svg class="slds-icon slds-icon slds-icon_xx-small slds-icon-text-default" aria-hidden="true">
                             <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                           </svg>
                         </span>
                       </div>
+
                       <div id="objectswitcher-listbox-id-3" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_x-small slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                         <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="{{Placeholder for Dropdown Options}}">
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option222" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="presentation">
                               <h3 class="slds-listbox__option-header" role="presentation">Suggested for you</h3>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div aria-checked="true" id="option223" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected" role="option">
@@ -349,6 +396,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Accounts">Accounts</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option224" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -357,6 +405,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Reports">Reports</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option225" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -365,6 +414,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Contacts">Contacts</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option226" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -373,6 +423,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Files">Files</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option227" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -381,6 +432,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Groups">Groups</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option228" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -389,6 +441,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Leads">Leads</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option229" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -397,14 +450,21 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Notes">Notes</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-combobox_container slds-combobox-addon_end">
               <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" id="primary-search-combobox-id-2">
                 <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_left slds-global-search__form-element" role="none">
@@ -416,12 +476,14 @@ SLDS 1 blueprint examples for **Global Header**.
                   <input type="text" class="slds-input slds-combobox__input" id="combobox-id-3" aria-autocomplete="list" aria-controls="search-listbox-id-2" aria-expanded="false" aria-haspopup="listbox" autoComplete="off" role="combobox" placeholder="Search Salesforce"
                   />
                 </div>
+
                 <div id="search-listbox-id-2" class="slds-dropdown slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                   <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="Recent Items">
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option230" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_center" role="presentation">
                         <h3 class="slds-listbox__option-header" role="presentation">Recent Items</h3>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option231" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -437,6 +499,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Opportunity • Propecting</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option232" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -452,6 +515,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Contact • avandelay@vandelay.com</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option233" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -467,6 +531,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option234" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -482,6 +547,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Event • $20,000</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option235" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -497,15 +563,23 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Lead • Nursing</span>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-global-header__item">
       <ul class="slds-global-actions">
         <li class="slds-global-actions__item">
@@ -524,7 +598,9 @@ SLDS 1 blueprint examples for **Global Header**.
                 <span class="slds-assistive-text">View Favorites</span>
               </button>
             </div>
+
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -535,6 +611,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Global Actions</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -545,6 +622,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Help and Training</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -555,6 +633,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Setup</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -566,6 +645,7 @@ SLDS 1 blueprint examples for **Global Header**.
             </button>
             <span aria-hidden="true" class="slds-notification-badge">0</span>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -575,10 +655,13 @@ SLDS 1 blueprint examples for **Global Header**.
               </span>
             </button>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
 </header>
 :::
 
@@ -591,7 +674,9 @@ SLDS 1 blueprint examples for **Global Header**.
       <div class="slds-global-header__logo">
         <span class="slds-assistive-text">Salesforce</span>
       </div>
+
     </div>
+
     <div class="slds-global-header__item slds-global-header__item_search">
       <div class="slds-form-element">
         <label class="slds-form-element__label slds-assistive-text" for="combobox-id-4">Search Salesforce</label>
@@ -608,18 +693,21 @@ SLDS 1 blueprint examples for **Global Header**.
                           aria-expanded="false" aria-haspopup="listbox">
                           <span class="slds-truncate" id="combobox-value-id-19">Accounts</span>
                         </div>
+
                         <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                           <svg class="slds-icon slds-icon slds-icon_xx-small slds-icon-text-default" aria-hidden="true">
                             <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                           </svg>
                         </span>
                       </div>
+
                       <div id="objectswitcher-listbox-id-4" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_x-small slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                         <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="{{Placeholder for Dropdown Options}}">
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option250" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="presentation">
                               <h3 class="slds-listbox__option-header" role="presentation">Suggested for you</h3>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div aria-checked="true" id="option251" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected" role="option">
@@ -634,6 +722,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Accounts">Accounts</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option252" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -642,6 +731,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Reports">Reports</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option253" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -650,6 +740,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Contacts">Contacts</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option254" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -658,6 +749,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Files">Files</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option255" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -666,6 +758,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Groups">Groups</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option256" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -674,6 +767,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Leads">Leads</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option257" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -682,14 +776,21 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Notes">Notes</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-combobox_container slds-combobox-addon_end">
               <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open" id="primary-search-combobox-id-3">
                 <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_left slds-global-search__form-element" role="none">
@@ -701,12 +802,14 @@ SLDS 1 blueprint examples for **Global Header**.
                   <input type="text" class="slds-input slds-combobox__input slds-has-focus" id="combobox-id-4" aria-autocomplete="list" aria-controls="search-listbox-id-3" aria-expanded="true" aria-haspopup="listbox" autoComplete="off" role="combobox"
                     placeholder="Search Salesforce" />
                 </div>
+
                 <div id="search-listbox-id-3" class="slds-dropdown slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                   <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="Recent Items">
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option258" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_center" role="presentation">
                         <h3 class="slds-listbox__option-header" role="presentation">Recent Items</h3>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option259" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -722,6 +825,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Opportunity • Propecting</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option260" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -737,6 +841,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Contact • avandelay@vandelay.com</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option261" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -752,6 +857,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option262" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -767,6 +873,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Event • $20,000</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option263" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -782,15 +889,23 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Lead • Nursing</span>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-global-header__item">
       <ul class="slds-global-actions">
         <li class="slds-global-actions__item">
@@ -809,7 +924,9 @@ SLDS 1 blueprint examples for **Global Header**.
                 <span class="slds-assistive-text">View Favorites</span>
               </button>
             </div>
+
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -820,6 +937,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Global Actions</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -830,6 +948,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Help and Training</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -840,6 +959,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Setup</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -851,6 +971,7 @@ SLDS 1 blueprint examples for **Global Header**.
             </button>
             <span aria-hidden="true" class="slds-notification-badge">0</span>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -860,10 +981,13 @@ SLDS 1 blueprint examples for **Global Header**.
               </span>
             </button>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
 </header>
 :::
 
@@ -876,7 +1000,9 @@ SLDS 1 blueprint examples for **Global Header**.
       <div class="slds-global-header__logo">
         <span class="slds-assistive-text">Salesforce</span>
       </div>
+
     </div>
+
     <div class="slds-global-header__item slds-global-header__item_search">
       <div class="slds-form-element">
         <label class="slds-form-element__label slds-assistive-text" for="combobox-id-5">Search Salesforce</label>
@@ -893,18 +1019,21 @@ SLDS 1 blueprint examples for **Global Header**.
                           aria-expanded="false" aria-haspopup="listbox">
                           <span class="slds-truncate" id="combobox-value-id-21">Accounts</span>
                         </div>
+
                         <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right">
                           <svg class="slds-icon slds-icon slds-icon_xx-small slds-icon-text-default" aria-hidden="true">
                             <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
                           </svg>
                         </span>
                       </div>
+
                       <div id="objectswitcher-listbox-id-5" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_x-small slds-dropdown_left" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                         <ul class="slds-listbox slds-listbox_vertical" role="group" aria-label="{{Placeholder for Dropdown Options}}">
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option275" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="presentation">
                               <h3 class="slds-listbox__option-header" role="presentation">Suggested for you</h3>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div aria-checked="true" id="option276" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-is-selected" role="option">
@@ -919,6 +1048,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Accounts">Accounts</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option277" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -927,6 +1057,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Reports">Reports</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option278" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -935,6 +1066,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Contacts">Contacts</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option279" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -943,6 +1075,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Files">Files</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option280" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -951,6 +1084,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Groups">Groups</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option281" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -959,6 +1093,7 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Leads">Leads</span>
                               </span>
                             </div>
+
                           </li>
                           <li role="presentation" class="slds-listbox__item">
                             <div id="option282" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
@@ -967,14 +1102,21 @@ SLDS 1 blueprint examples for **Global Header**.
                                 <span class="" title="Notes">Notes</span>
                               </span>
                             </div>
+
                           </li>
                         </ul>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="slds-combobox_container slds-combobox-addon_end">
               <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open" id="primary-search-combobox-id-4">
                 <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_left slds-global-search__form-element" role="none">
@@ -986,6 +1128,7 @@ SLDS 1 blueprint examples for **Global Header**.
                   <input type="text" class="slds-input slds-combobox__input slds-has-focus slds-combobox__input-value" id="combobox-id-5" aria-activedescendant="option0" aria-autocomplete="list" aria-controls="search-listbox-id-4" aria-expanded="true"
                     aria-haspopup="listbox" autoComplete="off" role="combobox" placeholder="Search Salesforce" value="salesforce" />
                 </div>
+
                 <div id="search-listbox-id-4" class="slds-dropdown slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox" aria-label="{{Placeholder for Dropdown Items}}" tabindex="0" aria-busy="false">
                   <ul class="slds-listbox slds-listbox_vertical" role="presentation">
                     <li role="presentation" class="slds-listbox__item">
@@ -1002,6 +1145,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-text slds-listbox__option-text_entity">salesforce</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option283" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -1020,6 +1164,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option284" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -1038,6 +1183,7 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                         </span>
                       </div>
+
                     </li>
                     <li role="presentation" class="slds-listbox__item">
                       <div id="option285" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
@@ -1056,15 +1202,23 @@ SLDS 1 blueprint examples for **Global Header**.
                           <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • San Francisco</span>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
     <div class="slds-global-header__item">
       <ul class="slds-global-actions">
         <li class="slds-global-actions__item">
@@ -1083,7 +1237,9 @@ SLDS 1 blueprint examples for **Global Header**.
                 <span class="slds-assistive-text">View Favorites</span>
               </button>
             </div>
+
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1094,6 +1250,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Global Actions</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1104,6 +1261,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Help and Training</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1114,6 +1272,7 @@ SLDS 1 blueprint examples for **Global Header**.
               <span class="slds-assistive-text">Setup</span>
             </button>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1125,6 +1284,7 @@ SLDS 1 blueprint examples for **Global Header**.
             </button>
             <span aria-hidden="true" class="slds-notification-badge">0</span>
           </div>
+
         </li>
         <li class="slds-global-actions__item">
           <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1134,10 +1294,13 @@ SLDS 1 blueprint examples for **Global Header**.
               </span>
             </button>
           </div>
+
         </li>
       </ul>
     </div>
+
   </div>
+
 </header>
 :::
 
@@ -1159,7 +1322,9 @@ SLDS 1 blueprint examples for **Global Header**.
           <span class="slds-assistive-text">View Favorites</span>
         </button>
       </div>
+
     </div>
+
   </li>
 </ul>
 :::
@@ -1182,7 +1347,9 @@ SLDS 1 blueprint examples for **Global Header**.
           <span class="slds-assistive-text">View Favorites</span>
         </button>
       </div>
+
     </div>
+
   </li>
 </ul>
 :::
@@ -1205,7 +1372,9 @@ SLDS 1 blueprint examples for **Global Header**.
           <span class="slds-assistive-text">View Favorites</span>
         </button>
       </div>
+
     </div>
+
   </li>
 </ul>
 :::
@@ -1228,6 +1397,7 @@ SLDS 1 blueprint examples for **Global Header**.
           <span class="slds-assistive-text">View Favorites</span>
         </button>
       </div>
+
       <section aria-describedby="dialog-body-id-8" aria-label="My Favorites" class="slds-popover slds-nubbin_top slds-dynamic-menu" role="dialog" style="position:absolute;left:-8rem;top:36px">
         <div class="slds-popover__body slds-p-horizontal_none" id="dialog-body-id-8">
           <div class="slds-media">
@@ -1238,6 +1408,7 @@ SLDS 1 blueprint examples for **Global Header**.
                     <div id="option288" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_center" role="presentation">
                       <h3 class="slds-listbox__option-header" role="presentation">My Favorites</h3>
                     </div>
+
                   </li>
                   <li role="presentation" class="slds-listbox__item">
                     <div id="option289" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option" tabindex="0">
@@ -1253,12 +1424,17 @@ SLDS 1 blueprint examples for **Global Header**.
                         <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Account • Burlington, NC</span>
                       </span>
                     </div>
+
                   </li>
                 </ul>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
         <footer class="slds-popover__footer">
           <ul>
             <li>
@@ -1277,6 +1453,7 @@ SLDS 1 blueprint examples for **Global Header**.
         </footer>
       </section>
     </div>
+
   </li>
   <li class="slds-global-actions__item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1287,6 +1464,7 @@ SLDS 1 blueprint examples for **Global Header**.
         <span class="slds-assistive-text">Global Actions</span>
       </button>
     </div>
+
   </li>
   <li class="slds-global-actions__item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1297,6 +1475,7 @@ SLDS 1 blueprint examples for **Global Header**.
         <span class="slds-assistive-text">Help and Training</span>
       </button>
     </div>
+
   </li>
   <li class="slds-global-actions__item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1307,6 +1486,7 @@ SLDS 1 blueprint examples for **Global Header**.
         <span class="slds-assistive-text">Setup</span>
       </button>
     </div>
+
   </li>
   <li class="slds-global-actions__item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1318,6 +1498,7 @@ SLDS 1 blueprint examples for **Global Header**.
       </button>
       <span aria-hidden="true" class="slds-notification-badge"></span>
     </div>
+
   </li>
   <li class="slds-global-actions__item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1327,6 +1508,7 @@ SLDS 1 blueprint examples for **Global Header**.
         </span>
       </button>
     </div>
+
   </li>
 </ul>
 :::
@@ -1342,6 +1524,7 @@ SLDS 1 blueprint examples for **Global Header**.
         <span class="slds-assistive-text">Global Actions</span>
       </button>
     </div>
+
   </li>
 </ul>
 :::
@@ -1364,7 +1547,9 @@ SLDS 1 blueprint examples for **Global Header**.
           <span class="slds-assistive-text">View Favorites</span>
         </button>
       </div>
+
     </div>
+
   </li>
   <li class="slds-global-actions__item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
@@ -1411,7 +1596,9 @@ SLDS 1 blueprint examples for **Global Header**.
           </li>
         </ul>
       </div>
+
     </div>
+
   </li>
   <li class="slds-global-actions__item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1422,6 +1609,7 @@ SLDS 1 blueprint examples for **Global Header**.
         <span class="slds-assistive-text">Help and Training</span>
       </button>
     </div>
+
   </li>
   <li class="slds-global-actions__item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1432,6 +1620,7 @@ SLDS 1 blueprint examples for **Global Header**.
         <span class="slds-assistive-text">Setup</span>
       </button>
     </div>
+
   </li>
   <li class="slds-global-actions__item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1443,6 +1632,7 @@ SLDS 1 blueprint examples for **Global Header**.
       </button>
       <span aria-hidden="true" class="slds-notification-badge"></span>
     </div>
+
   </li>
   <li class="slds-global-actions__item">
     <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
@@ -1452,6 +1642,7 @@ SLDS 1 blueprint examples for **Global Header**.
         </span>
       </button>
     </div>
+
   </li>
 </ul>
 :::
@@ -1467,6 +1658,7 @@ SLDS 1 blueprint examples for **Global Header**.
         <span class="slds-assistive-text">Help and Training</span>
       </button>
     </div>
+
   </li>
 </ul>
 :::
@@ -1482,6 +1674,7 @@ SLDS 1 blueprint examples for **Global Header**.
         <span class="slds-assistive-text">Setup</span>
       </button>
     </div>
+
   </li>
 </ul>
 :::
@@ -1498,6 +1691,7 @@ SLDS 1 blueprint examples for **Global Header**.
       </button>
       <span aria-hidden="true" class="slds-notification-badge"></span>
     </div>
+
   </li>
 </ul>
 :::
@@ -1515,6 +1709,7 @@ SLDS 1 blueprint examples for **Global Header**.
       </button>
       <span aria-hidden="true" class="slds-notification-badge slds-incoming-notification slds-show-notification">1</span>
     </div>
+
   </li>
 </ul>
 :::

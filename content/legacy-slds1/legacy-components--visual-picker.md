@@ -32,6 +32,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_small">
       <input type="radio" id="visual-picker-94" value="visual-picker-94" name="example-unique-name-36" />
       <label for="visual-picker-94">
@@ -56,7 +57,9 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -88,6 +91,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_medium">
       <input type="radio" id="visual-picker-98" value="visual-picker-98" name="example-unique-name-38" />
       <label for="visual-picker-98">
@@ -112,7 +116,9 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -144,6 +150,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_large">
       <input type="radio" id="visual-picker-102" value="visual-picker-102" name="example-unique-name-40" />
       <label for="visual-picker-102">
@@ -168,7 +175,9 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -200,6 +209,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_medium">
       <input type="radio" id="visual-picker-106" value="visual-picker-106" name="example-unique-name-42" disabled="" />
       <label for="visual-picker-106">
@@ -224,7 +234,9 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -256,6 +268,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_small">
       <input type="checkbox" id="visual-picker-111" value="visual-picker-111" name="example-unique-name-44" />
       <label for="visual-picker-111">
@@ -280,6 +293,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_small">
       <input type="checkbox" id="visual-picker-112" value="visual-picker-112" name="example-unique-name-44" />
       <label for="visual-picker-112">
@@ -304,7 +318,9 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -336,6 +352,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_medium">
       <input type="checkbox" id="visual-picker-117" value="visual-picker-117" name="example-unique-name-46" />
       <label for="visual-picker-117">
@@ -360,6 +377,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_medium">
       <input type="checkbox" id="visual-picker-118" value="visual-picker-118" name="example-unique-name-46" />
       <label for="visual-picker-118">
@@ -384,7 +402,9 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -416,6 +436,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_large">
       <input type="checkbox" id="visual-picker-123" value="visual-picker-123" name="example-unique-name-48" />
       <label for="visual-picker-123">
@@ -440,6 +461,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_large">
       <input type="checkbox" id="visual-picker-124" value="visual-picker-124" name="example-unique-name-48" />
       <label for="visual-picker-124">
@@ -464,7 +486,9 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -492,6 +516,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_medium">
       <input type="radio" id="visual-picker-129" value="visual-picker-129" name="example-unique-name-50" />
       <label for="visual-picker-129">
@@ -512,6 +537,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_medium">
       <input type="radio" id="visual-picker-130" value="visual-picker-130" name="example-unique-name-50" />
       <label for="visual-picker-130">
@@ -532,7 +558,9 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -560,6 +588,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_medium">
       <input type="radio" id="visual-picker-135" value="visual-picker-135" name="example-unique-name-52" />
       <label for="visual-picker-135">
@@ -580,6 +609,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_medium">
       <input type="radio" id="visual-picker-136" value="visual-picker-136" name="example-unique-name-52" disabled="" />
       <label for="visual-picker-136">
@@ -600,7 +630,9 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -614,12 +646,15 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </svg>
       </span>
     </div>
+
     <div class="slds-media__body slds-border_left slds-p-around_small">
       <h2 class="slds-truncate slds-text-heading_small" title="Share the knowledge">Share the knowledge</h2>
       <p class="slds-m-top_small">Harness your team&#x27;s collective know-how with our powerful knowledge base</p>
     </div>
+
   </a>
 </div>
+
 :::
 
 ::: legacy-component-example title="Base"
@@ -642,6 +677,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_vertical">
       <input type="radio" id="visual-picker-141" value="visual-picker-141" name="example-unique-name-54" />
       <label for="visual-picker-141">
@@ -658,6 +694,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_vertical">
       <input type="radio" id="visual-picker-142" value="visual-picker-142" name="example-unique-name-54" />
       <label for="visual-picker-142">
@@ -674,7 +711,9 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -698,6 +737,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_vertical">
       <input type="radio" id="visual-picker-147" value="visual-picker-147" name="example-unique-name-56" />
       <label for="visual-picker-147">
@@ -714,6 +754,7 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
     <div class="slds-visual-picker slds-visual-picker_vertical">
       <input type="radio" id="visual-picker-148" value="visual-picker-148" name="example-unique-name-56" disabled="" />
       <label for="visual-picker-148">
@@ -730,6 +771,8 @@ SLDS 1 blueprint examples for **Visual Picker**.
         </span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::

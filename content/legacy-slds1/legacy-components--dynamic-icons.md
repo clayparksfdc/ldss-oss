@@ -151,10 +151,14 @@ SLDS 1 blueprint examples for **Dynamic Icons**.
 ::: legacy-component-example title="Eq"
 <div class="slds-icon-eq slds-is-animated" title="Description of the icon when needed">
   <div class="slds-icon-eq__bar"></div>
+
   <div class="slds-icon-eq__bar"></div>
+
   <div class="slds-icon-eq__bar"></div>
+
   <span class="slds-assistive-text">Text alternative when needed</span>
 </div>
+
 :::
 
 ::: legacy-component-example title="Global Action Help"

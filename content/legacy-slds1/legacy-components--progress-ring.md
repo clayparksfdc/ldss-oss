@@ -11,7 +11,9 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-52" cx="0" cy="0" r="1"></circle>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content"></div>
+
 </div>
 :::
 
@@ -22,12 +24,15 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <path class="slds-progress-ring__path" id="slds-progress-ring-path-55" d="M 1 0 A 1 1 0 1 1 0.73 -0.68 L 0 0"></path>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content"></div>
+
   <div class="slds-progress-ring__progress-head">
     <svg viewBox="-1 -1 2 2">
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-56" cx="0.511" cy="-0.476" r="0.2"></circle>
     </svg>
   </div>
+
 </div>
 :::
 
@@ -38,6 +43,7 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <path class="slds-progress-ring__path" id="slds-progress-ring-path-59" d="M 1 0 A 1 1 0 0 1 0.31 0.95 L 0 0"></path>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content">
     <span class="slds-icon_container slds-icon-utility-warning" title="Warning">
       <svg class="slds-icon" aria-hidden="true">
@@ -46,11 +52,13 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <span class="slds-assistive-text">Warning</span>
     </span>
   </div>
+
   <div class="slds-progress-ring__progress-head">
     <svg viewBox="-1 -1 2 2">
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-60" cx="0.217" cy="0.6649999999999999" r="0.2"></circle>
     </svg>
   </div>
+
 </div>
 :::
 
@@ -61,12 +69,15 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <path class="slds-progress-ring__path" id="slds-progress-ring-path-63" d="M 1 0 A 1 1 0 0 0 -0.81 -0.59 L 0 0"></path>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content"></div>
+
   <div class="slds-progress-ring__progress-head">
     <svg viewBox="-1 -1 2 2">
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-64" cx="-0.567" cy="-0.413" r="0.2"></circle>
     </svg>
   </div>
+
 </div>
 :::
 
@@ -77,6 +88,7 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <path class="slds-progress-ring__path" id="slds-progress-ring-path-67" d="M 1 0 A 1 1 0 1 0 0.00 1.00 L 0 0"></path>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content">
     <span class="slds-icon_container slds-icon-utility-warning" title="Warning">
       <svg class="slds-icon" aria-hidden="true">
@@ -85,11 +97,13 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <span class="slds-assistive-text">Warning</span>
     </span>
   </div>
+
   <div class="slds-progress-ring__progress-head">
     <svg viewBox="-1 -1 2 2">
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-68" cx="0" cy="0.7" r="0.2"></circle>
     </svg>
   </div>
+
 </div>
 :::
 
@@ -100,6 +114,7 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <path class="slds-progress-ring__path" id="slds-progress-ring-path-70" d="M 1 0 A 1 1 0 0 1 1.00 0.00 L 0 0"></path>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content">
     <span class="slds-icon_container slds-icon-utility-error" title="Expired">
       <svg class="slds-icon" aria-hidden="true">
@@ -108,6 +123,7 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <span class="slds-assistive-text">Expired</span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -118,6 +134,7 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-72" cx="0" cy="0" r="1"></circle>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content">
     <span class="slds-icon_container slds-icon-utility-check" title="Complete">
       <svg class="slds-icon" aria-hidden="true">
@@ -126,6 +143,7 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <span class="slds-assistive-text">Complete</span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -136,7 +154,9 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-74" cx="0" cy="0" r="1"></circle>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content"></div>
+
 </div>
 :::
 
@@ -147,7 +167,9 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-76" cx="0" cy="0" r="1"></circle>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content"></div>
+
 </div>
 :::
 
@@ -158,7 +180,9 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-78" cx="0" cy="0" r="1"></circle>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content"></div>
+
 </div>
 :::
 
@@ -169,7 +193,9 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-80" cx="0" cy="0" r="1"></circle>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content"></div>
+
 </div>
 :::
 
@@ -180,6 +206,8 @@ SLDS 1 blueprint examples for **Progress Ring**.
       <circle class="slds-progress-ring__path" id="slds-progress-ring-path-82" cx="0" cy="0" r="1"></circle>
     </svg>
   </div>
+
   <div class="slds-progress-ring__content"></div>
+
 </div>
 :::

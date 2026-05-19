@@ -14,6 +14,7 @@ SLDS 1 blueprint examples for **Welcome Mat**.
       <span class="slds-assistive-text">Cancel and close</span>
     </button>
     <div class="slds-modal__header slds-modal__header_empty"></div>
+
     <div class="slds-modal__content" id="welcome-mat-106-content">
       <div class="slds-welcome-mat">
         <div class="slds-welcome-mat__content slds-grid">
@@ -23,18 +24,23 @@ SLDS 1 blueprint examples for **Welcome Mat**.
               <div class="slds-welcome-mat__info-description slds-text-longform">
                 <p>Welcome to Lightning Experience, the modern, beautiful user experience from Salesforce. With a sales-and service-centric mindset, we focused on reinventing the desktop environment to better support your business processes.</p>
               </div>
+
               <div class="slds-welcome-mat__info-progress">
                 <p>
                   <strong>0/5 units completed</strong>
                 </p>
               </div>
+
               <div class="slds-progress-bar slds-progress-bar_circular" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="{{Placeholder for description of progress bar}}" role="progressbar">
                 <span class="slds-progress-bar__value" style="width:0%">
                   <span class="slds-assistive-text">Progress: 0%</span>
                 </span>
               </div>
+
             </div>
+
           </div>
+
           <ul class="slds-welcome-mat__tiles slds-size_1-of-2">
             <li class="slds-welcome-mat__tile">
               <a href="#" class="slds-box slds-box_link slds-media">
@@ -53,14 +59,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Welcome to Salesforce!</h3>
                     <p class="slds-welcome-mat__tile-description">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -80,14 +91,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Learn About OpenCTI</h3>
                     <p class="slds-welcome-mat__tile-description">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -107,14 +123,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Power Up the Utility Bar</h3>
                     <p class="slds-welcome-mat__tile-description">Tap into case history or share notes with fellow agents—it all happens on the utility bar.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -134,14 +155,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Customize your view</h3>
                     <p class="slds-welcome-mat__tile-description">Tailor your cases to your team&#x27;s workflow with custom list views.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -161,23 +187,33 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Share the Knowledge</h3>
                     <p class="slds-welcome-mat__tile-description">Harness your team&#x27;s collective know-how with our powerful knowledge base.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="With Completed Steps"
@@ -190,6 +226,7 @@ SLDS 1 blueprint examples for **Welcome Mat**.
       <span class="slds-assistive-text">Cancel and close</span>
     </button>
     <div class="slds-modal__header slds-modal__header_empty"></div>
+
     <div class="slds-modal__content" id="welcome-mat-118-content">
       <div class="slds-welcome-mat">
         <div class="slds-welcome-mat__content slds-grid">
@@ -199,18 +236,23 @@ SLDS 1 blueprint examples for **Welcome Mat**.
               <div class="slds-welcome-mat__info-description slds-text-longform">
                 <p>Welcome to Lightning Experience, the modern, beautiful user experience from Salesforce. With a sales-and service-centric mindset, we focused on reinventing the desktop environment to better support your business processes.</p>
               </div>
+
               <div class="slds-welcome-mat__info-progress">
                 <p>
                   <strong>2/5 units completed</strong>
                 </p>
               </div>
+
               <div class="slds-progress-bar slds-progress-bar_circular" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-label="{{Placeholder for description of progress bar}}" role="progressbar">
                 <span class="slds-progress-bar__value" style="width:40%">
                   <span class="slds-assistive-text">Progress: 40%</span>
                 </span>
               </div>
+
             </div>
+
           </div>
+
           <ul class="slds-welcome-mat__tiles slds-size_1-of-2">
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_complete">
               <a href="#" class="slds-box slds-box_link slds-media">
@@ -229,14 +271,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Welcome to Salesforce!</h3>
                     <p class="slds-welcome-mat__tile-description">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_complete">
@@ -256,14 +303,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Learn About OpenCTI</h3>
                     <p class="slds-welcome-mat__tile-description">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -283,14 +335,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Power Up the Utility Bar</h3>
                     <p class="slds-welcome-mat__tile-description">Tap into case history or share notes with fellow agents—it all happens on the utility bar.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -310,14 +367,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Customize your view</h3>
                     <p class="slds-welcome-mat__tile-description">Tailor your cases to your team&#x27;s workflow with custom list views.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -337,23 +399,33 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Share the Knowledge</h3>
                     <p class="slds-welcome-mat__tile-description">Harness your team&#x27;s collective know-how with our powerful knowledge base.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="Trailhead Connected"
@@ -366,6 +438,7 @@ SLDS 1 blueprint examples for **Welcome Mat**.
       <span class="slds-assistive-text">Cancel and close</span>
     </button>
     <div class="slds-modal__header slds-modal__header_empty"></div>
+
     <div class="slds-modal__content" id="welcome-mat-130-content">
       <div class="slds-welcome-mat">
         <div class="slds-welcome-mat__content slds-grid">
@@ -383,18 +456,23 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                     <span class="slds-assistive-text">Completed</span>
                   </span>
                 </div>
+
                 <p>
                   <strong>Lightning Explorer</strong>
                 </p>
                 <p>0/5 units completed</p>
               </div>
+
               <div class="slds-progress-bar slds-progress-bar_circular" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="{{Placeholder for description of progress bar}}" role="progressbar">
                 <span class="slds-progress-bar__value" style="width:0%">
                   <span class="slds-assistive-text">Progress: 0%</span>
                 </span>
               </div>
+
             </div>
+
           </div>
+
           <ul class="slds-welcome-mat__tiles slds-size_1-of-2">
             <li class="slds-welcome-mat__tile">
               <a href="#" class="slds-box slds-box_link slds-media">
@@ -413,14 +491,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Welcome to Salesforce!</h3>
                     <p class="slds-welcome-mat__tile-description">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -440,14 +523,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Learn About OpenCTI</h3>
                     <p class="slds-welcome-mat__tile-description">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -467,14 +555,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Power Up the Utility Bar</h3>
                     <p class="slds-welcome-mat__tile-description">Tap into case history or share notes with fellow agents—it all happens on the utility bar.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -494,14 +587,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Customize your view</h3>
                     <p class="slds-welcome-mat__tile-description">Tailor your cases to your team&#x27;s workflow with custom list views.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile">
@@ -521,23 +619,33 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Share the Knowledge</h3>
                     <p class="slds-welcome-mat__tile-description">Harness your team&#x27;s collective know-how with our powerful knowledge base.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="Trailhead Connected - Complete"
@@ -550,6 +658,7 @@ SLDS 1 blueprint examples for **Welcome Mat**.
       <span class="slds-assistive-text">Cancel and close</span>
     </button>
     <div class="slds-modal__header slds-modal__header_empty"></div>
+
     <div class="slds-modal__content" id="welcome-mat-142-content">
       <div class="slds-welcome-mat">
         <div class="slds-welcome-mat__content slds-grid">
@@ -567,14 +676,18 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                     <span class="slds-assistive-text">Completed</span>
                   </span>
                 </div>
+
                 <p>
                   <strong>Lightning Explorer</strong>
                 </p>
                 <p>Cha-ching! You earned the badge.</p>
               </div>
+
               <button class="slds-button slds-button_brand">View on your Trailblazer Profile</button>
             </div>
+
           </div>
+
           <ul class="slds-welcome-mat__tiles slds-size_1-of-2">
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_complete">
               <a href="#" class="slds-box slds-box_link slds-media">
@@ -593,14 +706,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Welcome to Salesforce!</h3>
                     <p class="slds-welcome-mat__tile-description">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_complete">
@@ -620,14 +738,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Learn About OpenCTI</h3>
                     <p class="slds-welcome-mat__tile-description">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_complete">
@@ -647,14 +770,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Power Up the Utility Bar</h3>
                     <p class="slds-welcome-mat__tile-description">Tap into case history or share notes with fellow agents—it all happens on the utility bar.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_complete">
@@ -674,14 +802,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Customize your view</h3>
                     <p class="slds-welcome-mat__tile-description">Tailor your cases to your team&#x27;s workflow with custom list views.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_complete">
@@ -701,23 +834,33 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         <span class="slds-assistive-text">Completed</span>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Share the Knowledge</h3>
                     <p class="slds-welcome-mat__tile-description">Harness your team&#x27;s collective know-how with our powerful knowledge base.</p>
                   </div>
+
                 </div>
+
               </a>
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="Info-only"
@@ -730,6 +873,7 @@ SLDS 1 blueprint examples for **Welcome Mat**.
       <span class="slds-assistive-text">Cancel and close</span>
     </button>
     <div class="slds-modal__header slds-modal__header_empty"></div>
+
     <div class="slds-modal__content" id="welcome-mat-154-content">
       <div class="slds-welcome-mat slds-welcome-mat_info-only">
         <div class="slds-welcome-mat__content slds-grid">
@@ -739,6 +883,7 @@ SLDS 1 blueprint examples for **Welcome Mat**.
               <div class="slds-welcome-mat__info-description slds-text-longform">
                 <p>Welcome to Lightning Experience, the modern, beautiful user experience from Salesforce. With a sales-and service-centric mindset, we focused on reinventing the desktop environment to better support your business processes.</p>
               </div>
+
               <div class="slds-welcome-mat__info-actions">
                 <button class="slds-button slds-button_brand">Learn More</button>
                 <div class="slds-m-top_large">
@@ -751,12 +896,19 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                           <span class="slds-form-element__label">Don&#x27;t show this again</span>
                         </label>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
           <ul class="slds-welcome-mat__tiles slds-size_1-of-2 slds-welcome-mat__tiles_info-only">
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_info-only">
               <div class="slds-media">
@@ -769,15 +921,21 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         </svg>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Welcome to Salesforce!</h3>
                     <p class="slds-welcome-mat__tile-description">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_info-only">
               <div class="slds-media">
@@ -790,15 +948,21 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         </svg>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Learn About OpenCTI</h3>
                     <p class="slds-welcome-mat__tile-description">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_info-only">
               <div class="slds-media">
@@ -811,15 +975,21 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         </svg>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Power Up the Utility Bar</h3>
                     <p class="slds-welcome-mat__tile-description">Tap into case history or share notes with fellow agents—it all happens on the utility bar.</p>
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_info-only">
               <div class="slds-media">
@@ -832,15 +1002,21 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         </svg>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Customize your view</h3>
                     <p class="slds-welcome-mat__tile-description">Tailor your cases to your team&#x27;s workflow with custom list views.</p>
                   </div>
+
                 </div>
+
               </div>
+
             </li>
             <li class="slds-welcome-mat__tile slds-welcome-mat__tile_info-only">
               <div class="slds-media">
@@ -853,23 +1029,34 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                         </svg>
                       </span>
                     </div>
+
                   </div>
+
                 </div>
+
                 <div class="slds-media__body">
                   <div class="slds-welcome-mat__tile-body">
                     <h3 class="slds-welcome-mat__tile-title">Share the Knowledge</h3>
                     <p class="slds-welcome-mat__tile-description">Harness your team&#x27;s collective know-how with our powerful knowledge base.</p>
                   </div>
+
                 </div>
+
               </div>
+
             </li>
           </ul>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::
 
 ::: legacy-component-example title="Splash"
@@ -882,6 +1069,7 @@ SLDS 1 blueprint examples for **Welcome Mat**.
       <span class="slds-assistive-text">Cancel and close</span>
     </button>
     <div class="slds-modal__header slds-modal__header_empty"></div>
+
     <div class="slds-modal__content" id="welcome-mat-161-content">
       <div class="slds-welcome-mat slds-welcome-mat_splash">
         <div class="slds-welcome-mat__content slds-grid">
@@ -891,6 +1079,7 @@ SLDS 1 blueprint examples for **Welcome Mat**.
               <div class="slds-welcome-mat__info-description slds-text-longform">
                 <p>Welcome to Lightning Experience, the modern, beautiful user experience from Salesforce. With a sales-and service-centric mindset, we focused on reinventing the desktop environment to better support your business processes.</p>
               </div>
+
               <div class="slds-welcome-mat__info-actions">
                 <button class="slds-button slds-button_brand">Learn More</button>
                 <div class="slds-m-top_large">
@@ -903,16 +1092,28 @@ SLDS 1 blueprint examples for **Welcome Mat**.
                           <span class="slds-form-element__label">Don&#x27;t show this again</span>
                         </label>
                       </div>
+
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+
 :::

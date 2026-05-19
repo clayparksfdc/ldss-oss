@@ -14,7 +14,9 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -29,7 +31,9 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -44,8 +48,11 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
   </div>
+
   <div class="slds-form-element__help" id="error_01">This field is required</div>
+
 </div>
 :::
 
@@ -59,7 +66,9 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -73,7 +82,9 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -88,6 +99,7 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
     <div class="slds-checkbox">
       <input type="checkbox" name="options" id="checkbox-unique-id-93" value="checkbox-unique-id-93" />
       <label class="slds-checkbox__label" for="checkbox-unique-id-93">
@@ -95,7 +107,9 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -111,6 +125,7 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
     <div class="slds-checkbox">
       <input type="checkbox" name="options" id="checkbox-unique-id-97" value="checkbox-unique-id-97" />
       <label class="slds-checkbox__label" for="checkbox-unique-id-97">
@@ -118,7 +133,9 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -134,6 +151,7 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
     <div class="slds-checkbox">
       <input type="checkbox" name="options" id="checkbox-unique-id-101" value="checkbox-unique-id-101" aria-describedby="error_01" />
       <label class="slds-checkbox__label" for="checkbox-unique-id-101">
@@ -141,8 +159,11 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
   </div>
+
   <div id="error_01" class="slds-form-element__help">This field is required</div>
+
 </fieldset>
 :::
 
@@ -157,6 +178,7 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
     <div class="slds-checkbox">
       <input type="checkbox" name="options" id="checkbox-unique-id-105" value="checkbox-unique-id-105" disabled="" />
       <label class="slds-checkbox__label" for="checkbox-unique-id-105">
@@ -164,7 +186,9 @@ SLDS 1 blueprint examples for **Checkbox**.
         <span class="slds-form-element__label">Checkbox Label</span>
       </label>
     </div>
+
   </div>
+
 </fieldset>
 :::
 
@@ -179,8 +203,11 @@ SLDS 1 blueprint examples for **Checkbox**.
           <span class="slds-form-element__label">Checkbox Label</span>
         </label>
       </div>
+
     </div>
+
   </div>
+
 </div>
 :::
 
@@ -193,6 +220,7 @@ SLDS 1 blueprint examples for **Checkbox**.
       <span class="slds-checkbox_faux"></span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -205,6 +233,7 @@ SLDS 1 blueprint examples for **Checkbox**.
       <span class="slds-checkbox_faux"></span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -217,6 +246,7 @@ SLDS 1 blueprint examples for **Checkbox**.
       <span class="slds-checkbox_faux"></span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -229,6 +259,7 @@ SLDS 1 blueprint examples for **Checkbox**.
       <span class="slds-checkbox_faux"></span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -242,7 +273,9 @@ SLDS 1 blueprint examples for **Checkbox**.
       <span class="slds-checkbox_faux"></span>
     </span>
   </div>
+
   <div class="slds-form-element__help" id="error-unique-id-37">This field is required</div>
+
 </div>
 :::
 
@@ -256,6 +289,7 @@ SLDS 1 blueprint examples for **Checkbox**.
       <span class="slds-checkbox_faux"></span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -270,6 +304,7 @@ SLDS 1 blueprint examples for **Checkbox**.
       <span class="slds-assistive-text">False</span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -284,6 +319,7 @@ SLDS 1 blueprint examples for **Checkbox**.
       <span class="slds-assistive-text">True</span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -298,12 +334,14 @@ SLDS 1 blueprint examples for **Checkbox**.
       <span class="slds-assistive-text">Help</span>
     </button>
   </div>
+
   <div class="slds-form-element__control">
     <span class="slds-checkbox slds-checkbox_standalone">
       <input type="checkbox" id="checkbox-unique-id-121" name="label" value="option" />
       <span class="slds-checkbox_faux"></span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -319,12 +357,14 @@ SLDS 1 blueprint examples for **Checkbox**.
       <span class="slds-assistive-text">Help</span>
     </button>
   </div>
+
   <div class="slds-form-element__control">
     <span class="slds-checkbox slds-checkbox_standalone">
       <input type="checkbox" id="checkbox-unique-id-123" name="label" value="option" required="" />
       <span class="slds-checkbox_faux"></span>
     </span>
   </div>
+
 </div>
 :::
 
@@ -342,14 +382,19 @@ SLDS 1 blueprint examples for **Checkbox**.
       </button>
       <div class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left" role="tooltip" id="help" style="position:absolute;top:-45px;left:-15px;width:170px">
         <div class="slds-popover__body">Some helpful information.</div>
+
       </div>
+
     </div>
+
     <div class="slds-form-element__control">
       <span class="slds-checkbox slds-checkbox_standalone">
         <input type="checkbox" id="checkbox-unique-id-125" name="label" value="option" required="" />
         <span class="slds-checkbox_faux"></span>
       </span>
     </div>
+
   </div>
+
 </div>
 :::

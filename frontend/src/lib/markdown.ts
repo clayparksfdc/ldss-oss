@@ -331,8 +331,13 @@ function renderDataDirectives(html: string): string {
         }
 
         case 'hero-banner': {
-          const { title, image, version, updated, tagline } = attrs;
-          const style = image ? ` style="background-image:url(${esc(image)})"` : '';
+          const { title, image, gradient, version, updated, tagline } = attrs;
+          let style = '';
+          if (image) {
+            style = ` style="background-image:url(${esc(image)})"`;
+          } else if (gradient) {
+            style = ` style="background-image:${esc(gradient)}"`;
+          }
           return `<div class="hero-banner"${style}><h1>${esc(title || '')}</h1>${version ? `<p class="hero-version">${esc(version)}</p>` : ''}${updated ? `<p class="hero-updated">${esc(updated)}</p>` : ''}${tagline ? `<p class="hero-tagline">${esc(tagline)}</p>` : ''}</div>`;
         }
 
