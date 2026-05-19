@@ -154,53 +154,60 @@ body {
 /* ── Card Grid Directive ── */
 .card-grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-bottom: 2.5rem;
 }
 .card-grid-2 { grid-template-columns: repeat(2, 1fr); }
-.card-grid-3 { grid-template-columns: repeat(2, 1fr); }
-@media (min-width: 1024px) { .card-grid-3 { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 639px) { .card-grid-2, .card-grid-3 { grid-template-columns: 1fr; } }
+.card-grid-3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 1023px) { .card-grid-3 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 639px) {
+  .card-grid-2, .card-grid-3 { grid-template-columns: 1fr; }
+}
 
 .md-card {
-  display: block;
-  border-radius: 0.75rem;
-  border: 1px solid #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  border: 1px solid var(--slds-g-color-neutral-base-90, #E5E5E5);
   overflow: hidden;
   background: white;
   text-decoration: none !important;
-  transition: box-shadow 0.2s, border-color 0.2s;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
   color: inherit !important;
 }
 .md-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-  border-color: #0176D3;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
 }
 .md-card-media {
-  height: 12rem;
+  aspect-ratio: 16 / 9;
   position: relative;
   overflow: hidden;
-  background: #F3F3F3;
+  background: var(--slds-g-color-disabled-container-1, #F3F3F3);
+  flex-shrink: 0;
 }
 .md-card-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 .md-card-body {
-  padding: 1.25rem;
+  padding: 1rem 1rem 1.125rem;
+  flex: 1;
 }
 .md-card-body h3 {
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-weight: 600;
-  color: #032D60;
-  margin: 0 0 0.5rem;
+  color: var(--slds-g-color-neutral-base-10, #181818);
+  margin: 0 0 0.375rem;
+  line-height: 1.35;
   transition: color 0.15s;
 }
-.md-card:hover .md-card-body h3 { color: #0176D3; }
+.md-card:hover .md-card-body h3 { color: var(--slds-g-color-brand-base-50, #0176D3); }
 .md-card-desc, .md-card-body p {
   font-size: 0.8125rem;
-  color: #706E6B;
+  color: var(--slds-g-color-on-surface-1, #706E6B);
   line-height: 1.5;
   margin: 0;
 }
