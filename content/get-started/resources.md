@@ -1,14 +1,14 @@
 ---
-title: "Conversation Design"
+title: "Resources"
 slug: "resources"
 category: "get-started"
 order: 0
 ---
 
-<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Resources&quot;,&quot;tagline&quot;:&quot;&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211229/ldss-cms-dev/zh-landing/63cfc2-resources/hero-2QJDiI147MG1rgIthFgsww.jpg&quot;}" data-directive-children="[]">
+<div data-directive-type="hero-banner" data-directive-attrs="{&quot;title&quot;:&quot;Resources&quot;,&quot;tagline&quot;:&quot;Learn more about SLDS 2 and Salesforce Cosmos.&quot;,&quot;version&quot;:&quot;SLDS 2&quot;,&quot;image&quot;:&quot;https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211229/ldss-cms-dev/zh-landing/63cfc2-resources/hero-2QJDiI147MG1rgIthFgsww.jpg&quot;}" data-directive-children="[]">
 </div>
 
-The Salesforce Conversation Design Guidelines reflect the standardized approach in designing inclusive conversational experiences across the Salesforce ecosystem.
+Explore additional resources for SLDS 2 — Trailhead modules, blog posts, community channels, glossaries, and FAQs.
 
 :::card-grid{columns="3"}
 ::card{title="Learn more" href="/get-started/learn-more" description="Check out Trailhead and our blogs for more opportunities to learn." image="https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211230/ldss-cms-dev/zh-landing/63cfc2-resources/card-learn-more-iCEFc2Qjoo5nTKxArhWMCQ.jpg"}

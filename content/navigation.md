@@ -6,10 +6,10 @@
   - [Admins](/get-started/admins)
   - [Designers](/get-started/designers)
   - [Developers](/get-started/developers)
-  - [Resources](/get-started/resources)
-  - [Learn More](/get-started/learn-more)
-  - [Glossary](/get-started/glossary)
-  - [FAQs](/get-started/faqs) {sidebar}
+  - [Resources](/get-started/resources) {sidebar}
+    - [Learn More](/get-started/learn-more)
+    - [Glossary](/get-started/glossary)
+    - [FAQs](/get-started/faqs)
     - [General](/get-started/faqs--general)
     - [Designer](/get-started/faqs--designer)
     - [Developer](/get-started/faqs--developer)

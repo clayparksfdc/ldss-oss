@@ -493,6 +493,106 @@
     "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211232/ldss-cms-dev/zh-landing/67a7b2-foundations/hero-ZzaFHvZ1x3gdgZQcT9R7fw.jpg"
   },
   {
+    "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/74034e-learn-more",
+    "slug": "74034e-learn-more",
+    "name": "Learn More",
+    "hero": null,
+    "cards": [
+      {
+        "title": "Salesforce Lightning Design System 2 for Admins",
+        "description": "",
+        "href": "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-admins",
+        "cover": "https://www.lightningdesignsystem.com/uploads/yNJY6POwL0FSfk3UtsNTew.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212532/ldss-cms-dev/zh-landing/74034e-learn-more/card-salesforce-lightning-design-sy-yNJY6POwL0FSfk3UtsNTew.png"
+      },
+      {
+        "title": "Salesforce Lightning Design System 2 for Developers",
+        "description": "",
+        "href": "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-developers",
+        "cover": "https://www.lightningdesignsystem.com/uploads/IAo4V99odRE5ZGR6TEqGgg.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212533/ldss-cms-dev/zh-landing/74034e-learn-more/card-salesforce-lightning-design-sy-IAo4V99odRE5ZGR6TEqGgg.png"
+      },
+      {
+        "title": "The Salesforce Cosmos Theme: Quick Look",
+        "description": "",
+        "href": "https://trailhead.salesforce.com/content/learn/modules/enhanced-lightning-ui-quick-look",
+        "cover": "https://www.lightningdesignsystem.com/uploads/N_Hrwdq7HLSjH7TZ4G0lLg.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212534/ldss-cms-dev/zh-landing/74034e-learn-more/card-the-salesforce-cosmos-theme-qu-N_Hrwdq7HLSjH7TZ4G0lLg.png"
+      },
+      {
+        "title": "What is Salesforce Lightning Design System 2 (SLDS 2 Beta)?",
+        "description": "A new architecture expands branding and theming options, and sets the foundation for agentic experiences – and dark mode.",
+        "href": "https://www.salesforce.com/blog/what-is-slds-2/",
+        "cover": "https://www.lightningdesignsystem.com/uploads/xmtbKlVrwHCU-zC40ePQ0w.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212535/ldss-cms-dev/zh-landing/74034e-learn-more/card-what-is-salesforce-lightning-d-xmtbKlVrwHCU-zC40ePQ0w.png"
+      },
+      {
+        "title": "Shaping the Future of UX: The New Design",
+        "description": "Want to explore the user experiences that are shaping Salesforce? Our digital series takes you into the heart of the product design innovations that are fueling the world where humans with agents drive customer success together.",
+        "href": "https://www.linkedin.com/events/shapingthefutureofuxepisodeone-7283541301638168578/theater",
+        "cover": "https://www.lightningdesignsystem.com/uploads/SFSdxe39e_4liWTdbesA0w.jpeg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212535/ldss-cms-dev/zh-landing/74034e-learn-more/card-shaping-the-future-of-ux-the-n-SFSdxe39e_4liWTdbesA0w.jpg"
+      },
+      {
+        "title": "What is a Design System and How Does it Tame Your UI?",
+        "description": "Structure and guidelines keep your user interface tidy, consistent, and friendly to navigate.",
+        "href": "https://www.salesforce.com/blog/what-is-a-design-system",
+        "cover": "https://www.lightningdesignsystem.com/uploads/Rj4QMbwL83VuBS7m-Bk9FA.jpeg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212537/ldss-cms-dev/zh-landing/74034e-learn-more/card-what-is-a-design-system-and-ho-Rj4QMbwL83VuBS7m-Bk9FA.webp"
+      },
+      {
+        "title": "Say 'Yes' to the Power of Global Styling Hooks",
+        "description": "Simplify how you customize Salesforce and ensure consistent design across your components.",
+        "href": "https://www.salesforce.com/blog/what-are-styling-hooks",
+        "cover": "https://www.lightningdesignsystem.com/uploads/9YICq74GuACZ_xi6IXMU8A.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212538/ldss-cms-dev/zh-landing/74034e-learn-more/card-say-yes-to-the-power-of-global-9YICq74GuACZ_xi6IXMU8A.png"
+      },
+      {
+        "title": "We Refreshed Our Visual Design – Here's How It Helps You Work Faster",
+        "description": "Salesforce Cosmos, our new Lightning user interface design, is modern and improves the navigation, speed to task, and approachability for diverse users.",
+        "href": "https://www.salesforce.com/blog/salesforce-cosmos-slds-2",
+        "cover": "https://www.lightningdesignsystem.com/uploads/A1XaArX-Hxw1K9tobTsdsg.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212539/ldss-cms-dev/zh-landing/74034e-learn-more/card-we-refreshed-our-visual-design-A1XaArX-Hxw1K9tobTsdsg.png"
+      },
+      {
+        "title": "What Developers Need to Know About the Lightning UI Enhancements in the Summer '24 Release",
+        "description": "The Lightning UI changes relate to the visual style only and do not affect the platform, product features, or functionality.",
+        "href": "https://developer.salesforce.com/blogs/2024/06/lightning-ui-enhancements-in-summer-24",
+        "cover": "https://www.lightningdesignsystem.com/uploads/H5S_VXdFWtnsUJS_hznepw.png",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212539/ldss-cms-dev/zh-landing/74034e-learn-more/card-what-developers-need-to-know-a-H5S_VXdFWtnsUJS_hznepw.png"
+      },
+      {
+        "title": "Salesforce Designers",
+        "description": "",
+        "href": "https://www.linkedin.com/showcase/salesforce-designers/posts/?feedView=all",
+        "cover": "https://www.lightningdesignsystem.com/uploads/TviM82ksVhECJgI7MFca2g.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212540/ldss-cms-dev/zh-landing/74034e-learn-more/card-salesforce-designers-TviM82ksVhECJgI7MFca2g.jpg"
+      },
+      {
+        "title": "Designer Community",
+        "description": "",
+        "href": "https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000GvbxSAC",
+        "cover": "https://www.lightningdesignsystem.com/uploads/6naX8cZoSoYaAKitSBAC5A.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212541/ldss-cms-dev/zh-landing/74034e-learn-more/card-designer-community-6naX8cZoSoYaAKitSBAC5A.jpg"
+      },
+      {
+        "title": "Developer Community",
+        "description": "",
+        "href": "https://trailhead.salesforce.com/trailblazer-community/groups/0F93A000000DJbJSAW?tab=discussion&sort=LAST_MODIFIED_DATE_DESC",
+        "cover": "https://www.lightningdesignsystem.com/uploads/qXgk5MlukSsgFfTf2yDUnw.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212542/ldss-cms-dev/zh-landing/74034e-learn-more/card-developer-community-qXgk5MlukSsgFfTf2yDUnw.jpg"
+      },
+      {
+        "title": "Roadmap",
+        "description": "",
+        "href": "https://ideas.salesforce.com/s/roadmap/a0V8W00000VMovLUAT/design-systems",
+        "cover": "https://www.lightningdesignsystem.com/uploads/lMUcZh3_x-_FsK-LuEfVKA.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779212543/ldss-cms-dev/zh-landing/74034e-learn-more/card-roadmap-lMUcZh3_x-_FsK-LuEfVKA.jpg"
+      }
+    ],
+    "heroCloudinary": null
+  },
+  {
     "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/755aff-components",
     "slug": "755aff-components",
     "name": "Components",
