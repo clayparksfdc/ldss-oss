@@ -719,6 +719,29 @@
     "heroCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779211255/ldss-cms-dev/zh-landing/8184ad-transition-to-slds-2/hero-CCgYngBnmS-d7GsClYMHxw.jpg"
   },
   {
+    "url": "https://www.lightningdesignsystem.com/",
+    "slug": "85bd85-home",
+    "name": "Lightning Design System 2",
+    "hero": null,
+    "cards": [
+      {
+        "title": "Discover what's new with SLDS 2",
+        "description": "Streamline your workflow, configure your brand, shift from design to code efficiently.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/76969d",
+        "cover": "https://www.lightningdesignsystem.com/uploads/f5O0wS5n_KBawcgr66xsmA.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779216602/ldss-cms-dev/zh-landing/85bd85-home/card-discover-what-s-new-with-slds--f5O0wS5n_KBawcgr66xsmA.jpg"
+      },
+      {
+        "title": "Opt in to SLDS 2",
+        "description": "Get step-by-step role-based instructions for making the transition to SLDS 2.",
+        "href": "https://www.lightningdesignsystem.com/2e1ef8501/p/8184ad",
+        "cover": "https://www.lightningdesignsystem.com/uploads/ssr2wXl_nKL4K55TDrrG8g.jpg",
+        "coverCloudinary": "https://res.cloudinary.com/hqglkpaqj/image/upload/v1779216609/ldss-cms-dev/zh-landing/85bd85-home/card-opt-in-to-slds-2-ssr2wXl_nKL4K55TDrrG8g.jpg"
+      }
+    ],
+    "heroCloudinary": null
+  },
+  {
     "url": "https://www.lightningdesignsystem.com/2e1ef8501/p/874349-designers",
     "slug": "874349-designers",
     "name": "Designers",
