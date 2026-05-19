@@ -178,8 +178,10 @@ function patchFile(manifestPage: ManifestPage, dryRun: boolean): Patch | null {
     const gridRe = /:::card-grid\{[^}]*\}\s*\n([\s\S]*?)\n:::/;
     const gm = content.match(gridRe);
 
-    // Determine column count: 3 for >= 3 cards, else card count
-    const cols = manifestPage.cards.length >= 3 ? 3 : manifestPage.cards.length;
+    // Pick column count based on card count: 4 cards → 4-col, 3 → 3-col, etc.
+    // For 5+ cards we use 3-col grids that wrap (matches zh's denser layout).
+    const cardCount = manifestPage.cards.length;
+    const cols = cardCount === 4 ? 4 : cardCount >= 3 ? 3 : cardCount;
     const lines = [`:::card-grid{columns="${cols}"}`];
     for (const card of manifestPage.cards) {
       const href = rewriteHref(card.href);

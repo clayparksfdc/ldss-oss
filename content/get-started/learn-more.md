@@ -33,7 +33,7 @@ Read our design blogs to understand the journey to evolve our design system to S
 
 ## Connect with the Community
 
-:::card-grid{columns="3"}
+:::card-grid{columns="4"}
 ::card{title="Salesforce Designers" href="https://www.linkedin.com/showcase/salesforce-designers/posts/?feedView=all" image="https://res.cloudinary.com/hqglkpaqj/image/upload/ldss-cms-dev/zh-landing/74034e-learn-more/card-salesforce-designers-TviM82ksVhECJgI7MFca2g.jpg"}
 ::card{title="Designer Community" href="https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000GvbxSAC" image="https://res.cloudinary.com/hqglkpaqj/image/upload/ldss-cms-dev/zh-landing/74034e-learn-more/card-designer-community-6naX8cZoSoYaAKitSBAC5A.jpg"}
 ::card{title="Developer Community" href="https://trailhead.salesforce.com/trailblazer-community/groups/0F93A000000DJbJSAW?tab=discussion&sort=LAST_MODIFIED_DATE_DESC" image="https://res.cloudinary.com/hqglkpaqj/image/upload/ldss-cms-dev/zh-landing/74034e-learn-more/card-developer-community-qXgk5MlukSsgFfTf2yDUnw.jpg"}

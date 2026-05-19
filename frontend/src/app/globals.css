@@ -159,9 +159,12 @@ body {
 }
 .card-grid-2 { grid-template-columns: repeat(2, 1fr); }
 .card-grid-3 { grid-template-columns: repeat(3, 1fr); }
-@media (max-width: 1023px) { .card-grid-3 { grid-template-columns: repeat(2, 1fr); } }
+.card-grid-4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1023px) {
+  .card-grid-3, .card-grid-4 { grid-template-columns: repeat(2, 1fr); }
+}
 @media (max-width: 639px) {
-  .card-grid-2, .card-grid-3 { grid-template-columns: 1fr; }
+  .card-grid-2, .card-grid-3, .card-grid-4 { grid-template-columns: 1fr; }
 }
 
 .md-card {
